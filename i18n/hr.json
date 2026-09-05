@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "title": "Uči {target} čitajući knjige uz prijevod i audio",
+    "description": "Uči {target} čitajući knjige: prijevod stoji odmah uz tekst, audio ide uz svaku rečenicu, riječi spremaš dodirom i ponavljaš ih u pravom trenutku.",
+    "ogTitle": "Uči {target} čitajući knjige uz prijevod i audio",
+    "ogDescription": "Uči {target} iz knjiga u kojima prijevod stoji odmah uz tekst, a audio ide uz svaku rečenicu. Nove riječi spremiš jednim dodirom, a onda ti same dolaze na red za ponavljanje.",
+    "twitterTitle": "Uči {target} čitajući knjige uz prijevod i audio",
+    "twitterDescription": "Uči {target} iz knjiga: prijevod je odmah uz tekst, uz svaku rečenicu ide audio. Riječi spremaš jednim dodirom, a ponavljanje se samo rasporedi kroz dane."
+  },
+  "nav": {
+    "links": [
+      "Kako radi",
+      "Knjižnica",
+      "Jezici",
+      "Recenzije",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Uči {target} iz knjiga koje te privlače, a ne iz vježbi koje ti dosade",
+    "subtitle": "Čitaj i slušaj ono do čega ti je stvarno stalo, riječi spremaj ravno iz teksta, a algoritam intervalnog ponavljanja podsjetit će te na njih baš kad ih počneš zaboravljati.",
+    "cta": "Preuzmi aplikaciju",
+    "trust": "49 jezika • iPhone / Android",
+    "pills": [
+      "Paralelni prijevod",
+      "Audio + čitanje",
+      "Širenje rječnika",
+      "Intervalno ponavljanje",
+      "Bilo koja knjiga ili tekst",
+      "Shadowing",
+      "Razgovor o knjizi s AI asistentom"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Knjiga umjesto tečaja",
+        "span": "Uči na onome što te ionako zanima"
+      },
+      {
+        "strong": "49 jezika",
+        "span": "Od najraširenijih do najrjeđih"
+      },
+      {
+        "strong": "Knjižnica sa širokim izborom",
+        "span": "Klasici, svjetski bestseleri i članci"
+      },
+      {
+        "strong": "Sve se vrti u jednom krugu",
+        "span": "Čitanje, audio, rječnik i ponavljanje"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Zašto većina jezičnih aplikacija završi neotvorena – a ova ne",
+    "subtitle": "Nikad nije bilo do tvoje discipline. Bilo je do formata.",
+    "labelOld": "❌ Obično",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Učiš riječi koje poslije ne znaš upotrijebiti",
+          "text": "Popisi i kartice bez konteksta. Do sutra ih više nema."
+        },
+        "new": {
+          "title": "Riječi te dočekaju u pravoj rečenici",
+          "text": "Vidiš kako se riječ ponaša u kontekstu, pa ti ostane u glavi bez natezanja."
+        }
+      },
+      {
+        "old": {
+          "title": "Iste vježbe svaki božji dan",
+          "text": "Postane dosadno, motivacija padne i nakon prvog tjedna aplikacija stoji neotvorena."
+        },
+        "new": {
+          "title": "Čitaš ono što ti je ionako zanimljivo",
+          "text": "Bestseleri, čudne istinite priče, popularna znanost – štivo kojem se vraćaš i bez podsjetnika."
+        }
+      },
+      {
+        "old": {
+          "title": "Original je pretežak za čitanje",
+          "text": "Nepoznate riječi na svakom koraku, radnja ti pobjegne i odustaneš na prvoj stranici."
+        },
+        "new": {
+          "title": "Prijevod uz tekst, pa i prilagodba",
+          "text": "Prijevod stoji odmah uz original, a pretešku knjigu aplikacija može prilagoditi tvojoj razini."
+        }
+      },
+      {
+        "old": {
+          "title": "Čitaš ono što se zateklo u katalogu",
+          "text": "Zatvorena knjižnica. Svoju knjigu ne možeš ubaciti."
+        },
+        "new": {
+          "title": "Svaka knjiga ili tekst postaje udžbenik",
+          "text": "Predaj aplikaciji knjige koje voliš i dokumente koji ti trebaju, a ona ti ih vrati s prijevodom uz tekst, audiom i ponavljanjem riječi."
+        }
+      },
+      {
+        "old": {
+          "title": "Čitaš i slušaš, ali sve je pasivno",
+          "text": "Nema gdje govoriti ni pisati, pa se vještina ne slegne."
+        },
+        "new": {
+          "title": "Ne samo da čitaš – i govoriš i pišeš",
+          "text": "O upravo pročitanoj knjizi razgovaraš s AI asistentom, pa temu ne moraš izmišljati. Kad imaš što reći, i govor i pisanje idu lako."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Svih 7 jezičnih vještina na jednom mjestu",
+    "subtitle": "Znati jezik znači svladati sedam vještina. Lingo7 ih razvija zajedno, a ne jednu po jednu, pa svaka potiče ostale.",
+    "skills": [
+      {
+        "title": "Čitanje",
+        "text": "Čitaj original ili prilagođenu verziju, s prijevodom odmah uz tekst – brzo i bez rječnika."
+      },
+      {
+        "title": "Slušanje",
+        "text": "Audioknjige i način rada u kojem slušaš dok čitaš – jedan od najboljih načina da navikneš uho na jezik."
+      },
+      {
+        "title": "Rječnik",
+        "text": "Nove riječi hvataju se same dok čitaš, bez bubanja. Vježbe i intervalno ponavljanje prebace ih u dugoročno pamćenje."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Gramatika najbolje sjedne kad vidiš kako pravilo radi u živoj rečenici."
+      },
+      {
+        "title": "Pisanje",
+        "text": "Razgovor s AI asistentom: raspravljaš o upravo pročitanome, pa uvijek imaš o čemu pisati. Pomaže ti složiti misao i hvata pogreške."
+      },
+      {
+        "title": "Govor",
+        "text": "Shadowing: naglas ponavljaš za pripovjedačem i tako razvijaš tečnost, ritam i intonaciju."
+      },
+      {
+        "title": "Izgovor",
+        "text": "Vježbe izgovora pomažu ti da naglasak približiš tome kako zvuči izvorni govornik."
+      }
+    ],
+    "conductor": {
+      "badge": "Osobni plan · Uskoro",
+      "title": "Aplikacija će ti reći što danas trebaš raditi",
+      "text": "Bira pravu aktivnost u pravom trenutku – čitanje, ponavljanje naglas, učvršćivanje riječi ili razgovor o poglavlju s AI asistentom. Nikad ne moraš odlučivati odakle krenuti ni što dolazi poslije.",
+      "caption": "Ovako bi mogla izgledati današnja sesija – tvoju će aplikacija složiti sama.",
+      "steps": [
+        {
+          "label": "Čitanje",
+          "meta": "15 min"
+        },
+        {
+          "label": "Slušaj i čitaj",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Sad · 7 min"
+        },
+        {
+          "label": "Riječi",
+          "meta": "25 kartica"
+        },
+        {
+          "label": "AI asistent",
+          "meta": "razgovor o poglavlju"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kako učiti jezik iz knjiga: pet koraka",
+    "subtitle": "Bez razrađene metode. Jedan jasan krug i sadržaj dovoljno dobar da te kroz njega provede.",
+    "items": [
+      {
+        "title": "Izaberi sadržaj",
+        "text": "Sažeci bestselera, klasici, kratke priče – po raspoloženju, po razini i po vremenu koje imaš."
+      },
+      {
+        "title": "Čitaj s prijevodom uz tekst",
+        "text": "Original i prijevod jedan uz drugi; dodirom na riječ dobiješ značenje i izgovor ili je odmah spremiš."
+      },
+      {
+        "title": "Nauči riječi",
+        "text": "Spremljene riječi vraćaju se u vježbama koje aktiviraju različite vrste pamćenja, raspoređene kroz dane i tjedne."
+      },
+      {
+        "title": "Slušaj i ponavljaj naglas",
+        "text": "Uz svaku rečenicu ide audio: poslušaj pa ponovi za pripovjedačem – tako se vježbaju izgovor i intonacija."
+      },
+      {
+        "title": "Razgovaraj o knjizi s AI asistentom",
+        "text": "AI asistent prolazi knjigu s tobom – vježbaš pisanje i govor i učiš misli slagati na novom jeziku."
+      }
+    ]
+  },
+  "library": {
+    "title": "Knjige s prijevodom po razinama: uči {target} od A1 do C1",
+    "subtitle": "Ne učiš samo jezik, nego usput i saznaješ nešto. Materijali za svaku razinu – od prvih koraka do najnaprednije.",
+    "tabs": [
+      "Klasici",
+      "Bestseleri",
+      "Discovery"
+    ],
+    "panels": [
+      {
+        "title": "Čitaj velike knjige u originalu – uz zaštitnu mrežu",
+        "text": "Prilagođene i originalne verzije za različite razine, od „Malog princa” do Hawkinga. Uz prijevod koji stoji odmah pokraj teksta i teška proza ostaje čitljiva.",
+        "badges": [
+          "A1-A2 Početnici",
+          "B1-B2 Srednja razina",
+          "C1+ Napredni"
+        ]
+      },
+      {
+        "title": "Bit najboljih svjetskih knjiga u 7–15 minuta",
+        "text": "Ključne ideje svjetskih bestselera, prepričane ukratko – na jeziku koji učiš. U istom sjedenju napreduješ i u temi i u jeziku.",
+        "badges": [
+          "A1-A2 Početnici",
+          "B1-B2 Srednja razina",
+          "C1+ Napredni"
+        ]
+      },
+      {
+        "title": "5 minuta dnevno: jedna dobra činjenica i nekoliko novih riječi",
+        "text": "Svemir, psihologija, biznis, priroda, tehnologija – stotine kratkih članaka o svemu i svačemu. Svaki dan saznaš nešto novo, a jezik dođe uz to.",
+        "badges": [
+          "A1-A2 Početnici",
+          "B1-B2 Srednja razina",
+          "C1+ Napredni"
+        ]
+      }
+    ],
+    "examples": [
+      "Misli i obogati se • Načelo 80/20 • 7 navika uspješnih ljudi • Moć sadašnjeg trenutka"
+    ]
+  },
+  "customBook": {
+    "badge": "NOVO",
+    "title": "Učitaj vlastitu knjigu ili tekst i uči baš iz toga",
+    "text": "Učitaj bilo koju datoteku i Lingo7 će od nje napraviti gradivo s prijevodom uz tekst i audiom. Dalje ide uobičajeni krug: čitaš, slušaš, učiš riječi, na govoru radiš uz shadowing i o svemu razgovaraš s AI asistentom.",
+    "cards": [
+      {
+        "title": "Bestseleri u originalu",
+        "text": "Harry Potter, Dina, Igra prijestolja – knjige do kojih nikako da dođeš, na jeziku koji učiš."
+      },
+      {
+        "title": "Jezik koji ti treba za posao i studij",
+        "text": "Radni dokumenti, članci, gradivo za ispit – uči jezik onog područja u kojem si upravo sad."
+      }
+    ],
+    "usecases": [
+      "Ispiti",
+      "Posao",
+      "Članci",
+      "Razgovori za posao"
+    ],
+    "formatsNote": "Učitaj vlastite datoteke u ovim formatima:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Prilagodba",
+      "title": "Čitaj bilo koju knjigu – <span class=\"accent\">prepričanu</span> po tvojoj mjeri",
+      "text": "Rječnik i gramatika još su preteški? Lingo7 će prepričati knjigu jednostavnijim jezikom – ista priča, isti likovi, lakše rečenice.",
+      "cta": "Isprobaj na svojoj knjizi"
+    },
+    "goalQuote": "Moj omiljeni recept: uzmeš „Harryja Pottera” i svaki dan prođeš jedno poglavlje – pročitaš ga, poslušaš, naučiš nove riječi i porazgovaraš o njemu s AI asistentom. Pola godine po sat-dva dnevno i izađeš <span class=\"goal-quote__level\">iz A2 na B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 je za tebe ako...",
+    "items": [
+      "Želiš učiti iz sadržaja, a ne iz lekcija na koje se moraš tjerati",
+      "Želiš više od čitanja – i slušanje, govor i pisanje: izgovor uz shadowing i slaganje misli u razgovoru s AI asistentom",
+      "Želiš učiti na vlastitim materijalima – radnim dokumentima, omiljenim knjigama i člancima – a ne samo na gotovim lekcijama",
+      "Treba ti rijedak jezik kakav većina aplikacija nema",
+      "Želiš raditi u kratkim sesijama od 5 do 15 minuta"
+    ]
+  },
+  "pains": {
+    "title": "Što te koči – i kako to Lingo7 rješava",
+    "subtitle": "Nije stvar u sposobnosti. Stvar je u formatu.",
+    "chips": [
+      "Strah me govoriti",
+      "Brzo mi dosadi",
+      "Riječi ne ostaju",
+      "Teško mi je čitati",
+      "Ne razumijem govor",
+      "Nemam vremena",
+      "Rijedak jezik",
+      "Neće mi odgovarati"
+    ],
+    "answers": [
+      {
+        "title": "„Sram me govoriti i pogriješiti”",
+        "text": "Shadowing znači da naglas ponavljaš rečenice za pripovjedačem, nasamo, bez ikoga tko bi te ocjenjivao. Tako se izgovor i uvježbava. U razgovoru s AI asistentom pismeno vježbaš izražavanje, a on te ispravlja bez pritiska."
+      },
+      {
+        "title": "„Brzo mi dosadi”",
+        "text": "Umjesto lekcija koje se sve slijevaju u jedno: knjige, bestseleri i članci o temama koje te ionako zanimaju. Kad te sadržaj vuče, lako mu se vraćaš."
+      },
+      {
+        "title": "„Vidim riječi, ali mi ne ostaju”",
+        "text": "Jedan dodir spremi riječ zajedno s njezinom rečenicom, a onda ti se sama javlja kao kartica, po intervalnom rasporedu. Pamćenje prestaje biti stvar sreće."
+      },
+      {
+        "title": "„Original mi je pretežak za čitanje”",
+        "text": "Prijevod stoji uz tekst, rečenica do rečenice – nema uskakanja u prevoditelj svaki drugi redak."
+      },
+      {
+        "title": "„Ne razumijem govorni jezik”",
+        "text": "Način rada u kojem slušaš dok čitaš povezuje zvuk riječi s njezinim zapisom i značenjem. Uho se navikne na jezik samo od sebe."
+      },
+      {
+        "title": "„Nemam vremena”",
+        "text": "Kratki formati i brze sesije – dovoljno je 5-10 minuta dnevno da ostaneš u ritmu."
+      },
+      {
+        "title": "„Treba mi rijedak jezik”",
+        "text": "49 jezika, među njima i rijetki. I svaki od njih učiš iz vlastitog materinskog jezika."
+      },
+      {
+        "title": "„Bojim se da mi neće odgovarati”",
+        "text": "Ako znaš čitati, odgovara ti. Ne treba ti predznanje, gramatika ni priprema – kreni od bilo koje knjige na svojoj razini."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Uči {target}",
+    "title": "49 jezika, od najraširenijih do rijetkih",
+    "subtitle": "Uči bilo koji jezik iz vlastitog materinskog – ne samo preko engleskog, kako te tjera većina aplikacija.",
+    "groupTitles": [
+      "Popularni",
+      "Svi jezici"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 jezična para.</strong> Izaberi bilo koju kombinaciju: jezik koji učiš i jezik na kojem čitaš prijevod."
+  },
+  "reviews": {
+    "title": "Nismo očekivali da će vam se ovoliko svidjeti",
+    "subtitle": "Ali činjenice su činjenice – evo što ljudi pišu na Google Playu.",
+    "items": [
+      {
+        "text": "Odlična aplikacija. Veliki plus što ista knjiga dolazi u nekoliko razina engleskog. Jedva čekam ažuriranje!",
+        "author": "Екатерина М.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Uzeo sam godišnju pretplatu i stvarno se isplati. Ovo je uistinu divna aplikacija! Izvrstan izvor za napredak u engleskom. Od odraslih do djece – nije samo korisna, nego i potrebna.",
+        "author": "Mayur L.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Trebao mi je portugalski za rad s timom u Brazilu. Čitanje i audio u isto vrijeme jako su djelotvorni. Nakon 6 tjedana već sam mogla pratiti sastanke.",
+        "author": "Rosita R.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Oduvijek sam želio naučiti njemački, a u ovoj je aplikaciji sve puno pristupačnije i jasnije nego u sličnima. Aplikacija 10 od 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Koristim čitanje uz audio i to mi je bio pravi proboj. Snimke su čiste i dobro usklađene s tekstom. Fantastičan alat za sve koji uče jezike.",
+        "author": "Zeynep O.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Ideja i izvedba zaslužuju čistu peticu. Zasad je ovo jedina aplikacija sa srpskim knjigama. Svaka čast! Hvala!",
+        "author": "Вася К.",
+        "source": "Google Play • vidi original"
+      },
+      {
+        "text": "Meni kao nastavniku ovo je stvarno divna aplikacija. Preporučujem je svojim učenicima. Vrlo ugodno. Preporučujem svima.",
+        "author": "Sasha T.",
+        "source": "Google Play • vidi original"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Česta pitanja",
+    "items": [
+      {
+        "q": "Je li Lingo7 dobar i za potpunog početnika?",
+        "a": "Jest. Materijala ima na svakoj razini, a prijevod uz tekst čini priču razumljivom od prve stranice."
+      },
+      {
+        "q": "Koja je razina potrebna za čitanje u originalu?",
+        "a": "Bilo koja. Prijevod je odmah uz tekst, pa ti rječnik više ne treba, a pretešku knjigu moguće je prepričati jednostavnijim jezikom – ista priča i isti likovi, ali gramatika i riječi tvoje razine. Sve je označeno od A1 do C1."
+      },
+      {
+        "q": "Mogu li učiti po 10 minuta dnevno?",
+        "a": "Možeš. Kratki članci, sažeci knjiga i kartice s riječima rađeni su upravo za kratke dnevne sesije."
+      },
+      {
+        "q": "Koji su jezici dostupni?",
+        "a": "49 jezika, i svaki od njih možeš učiti iz vlastitog materinskog jezika – ne samo preko engleskog. To je 49 × 48 = 2352 jezična para, uključujući i rijetke jezike."
+      },
+      {
+        "q": "Po čemu se ovo razlikuje od uobičajenih jezičnih aplikacija?",
+        "a": "Umjesto nepovezanih vježbi učiš iz sadržaja koji te zanima, a sve su vještine povezane u jedan krug: čitaš i slušaš, spremaš riječi za intervalno ponavljanje, gramatiku hvataš u kontekstu, na govoru radiš uz shadowing, a na pisanju u razgovoru s AI asistentom. I možeš učitati vlastitu knjigu ili dokument."
+      },
+      {
+        "q": "Ima li vježbe govora?",
+        "a": "Ima. Za govor je tu shadowing – naglas ponavljaš rečenice za pripovjedačem i tako uvježbavaš izgovor i intonaciju. Za pisanje je tu razgovor s AI asistentom: raspravljaš o pročitanome, a on ti pomaže složiti rečenicu i nalazi pogreške. Živog razgovora s čovjekom još nema – u planu je."
+      },
+      {
+        "q": "Koje formate datoteka mogu učitati?",
+        "a": "PDF, EPUB, FB2 i TXT. Učitaj radne dokumente, omiljene knjige ili članke – aplikacija složi prijevod uz tekst, doda audio i skupi nove riječi u vježbe."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Počni učiti {target} danas – iz knjige, a ne iz vježbenice",
+    "text": "Preuzmi aplikaciju i otvori prvu knjigu.",
+    "perks": [
+      "49 jezika",
+      "Sve razine"
+    ]
+  },
+  "footer": {
+    "links": [
+      "O nama",
+      "Kontakt",
+      "Posao kod nas",
+      "Za škole",
+      "Kako učiti jezike",
+      "Uvjeti korištenja",
+      "Privatnost"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Sva prava pridržana."
+  },
+  "downloadModal": {
+    "title": "Preuzmi Lingo7",
+    "text": "Dostupno na App Storeu i Google Playu"
+  },
+  "stickyCta": {
+    "label": "Preuzmi aplikaciju"
+  },
+  "mobileMenu": {
+    "links": [
+      "Kako radi",
+      "Knjižnica",
+      "Jezici",
+      "Recenzije",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Slušaj",
+      "add": "Spremi",
+      "translate": "Prijevod",
+      "addToMyWords": "Dodaj u moje riječi",
+      "inMyWords": "U mojim riječima",
+      "audioMode": "Audio način",
+      "discussWithAi": "Pitaj AI asistenta",
+      "selfCheck": "Provjeri se"
+    },
+    "wordCard": {
+      "freqHigh": "ČESTA",
+      "freqMid": "SREDNJA",
+      "example": "Primjer",
+      "otherTranslations": "Još prijevoda",
+      "synonyms": "Sinonimi",
+      "open": "Otvori",
+      "group": "Skupina:",
+      "groupDefault": "Općenito",
+      "page": "str."
+    },
+    "readerSettings": {
+      "sectionText": "TEKST",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Istakni moje riječi",
+      "highlightMyWordsHint": "Označava spremljene riječi",
+      "theme": "Tema",
+      "themeLight": "Svijetla",
+      "fontSize": "Veličina slova",
+      "font": "Font",
+      "speakOnTap": "Izgovori riječ na dodir",
+      "speakOnTapHint": "Naglas pročita riječ koju dodirneš",
+      "speechRate": "Brzina govora",
+      "pronunciationTest": "Provjera izgovora",
+      "playSample": "Poslušaj primjer rečenice",
+      "reset": "Vrati na zadano",
+      "done": "Gotovo",
+      "on": "Uklj.",
+      "off": "Isklj.",
+      "accent": "Naglasak",
+      "translationAlways": "Uvijek"
+    },
+    "vocab": {
+      "pickRightPicture": "Odaberi točnu sliku",
+      "correct": "Baš tako!",
+      "rightAnswer": "Točan odgovor:",
+      "next": "Dalje",
+      "done": "Gotovo",
+      "skip": "Preskoči",
+      "exercise": "Vježba",
+      "exerciseMeta": "/11 · 10 riječi"
+    },
+    "chat": {
+      "title": "Vježbanje",
+      "discussing": "Razgovor o „{book}”",
+      "finish": "Završi",
+      "playing": "Reprodukcija…",
+      "replyOptions": "Prijedlozi odgovora",
+      "placeholder": "Napiši poruku"
+    },
+    "bookDetail": {
+      "adapted": "Prilagođeno",
+      "adaptedHint": "Prepričano jednostavnijim jezikom, smisao ostaje",
+      "original": "Original",
+      "originalHint": "Cijeli izvorni tekst, bez ijedne izmjene",
+      "open": "Otvori",
+      "genre": "Žanr",
+      "badgeSummary": "Sažetak"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Pretraži",
+      "upload": "Učitaj knjigu",
+      "tabCatalog": "Katalog",
+      "tabAll": "Sve knjige",
+      "tabFavorites": "Favoriti",
+      "shelfBestsellers": "Svjetski bestseleri",
+      "shelfBestsellersSub": "ukratko prepričani, s audiom",
+      "shelfStories": "Kratke priče",
+      "shelfStoriesSub": "Male priče s velikom porukom",
+      "bandTitle": "5 minuta dnevno",
+      "bandText": "Saznaj svaki dan nešto zanimljivo – a jezik dođe sam od sebe.",
+      "shelfAmazing": "Nevjerojatne priče",
+      "shelfNature": "Zagonetke prirode",
+      "shelfHealth": "Zdravlje i znanost",
+      "moreTopics": "Još tema",
+      "shelfGolden": "Zlatna klasika",
+      "shelfGoldenSub": "200 knjiga koje su promijenile čovječanstvo",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Knjižnica",
+      "practice": "Vježbanje",
+      "read": "Čitaj",
+      "myWords": "Moje riječi",
+      "collections": "Zbirke"
+    }
+  },
+  "_note": "Локаль hr (хорватский). Полный перевод с эталона i18n/en.json, 2026-08-29. Писалось как оригинальный хорватский текст, а не как перевод: синтаксис перестроен, обращение на «ti», родовые причастия второго лица вычищены (нигде нет «čitao/čitala», «spremio/spremila»). Лексика хорватского стандарта, не боснийская и не сербская: knjižnica, razina, tjedan, znanost, pogreška, točno, uvjeti korištenja, materinski, sažeci, španjolski, talijanski, nizozemski, prijevod. Кавычки „ ”, тире – (en-dash). Имена авторов отзывов, customBook.formats, коды CEFR, числа и эмодзи скопированы из эталона побайтово. Контракт слота — винительный при «učiti», одна позиция во всех девяти строках; бюджет выдачи посчитан по «azerbajdžanski». Файл прошёл снятие калек (2026-08-30): вычищены образные обороты эталона по i18n/en.gloss.json — «prepisati» вместо адаптации, «odatle dolazi izgovor», «gradiš izgovor», «vratit će ti ih», связка «znati jezik znači sedam vještina» и «vuče ostale za sobom». Третий круг (2026-08-30, независимый разбор носителем): грамматика и коллокации — «što danas raditi» → «što danas trebaš raditi» (инфинитив в косвенном вопросе при объектном контроле), «Lingo7 knjigu prepriča» → «Lingo7 će prepričati knjigu» (совершенный вид в изъявительном будущем), «kroz shadowing» → «uz shadowing» в трёх строках (kroz как показатель способа — англицизм), «gura ostale naprijed» → «potiče ostale», «koje te vuku» → «koje te privlače», «taman» → «baš» (турцизм вне хорватского стандарта), «u pravim razmacima» → «u pravom trenutku», «javljaju na ponavljanje» → «dolaze na red za ponavljanje».",
+  "_contract": {
+    "government": "Винительный падеж прямого дополнения при «učiti / početi učiti»: «Uči {target} …», «Počni učiti {target} …». Все 49 названий языков — субстантивированные прилагательные мужского рода неодушевлённые (engleski, njemački, azerbajdžanski, španjolski), у них винительный совпадает с именительным; несклоняемые (zulu, svahili, afrikaans) формы не меняют вовсе. Поэтому одна форма слота закрывает все девять строк. Позиция объявлена один раз и выдержана везде, включая library.title («…uči {target} od A1 do C1»). Локативный вариант («knjige na španjolskom»), который был бы естественнее для заголовка библиотеки, отвергнут: он потребовал бы второй формы слота. Артиклей в хорватском нет; соседних токенов, чья форма зависела бы от подставленного слова (согласуемое прилагательное, предлог с алломорфией, притяжательный оборот), рядом со слотом нет ни в одной из девяти строк — слот всюду стоит сразу после глагола, а дальше идёт запятая, двоеточие или предлог с фиксированной формой.",
+    "slotExample": "španjolski",
+    "slotExampleEnglish": "engleski",
+    "longestSlot": "azerbajdžanski",
+    "longestSlotLang": "азербайджанский (az) — 14 знаков; следом indonezijski (12), vijetnamski / portugalski (11), španjolski / talijanski / nizozemski / ukrajinski / makedonski / katalonski / bjeloruski / filipinski / galicijski (10)",
+    "titleRenderedLen": 54,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "hero.title «Uči {target} iz knjiga koje te privlače, a ne iz vježbi koje ti dosade» — на третьем круге «koje te vuku» заменено на «koje te privlače»: носитель прочитал «vuku» как разговорную кальку с «pull you in», а H1 — самая чувствительная к регистру строка. Образ тяги оставлен там, где он раскрыт полным придаточным: pains.answers[1].text «Kad te sadržaj vuče, lako mu se vraćaš». Проверить, что H1 не стал слишком нейтральным и что на редких target-ах строка не слишком длинная.",
+      "library.title «Knjige s prijevodom po razinama: uči {target} od A1 do C1» — в английском слот был определением к «books». Хорватский эквивалент «knjige na španjolskom» требует локатива, которого слот не отдаёт, поэтому H2 переписан так, чтобы слот попал в объявленный винительный после «uči». Проверить, что двоеточие читается как заголовок каталога, а не как две склеенные фразы.",
+      "«AI» нигде не склоняется: падеж всегда падает на хорватское существительное — «AI asistent», «s AI asistentom», «Pitaj AI asistenta». Форм вида «s AI-jem» / «AI-ja» в файле нет намеренно, хотя хорватская пресса их использует. Стоит подтвердить у носителя, что «AI asistent» не читается как название чужого продукта.",
+      "Родовые причастия второго лица вычищены по всему файлу: hero.subtitle, compare.rows[1].new.*, compare.rows[4].new.text, faq.items[1].q («Koja je razina potrebna za čitanje u originalu?» вместо «da bih čitao»), pains.answers[0].text, appUi.readerSettings.highlightMyWordsHint. Проверить, что нигде не потеряна естественность ради нейтральности.",
+      "reviews.title «Nismo očekivali da će vam se ovoliko svidjeti» — «vam» здесь собирательное множественное ко всем пользователям, а не вежливая форма посреди «ti»-текста. Если носитель прочтёт это как смену тона, строку надо переписать безлично («Ovakav odaziv nismo očekivali»).",
+      "library.tabs[2] «Discovery» оставлено латиницей как имя раздела (так же в русском оригинале). Если это описание, а не название, хорватское «Otkrića» естественнее.",
+      "«shadowing» не переводится (так его называют хорватские языковые сообщества), «bestseler», «biznis» даны в натурализованном написании. Названия книг взяты по хорватским изданиям: «Mali princ», «Dina», «Igra prijestolja», «Misli i obogati se», «Načelo 80/20» (не боснийское «Princip 80/20»), «7 navika uspješnih ljudi», «Moć sadašnjeg trenutka». Hawking оставлен латиницей: хорватская орфография сохраняет оригинальное написание имён.",
+      "Модальность ограничений сохранена и не усилена: method.conductor.badge «Osobni plan · Uskoro», faq.items[5].a «Živog razgovora s čovjekom još nema – u planu je», faq.items[1].a «moguće je prepričati» / compare.rows[2].new.text «može prilagoditi» — возможность, а не готовое обещание.",
+      "appUi.chat.title «Vježbanje» против appUi.vocab.exercise «Vježba» — в макете эти подписи стоят на соседних экранах; если различие покажется слишком тонким, chat.title можно заменить на «Razgovor».",
+      "Снятие калек 2026-08-30: глагол адаптации «prepisati» (= «списать, скопировать чужой текст») заменён на «prilagoditi» / «prepričati» в compare.rows[2].new.text, faq.items[1].a, customBook.adapt.title, customBook.adapt.text и appUi.bookDetail.adaptedHint. Проверить у носителя, что «prepričana knjiga» читается как адаптация, а не как краткий пересказ вместо книги.",
+      "Третий круг 2026-08-30, отклонённые находки разбора — показать носителю именно их: «naglas ponavljaš za pripovjedačem» (предлагали интернационализм «za naratorom»; оставлено хорватское слово ради заявленной лексической политики файла, строки faq.items[5].a, pains.answers[0].text, method.skills[5].text, steps.items[3].text); «riječi spremaj ravno iz teksta» (предлагали «izravno»; «ravno iz» — живая хорватская идиома, ср. «ravno iz pećnice»); «gramatika i riječi tvoje razine» (предлагали латинизм «vokabular», хотя весь файл говорит «riječi» и «rječnik»)."
+    ]
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "title": "Aprenda {target} lendo: livros com tradução e áudio",
+    "description": "Leia livros em {target} com tradução em português ao lado e áudio, aprenda palavras com repetição espaçada, treine shadowing e comente o livro com a IA.",
+    "ogTitle": "Aprenda {target} lendo: livros com tradução e áudio",
+    "ogDescription": "Leia livros em {target} com a tradução em português ao lado e áudio em cada frase. Salve uma palavra com um toque e ela volta sozinha, na hora certa, para revisão.",
+    "twitterTitle": "Aprenda {target} lendo: livros com tradução e áudio",
+    "twitterDescription": "Leia livros em {target} com o português ao lado, salve qualquer palavra com um toque e revise tudo depois com repetição espaçada."
+  },
+  "nav": {
+    "links": [
+      "Como funciona",
+      "Biblioteca",
+      "Idiomas",
+      "Avaliações",
+      "Dúvidas"
+    ]
+  },
+  "hero": {
+    "title": "Aprenda {target} lendo livros, não repetindo exercícios sem fim",
+    "subtitle": "Leia e ouça aquilo que você realmente tem vontade de ler, salve as palavras direto da página e deixe a repetição espaçada lembrar você de cada uma na hora certa.",
+    "cta": "Instalar o app",
+    "trust": "49 idiomas • iPhone / Android",
+    "pills": [
+      "Tradução ao lado",
+      "Áudio + leitura",
+      "Vocabulário",
+      "Repetição espaçada",
+      "Qualquer livro ou texto",
+      "Shadowing",
+      "Comentar o livro com a IA"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Um livro no lugar do curso",
+        "span": "Estude com aquilo que você leria por prazer"
+      },
+      {
+        "strong": "49 idiomas",
+        "span": "Dos mais falados aos mais raros"
+      },
+      {
+        "strong": "Uma biblioteca com variedade",
+        "span": "Clássicos, best-sellers mundiais e artigos"
+      },
+      {
+        "strong": "Tudo gira em um ciclo só",
+        "span": "Leitura, áudio, vocabulário e revisão"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Por que quase todo app de idioma acaba largado, e este não",
+    "subtitle": "O problema nunca foi a sua disciplina. Era o formato.",
+    "labelOld": "❌ Como costuma ser",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Você decora palavras que depois não sabe usar",
+          "text": "Listas e cartões soltos, sem contexto nenhum. Amanhã já sumiram de novo."
+        },
+        "new": {
+          "title": "As palavras aparecem dentro de frases de verdade",
+          "text": "Você vê como a palavra se comporta no contexto, e ela fica na cabeça sem ninguém precisar forçar."
+        }
+      },
+      {
+        "old": {
+          "title": "Os mesmos exercícios todo santo dia",
+          "text": "Cansa, a motivação cai e, depois da primeira semana, o app fica ali sem ser aberto."
+        },
+        "new": {
+          "title": "Você lê o que leria de qualquer jeito",
+          "text": "Best-sellers, histórias reais improváveis, divulgação científica: material ao qual você volta por conta própria."
+        }
+      },
+      {
+        "old": {
+          "title": "Ler no original é difícil demais",
+          "text": "Palavra desconhecida em cada linha, a trama escapa e você desiste na primeira página."
+        },
+        "new": {
+          "title": "Tradução ao lado e, se precisar, adaptação",
+          "text": "A tradução fica logo ao lado do texto, e um livro difícil demais pode ser reescrito para o seu nível."
+        }
+      },
+      {
+        "old": {
+          "title": "Você lê o que o catálogo tiver",
+          "text": "Biblioteca fechada. Não dá para trazer o seu próprio livro."
+        },
+        "new": {
+          "title": "Qualquer livro ou texto vira o seu material",
+          "text": "Entregue ao app os livros que você ama e os documentos que precisa ler, e ele devolve tudo com tradução ao lado, áudio e revisão das palavras."
+        }
+      },
+      {
+        "old": {
+          "title": "Você lê e ouve, mas é tudo passivo",
+          "text": "Não há onde falar nem escrever, então a habilidade nunca se firma."
+        },
+        "new": {
+          "title": "Você não só lê: você fala e escreve",
+          "text": "Você comenta com a IA o livro que acabou de terminar, então não precisa inventar assunto. Quando se tem o que dizer, falar e escrever fica fácil."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "As 7 habilidades do idioma em um lugar só",
+    "subtitle": "Saber um idioma é dominar sete habilidades. O Lingo7 treina todas juntas, em vez de uma de cada vez, e assim cada uma reforça as outras.",
+    "skills": [
+      {
+        "title": "Leitura",
+        "text": "Leia o original ou uma versão adaptada com a tradução logo ao lado: rápido e sem dicionário."
+      },
+      {
+        "title": "Escuta",
+        "text": "Audiolivros e o modo de ouvir enquanto lê: um dos jeitos mais eficientes de treinar o ouvido."
+      },
+      {
+        "title": "Vocabulário",
+        "text": "As palavras novas vão ficando na cabeça durante a leitura, sem decoreba. Os exercícios e a repetição espaçada fixam tudo no longo prazo."
+      },
+      {
+        "title": "Gramática",
+        "text": "O melhor jeito de absorver gramática é ver as regras funcionando dentro de uma frase de verdade."
+      },
+      {
+        "title": "Escrita",
+        "text": "Chat com IA: você comenta o que acabou de ler, então nunca falta assunto. Ele ajuda a dar forma à ideia e pega os seus erros."
+      },
+      {
+        "title": "Fala",
+        "text": "Shadowing: você ouve o narrador e repete em voz alta logo em seguida, ganhando fluência, ritmo e entonação."
+      },
+      {
+        "title": "Pronúncia",
+        "text": "Os exercícios de pronúncia deixam o seu sotaque mais perto do de um falante nativo."
+      }
+    ],
+    "conductor": {
+      "badge": "Plano personalizado · Em breve",
+      "title": "O app vai dizer o que fazer hoje",
+      "text": "Ele escolhe a atividade certa no momento certo: ler, repetir em voz alta, fixar palavras ou comentar um capítulo com a IA. Você nunca precisa decidir por onde começar nem o que vem depois.",
+      "caption": "Um exemplo de sessão para hoje; a sua quem monta é o app.",
+      "steps": [
+        {
+          "label": "Leitura",
+          "meta": "15 min"
+        },
+        {
+          "label": "Ouvir e ler",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Agora · 7 min"
+        },
+        {
+          "label": "Palavras",
+          "meta": "25 cartões"
+        },
+        {
+          "label": "Chat com IA",
+          "meta": "comentar o capítulo"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Como aprender um idioma com livros: cinco passos",
+    "subtitle": "Nada de método elaborado. Um ciclo claro e conteúdo bom o bastante para você chegar ao fim dele.",
+    "items": [
+      {
+        "title": "Escolha o seu conteúdo",
+        "text": "Resumos de best-sellers, clássicos, contos: pelo humor do dia, pelo nível, pelo tempo que você tem."
+      },
+      {
+        "title": "Leia com a tradução ao lado",
+        "text": "Original e tradução lado a lado; toque em uma palavra para ver o sentido, ouvir o áudio ou salvá-la."
+      },
+      {
+        "title": "Aprenda as palavras",
+        "text": "As palavras salvas voltam em exercícios que acionam tipos diferentes de memória, espaçados ao longo do tempo."
+      },
+      {
+        "title": "Ouça e repita em voz alta",
+        "text": "Cada frase tem áudio: ouça e repita logo em seguida, acompanhando o narrador. É assim que a pronúncia e a entonação se formam."
+      },
+      {
+        "title": "Comente o livro com a IA",
+        "text": "A IA acompanha o livro junto com você: você treina escrita e fala e aprende a colocar o que pensa em um idioma novo."
+      }
+    ]
+  },
+  "library": {
+    "title": "Livros em {target} com tradução, por nível do A1 ao C1",
+    "subtitle": "Você não aprende só o idioma, aprende alguma coisa junto. Tem material para todo nível, dos primeiros passos ao avançado.",
+    "tabs": [
+      "Clássicos",
+      "Best-sellers",
+      "Descobertas"
+    ],
+    "panels": [
+      {
+        "title": "Leia os grandes livros no original, com rede de proteção",
+        "text": "Versões adaptadas e originais para níveis diferentes, do Pequeno Príncipe a Hawking. Com a tradução ao lado, até a prosa difícil continua legível.",
+        "badges": [
+          "A1-A2 Iniciante",
+          "B1-B2 Intermediário",
+          "C1+ Avançado"
+        ]
+      },
+      {
+        "title": "O essencial dos melhores livros do mundo em 7 a 15 minutos",
+        "text": "As ideias centrais dos best-sellers mundiais, recontadas em versão curta, no idioma que você está aprendendo. Você cresce e treina o idioma na mesma sentada.",
+        "badges": [
+          "A1-A2 Iniciante",
+          "B1-B2 Intermediário",
+          "C1+ Avançado"
+        ]
+      },
+      {
+        "title": "5 minutos por dia: um fato bom e algumas palavras novas",
+        "text": "Espaço, psicologia, negócios, natureza, tecnologia: centenas de textos curtos sobre qualquer assunto. Aprenda algo novo todo dia, e o idioma vem junto.",
+        "badges": [
+          "A1-A2 Iniciante",
+          "B1-B2 Intermediário",
+          "C1+ Avançado"
+        ]
+      }
+    ],
+    "examples": [
+      "Quem Pensa Enriquece • O Princípio 80/20 • Os 7 Hábitos das Pessoas Altamente Eficazes • O Poder do Agora"
+    ]
+  },
+  "customBook": {
+    "badge": "NOVO",
+    "title": "Envie o seu próprio livro ou texto e aprenda com ele",
+    "text": "Envie qualquer arquivo e o Lingo7 transforma tudo em material de estudo, com tradução ao lado e áudio. Depois é o ciclo de sempre: você lê, ouve, aprende as palavras, trabalha a fala no shadowing e comenta tudo com a IA.",
+    "cards": [
+      {
+        "title": "Best-sellers no original",
+        "text": "Harry Potter, Duna, A Guerra dos Tronos: leia no idioma que você está aprendendo aqueles livros que você vem adiando."
+      },
+      {
+        "title": "O idioma que o seu trabalho e os seus estudos pedem",
+        "text": "Documentos de trabalho, artigos, material de prova: aprenda o idioma da área em que você está agora."
+      }
+    ],
+    "usecases": [
+      "Provas",
+      "Trabalho",
+      "Artigos",
+      "Entrevistas"
+    ],
+    "formatsNote": "Envie os seus próprios documentos nestes formatos:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptação",
+      "title": "Leia qualquer livro, <span class=\"accent\">reescrito</span> no seu tamanho",
+      "text": "O vocabulário e a gramática ainda estão difíceis demais? O Lingo7 reescreve o livro em linguagem mais fácil: mesma história, mesmos personagens, frases mais simples.",
+      "cta": "Testar com o seu livro"
+    },
+    "goalQuote": "Minha receita favorita: pegar o Harry Potter e fazer um capítulo por dia — ler, ouvir, aprender as palavras novas, comentar com a IA. Seis meses a uma ou duas horas por dia e você sai <span class=\"goal-quote__level\">do A2 e chega ao B2</span>."
+  },
+  "audience": {
+    "title": "O Lingo7 é para você que...",
+    "items": [
+      "Quer aprender com conteúdo, e não com lições que precisa se obrigar a fazer",
+      "Quer mais do que leitura: escuta, fala e escrita também, com a pronúncia treinada no shadowing e as ideias ganhando forma no chat com a IA",
+      "Quer estudar pelo seu próprio material (documentos de trabalho, livros e artigos favoritos), não só por lições prontas",
+      "Precisa de um idioma raro, desses que quase nenhum app tem",
+      "Quer estudar em sessões curtas, de 5 a 15 minutos"
+    ]
+  },
+  "pains": {
+    "title": "O que atrapalha, e o que o Lingo7 faz com isso",
+    "subtitle": "Não é questão de talento. É questão de formato.",
+    "chips": [
+      "Medo de falar",
+      "Fico entediado",
+      "As palavras não ficam",
+      "Ler é difícil",
+      "Não pego de ouvido",
+      "Sem tempo",
+      "Idioma raro",
+      "Não vai servir"
+    ],
+    "answers": [
+      {
+        "title": "«Tenho vergonha de falar e errar»",
+        "text": "No shadowing você ouve o narrador e repete a frase em voz alta logo em seguida, sozinho, sem ninguém dando nota. É assim que a pronúncia se forma. No chat com IA você trabalha a formulação por escrito, e a correção vem sem drama."
+      },
+      {
+        "title": "«Eu enjoo rápido de qualquer app»",
+        "text": "No lugar de lições intercambiáveis: livros, best-sellers e artigos sobre assuntos que você leria de qualquer forma. Quando o conteúdo prende, voltar é fácil."
+      },
+      {
+        "title": "«Vejo as palavras, mas elas não ficam»",
+        "text": "Um toque salva a palavra junto com a frase dela, e depois ela volta em forma de cartão, em intervalos cada vez maiores. Lembrar deixa de ser questão de sorte."
+      },
+      {
+        "title": "«Ler no original é difícil demais para mim»",
+        "text": "Tradução ao lado, com as frases alinhadas uma a uma: nada de pular para o tradutor a cada duas linhas."
+      },
+      {
+        "title": "«Não entendo quando falam»",
+        "text": "O modo de ouvir e ler ao mesmo tempo amarra o som da palavra à escrita e ao sentido. O ouvido se acostuma com o idioma naturalmente."
+      },
+      {
+        "title": "«Não tenho tempo»",
+        "text": "Formatos curtos e sessões rápidas: mesmo 5 a 10 minutos por dia já mantêm o ritmo."
+      },
+      {
+        "title": "«Preciso de um idioma raro»",
+        "text": "São 49 idiomas, com os raros incluídos. E você aprende qualquer um deles a partir da sua própria língua materna."
+      },
+      {
+        "title": "«Tenho medo de que não sirva para mim»",
+        "text": "Se você sabe ler, serve. Não é preciso conhecimento prévio, gramática nem preparação: comece por qualquer livro do seu nível."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Aprenda {target}",
+    "title": "49 idiomas, dos mais comuns aos mais raros",
+    "subtitle": "Aprenda qualquer idioma a partir da sua língua materna, e não só através do inglês, como a maioria dos apps obriga.",
+    "groupTitles": [
+      "Populares",
+      "Todos os idiomas"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 pares de idiomas.</strong> Escolha a combinação que quiser: o idioma que você está aprendendo e o idioma em que lê a tradução."
+  },
+  "reviews": {
+    "title": "Não esperávamos que vocês gostassem tanto",
+    "subtitle": "Mas fato é fato: é isso que as pessoas escrevem no Google Play.",
+    "items": [
+      {
+        "text": "Ótimo app. Um grande diferencial é que o mesmo livro vem em vários níveis de inglês. Estou esperando a atualização com ansiedade!",
+        "author": "Екатерина М.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "Assinei o plano anual e vale muito o que custa. Este app é realmente maravilhoso! Um recurso excelente para melhorar o inglês. De adultos a crianças — não é só útil, é necessário.",
+        "author": "Mayur L.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "Precisava de português para trabalhar com uma equipe no Brasil. Ler e ouvir ao mesmo tempo é muito eficiente. Depois de 6 semanas eu já conseguia acompanhar as reuniões.",
+        "author": "Rosita R.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "Sempre quis aprender alemão, e neste app tudo é bem mais acessível e claro do que em outros parecidos. App nota 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "Uso o recurso de ler com áudio e para mim foi uma virada de chave. As faixas são limpas e bem sincronizadas com o texto. Ferramenta fantástica para quem estuda idiomas.",
+        "author": "Zeynep O.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "A ideia e a execução merecem nota máxima. Hoje é o único app com livros em sérvio. Muito bom! Obrigado!",
+        "author": "Вася К.",
+        "source": "Google Play • ver original"
+      },
+      {
+        "text": "Para mim, como professora, este app é realmente maravilhoso. Recomendo aos meus alunos. Muito agradável. Recomendo a todo mundo.",
+        "author": "Sasha T.",
+        "source": "Google Play • ver original"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "O Lingo7 serve para quem está começando do zero?",
+        "a": "Serve. Tem material para todos os níveis, e a tradução ao lado deixa o texto compreensível desde a primeira página."
+      },
+      {
+        "q": "Que nível eu preciso ter para ler no original?",
+        "a": "Qualquer um. Com a tradução ao lado você não precisa de dicionário, e um livro difícil demais pode ser reescrito de forma mais simples: mesma história, mesmos personagens, mas com a gramática e as palavras do seu nível. Tudo vem marcado de A1 a C1."
+      },
+      {
+        "q": "Dá para estudar 10 minutos por dia?",
+        "a": "Dá. Os artigos curtos, os resumos de livros e os cartões de palavras foram feitos justamente para sessões curtas e diárias."
+      },
+      {
+        "q": "Quais idiomas estão disponíveis?",
+        "a": "São 49 idiomas, e você aprende qualquer um deles a partir da sua própria língua materna, não só através do inglês. Isso dá 49 × 48 = 2352 pares de idiomas, com os raros incluídos."
+      },
+      {
+        "q": "Qual é a diferença para os apps de idioma de sempre?",
+        "a": "Em vez de exercícios soltos, você aprende com conteúdo que interessa de verdade, e todas as habilidades entram no mesmo ciclo: você lê e ouve, salva palavras para revisar com repetição espaçada, pega a gramática no contexto, trabalha a fala no shadowing e a escrita no chat com a IA. E ainda dá para enviar o seu próprio livro ou documento."
+      },
+      {
+        "q": "Tem prática de fala?",
+        "a": "Tem. Para a fala existe o shadowing: você repete cada frase em voz alta logo depois de ouvi-la do narrador, e assim trabalha a pronúncia e a entonação. Para a escrita existe o chat com IA: você comenta o que leu, e ele ajuda a formular a frase e encontra os seus erros. Conversar ao vivo com uma pessoa ainda não é possível no app: está nos planos."
+      },
+      {
+        "q": "Que formatos de arquivo dá para enviar?",
+        "a": "PDF, EPUB, FB2 e TXT. Envie documentos de trabalho, livros ou artigos favoritos, e o app monta a tradução ao lado, acrescenta o áudio e recolhe as palavras novas no treinador."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Comece hoje a aprender {target} com um livro, não com exercícios",
+    "text": "Instale o app e abra o seu primeiro livro.",
+    "perks": [
+      "49 idiomas",
+      "Todos os níveis"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Sobre",
+      "Contato",
+      "Carreiras",
+      "Para escolas",
+      "Como aprender idiomas",
+      "Termos de uso",
+      "Privacidade"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Todos os direitos reservados."
+  },
+  "downloadModal": {
+    "title": "Instale o Lingo7",
+    "text": "Disponível na App Store e no Google Play"
+  },
+  "stickyCta": {
+    "label": "Instalar o app"
+  },
+  "mobileMenu": {
+    "links": [
+      "Como funciona",
+      "Biblioteca",
+      "Idiomas",
+      "Avaliações",
+      "Dúvidas"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Ouvir",
+      "add": "Salvar",
+      "translate": "Traduzir",
+      "addToMyWords": "Adicionar às minhas palavras",
+      "inMyWords": "Já está nas minhas palavras",
+      "audioMode": "Modo áudio",
+      "discussWithAi": "Comentar com a IA",
+      "selfCheck": "Teste rápido"
+    },
+    "wordCard": {
+      "freqHigh": "COMUM",
+      "freqMid": "MÉDIA",
+      "example": "Exemplo",
+      "otherTranslations": "Mais traduções",
+      "synonyms": "Sinônimos",
+      "open": "Abrir",
+      "group": "Grupo:",
+      "groupDefault": "Geral",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEXTO",
+      "sectionAudio": "ÁUDIO",
+      "highlightMyWords": "Destacar as minhas palavras",
+      "highlightMyWordsHint": "Marca no texto as palavras que você salvou",
+      "theme": "Tema",
+      "themeLight": "Claro",
+      "fontSize": "Tamanho da letra",
+      "font": "Fonte",
+      "speakOnTap": "Falar a palavra ao tocar",
+      "speakOnTapHint": "Lê em voz alta a palavra que você tocou",
+      "speechRate": "Velocidade da fala",
+      "pronunciationTest": "Teste de pronúncia",
+      "playSample": "Tocar uma frase de exemplo",
+      "reset": "Restaurar os padrões",
+      "done": "Pronto",
+      "on": "Ligado",
+      "off": "Desligado",
+      "accent": "Sotaque",
+      "translationAlways": "Sempre"
+    },
+    "vocab": {
+      "pickRightPicture": "Escolha a imagem certa",
+      "correct": "Isso mesmo",
+      "rightAnswer": "Resposta certa:",
+      "next": "Próxima",
+      "done": "Pronto",
+      "skip": "Pular",
+      "exercise": "Exercício",
+      "exerciseMeta": "/11 · 10 palavras"
+    },
+    "chat": {
+      "title": "Prática",
+      "discussing": "Comentando «{book}»",
+      "finish": "Encerrar",
+      "playing": "Reproduzindo…",
+      "replyOptions": "Sugestões de resposta",
+      "placeholder": "Escreva uma mensagem"
+    },
+    "bookDetail": {
+      "adapted": "Adaptado",
+      "adaptedHint": "Reescrito em linguagem mais simples, com o sentido intacto",
+      "original": "Original",
+      "originalHint": "O texto original completo, sem alterações",
+      "open": "Abrir",
+      "genre": "Gênero",
+      "badgeSummary": "Resumo"
+    },
+    "library": {
+      "profile": "Perfil",
+      "search": "Pesquisar",
+      "upload": "Envie um livro",
+      "tabCatalog": "Catálogo",
+      "tabAll": "Todos os livros",
+      "tabFavorites": "Favoritos",
+      "shelfBestsellers": "Best-sellers mundiais",
+      "shelfBestsellersSub": "em versão curta, com áudio",
+      "shelfStories": "Contos curtos",
+      "shelfStoriesSub": "Histórias pequenas que dizem muito",
+      "bandTitle": "5 minutos por dia",
+      "bandText": "Descubra uma curiosidade nova todo dia, e o idioma vem junto!",
+      "shelfAmazing": "Histórias incríveis",
+      "shelfNature": "Mistérios da natureza",
+      "shelfHealth": "Saúde e ciência",
+      "moreTopics": "Mais temas",
+      "shelfGolden": "Clássicos de ouro",
+      "shelfGoldenSub": "200 livros que mudaram a humanidade",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteca",
+      "practice": "Prática",
+      "read": "Ler",
+      "myWords": "Minhas palavras",
+      "collections": "Coleções"
+    }
+  },
+  "_note": "Полная локаль pt (португальский). Написана с эталона i18n/en.json 2026-08-30, тон сверен с русским оригиналом ru.json. Обращение — на «você» (третье лицо): грамматично и в Бразилии, и в Португалии, тогда как португальское «tu» в Бразилии звучит регионально. База — бразильская норма (это ~80% носителей, и в SEO-планах проекта отдельной строкой стоит именно pt-BR), но там, где расхождение можно обойти без натяжки, выбрана общая форма: «instalar o app» вместо «baixar/descarregar», «documento» вместо «arquivo/ficheiro» в видимых строках, «equipa/equipe» убрано переформулировкой, «bilíngue/bilingue» не попало в meta.title. Неустранимые развилки (contato/contacto, sinônimos/sinónimos, gênero/género, arquivo/ficheiro, equipe/equipa, polonês/polaco, estoniano/estónio) перечислены в _contract.risks — это готовый список правок на случай, когда pt разделят на pt-BR и pt-PT. Орфография — после Соглашения 1990 г. Кавычки — угловые « », как в португальской типографике; en-dash эталона заменён двоеточием, запятой или travessão. Названия языков пишутся со строчной и артикль (o português, o inglês) — согласуемый сосед, поэтому все девять строк со слотом построены без артикля. Контракт слота и бюджет выдачи — в _contract. Файл прошёл снятие калек по i18n/en.gloss.json: правлены строки, где образ эталона (сложность как вес, шэдоуинг как позиция за диктором, подкрепление как тяга, интервальное повторение как возврат предмета) был скопирован буквально.",
+  "_contract": {
+    "government": "Голая безартиклевая форма названия языка (forma nua, sem artigo). Позиция объявлена одна и обслуживает все девять строк: беспредложное дополнение при aprender («Aprenda {target} lendo…», «Comece hoje a aprender {target}…») и то же самое слово при неизменяемом предлоге em («Leia livros em {target}…», «Livros em {target} com tradução…»). В португальском нет падежей, поэтому обе конструкции требуют ОДНИ И ТЕ ЖЕ байты. Опущение артикля при aprender/estudar/falar и после em — норма, а не вольность: «aprender espanhol», «livros em inglês». Ключевое условие: рядом со слотом не должно быть ни артикля, ни предлога, который с артиклем сливается — em+o=no, de+o=do, a+o=ao. Именно поэтому нигде не написано «no {target}» или «do {target}»: слияние выбирается по роду и числу подставленного слова, то есть это согласуемый сосед. Союзы e/o(u) в португальском алломорфии не имеют (в отличие от испанских y→e, o→u), но рядом со слотом их всё равно нет.",
+    "slotExample": "espanhol",
+    "slotExampleEnglish": "inglês",
+    "longestSlot": "azerbaijano",
+    "longestSlotLang": "азербайджанский — 11 знаков; ровно столько же у bielorrusso (белорусский) и dinamarquês (датский), следом neerlandês и vietnamita (по 10), затем estoniano, filipino, finlandês, georgiano, indonésio, macedônio, norueguês, português и ucraniano (по 9). Список сверен по 49 кодам из i18n/reader-sample.json. В pt-PT самое длинное меняется на dinamarquês/bielorrusso — длина та же, бюджет не двигается.",
+    "titleRenderedLen": 54,
+    "descRenderedLen": 155,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Артикль и слияния — главная точка отказа локали. «Aprenda espanhol» и «livros em espanhol» верны только без артикля; если UI где-нибудь допишет o/do/no/ao перед слотом, строка сломается — причём по-разному для разных языков, потому что слияние зависит от рода подставленного слова. Слот отдаётся голым, нигде не стоит первым словом и капитализации не терпит: названия языков в португальском строчные, а «Aprenda Inglês» читается как англицизм или как название страны.",
+      "meta.description и og/twitter-описания держатся на «com tradução em português ao lado» / «com o português ao lado». Носителю проверить, что для читателя-португалоязычного ясно: перевод идёт на его родной, а слот — это изучаемый язык. При длинном слоте (azerbaijano, dinamarquês) description даёт 155 знаков, запас до потолка 5 знаков — любая правка строки требует пересчёта.",
+      "Развилка pt-BR / pt-PT — список правок на случай разделения локали: contato→contacto (footer.links[1]), sinônimos→sinónimos (appUi.wordCard.synonyms), gênero→género (appUi.bookDetail.genre), arquivo→ficheiro (customBook.text, faq.items[6].q), equipe→equipa (reviews.items[2].text), salvar→guardar (appUi.reader.add и все прозаические «salve palavras»), pular→saltar (appUi.vocab.skip), «Estou esperando»→«Estou à espera» (reviews.items[0].text), обращение «você»→«tu» во всех императивах. Названия языков в pt-PT: polonês→polaco, estoniano→estónio, macedônio→macedónio, armênio→arménio, tcheco→checo.",
+      "hero.title и compare.rows[1].new.title держатся на разговорных оборотах («não repetindo exercícios sem fim», «você lê o que leria de qualquer jeito») — проверить носителем, что это звучит как реклама приложения, а не как перевод. Там же customBook.goalQuote: «sai do A2 e chega ao B2» — разговорная формула обещания, проверить, что она не звучит как гарантия результата.",
+      "library.examples[0] и панели содержат изданные названия: «Quem Pensa Enriquece» — бразильское издание Think and Grow Rich (в Португалии выходило как «Pense e Enriqueça»), «A Guerra dos Tronos», «Duna», «O Pequeno Príncipe». При разделении локали проверить по каталогам обеих стран."
+    ]
+  }
+}

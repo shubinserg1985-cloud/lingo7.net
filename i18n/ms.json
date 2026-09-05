@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "title": "Belajar {target} dengan membaca buku dwibahasa",
+    "description": "Baca buku dalam {target} dengan terjemahan Melayu dan audio, kukuhkan perkataan dengan ulang kaji berjarak, berlatih shadowing, bincang bab dengan AI.",
+    "ogTitle": "Belajar {target} dengan membaca buku dwibahasa",
+    "ogDescription": "Baca buku dalam {target} dengan terjemahan Melayu bersebelahan dan audio. Simpan perkataan dengan satu sentuhan, dan ia muncul semula tepat sebelum anda lupa.",
+    "twitterTitle": "Belajar {target} dengan membaca buku dwibahasa",
+    "twitterDescription": "Baca buku dalam {target} sambil melihat teks Melayu di sebelahnya. Simpan perkataan baharu dengan satu sentuhan, dan ia muncul semula untuk ulang kaji berjarak."
+  },
+  "nav": {
+    "links": [
+      "Cara ia berfungsi",
+      "Perpustakaan",
+      "Bahasa",
+      "Ulasan",
+      "Soalan lazim"
+    ]
+  },
+  "hero": {
+    "title": "Belajar {target} melalui buku yang menarik, bukan melalui latih tubi yang membosankan",
+    "subtitle": "Baca dan dengar bahan yang benar-benar anda minati, simpan perkataan terus dari halamannya, dan biar algoritma ulang kaji berjarak memunculkannya semula tepat pada masanya.",
+    "cta": "Muat turun aplikasi",
+    "trust": "49 bahasa • iPhone / Android",
+    "pills": [
+      "Terjemahan bersebelahan",
+      "Audio + bacaan",
+      "Latihan kosa kata",
+      "Ulang kaji berjarak",
+      "Apa-apa buku atau teks",
+      "Shadowing",
+      "Bincang buku dengan AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Buku, bukan kursus",
+        "span": "Belajar daripada bahan yang anda memang suka baca"
+      },
+      {
+        "strong": "49 bahasa",
+        "span": "Daripada yang paling ramai penuturnya hingga yang paling jarang"
+      },
+      {
+        "strong": "Perpustakaan yang luas",
+        "span": "Karya klasik, buku laris dunia dan artikel"
+      },
+      {
+        "strong": "Semuanya dalam satu kitaran",
+        "span": "Bacaan, audio, kosa kata dan ulang kaji"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Kenapa kebanyakan aplikasi bahasa ditinggalkan – dan yang ini tidak",
+    "subtitle": "Masalahnya tidak pernah pada disiplin anda. Masalahnya pada format.",
+    "labelOld": "❌ Biasanya",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Anda hafal perkataan yang akhirnya tidak terpakai",
+          "text": "Senarai dan kad imbas tanpa konteks. Esok semuanya hilang semula."
+        },
+        "new": {
+          "title": "Perkataan muncul di dalam ayat yang hidup",
+          "text": "Anda nampak sendiri bagaimana sesuatu perkataan bekerja dalam ayat, jadi ia melekat tanpa perlu dipaksa."
+        }
+      },
+      {
+        "old": {
+          "title": "Latihan yang sama, hari demi hari",
+          "text": "Lama-lama jemu, semangat susut, dan lepas minggu pertama aplikasi itu tidak dibuka lagi."
+        },
+        "new": {
+          "title": "Anda baca apa yang memang anda nak baca",
+          "text": "Buku laris, kisah benar yang pelik, sains popular – bahan yang anda sendiri akan cari semula."
+        }
+      },
+      {
+        "old": {
+          "title": "Membaca teks asal terlalu susah",
+          "text": "Perkataan asing di merata tempat, jalan cerita hilang, halaman pertama pun tidak habis."
+        },
+        "new": {
+          "title": "Terjemahan bersebelahan, dan boleh diadaptasi",
+          "text": "Terjemahannya berada tepat di sebelah teks, dan buku yang terlalu sukar boleh ditulis semula mengikut tahap anda."
+        }
+      },
+      {
+        "old": {
+          "title": "Anda baca apa yang kebetulan ada dalam katalog",
+          "text": "Perpustakaan yang tetap. Buku sendiri tidak boleh dibawa masuk."
+        },
+        "new": {
+          "title": "Apa-apa buku atau teks jadi buku teks anda",
+          "text": "Serahkan buku kesayangan dan dokumen yang anda perlukan, dan aplikasi memulangkannya siap dengan terjemahan bersebelahan, audio dan ulang kaji perkataan."
+        }
+      },
+      {
+        "old": {
+          "title": "Anda membaca dan mendengar, tetapi semuanya pasif",
+          "text": "Tiada tempat untuk bercakap atau menulis, jadi kemahiran itu tidak pernah duduk."
+        },
+        "new": {
+          "title": "Bukan sekadar membaca – anda bercakap dan menulis",
+          "text": "Anda membincangkan buku yang baru sahaja habis dibaca bersama AI, jadi tidak perlu mereka-reka topik. Apabila ada sesuatu yang hendak dikatakan, bercakap dan menulis menjadi mudah."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Semua 7 kemahiran bahasa di satu tempat",
+    "subtitle": "Menguasai bahasa bermakna menguasai tujuh kemahiran. Lingo7 melatih semuanya serentak, bukan satu demi satu, supaya semuanya saling menguatkan.",
+    "skills": [
+      {
+        "title": "Membaca",
+        "text": "Baca teks asal atau versi yang dipermudah dengan terjemahan tepat di sebelahnya – laju, dan tanpa kamus."
+      },
+      {
+        "title": "Mendengar",
+        "text": "Buku audio dan mod dengar-sambil-baca – antara cara paling berkesan untuk melatih telinga."
+      },
+      {
+        "title": "Kosa kata",
+        "text": "Perkataan baharu melekat sambil anda membaca, tanpa perlu dihafal. Latihan dan ulang kaji berjarak mengukuhkannya untuk jangka panjang."
+      },
+      {
+        "title": "Tatabahasa",
+        "text": "Cara terbaik menyerap tatabahasa ialah melihat peraturannya bekerja di dalam ayat yang sebenar."
+      },
+      {
+        "title": "Menulis",
+        "text": "Sembang AI: anda bincangkan apa yang baru dibaca, jadi sentiasa ada bahan untuk ditulis. Ia membantu anda menyusun fikiran dan menangkap kesilapan."
+      },
+      {
+        "title": "Bertutur",
+        "text": "Shadowing: anda mengulang frasa dengan lantang sebaik sahaja narator menyebutnya, sambil mengasah kelancaran, rentak serta intonasi."
+      },
+      {
+        "title": "Sebutan",
+        "text": "Latihan sebutan membantu anda merapatkan loghat anda dengan bunyi penutur asli."
+      }
+    ],
+    "conductor": {
+      "badge": "Pelan peribadi · Akan datang",
+      "title": "Aplikasi ini sendiri akan memberitahu anda apa yang perlu dilakukan hari ini",
+      "text": "Ia memilih aktiviti yang betul pada waktu yang betul – membaca, mengulang dengan lantang, mengukuhkan perkataan atau membincangkan satu bab dengan AI. Anda tidak perlu fikir nak mula di mana dan apa selepasnya.",
+      "caption": "Contoh sesi untuk hari ini – aplikasi akan susun sesi anda sendiri.",
+      "steps": [
+        {
+          "label": "Membaca",
+          "meta": "15 minit"
+        },
+        {
+          "label": "Dengar & baca",
+          "meta": "5 minit"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Sekarang · 7 minit"
+        },
+        {
+          "label": "Perkataan",
+          "meta": "25 kad"
+        },
+        {
+          "label": "Sembang AI",
+          "meta": "bincang satu bab"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Cara belajar bahasa daripada buku: lima langkah",
+    "subtitle": "Tiada kaedah yang rumit. Satu kitaran yang jelas, dengan bahan yang cukup menarik untuk membawa anda sampai ke hujung.",
+    "items": [
+      {
+        "title": "Pilih bahan anda",
+        "text": "Ringkasan buku laris, karya klasik, cerpen – ikut mood, ikut tahap, ikut masa yang anda ada."
+      },
+      {
+        "title": "Baca dengan terjemahan bersebelahan",
+        "text": "Teks asal dan terjemahan sebelah-menyebelah; sentuh sesuatu perkataan untuk maknanya, audionya, atau untuk menyimpannya."
+      },
+      {
+        "title": "Belajar perkataannya",
+        "text": "Perkataan yang disimpan datang semula dalam latihan yang menggerakkan pelbagai jenis ingatan, berselang mengikut masa."
+      },
+      {
+        "title": "Dengar dan ulang dengan lantang",
+        "text": "Setiap ayat ada audionya: dengar dulu, kemudian ulang mengikut narator – begitulah sebutan dan intonasi terbentuk."
+      },
+      {
+        "title": "Bincang buku itu dengan AI",
+        "text": "AI menelusuri buku itu bersama anda – anda melatih penulisan dan pertuturan, dan belajar meluahkan fikiran dalam bahasa baharu."
+      }
+    ]
+  },
+  "library": {
+    "title": "Buku dalam {target} dengan terjemahan – mengikut tahap, A1 hingga C1",
+    "subtitle": "Anda bukan sekadar belajar bahasa, anda belajar sesuatu. Bahan untuk setiap tahap, daripada langkah pertama hingga peringkat mahir.",
+    "tabs": [
+      "Klasik",
+      "Buku laris",
+      "Discovery"
+    ],
+    "panels": [
+      {
+        "title": "Baca karya agung dalam teks asal – dengan jaring keselamatan",
+        "text": "Versi yang dipermudah dan versi asal untuk pelbagai tahap, daripada “Putera Kecil” hingga Hawking. Terjemahan bersebelahan membuatkan prosa yang berat pun masih boleh dibaca.",
+        "badges": [
+          "A1-A2 Asas",
+          "B1-B2 Pertengahan",
+          "C1+ Mahir"
+        ]
+      },
+      {
+        "title": "Inti pati buku terbaik dunia dalam 7–15 minit",
+        "text": "Idea utama buku laris dunia, diceritakan semula secara ringkas – dalam bahasa yang anda pelajari. Anda berkembang dan belajar bahasa dalam duduk yang sama.",
+        "badges": [
+          "A1-A2 Asas",
+          "B1-B2 Pertengahan",
+          "C1+ Mahir"
+        ]
+      },
+      {
+        "title": "5 minit sehari: satu fakta menarik dan beberapa perkataan baharu",
+        "text": "Angkasa, psikologi, perniagaan, alam semula jadi, teknologi – ratusan artikel pendek tentang apa saja. Setiap hari anda tahu sesuatu yang baharu, dan bahasa itu ikut sekali.",
+        "badges": [
+          "A1-A2 Asas",
+          "B1-B2 Pertengahan",
+          "C1+ Mahir"
+        ]
+      }
+    ],
+    "examples": [
+      "Fikir dan Jadi Kaya • The 80/20 Principle • 7 Tabiat Orang Yang Amat Berkesan • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "BAHARU",
+    "title": "Muat naik buku atau teks anda sendiri, dan belajar daripadanya",
+    "text": "Muat naik apa-apa fail, dan Lingo7 menukarkannya menjadi bahan belajar dengan terjemahan bersebelahan dan audio. Selepas itu kitarannya seperti biasa: anda membaca, mendengar, belajar perkataan, mengasah pertuturan melalui shadowing dan membincangkan isinya dengan AI.",
+    "cards": [
+      {
+        "title": "Buku laris dalam teks asal",
+        "text": "Harry Potter, Dune, A Game of Thrones – baca buku yang lama anda idamkan, dalam bahasa yang anda pelajari."
+      },
+      {
+        "title": "Bahasa yang kerja dan pengajian anda perlukan",
+        "text": "Dokumen kerja, kertas kajian, bahan peperiksaan – belajar bahasa dalam bidang yang anda ceburi sekarang."
+      }
+    ],
+    "usecases": [
+      "Peperiksaan",
+      "Kerja",
+      "Artikel",
+      "Temu duga"
+    ],
+    "formatsNote": "Muat naik fail anda sendiri dalam format ini:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptasi",
+      "title": "Baca apa-apa buku – <span class=\"accent\">ditulis semula</span> supaya padan dengan anda",
+      "text": "Kosa kata dan tatabahasanya masih terlalu sukar? Lingo7 boleh menulis semula buku itu dalam bahasa yang lebih mudah – cerita yang sama, watak yang sama, ayatnya lebih ringkas.",
+      "cta": "Cuba dengan buku anda"
+    },
+    "goalQuote": "Resipi kegemaran saya: ambil Harry Potter dan habiskan satu bab sehari – baca, dengar, belajar perkataan baharunya, bincang dengan AI. Enam bulan dengan sejam dua sehari, anda keluar daripada <span class=\"goal-quote__level\">A2 di tahap B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 sesuai untuk anda kalau anda...",
+    "items": [
+      "Mahu belajar daripada bahan yang menarik, bukan daripada pelajaran yang perlu dihabiskan dengan memaksa diri",
+      "Mahu lebih daripada sekadar membaca – mendengar, bertutur dan menulis juga: sebutan melalui shadowing, dan meluahkan fikiran dalam sembang AI",
+      "Mahu belajar dengan bahan sendiri – dokumen kerja, buku dan artikel kegemaran – bukan hanya pelajaran siap pakai",
+      "Perlukan bahasa jarang yang tiada dalam kebanyakan aplikasi",
+      "Mahu belajar dalam sesi pendek 5-15 minit"
+    ]
+  },
+  "pains": {
+    "title": "Apa yang menghalang – dan apa yang Lingo7 buat tentangnya",
+    "subtitle": "Ini bukan soal kebolehan. Ini soal format.",
+    "chips": [
+      "Takut bercakap",
+      "Saya cepat bosan",
+      "Perkataan tak melekat",
+      "Susah nak baca",
+      "Tak faham bila didengar",
+      "Tiada masa",
+      "Bahasa jarang",
+      "Takut tak sesuai"
+    ],
+    "answers": [
+      {
+        "title": "“Saya malu bercakap dan takut tersilap”",
+        "text": "Shadowing bermakna anda mengulang frasa dengan lantang sebaik sahaja narator menyebutnya, bersendirian, tanpa sesiapa menilai. Itulah cara sebutan terbentuk. Dalam sembang AI pula anda mengasah ayat secara bertulis, dan ia membetulkan kesilapan anda secara berhemah."
+      },
+      {
+        "title": "“Saya cepat bosan”",
+        "text": "Bukan pelajaran yang serupa semuanya: buku, buku laris dan artikel tentang topik yang anda memang baca pun. Bila bahannya menarik, senang nak kembali."
+      },
+      {
+        "title": "“Saya nampak perkataannya, tapi ia tak tinggal”",
+        "text": "Satu sentuhan menyimpan perkataan itu bersama ayatnya, kemudian ia muncul semula sebagai kad mengikut jadual yang berjarak. Ingat bukan lagi soal nasib."
+      },
+      {
+        "title": "“Membaca teks asal terlalu susah untuk saya”",
+        "text": "Terjemahan bersebelahan dengan ayat yang dijajarkan – tak perlu berhenti membuka aplikasi terjemahan setiap dua baris."
+      },
+      {
+        "title": "“Saya tak dapat tangkap bila orang bercakap”",
+        "text": "Mod dengar-sambil-baca mengikat bunyi sesuatu perkataan dengan ejaan dan maknanya. Telinga anda biasa dengan bahasa itu secara semula jadi."
+      },
+      {
+        "title": "“Saya tiada masa”",
+        "text": "Format pendek dan sesi ringkas – 5-10 minit sehari pun cukup untuk kekal dalam rentak."
+      },
+      {
+        "title": "“Saya perlukan bahasa yang jarang”",
+        "text": "49 bahasa, termasuk yang jarang. Dan anda belajar mana-mana satu daripadanya melalui bahasa ibunda sendiri."
+      },
+      {
+        "title": "“Saya takut ia tak sesuai untuk saya”",
+        "text": "Kalau anda boleh membaca, ia sesuai. Tidak perlu pengetahuan awal, tatabahasa atau persediaan – mulakan dengan mana-mana buku pada tahap anda."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Belajar {target}",
+    "title": "49 bahasa, daripada yang biasa hingga yang jarang",
+    "subtitle": "Belajar mana-mana bahasa melalui bahasa ibunda anda sendiri – bukan hanya menerusi bahasa Inggeris, seperti yang dipaksakan oleh kebanyakan aplikasi.",
+    "groupTitles": [
+      "Popular",
+      "Semua bahasa"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 pasangan bahasa.</strong> Pilih apa-apa kombinasi: bahasa yang anda pelajari, dan bahasa yang anda mahu baca terjemahannya."
+  },
+  "reviews": {
+    "title": "Kami sendiri tak sangka anda suka sebegini",
+    "subtitle": "Tapi fakta tetap fakta – ini yang orang tulis di Google Play.",
+    "items": [
+      {
+        "text": "Aplikasi yang bagus. Kelebihan besarnya, satu buku boleh datang dalam beberapa tahap bahasa Inggeris. Tak sabar menunggu kemas kini!",
+        "author": "Екатерина М.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Saya ambil langganan tahunan dan harganya sangat berbaloi. Ini memang aplikasi yang hebat! Sumber yang sangat baik untuk memperbaiki bahasa Inggeris. Daripada orang dewasa hingga kanak-kanak — bukan sekadar berguna, tetapi perlu.",
+        "author": "Mayur L.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Saya perlukan bahasa Portugis untuk bekerja dengan pasukan di Brazil. Membaca + audio serentak sangat berkesan. Selepas 6 minggu saya sudah boleh ikut mesyuarat.",
+        "author": "Rosita R.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Memang lama saya nak belajar bahasa Jerman, dan dalam aplikasi ini semuanya jauh lebih mesra dan jelas berbanding aplikasi lain yang serupa. Aplikasi 10 daripada 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Saya guna fungsi baca-sambil-dengar dan ia benar-benar satu penemuan buat saya. Trek audionya jelas dan diselaraskan dengan kemas. Alat yang hebat untuk sesiapa yang belajar bahasa.",
+        "author": "Zeynep O.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Idea dan pelaksanaannya dapat A+. Buat masa ini inilah satu-satunya aplikasi yang ada buku dalam bahasa Serbia. Syabas! Terima kasih!",
+        "author": "Вася К.",
+        "source": "Google Play • lihat yang asal"
+      },
+      {
+        "text": "Ini memang aplikasi yang hebat untuk saya sebagai guru. Saya syorkan kepada pelajar saya. Sangat menyenangkan. Saya syorkan kepada semua orang.",
+        "author": "Sasha T.",
+        "source": "Google Play • lihat yang asal"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Soalan lazim",
+    "items": [
+      {
+        "q": "Adakah Lingo7 sesuai untuk orang yang betul-betul baru bermula?",
+        "a": "Ya. Ada bahan untuk setiap tahap, dan terjemahan bersebelahan membuatkan teksnya boleh difahami dari awal lagi."
+      },
+      {
+        "q": "Tahap mana yang diperlukan untuk membaca teks asal?",
+        "a": "Mana-mana tahap pun boleh. Dengan terjemahan bersebelahan, anda tidak perlu membuka kamus lagi, dan buku yang terlalu sukar boleh ditulis semula agar lebih mudah – cerita dan wataknya sama, tetapi tatabahasa dan perkataannya pada tahap anda. Semuanya ditanda dari A1 hingga C1."
+      },
+      {
+        "q": "Boleh tak belajar 10 minit sehari?",
+        "a": "Boleh. Artikel pendek, ringkasan buku dan kad perkataan memang dibuat untuk sesi pendek setiap hari."
+      },
+      {
+        "q": "Bahasa apa yang ada?",
+        "a": "49 bahasa, dan anda boleh belajar mana-mana satu daripadanya melalui bahasa ibunda sendiri – bukan hanya menerusi bahasa Inggeris. Itu bermakna 49 × 48 = 2352 pasangan bahasa, termasuk bahasa yang jarang."
+      },
+      {
+        "q": "Apa bezanya dengan aplikasi bahasa yang biasa?",
+        "a": "Bukan latihan yang berselerak, anda belajar daripada bahan yang menarik minat anda, dengan setiap kemahiran terikat dalam satu kitaran: anda membaca dan mendengar, menyimpan perkataan untuk ulang kaji berjarak, menangkap tatabahasa dalam konteks, mengasah pertuturan melalui shadowing dan penulisan dalam sembang AI. Dan anda boleh muat naik buku atau dokumen sendiri."
+      },
+      {
+        "q": "Ada latihan bertutur tak?",
+        "a": "Ada. Untuk pertuturan ada shadowing – anda mengulang frasa dengan lantang sebaik sahaja narator menyebutnya dan mengasah sebutan serta intonasi. Untuk penulisan ada sembang AI: anda membincangkan apa yang dibaca, dan ia membantu anda menyusun ayat serta mencari kesilapan. Perbualan langsung dengan orang sebenar belum ada – itu masih dalam rancangan."
+      },
+      {
+        "q": "Format fail apa yang boleh dimuat naik?",
+        "a": "PDF, EPUB, FB2 dan TXT. Muat naik dokumen kerja, buku kegemaran atau artikel – aplikasi akan membina terjemahan bersebelahan, menambah audio dan mengumpulkan perkataan baharu ke dalam alat latihan."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Mula belajar {target} hari ini, dengan buku dan bukan latih tubi",
+    "text": "Muat turun aplikasi dan buka buku pertama anda.",
+    "perks": [
+      "49 bahasa",
+      "Semua tahap"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Tentang kami",
+      "Hubungi kami",
+      "Kerjaya",
+      "Untuk sekolah",
+      "Cara belajar bahasa",
+      "Terma perkhidmatan",
+      "Privasi"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Hak cipta terpelihara."
+  },
+  "downloadModal": {
+    "title": "Dapatkan Lingo7",
+    "text": "Ada di App Store dan Google Play"
+  },
+  "stickyCta": {
+    "label": "Muat turun aplikasi"
+  },
+  "mobileMenu": {
+    "links": [
+      "Cara ia berfungsi",
+      "Perpustakaan",
+      "Bahasa",
+      "Ulasan",
+      "Soalan lazim"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang, малайзийская норма). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Dengar",
+      "add": "Simpan",
+      "translate": "Terjemah",
+      "addToMyWords": "Tambah ke Perkataan Saya",
+      "inMyWords": "Sudah disimpan",
+      "audioMode": "Mod audio",
+      "discussWithAi": "Bincang dengan AI",
+      "selfCheck": "Uji diri anda"
+    },
+    "wordCard": {
+      "freqHigh": "KERAP",
+      "freqMid": "SEDERHANA",
+      "example": "Contoh",
+      "otherTranslations": "Terjemahan lain",
+      "synonyms": "Sinonim",
+      "open": "Buka",
+      "group": "Kumpulan:",
+      "groupDefault": "Umum",
+      "page": "hlm."
+    },
+    "readerSettings": {
+      "sectionText": "TEKS",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Serlahkan perkataan saya",
+      "highlightMyWordsHint": "Menandakan perkataan yang anda simpan",
+      "theme": "Tema",
+      "themeLight": "Cerah",
+      "fontSize": "Saiz teks",
+      "font": "Fon",
+      "speakOnTap": "Sebut perkataan bila disentuh",
+      "speakOnTapHint": "Membacakan perkataan yang anda sentuh",
+      "speechRate": "Kelajuan suara",
+      "pronunciationTest": "Ujian sebutan",
+      "playSample": "Mainkan frasa contoh",
+      "reset": "Set semula tetapan",
+      "done": "Selesai",
+      "on": "Hidup",
+      "off": "Mati",
+      "accent": "Loghat",
+      "translationAlways": "Sentiasa"
+    },
+    "vocab": {
+      "pickRightPicture": "Pilih gambar yang betul",
+      "correct": "Tepat sekali",
+      "rightAnswer": "Jawapan yang betul:",
+      "next": "Seterusnya",
+      "done": "Selesai",
+      "skip": "Langkau",
+      "exercise": "Latihan",
+      "exerciseMeta": "/11 · 10 perkataan"
+    },
+    "chat": {
+      "title": "Latihan",
+      "discussing": "Membincangkan “{book}”",
+      "finish": "Tamat",
+      "playing": "Memainkan…",
+      "replyOptions": "Pilihan jawapan",
+      "placeholder": "Tulis mesej"
+    },
+    "bookDetail": {
+      "adapted": "Dipermudah",
+      "adaptedHint": "Ditulis semula dengan bahasa yang lebih mudah, maknanya kekal",
+      "original": "Asal",
+      "originalHint": "Teks asal sepenuhnya, tanpa diubah",
+      "open": "Buka",
+      "genre": "Genre",
+      "badgeSummary": "Ringkasan"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Cari",
+      "upload": "Muat naik buku",
+      "tabCatalog": "Katalog",
+      "tabAll": "Semua buku",
+      "tabFavorites": "Kegemaran",
+      "shelfBestsellers": "Buku laris dunia",
+      "shelfBestsellersSub": "dalam ringkasan pendek, dengan audio",
+      "shelfStories": "Cerita pendek",
+      "shelfStoriesSub": "Cerita kecil dengan makna besar",
+      "bandTitle": "5 minit sehari",
+      "bandText": "Setiap hari satu fakta menarik – dan bahasa itu ikut sekali!",
+      "shelfAmazing": "Kisah menakjubkan",
+      "shelfNature": "Misteri alam",
+      "shelfHealth": "Kesihatan dan sains",
+      "moreTopics": "Topik lain",
+      "shelfGolden": "Klasik abadi",
+      "shelfGoldenSub": "200 buku yang mengubah umat manusia",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Perpustakaan",
+      "practice": "Latihan",
+      "read": "Baca",
+      "myWords": "Perkataan Saya",
+      "collections": "Koleksi"
+    }
+  },
+  "_note": "Полная локаль ms (малайский, малайзийская норма — Bahasa Melayu Malaysia). Переведена с эталона i18n/en.json 2026-08-29 по брифу i18n/TRANSLATION-BRIEF.md; интонация сверена с русским оригиналом ru.json, орфография и имена — с малайским блоком reader-sample.json (книга «Kisah Pelik Benjamin Button», чипы tahun/anak/hari, «perubatan», «bahawa»). Сознательно НЕ индонезийский: muat turun (не unduh), ulang kaji (не pengulangan), perkataan (не kata), latih tubi, bersebelahan, saiz, jawapan, peperiksaan, temu duga, Sepanyol/Inggeris (не Spanyol/Inggris). Обращение — «anda» со строчной: в Малайзии это нейтральная норма потребительской рекламы, а не канцелярит (в отличие от индонезийского «Anda»); подлежащее часто опускается, как в живом малайском. Главное решение локали: носитель «bahasa» ВХОДИТ в слот {target} («bahasa Sepanyol», «bahasa Inggeris»), потому что без него Sepanyol/Jerman/Perancis/Rusia — названия СТРАН, и «belajar Sepanyol» читается как «учить Испанию»; это исключение, прямо разрешённое брифом для vi «tiếng Tây Ban Nha» и ro «limba spaniolă». Побочный эффект: слот на 6 знаков длиннее английского, бюджет выдачи считан по «bahasa Azerbaijan» (17 знаков). Кавычки — “ ”, малайзийская типографика совпадает с английской; тире — en-dash с пробелами. Контракт слота, длины и риски — в _contract. Файл прошёл снятие калек по i18n/en.gloss.json: сложность больше не «вес» (berat/ringan → sukar/ringkas), перевод не «сидит» рядом (duduk → berada), алгоритм не «возвращает» слово (membawa kembali → muncul semula), навыки не «тянут» друг друга (saling menguatkan), shadowing описан как повтор сразу за диктором (sebaik sahaja narator menyebutnya), а произношение «terbentuk», а не «dibina». Третий круг (повторный разбор носителем): восстановлены недостающие активные префиксы (beritahu → memberitahu, buka → membuka, bincangkan → membincangkan), «dengan kuat» → «dengan lantang» во всех пяти строках про повтор вслух (kuat читается как физическая сила), «dengan lembut» → «secara berhemah» (тактично, а не мягко на ощупь — ловушка глоссария), «pada tahap anda» → «mengikut tahap anda» при переписывании книги, «ditulis semula dengan lebih mudah» → «agar lebih mudah» (иначе «легче переписать», а не «стало проще»), «daripada halamannya» → «dari halamannya» (страница — место), «Aplikasi sendiri» → «Aplikasi ini sendiri» («aplikasi sendiri» читалось как «своё приложение»), «Bila» → «Apabila», порядок слов в compare.rows[4]. Отклонены: замена «ulang kaji» на индонезийское «pengulangan» и переписывание «Tahap mana» на «Apakah tahap» — см. risks.",
+  "_contract": {
+    "government": "Неизменяемая именная группа «bahasa X» в двух позициях: прямое дополнение при belajar («Belajar {target}», «Mula belajar {target}») и именная группа после предлога dalam («Baca buku dalam {target}»). Малайские существительные не склоняются, артиклей нет, поэтому обе позиции дают ОДНИ И ТЕ ЖЕ байты — это и есть одна объявленная позиция. Носитель «bahasa» стоит ВНУТРИ слота, а не рядом: без него Sepanyol, Jerman, Perancis, Rusia, Belanda, Turki — названия стран, а не языков. ЗАПРЕЩЕНО ставить перед слотом префикс ber- («buku berbahasa {target}»): он сращивается со словом bahasa внутри слота и разрушает подстановку — всюду только «dalam {target}». Слот нигде не стоит первым словом строки: «bahasa» пишется со строчной, автозаглавная в начале <title> дала бы «Bahasa Azerbaijan» — формально не ошибка, но капитализация не должна зависеть от рендера.",
+    "slotExample": "bahasa Sepanyol",
+    "slotExampleEnglish": "bahasa Inggeris",
+    "longestSlot": "bahasa Azerbaijan",
+    "longestSlotLang": "азербайджанский — «bahasa Azerbaijan», 17 знаков. Следом по 16: bahasa Afrikaans, bahasa Indonesia, bahasa Macedonia, bahasa Lithuania. По 15: bahasa Sepanyol, bahasa Portugis, bahasa Bulgaria, bahasa Slovenia, bahasa Slovakia, bahasa Norwegia, bahasa Mongolia, bahasa Filipina. Малайский слот на 6 знаков длиннее английского («Azerbaijani» = 11) именно из-за слова bahasa внутри слота.",
+    "titleRenderedLen": 55,
+    "descRenderedLen": 159,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Слот обязан приходить в форме «bahasa X», а не «X». Если таблица 49 названий отдаст голое «Sepanyol», все девять строк станут про страну: «Belajar Sepanyol melalui buku» = «учите Испанию по книгам». Отдельно проверить языки, чьё название в малайском совпадает с названием страны: Sepanyol, Jerman, Perancis, Belanda, Rusia, Yunani, Turki, Denmark, Norway, Finland, Poland, Hungary, Bulgaria, Romania, Serbia, Croatia, Bosnia, Slovenia, Slovakia, Ukraine, Belarus, Azerbaijan, Mongolia, Armenia, Georgia, Estonia, Latvia, Lithuania, Macedonia, Albania, Iceland, Vietnam, Sweden.",
+      "Обратная сторона того же решения: для нескольких языков малайзийцы обычно говорят без «bahasa» — «Mandarin», иногда «Latin». Это вариант СЛОТА, а не шаблона: «Belajar Mandarin melalui buku» и «Baca buku dalam Mandarin» остаются грамматичными, поэтому строки менять не придётся. Показать носителю именно эти два-три случая.",
+      "Префикс ber- — единственный согласуемый сосед в локали. Правка вида «buku berbahasa {target}» выглядит грамотнее и ломает подстановку (ber+bahasa сращиваются). Во всех девяти строках стоит «dalam {target}»; при вычитке не «улучшать».",
+      "«bahasa Azerbaijan» (17 знаков) — запас в meta.title всего 5 знаков. Любое удлинение заголовка пересчитывать, а не оценивать на глаз.",
+      "«Terjemahan bersebelahan» выбрано как термин для параллельного перевода: прозрачно-малайское «перевод рядом». Отвергнуты «terjemahan selari» (техничнее, из математики) и «terjemahan paralel» (калька). Термин встречается в 11 строках; в meta.title ради длины стоит «buku dwibahasa». Менять только всё сразу.",
+      "«Ulang kaji» — малайзийское слово для повторения пройденного (индонезийское «pengulangan» здесь читалось бы чужим). Интервальное повторение = «ulang kaji berjarak». Проверить, что термин не звучит слишком «школьно» в hero.pills.",
+      "«Shadowing» оставлено английским (как в ru.json и остальных локалях): устоявшегося малайского слова нет, «mengulang selepas narator» описывает, но не называет. 7 строк. «AI» оставлено аббревиатурой, без «kecerdasan buatan», — живая норма малайзийских приложений; «sembang AI» вместо «chat AI».",
+      "Модальность ограничений сохранена точно: faq.items[1].a «boleh ditulis semula agar lebih mudah» и customBook.adapt.text «Lingo7 boleh menulis semula» — возможность, не обещание; faq.items[5].a «Perbualan langsung dengan orang sebenar belum ada – itu masih dalam rancangan» и method.conductor.badge «Akan datang» держат «пока нет / в планах». При вычитке не усиливать.",
+      "Названия книг: «Putera Kecil» — малайское издание «Маленького принца» (сверить с каталогом ITBM/DBP: ходит и вариант «Putera Cilik»). «Fikir dan Jadi Kaya» и «7 Tabiat Orang Yang Amat Berkesan» — существующие малайские издания (PTS). «The 80/20 Principle» и «The Power of Now» оставлены по-английски: малайского издания под уверенно узнаваемым названием нет, а изобретать бриф запрещает. Harry Potter, Dune, A Game of Thrones выходят в Малайзии под оригинальными названиями. «Hawking» — фамилия, латиница малайской орфографии не мешает.",
+      "library.tabs[2] «Discovery» оставлено английским вслед за ru.json (вкладка так называется в приложении). Если в малайском UI её переименуют, синхронизировать — рабочий вариант «Tahu Tak?».",
+      "appUi.readerSettings.accent — «Loghat». В Малайзии это одновременно «диалект»; если в макете имеется в виду выбор акцента диктора (British/American), носителю проверить, не читается ли как выбор регионального говора. Запасной вариант — «Aksen».",
+      "appUi.nav.myWords — «Perkataan saya», а НЕ «Kata saya»: «kata saya» в малайском читается как «я сказал». Та же ловушка в reader.addToMyWords. Не сокращать ради ширины кнопки.",
+      "appUi.readerSettings.on/off — «Hidup»/«Mati». appUi.wordCard.freqHigh/freqMid — «KERAP»/«SEDERHANA»; проверить, что «SEDERHANA» (9 знаков) не обрезается в узком бейдже.",
+      "Регистр: файл написан на стандартном малайском с лёгкой разговорностью («tak», «senang nak kembali», «lama anda idamkan») — норма малайзийской потребительской рекламы. Носителю проверить, что тон ровный и нигде не сваливается ни в bahasa pasar, ни в канцелярит DBP.",
+      "reviews.items[*].text написаны от лица людей, учивших английский, португальский, немецкий и сербский. Для парных страниц отзывы придётся курировать под тему пары — отмечено в i18n/README.md."
+    ]
+  }
+}

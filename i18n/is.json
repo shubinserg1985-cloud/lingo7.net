@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "title": "Lærðu {target} með lestri: samhliða þýðing og hljóð",
+    "description": "Lestu bækur á {target} með samhliða íslenskri þýðingu og hljóði, rifjaðu orðin upp á réttum tíma, æfðu shadowing og ræddu bókina við gervigreind.",
+    "ogTitle": "Lærðu {target} með lestri: samhliða þýðing og hljóð",
+    "ogDescription": "Lestu bækur á {target} með íslenskri þýðingu við hliðina og hljóði við hverja setningu. Vistaðu orð með einni snertingu og rifjaðu þau upp með vaxandi millibili.",
+    "twitterTitle": "Lærðu {target} með lestri: samhliða þýðing og hljóð",
+    "twitterDescription": "Lestu bækur á {target} með íslenskri þýðingu við hliðina, vistaðu ný orð með einni snertingu og rifjaðu þau upp með vaxandi millibili."
+  },
+  "nav": {
+    "links": [
+      "Hvernig það virkar",
+      "Bókasafn",
+      "Tungumál",
+      "Umsagnir",
+      "Spurt og svarað"
+    ]
+  },
+  "hero": {
+    "title": "Lærðu {target} með því að lesa bækur – ekki með endalausu stagli",
+    "subtitle": "Lestu og hlustaðu á efni sem þú hefur raunverulegan áhuga á, vistaðu orðin beint úr textanum og láttu appið minna þig á þau með vaxandi millibili.",
+    "cta": "Sæktu appið",
+    "trust": "49 tungumál • iPhone / Android",
+    "pills": [
+      "Samhliða þýðing",
+      "Hljóð og lestur",
+      "Orðaþjálfun",
+      "Tímasett upprifjun",
+      "Hvaða bók eða texti sem er",
+      "Shadowing",
+      "Spjall um bókina við gervigreind"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Bók í stað námskeiðs",
+        "span": "Lærðu á því sem þú myndir lesa hvort eð er"
+      },
+      {
+        "strong": "49 tungumál",
+        "span": "Frá þeim útbreiddustu til þeirra sjaldgæfustu"
+      },
+      {
+        "strong": "Bókasafn með breidd",
+        "span": "Klassík, heimsþekktir metsölutitlar og greinar"
+      },
+      {
+        "strong": "Allt gengur í einni hringrás",
+        "span": "Lestur, hljóð, orðaforði og upprifjun"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Af hverju flest tungumálaöpp enda ónotuð – en þetta ekki",
+    "subtitle": "Vandinn var aldrei sjálfsaginn þinn. Hann var formið.",
+    "labelOld": "❌ Venjulega",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Þú lærir orð sem þú getur svo ekki notað",
+          "text": "Listar og spjöld án samhengis. Á morgun eru orðin farin aftur."
+        },
+        "new": {
+          "title": "Orðin birtast inni í alvöru setningum",
+          "text": "Þú sérð hvernig orðið hegðar sér í samhengi, svo það situr eftir í minninu án þess að þú þurfir að hafa fyrir því."
+        }
+      },
+      {
+        "old": {
+          "title": "Sömu æfingarnar dag eftir dag",
+          "text": "Það verður leiðinlegt, áhuginn dvínar og eftir fyrstu vikuna er appið aldrei opnað."
+        },
+        "new": {
+          "title": "Þú lest það sem þú myndir lesa hvort eð er",
+          "text": "Metsölubækur, undarlegar sannar sögur, alþýðleg vísindi – efni sem þú snýrð aftur að af sjálfsdáðum."
+        }
+      },
+      {
+        "old": {
+          "title": "Frumtextinn er of erfiður",
+          "text": "Ókunnug orð úti um allt, þráðurinn slitnar og þú gefst upp á fyrstu blaðsíðu."
+        },
+        "new": {
+          "title": "Samhliða þýðing – og aðlögun ef þarf",
+          "text": "Þýðingin er við hliðina á textanum, og bók sem reynist of erfið má endurskrifa á þínu stigi."
+        }
+      },
+      {
+        "old": {
+          "title": "Þú lest það sem safnið á til",
+          "text": "Fastur listi. Engin leið til að koma með sína eigin bók."
+        },
+        "new": {
+          "title": "Hvaða bók eða texti sem er verður kennslubókin þín",
+          "text": "Réttu appinu bækurnar sem þú elskar og skjölin sem þú þarft, og þú færð þau til baka með samhliða þýðingu, hljóði og upprifjun á orðunum."
+        }
+      },
+      {
+        "old": {
+          "title": "Þú lest og hlustar, en allt er óvirkt",
+          "text": "Hvergi hægt að tala eða skrifa, svo færnin festist aldrei."
+        },
+        "new": {
+          "title": "Þú lest ekki bara – þú talar og skrifar",
+          "text": "Þú ræðir bókina sem þú varst að klára við gervigreindina, svo þú þarft ekki að finna þér umræðuefni. Þegar þú hefur eitthvað að segja verður auðvelt að segja það og skrifa það."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Allir 7 þættir tungumálsins á einum stað",
+    "subtitle": "Að kunna tungumál felur í sér sjö ólíka þætti. Lingo7 þjálfar þá saman en ekki einn í einu, svo að hver þeirra styrki hina.",
+    "skills": [
+      {
+        "title": "Lestur",
+        "text": "Lestu frumtextann eða aðlagaða útgáfu með þýðinguna við hliðina – hratt og án orðabókar."
+      },
+      {
+        "title": "Hlustun",
+        "text": "Hljóðbækur og hamur þar sem þú hlustar og lest í senn – ein áhrifaríkasta leiðin til að þjálfa eyrað."
+      },
+      {
+        "title": "Orðaforði",
+        "text": "Ný orð síast inn við lesturinn sjálfan, án þess að þú staglist á þeim. Æfingar og upprifjun með vaxandi millibili festa þau í sessi til langs tíma."
+      },
+      {
+        "title": "Málfræði",
+        "text": "Besta leiðin til að tileinka sér málfræði er að sjá reglurnar vinna vinnuna sína inni í alvöru setningu."
+      },
+      {
+        "title": "Ritun",
+        "text": "Spjall við gervigreind: þú ræðir það sem þú varst að lesa, svo það er alltaf eitthvað til að skrifa um. Hún hjálpar þér að móta hugsunina og grípur villurnar."
+      },
+      {
+        "title": "Tal",
+        "text": "Shadowing: þú endurtekur upphátt á eftir lesaranum og þjálfar flæði, hrynjandi og tónfall."
+      },
+      {
+        "title": "Framburður",
+        "text": "Framburðaræfingar færa hreiminn þinn nær því sem heyrist hjá þeim sem eiga málið að móðurmáli."
+      }
+    ],
+    "conductor": {
+      "badge": "Persónuleg áætlun · Væntanlegt",
+      "title": "Appið mun segja þér hvað þú átt að gera í dag",
+      "text": "Það velur réttu æfinguna á réttu augnabliki – lesa, endurtaka upphátt, festa orð í minni eða ræða kafla við gervigreindina. Þú þarft aldrei að ákveða hvar þú átt að byrja eða hvað kemur næst.",
+      "caption": "Sýnidæmi um dagsplan – þitt eigið býr appið til.",
+      "steps": [
+        {
+          "label": "Lestur",
+          "meta": "15 mín"
+        },
+        {
+          "label": "Hlusta og lesa",
+          "meta": "5 mín"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Núna · 7 mín"
+        },
+        {
+          "label": "Orð",
+          "meta": "25 spjöld"
+        },
+        {
+          "label": "Gervigreindarspjall",
+          "meta": "ræða kaflann"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Hvernig á að læra tungumál af bókum: fimm skref",
+    "subtitle": "Engin flókin aðferð. Ein skýr hringrás og efni sem er nógu gott til að halda þér gangandi.",
+    "items": [
+      {
+        "title": "Veldu þér efni",
+        "text": "Útdrættir úr metsölubókum, klassík, smásögur – eftir skapi, eftir stigi, eftir því hvað þú hefur mikinn tíma."
+      },
+      {
+        "title": "Lestu með samhliða þýðingu",
+        "text": "Frumtexti og þýðing hlið við hlið; snertu orð til að sjá merkinguna, heyra það eða vista það."
+      },
+      {
+        "title": "Lærðu orðin",
+        "text": "Vistuðu orðin koma aftur í æfingum sem reyna á ólíkar tegundir minnis og dreifast yfir tíma."
+      },
+      {
+        "title": "Hlustaðu og endurtaktu upphátt",
+        "text": "Hverri setningu fylgir hljóð: hlustaðu og endurtaktu svo á eftir lesaranum – þannig mótast framburður og tónfall."
+      },
+      {
+        "title": "Ræddu bókina við gervigreind",
+        "text": "Gervigreindin fer í gegnum bókina með þér – þú æfir ritun og tal og lærir að koma hugsunum þínum yfir á nýtt tungumál."
+      }
+    ]
+  },
+  "library": {
+    "title": "Bækur á {target} með þýðingu – eftir stigum, A1 til C1",
+    "subtitle": "Þú ert ekki bara að læra tungumál, þú ert að læra eitthvað. Efni fyrir öll stig, frá fyrstu skrefum upp í lengra komna.",
+    "tabs": [
+      "Klassík",
+      "Metsölubækur",
+      "Fróðleikur"
+    ],
+    "panels": [
+      {
+        "title": "Lestu stórvirkin á frummálinu – með öryggisneti",
+        "text": "Aðlagaðar og upprunalegar útgáfur fyrir ólík stig, frá Litla prinsinum til Hawkings. Samhliða þýðingin heldur jafnvel þyngsta texta læsilegum.",
+        "badges": [
+          "A1-A2 Byrjandi",
+          "B1-B2 Miðstig",
+          "C1+ Lengra kominn"
+        ]
+      },
+      {
+        "title": "Kjarninn úr bestu bókum heims á 7–15 mínútum",
+        "text": "Helstu hugmyndir heimsþekktra metsölubóka, endursagðar í stuttu máli – á málinu sem þú ert að læra. Þú þroskast og lærir tungumálið í sömu setunni.",
+        "badges": [
+          "A1-A2 Byrjandi",
+          "B1-B2 Miðstig",
+          "C1+ Lengra kominn"
+        ]
+      },
+      {
+        "title": "5 mínútur á dag: ein góð staðreynd og nokkur ný orð",
+        "text": "Geimurinn, sálfræði, viðskipti, náttúran, tæknin – hundruð stuttra greina um hvað sem er. Þú lærir eitthvað nýtt á hverjum degi og tungumálið fylgir með.",
+        "badges": [
+          "A1-A2 Byrjandi",
+          "B1-B2 Miðstig",
+          "C1+ Lengra kominn"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "NÝTT",
+    "title": "Settu inn þína eigin bók eða texta og lærðu af efninu",
+    "text": "Settu inn hvaða skrá sem er og Lingo7 breytir henni í námsefni með samhliða þýðingu og hljóði. Eftir það tekur venjuleg hringrás við: þú lest, hlustar, lærir orð, vinnur í talinu með shadowing og ræðir efnið við gervigreindina.",
+    "cards": [
+      {
+        "title": "Metsölubækur á frummálinu",
+        "text": "Harry Potter, Dune, A Game of Thrones – lestu bækurnar sem þú hefur lengi ætlað þér, á málinu sem þú ert að læra."
+      },
+      {
+        "title": "Málið sem vinnan og námið krefjast",
+        "text": "Vinnuskjöl, greinar, prófefni – lærðu orðfærið á því sviði sem þú stendur raunverulega í núna."
+      }
+    ],
+    "usecases": [
+      "Próf",
+      "Vinna",
+      "Greinar",
+      "Viðtöl"
+    ],
+    "formatsNote": "Settu inn þínar eigin skrár á þessum sniðum:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Aðlögun",
+      "title": "Lestu hvaða bók sem er – <span class=\"accent\">endurskrifaða</span> fyrir þig",
+      "text": "Eru orðin og málfræðin enn of erfið? Lingo7 endurskrifar bókina á einfaldara máli – sama saga, sömu persónur, léttari setningar.",
+      "cta": "Prófaðu á bókinni þinni"
+    },
+    "goalQuote": "Uppáhaldsuppskriftin mín: taktu Harry Potter og gerðu einn kafla á dag – lestu hann, hlustaðu á hann, lærðu nýju orðin, ræddu hann við gervigreindina. Hálft ár, klukkutími eða tveir á dag, og þú ferð <span class=\"goal-quote__level\">úr A2 upp í B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 er fyrir þig ef þú ...",
+    "items": [
+      "Vilt læra af efni sem heldur þér, ekki af kennslustundum sem þú þarft að pína þig í gegnum",
+      "Vilt meira en lestur – líka hlustun, tal og ritun: framburð með shadowing og að koma hugsunum í orð í spjallinu við gervigreindina",
+      "Vilt læra á þínu eigin efni – vinnuskjölum, uppáhaldsbókum og greinum – ekki bara á tilbúnum kennslustundum",
+      "Þarft sjaldgæft tungumál sem flest öpp bjóða ekki upp á",
+      "Vilt læra í stuttum lotum, 5–15 mínútum í senn"
+    ]
+  },
+  "pains": {
+    "title": "Hvað stendur í veginum – og hvað Lingo7 gerir í því",
+    "subtitle": "Þetta snýst ekki um hæfileika. Þetta snýst um formið.",
+    "chips": [
+      "Þori ekki að tala",
+      "Mér leiðist",
+      "Orðin festast ekki",
+      "Lesturinn er erfiður",
+      "Skil ekki talað mál",
+      "Enginn tími",
+      "Sjaldgæft tungumál",
+      "Hentar mér ekki"
+    ],
+    "answers": [
+      {
+        "title": "„Ég skammast mín fyrir að tala og gera vitleysur“",
+        "text": "Shadowing er einfaldlega það að endurtaka setningar upphátt á eftir lesaranum, í einrúmi þar sem enginn gefur þér einkunn. Þannig þjálfarðu framburðinn. Í spjallinu við gervigreindina æfirðu orðalagið skriflega og hún leiðréttir þig af nærgætni."
+      },
+      {
+        "title": "„Mér leiðist fljótt“",
+        "text": "Í staðinn fyrir kennslustundir sem eru allar eins: bækur, metsölutitlar og greinar um efni sem þú myndir lesa um hvort eð er. Þegar efnið togar í þig er auðvelt að koma aftur."
+      },
+      {
+        "title": "„Ég sé orðin en þau festast ekki“",
+        "text": "Ein snerting vistar orðið úr setningunni sem það stendur í, og svo birtist það aftur sem spjald með vaxandi millibili. Að muna hættir að vera heppni."
+      },
+      {
+        "title": "„Frumtextinn er of erfiður fyrir mig“",
+        "text": "Samhliða þýðing þar sem setningarnar standast á – engin þörf á að hlaupa í þýðingarvél í annarri hverri línu."
+      },
+      {
+        "title": "„Ég næ ekki töluðu máli“",
+        "text": "Hamurinn þar sem þú hlustar og lest í senn tengir hljóm orðsins við stafsetningu þess og merkingu. Eyrað venst málinu af sjálfu sér."
+      },
+      {
+        "title": "„Ég hef engan tíma“",
+        "text": "Stutt form og stuttar lotur – jafnvel 5–10 mínútur á dag halda þér í taktinum."
+      },
+      {
+        "title": "„Mig vantar sjaldgæft tungumál“",
+        "text": "49 tungumál, þau sjaldgæfu líka. Og þú lærir hvert þeirra sem er út frá þínu eigin móðurmáli."
+      },
+      {
+        "title": "„Ég óttast að þetta henti mér ekki“",
+        "text": "Ef þú getur lesið, þá hentar þetta þér. Þú þarft enga fyrri þekkingu, enga málfræði og engan undirbúning – byrjaðu á hvaða bók sem er á þínu stigi."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Lærðu {target}",
+    "title": "49 tungumál, frá þeim algengustu til þeirra sjaldgæfustu",
+    "subtitle": "Lærðu hvaða tungumál sem er út frá þínu eigin móðurmáli – ekki bara í gegnum ensku eins og flest öpp þvinga þig til.",
+    "groupTitles": [
+      "Vinsæl",
+      "Öll tungumál"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 tungumálapör.</strong> Veldu hvaða samsetningu sem er: málið sem þú ert að læra og málið sem þú lest þýðinguna á."
+  },
+  "reviews": {
+    "title": "Við áttum ekki von á að þetta félli ykkur svona vel í geð",
+    "subtitle": "En staðreyndir eru staðreyndir – svona skrifar fólk á Google Play.",
+    "items": [
+      {
+        "text": "Frábært app. Stór plús að sama bókin geti komið á nokkrum enskustigum. Bíð spennt eftir uppfærslunni!",
+        "author": "Екатерина М.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Ég keypti ársáskriftina og hún er sannarlega peninganna virði. Þetta er virkilega frábært app! Frábært hjálpartæki til að bæta enskuna. Frá fullorðnum til barna – ekki bara gagnlegt heldur nauðsynlegt.",
+        "author": "Mayur L.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Ég þurfti portúgölsku til að vinna með teymi í Brasilíu. Að lesa og hlusta í senn virkar mjög vel. Eftir sex vikur gat ég fylgst með fundunum.",
+        "author": "Rosita R.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Mig hefur alltaf langað að læra þýsku og í þessu appi er allt miklu aðgengilegra og skýrara en í sambærilegum öppum. Appið fær 10 af 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Ég nota lestur með hljóði og það hefur verið algjör bylting fyrir mig. Hljóðskrárnar eru skýrar og vel samstilltar. Frábært verkfæri fyrir tungumálanema.",
+        "author": "Zeynep O.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Hugmyndin og útfærslan fá toppeinkunn. Eins og er er þetta eina appið með serbneskar bækur. Vel gert! Takk!",
+        "author": "Вася К.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      },
+      {
+        "text": "Þetta er virkilega frábært app fyrir mig sem kennara. Ég mæli með því við nemendur mína. Mjög notalegt. Ég mæli með því við alla.",
+        "author": "Sasha T.",
+        "source": "Google Play • sjá upprunalegu umsögnina"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Algengar spurningar",
+    "items": [
+      {
+        "q": "Virkar Lingo7 fyrir algjöran byrjanda?",
+        "a": "Já. Það er efni á öllum stigum og samhliða þýðingin gerir textann skiljanlegan frá fyrstu blaðsíðu."
+      },
+      {
+        "q": "Á hvaða stigi þarf ég að vera til að lesa á frummálinu?",
+        "a": "Á hvaða stigi sem er. Samhliða þýðingin gerir orðabókina óþarfa, og bók sem reynist of erfið má endurskrifa á einfaldara máli – sama saga og sömu persónur, en málfræði og orð á þínu stigi. Allt er merkt frá A1 til C1."
+      },
+      {
+        "q": "Get ég lært í tíu mínútur á dag?",
+        "a": "Já. Stuttar greinar, útdrættir úr bókum og orðaspjöld eru hugsuð fyrir stuttar lotur á hverjum degi."
+      },
+      {
+        "q": "Hvaða tungumál eru í boði?",
+        "a": "49 tungumál, og þú getur lært hvert þeirra sem er út frá þínu eigin móðurmáli – ekki bara í gegnum ensku. Það gera 49 × 48 = 2352 tungumálapör, sjaldgæf tungumál meðtalin."
+      },
+      {
+        "q": "Hvernig er þetta frábrugðið venjulegum tungumálaöppum?",
+        "a": "Í staðinn fyrir ótengdar æfingar lærirðu af efni sem þú hefur áhuga á, og allir þættirnir hanga saman í einni hringrás: þú lest og hlustar, vistar orð til upprifjunar með vaxandi millibili, tekur málfræðina upp í samhengi, vinnur í talinu með shadowing og í rituninni í spjallinu við gervigreindina. Og þú getur sett inn þína eigin bók eða skjal."
+      },
+      {
+        "q": "Er einhver talæfing í boði?",
+        "a": "Já. Talið æfirðu með shadowing – þú endurtekur setningar upphátt á eftir lesaranum og þjálfar framburð og tónfall. Ritunina æfirðu í spjallinu við gervigreindina: þú ræðir það sem þú last, hún hjálpar þér að orða hlutina og finnur villurnar. Lifandi samtal við manneskju er ekki komið enn – það er á áætlun."
+      },
+      {
+        "q": "Hvaða skráarsnið get ég sett inn?",
+        "a": "PDF, EPUB, FB2 og TXT. Settu inn vinnuskjöl, uppáhaldsbækur eða greinar – appið býr til samhliða þýðingu, bætir hljóði við og safnar nýju orðunum í þjálfarann."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Byrjaðu að læra {target} í dag – með bók í stað stagls",
+    "text": "Sæktu appið og opnaðu fyrstu bókina þína.",
+    "perks": [
+      "49 tungumál",
+      "Öll stig"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Um okkur",
+      "Hafðu samband",
+      "Störf",
+      "Fyrir skóla",
+      "Hvernig á að læra tungumál",
+      "Skilmálar",
+      "Persónuvernd"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Allur réttur áskilinn."
+  },
+  "downloadModal": {
+    "title": "Sæktu Lingo7",
+    "text": "Fáanlegt í App Store og Google Play"
+  },
+  "stickyCta": {
+    "label": "Sæktu appið"
+  },
+  "mobileMenu": {
+    "links": [
+      "Hvernig það virkar",
+      "Bókasafn",
+      "Tungumál",
+      "Umsagnir",
+      "Spurt og svarað"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang = is). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Hlusta",
+      "add": "Vista",
+      "translate": "Þýða",
+      "addToMyWords": "Setja í mín orð",
+      "inMyWords": "Í mínum orðum",
+      "audioMode": "Hljóðhamur",
+      "discussWithAi": "Ræða við gervigreind",
+      "selfCheck": "Prófaðu þig"
+    },
+    "wordCard": {
+      "freqHigh": "ALGENGT",
+      "freqMid": "MIÐLUNGS",
+      "example": "Dæmi",
+      "otherTranslations": "Fleiri þýðingar",
+      "synonyms": "Samheiti",
+      "open": "Opna",
+      "group": "Flokkur:",
+      "groupDefault": "Almennt",
+      "page": "bls."
+    },
+    "readerSettings": {
+      "sectionText": "TEXTI",
+      "sectionAudio": "HLJÓÐ",
+      "highlightMyWords": "Merkja mín orð",
+      "highlightMyWordsHint": "Auðkennir orðin sem þú hefur vistað",
+      "theme": "Þema",
+      "themeLight": "Ljóst",
+      "fontSize": "Leturstærð",
+      "font": "Letur",
+      "speakOnTap": "Lesa orðið við snertingu",
+      "speakOnTapHint": "Les upp orðið sem þú snertir",
+      "speechRate": "Talhraði",
+      "pronunciationTest": "Framburðarpróf",
+      "playSample": "Spila sýnisetningu",
+      "reset": "Núllstilla stillingar",
+      "done": "Lokið",
+      "on": "Kveikt",
+      "off": "Slökkt",
+      "accent": "Hreimur",
+      "translationAlways": "Alltaf"
+    },
+    "vocab": {
+      "pickRightPicture": "Veldu réttu myndina",
+      "correct": "Alveg rétt",
+      "rightAnswer": "Rétt svar:",
+      "next": "Áfram",
+      "done": "Lokið",
+      "skip": "Sleppa",
+      "exercise": "Æfing",
+      "exerciseMeta": "/11 · 10 orð"
+    },
+    "chat": {
+      "title": "Æfing",
+      "discussing": "Ræðum „{book}“",
+      "finish": "Ljúka",
+      "playing": "Spilar…",
+      "replyOptions": "Svarmöguleikar",
+      "placeholder": "Skrifaðu skilaboð"
+    },
+    "bookDetail": {
+      "adapted": "Aðlöguð",
+      "adaptedHint": "Endurskrifuð á einfaldara máli, merkingin heldur sér",
+      "original": "Frumtexti",
+      "originalHint": "Allur frumtextinn, óbreyttur",
+      "open": "Opna",
+      "genre": "Tegund",
+      "badgeSummary": "Samantekt"
+    },
+    "library": {
+      "profile": "Prófíll",
+      "search": "Leit",
+      "upload": "Settu inn bók",
+      "tabCatalog": "Úrval",
+      "tabAll": "Allar bækur",
+      "tabFavorites": "Uppáhald",
+      "shelfBestsellers": "Metsölubækur heimsins",
+      "shelfBestsellersSub": "í stuttri endursögn, með hljóði",
+      "shelfStories": "Stuttar sögur",
+      "shelfStoriesSub": "Litlar sögur með stóran boðskap",
+      "bandTitle": "5 mínútur á dag",
+      "bandText": "Lærðu eitthvað nýtt á hverjum degi – og tungumálið fylgir með af sjálfu sér!",
+      "shelfAmazing": "Ótrúlegar sögur",
+      "shelfNature": "Leyndardómar náttúrunnar",
+      "shelfHealth": "Heilsa og vísindi",
+      "moreTopics": "Fleiri efnisflokkar",
+      "shelfGolden": "Gullna klassíkin",
+      "shelfGoldenSub": "200 bækur sem breyttu mannkyninu",
+      "goldenBadge": "TOPP-200"
+    },
+    "nav": {
+      "library": "Bókasafn",
+      "practice": "Æfingar",
+      "read": "Lesa",
+      "myWords": "Mín orð",
+      "collections": "Söfn"
+    }
+  },
+  "_note": "Полная локаль is (исландский, язык интерфейса читателя my_lang). Переведена с эталона i18n/en.json 2026-08-29 по брифу i18n/TRANSLATION-BRIEF.md; интонация сверена с русским оригиналом ru.json. Структура ключей собрана из en.json программно, значения написаны заново по-исландски (не подстрочник). Слот {target} несёт косвенную (þolfall/þágufall) форму названия языка: spænsku, ensku, aserbaídsjönsku. Имена авторов отзывов, customBook.formats, коды CEFR, числа и эмодзи скопированы побайтово. Строки для живой вычитки носителем перечислены в _contract.risks. Файл прошёл отдельный проход снятия калек по i18n/en.gloss.json со сверкой находок _qa/gemini-is.json.",
+  "_contract": {
+    "government": "Косвенная (aukafalls) форма названия языка. Объявленная позиция — прямое дополнение в þolfall при глаголе læra: «Lærðu {target}», «Byrjaðu að læra {target}». Названия языков в исландском — слабые существительные женского рода на -a (spænska, enska, danska, aserbaídsjanska), у которых þolfall = þágufall = eignarfall и все три дают ОДИН И ТОТ ЖЕ атом на -u с u-перегласовкой (spænsku, ensku, dönsku, aserbaídsjönsku); несклоняемые (hindí, svahílí, súlú, úrdú) не меняются вовсе. Поэтому в library.title слот стоит после предлога á, требующего þágufall («bækur á {target}»), — байты те же, второй формы слота нет (тот же приём, что в et: падеж несёт мой собственный токен, а не подставленный). ЗАПРЕЩЕНО атрибутивное употребление («spænskar bækur»): это другая, прилагательная лексема (spænskur), её в файле нет. Артикля рядом со слотом нет нигде — исландский с названиями языков артикль и не употребляет, так что UI нечего дописывать.",
+    "slotExample": "spænsku",
+    "slotExampleEnglish": "ensku",
+    "longestSlot": "aserbaídsjönsku",
+    "longestSlotLang": "азербайджанский (nefnifall aserbaídsjanska → aukafall aserbaídsjönsku), 15 знаков; следом hvítrússnesku (13), filippseysku (12), indónesísku и portúgölsku (по 11), víetnömsku и makedónsku (по 10)",
+    "titleRenderedLen": 58,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Регистр — данные, а не преобразование: в исландском названия языков пишутся со строчной. Слот нигде не стоит первым словом — meta.title/ogTitle/twitterTitle и hero.title начинаются с «Lærðu», meta.description/og/twitter с «Lestu», finalCta.title с «Byrjaðu», library.title с «Bækur». UI не должен капитализировать слот.",
+      "u-перегласовка внутри слота (danska → dönsku, portúgalska → portúgölsku, aserbaídsjanska → aserbaídsjönsku) — свойство таблицы названий языков, не строк лендинга. Если таблицу заполнят именительным падежом, все девять строк сломаются молча.",
+      "«shadowing» оставлен английским термином (как в ru/da/de): исландского устоявшегося слова нет, «endurtekningaræfing» описательно. Употреблён как несклоняемое. Если редакция решит иначе — менять сразу в 8 строках.",
+      "«gervigreind» вместо «AI» — живая исландская норма, слово бытовое, не канцелярское. Определённая форма (gervigreindin/gervigreindina) стоит там, где исландский требует определённости.",
+      "«app / appið» вместо пуристского «smáforrit» — так говорят в жизни; пурист может возразить.",
+      "«upprifjun með vaxandi millibili» — развёрнутая формула для spaced repetition, «tímasett upprifjun» — короткая (hero.pills). Проверить, что обе читаются как один и тот же механизм.",
+      "faq.items[1].a «má endurskrifa á einfaldara máli» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Lifandi samtal við manneskju er ekki komið enn – það er á áætlun» и method.conductor.badge «Væntanlegt» сохраняют ограничение. При вычитке не усиливать.",
+      "Названия книг: изданным исландским взято только «Litli prinsinn» (в library.panels[0] в þágufall — «frá Litla prinsinum»). «Harry Potter», «Dune», «A Game of Thrones» и четыре деловые книги в library.examples оставлены латиницей: изданных исландских названий найти не удалось, а изобретать бриф запрещает. Проверить по каталогу Landsbókasafn / Forlagið; если издание есть — подставить. «Hawking» в eignarfall — «Hawkings».",
+      "library.tabs[2] «Fróðleikur» — рабочий вариант для «Discovery» (третья вкладка = короткие статьи). Если во вкладке приложения другое слово, синхронизировать с UI.",
+      "pains.answers[7] «Ég óttast að þetta henti mér ekki» выбрано вместо «Ég er hrædd(ur)», чтобы не выбирать род говорящего — в исландском прилагательное согласуется по роду.",
+      "reviews.items[*].text написаны от лица людей, учивших английский/португальский/немецкий/сербский; на пар-страницах отзывы придётся курировать под тему пары (см. i18n/README.md). reviews.items[0] «Bíð spennt» — женский род по автору (Екатерина М.).",
+      "meta.description при подстановке «aserbaídsjönsku» стоит близко к верхней границе бюджета: правка длиннее нескольких знаков выбьет её из 160."
+    ]
+  }
+}

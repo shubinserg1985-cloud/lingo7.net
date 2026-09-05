@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "title": "Al lezend {target} leren: tweetalige boeken en audio",
+    "description": "Lees boeken in het {target} met de Nederlandse vertaling ernaast en audio, leer woorden met gespreide herhaling en bespreek elk hoofdstuk met AI.",
+    "ogTitle": "Al lezend {target} leren: tweetalige boeken en audio",
+    "ogDescription": "Lees boeken in het {target} met de Nederlandse vertaling ernaast en audio bij elke zin. Met één tik sla je een woord op, en door gespreide herhaling komt het op tijd weer langs.",
+    "twitterTitle": "Al lezend {target} leren: tweetalige boeken en audio",
+    "twitterDescription": "Lees boeken in het {target} met het Nederlands er pal naast, sla nieuwe woorden op met één tik en herhaal ze precies op het juiste moment."
+  },
+  "nav": {
+    "links": [
+      "Hoe het werkt",
+      "Bibliotheek",
+      "Talen",
+      "Reviews",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Leer {target} door boeken te lezen, niet door rijtjes te stampen",
+    "subtitle": "Lees en luister naar wat je echt interesseert, sla woorden rechtstreeks uit de tekst op, en met gespreide herhaling komen ze precies op tijd weer langs.",
+    "cta": "Download de app",
+    "trust": "49 talen • iPhone / Android",
+    "pills": [
+      "Parallelle vertaling",
+      "Luisteren + lezen",
+      "Woordentrainer",
+      "Gespreide herhaling",
+      "Elk boek, elke tekst",
+      "Shadowing",
+      "Praten met AI over het boek"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Een boek in plaats van een cursus",
+        "span": "Leer met wat je toch al zou lezen"
+      },
+      {
+        "strong": "49 talen",
+        "span": "Van de grootste tot de zeldzaamste"
+      },
+      {
+        "strong": "Een bibliotheek voor elke smaak",
+        "span": "Klassiekers, wereldbestsellers en artikelen"
+      },
+      {
+        "strong": "Alles draait in één cyclus",
+        "span": "Lezen, audio, woorden en herhaling"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Waarom de meeste taalapps blijven liggen – en deze niet",
+    "subtitle": "Het lag nooit aan jouw discipline. Het lag aan het formaat.",
+    "labelOld": "❌ Meestal",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Je stampt woorden die je daarna niet kunt gebruiken",
+          "text": "Lijstjes en kaartjes zonder context. Morgen ben je ze weer kwijt."
+        },
+        "new": {
+          "title": "Woorden komen langs in echte zinnen",
+          "text": "Je ziet hoe een woord zich in een zin gedraagt, dus het blijft hangen zonder dat je het erin hoeft te rammen."
+        }
+      },
+      {
+        "old": {
+          "title": "Elke dag weer diezelfde oefeningen",
+          "text": "Het wordt saai, de motivatie zakt, en na de eerste week blijft de app dicht."
+        },
+        "new": {
+          "title": "Je leest wat je toch al zou lezen",
+          "text": "Bestsellers, bizarre ware verhalen, populaire wetenschap – materiaal waar je uit jezelf naar terugkeert."
+        }
+      },
+      {
+        "old": {
+          "title": "Het origineel lezen is te zwaar",
+          "text": "Overal onbekende woorden, de draad raak je kwijt, en op pagina één haak je af."
+        },
+        "new": {
+          "title": "Parallelle vertaling, en anders een bewerking",
+          "text": "De vertaling staat pal naast de tekst, en een boek dat te moeilijk is, kan op jouw niveau herschreven worden."
+        }
+      },
+      {
+        "old": {
+          "title": "Je leest wat de catalogus toevallig heeft",
+          "text": "Een vaste bibliotheek. Je eigen boek erin zetten kan niet."
+        },
+        "new": {
+          "title": "Elk boek of document wordt je leerboek",
+          "text": "Geef de app de boeken waar je van houdt en de documenten die je nodig hebt, en je krijgt ze terug met parallelle vertaling, audio en woordherhaling."
+        }
+      },
+      {
+        "old": {
+          "title": "Je leest en luistert, maar het blijft passief",
+          "text": "Nergens om te spreken of te schrijven, dus het zit er nooit echt in."
+        },
+        "new": {
+          "title": "Je leest niet alleen – je spreekt en schrijft ook",
+          "text": "Je bespreekt met AI het boek dat je net uit hebt, dus je hoeft geen onderwerp te verzinnen. En als je iets te zeggen hebt, gaan praten en schrijven vanzelf."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Alle 7 taalvaardigheden op één plek",
+    "subtitle": "Een taal kennen betekent zeven vaardigheden beheersen. Lingo7 traint ze in samenhang in plaats van één voor één, zodat ze elkaar versterken.",
+    "skills": [
+      {
+        "title": "Lezen",
+        "text": "Lees het origineel of een bewerking met de vertaling er pal naast – snel, en zonder woordenboek."
+      },
+      {
+        "title": "Luisteren",
+        "text": "Luisterboeken en een luister-en-leesmodus – een van de beste manieren om je oor te trainen."
+      },
+      {
+        "title": "Woordenschat",
+        "text": "Nieuwe woorden blijven hangen tijdens het lezen, zonder stampen. Oefeningen en gespreide herhaling verankeren ze in je langetermijngeheugen."
+      },
+      {
+        "title": "Grammatica",
+        "text": "Grammatica pik je het beste op door de regels aan het werk te zien in een echte zin."
+      },
+      {
+        "title": "Schrijven",
+        "text": "AI-chat: je bespreekt wat je net gelezen hebt, dus er is altijd iets om over te schrijven. De AI helpt je je gedachte vorm te geven en haalt je fouten eruit."
+      },
+      {
+        "title": "Spreken",
+        "text": "Shadowing: je zegt de verteller hardop na en traint zo je vlotheid, ritme en intonatie."
+      },
+      {
+        "title": "Uitspraak",
+        "text": "Uitspraakoefeningen brengen je accent dichter bij hoe een moedertaalspreker klinkt."
+      }
+    ],
+    "conductor": {
+      "badge": "Persoonlijk plan · Binnenkort",
+      "title": "De app vertelt je wat je vandaag gaat doen",
+      "text": "Hij kiest het juiste onderdeel op het juiste moment – lezen, hardop herhalen, woorden inslijpen of een hoofdstuk met AI bespreken. Jij hoeft nooit te bedenken waar je begint en wat daarna komt.",
+      "caption": "Een voorbeeldsessie voor vandaag – de jouwe stelt de app samen.",
+      "steps": [
+        {
+          "label": "Lezen",
+          "meta": "15 min"
+        },
+        {
+          "label": "Luisteren & lezen",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Nu · 7 min"
+        },
+        {
+          "label": "Woorden",
+          "meta": "25 kaartjes"
+        },
+        {
+          "label": "AI-chat",
+          "meta": "hoofdstuk bespreken"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Een taal leren uit boeken: vijf stappen",
+    "subtitle": "Geen ingewikkelde methode. Eén heldere cyclus, met content die goed genoeg is om je er doorheen te trekken.",
+    "items": [
+      {
+        "title": "Kies je content",
+        "text": "Samenvattingen van bestsellers, klassiekers, korte verhalen – op stemming, op niveau, op de tijd die je hebt."
+      },
+      {
+        "title": "Lees met parallelle vertaling",
+        "text": "Origineel en vertaling naast elkaar; tik op een woord voor de betekenis, de uitspraak of om het op te slaan."
+      },
+      {
+        "title": "Leer de woorden",
+        "text": "Opgeslagen woorden komen terug in oefeningen die verschillende soorten geheugen aanspreken, verspreid over de tijd."
+      },
+      {
+        "title": "Luister en herhaal hardop",
+        "text": "Bij elke zin hoort audio: luister en zeg de verteller na – zo werk je aan je uitspraak en je intonatie."
+      },
+      {
+        "title": "Bespreek het boek met AI",
+        "text": "De AI loopt het boek met je door – je oefent schrijven en spreken, en leert je gedachten in een nieuwe taal te vatten."
+      }
+    ]
+  },
+  "library": {
+    "title": "Boeken in het {target} met vertaling – per niveau, van A1 tot C1",
+    "subtitle": "Je leert niet alleen een taal, je leert er ook iets bij. Materiaal voor elk niveau, van de eerste stappen tot gevorderd.",
+    "tabs": [
+      "Klassiekers",
+      "Bestsellers",
+      "Ontdekken"
+    ],
+    "panels": [
+      {
+        "title": "Lees de grote boeken in het origineel – met een vangnet",
+        "text": "Bewerkte en originele versies voor verschillende niveaus, van De kleine prins tot Hawking. Door de parallelle vertaling blijft ook lastig proza leesbaar.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Halfgevorderd",
+          "C1+ Gevorderd"
+        ]
+      },
+      {
+        "title": "De kern van de beste boeken ter wereld in 7–15 minuten",
+        "text": "De belangrijkste ideeën uit wereldbestsellers, kort naverteld – in de taal die je leert. Je komt verder én je leert de taal, in één zitting.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Halfgevorderd",
+          "C1+ Gevorderd"
+        ]
+      },
+      {
+        "title": "5 minuten per dag: één goed feit en een paar nieuwe woorden",
+        "text": "Ruimtevaart, psychologie, ondernemen, natuur, techniek – honderden korte artikelen over elk onderwerp. Elke dag leer je iets nieuws, en de taal komt er vanzelf bij.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Halfgevorderd",
+          "C1+ Gevorderd"
+        ]
+      }
+    ],
+    "examples": [
+      "Denk groot en word rijk • Het 80/20-principe • De zeven eigenschappen van effectief leiderschap • De kracht van het NU"
+    ]
+  },
+  "customBook": {
+    "badge": "NIEUW",
+    "title": "Upload je eigen boek of tekst en leer daarmee",
+    "text": "Upload een bestand en Lingo7 maakt er lesmateriaal van, met parallelle vertaling en audio. Daarna gaat het zoals altijd: je leest, je luistert, je leert woorden, je werkt aan je spraak met shadowing en je bespreekt het met AI.",
+    "cards": [
+      {
+        "title": "Bestsellers in het origineel",
+        "text": "Harry Potter, Duin, Het spel der tronen – lees de boeken waar je al lang aan toe wilde komen, in de taal die je leert."
+      },
+      {
+        "title": "De taal die je werk en studie van je vragen",
+        "text": "Werkdocumenten, papers, examenstof – leer de taal van het vakgebied waar je nu echt in zit."
+      }
+    ],
+    "usecases": [
+      "Examens",
+      "Werk",
+      "Artikelen",
+      "Sollicitaties"
+    ],
+    "formatsNote": "Upload je eigen bestanden in deze formaten:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Bewerking",
+      "title": "Lees elk boek – <span class=\"accent\">herschreven</span> op jouw maat",
+      "text": "Woorden en grammatica nog te lastig? Lingo7 herschrijft het boek in eenvoudiger taal – hetzelfde verhaal, dezelfde personages, makkelijkere zinnen.",
+      "cta": "Probeer het op je eigen boek"
+    },
+    "goalQuote": "Mijn favoriete recept: pak Harry Potter en doe elke dag een hoofdstuk – lezen, luisteren, de nieuwe woorden leren, erover praten met AI. Een halfjaar lang een uur of twee per dag en je komt <span class=\"goal-quote__level\">van A2 op B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 is iets voor jou als je...",
+    "items": [
+      "Wilt leren van content in plaats van lessen waar je jezelf doorheen moet slepen",
+      "Meer wilt dan lezen alleen – ook luisteren, spreken en schrijven: je uitspraak oefenen via shadowing, je gedachten onder woorden brengen in de AI-chat",
+      "Met je eigen materiaal wilt werken – werkdocumenten, lievelingsboeken en artikelen – en niet alleen met kant-en-klare lessen",
+      "Een zeldzame taal zoekt die de meeste apps niet hebben",
+      "In korte sessies van 5-15 minuten wilt werken"
+    ]
+  },
+  "pains": {
+    "title": "Wat je tegenhoudt – en wat Lingo7 eraan doet",
+    "subtitle": "Het is geen kwestie van aanleg. Het is een kwestie van formaat.",
+    "chips": [
+      "Bang om te praten",
+      "Ik verveel me",
+      "Woorden blijven niet hangen",
+      "Lezen is zwaar",
+      "Ik versta het niet",
+      "Geen tijd",
+      "Zeldzame taal",
+      "Past niet bij mij"
+    ],
+    "answers": [
+      {
+        "title": "“Ik schaam me om te praten en fouten te maken”",
+        "text": "Shadowing is de zinnen van de verteller hardop nazeggen, in je eentje, zonder dat iemand er een cijfer voor geeft. Zo krijg je een goede uitspraak. In de AI-chat oefen je formuleringen schriftelijk, en de AI corrigeert je vriendelijk."
+      },
+      {
+        "title": "“Ik verveel me snel”",
+        "text": "In plaats van lessen die op elkaar lijken: boeken, bestsellers en artikelen over onderwerpen waar je toch al over leest. Als de content je pakt, kom je vanzelf terug."
+      },
+      {
+        "title": "“Ik zie de woorden wel, maar ze blijven niet hangen”",
+        "text": "Met één tik sla je een woord op uit de zin waarin het staat, en daarna komt het als kaartje terug, met steeds langere tussenpozen. Onthouden is geen kwestie van geluk meer."
+      },
+      {
+        "title": "“Het origineel lezen is te moeilijk voor mij”",
+        "text": "Parallelle vertaling met de zinnen netjes naast elkaar – je hoeft niet om de twee regels naar een vertaalmachine te grijpen."
+      },
+      {
+        "title": "“Ik versta gesproken taal niet”",
+        "text": "In de luister-en-leesmodus koppel je de klank van een woord aan de spelling en de betekenis. Je oor raakt vanzelf aan de taal gewend."
+      },
+      {
+        "title": "“Ik heb er de tijd niet voor”",
+        "text": "Korte formats en snelle sessies – zelfs 5-10 minuten per dag houdt je in het ritme."
+      },
+      {
+        "title": "“Ik heb een zeldzame taal nodig”",
+        "text": "49 talen, ook de zeldzame. En je leert ze allemaal vanuit je eigen moedertaal."
+      },
+      {
+        "title": "“Ik ben bang dat het niet bij me past”",
+        "text": "Als je kunt lezen, past het bij je. Voorkennis, grammatica of voorbereiding heb je niet nodig – begin met elk boek op jouw niveau."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Leer {target}",
+    "title": "49 talen, van veelgesproken tot zeldzaam",
+    "subtitle": "Leer elke taal vanuit je eigen moedertaal – en niet alleen via het Engels, zoals de meeste apps je opdringen.",
+    "groupTitles": [
+      "Populair",
+      "Alle talen"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 talenparen.</strong> Kies elke combinatie die je wilt: de taal die je leert, en de taal waarin je de vertaling leest."
+  },
+  "reviews": {
+    "title": "We hadden niet verwacht dat je het zó leuk zou vinden",
+    "subtitle": "Maar feiten zijn feiten – dit is wat mensen op Google Play schrijven.",
+    "items": [
+      {
+        "text": "Geweldige app. Enorm pluspunt dat één boek in meerdere Engelse niveaus te krijgen is. Ik wacht met smart op de update!",
+        "author": "Екатерина М.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Ik heb het jaarabonnement genomen en dat is de prijs meer dan waard. Dit is echt een prachtige app! Een uitstekende bron om je Engels te verbeteren. Van volwassenen tot kinderen – niet alleen nuttig, maar noodzakelijk.",
+        "author": "Mayur L.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Ik had Portugees nodig om met een team in Brazilië te werken. Lezen + audio tegelijk werkt heel goed. Na 6 weken kon ik de meetings al volgen.",
+        "author": "Rosita R.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Ik wilde altijd al Duits leren, en in deze app is alles veel toegankelijker en duidelijker dan in vergelijkbare apps. App is een 10 van de 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Ik gebruik lezen met audio en dat is voor mij een echte doorbraak geweest. De audiotracks zijn helder en goed gesynchroniseerd. Fantastisch hulpmiddel voor wie een taal leert.",
+        "author": "Zeynep O.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Het idee en de uitvoering krijgen een dikke tien. Op dit moment is dit de enige app met Servische boeken. Goed gedaan! Bedankt!",
+        "author": "Вася К.",
+        "source": "Google Play • bekijk het origineel"
+      },
+      {
+        "text": "Dit is echt een prachtige app voor mij als docent. Ik raad hem mijn leerlingen aan. Heel prettig. Ik raad hem iedereen aan.",
+        "author": "Sasha T.",
+        "source": "Google Play • bekijk het origineel"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Veelgestelde vragen",
+    "items": [
+      {
+        "q": "Werkt Lingo7 ook als ik nog helemaal niets ken?",
+        "a": "Ja. Er is materiaal op elk niveau, en door de parallelle vertaling begrijp je de tekst vanaf het allereerste moment."
+      },
+      {
+        "q": "Welk niveau heb ik nodig om in het origineel te lezen?",
+        "a": "Elk niveau. De parallelle vertaling maakt een woordenboek overbodig, en een boek dat te moeilijk is, kan in eenvoudiger taal herschreven worden – hetzelfde verhaal, dezelfde personages, maar de grammatica en de woorden van jouw niveau. Alles is gemarkeerd van A1 tot C1."
+      },
+      {
+        "q": "Kan ik met 10 minuten per dag toe?",
+        "a": "Ja. Korte artikelen, boeksamenvattingen en woordkaartjes zijn gemaakt voor korte dagelijkse sessies."
+      },
+      {
+        "q": "Welke talen zijn er?",
+        "a": "49 talen, en je leert ze allemaal vanuit je eigen moedertaal – niet alleen via het Engels. Dat zijn 49 × 48 = 2352 talenparen, zeldzame talen inbegrepen."
+      },
+      {
+        "q": "Wat is het verschil met de gebruikelijke taalapps?",
+        "a": "In plaats van losse oefeningen leer je van content die je interesseert, met alle vaardigheden in één cyclus: je leest en luistert, slaat woorden op voor gespreide herhaling, pikt grammatica op in context, werkt aan je spraak met shadowing en aan je schrijven in de AI-chat. En je kunt je eigen boek of document uploaden."
+      },
+      {
+        "q": "Kun je er ook spreken mee oefenen?",
+        "a": "Ja. Voor spreken is er shadowing – je zegt de zinnen van de verteller hardop na en oefent zo je uitspraak en je intonatie. Voor schrijven is er de AI-chat: je bespreekt wat je gelezen hebt, en de AI helpt je met formuleren en wijst je op je fouten. Een levend gesprek met een mens zit er nog niet in – dat staat op de planning."
+      },
+      {
+        "q": "Welke bestandsformaten kan ik uploaden?",
+        "a": "PDF, EPUB, FB2 en TXT. Upload werkdocumenten, lievelingsboeken of artikelen – de app maakt de parallelle vertaling, zet er audio bij en verzamelt de nieuwe woorden in de trainer."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Begin vandaag {target} te leren – met een boek in plaats van rijtjes",
+    "text": "Download de app en sla je eerste boek open.",
+    "perks": [
+      "49 talen",
+      "Elk niveau"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Over ons",
+      "Contact",
+      "Vacatures",
+      "Voor scholen",
+      "Hoe leer je een taal",
+      "Gebruiksvoorwaarden",
+      "Privacy"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Alle rechten voorbehouden."
+  },
+  "downloadModal": {
+    "title": "Haal Lingo7 binnen",
+    "text": "Verkrijgbaar in de App Store en Google Play"
+  },
+  "stickyCta": {
+    "label": "Download de app"
+  },
+  "mobileMenu": {
+    "links": [
+      "Hoe het werkt",
+      "Bibliotheek",
+      "Talen",
+      "Reviews",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang = nl). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Luisteren",
+      "add": "Opslaan",
+      "translate": "Vertaling",
+      "addToMyWords": "Aan mijn woorden toevoegen",
+      "inMyWords": "Staat bij mijn woorden",
+      "audioMode": "Audiomodus",
+      "discussWithAi": "Bespreken met AI",
+      "selfCheck": "Test jezelf"
+    },
+    "wordCard": {
+      "freqHigh": "VAAK",
+      "freqMid": "GEMIDDELD",
+      "example": "Voorbeeld",
+      "otherTranslations": "Meer vertalingen",
+      "synonyms": "Synoniemen",
+      "open": "Openen",
+      "group": "Groep:",
+      "groupDefault": "Algemeen",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEKST",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Mijn woorden markeren",
+      "highlightMyWordsHint": "Markeert de woorden die je hebt opgeslagen",
+      "theme": "Thema",
+      "themeLight": "Licht",
+      "fontSize": "Tekstgrootte",
+      "font": "Lettertype",
+      "speakOnTap": "Woord uitspreken bij tikken",
+      "speakOnTapHint": "Leest het woord voor waar je op tikt",
+      "speechRate": "Spreeksnelheid",
+      "pronunciationTest": "Uitspraaktest",
+      "playSample": "Voorbeeldzin afspelen",
+      "reset": "Instellingen herstellen",
+      "done": "Klaar",
+      "on": "Aan",
+      "off": "Uit",
+      "accent": "Accent",
+      "translationAlways": "Altijd"
+    },
+    "vocab": {
+      "pickRightPicture": "Kies de juiste afbeelding",
+      "correct": "Helemaal goed",
+      "rightAnswer": "Juiste antwoord:",
+      "next": "Volgende",
+      "done": "Klaar",
+      "skip": "Overslaan",
+      "exercise": "Oefening",
+      "exerciseMeta": "/11 · 10 woorden"
+    },
+    "chat": {
+      "title": "Oefenen",
+      "discussing": "We bespreken “{book}”",
+      "finish": "Afronden",
+      "playing": "Speelt af…",
+      "replyOptions": "Antwoordopties",
+      "placeholder": "Schrijf een bericht"
+    },
+    "bookDetail": {
+      "adapted": "Bewerkt",
+      "adaptedHint": "Herschreven in eenvoudiger taal, betekenis behouden",
+      "original": "Origineel",
+      "originalHint": "De volledige originele tekst, ongewijzigd",
+      "open": "Openen",
+      "genre": "Genre",
+      "badgeSummary": "Samenvatting"
+    },
+    "library": {
+      "profile": "Profiel",
+      "search": "Zoeken",
+      "upload": "Upload een boek",
+      "tabCatalog": "Catalogus",
+      "tabAll": "Alle boeken",
+      "tabFavorites": "Favorieten",
+      "shelfBestsellers": "Wereldbestsellers",
+      "shelfBestsellersSub": "kort naverteld, met audio",
+      "shelfStories": "Korte verhalen",
+      "shelfStoriesSub": "Kleine verhalen met een grote boodschap",
+      "bandTitle": "5 minuten per dag",
+      "bandText": "Ontdek elke dag interessante feiten – en de taal leer je er vanzelf bij!",
+      "shelfAmazing": "Wonderlijke verhalen",
+      "shelfNature": "Raadsels van de natuur",
+      "shelfHealth": "Gezondheid en wetenschap",
+      "moreTopics": "Meer onderwerpen",
+      "shelfGolden": "Gouden klassiekers",
+      "shelfGoldenSub": "200 boeken die de mensheid veranderden",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Bibliotheek",
+      "practice": "Oefenen",
+      "read": "Lezen",
+      "myWords": "Mijn woorden",
+      "collections": "Collecties"
+    }
+  },
+  "_note": "Полная локаль nl (нидерландский, язык интерфейса читателя my_lang). Переведена с эталона i18n/en.json 2026-08-29 по брифу i18n/TRANSLATION-BRIEF.md; интонация сверена с русским оригиналом ru.json. Структура ключей собрана из en.json программно, значения написаны заново по-нидерландски, не подстрочником. Обращение — на «je» (единственная норма для потребительского приложения). ВАЖНО: пометка в задании «в nl названия языков со строчной» неверна — нидерландский пишет их С ЗАГЛАВНОЙ (Spaans, Engels, Azerbeidzjaans), как и африкаанс; строчные названия у da/no/sv/is. Поэтому lead=capital и слот безопасен в любой позиции. Имена авторов отзывов, customBook.formats, коды CEFR, числа и эмодзи скопированы побайтово. Строки для живой вычитки носителем — в _contract.risks. Файл прошёл снятие калек по i18n/en.gloss.json: все 30 строк глоссария перепроверены на образность эталона, 18 переписаны (verteller nazeggen вместо napraten, elkaar versterken вместо meetrekken, te moeilijk вместо te zwaar, weer langskomen вместо terugbrengen), бюджет выдачи пересчитан. Третий круг (независимый разбор i18n/_qa/gemini-nl.json, слепой обратный перевод + аудит носителя): приняты 8 правок — снят неодушевлённый агенс «Eén tik slaat een woord op» в meta.ogDescription и pains.answers[2] (теперь «Met één tik sla je … op», как и в эталоне, где подлежащее — читатель), hero.subtitle «met gespreide herhaling komen ze … weer langs», method.subtitle «traint ze in samenhang» (samen читалось как «вместе с кем-то»), method.conductor.title «De app vertelt je wat je vandaag gaat doen», исправлен двойной объект при nazeggen в faq.items[5].a и pains.answers[0] («de zinnen van de verteller hardop na»), восстановлен глагол в идиоме «je gedachten onder woorden brengen» (audience.items[1]), снята двусмысленность «verbetert je» → «corrigeert je vriendelijk». Отклонены как вкусовщина или ложные срабатывания: «in het origineel lezen» (нормальная нидерландская коллокация, не калька), «uit boeken leren» (именно «from books»), «leer daarvan» (дало бы «извлечь урок», а не «учиться по материалу»), «Begin vandaag met {target} leren» (два met подряд), «het boek dat je net uit hebt» (так и в эталоне), «Al lezend» в заголовке, добавление предлога в перечисление faq.items[1].a. Бюджет выдачи пересчитан: title 58, description 151, og 183, twitter 144 при «Azerbeidzjaans».",
+  "_contract": {
+    "government": "Кале, неизменяемая форма названия языка (Nullartikel-vorm) — она же субстантив. Объявленная позиция: беспредложное дополнение при leren/lezen — «{target} leren», «Begin vandaag {target} te leren». Нидерландский падежей не имеет, названия языков не склоняются и в этой позиции дают ровно те же байты, что и в словарной форме: Spaans, Engels, Azerbeidzjaans, Zoeloe, Swahili. В meta.description/og/twitter и library.title тот же атом стоит после моей собственной связки «in het» («boeken in het {target}»): артикль het при названиях языков в нидерландском фиксирован — он ОДИН И ТОТ ЖЕ для всех 49 названий (het Spaans, het Zoeloe, het Azerbeidzjaans) и от подставленного слова не зависит, поэтому это не второй слот и не алломорфный сосед, а часть каркаса. ЗАПРЕЩЕНО атрибутивное употребление («Spaanse boeken») — это вторая, склоняемая лексема (Spaans → Spaanse), её в файле нет нигде.",
+    "slotExample": "Spaans",
+    "slotExampleEnglish": "Engels",
+    "longestSlot": "Azerbeidzjaans",
+    "longestSlotLang": "азербайджанский — 14 знаков; следом Wit-Russisch (12), Indonesisch / Kirgizisch / Macedonisch (по 11), Nederlands / Tsjechisch / Vietnamees (по 10)",
+    "titleRenderedLen": 58,
+    "descRenderedLen": 151,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "Регистр — данные, а не преобразование, но в нидерландском он безопасен: названия языков пишутся с заглавной (Spaans, Engels, Azerbeidzjaans), поэтому слот может стоять где угодно, в том числе первым словом. Требование к таблице названий обратное обычному: она обязана отдавать ИМЕННО заглавную — строчное «spaans» по-нидерландски просто орфографическая ошибка.",
+      "Артикль het перед слотом («boeken in het {target}») стоит в meta.description, ogDescription, twitterDescription и library.title. Он фиксирован для всех 49 названий и потому безопасен, но если в таблицу однажды попадёт форма с собственным артиклем или фразовое «de Nederlandse taal», сломаются сразу четыре строки. Слот обязан содержать голое название и ничего больше.",
+      "meta.title «Al lezend {target} leren» — идиоматическая нидерландская конструкция (ср. «al doende leert men»), выбрана вместо кальки «Leer {target} door te lezen», чтобы уместить в 60 знаков и книги, и аудио. Носителю проверить, что в заголовке лендинга она не звучит книжно; запасной вариант — «Leer {target} door te lezen: tweetalige boeken» (52 знака).",
+      "hero.title «niet door rijtjes te stampen» — живая школьная идиома для grinding through drills. Проверить, что рядом с остальным текстом не звучит слишком по-школьному; она же отзывается в finalCta.title.",
+      "«Shadowing» оставлен английским термином (как в ru/de/da/is): устоявшегося нидерландского слова нет, «nazeggen» описывает действие, но не метод. Если редакция решит иначе — менять сразу в 8 строках.",
+      "«AI» оставлено аббревиатурой (живая норма нидерландских приложений), а не «KI» и не «kunstmatige intelligentie». Артикль «de AI» стоит только там, где нидерландский требует определённости.",
+      "«gespreide herhaling» — принятый нидерландский термин для spaced repetition; в коротких слотах он же, без синонимов, чтобы читалось как один механизм. Проверить, что в hero.pills не выглядит канцелярски.",
+      "faq.items[1].a «kan in eenvoudiger taal herschreven worden» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Een levend gesprek met een mens zit er nog niet in – dat staat op de planning» и method.conductor.badge «Binnenkort» сохраняют ограничение. При вычитке не усиливать.",
+      "Названия книг взяты изданные нидерландские: «De kleine prins», «Duin», «Het spel der tronen», «Denk groot en word rijk», «Het 80/20-principe», «De zeven eigenschappen van effectief leiderschap», «De kracht van het NU». «Harry Potter» — как есть. Проверить по каталогу нидерландских издательств, особенно «Denk groot en word rijk» (у Хилла в NL несколько разных названий) и «Het spel der tronen».",
+      "library.tabs[2] «Ontdekken» — рабочий вариант для «Discovery» (третья вкладка = короткие статьи). Если во вкладке приложения другое слово, синхронизировать с UI.",
+      "Кавычки — «…» нидерландской типографики: в нидерландском это те же двойные кавычки, что и в английском (Taalunie/Onze Taal), поэтому в pains.answers они совпадают с эталоном не по недосмотру, а по норме.",
+      "reviews.items[*].text написаны от лица людей, учивших английский/португальский/немецкий/сербский; на пар-страницах отзывы придётся курировать под тему пары (см. i18n/README.md).",
+      "meta.description при подстановке «Azerbeidzjaans» стоит близко к верхней границе бюджета: правка длиннее нескольких знаков выбьет её из 160."
+    ]
+  }
+}

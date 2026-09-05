@@ -1,0 +1,549 @@
+{
+  "meta": {
+    "title": "Learn {target} by Reading: Bilingual Books & Audio",
+    "description": "Read {target} books with side-by-side English translation and audio, learn words with spaced repetition, practice shadowing and discuss chapters with AI.",
+    "ogTitle": "Learn {target} by Reading: Bilingual Books & Audio",
+    "ogDescription": "Read {target} books with side-by-side English translation and audio. Save words with one tap and review them with spaced repetition.",
+    "twitterTitle": "Learn {target} by Reading: Bilingual Books & Audio",
+    "twitterDescription": "Read {target} books with English beside them, save words with one tap, and review them with spaced repetition."
+  },
+  "nav": {
+    "links": [
+      "How it works",
+      "Library",
+      "Languages",
+      "Reviews",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Learn {target} by reading books, not by grinding through drills",
+    "subtitle": "Read and listen to things you actually care about, save words straight from the page, and let a spaced-repetition algorithm bring them back.",
+    "cta": "Get the app",
+    "trust": "49 languages • iPhone / Android",
+    "pills": [
+      "Parallel translation",
+      "Audio + reading",
+      "Vocabulary builder",
+      "Spaced repetition",
+      "Any book or text",
+      "Shadowing",
+      "Discuss the book with AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "A book instead of a course",
+        "span": "Study the thing you'd read for fun"
+      },
+      {
+        "strong": "49 languages",
+        "span": "From the most spoken to the rarest"
+      },
+      {
+        "strong": "A library with range",
+        "span": "Classics, world bestsellers and articles"
+      },
+      {
+        "strong": "It all runs in one loop",
+        "span": "Reading, audio, vocabulary and review"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Why most language apps get abandoned – and this one doesn't",
+    "subtitle": "The problem was never your discipline. It was the format.",
+    "labelOld": "❌ Usually",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "You memorize words you can't actually use",
+          "text": "Lists and flashcards with no context. Gone again by tomorrow."
+        },
+        "new": {
+          "title": "Words turn up inside real sentences",
+          "text": "You see how a word behaves in context, so it sticks without being forced."
+        }
+      },
+      {
+        "old": {
+          "title": "The same exercises every single day",
+          "text": "It gets dull, motivation drops, and the app sits unopened after week one."
+        },
+        "new": {
+          "title": "You read what you'd read anyway",
+          "text": "Bestsellers, strange true stories, popular science – material you come back to on your own."
+        }
+      },
+      {
+        "old": {
+          "title": "Reading the original is too hard",
+          "text": "Unknown words everywhere, the plot slips away, you quit on page one."
+        },
+        "new": {
+          "title": "Parallel translation, plus adaptation",
+          "text": "The translation sits right beside the text, and a book that's too hard can be rewritten at your level."
+        }
+      },
+      {
+        "old": {
+          "title": "You read whatever the catalog happens to have",
+          "text": "A fixed library. No way to bring your own book."
+        },
+        "new": {
+          "title": "Any book or text becomes your textbook",
+          "text": "Hand the app the books you love and the documents you need, and it gives them back with parallel translation, audio and word review."
+        }
+      },
+      {
+        "old": {
+          "title": "You read and listen, but it's all passive",
+          "text": "Nowhere to speak or write, so the skill never sets."
+        },
+        "new": {
+          "title": "You don't only read – you speak and write",
+          "text": "You talk over the book you just finished with AI, so there's no topic to invent. When you have something to say, saying and writing it gets easy."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "All 7 language skills in one place",
+    "subtitle": "Knowing a language is seven skills. Lingo7 trains them together instead of one at a time, so each one pulls the others along.",
+    "skills": [
+      {
+        "title": "Reading",
+        "text": "Read the original or an adapted version with the translation right beside it – fast, and without a dictionary."
+      },
+      {
+        "title": "Listening",
+        "text": "Audiobooks and a listen-while-you-read mode – one of the most effective ways to train your ear."
+      },
+      {
+        "title": "Vocabulary",
+        "text": "New words stick as you read, without drilling them. Exercises and spaced repetition lock them in for the long run."
+      },
+      {
+        "title": "Grammar",
+        "text": "The best way to absorb grammar is to watch the rules do their work inside a real sentence."
+      },
+      {
+        "title": "Writing",
+        "text": "AI chat: you discuss what you just read, so there's always something to write about. It helps you shape the thought and catches your mistakes."
+      },
+      {
+        "title": "Speaking",
+        "text": "Shadowing: you repeat after the narrator out loud and build fluency, rhythm and intonation."
+      },
+      {
+        "title": "Pronunciation",
+        "text": "Pronunciation exercises help you move your accent closer to the way a native speaker sounds."
+      }
+    ],
+    "conductor": {
+      "badge": "Personal plan · Coming soon",
+      "title": "The app will tell you what to do today",
+      "text": "It picks the right activity at the right moment – read, repeat out loud, lock in words or talk a chapter over with AI. You never have to decide where to start or what comes next.",
+      "caption": "A sample session for today – the app will build yours.",
+      "steps": [
+        {
+          "label": "Reading",
+          "meta": "15 min"
+        },
+        {
+          "label": "Listen & read",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Now · 7 min"
+        },
+        {
+          "label": "Words",
+          "meta": "25 cards"
+        },
+        {
+          "label": "AI chat",
+          "meta": "discuss the chapter"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "How to learn a language from books: five steps",
+    "subtitle": "No elaborate method. One clear cycle, with content good enough to carry you through it.",
+    "items": [
+      {
+        "title": "Pick your content",
+        "text": "Bestseller summaries, classics, short stories – by mood, by level, by the time you have."
+      },
+      {
+        "title": "Read with parallel translation",
+        "text": "Original and translation side by side; tap a word for its meaning, its audio, or to save it."
+      },
+      {
+        "title": "Learn the words",
+        "text": "Saved words come back in exercises that work different kinds of memory, spaced out over time."
+      },
+      {
+        "title": "Listen and repeat out loud",
+        "text": "Every sentence has audio: listen, then shadow the narrator – that's where pronunciation and intonation come from."
+      },
+      {
+        "title": "Talk the book over with AI",
+        "text": "The AI goes through the book with you – you practice writing and speaking, and learn to put thoughts into a new language."
+      }
+    ]
+  },
+  "library": {
+    "title": "{target} books with translation – by level, A1 to C1",
+    "subtitle": "You're not only learning a language, you're learning something. Material for every level, from first steps to advanced.",
+    "tabs": [
+      "Classics",
+      "Bestsellers",
+      "Discovery"
+    ],
+    "panels": [
+      {
+        "title": "Read the great books in the original – with a safety net",
+        "text": "Adapted and original versions for different levels, from The Little Prince to Hawking. Parallel translation keeps even difficult prose readable.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Intermediate",
+          "C1+ Advanced"
+        ]
+      },
+      {
+        "title": "The gist of the world's best books in 7–15 minutes",
+        "text": "The key ideas of global bestsellers, retold short – in the language you're learning. Grow and learn the language in the same sitting.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Intermediate",
+          "C1+ Advanced"
+        ]
+      },
+      {
+        "title": "5 minutes a day: one good fact and a few new words",
+        "text": "Space, psychology, business, nature, technology – hundreds of short articles on any subject. Learn something new every day, and the language comes with it.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Intermediate",
+          "C1+ Advanced"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "NEW",
+    "title": "Upload your own book or text and learn from that",
+    "text": "Upload any file and Lingo7 turns it into study material with parallel translation and audio. After that it's the usual loop: you read, listen, learn words, work on speech through shadowing and talk it over with AI.",
+    "cards": [
+      {
+        "title": "Bestsellers in the original",
+        "text": "Harry Potter, Dune, A Game of Thrones – read the books you've been meaning to get to, in the language you're learning."
+      },
+      {
+        "title": "The language your work and studies need",
+        "text": "Work documents, papers, exam material – learn the language of the field you're actually in right now."
+      }
+    ],
+    "usecases": [
+      "Exams",
+      "Work",
+      "Articles",
+      "Interviews"
+    ],
+    "formatsNote": "Upload your own files in these formats:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptation",
+      "title": "Read any book – <span class=\"accent\">rewritten</span> to fit you",
+      "text": "Vocabulary and grammar still too heavy? Lingo7 rewrites the book in simpler language – same story, same characters, lighter sentences.",
+      "cta": "Try it on your book"
+    },
+    "goalQuote": "My favorite recipe: take Harry Potter and do a chapter a day – read it, listen to it, learn the new words, talk it over with AI. Six months at an hour or two a day and you come out of <span class=\"goal-quote__level\">A2 at B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 is for you if you...",
+    "items": [
+      "Want to learn from content instead of lessons you have to push yourself through",
+      "Want more than reading – listening, speaking and writing too: pronunciation through shadowing, and putting thoughts into words in the AI chat",
+      "Want to study your own material – work documents, favorite books and articles – not only ready-made lessons",
+      "Need a rare language that most apps don't carry",
+      "Want to work in short 5-15 minute sessions"
+    ]
+  },
+  "pains": {
+    "title": "What gets in the way – and what Lingo7 does about it",
+    "subtitle": "It isn't a question of ability. It's a question of format.",
+    "chips": [
+      "Scared to speak",
+      "I get bored",
+      "Words don't stick",
+      "Reading is hard",
+      "Can't follow speech",
+      "No time",
+      "Rare language",
+      "Won't suit me"
+    ],
+    "answers": [
+      {
+        "title": "“I'm embarrassed to speak and get it wrong”",
+        "text": "Shadowing means repeating phrases after the narrator out loud, on your own, with nobody grading you. That's where pronunciation comes from. In the AI chat you work on phrasing in writing, and it corrects you gently."
+      },
+      {
+        "title": "“I get bored fast”",
+        "text": "Instead of interchangeable lessons: books, bestsellers and articles on subjects you'd read about anyway. When the content pulls, coming back is easy."
+      },
+      {
+        "title": "“I see the words but they don't stay”",
+        "text": "One tap saves a word out of its sentence, then it comes back as a card on a spaced schedule. Remembering stops being a matter of luck."
+      },
+      {
+        "title": "“Reading the original is too hard for me”",
+        "text": "Parallel translation with the sentences lined up – no jumping into a translator every other line."
+      },
+      {
+        "title": "“I can't follow the spoken language”",
+        "text": "Listen-and-read mode ties the sound of a word to its spelling and its meaning. Your ear gets used to the language naturally."
+      },
+      {
+        "title": "“I don't have the time”",
+        "text": "Short formats and quick sessions – even 5-10 minutes a day keeps you in the rhythm."
+      },
+      {
+        "title": "“I need a rare language”",
+        "text": "49 languages, rare ones included. And you learn any of them from your own native language."
+      },
+      {
+        "title": "“I'm afraid it won't suit me”",
+        "text": "If you can read, it suits you. No prior knowledge, grammar or preparation required – start with any book at your level."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Learn {target}",
+    "title": "49 languages, from the common to the rare",
+    "subtitle": "Learn any language from your own native one – not only through English, the way most apps make you.",
+    "groupTitles": [
+      "Popular",
+      "All languages"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 language pairs.</strong> Pick any combination: the language you're learning, and the language you read the translation in."
+  },
+  "reviews": {
+    "title": "We didn't expect you to like it this much",
+    "subtitle": "But facts are facts – here's what people write on Google Play.",
+    "items": [
+      {
+        "text": "Great app. Huge plus that one book can come in several English levels. Waiting impatiently for the update!",
+        "author": "Екатерина М.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "I got the annual subscription and it's very good value. This really is a wonderful app! An excellent resource for improving your English. From adults to children — not just useful but necessary.",
+        "author": "Mayur L.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "I needed Portuguese to work with a team in Brazil. Reading + audio at the same time is very effective. After 6 weeks I could already follow the meetings.",
+        "author": "Rosita R.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "Always wanted to learn German, and in this app everything is much more approachable and clear than in other apps like it. App is 10 out of 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "I use the read-with-audio feature and it's been a real breakthrough for me. The audio tracks are clear and well synced. Fantastic tool for language learners.",
+        "author": "Zeynep O.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "The idea and the execution get an A+. Right now it's the only app with Serbian books. Well done! Thank you!",
+        "author": "Вася К.",
+        "source": "Google Play • see original"
+      },
+      {
+        "text": "This really is a wonderful app for me as a teacher. I recommend it to my students. Very pleasant. I recommend it to everyone.",
+        "author": "Sasha T.",
+        "source": "Google Play • see original"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Will Lingo7 work for a complete beginner?",
+        "a": "Yes. There's material at every level, and parallel translation makes the text understandable from the very start."
+      },
+      {
+        "q": "What level do I need to read in the original?",
+        "a": "Any level. The parallel translation removes the need for a dictionary, and a book that is too hard can be rewritten simpler – the same story and characters, but the grammar and words of your level. Everything is marked A1 to C1."
+      },
+      {
+        "q": "Can I study 10 minutes a day?",
+        "a": "Yes. Short articles, book summaries and word cards are made for short daily sessions."
+      },
+      {
+        "q": "Which languages are available?",
+        "a": "49 languages, and you can learn any of them from your own native language – not only through English. That's 49 × 48 = 2352 language pairs, rare languages included."
+      },
+      {
+        "q": "How is this different from the usual language apps?",
+        "a": "Instead of disconnected exercises, you learn from content that interests you, with every skill tied into one loop: you read and listen, save words for spaced review, pick up grammar in context, work on speech through shadowing and on writing in the AI chat. And you can upload your own book or document."
+      },
+      {
+        "q": "Is there speaking practice?",
+        "a": "Yes. For speech there's shadowing – you repeat phrases after the narrator out loud and build pronunciation and intonation. For writing there's the AI chat: you discuss what you've read, and it helps you phrase things and finds your mistakes. Live conversation with a person isn't there yet – it's planned."
+      },
+      {
+        "q": "Which file formats can I upload?",
+        "a": "PDF, EPUB, FB2 and TXT. Upload work documents, favorite books or articles – the app builds the parallel translation, adds audio and collects the new words into the trainer."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Start learning {target} today, with a book instead of a drill",
+    "text": "Download the app and open your first book.",
+    "perks": [
+      "49 languages",
+      "Every level"
+    ]
+  },
+  "footer": {
+    "links": [
+      "About",
+      "Contact",
+      "Careers",
+      "For schools",
+      "How to learn languages",
+      "Terms of Service",
+      "Privacy"
+    ],
+    "copyright": "© 2024-2026 Lingo7. All rights reserved."
+  },
+  "downloadModal": {
+    "title": "Get Lingo7",
+    "text": "Available on the App Store and Google Play"
+  },
+  "stickyCta": {
+    "label": "Get the app"
+  },
+  "mobileMenu": {
+    "links": [
+      "How it works",
+      "Library",
+      "Languages",
+      "Reviews",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Listen",
+      "add": "Save",
+      "translate": "Translate",
+      "addToMyWords": "Add to my words",
+      "inMyWords": "In my words",
+      "audioMode": "Audio mode",
+      "discussWithAi": "Discuss with AI",
+      "selfCheck": "Test yourself"
+    },
+    "wordCard": {
+      "freqHigh": "COMMON",
+      "freqMid": "MEDIUM",
+      "example": "Example",
+      "otherTranslations": "More translations",
+      "synonyms": "Synonyms",
+      "open": "Open",
+      "group": "Group:",
+      "groupDefault": "General",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Highlight my words",
+      "highlightMyWordsHint": "Marks the words you saved",
+      "theme": "Theme",
+      "themeLight": "Light mode",
+      "fontSize": "Font size",
+      "font": "Font",
+      "speakOnTap": "Speak the word on tap",
+      "speakOnTapHint": "Reads out the word you tapped",
+      "speechRate": "Speech rate",
+      "pronunciationTest": "Pronunciation test",
+      "playSample": "Play a sample phrase",
+      "reset": "Reset settings",
+      "done": "Done",
+      "on": "On",
+      "off": "Off",
+      "accent": "Accent",
+      "translationAlways": "Always"
+    },
+    "vocab": {
+      "pickRightPicture": "Pick the right picture",
+      "correct": "Exactly right",
+      "rightAnswer": "Correct answer:",
+      "next": "Next",
+      "done": "Done",
+      "skip": "Skip",
+      "exercise": "Exercise",
+      "exerciseMeta": "/11 · 10 words"
+    },
+    "chat": {
+      "title": "Practice",
+      "discussing": "Discussing “{book}”",
+      "finish": "Finish",
+      "playing": "Playing…",
+      "replyOptions": "Reply options",
+      "placeholder": "Write a message"
+    },
+    "bookDetail": {
+      "adapted": "Adapted",
+      "adaptedHint": "Rewritten in simpler language, meaning kept",
+      "original": "Original",
+      "originalHint": "The full original text, unchanged",
+      "open": "Open",
+      "genre": "Genre",
+      "badgeSummary": "Summary"
+    },
+    "library": {
+      "profile": "Profile",
+      "search": "Search",
+      "upload": "Upload a book",
+      "tabCatalog": "Catalog",
+      "tabAll": "All books",
+      "tabFavorites": "Favorites",
+      "shelfBestsellers": "World bestsellers",
+      "shelfBestsellersSub": "in short retellings, with audio",
+      "shelfStories": "Short stories",
+      "shelfStoriesSub": "Little stories with a big point",
+      "bandTitle": "5 minutes a day",
+      "bandText": "Discover interesting facts every day — and the language comes with no extra effort!",
+      "shelfAmazing": "Amazing stories",
+      "shelfNature": "Mysteries of nature",
+      "shelfHealth": "Health and science",
+      "moreTopics": "More topics",
+      "shelfGolden": "Golden classics",
+      "shelfGoldenSub": "200 books that changed humankind",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Library",
+      "practice": "Practice",
+      "read": "Read",
+      "myWords": "My words",
+      "collections": "Collections"
+    }
+  }
+}

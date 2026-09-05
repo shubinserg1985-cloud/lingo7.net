@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "title": "Aprèn {target} llegint: llibres bilingües i àudio",
+    "description": "Llegeix llibres en {target} amb el català al costat i àudio, aprèn paraules amb repetició espaiada, fes shadowing i comenta els capítols amb la IA.",
+    "ogTitle": "Aprèn {target} llegint: llibres bilingües i àudio",
+    "ogDescription": "Llegeix llibres en {target} amb la traducció catalana al costat i àudio a cada frase. Guarda una paraula amb un toc i la repetició espaiada te la va recordant.",
+    "twitterTitle": "Aprèn {target} llegint: llibres bilingües i àudio",
+    "twitterDescription": "Llegeix llibres en {target} amb el català al costat, guarda paraules amb un sol toc i repassa-les amb repetició espaiada."
+  },
+  "nav": {
+    "links": [
+      "Com funciona",
+      "Biblioteca",
+      "Idiomes",
+      "Opinions",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Aprèn {target} llegint llibres, no pas a base d'exercicis repetitius",
+    "subtitle": "Llegeix i escolta coses que realment t'interessen, guarda les paraules directament de la pàgina i deixa que un algorisme de repetició espaiada te les vagi recordant.",
+    "cta": "Descarrega l'app",
+    "trust": "49 idiomes • iPhone / Android",
+    "pills": [
+      "Traducció paral·lela",
+      "Àudio + lectura",
+      "Entrenador de vocabulari",
+      "Repetició espaiada",
+      "Qualsevol llibre o text",
+      "Shadowing",
+      "Comenta el llibre amb la IA"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Un llibre en lloc d'un curs",
+        "span": "Estudia amb allò que llegiries per gust"
+      },
+      {
+        "strong": "49 idiomes",
+        "span": "Dels més parlats als més rars"
+      },
+      {
+        "strong": "Una biblioteca amb varietat",
+        "span": "Clàssics, best-sellers mundials i articles"
+      },
+      {
+        "strong": "Tot va en un mateix cicle",
+        "span": "Lectura, àudio, vocabulari i repàs"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Per què s'acaben abandonant les apps d'idiomes – i aquesta no",
+    "subtitle": "El problema mai no ha estat la teva disciplina. Era el format.",
+    "labelOld": "❌ Habitualment",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Memoritzes paraules que després no saps fer servir",
+          "text": "Llistes i targetes sense context. Demà ja no hi seran."
+        },
+        "new": {
+          "title": "Les paraules apareixen dins de frases de veritat",
+          "text": "Veus com funciona una paraula en context, i se't queda sense esforç."
+        }
+      },
+      {
+        "old": {
+          "title": "Els mateixos exercicis cada sant dia",
+          "text": "Es fa avorrit, la motivació cau i al cap d'una setmana l'app ja no s'obre."
+        },
+        "new": {
+          "title": "Llegeixes el que llegiries igualment",
+          "text": "Best-sellers, històries reals sorprenents, divulgació – material que tornes a obrir tot sol."
+        }
+      },
+      {
+        "old": {
+          "title": "Llegir en versió original es fa massa costa amunt",
+          "text": "Paraules desconegudes pertot arreu, el fil se't perd i ho deixes a la primera pàgina."
+        },
+        "new": {
+          "title": "Traducció paral·lela i, a més, adaptació",
+          "text": "La traducció és just al costat del text, i un llibre massa difícil es pot reescriure al teu nivell."
+        }
+      },
+      {
+        "old": {
+          "title": "Llegeixes el que hi ha al catàleg, i prou",
+          "text": "Una biblioteca tancada. Els teus llibres no hi caben."
+        },
+        "new": {
+          "title": "Qualsevol llibre o text es converteix en el teu manual",
+          "text": "Dona a l'app els llibres que t'agraden i els documents que necessites, i te'ls torna amb traducció paral·lela, àudio i repàs de paraules."
+        }
+      },
+      {
+        "old": {
+          "title": "Llegeixes i escoltes, però tot plegat és passiu",
+          "text": "No hi ha on parlar ni escriure, i l'habilitat no acaba d'arrelar."
+        },
+        "new": {
+          "title": "No només llegeixes – parles i escrius",
+          "text": "Comentes amb la IA el llibre que acabes de llegir, així no t'has d'inventar cap tema. Quan tens alguna cosa a dir, dir-ho i escriure-ho es fa fàcil."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Les 7 habilitats lingüístiques, totes en un mateix lloc",
+    "subtitle": "Saber un idioma vol dir dominar set habilitats. Lingo7 les entrena juntes, no d'una en una, i així cadascuna reforça les altres.",
+    "skills": [
+      {
+        "title": "Lectura",
+        "text": "Llegeix l'original o una versió adaptada amb la traducció just al costat – de pressa i sense diccionari."
+      },
+      {
+        "title": "Comprensió oral",
+        "text": "Audiollibres i mode escolta-i-llegeix – una de les maneres més eficaces d'educar l'oïda."
+      },
+      {
+        "title": "Vocabulari",
+        "text": "Les paraules noves se't queden mentre llegeixes, sense haver-les d'empollar. Els exercicis i la repetició espaiada les fixen per molt temps."
+      },
+      {
+        "title": "Gramàtica",
+        "text": "La millor manera d'assimilar la gramàtica és veure les regles fent la seva feina dins d'una frase de veritat."
+      },
+      {
+        "title": "Escriptura",
+        "text": "Xat amb la IA: comentes el que acabes de llegir, així sempre tens de què escriure. T'ajuda a donar forma a la idea i t'enxampa els errors."
+      },
+      {
+        "title": "Parla",
+        "text": "Shadowing: repeteixes en veu alta just després del narrador i hi guanyes fluïdesa, ritme i entonació."
+      },
+      {
+        "title": "Pronunciació",
+        "text": "Els exercicis de pronunciació t'ajuden a acostar l'accent a com sona un parlant natiu."
+      }
+    ],
+    "conductor": {
+      "badge": "Pla personal · Properament",
+      "title": "L'app et dirà què has de fer avui",
+      "text": "Tria l'activitat adequada en el moment adequat – llegir, repetir en veu alta, fixar paraules o comentar un capítol amb la IA. No has de decidir mai per on començar ni què ve després.",
+      "caption": "Una sessió d'exemple per avui – la teva te la muntarà l'app.",
+      "steps": [
+        {
+          "label": "Lectura",
+          "meta": "15 min"
+        },
+        {
+          "label": "Escolta i llegeix",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Ara · 7 min"
+        },
+        {
+          "label": "Paraules",
+          "meta": "25 targetes"
+        },
+        {
+          "label": "Xat amb la IA",
+          "meta": "comentar el capítol"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Com aprendre un idioma amb llibres: cinc passos",
+    "subtitle": "Res de mètodes complicats. Un cicle clar i contingut prou bo per portar-te fins al final.",
+    "items": [
+      {
+        "title": "Tria el teu contingut",
+        "text": "Resums de best-sellers, clàssics, contes curts – segons l'estat d'ànim, el nivell i el temps que tinguis."
+      },
+      {
+        "title": "Llegeix amb traducció paral·lela",
+        "text": "Original i traducció l'un al costat de l'altre; toca una paraula i en tens el significat i l'àudio, o la guardes."
+      },
+      {
+        "title": "Aprèn les paraules",
+        "text": "Les paraules guardades tornen en exercicis que treballen diferents tipus de memòria, repartits en el temps."
+      },
+      {
+        "title": "Escolta i repeteix en veu alta",
+        "text": "Cada frase té àudio: escolta i repeteix just després del narrador – així és com es treballen la pronunciació i l'entonació."
+      },
+      {
+        "title": "Comenta el llibre amb la IA",
+        "text": "La IA recorre el llibre amb tu – practiques l'escriptura i la parla, i aprens a posar les idees en un idioma nou."
+      }
+    ]
+  },
+  "library": {
+    "title": "Llibres en {target} amb traducció, per nivells de l'A1 al C1",
+    "subtitle": "No només aprens un idioma: també aprens alguna cosa. Material per a tots els nivells, dels primers passos fins a l'avançat.",
+    "tabs": [
+      "Clàssics",
+      "Best-sellers",
+      "Descobreix"
+    ],
+    "panels": [
+      {
+        "title": "Llegeix els grans llibres en versió original – amb xarxa de seguretat",
+        "text": "Versions adaptades i originals per a nivells diferents, des d'El petit príncep fins a Hawking. Amb la traducció paral·lela, fins i tot la prosa difícil es deixa llegir.",
+        "badges": [
+          "A1-A2 Principiant",
+          "B1-B2 Intermedi",
+          "C1+ Avançat"
+        ]
+      },
+      {
+        "title": "L'essencial dels millors llibres del món en 7–15 minuts",
+        "text": "Les idees clau dels best-sellers mundials, explicades curtes – en l'idioma que estàs aprenent. Creixes i aprens l'idioma d'una tacada.",
+        "badges": [
+          "A1-A2 Principiant",
+          "B1-B2 Intermedi",
+          "C1+ Avançat"
+        ]
+      },
+      {
+        "title": "5 minuts al dia: un bon fet i unes quantes paraules noves",
+        "text": "Espai, psicologia, negocis, natura, tecnologia – centenars d'articles curts sobre qualsevol tema. Cada dia aprens alguna cosa nova, i l'idioma ve de propina.",
+        "badges": [
+          "A1-A2 Principiant",
+          "B1-B2 Intermedi",
+          "C1+ Avançat"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "NOU",
+    "title": "Puja el teu llibre o el teu text i fes-ne el teu manual",
+    "text": "Puja qualsevol fitxer i Lingo7 el converteix en material d'estudi amb traducció paral·lela i àudio. A partir d'aquí, el cicle de sempre: llegeixes, escoltes, aprens paraules, treballes la parla amb shadowing i ho comentes amb la IA.",
+    "cards": [
+      {
+        "title": "Best-sellers en versió original",
+        "text": "Harry Potter, Dune, Joc de trons – llegeix els llibres que fa temps que tens pendents, en l'idioma que estàs aprenent."
+      },
+      {
+        "title": "L'idioma que et demanen la feina i els estudis",
+        "text": "Documents de feina, articles acadèmics, material d'examen – aprèn l'idioma del camp on ets ara mateix."
+      }
+    ],
+    "usecases": [
+      "Exàmens",
+      "Feina",
+      "Articles",
+      "Entrevistes"
+    ],
+    "formatsNote": "Puja els teus fitxers en aquests formats:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptació",
+      "title": "Llegeix qualsevol llibre – <span class=\"accent\">reescrit</span> a la teva mida",
+      "text": "El vocabulari i la gramàtica encara et costen? Lingo7 reescriu el llibre amb un llenguatge més senzill: la mateixa història, els mateixos personatges, frases més fàcils de seguir.",
+      "cta": "Prova-ho amb el teu llibre"
+    },
+    "goalQuote": "La meva recepta preferida: agafes Harry Potter i fas un capítol al dia – el llegeixes, l'escoltes, aprens les paraules noves i ho comentes amb la IA. Sis mesos a una hora o dues al dia i passes <span class=\"goal-quote__level\">de l'A2 al B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 és per a tu si...",
+    "items": [
+      "Vols aprendre amb contingut, i no amb lliçons que t'has d'empassar a la força",
+      "Vols alguna cosa més que llegir – també escoltar, parlar i escriure: pronunciació amb shadowing i posar les idees en paraules al xat amb la IA",
+      "Vols estudiar amb el teu material – documents de feina, llibres i articles que t'agraden – i no només amb lliçons ja fetes",
+      "Necessites un idioma poc habitual que la majoria d'apps no tenen",
+      "Vols fer sessions curtes de 5-15 minuts"
+    ]
+  },
+  "pains": {
+    "title": "Què t'ho posa difícil – i què hi fa Lingo7",
+    "subtitle": "No és una qüestió de capacitat. És una qüestió de format.",
+    "chips": [
+      "Em fa por parlar",
+      "M'avorreixo",
+      "No se'm queden les paraules",
+      "Llegir es fa difícil",
+      "No entenc quan parlen",
+      "No tinc temps",
+      "Idioma poc comú",
+      "No em servirà"
+    ],
+    "answers": [
+      {
+        "title": "«Em fa vergonya parlar i equivocar-me»",
+        "text": "El shadowing és repetir les frases en veu alta just després del narrador, tu sol, sense que ningú et posi nota. Així és com s'aprèn a pronunciar. Al xat amb la IA treballes les frases per escrit i et corregeix amb tacte."
+      },
+      {
+        "title": "«M'avorreixo de seguida»",
+        "text": "En comptes de lliçons totes iguals: llibres, best-sellers i articles sobre temes que llegiries igualment. Quan el contingut enganxa, tornar-hi és fàcil."
+      },
+      {
+        "title": "«Veig les paraules, però no se'm queden»",
+        "text": "D'un sol toc guardes la paraula amb la frase on l'has trobada, i després et torna a aparèixer en forma de targeta, amb intervals cada cop més llargs. Recordar deixa de ser qüestió de sort."
+      },
+      {
+        "title": "«Llegir en versió original em ve massa gran»",
+        "text": "Traducció paral·lela amb les frases alineades – no has de saltar al traductor cada dues línies."
+      },
+      {
+        "title": "«No segueixo l'idioma quan el parlen»",
+        "text": "El mode escolta-i-llegeix lliga el so d'una paraula amb com s'escriu i amb què vol dir. L'oïda s'hi acostuma sola."
+      },
+      {
+        "title": "«No tinc temps»",
+        "text": "Formats curts i sessions ràpides – amb 5-10 minuts al dia ja no perds el ritme."
+      },
+      {
+        "title": "«Necessito un idioma poc comú»",
+        "text": "49 idiomes, els poc comuns inclosos. I qualsevol d'ells l'aprens des de la teva llengua."
+      },
+      {
+        "title": "«Tinc por que no em serveixi»",
+        "text": "Si saps llegir, et serveix. No calen coneixements previs, ni gramàtica, ni preparació – comença amb qualsevol llibre del teu nivell."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Aprèn {target}",
+    "title": "49 idiomes, dels més corrents als més rars",
+    "subtitle": "Aprèn qualsevol idioma des de la teva llengua – i no només passant per l'anglès, com t'obliguen la majoria d'apps.",
+    "groupTitles": [
+      "Populars",
+      "Tots els idiomes"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 parelles d'idiomes.</strong> Tria la combinació que vulguis: l'idioma que aprens i l'idioma en què llegeixes la traducció."
+  },
+  "reviews": {
+    "title": "No ens esperàvem que us agradés tant",
+    "subtitle": "Però els fets són els fets – això és el que escriu la gent a Google Play.",
+    "items": [
+      {
+        "text": "Aplicació molt bona. Un plus enorme que un mateix llibre vingui en diversos nivells d'anglès. Espero l'actualització amb candeletes!",
+        "author": "Екатерина М.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "Vaig agafar la subscripció anual i surt molt a compte. De veritat que és una aplicació meravellosa! Un recurs excel·lent per millorar l'anglès. Dels adults als nens – no només útil, sinó necessària.",
+        "author": "Mayur L.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "Necessitava el portuguès per treballar amb un equip del Brasil. Llegir i escoltar alhora és molt efectiu. Al cap de 6 setmanes ja seguia les reunions.",
+        "author": "Rosita R.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "Sempre havia volgut aprendre alemany, i en aquesta aplicació tot és molt més accessible i clar que en altres de semblants. L'app, un 10 de 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "Faig servir la funció de llegir amb àudio i per a mi ha estat un abans i un després. Les pistes d'àudio són clares i van ben sincronitzades. Una eina fantàstica per a qui aprèn idiomes.",
+        "author": "Zeynep O.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "La idea i l'execució, excel·lents. Ara mateix és l'única aplicació amb llibres en serbi. Molt bona feina! Gràcies!",
+        "author": "Вася К.",
+        "source": "Google Play • veure l'original"
+      },
+      {
+        "text": "És realment una aplicació meravellosa per a mi com a professora. La recomano als meus alumnes. Molt agradable. La recomano a tothom.",
+        "author": "Sasha T.",
+        "source": "Google Play • veure l'original"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntes freqüents",
+    "items": [
+      {
+        "q": "Lingo7 em servirà si començo de zero?",
+        "a": "Sí. Hi ha material de tots els nivells, i la traducció paral·lela fa que el text s'entengui des del primer moment."
+      },
+      {
+        "q": "Quin nivell necessito per llegir en versió original?",
+        "a": "Qualsevol. La traducció paral·lela t'estalvia el diccionari, i un llibre massa difícil es pot reescriure de manera més senzilla: la mateixa història i els mateixos personatges, però amb la gramàtica i les paraules del teu nivell. Tot està marcat de l'A1 al C1."
+      },
+      {
+        "q": "Puc estudiar 10 minuts al dia?",
+        "a": "Sí. Els articles curts, els resums de llibres i les targetes de paraules estan pensats per a sessions curtes de cada dia."
+      },
+      {
+        "q": "Quins idiomes hi ha?",
+        "a": "49 idiomes, i qualsevol d'ells l'aprens des de la teva llengua – no només passant per l'anglès. Són 49 × 48 = 2352 parelles d'idiomes, els poc comuns inclosos."
+      },
+      {
+        "q": "En què es diferencia de les apps d'idiomes de sempre?",
+        "a": "En comptes d'exercicis inconnexos, aprens amb contingut que t'interessa i amb totes les habilitats lligades en un mateix cicle: llegeixes i escoltes, guardes paraules per repassar-les amb intervals, agafes la gramàtica en context, treballes la parla amb shadowing i l'escriptura al xat amb la IA. I encara pots pujar el teu llibre o document."
+      },
+      {
+        "q": "Hi ha pràctica de conversa?",
+        "a": "Sí. Per parlar hi ha el shadowing: repeteixes les frases en veu alta just després del narrador i hi treballes la pronunciació i l'entonació. Per escriure hi ha el xat amb la IA: comentes el que has llegit, t'ajuda a formular-ho i et troba els errors. Encara no hi ha conversa en directe amb una persona, però està previst."
+      },
+      {
+        "q": "Quins formats de fitxer puc pujar?",
+        "a": "PDF, EPUB, FB2 i TXT. Puja documents de feina, llibres que t'agradin o articles – l'app construeix la traducció paral·lela, hi afegeix àudio i recull les paraules noves a l'entrenador."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Comença avui a aprendre {target}, amb un llibre i no amb exercicis",
+    "text": "Descarrega l'app i obre el teu primer llibre.",
+    "perks": [
+      "49 idiomes",
+      "Tots els nivells"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Qui som",
+      "Contacte",
+      "Treballa amb nosaltres",
+      "Per a escoles",
+      "Com aprendre idiomes",
+      "Condicions del servei",
+      "Privacitat"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Tots els drets reservats."
+  },
+  "downloadModal": {
+    "title": "Descarrega Lingo7",
+    "text": "Disponible a l'App Store i a Google Play"
+  },
+  "stickyCta": {
+    "label": "Descarrega l'app"
+  },
+  "mobileMenu": {
+    "links": [
+      "Com funciona",
+      "Biblioteca",
+      "Idiomes",
+      "Opinions",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Escolta",
+      "add": "Guarda",
+      "translate": "Tradueix",
+      "addToMyWords": "Afegeix a les meves paraules",
+      "inMyWords": "A les meves paraules",
+      "audioMode": "Mode àudio",
+      "discussWithAi": "Comenta-ho amb la IA",
+      "selfCheck": "Posa't a prova"
+    },
+    "wordCard": {
+      "freqHigh": "FREQÜENT",
+      "freqMid": "MITJANA",
+      "example": "Exemple",
+      "otherTranslations": "Més traduccions",
+      "synonyms": "Sinònims",
+      "open": "Obre",
+      "group": "Grup:",
+      "groupDefault": "General",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "ÀUDIO",
+      "highlightMyWords": "Destaca les meves paraules",
+      "highlightMyWordsHint": "Marca les paraules que has guardat",
+      "theme": "Tema",
+      "themeLight": "Clar",
+      "fontSize": "Mida de la lletra",
+      "font": "Tipus de lletra",
+      "speakOnTap": "Llegeix la paraula en tocar-la",
+      "speakOnTapHint": "Diu en veu alta la paraula que has tocat",
+      "speechRate": "Velocitat de la veu",
+      "pronunciationTest": "Prova de pronunciació",
+      "playSample": "Reprodueix una frase d'exemple",
+      "reset": "Restableix la configuració",
+      "done": "Fet",
+      "on": "Activat",
+      "off": "Desactivat",
+      "accent": "Accent",
+      "translationAlways": "Sempre"
+    },
+    "vocab": {
+      "pickRightPicture": "Tria la imatge correcta",
+      "correct": "Exacte",
+      "rightAnswer": "Resposta correcta:",
+      "next": "Següent",
+      "done": "Fet",
+      "skip": "Salta",
+      "exercise": "Exercici",
+      "exerciseMeta": "/11 · 10 paraules"
+    },
+    "chat": {
+      "title": "Practica",
+      "discussing": "Parlem de «{book}»",
+      "finish": "Acaba",
+      "playing": "Reproduint…",
+      "replyOptions": "Opcions de resposta",
+      "placeholder": "Escriu un missatge"
+    },
+    "bookDetail": {
+      "adapted": "Adaptat",
+      "adaptedHint": "Reescrit amb un llenguatge més senzill, mantenint el sentit",
+      "original": "Original",
+      "originalHint": "El text original sencer, sense tocar",
+      "open": "Obre",
+      "genre": "Gènere",
+      "badgeSummary": "Resum"
+    },
+    "library": {
+      "profile": "Perfil",
+      "search": "Cerca",
+      "upload": "Puja un llibre",
+      "tabCatalog": "Catàleg",
+      "tabAll": "Tots els llibres",
+      "tabFavorites": "Preferits",
+      "shelfBestsellers": "Best-sellers mundials",
+      "shelfBestsellersSub": "en resums curts, amb àudio",
+      "shelfStories": "Relats curts",
+      "shelfStoriesSub": "Històries curtes que diuen molt",
+      "bandTitle": "5 minuts al dia",
+      "bandText": "Descobreix fets curiosos cada dia i l'idioma l'aprendràs sense adonar-te'n.",
+      "shelfAmazing": "Històries sorprenents",
+      "shelfNature": "Misteris de la natura",
+      "shelfHealth": "Salut i ciència",
+      "moreTopics": "Més temes",
+      "shelfGolden": "Clàssics de sempre",
+      "shelfGoldenSub": "200 llibres que van canviar la humanitat",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteca",
+      "practice": "Practica",
+      "read": "Llegeix",
+      "myWords": "Les meves paraules",
+      "collections": "Col·leccions"
+    }
+  },
+  "_note": "Полная локаль ca (каталанский). Переведена с эталона i18n/en.json 2026-08-29, тон сверен с русским оригиналом ru.json. Обращение — на «tu» (норма для потребительских приложений в каталанском). Названия языков в каталанском пишутся со строчной и требуют определённого артикля с алломорфией (el francès / l'anglès / l'azerbaidjanès), поэтому все девять строк со слотом построены как безартиклевые: артикля рядом со слотом нет нигде. Контракт слота и бюджет выдачи — в _contract. Файл прошёл снятие калек по i18n/en.gloss.json: образы эталона (вес, поза, тяга, «позади диктора», «вернуть слово») переписаны каталанскими оборотами. Третий круг (2026-08-30) по независимому разбору i18n/_qa/gemini-ca.json: «habilitats de l'idioma» → «habilitats lingüístiques», «Per a la parla / Per a l'escriptura» → «Per parlar / Per escriure», восстановлены артикли при mateix (la mateixa història, els mateixos personatges), пояснительное тире заменено двоеточием там, где оно вводит расшифровку, «amb bones maneres» → «amb tacte».",
+  "_contract": {
+    "government": "Голая безартиклевая форма названия языка (forma nua sense article). Позиция одна: беспредложное дополнение при aprendre/estudiar («Aprèn {target}», «Comença a aprendre {target}») и то же самое слово при неизменяемом предлоге en («llibres en {target}»). В каталанском нет падежей, поэтому обе конструкции требуют ОДНИ И ТЕ ЖЕ байты; предлог en в каталанском не элидируется и не сливается (en anglès, en àrab, en azerbaidjanès), то есть согласуемым соседом не является. Определённый артикль el/l' — единственный сосед, который зависел бы от подставленного слова, и он исключён из всех девяти строк.",
+    "slotExample": "espanyol",
+    "slotExampleEnglish": "anglès",
+    "longestSlot": "azerbaidjanès",
+    "longestSlotLang": "азербайджанский — 13 знаков; следом vietnamita и neerlandès (по 10), portuguès и afrikaans (по 9)",
+    "titleRenderedLen": 54,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Артикль — главная точка отказа локали. «Aprèn espanyol» и «llibres en espanyol» верны без артикля, но если UI где-то допишет el/l' перед слотом, получится el azerbaidjanès вместо l'azerbaidjanès. Слот отдаётся голым и капитализации не терпит: названия языков в каталанском строчные, и слот нигде не стоит первым словом.",
+      "meta.description и og/twitter описания построены на «amb el català al costat» / «amb la traducció catalana al costat» — носителю проверить, что для читателя-каталанца ясно: перевод именно на каталанский, а не «двуязычная книга вообще».",
+      "hero.title «no pas a base d'exercicis repetitius» — «no pas» здесь несёт противопоставление, как в оригинале «not by grinding through drills». Проверить, что оборот не читается как отрицание всей фразы.",
+      "faq.items[1].a «es pot reescriure de manera més senzilla» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Encara no hi ha conversa en directe amb una persona, però està previst» и method.conductor.badge «Properament» сохраняют ограничение. При вычитке не усиливать.",
+      "library.examples[0] и часть названий книг (Think and Grow Rich, The 80/20 Principle, The 7 Habits…, The Power of Now) оставлены по-английски: каталанских изданий подтвердить не удалось, а брифом запрещено изобретать перевод. Если у издателя есть каталанские названия — подставить их. «El petit príncep» и «Joc de trons» — изданные каталанские названия, стоят как есть.",
+      "«idiomes» выбрано вместо «llengües» как повседневное потребительское слово; если редакция предпочитает «llengües», менять надо во всём файле разом (nav, trust, languages, pains, faq, finalCta).",
+      "reviews.items[*].text: отзывы говорят от лица человека, который учил английский/португальский/немецкий/сербский. Для пар-страниц их придётся курировать под тему пары — это отмечено в i18n/README.md."
+    ]
+  }
+}

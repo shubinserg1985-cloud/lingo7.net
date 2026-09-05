@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "title": "Funda {target} ngezincwadi ezinenguqulo nokulalelwayo",
+    "description": "Funda {target} ngezincwadi ezinenguqulo yesiZulu nokulalelwayo, ugcine amagama uwaphinde ngezikhathi ezihlelekile, ulingise umlandi, uxoxe ne-AI.",
+    "ogTitle": "Funda {target} ngezincwadi ezinenguqulo nokulalelwayo",
+    "ogDescription": "Funda {target} ngezincwadi ezinenguqulo yesiZulu eceleni nokulalelwayo. Gcina igama ngokulithinta kanye, bese ulibuyekeza ngezikhathi ezihlelekile.",
+    "twitterTitle": "Funda {target} ngezincwadi ezinenguqulo nokulalelwayo",
+    "twitterDescription": "Funda {target} ngezincwadi ezinenguqulo yesiZulu eceleni, ugcine amagama ngokuwathinta kanye, bese uwabuyekeza ngezikhathi ezihlelekile."
+  },
+  "nav": {
+    "links": [
+      "Isebenza kanjani",
+      "Umtapo",
+      "Izilimi",
+      "Izibuyekezo",
+      "Imibuzo"
+    ]
+  },
+  "hero": {
+    "title": "Funda {target} ngezincwadi, hhayi ngokuphindaphinda imisebenzi eyisicefe",
+    "subtitle": "Funda futhi ulalele izinto ezikuthakazelisa ngempela, ugcine amagama ungasuki ekhasini, bese uhlelo lubuye lukukhumbuze ngawo ngesikhathi esifanele.",
+    "cta": "Thola uhlelo",
+    "trust": "Izilimi ezingu-49 • iPhone / Android",
+    "pills": [
+      "Inguqulo ehambisanayo",
+      "Ukulalela nokufunda",
+      "Ukwakha amagama",
+      "Ukuphinda ngezikhathi",
+      "Noma iyiphi incwadi",
+      "Ukulingisa umlandi",
+      "Ukuxoxa ngencwadi ne-AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Incwadi, hhayi isifundo",
+        "span": "Ufunda into obungayifunda nje ngokuzijabulisa"
+      },
+      {
+        "strong": "Izilimi ezingu-49",
+        "span": "Kusuka kwezikhulunywa kakhulu kuya kwezingandile"
+      },
+      {
+        "strong": "Umtapo obanzi",
+        "span": "Amaklasikhi, ezidumile emhlabeni nezindatshana"
+      },
+      {
+        "strong": "Konke kuhamba ngomjikelezo owodwa",
+        "span": "Ukufunda, ukulalela, amagama nokuwabuyekeza"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Kungani izinhlelo eziningi zezilimi ziyekwa – kanti lolu alulahlwa",
+    "subtitle": "Inkinga ayikaze ibe ukuthi awunakho ukuzithiba. Bekuyindlela okwenziwa ngayo.",
+    "labelOld": "❌ Ngokuvamile",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Ukhumbula amagama ongakwazi ukuwasebenzisa",
+          "text": "Amalisti namakhadi angenamongo. Kusasa usuwakhohliwe."
+        },
+        "new": {
+          "title": "Amagama uwabona emishweni yangempela",
+          "text": "Ubona ukuthi igama lisebenza kanjani emshweni, ngakho lisale engqondweni ungakhandlekile."
+        }
+      },
+      {
+        "old": {
+          "title": "Imisebenzi efanayo nsuku zonke",
+          "text": "Kuyacikiza, intshisekelo iyaphela, bese kuthi ngemva kwesonto uhlelo lungabe lusavulwa."
+        },
+        "new": {
+          "title": "Ufunda into obuyoyifunda noma kunjani",
+          "text": "Izincwadi ezidumile, izindaba zangempela ezimangalisayo, isayensi elula – okuthile obuyela kukho ngokwakho."
+        }
+      },
+      {
+        "old": {
+          "title": "Ukufunda umbhalo wokuqala kunzima kakhulu",
+          "text": "Amagama ongawazi yonke indawo, indaba iyakulahlekela, uyeka usesekhasini lokuqala."
+        },
+        "new": {
+          "title": "Inguqulo ehambisanayo, nokwenziwa lula",
+          "text": "Inguqulo ikhona eceleni kombhalo, futhi incwadi enzima kakhulu ingalandiswa kabusha ngendlela esezingeni lakho."
+        }
+      },
+      {
+        "old": {
+          "title": "Ufunda noma yini ekhona ohlwini",
+          "text": "Umtapo omiswe kanye. Awukwazi ukuletha eyakho incwadi."
+        },
+        "new": {
+          "title": "Noma iyiphi incwadi noma umbhalo uba yisifundo sakho",
+          "text": "Nikeza uhlelo izincwadi ozithandayo namadokhumenti owadingayo, bese lukubuyisela zona zinenguqulo ehambisanayo, okulalelwayo nokubuyekezwa kwamagama."
+        }
+      },
+      {
+        "old": {
+          "title": "Ufunda ulalele, kodwa awenzi lutho ngokwakho",
+          "text": "Ayikho indawo yokukhuluma noma yokubhala, ngakho ikhono aligcini selizinzile."
+        },
+        "new": {
+          "title": "Awugcini ngokufunda – uyakhuluma futhi uyabhala",
+          "text": "Uxoxa ne-AI ngencwadi osanda kuyiqeda, ngakho isihloko sesikhona – akudingeki usiqambe. Uma unokushoyo, ukukusho nokukubhala kuba lula."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Wonke amakhono ayi-7 olimi endaweni eyodwa",
+    "subtitle": "Ukwazi ulimi kusho ukuba namakhono ayisikhombisa. I-Lingo7 iwaqeqesha ndawonye kunokuwathatha ngokwehlukana, ngakho ikhono ngalinye liqinisa amanye.",
+    "skills": [
+      {
+        "title": "Ukufunda",
+        "text": "Funda umbhalo wokuqala noma owenziwe waba lula, inguqulo yesiZulu iseceleni – ngokushesha, ungadingi isichazamazwi."
+      },
+      {
+        "title": "Ukulalela",
+        "text": "Izincwadi ezilalelwayo nemodi yokulalela ufunda kanyekanye – enye yezindlela ezisebenza kakhulu ukuqeqesha indlebe."
+      },
+      {
+        "title": "Amagama",
+        "text": "Amagama amasha asala engqondweni usafunda, ungawakhandli. Imisebenzi nokuwabuyekeza ngezikhathi ezihlelekile kwenza ahlale isikhathi eside."
+      },
+      {
+        "title": "Uhlelo lolimi",
+        "text": "Indlela engcono kakhulu yokuzwisisa uhlelo lolimi ukubona imithetho isebenza ngaphakathi emshweni wangempela."
+      },
+      {
+        "title": "Ukubhala",
+        "text": "Ingxoxo ne-AI: uxoxa ngalokho osanda kukufunda, ngakho njalo kukhona okubhalwayo. Ikusiza ubeke umqondo wakho kahle futhi ibambe amaphutha akho."
+      },
+      {
+        "title": "Ukukhuluma",
+        "text": "Ukulingisa umlandi: uzwa umusho bese uwuphinda ngezwi elikhulu, uze uthole ukugeleza, isigqi nokwehla nokwenyuka kwezwi."
+      },
+      {
+        "title": "Ukuphimisela",
+        "text": "Imisebenzi yokuphimisela ikusiza ukuthi indlela ophimisela ngayo isondele kweyomuntu okhulele kulolo limi."
+      }
+    ],
+    "conductor": {
+      "badge": "Uhlelo lwakho siqu · Luyeza maduze",
+      "title": "Uhlelo luzokutshela ukuthi wenzeni namuhla",
+      "text": "Lukhetha umsebenzi ofanele ngesikhathi esifanele – ukufunda, ukuphinda ngezwi elikhulu, ukuqinisa amagama noma ukuxoxa ngesahluko ne-AI. Awusoze wazibuza ukuthi uqale kuphi nokuthi kulandelani.",
+      "caption": "Isibonelo sesikhathi sokufunda sanamuhla – uhlelo luzokwakhela esakho.",
+      "steps": [
+        {
+          "label": "Ukufunda",
+          "meta": "imizuzu engu-15"
+        },
+        {
+          "label": "Lalela ufunde",
+          "meta": "imizuzu engu-5"
+        },
+        {
+          "label": "Ukulingisa umlandi",
+          "meta": "Manje · imizuzu engu-7"
+        },
+        {
+          "label": "Amagama",
+          "meta": "amakhadi angu-25"
+        },
+        {
+          "label": "Ingxoxo ne-AI",
+          "meta": "xoxa ngesahluko"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Ungalufunda kanjani ulimi ngezincwadi: izinyathelo ezinhlanu",
+    "subtitle": "Ayikho indlela eyinkimbinkimbi. Umjikelezo owodwa ocacile, nokufundwayo okuhle ngokwanele ukuthi ukuqhubekise.",
+    "items": [
+      {
+        "title": "Khetha okufundayo",
+        "text": "Amafuphi ezincwadi ezidumile, amaklasikhi, izindaba ezimfushane – ngokuthi uzizwa kanjani, ngezinga, nangesikhathi onaso."
+      },
+      {
+        "title": "Funda ngenguqulo ehambisanayo",
+        "text": "Umbhalo wokuqala unenguqulo yawo eceleni; thinta igama uthole incazelo yalo, ulizwe liphinyiselwa, noma uligcine."
+      },
+      {
+        "title": "Funda amagama",
+        "text": "Amagama owagcinile abuya emisebenzini esebenzisa izinhlobo ezahlukene zenkumbulo, ehlukaniswe ngezikhathi."
+      },
+      {
+        "title": "Lalela uphinde ngezwi elikhulu",
+        "text": "Umusho ngamunye unokulalelwayo: lalela, bese ulingisa umlandi – yiyo leyo ndlela ozuza ngayo ukuphimisela nokwehla nokwenyuka kwezwi."
+      },
+      {
+        "title": "Xoxa ngencwadi ne-AI",
+        "text": "I-AI ihamba nawe encwadini – uzijwayeza ukubhala nokukhuluma, futhi ufunda ukubeka imicabango yakho ngolimi olusha."
+      }
+    ]
+  },
+  "library": {
+    "title": "Funda {target} ngezincwadi ezinenguqulo, zihlelwe ngamazinga kusuka ku-A1 kuya ku-C1",
+    "subtitle": "Awugcini ngokufunda ulimi – kukhona nokusha okufundayo. Kukhona okufanele wonke amazinga, kusuka ezinyathelweni zokuqala kuya kwabasezingeni eliphezulu.",
+    "tabs": [
+      "Amaklasikhi",
+      "Ezidumile",
+      "Okusha"
+    ],
+    "panels": [
+      {
+        "title": "Funda izincwadi ezinkulu ngolimi lwazo lokuqala – ungesabi ukulahleka",
+        "text": "Izinguqulo ezenziwe zaba lula nezokuqala zamazinga ahlukene, kusuka ku-The Little Prince kuya ku-Hawking. Inguqulo ehambisanayo yenza kufundeke ngisho nombhalo onzima.",
+        "badges": [
+          "A1-A2 Oqalayo",
+          "B1-B2 Ophakathi",
+          "C1+ Osethuthukile"
+        ]
+      },
+      {
+        "title": "Umongo wezincwadi ezinhle emhlabeni ngemizuzu engu-7–15",
+        "text": "Imiqondo eyinhloko yezincwadi ezidumile emhlabeni, ilandiswe kafushane – ngolimi olufundayo. Uyakhula futhi ufunda ulimi ngasikhathi sinye.",
+        "badges": [
+          "A1-A2 Oqalayo",
+          "B1-B2 Ophakathi",
+          "C1+ Osethuthukile"
+        ]
+      },
+      {
+        "title": "Imizuzu emi-5 ngosuku: iqiniso elilodwa elimnandi namagama ambalwa amasha",
+        "text": "Umkhathi, isayensi yengqondo, ibhizinisi, imvelo, ubuchwepheshe – amakhulu ezindatshana ezimfushane ngazo zonke izihloko. Funda okusha nsuku zonke, ulimi luzolandela.",
+        "badges": [
+          "A1-A2 Oqalayo",
+          "B1-B2 Ophakathi",
+          "C1+ Osethuthukile"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "OKUSHA",
+    "title": "Layisha incwadi noma umbhalo wakho, bese kuba yisifundo sakho",
+    "text": "Layisha noma iliphi ifayela bese i-Lingo7 ilenza libe yinto oyifundayo, linenguqulo ehambisanayo nokulalelwayo. Emva kwalokho kulandela umjikelezo ojwayelekile: uyafunda, uyalalela, ufunda amagama, usebenza ekukhulumeni ngokulingisa umlandi, bese uxoxa ngayo ne-AI.",
+    "cards": [
+      {
+        "title": "Ezidumile ngolimi lwazo lokuqala",
+        "text": "Harry Potter, Dune, A Game of Thrones – funda izincwadi obulokhu uzitshela ukuthi uzozifunda, ngolimi olufundayo."
+      },
+      {
+        "title": "Ulimi oludingwa umsebenzi nezifundo zakho",
+        "text": "Amadokhumenti omsebenzi, amaphepha, izinto zokulungiselela izivivinyo – funda ulimi lomkhakha okuwo manje."
+      }
+    ],
+    "usecases": [
+      "Izivivinyo",
+      "Umsebenzi",
+      "Izindatshana",
+      "Izinhlolokhono"
+    ],
+    "formatsNote": "Layisha amafayela akho ngalezi zinhlobo:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Ukwenziwa lula",
+      "title": "Funda noma iyiphi incwadi – <span class=\"accent\">ilandiswe kabusha</span> ngendlela ekufanele",
+      "text": "Amagama nohlelo lolimi kusenzima kakhulu? I-Lingo7 iyilandisa kabusha incwadi ngolimi olulula – indaba iyafana, abalingiswa bayafana, imisho nje ilula.",
+      "cta": "Yizame encwadini yakho"
+    },
+    "goalQuote": "Indlela engiyithanda kakhulu: thatha u-Harry Potter wenze isahluko ngosuku – sifunde, usilalele, ufunde amagama amasha, bese uxoxa ngaso ne-AI. Izinyanga eziyisithupha, ihora noma amabili ngosuku, uphuma <span class=\"goal-quote__level\">ku-A2 ususe-B2</span>."
+  },
+  "audience": {
+    "title": "I-Lingo7 ingeyakho uma...",
+    "items": [
+      "Ufuna ukufunda ngokukuthakazelisayo, hhayi ngezifundo okumele uziphoqe ukuzenza",
+      "Ufuna okungaphezu kokufunda – ukulalela, ukukhuluma nokubhala futhi: ukuphimisela ngokulingisa umlandi, nokubeka imicabango yakho engxoxweni ne-AI",
+      "Ufuna ukufunda ngezinto zakho – amadokhumenti omsebenzi, izincwadi ozithandayo nezindatshana – hhayi izifundo ezimisiwe kuphela",
+      "Udinga ulimi olungavamile ezingenalo izinhlelo eziningi",
+      "Ufuna ukusebenza ngezikhathi ezimfushane zemizuzu emi-5 kuya kweyi-15"
+    ]
+  },
+  "pains": {
+    "title": "Okuvimba indlela – nokwenziwa yi-Lingo7 ngakho",
+    "subtitle": "Akukhona ukuthi awukwazi. Yindlela okwenziwa ngayo.",
+    "chips": [
+      "Ngiyesaba ukukhuluma",
+      "Ngiyadinwa",
+      "Amagama ayaphunyuka",
+      "Ukufunda kunzima",
+      "Angikuzwa okukhulunywayo",
+      "Anginaso isikhathi",
+      "Ulimi olungavamile",
+      "Ngeke kungifanele"
+    ],
+    "answers": [
+      {
+        "title": "“Nginamahloni okukhuluma bese ngiphosisa”",
+        "text": "Ukulingisa umlandi kusho ukuthi uzwa umusho bese uwuphinda ngezwi elikhulu, uwedwa, kungekho muntu okunika amamaki. Yileyo ndlela ozuza ngayo ukuphimisela okuhle. Engxoxweni ne-AI wakha imisho ngokubhala, bese ikulungisa ngesizotha."
+      },
+      {
+        "title": "“Ngidinwa masinyane”",
+        "text": "Esikhundleni sezifundo ezifana zonke: izincwadi, ezidumile nezindatshana ngezihloko obungazifunda noma kunjani. Uma okufundayo kukubamba, ukubuyela kukho kulula."
+      },
+      {
+        "title": "“Amagama ngiyawabona, kodwa awahlali”",
+        "text": "Ukuthinta kanye kugcina igama nomusho olihlangabeze kuwo, bese liphinde livele njengekhadi ngezikhathi ezihlelekile. Ukukhumbula akusekona okwenhlanhla."
+      },
+      {
+        "title": "“Ukufunda umbhalo wokuqala kunzima kimi”",
+        "text": "Inguqulo ehambisanayo, imisho iqondaniswe umusho nomusho – awusagxumeli kumhumushi njalo emugqeni ngamunye."
+      },
+      {
+        "title": "“Angikwazi ukulandela uma kukhulunywa”",
+        "text": "Imodi yokulalela ufunda ihlanganisa ukuzwakala kwegama nendlela elibhalwa ngayo nencazelo yalo. Indlebe yakho iyalujwayela ulimi ngokwemvelo."
+      },
+      {
+        "title": "“Anginaso isikhathi”",
+        "text": "Izinto ezimfushane nezikhathi ezisheshayo – ngisho nemizuzu emi-5 kuya kweyi-10 ngosuku ikugcina usesigqini."
+      },
+      {
+        "title": "“Ngidinga ulimi olungavamile”",
+        "text": "Izilimi ezingu-49, kuhlanganise nezingandile. Futhi noma yiluphi ungalufunda usuka olimini lwakho lwebele."
+      },
+      {
+        "title": "“Ngiyesaba ukuthi ngeke kungifanele”",
+        "text": "Uma ukwazi ukufunda, kuyakufanela. Akudingeki lwazi lwangaphambili, uhlelo lolimi noma ukulungiselela – qala nganoma iyiphi incwadi esezingeni lakho."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Funda {target}",
+    "title": "Izilimi ezingu-49, kusuka kwezivamile kuya kwezingandile",
+    "subtitle": "Funda noma yiluphi ulimi usuka kolwakho lwebele – hhayi ngesiNgisi kuphela, njengoba izinhlelo eziningi zikuphoqa.",
+    "groupTitles": [
+      "Ezidumile",
+      "Zonke izilimi"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 izinhlanganisela zezilimi.</strong> Khetha noma iyiphi: ulimi olufundayo, nolimi ofunda ngalo inguqulo."
+  },
+  "reviews": {
+    "title": "Besingalindele ukuthi nizoyithanda kangaka",
+    "subtitle": "Kodwa iqiniso liyiqiniso – nakhu okubhalwa abantu ku-Google Play.",
+    "items": [
+      {
+        "text": "Uhlelo oluhle. Into enhle kakhulu ukuthi incwadi eyodwa ingafika ngamazinga esiNgisi ahlukene. Ngilinde ngabomvu isibuyekezo!",
+        "author": "Екатерина М.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Ngithathe ukubhalisa konyaka futhi kuyifanele impela imali. Yiqiniso ukuthi lolu uhlelo oluhle kakhulu! Insiza enhle yokuthuthukisa isiNgisi sakho. Kusuka kubadala kuya ezinganeni — akuwusizo nje kuphela, kuyadingeka.",
+        "author": "Mayur L.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Bengidinga isiPutukezi ukuze ngisebenze neqembu elise-Brazil. Ukufunda ulalele kanyekanye kusebenza kakhulu. Emva kwamasonto ayisi-6 bengivele sengikwazi ukulandela imihlangano.",
+        "author": "Rosita R.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Bengihlale ngifisa ukufunda isiJalimane, futhi kulolu hlelo konke kulula futhi kucacile kunakwezinye ezifana nalo. Uhlelo ngilunika u-10 ku-10.",
+        "author": "Макс Р.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Ngisebenzisa ukufunda ngilalele futhi kungishintshele izinto. Okulalelwayo kucacile futhi kuhambisana kahle nombhalo. Ithuluzi elimangalisayo kwabafunda izilimi.",
+        "author": "Zeynep O.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Umqondo nendlela okwenziwe ngayo kuthola u-A+. Njengamanje yilo lodwa uhlelo olunezincwadi zesiSerbia. Nenze kahle! Ngiyabonga!",
+        "author": "Вася К.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      },
+      {
+        "text": "Ngempela lolu uhlelo oluhle kakhulu kimi njengothisha. Ngiyalunconela abafundi bami. Lumnandi kakhulu. Ngiyalunconela wonke umuntu.",
+        "author": "Sasha T.",
+        "source": "Google Play • buka umbhalo wokuqala"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Imibuzo evame ukubuzwa",
+    "items": [
+      {
+        "q": "I-Lingo7 izomsebenzela yini oqala ngqa?",
+        "a": "Yebo. Kukhona okufundwayo kuwo wonke amazinga, futhi inguqulo ehambisanayo yenza umbhalo uqondakale kusukela ekuqaleni."
+      },
+      {
+        "q": "Ngidinga liphi izinga ukuze ngifunde umbhalo wokuqala ongashintshiwe?",
+        "a": "Noma yiliphi. Ngenxa yenguqulo ehambisanayo awusadingi isichazamazwi, futhi incwadi enzima kakhulu ingalandiswa kabusha ngendlela elula – indaba nabalingiswa bayafana, kodwa uhlelo lolimi namagama kusezingeni lakho. Konke kumakiwe kusuka ku-A1 kuya ku-C1."
+      },
+      {
+        "q": "Ngingafunda imizuzu eyi-10 ngosuku?",
+        "a": "Yebo. Izindatshana ezimfushane, amafuphi ezincwadi namakhadi amagama enzelwe izikhathi ezimfushane zansuku zonke."
+      },
+      {
+        "q": "Yiziphi izilimi ezikhona?",
+        "a": "Izilimi ezingu-49, futhi noma yiluphi ungalufunda usuka olimini lwakho lwebele – hhayi ngesiNgisi kuphela. Lokho kunika 49 × 48 = 2352 izinhlanganisela zezilimi, kuhlanganise nezilimi ezingandile."
+      },
+      {
+        "q": "Lwehluke ngani kwezinye izinhlelo zezilimi?",
+        "a": "Esikhundleni semisebenzi engahlangene, ufunda ngokukuthakazelisayo, wonke amakhono ehlangene emjikelezweni owodwa: uyafunda uyalalela, ugcine amagama uwabuyekeze ngezikhathi ezihlelekile, uthole uhlelo lolimi emshweni, usebenze ekukhulumeni ngokulingisa umlandi nasekubhaleni engxoxweni ne-AI. Futhi ungalayisha eyakho incwadi noma idokhumenti."
+      },
+      {
+        "q": "Kukhona ukuzijwayeza ukukhuluma?",
+        "a": "Yebo. Ekukhulumeni kukhona ukulingisa umlandi – uzwa umusho bese uwuphinda ngezwi elikhulu, ngaleyo ndlela uzuze ukuphimisela nokwehla nokwenyuka kwezwi. Ekubhaleni kukhona ingxoxo ne-AI: uxoxa ngalokho okufundile, ibe ikusiza ubeke imisho kahle futhi ithole amaphutha akho. Ingxoxo ephilayo nomuntu wangempela ayikabikho – isesezinhlelweni zethu."
+      },
+      {
+        "q": "Yiziphi izinhlobo zamafayela engingazilayisha?",
+        "a": "I-PDF, i-EPUB, i-FB2 ne-TXT. Layisha amadokhumenti omsebenzi, izincwadi ozithandayo noma izindatshana – uhlelo lwakha inguqulo ehambisanayo, lufake okulalelwayo, bese luqoqa amagama amasha aye ekuzijwayezeni."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Qala ukufunda {target} namuhla – incwadi esikhundleni semisebenzi eyisicefe",
+    "text": "Landa uhlelo lokusebenza bese uvula incwadi yakho yokuqala.",
+    "perks": [
+      "Izilimi ezingu-49",
+      "Wonke amazinga"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Ngathi",
+      "Xhumana nathi",
+      "Imisebenzi",
+      "Ezikoleni",
+      "Ungazifunda kanjani izilimi",
+      "Imigomo yesevisi",
+      "Ubumfihlo"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Wonke amalungelo agodliwe."
+  },
+  "downloadModal": {
+    "title": "Thola i-Lingo7",
+    "text": "Iyatholakala ku-App Store nase-Google Play"
+  },
+  "stickyCta": {
+    "label": "Thola uhlelo"
+  },
+  "mobileMenu": {
+    "links": [
+      "Isebenza kanjani",
+      "Umtapo",
+      "Izilimi",
+      "Izibuyekezo",
+      "Imibuzo"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang = zu). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Lalela",
+      "add": "Gcina",
+      "translate": "Humusha",
+      "addToMyWords": "Faka kumagama ami",
+      "inMyWords": "Sekukumagama ami",
+      "audioMode": "Imodi yokulalela",
+      "discussWithAi": "Xoxa ne-AI",
+      "selfCheck": "Zihlole"
+    },
+    "wordCard": {
+      "freqHigh": "LIVAMILE",
+      "freqMid": "LIPHAKATHI",
+      "example": "Isibonelo",
+      "otherTranslations": "Ezinye izinguqulo",
+      "synonyms": "Amagama afanayo",
+      "open": "Vula",
+      "group": "Iqoqo:",
+      "groupDefault": "Okujwayelekile",
+      "page": "ikh."
+    },
+    "readerSettings": {
+      "sectionText": "UMBHALO",
+      "sectionAudio": "OKULALELWAYO",
+      "highlightMyWords": "Gqamisa amagama ami",
+      "highlightMyWordsHint": "Imaka amagama owagcinile",
+      "theme": "Itimu",
+      "themeLight": "Okukhanyayo",
+      "fontSize": "Usayizi wombhalo",
+      "font": "Ifonti",
+      "speakOnTap": "Phimisela igama uma ulithinta",
+      "speakOnTapHint": "Lifundwa ngezwi igama olithintile",
+      "speechRate": "Ijubane lokukhuluma",
+      "pronunciationTest": "Ukuhlolwa kokuphimisela",
+      "playSample": "Dlala umusho oyisibonelo",
+      "reset": "Buyisela izilungiselelo",
+      "done": "Kulungile",
+      "on": "Kuvuliwe",
+      "off": "Kuvaliwe",
+      "accent": "Indlela yokukhuluma",
+      "translationAlways": "Njalo"
+    },
+    "vocab": {
+      "pickRightPicture": "Khetha isithombe esifanele",
+      "correct": "Kulungile impela",
+      "rightAnswer": "Impendulo elungile:",
+      "next": "Okulandelayo",
+      "done": "Kuqediwe",
+      "skip": "Yeqa",
+      "exercise": "Umsebenzi",
+      "exerciseMeta": "/11 · amagama angu-10"
+    },
+    "chat": {
+      "title": "Ukuzijwayeza",
+      "discussing": "Sixoxa ngencwadi “{book}”",
+      "finish": "Qeda",
+      "playing": "Iyadlala…",
+      "replyOptions": "Izindlela zokuphendula",
+      "placeholder": "Bhala umyalezo"
+    },
+    "bookDetail": {
+      "adapted": "Eyenziwe lula",
+      "adaptedHint": "Ilandiswe kabusha ngolimi olulula, umqondo ungashintshi",
+      "original": "Eyoqobo",
+      "originalHint": "Umbhalo wokuqala uphelele, ungashintshiwe",
+      "open": "Vula",
+      "genre": "Uhlobo",
+      "badgeSummary": "Isifinyezo"
+    },
+    "library": {
+      "profile": "Iphrofayela",
+      "search": "Sesha",
+      "upload": "Layisha incwadi",
+      "tabCatalog": "Ikhathalogi",
+      "tabAll": "Zonke izincwadi",
+      "tabFavorites": "Engizithandayo",
+      "shelfBestsellers": "Ezidumile emhlabeni",
+      "shelfBestsellersSub": "ngamafuphi, nokulalelwayo",
+      "shelfStories": "Izindaba ezimfushane",
+      "shelfStoriesSub": "Izindatshana ezinomyalezo omkhulu",
+      "bandTitle": "Imizuzu emi-5 ngosuku",
+      "bandText": "Thola amaqiniso athakazelisayo nsuku zonke – ulimi luzolandela lodwa!",
+      "shelfAmazing": "Izindaba ezimangalisayo",
+      "shelfNature": "Izimfihlakalo zemvelo",
+      "shelfHealth": "Impilo nesayensi",
+      "moreTopics": "Ezinye izihloko",
+      "shelfGolden": "Amaklasikhi egolide",
+      "shelfGoldenSub": "Izincwadi ezingu-200 ezaguqula isintu",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Umtapo",
+      "practice": "Ukuzijwayeza",
+      "read": "Ukufunda",
+      "myWords": "Amagama ami",
+      "collections": "Amaqoqo"
+    }
+  },
+  "_note": "Локаль zu (isiZulu, стандартная южноафриканская норма). Полный перевод с эталона en.json (2026-08-30), писался как зулусский оригинал, а не как перевод с английского. Контракт слота: голое существительное класса 7 (isi-…) в позиции прямого дополнения при funda / ukufunda — падежей в зулу нет, форма одна, классный префикс уже внутри слота. Главный риск банту — согласователь рядом со слотом (sa-/se-, esi-, lesi, sonke), поэтому во всех девяти строках справа от слота стоят только неизменяемые слова (ngezincwadi, namuhla) либо согласователи, привязанные к izincwadi класса 10, а не к слоту. Бюджет выдачи пересчитан по «isi-Azerbaijani» — самому длинному из 49 названий. Имена авторов отзывов, customBook.formats, коды CEFR, числа 49 / 7 / 2352 и эмодзи скопированы из эталона побайтово. Файл прошёл отдельный проход по en.gloss.json — снятие калек с образных оборотов эталона (30 строк глоссария перепроверены поштучно).",
+  "_contract": {
+    "government": "Голое существительное класса 7 (isi-…) в позиции прямого дополнения при глаголе funda «учить/читать» и при его инфинитиве ukufunda (после qala): «Funda isiSpanishi ngezincwadi…», «Qala ukufunda isiSpanishi namuhla…». Зулу не склоняет существительные, поэтому слот отдаёт название языка ровно в словарной форме с аугментом i- и классным префиксом -si-, которые являются частью слова, а не отдельными токенами. Все 9 строк написаны под эту одну позицию: слот всюду идёт сразу после funda / ukufunda и ничем не управляет; ни один соседний токен не согласуется с ним.",
+    "slotExample": "isiSpanishi",
+    "slotExampleEnglish": "isiNgisi",
+    "longestSlot": "isi-Azerbaijani",
+    "longestSlotLang": "азербайджанский (zu isi-Azerbaijani; вокалическая основа пишется через дефис)",
+    "titleRenderedLen": 60,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Классное согласование — единственное, что могло сломать контракт. Название языка в зулу это класс 7 (isiSpanishi, isiNgisi, isiZulu), и любой зависимый от него токен получил бы префикс s-: посессив «izincwadi zesiSpanishi» (za- + isi- → ze-, с потерей аугмента), демонстратив «lesi», квантор «sonke», относительное «esi-». Поэтому естественная формулировка H2 «Izincwadi zesiSpanishi…» ЗАПРЕЩЕНА и переписана под тот же прямой объект при funda. Справа от слота во всех девяти строках стоят только неизменяемые ngezincwadi / namuhla; согласователи ezi-, zi-, zinenguqulo в этих строках привязаны к izincwadi (класс 10) и на подставленное слово не реагируют — носителю это стоит показать отдельно, потому что глазами они читаются как «соседи слота».",
+      "Аугмент. Слот отдаёт полную форму с начальным i- (isiSpanishi). Любой предлог, сливающийся с аугментом (nga- → ngesiSpanishi, ku- → kwisiSpanishi, na- → nesiSpanishi), сожрал бы этот i- и потребовал бы второй формы. Ни в одной из девяти строк слот не стоит после такого предлога — это проверять при каждой правке текста.",
+      "Заглавная буква — данные. В зулу название языка начинается со строчного аугмента i-, а прописная стоит внутри слова (isiSpanishi, isi-Azerbaijani). Поэтому lead=lower, и слот НИГДЕ не стоит первым словом: meta.title/ogTitle/twitterTitle, hero.title и library.title начинаются с «Funda», finalCta.title — с «Qala». Автозаглавная в начале <title> напечатала бы «IsiSpanishi» — форма не ошибочная, но регистр — не преобразование, а данные, и полагаться на UI здесь нельзя.",
+      "library.title: слот удержан ценой императивной переписки («Funda {target} ngezincwadi ezinenguqulo, zihlelwe ngamazinga…»). Естественнее звучало бы «Izincwadi zesiSpanishi ngamazinga…», но там слот попадает в позицию комплемента посессива ze-, то есть во вторую синтаксическую позицию с проглоченным аугментом. Носителю проверить, что H2 не спорит с H1 по конструкции.",
+      "«AI» оставлено латиницей и берёт зулусский аугмент i- (i-AI, ne-AI, nge-AI) — так пишут в зулусских потребительских текстах о технологиях. Полное «ubuhlakani bokwenziwa» уместно в статье, но не в пилюле и не в кнопке. Замена сквозная, если решат иначе (hero.pills[6], method.skills[4], steps.items[4], appUi.reader.discussWithAi, appUi.chat и др.).",
+      "Shadowing переведён описательно — «ukulingisa umlandi» (повторять вслед за диктором, подражая ему). Английского термина в зулусском обиходе нет; пространственная калька «ngemuva komlandi» («позади диктора») намеренно не используется нигде. Сквозняк: hero.pills[5], method.skills[5], steps.items[3], faq.items[5], pains.answers[0], method.conductor.steps[2].",
+      "Spaced repetition: устоявшегося зулусского термина нет, понятие всюду раскрыто описательно — «ukubuyekeza ngezikhathi ezihlelekile» (повторять по расписанию с интервалами). Проверить единообразие: hero.subtitle, meta.*, method.skills[2], steps.items[2], pains.answers[2], faq.items[4].",
+      "Названия книг: зулусских изданий у The Little Prince, Harry Potter, Dune, A Game of Thrones, Think and Grow Rich, The 80/20 Principle, The 7 Habits, The Power of Now нет — оставлены латиницей по правилу «не изобретать перевод». Hawking — фамилия, письменность локали латинская, поэтому без изменений.",
+      "Косвенные вопросы в faq оформлены зулусской вопросительной частицей yini / вопросительным словом (faq.items[0].q «…izomsebenzela yini oqala ngqa?», faq.items[1].q «Ngidinga liphi izinga…»), а не условным uma. Условный союз перевернул бы смысл — это ловушка, на которой ловили другие локали.",
+      "Модальность ограничений сохранена буквально: method.conductor.badge «Luyeza maduze» (ещё нет), faq.items[1].a и compare.rows[2].new.text «ingalandiswa kabusha» (возможность, не обещание), faq.items[5].a «Ingxoxo ephilayo nomuntu wangempela ayikabikho – isesezinhlelweni zethu» (живого собеседника нет, он в планах). «Ukulandisa kabusha» выбрано намеренно вместо «ukubhala kabusha» / «ukukopisha»: последние в зулу читаются как переписать набело или списать чужое, то есть как плагиат.",
+      "Обращение — императив и второе лицо единственного числа (Funda, Qala, Thola, Layisha) сквозь весь файл; это нормальный регистр зулусского потребительского приложения. Вежливое множественное (Fundani) звучало бы как объявление от учреждения.",
+      "appUi.readerSettings.theme «Itimu» и accent «Indlela yokukhuluma» — термины интерфейса без устоявшейся зулусской нормы; кандидаты на замену после живой вычитки."
+    ]
+  }
+}

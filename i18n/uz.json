@@ -1,0 +1,577 @@
+{
+  "meta": {
+    "title": "Kitob oʻqib {target} oʻrganing: tarjima va audio",
+    "description": "Parallel tarjima va audio bilan {target} kitoblar oʻqing, yoqqan soʻzni bir teginishda saqlang, intervalli takrorlash uni oʻz vaqtida yana koʻrsatadi.",
+    "ogTitle": "Kitob oʻqib {target} oʻrganing: tarjima va audio",
+    "ogDescription": "Parallel tarjima va audio bilan {target} kitoblar oʻqing. Yoqqan soʻzni bir teginishda saqlab qoʻying, intervalli takrorlash uni kerakli paytda yana koʻrsatadi.",
+    "twitterTitle": "Kitob oʻqib {target} oʻrganing: tarjima va audio",
+    "twitterDescription": "Yonida tarjimasi bilan {target} kitoblar oʻqing, yangi soʻzlarni bir teginishda saqlang va intervalli takrorlash bilan mustahkamlang."
+  },
+  "nav": {
+    "links": [
+      "Qanday ishlaydi",
+      "Kutubxona",
+      "Tillar",
+      "Sharhlar",
+      "Savol-javob"
+    ]
+  },
+  "hero": {
+    "title": "Quruq mashqlar bilan emas, qiziqarli kitob oʻqib {target} oʻrganing",
+    "subtitle": "Oʻzingizga chindan qiziq narsalarni oʻqing va tinglang, yangi soʻzni sahifaning oʻzidayoq saqlab qoʻying — intervalli takrorlash uni kerakli paytda yana esingizga soladi.",
+    "cta": "Ilovani yuklab oling",
+    "trust": "49 ta til • iPhone / Android",
+    "pills": [
+      "Parallel tarjima",
+      "Audio va oʻqish",
+      "Soʻz boyligi",
+      "Intervalli takrorlash",
+      "Istalgan kitob yoki matn",
+      "Shadowing",
+      "Kitobni sunʼiy intellekt bilan muhokama qilish"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kurs emas, kitob",
+        "span": "Zavq uchun oʻqiydigan narsangizdan oʻrganasiz"
+      },
+      {
+        "strong": "49 ta til",
+        "span": "Eng keng tarqalganidan eng nodirigacha"
+      },
+      {
+        "strong": "Keng qamrovli kutubxona",
+        "span": "Klassika, jahon bestsellerlari va maqolalar"
+      },
+      {
+        "strong": "Hammasi bitta aylanmada",
+        "span": "Oʻqish, audio, soʻz boyligi va takrorlash"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Nega til ilovalari yarim yoʻlda tashlanadi — bunisi esa tashlanmaydi",
+    "subtitle": "Gap hech qachon irodangizda boʻlmagan. Gap formatda edi.",
+    "labelOld": "❌ Odatda",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Ishlata olmaydigan soʻzlarni yodlaysiz",
+          "text": "Kontekstsiz roʻyxatlar va kartochkalar. Ertasiga yana yoddan chiqib ketadi."
+        },
+        "new": {
+          "title": "Soʻzlar tirik gaplar ichida uchraydi",
+          "text": "Soʻz gap ichida qanday ishlashini koʻrasiz, shuning uchun u zoʻr berib yodlamasangiz ham esda qoladi."
+        }
+      },
+      {
+        "old": {
+          "title": "Har kuni oʻsha-oʻsha mashqlar",
+          "text": "Zerikarli boʻlib qoladi, ishtiyoq soʻnadi, birinchi haftadan keyin ilova ochilmay yotaveradi."
+        },
+        "new": {
+          "title": "Baribir oʻqiydigan narsangizni oʻqiysiz",
+          "text": "Bestsellerlar, hayotdan olingan gʻaroyib voqealar, ommabop fan — oʻzingiz qaytib keladigan material."
+        }
+      },
+      {
+        "old": {
+          "title": "Asl nusxani oʻqish juda qiyin",
+          "text": "Notanish soʻzlar ketma-ket, voqea qoʻldan chiqadi, birinchi sahifadayoq tashlaysiz."
+        },
+        "new": {
+          "title": "Parallel tarjima, ustiga moslashtirilgan variant",
+          "text": "Tarjima aynan matnning yonida beriladi, juda qiyin kitobni esa darajangizga moslab qayta hikoya qildirsa boʻladi."
+        }
+      },
+      {
+        "old": {
+          "title": "Katalogda nima boʻlsa, shuni oʻqiysiz",
+          "text": "Kutubxona qatʼiy. Oʻz kitobingizni olib kirishning iloji yoʻq."
+        },
+        "new": {
+          "title": "Istalgan kitob yoki matn darslikka aylanadi",
+          "text": "Sevimli kitoblaringizni ham, kerakli hujjatlarni ham ilovaga bering — u ularni parallel tarjima, audio va soʻz mashqlari bilan qaytarib beradi."
+        }
+      },
+      {
+        "old": {
+          "title": "Oʻqiysiz, tinglaysiz, lekin hammasi passiv",
+          "text": "Gapiradigan ham, yozadigan ham joy yoʻq, shuning uchun koʻnikma mustahkamlanmaydi."
+        },
+        "new": {
+          "title": "Faqat oʻqimaysiz — gapirasiz va yozasiz",
+          "text": "Endigina tugatgan kitobingizni sunʼiy intellekt bilan muhokama qilasiz, yaʼni mavzu oʻylab topish shart emas. Aytadigan gapingiz boʻlsa, uni aytish ham, yozish ham osonlashadi."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "7 ta til koʻnikmasi — hammasi bir joyda",
+    "subtitle": "Til bilish degani — yettita alohida koʻnikmani egallash. Lingo7 ularni birin-ketin emas, birgalikda mashq qildiradi: shunda har biri qolganlarini quvvatlab, ularning oʻsishini tezlashtiradi.",
+    "skills": [
+      {
+        "title": "Oʻqish",
+        "text": "Asl nusxani ham, moslashtirilgan variantni ham yonida tarjimasi bilan oʻqiysiz — tez va lugʻatga qaramasdan."
+      },
+      {
+        "title": "Tinglash",
+        "text": "Audiokitoblar va oʻqib turib tinglash rejimi — quloqni oʻrgatishning eng samarali yoʻllaridan biri."
+      },
+      {
+        "title": "Soʻz boyligi",
+        "text": "Yangi soʻzlar yodlab oʻtirmasdan, oʻqish davomida esda qoladi. Mashqlar va intervalli takrorlash ularni uzoq muddatga mustahkamlaydi."
+      },
+      {
+        "title": "Grammatika",
+        "text": "Grammatikani oʻzlashtirishning eng yaxshi yoʻli — qoidalar tirik gap ichida qanday ishlayotganini koʻrish."
+      },
+      {
+        "title": "Yozish",
+        "text": "Sunʼiy intellekt bilan suhbat: endigina oʻqiganingizni muhokama qilasiz, demak yozgani mavzu doim tayyor. U fikringizni shakllantirishga yordam beradi va xatolaringizni ham koʻrsatib boradi."
+      },
+      {
+        "title": "Gapirish",
+        "text": "Shadowing: eshitgan gapingizni shu zahoti ovoz chiqarib takrorlaysiz — ravonlik, surʼat va ohang shunday shakllanadi."
+      },
+      {
+        "title": "Talaffuz",
+        "text": "Talaffuz mashqlari aksentingizni ona tili egasining talaffuziga yaqinlashtiradi."
+      }
+    ],
+    "conductor": {
+      "badge": "Shaxsiy reja · Tez orada",
+      "title": "Bugun nima qilish kerakligini ilova oʻzi aytadi",
+      "text": "U kerakli mashgʻulotni kerakli paytda tanlaydi: oʻqish, ovoz chiqarib takrorlash, soʻzlarni mustahkamlash yoki bobni sunʼiy intellekt bilan muhokama qilish. Nimadan boshlashni va keyin nima qilishni oʻylab oʻtirmaysiz.",
+      "caption": "Bugungi mashgʻulotga namuna — sizning rejangizni ilovaning oʻzi tuzadi.",
+      "steps": [
+        {
+          "label": "Oʻqish",
+          "meta": "15 daqiqa"
+        },
+        {
+          "label": "Tinglab oʻqish",
+          "meta": "5 daqiqa"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Hozir · 7 daqiqa"
+        },
+        {
+          "label": "Soʻzlar",
+          "meta": "25 ta kartochka"
+        },
+        {
+          "label": "AI suhbati",
+          "meta": "bobni muhokama qilish"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kitob orqali til oʻrganishning besh bosqichi",
+    "subtitle": "Murakkab metod yoʻq. Bitta aniq aylanma va uni oxirigacha olib boradigan yaxshi material.",
+    "items": [
+      {
+        "title": "Materialni tanlang",
+        "text": "Bestseller qisqachalari, klassika, hikoyalar — kayfiyatga, darajaga va bor vaqtingizga qarab."
+      },
+      {
+        "title": "Parallel tarjima bilan oʻqing",
+        "text": "Asl matn va tarjima yonma-yon; soʻzga tegsangiz maʼnosi va talaffuzi chiqadi yoki uni oʻzingizga saqlab qoʻyasiz."
+      },
+      {
+        "title": "Soʻzlarni oʻzlashtiring",
+        "text": "Saqlangan soʻzlar belgilangan oraliqlarda yana koʻrinadi — har safar xotiraning boshqa tomonini ishlatadigan mashqda."
+      },
+      {
+        "title": "Tinglang va ovoz chiqarib takrorlang",
+        "text": "Har bir gapning audiosi bor: eshitasiz, keyin diktordan qolmay takrorlaysiz — talaffuz ham, ohang ham aynan shunday shakllanadi."
+      },
+      {
+        "title": "Kitobni sunʼiy intellekt bilan muhokama qiling",
+        "text": "Sunʼiy intellekt kitobni siz bilan birga koʻrib chiqadi: yozish va gapirishni mashq qilasiz, fikringizni yangi tilda ifodalashni oʻrganasiz."
+      }
+    ]
+  },
+  "library": {
+    "title": "Parallel tarjimali {target} kitoblar — A1-dan C1-gacha barcha darajalar",
+    "subtitle": "Siz shunchaki til emas, biror narsani oʻrganasiz. Har bir daraja uchun material bor: ilk qadamdan yuqori darajagacha.",
+    "tabs": [
+      "Klassika",
+      "Bestsellerlar",
+      "Bilib oling"
+    ],
+    "panels": [
+      {
+        "title": "Buyuk kitoblarni asl tilida oʻqing — yolgʻiz qolmaysiz",
+        "text": "«Kichkina shahzoda»dan Xokinggacha: turli darajalar uchun moslashtirilgan va asl variantlar. Parallel tarjima eng qiyin nasrni ham oʻqsa boʻladigan qilib qoʻyadi.",
+        "badges": [
+          "A1-A2 Boshlangʻich",
+          "B1-B2 Oʻrta",
+          "C1+ Yuqori"
+        ]
+      },
+      {
+        "title": "Dunyodagi eng yaxshi kitoblarning magʻzi — 7–15 daqiqada",
+        "text": "Jahon bestsellerlarining asosiy gʻoyalari qisqa qilib hikoya qilingan — oʻzingiz oʻrganayotgan tilda. Bir oʻtirishda ham bilim, ham til.",
+        "badges": [
+          "A1-A2 Boshlangʻich",
+          "B1-B2 Oʻrta",
+          "C1+ Yuqori"
+        ]
+      },
+      {
+        "title": "Kuniga 5 daqiqa: bitta yaxshi fakt va bir nechta yangi soʻz",
+        "text": "Kosmos, psixologiya, biznes, tabiat, texnologiya — istalgan mavzuda yuzlab qisqa maqola. Har kuni yangi narsa bilib olasiz, til esa oʻz-oʻzidan qoʻshilib boradi.",
+        "badges": [
+          "A1-A2 Boshlangʻich",
+          "B1-B2 Oʻrta",
+          "C1+ Yuqori"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "YANGI",
+    "title": "Oʻz kitobingizni yoki matningizni yuklang — u darsligingizga aylanadi",
+    "text": "Istalgan faylni yuklang, Lingo7 uni parallel tarjima va audio bilan mashgʻulot materialiga aylantiradi. Keyin odatdagi aylanma: oʻqiysiz, tinglaysiz, soʻz oʻrganasiz, shadowing bilan nutqni charxlaysiz va oʻqiganingizni sunʼiy intellekt bilan muhokama qilasiz.",
+    "cards": [
+      {
+        "title": "Asl tilidagi bestsellerlar",
+        "text": "«Garri Potter», «Dune», «A Game of Thrones» — qachondan beri qoʻl urolmay yurgan kitoblaringizni oʻzingiz oʻrganayotgan tilda oʻqing."
+      },
+      {
+        "title": "Ish va oʻqish uchun kerak boʻlgan til",
+        "text": "Ish hujjatlari, ilmiy maqolalar, imtihon materiallari — aynan hozir shugʻullanayotgan sohangiz tilini oʻrganing."
+      }
+    ],
+    "usecases": [
+      "Imtihonlar",
+      "Ish",
+      "Maqolalar",
+      "Intervyular"
+    ],
+    "formatsNote": "Oʻz fayllaringizni quyidagi formatlarda yuklashingiz mumkin:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Moslashtirish",
+      "title": "Istalgan kitobni oʻqing — oʻzingizga moslab <span class=\"accent\">qayta yozilgan</span> holda",
+      "text": "Soʻzlari va grammatikasi hamon qiyinmi? Lingo7 kitobni soddaroq tilda qayta hikoya qilib beradi: voqea ham, qahramonlar ham oʻsha, faqat jumlalar oddiyroq tuzilgan.",
+      "cta": "Oʻz kitobingizda sinab koʻring"
+    },
+    "goalQuote": "Eng yoqtirgan usulim: «Garri Potter»ni oling va kuniga bir bobdan oʻting — oʻqing, tinglang, yangi soʻzlarni oʻrganing, keyin sunʼiy intellekt bilan muhokama qiling. Kuniga bir-ikki soatdan olti oy shugʻullansangiz, <span class=\"goal-quote__level\">A2-dan B2-ga</span> chiqib olasiz."
+  },
+  "audience": {
+    "title": "Lingo7 sizga mos keladi, agar siz...",
+    "items": [
+      "Oʻzingizni majburlab oʻtiradigan darslar emas, qiziqarli material orqali oʻrganmoqchi boʻlsangiz",
+      "Oʻqish bilan cheklanmay, tinglash, gapirish va yozishni ham xohlasangiz: shadowing talaffuzni, sunʼiy intellekt bilan suhbat esa fikrni soʻzga solishni mashq qildiradi",
+      "Tayyor darslar bilan cheklanmay, oʻz materialingiz ustida — ish hujjatlari, sevimli kitob va maqolalar — ishlamoqchi boʻlsangiz",
+      "Koʻpchilik ilovalarda yoʻq nodir til kerak boʻlsa",
+      "5-15 daqiqalik qisqa mashgʻulotlarda ishlashni afzal koʻrsangiz"
+    ]
+  },
+  "pains": {
+    "title": "Nima xalaqit beradi — va Lingo7 bunga nima qiladi",
+    "subtitle": "Gap qobiliyatda emas. Gap formatda.",
+    "chips": [
+      "Gapirishdan qoʻrqaman",
+      "Zerikaman",
+      "Soʻzlar esda qolmaydi",
+      "Oʻqish qiyin",
+      "Nutqni ilgʻamayman",
+      "Vaqt yoʻq",
+      "Nodir til",
+      "Menga toʻgʻri kelmaydi"
+    ],
+    "answers": [
+      {
+        "title": "«Gapirishga uyalaman, xato qilishdan qoʻrqaman»",
+        "text": "Shadowing — eshitgan iboralaringizni ovoz chiqarib, yolgʻiz oʻzingiz, hech kim baho qoʻymagan holda takrorlash. Talaffuz aynan shunday shakllanadi. Sunʼiy intellekt bilan suhbatda esa ibora tuzishni yozma mashq qilasiz, u xatolarni muloyimlik bilan toʻgʻrilab boradi."
+      },
+      {
+        "title": "«Tez zerikib qolaman»",
+        "text": "Bir-biriga oʻxshash darslar oʻrniga kitoblar, bestsellerlar va baribir oʻqiydigan mavzularingizdagi maqolalar. Material oʻziga tortsa, unga qaytish oson."
+      },
+      {
+        "title": "«Soʻzlarni koʻraman, lekin esimda qolmaydi»",
+        "text": "Bir teginish soʻzni oʻz gapi bilan saqlab qoʻyadi, keyin u belgilangan oraliqlarda kartochka boʻlib yana koʻrinadi. Esda qolishi omadga bogʻliq boʻlmay qoladi."
+      },
+      {
+        "title": "«Asl nusxani oʻqish menga juda qiyin»",
+        "text": "Parallel tarjima gapma-gap tenglashtirilgan: har ikki qatorda tarjimonga kirib chiqish shart emas."
+      },
+      {
+        "title": "«Ogʻzaki nutqni ilgʻamayman»",
+        "text": "Tinglab oʻqish rejimi soʻzning tovushini uning yozilishi va maʼnosi bilan bogʻlaydi. Quloq tilga oʻz-oʻzidan oʻrganib boradi."
+      },
+      {
+        "title": "«Vaqtim yoʻq»",
+        "text": "Qisqa formatlar va tez mashgʻulotlar: kuniga 5-10 daqiqa ham ritmni saqlab turadi."
+      },
+      {
+        "title": "«Menga nodir til kerak»",
+        "text": "49 ta til, nodirlari ham bor. Ularning istalganini oʻz ona tilingizdan turib oʻrganasiz."
+      },
+      {
+        "title": "«Menga toʻgʻri kelmasa-chi?»",
+        "text": "Oʻqiy olsangiz, toʻgʻri keladi. Oldindan bilim ham, grammatika ham, tayyorgarlik ham shart emas — darajangizga mos kitobdan boshlayverasiz."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "{target} oʻrganing",
+    "title": "49 ta til: keng tarqalganidan nodirigacha",
+    "subtitle": "Istalgan tilni oʻz ona tilingizdan turib oʻrganing — koʻpchilik ilovalar majburlaganidek, faqat ingliz tili orqali emas.",
+    "groupTitles": [
+      "Ommabop",
+      "Barcha tillar"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 ta til juftligi.</strong> Istalgan juftni tanlang: oʻrganadigan tilingiz va tarjimasini oʻqiydigan tilingiz."
+  },
+  "reviews": {
+    "title": "Bunchalik yoqadi deb oʻylamagan edik",
+    "subtitle": "Ammo fakt — fakt: Google Play sahifasida odamlar mana shunday yozishyapti.",
+    "items": [
+      {
+        "text": "Zoʻr ilova. Bitta kitob bir necha ingliz tili darajasida boʻlishi — katta plyus. Yangilanishni sabrsizlik bilan kutyapman!",
+        "author": "Екатерина М.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Yillik obunani oldim, puliga toʻla arziydi. Bu chindan ham ajoyib ilova! Ingliz tilini yaxshilash uchun juda yaxshi manba. Kattalarga ham, bolalarga ham — foydali emas, balki zarur.",
+        "author": "Mayur L.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Braziliyadagi jamoa bilan ishlash uchun portugal tili kerak edi. Bir vaqtda oʻqish va tinglash juda samarali ekan. 6 haftadan keyin uchrashuvlarni tushunadigan boʻldim.",
+        "author": "Rosita R.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Nemis tilini oʻrganishni doim xohlardim, bu ilovada hammasi shunga oʻxshash boshqa ilovalardagidan ancha tushunarli va oson. Ilovaga 10 dan 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Audio bilan oʻqish funksiyasidan foydalanaman, men uchun haqiqiy burilish boʻldi. Audio yozuvlar toza va matnga aniq mos tushadi. Til oʻrganuvchilar uchun ajoyib vosita.",
+        "author": "Zeynep O.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Gʻoyaga ham, ijroga ham aʼlo baho. Ayni paytda serb tilidagi kitoblari bor yagona ilova. Barakalla! Rahmat!",
+        "author": "Вася К.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      },
+      {
+        "text": "Oʻqituvchi sifatida aytaman: bu chindan ham ajoyib ilova. Oʻquvchilarimga tavsiya qilaman. Juda yoqimli. Hammaga tavsiya qilaman.",
+        "author": "Sasha T.",
+        "source": "Google Play • asl nusxasini koʻrish"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Koʻp beriladigan savollar",
+    "items": [
+      {
+        "q": "Lingo7 tilni noldan boshlayotgan odamga toʻgʻri keladimi?",
+        "a": "Ha. Har bir daraja uchun material bor, parallel tarjima esa matnni eng boshidanoq tushunarli qiladi."
+      },
+      {
+        "q": "Asl nusxada oʻqish uchun qanday daraja kerak?",
+        "a": "Istalgan daraja. Parallel tarjima tufayli lugʻatga qarash shart emas, juda qiyin kitobni esa soddaroq qilib qayta hikoya qildirsa boʻladi: voqea ham, qahramonlar ham oʻsha, faqat grammatika va soʻzlar sizning darajangizda. Hammasi A1-dan C1-gacha belgilab qoʻyilgan."
+      },
+      {
+        "q": "Kuniga 10 daqiqa shugʻullansam boʻladimi?",
+        "a": "Ha. Qisqa maqolalar, kitob qisqachalari va soʻz kartochkalari aynan kundalik qisqa mashgʻulotlar uchun qilingan."
+      },
+      {
+        "q": "Qaysi tillar bor?",
+        "a": "49 ta til, va ularning istalganini oʻz ona tilingizdan turib oʻrganasiz, faqat ingliz tili orqali emas. Bu 49 × 48 = 2352 ta til juftligi, nodir tillar ham shu yerda."
+      },
+      {
+        "q": "Bu odatdagi til ilovalaridan nimasi bilan farq qiladi?",
+        "a": "Bir-biriga bogʻlanmagan mashqlar oʻrniga oʻzingizga qiziq materialdan oʻrganasiz, koʻnikmalar esa bitta aylanmaga ulangan: oʻqiysiz va tinglaysiz, soʻzlarni intervalli takrorlashga saqlaysiz, grammatikani kontekstda ilib olasiz, nutqni shadowing bilan, yozuvni sunʼiy intellekt bilan suhbatda charxlaysiz. Ustiga-ustak oʻz kitobingiz yoki hujjatingizni yuklashingiz mumkin."
+      },
+      {
+        "q": "Gapirish mashqi bormi?",
+        "a": "Ha. Nutq uchun shadowing bor: eshitgan iborangizni ovoz chiqarib takrorlaysiz, talaffuz va ohangni charxlaysiz. Yozuv uchun sunʼiy intellekt bilan suhbat: oʻqiganingizni muhokama qilasiz, u fikringizni ifodalashga yordam beradi va xatolaringizni topadi. Haqiqiy odam bilan suhbat hozircha yoʻq — u rejada."
+      },
+      {
+        "q": "Qanday fayl formatlarini yuklash mumkin?",
+        "a": "PDF, EPUB, FB2 va TXT. Ish hujjatlari, sevimli kitob yoki maqolalarni yuklang — ilova parallel tarjimani tuzadi, audio qoʻshadi, yangi soʻzlarni esa mashq qilgichga yigʻib qoʻyadi."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bugundanoq {target} oʻrganing — mashq bilan emas, kitob bilan",
+    "text": "Ilovani yuklab oling va birinchi kitobingizni oching.",
+    "perks": [
+      "49 ta til",
+      "Barcha darajalar"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Loyiha haqida",
+      "Aloqa",
+      "Vakansiyalar",
+      "Maktablar uchun",
+      "Til qanday oʻrganiladi",
+      "Foydalanish shartlari",
+      "Maxfiylik"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Barcha huquqlar himoyalangan."
+  },
+  "downloadModal": {
+    "title": "Lingo7 ilovasini yuklab oling",
+    "text": "App Store va Google Play doʻkonlarida mavjud"
+  },
+  "stickyCta": {
+    "label": "Ilovani yuklab oling"
+  },
+  "mobileMenu": {
+    "links": [
+      "Qanday ishlaydi",
+      "Kutubxona",
+      "Tillar",
+      "Sharhlar",
+      "Savol-javob"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Tinglash",
+      "add": "Saqlash",
+      "translate": "Tarjima",
+      "addToMyWords": "Soʻzlarimga qoʻshish",
+      "inMyWords": "Soʻzlarimda",
+      "audioMode": "Audio rejim",
+      "discussWithAi": "Sunʼiy intellekt bilan muhokama",
+      "selfCheck": "Oʻzingizni sinang"
+    },
+    "wordCard": {
+      "freqHigh": "TEZ-TEZ",
+      "freqMid": "OʻRTACHA",
+      "example": "Misol",
+      "otherTranslations": "Boshqa tarjimalari",
+      "synonyms": "Sinonimlar",
+      "open": "Ochish",
+      "group": "Guruh:",
+      "groupDefault": "Umumiy",
+      "page": "b."
+    },
+    "readerSettings": {
+      "sectionText": "MATN",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Soʻzlarimni ajratib koʻrsatish",
+      "highlightMyWordsHint": "Saqlagan soʻzlaringiz belgilanadi",
+      "theme": "Koʻrinish",
+      "themeLight": "Yorugʻ",
+      "fontSize": "Shrift oʻlchami",
+      "font": "Shrift",
+      "speakOnTap": "Teginilgan soʻzni aytish",
+      "speakOnTapHint": "Tegingan soʻzingizni ovoz chiqarib oʻqiydi",
+      "speechRate": "Nutq tezligi",
+      "pronunciationTest": "Talaffuz testi",
+      "playSample": "Namuna iborani eshitish",
+      "reset": "Sozlamalarni tiklash",
+      "done": "Tayyor",
+      "on": "Yoniq",
+      "off": "Oʻchiq",
+      "accent": "Aksent",
+      "translationAlways": "Doim"
+    },
+    "vocab": {
+      "pickRightPicture": "Toʻgʻri rasmni tanlang",
+      "correct": "Aynan topdingiz",
+      "rightAnswer": "Toʻgʻri javob:",
+      "next": "Keyingi",
+      "done": "Tayyor",
+      "skip": "Oʻtkazib yuborish",
+      "exercise": "Mashq",
+      "exerciseMeta": "/11 · 10 ta soʻz"
+    },
+    "chat": {
+      "title": "Mashq",
+      "discussing": "Muhokama qilyapmiz: «{book}»",
+      "finish": "Tugatish",
+      "playing": "Yangramoqda…",
+      "replyOptions": "Javob variantlari",
+      "placeholder": "Xabar yozing"
+    },
+    "bookDetail": {
+      "adapted": "Moslashtirilgan",
+      "adaptedHint": "Soddaroq tilda qayta yozilgan, maʼnosi saqlangan",
+      "original": "Asl nusxa",
+      "originalHint": "Toʻliq asl matn, oʻzgarishsiz",
+      "open": "Ochish",
+      "genre": "Janr",
+      "badgeSummary": "Qisqacha"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Qidiruv",
+      "upload": "Kitob yuklang",
+      "tabCatalog": "Katalog",
+      "tabAll": "Barcha kitoblar",
+      "tabFavorites": "Sevimlilar",
+      "shelfBestsellers": "Jahon bestsellerlari",
+      "shelfBestsellersSub": "qisqacha bayonda, audio bilan",
+      "shelfStories": "Qisqa hikoyalar",
+      "shelfStoriesSub": "Kichik hikoyalar, katta maʼno",
+      "bandTitle": "Kuniga 5 daqiqa",
+      "bandText": "Har kuni qiziqarli faktlar bilib oling — til esa oʻz-oʻzidan qoʻshilib boradi.",
+      "shelfAmazing": "Hayratlanarli hikoyalar",
+      "shelfNature": "Tabiat sirlari",
+      "shelfHealth": "Salomatlik va fan",
+      "moreTopics": "Koʻproq mavzular",
+      "shelfGolden": "Oltin klassika",
+      "shelfGoldenSub": "Insoniyatni oʻzgartirgan 200 kitob",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Kutubxona",
+      "practice": "Mashq",
+      "read": "Oʻqish",
+      "myWords": "Soʻzlarim",
+      "collections": "Toʻplamlar"
+    }
+  },
+  "_note": "Переведено с эталона i18n/en.json под локаль uz (узбекский латиницей как язык интерфейса читателя, my_lang). Не машинный перевод и не правка ru.json: строки написаны заново под узбекский синтаксис. Слот {target} несёт форму названия языка на -cha (ispancha, inglizcha, ozarbayjoncha) — словообразовательный суффикс вобран ВНУТРЬ слота, после слота не стоит ни одного согласуемого токена. Бюджет выдачи посчитан по самому длинному из 49 названий — «ozarbayjoncha» (13 знаков). Обращение — вежливое «siz». Орфография: oʻ/gʻ через U+02BB, тутуқ белгиси через U+02BC. Файл прошёл снятие калек по i18n/en.gloss.json: все 16 оборотов эталона сверены построчно. Третий круг (разбор i18n/_qa/gemini-uz.json): снята калька «tirik odam» → «haqiqiy odam», конструкция «sunʼiy intellekt suhbati» («разговор ИИ») по всему файлу приведена к «sunʼiy intellekt bilan suhbat», «talaffuz ... chiqadi» → «shakllanadi», «odob bilan» → «muloyimlik bilan».",
+  "_contract": {
+    "government": "Голая (неоформленная) форма названия языка на -cha. Одна позиция на все 9 строк: (а) неоформленное обстоятельство-дополнение при oʻrganmoq / oʻqimoq («ispancha oʻrganing», «ispancha oʻqing») и (б) та же самая словоформа определением перед существительным («ispancha kitoblar»). Это одна неизменяемая словоформа: после слота НИКОГДА не ставится ни падежный, ни притяжательный, ни множественный аффикс (мн. ч. берёт на себя соседнее «kitoblar»), поэтому суффиксальная морфология целиком убрана внутрь слота и наружу не выходит. Артиклей и послелогов с алломорфией рядом со слотом нет.",
+    "slotExample": "ispancha",
+    "slotExampleEnglish": "inglizcha",
+    "longestSlot": "ozarbayjoncha",
+    "longestSlotLang": "азербайджанский (13 знаков); ровно столько же — indoneziyacha, следом afrikaanscha и niderlandcha по 12, filippincha и portugalcha по 11, katalancha / makedoncha / fransuzcha по 10",
+    "titleRenderedLen": 53,
+    "descRenderedLen": 155,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "meta.title / ogTitle / twitterTitle: слот намеренно поставлен не первым словом. В узбекском названия языков и формы на -cha пишутся со строчной; автозаглавная в начале <title> напечатала бы «Ispancha», а для oʻ-начальных атомов (oʻzbekcha) заглавная «Oʻ» ещё и требует особой пары символов — ошибка, которую не поймает ни одна автопроверка.",
+      "hero.title, finalCta.title, meta.*: «ispancha oʻrganing» формально читается и как «учитесь по-испански» (наречное значение -cha). Это ровно тот же узус, что тюркское «İspanyolca öğrenin», и в контексте приложения для изучения языков однозначно, но это первая связка строк, которую стоит показать носителю. Школьная норма сказала бы «ispan tilini oʻrganing», однако конструкция через носитель «til» брифом запрещена именно как признак машинного перевода.",
+      "Формы на -cha у редких языков (baskcha, zulucha, suahilicha, filippincha, galisiycha, bosniycha) закреплены в узусе слабее, чем inglizcha/ruscha/nemischa. Перед выкаткой сверить всю таблицу из 49 атомов; там, где -cha звучит натянуто, узус всё равно ближе к нему, чем к запрещённому «bask tilini oʻrganing».",
+      "library.title: слот стоит определением («ispancha kitoblar»), поэтому H2 сознательно начат с «Parallel tarjimali», чтобы заголовок не открывался строчной буквой.",
+      "appUi.chat.discussing: аффикс после названия книги обойдён конструкцией «Muhokama qilyapmiz: «{book}»» — иначе после названия пришлось бы писать винительный -ni через апостроф («Dune»ni), что в узбекской типографике выглядит грязно (тот же запрет, что и для {target}).",
+      "«Sunʼiy intellekt» выписан полностью в прозе; сокращение «AI» оставлено только в одной тесной UI-строке — method.conductor.steps[4].label «AI suhbati». Носителю решить, выровнять ли её до «sunʼiy intellekt» или, наоборот, пустить «AI» шире.",
+      "«Shadowing» оставлен английским термином — узбекского обиходного эквивалента нет; в method.skills[5], pains.answers[0] и faq.items[5] он раскрыт описательно («eshitgan gapingizni shu zahoti ovoz chiqarib takrorlaysiz»).",
+      "«Intervalli takrorlash» (spaced repetition) — понятный, но заимствованный термин; в steps.items[2] и pains.answers[2] то же понятие раскрыто описательно («belgilangan oraliqlarda yana koʻrinadi»), чтобы термин не висел без объяснения. Альтернатива для носителя — «oraliqli takrorlash».",
+      "faq.items[1].q «Asl nusxada oʻqish uchun qanday daraja kerak?» — косвенный вопрос об уровне, а не условие; ответ начинается с «Istalgan daraja». Модальность сохранена точно: «qayta hikoya qildirish mumkin» (возможность, не обещание) и «Haqiqiy odam bilan suhbat hozircha yoʻq — u rejada».",
+      "Аффиксы к латинским кодам уровней пишутся через дефис (A1-dan C1-gacha) — узбекская конвенция для буквенно-цифровых сокращений; вариант через апостроф тоже встречается, сверить с гайдом бренда.",
+      "Названия книг: «Kichkina shahzoda» и «Garri Potter» — изданные узбекские названия, «Xoking» — транслитерация фамилии. Dune, A Game of Thrones и все четыре книги в library.examples оставлены латиницей: изданный узбекский перевод не подтверждён, а изобретать название бриф запрещает.",
+      "appUi.readerSettings.theme переведено как «Koʻrinish» (оформление), а не «Mavzu»: «mavzu» в узбекском в первую очередь «тема текста/разговора» и в настройках читалки читается двусмысленно.",
+      "Обращение: везде вежливое «siz» — норма узбекских потребительских продуктов; «sen» звучало бы фамильярно от незнакомого бренда.",
+      "Метафора «одна петля» переведена как «aylanma» (trust.cards[3], steps.subtitle, customBook.text, faq.items[4].a) — одно слово во всех четырёх местах, чтобы образ читался как термин продукта. Если носитель сочтёт «aylanma» слишком технической, единая замена — «tsikl»."
+    ]
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "Învață {target} citind: cărți bilingve și audio",
+    "description": "Citește cărți în {target} cu traducerea în română alături și cu audio, învață cuvinte prin repetiție la intervale și discută capitolele cu AI.",
+    "ogTitle": "Învață {target} citind: cărți bilingve și audio",
+    "ogDescription": "Citește cărți în {target} cu traducerea în română alături și cu audio. Salvează un cuvânt dintr-o atingere, iar repetiția la intervale ți-l reamintește la timp.",
+    "twitterTitle": "Învață {target} citind: cărți bilingve și audio",
+    "twitterDescription": "Citește cărți în {target} cu româna alături, salvează cuvintele dintr-o atingere și reia-le prin repetiție la intervale."
+  },
+  "nav": {
+    "links": [
+      "Cum funcționează",
+      "Bibliotecă",
+      "Limbi",
+      "Recenzii",
+      "Întrebări"
+    ]
+  },
+  "hero": {
+    "title": "Învață {target} citind cărți, nu rezolvând exerciții la nesfârșit",
+    "subtitle": "Citește și ascultă lucruri care chiar te interesează, salvează cuvintele direct din pagină, iar un algoritm de repetiție la intervale ți le reamintește exact când trebuie.",
+    "cta": "Descarcă aplicația",
+    "trust": "49 de limbi • iPhone / Android",
+    "pills": [
+      "Traducere în paralel",
+      "Audio și text",
+      "Antrenor de vocabular",
+      "Repetiție la intervale",
+      "Orice carte sau text",
+      "Shadowing",
+      "Discuți cartea cu AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "O carte, nu un curs",
+        "span": "Studiezi exact ce ai citi de plăcere"
+      },
+      {
+        "strong": "49 de limbi",
+        "span": "De la cele mai vorbite la cele mai rare"
+      },
+      {
+        "strong": "O bibliotecă cu de toate",
+        "span": "Clasici, bestselleruri mondiale și articole"
+      },
+      {
+        "strong": "Totul se învârte într-un singur ciclu",
+        "span": "Citit, audio, cuvinte și repetare"
+      }
+    ]
+  },
+  "compare": {
+    "title": "De ce sunt abandonate aproape toate aplicațiile de limbi – și de ce asta nu",
+    "subtitle": "Problema n-a fost niciodată disciplina ta, ci formatul.",
+    "labelOld": "❌ De obicei",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Memorezi cuvinte pe care nu le poți folosi",
+          "text": "Liste și cartonașe fără niciun context. Mâine s-au dus."
+        },
+        "new": {
+          "title": "Cuvintele îți apar în propoziții adevărate",
+          "text": "Vezi cum se poartă un cuvânt în context, așa că îți rămâne de la sine."
+        }
+      },
+      {
+        "old": {
+          "title": "Aceleași exerciții, zi după zi",
+          "text": "Devine plictisitor, motivația scade, iar după prima săptămână aplicația rămâne nedeschisă."
+        },
+        "new": {
+          "title": "Citești ce ai citi oricum",
+          "text": "Bestselleruri, povești adevărate ciudate, știință pe înțelesul tuturor – lucruri la care te întorci singur."
+        }
+      },
+      {
+        "old": {
+          "title": "Cartea în original e prea grea",
+          "text": "Cuvinte necunoscute peste tot, firul poveștii îți scapă, renunți de la prima pagină."
+        },
+        "new": {
+          "title": "Traducerea alături, plus adaptarea",
+          "text": "Traducerea e chiar lângă text, iar o carte prea grea poate fi rescrisă la nivelul tău."
+        }
+      },
+      {
+        "old": {
+          "title": "Citești ce se nimerește să fie în catalog",
+          "text": "O bibliotecă fixă. Cartea ta n-ai cum s-o aduci."
+        },
+        "new": {
+          "title": "Orice carte sau text îți devine manual",
+          "text": "Îi dai aplicației cărțile care îți plac și documentele de care ai nevoie, iar ea ți le dă înapoi cu traducerea în paralel, cu audio și cu cuvintele scoase la repetat."
+        }
+      },
+      {
+        "old": {
+          "title": "Citești și asculți, dar totul rămâne pasiv",
+          "text": "N-ai unde să vorbești sau să scrii, așa că deprinderea nu se fixează."
+        },
+        "new": {
+          "title": "Nu doar citești – vorbești și scrii",
+          "text": "Discuți cu AI cartea pe care tocmai ai terminat-o, așa că n-ai de inventat niciun subiect. Când ai ce spune, și vorbitul, și scrisul vin ușor."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Toate cele 7 deprinderi de limbă, la un loc",
+    "subtitle": "Să știi o limbă înseamnă șapte deprinderi diferite. Lingo7 le antrenează împreună, nu pe rând, așa că fiecare le întărește pe celelalte.",
+    "skills": [
+      {
+        "title": "Citit",
+        "text": "Citești originalul sau o versiune adaptată, cu traducerea chiar alături – repede și fără dicționar."
+      },
+      {
+        "title": "Ascultat",
+        "text": "Cărți audio și modul ascultă în timp ce citești – unul dintre cele mai eficiente feluri de a-ți face urechea."
+      },
+      {
+        "title": "Vocabular",
+        "text": "Cuvintele noi îți rămân în minte pe măsură ce citești, fără să le tocești. Exercițiile și repetiția la intervale ți le fixează pe termen lung."
+      },
+      {
+        "title": "Gramatică",
+        "text": "Cel mai bine prinzi gramatica văzând cum lucrează regulile într-o propoziție adevărată."
+      },
+      {
+        "title": "Scris",
+        "text": "Chat cu AI: discuți ce tocmai ai citit, așa că ai mereu despre ce să scrii. Te ajută să-ți închegi gândul și îți prinde greșelile."
+      },
+      {
+        "title": "Vorbit",
+        "text": "Shadowing: repeți cu voce tare după narator și capeți fluență, ritm și intonație."
+      },
+      {
+        "title": "Pronunție",
+        "text": "Exercițiile de pronunție te ajută să-ți apropii accentul de felul în care sună un vorbitor nativ."
+      }
+    ],
+    "conductor": {
+      "badge": "Plan personal · În curând",
+      "title": "Aplicația îți va spune ce ai de făcut azi",
+      "text": "Alege activitatea potrivită la momentul potrivit – citit, repetat cu voce tare, fixat cuvinte sau discutat un capitol cu AI. Nu mai ai tu de hotărât de unde începi și ce urmează.",
+      "caption": "Un exemplu de sesiune pentru azi – pe a ta ți-o construiește aplicația.",
+      "steps": [
+        {
+          "label": "Citit",
+          "meta": "15 min"
+        },
+        {
+          "label": "Ascultă și citește",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Acum · 7 min"
+        },
+        {
+          "label": "Cuvinte",
+          "meta": "25 de cartonașe"
+        },
+        {
+          "label": "Chat cu AI",
+          "meta": "discuți capitolul"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Cum înveți o limbă din cărți: cinci pași",
+    "subtitle": "Fără metode sofisticate. Un ciclu limpede și conținut destul de bun cât să te ducă prin el.",
+    "items": [
+      {
+        "title": "Alege-ți conținutul",
+        "text": "Rezumate de bestselleruri, clasici, povestiri scurte – după dispoziție, după nivel, după timpul pe care îl ai."
+      },
+      {
+        "title": "Citește cu traducerea alături",
+        "text": "Originalul și traducerea unul lângă altul; atingi un cuvânt și îi vezi sensul, îi asculți audio sau îl salvezi."
+      },
+      {
+        "title": "Învață cuvintele",
+        "text": "Cuvintele salvate revin în exerciții care pun la treabă tipuri diferite de memorie, eșalonate în timp."
+      },
+      {
+        "title": "Ascultă și repetă cu voce tare",
+        "text": "Fiecare propoziție are audio: asculți, apoi repeți după narator – așa se formează pronunția și intonația."
+      },
+      {
+        "title": "Discută cartea cu AI",
+        "text": "AI-ul parcurge cartea împreună cu tine – exersezi scrisul și vorbitul și înveți să-ți pui gândurile într-o limbă nouă."
+      }
+    ]
+  },
+  "library": {
+    "title": "Cărți în {target} cu traducere – pe niveluri, de la A1 la C1",
+    "subtitle": "Nu înveți doar o limbă, înveți și ceva. Material pentru orice nivel, de la primii pași până la avansat.",
+    "tabs": [
+      "Clasici",
+      "Bestselleruri",
+      "Descoperiri"
+    ],
+    "panels": [
+      {
+        "title": "Citește marile cărți în original – cu plasă de siguranță",
+        "text": "Versiuni adaptate și originale pentru niveluri diferite, de la Micul Prinț până la Hawking. Cu traducerea alături rămâne lizibilă și proza grea.",
+        "badges": [
+          "A1-A2 Începător",
+          "B1-B2 Mediu",
+          "C1+ Avansat"
+        ]
+      },
+      {
+        "title": "Esența celor mai bune cărți din lume, în 7–15 minute",
+        "text": "Ideile-cheie ale bestsellerurilor mondiale, repovestite pe scurt – în limba pe care o înveți. Crești și înveți limba în aceeași ședință.",
+        "badges": [
+          "A1-A2 Începător",
+          "B1-B2 Mediu",
+          "C1+ Avansat"
+        ]
+      },
+      {
+        "title": "5 minute pe zi: un fapt bun și câteva cuvinte noi",
+        "text": "Spațiu, psihologie, business, natură, tehnologie – sute de articole scurte pe orice temă. Afli ceva nou în fiecare zi, iar limba vine la pachet.",
+        "badges": [
+          "A1-A2 Începător",
+          "B1-B2 Mediu",
+          "C1+ Avansat"
+        ]
+      }
+    ],
+    "examples": [
+      "Gândește și îmbogățește-te • Principiul 80/20 • Cele 7 deprinderi ale persoanelor eficace • Puterea prezentului"
+    ]
+  },
+  "customBook": {
+    "badge": "NOU",
+    "title": "Încarcă-ți propria carte sau propriul text și învață din el",
+    "text": "Încarci orice fișier, iar Lingo7 îl transformă în material de studiu, cu traducerea în paralel și cu audio. De acolo urmează ciclul obișnuit: citești, asculți, înveți cuvinte, lucrezi la vorbit prin shadowing și discuți totul cu AI.",
+    "cards": [
+      {
+        "title": "Bestselleruri în original",
+        "text": "Harry Potter, Dune, Urzeala tronurilor – citești cărțile pe care tot amâni să le începi, în limba pe care o înveți."
+      },
+      {
+        "title": "Limba de care ai nevoie la muncă și la studii",
+        "text": "Documente de serviciu, lucrări, materiale de examen – înveți limba domeniului în care chiar ești acum."
+      }
+    ],
+    "usecases": [
+      "Examene",
+      "Muncă",
+      "Articole",
+      "Interviuri"
+    ],
+    "formatsNote": "Încarcă-ți fișierele în aceste formate:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptare",
+      "title": "Citește orice carte – <span class=\"accent\">rescrisă</span> pe măsura ta",
+      "text": "Vocabularul și gramatica tot prea grele? Lingo7 rescrie cartea într-un limbaj mai simplu – aceeași poveste, aceleași personaje, propoziții mai ușoare.",
+      "cta": "Încearcă pe cartea ta"
+    },
+    "goalQuote": "Rețeta mea preferată: iei Harry Potter și faci un capitol pe zi – îl citești, îl asculți, înveți cuvintele noi, îl discuți cu AI. Șase luni cu o oră-două pe zi și ieși <span class=\"goal-quote__level\">din A2 la B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 e pentru tine dacă...",
+    "items": [
+      "Vrei să înveți din conținut, nu din lecții pe care le faci în silă",
+      "Vrei mai mult decât citit – și ascultat, și vorbit, și scris: pronunție prin shadowing și gânduri puse în cuvinte în chatul cu AI",
+      "Vrei să studiezi pe materialul tău – documente de serviciu, cărțile și articolele preferate – nu doar pe lecții gata făcute",
+      "Ai nevoie de o limbă rară, pe care majoritatea aplicațiilor n-o au",
+      "Vrei să lucrezi în reprize scurte, de 5-15 minute"
+    ]
+  },
+  "pains": {
+    "title": "Ce te încurcă – și ce face Lingo7 în privința asta",
+    "subtitle": "Nu e o chestiune de talent, ci de format.",
+    "chips": [
+      "Mi-e frică să vorbesc",
+      "Mă plictisesc",
+      "Nu-mi rămân cuvintele",
+      "Cititul e greu",
+      "Nu prind vorbirea",
+      "N-am timp",
+      "Limbă rară",
+      "Nu mi se potrivește"
+    ],
+    "answers": [
+      {
+        "title": "„Mi-e rușine să vorbesc și să greșesc”",
+        "text": "Shadowing înseamnă că repeți frazele după narator cu voce tare, singur, fără să te noteze nimeni. Așa se formează pronunția. În chatul cu AI lucrezi la formulare în scris, iar el te corectează blând."
+      },
+      {
+        "title": "„Mă plictisesc repede”",
+        "text": "În loc de lecții care seamănă una cu alta: cărți, bestselleruri și articole pe teme despre care ai citi oricum. Când conținutul te prinde, revii ușor."
+      },
+      {
+        "title": "„Văd cuvintele, dar nu-mi rămân”",
+        "text": "O atingere salvează cuvântul din propoziția lui, apoi el revine ca fișă, la intervale calculate. Nu mai ține de noroc ce-ți rămâne în cap."
+      },
+      {
+        "title": "„Cartea în original e prea grea pentru mine”",
+        "text": "Traducere în paralel, cu propozițiile aliniate – nu mai fugi la traducător la fiecare două rânduri."
+      },
+      {
+        "title": "„Nu prind limba vorbită”",
+        "text": "Modul ascultă și citește leagă sunetul unui cuvânt de scrierea și de sensul lui. Urechea ta se obișnuiește cu limba pe nesimțite."
+      },
+      {
+        "title": "„N-am timp”",
+        "text": "Formate scurte și sesiuni rapide – și 5-10 minute pe zi te țin în ritm."
+      },
+      {
+        "title": "„Îmi trebuie o limbă rară”",
+        "text": "49 de limbi, inclusiv cele rare. Și le înveți pe oricare dintre ele pornind din propria ta limbă."
+      },
+      {
+        "title": "„Mi-e teamă că nu mi se potrivește”",
+        "text": "Dacă știi să citești, ți se potrivește. Nu-ți trebuie cunoștințe dinainte, gramatică sau pregătire – începi cu orice carte de nivelul tău."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Învață {target}",
+    "title": "49 de limbi, de la cele răspândite la cele rare",
+    "subtitle": "Înveți orice limbă pornind din limba ta, nu doar prin engleză, cum te obligă majoritatea aplicațiilor.",
+    "groupTitles": [
+      "Populare",
+      "Toate limbile"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 de perechi de limbi.</strong> Alege orice combinație: limba pe care o înveți și limba în care citești traducerea."
+  },
+  "reviews": {
+    "title": "Nu ne așteptam să vă placă chiar atât",
+    "subtitle": "Dar faptele-s fapte – iată ce scrie lumea pe Google Play.",
+    "items": [
+      {
+        "text": "Aplicație grozavă. Mare plus că aceeași carte vine în mai multe niveluri de engleză. Aștept cu nerăbdare actualizarea!",
+        "author": "Екатерина М.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Am luat abonamentul anual și merită din plin banii. Chiar e o aplicație minunată! O resursă excelentă ca să-ți îmbunătățești engleza. De la adulți la copii – nu doar utilă, ci necesară.",
+        "author": "Mayur L.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Aveam nevoie de portugheză ca să lucrez cu o echipă din Brazilia. Cititul și audio în același timp e foarte eficient. După 6 săptămâni urmăream deja ședințele.",
+        "author": "Rosita R.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Mi-am dorit mereu să învăț germană, iar în aplicația asta totul e mult mai accesibil și mai clar decât în altele de același fel. Aplicația e 10 din 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Folosesc funcția de citit cu audio și pentru mine a fost o adevărată descoperire. Piesele audio sunt clare și bine sincronizate. Un instrument fantastic pentru cine învață limbi.",
+        "author": "Zeynep O.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Ideea și execuția iau nota 10. Deocamdată e singura aplicație cu cărți în sârbă. Bravo! Mulțumesc!",
+        "author": "Вася К.",
+        "source": "Google Play • vezi originalul"
+      },
+      {
+        "text": "Chiar e o aplicație minunată pentru mine, ca profesoară. Le-o recomand elevilor mei. Foarte plăcută. O recomand tuturor.",
+        "author": "Sasha T.",
+        "source": "Google Play • vezi originalul"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Întrebări frecvente",
+    "items": [
+      {
+        "q": "Merge Lingo7 și dacă sunt complet începător?",
+        "a": "Da. Există material pentru orice nivel, iar traducerea alături face textul de înțeles chiar de la primele rânduri."
+      },
+      {
+        "q": "Ce nivel îmi trebuie ca să citesc în original?",
+        "a": "Orice nivel. Cu traducerea în paralel nu mai ai nevoie de dicționar, iar o carte prea grea poate fi rescrisă mai simplu – aceeași poveste și aceleași personaje, dar cu gramatica și cuvintele nivelului tău. Totul e marcat de la A1 la C1."
+      },
+      {
+        "q": "Pot să învăț câte 10 minute pe zi?",
+        "a": "Da. Articolele scurte, rezumatele de cărți și fișele de cuvinte sunt făcute exact pentru sesiuni scurte, de fiecare zi."
+      },
+      {
+        "q": "Ce limbi sunt disponibile?",
+        "a": "49 de limbi, și le poți învăța pe oricare dintre ele pornind din propria ta limbă, nu doar prin engleză. Asta înseamnă 49 × 48 = 2352 de perechi de limbi, cu tot cu cele rare."
+      },
+      {
+        "q": "Cu ce se deosebește de aplicațiile obișnuite de limbi?",
+        "a": "În loc de exerciții rupte unul de altul, înveți din conținut care te interesează, cu toate deprinderile prinse într-un singur ciclu: citești și asculți, salvezi cuvinte pentru repetiția la intervale, prinzi gramatica în context, lucrezi la vorbit prin shadowing și la scris în chatul cu AI. Și îți poți încărca propria carte sau propriul document."
+      },
+      {
+        "q": "Se exersează și vorbitul?",
+        "a": "Da. Pentru vorbit există shadowing – repeți frazele după narator cu voce tare și îți antrenezi pronunția și intonația. Pentru scris există chatul cu AI: discuți ce ai citit, iar el te ajută să formulezi și îți găsește greșelile. Conversația live cu un om încă nu există – e în plan."
+      },
+      {
+        "q": "Ce formate de fișiere pot să încarc?",
+        "a": "PDF, EPUB, FB2 și TXT. Încarci documente de serviciu, cărțile preferate sau articole – aplicația construiește traducerea în paralel, adaugă audio și strânge cuvintele noi în antrenor."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Începe azi să înveți {target}, cu o carte în loc de exerciții",
+    "text": "Descarcă aplicația și deschide prima carte.",
+    "perks": [
+      "49 de limbi",
+      "Orice nivel"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Despre noi",
+      "Contact",
+      "Cariere",
+      "Pentru școli",
+      "Cum se învață limbile",
+      "Termeni și condiții",
+      "Confidențialitate"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Toate drepturile rezervate."
+  },
+  "downloadModal": {
+    "title": "Descarcă Lingo7",
+    "text": "Disponibilă în App Store și Google Play"
+  },
+  "stickyCta": {
+    "label": "Descarcă aplicația"
+  },
+  "mobileMenu": {
+    "links": [
+      "Cum funcționează",
+      "Bibliotecă",
+      "Limbi",
+      "Recenzii",
+      "Întrebări"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Ascultă",
+      "add": "Salvează",
+      "translate": "Traducere",
+      "addToMyWords": "Adaugă la cuvintele mele",
+      "inMyWords": "E la cuvintele mele",
+      "audioMode": "Mod audio",
+      "discussWithAi": "Discută cu AI",
+      "selfCheck": "Verifică-te"
+    },
+    "wordCard": {
+      "freqHigh": "FRECVENT",
+      "freqMid": "MEDIU",
+      "example": "Exemplu",
+      "otherTranslations": "Alte traduceri",
+      "synonyms": "Sinonime",
+      "open": "Deschide",
+      "group": "Grup:",
+      "groupDefault": "General",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Evidențiază cuvintele mele",
+      "highlightMyWordsHint": "Marchează cuvintele pe care le-ai salvat",
+      "theme": "Temă",
+      "themeLight": "Deschisă",
+      "fontSize": "Mărimea textului",
+      "font": "Font",
+      "speakOnTap": "Rostește cuvântul la atingere",
+      "speakOnTapHint": "Citește cu voce tare cuvântul atins",
+      "speechRate": "Viteza vorbirii",
+      "pronunciationTest": "Test de pronunție",
+      "playSample": "Ascultă o frază de probă",
+      "reset": "Resetează setările",
+      "done": "Gata",
+      "on": "Activ",
+      "off": "Inactiv",
+      "accent": "Accent",
+      "translationAlways": "Întotdeauna"
+    },
+    "vocab": {
+      "pickRightPicture": "Alege imaginea potrivită",
+      "correct": "Exact așa",
+      "rightAnswer": "Răspuns corect:",
+      "next": "Mai departe",
+      "done": "Gata",
+      "skip": "Sari peste",
+      "exercise": "Exercițiu",
+      "exerciseMeta": "/11 · 10 cuvinte"
+    },
+    "chat": {
+      "title": "Exersare",
+      "discussing": "Discutăm „{book}”",
+      "finish": "Încheie",
+      "playing": "Se redă…",
+      "replyOptions": "Variante de răspuns",
+      "placeholder": "Scrie un mesaj"
+    },
+    "bookDetail": {
+      "adapted": "Adaptată",
+      "adaptedHint": "Rescrisă mai simplu, cu sensul păstrat",
+      "original": "Original",
+      "originalHint": "Textul original integral, neschimbat",
+      "open": "Deschide",
+      "genre": "Gen",
+      "badgeSummary": "Rezumat"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Caută",
+      "upload": "Încarcă o carte",
+      "tabCatalog": "Catalog",
+      "tabAll": "Toate cărțile",
+      "tabFavorites": "Favorite",
+      "shelfBestsellers": "Bestselleruri mondiale",
+      "shelfBestsellersSub": "repovestite pe scurt, cu audio",
+      "shelfStories": "Povestiri scurte",
+      "shelfStoriesSub": "Povești mici cu tâlc mare",
+      "bandTitle": "5 minute pe zi",
+      "bandText": "Afli lucruri interesante în fiecare zi, iar limba vine la pachet.",
+      "shelfAmazing": "Povești uimitoare",
+      "shelfNature": "Tainele naturii",
+      "shelfHealth": "Sănătate și știință",
+      "moreTopics": "Mai multe teme",
+      "shelfGolden": "Clasicii de aur",
+      "shelfGoldenSub": "200 de cărți care au schimbat omenirea",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Bibliotecă",
+      "practice": "Exersare",
+      "read": "Citește",
+      "myWords": "Cuvintele mele",
+      "collections": "Colecții"
+    }
+  },
+  "_note": "Полная локаль ro (румынский). Написана с эталона i18n/en.json 2026-08-30, тон сверен с русским оригиналом ru.json. Обращение — на «tu» (норма для потребительских приложений в Румынии; «dumneavoastră» звучало бы как банк или госуслуга). Регистр — стандартный румынский без молдавских вариантов. Диакритика — с запятой снизу (ș, ț), как требует румынский стандарт, а не с седилью. Кавычки — румынские „ ” (нижние открывающие, верхние закрывающие); тире — en-dash с пробелами, как в эталоне. Названия языков в румынском пишутся со строчной, у них есть определённый артикль-постфикс (spaniola) и полная форма с носителем (limba spaniolă) — обе формы согласуемы и в слот не годятся, поэтому все девять строк построены на голой безартиклевой форме: прямое дополнение при «a învăța» и то же слово при неизменяемом предлоге «în». Термин параллельного перевода — «traducerea alături» / «traducere în paralel». Контракт слота и бюджет выдачи — в _contract. Файл прошёл снятие калек по i18n/en.gloss.json: шестнадцать строк из глоссарных ключей переписаны на румынскую идиоматику (ушли поза «stă lângă», «îți construiești pronunția», «le trage după ea», «ți le aduce înapoi», «de acolo vine pronunția»), а пара greu/ușor оставлена сознательно — в румынском это и есть слова о сложности, а не о весе. Третий круг (независимый разбор носителем, i18n/_qa/gemini-ro.json): исправлены пять строк — коллокация «a toci exerciții» в hero.title, разнобой наклонений (императив + индикатив) в hero.subtitle и meta.ogDescription, эфирное «în direct» в faq.items[5].a и настоящее время в method.conductor.title при бейдже «În curând». Отклонены как вкусовщина: «repetiție spațiată» вместо «repetiție la intervale» (последнее не калька и держится во всём файле; ср. it «ripetizione a intervalli»), «abilități» вместо «deprinderi» (термин выбран разом на весь файл и перекликается с изданным «Cele 7 deprinderi ale persoanelor eficace»), членное «cu AI-ul» после предлога и «formularea ideilor» вместо идиомы «gânduri puse în cuvinte».",
+  "_contract": {
+    "government": "Голая безартиклевая форма названия языка (forma nearticulată). Позиция объявлена одна и покрывает все девять строк: беспредложное прямое дополнение при глаголе «a învăța» («Învață {target} citind…», «Începe azi să înveți {target}…») и то же самое слово при неизменяемом предлоге «în» («Citește cărți în {target}…», «Cărți în {target} cu traducere…»). В румынском нет падежного различия между этими двумя позициями для нечленной формы — байты одни и те же: învață engleză / cărți în engleză, învață zulu / cărți în zulu, învață afrikaans / cărți în afrikaans. Предлог «în» не элидируется, не сливается с артиклем и не имеет алломорфов, то есть согласуемым соседом не является. Отвергнуты обе «словарные» формы: полная «limba spaniolă» тянет за собой согласуемое существительное-носитель (limba engleză, но и род/число в остальной фразе) и читается как школьный учебник, а членная «spaniola / engleza / franceza» требует выбора постфикса по концовке подставленного слова (spaniola, но zulu → zulu, afrikaans → afrikaansul) — то есть неразрешима снаружи слота. Определённый артикль, «cea/cel», предлоги «din/de la», требующие членной формы, и прилагательные, согласуемые с названием языка, рядом со слотом не стоят ни в одной из девяти строк.",
+    "slotExample": "spaniolă",
+    "slotExampleEnglish": "engleză",
+    "longestSlot": "azerbaidjană",
+    "longestSlotLang": "азербайджанский — 12 знаков в длинной форме «azerbaidjană» (короткая «azeră» тоже употребительна, но бюджет считается по худшему случаю); следом indoneziană, macedoneană и neerlandeză (по 11), затем finlandeză, filipineză, lituaniană, norvegiană, portugheză, ucraineană и vietnameză (по 10), потом bielorusă, estoniană, galiciană, georgiană и islandeză (по 9). Список сверен по 49 кодам из i18n/reader-sample.json.",
+    "titleRenderedLen": 51,
+    "descRenderedLen": 146,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Артикль — главная точка отказа локали. Слот отдаётся голым и нечленным: «învață spaniolă», «cărți în spaniolă». Если UI где-нибудь допишет перед слотом «limba», поставит членную форму («spaniola») или предлог, требующий членной формы («din spaniola»), сломаются все девять строк сразу, причём по-разному для разных языков: zulu и afrikaans членятся иначе, чем женские на -ă. Слот нигде не стоит первым словом и капитализации не терпит — названия языков в румынском строчные, «Învață Spaniolă» читается как англицизм.",
+      "Таблица из 49 атомов обязана хранить именно нечленную форму: engleză, spaniolă, franceză, azerbaidjană, neerlandeză, zulu, afrikaans, filipineză. Для нидерландского и азербайджанского в обиходе есть по два имени (neerlandeză/olandeză, azerbaidjană/azeră) — выбрать одно и держать его во всех 49 локалях согласованно с колонкой display.",
+      "hero.title «nu rezolvând exerciții la nesfârșit» — противопоставление, как в оригинале «not by grinding through drills»; не должно читаться как отрицание всей фразы. Прежний вариант «nu tocind exerciții» снят третьим кругом: «a toci» в румынском берёт объектом заучиваемое (lecția, formulele), а не упражнения, — упражнения «rezolvi». Тягомотину теперь несёт «la nesfârșit», как в родственных романских локалях (it «esercizi ripetitivi», pt «exercícios sem fim»).",
+      "meta.description и og/twitter описания построены на «cu traducerea în română alături» / «cu româna alături» — носителю проверить, что читателю-румыну ясно: перевод именно на румынский, а не «двуязычная книга вообще».",
+      "faq.items[1].a «poate fi rescrisă mai simplu» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Conversația live cu un om încă nu există – e în plan» и method.conductor.badge «În curând» + method.conductor.title «Aplicația îți va spune» (будущее время, как во всей романской ветке) сохраняют ограничение. При вычитке не усиливать. «În direct» снято третьим кругом: в румынском это прежде всего термин прямого эфира, для разговора с человеком читается как трансляция; «live» ходит в потребительской речи и остаётся в одном ряду с «shadowing» и «AI».",
+      "«deprinderi» выбрано вместо «competențe» и «abilități» (method.title/subtitle, faq.items[4].a, compare) — школьно-методический термин, но самый обиходный; если редакция предпочтёт «competențe», менять надо во всём файле разом. Так же «repetiție la intervale» вместо кальки «repetiție spațiată».",
+      "«AI» оставлено латиницей и в мужском роде; членная форма «AI-ul» стоит там, где слово идёт подлежащим (method.skills «AI-ul parcurge cartea»), а после предлога держится нечленное «cu AI» / «chatul cu AI» — так пишет румынский потребительский рынок («generat cu AI», «chat cu AI»); академическая норма — «IA» (inteligență artificială). Если бренд выберет «IA», менять надо во всём файле разом, включая appUi. «Shadowing» оставлен английским термином: он ходит как есть в румынском сообществе изучающих языки, перевода-эквивалента нет.",
+      "Названия книг стоят в изданных румынских переводах: «Micul Prinț», «Urzeala tronurilor», «Gândește și îmbogățește-te», «Principiul 80/20», «Cele 7 deprinderi ale persoanelor eficace», «Puterea prezentului». «Harry Potter», «Dune» и фамилия «Hawking» — латиница, оставлены как есть. Носителю сверить «Cele 7 deprinderi ale persoanelor eficace»: у Covey в Румынии было и раннее издание «Eficiența în 7 trepte», узнаваемо более новое название.",
+      "reviews.items[*].text: отзывы говорят от лица человека, учившего английский / португальский / немецкий / сербский. Для пар-страниц их придётся курировать под тему пары — отмечено в i18n/README.md.",
+      "appUi.readerSettings.on/off = «Activ» / «Inactiv» (норма румынского iOS/Android). Если дизайн потребует пары одного корня, менять оба разом на «Activat» / «Dezactivat»."
+    ]
+  }
+}

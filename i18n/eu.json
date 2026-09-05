@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "Ikasi {target} irakurriz: liburu elebidunak eta audioa",
+    "description": "Ikasi {target} liburuak irakurriz: euskarazko itzulpena ondoan eta audioa. Gorde hitzak ukitu batez, errepikatu tarteka eta hitz egin AArekin.",
+    "ogTitle": "Ikasi {target} irakurriz: liburu elebidunak eta audioa",
+    "ogDescription": "Ikasi {target} liburuak irakurriz: euskarazko itzulpena ondoan eta audioa esaldiz esaldi. Gorde hitzak ukitu batez eta errepikapen tartekatuak garaiz gogora ekarriko dizkizu.",
+    "twitterTitle": "Ikasi {target} irakurriz: liburu elebidunak eta audioa",
+    "twitterDescription": "Irakurri liburuak eta ikasi {target}, euskara ondoan duzula. Gorde hitzak ukitu bakar batez eta errepikatu tarteka, ahaztu baino lehen."
+  },
+  "nav": {
+    "links": [
+      "Nola dabilen",
+      "Liburutegia",
+      "Hizkuntzak",
+      "Iritziak",
+      "Ohiko galderak"
+    ]
+  },
+  "hero": {
+    "title": "Ikasi {target} liburuak irakurriz, eta ez ariketa mekanikoak errepikatuz",
+    "subtitle": "Irakurri eta entzun benetan axola zaizuna, gorde hitzak orritik bertatik, eta errepikapen tartekatuak garaiz gogora ekarriko dizkizu.",
+    "cta": "Eskuratu aplikazioa",
+    "trust": "49 hizkuntza • iPhone / Android",
+    "pills": [
+      "Itzulpen paraleloa",
+      "Audioa eta irakurketa",
+      "Hiztegia lantzeko tresna",
+      "Errepikapen tartekatua",
+      "Edozein liburu edo testu",
+      "Shadowinga",
+      "AArekin liburuaz hizketan"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Ikastaroa ez, liburua",
+        "span": "Gustura irakurriko zenukeenarekin ikasi"
+      },
+      {
+        "strong": "49 hizkuntza",
+        "span": "Hedatuenetatik bakanenetara"
+      },
+      {
+        "strong": "Liburutegi zabala",
+        "span": "Klasikoak, munduko liburu salduenak eta artikuluak"
+      },
+      {
+        "strong": "Dena ziklo bakarrean",
+        "span": "Irakurketa, audioa, hiztegia eta errepasoa"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Zergatik uzten diren hizkuntza-aplikazio gehienak, eta hau zergatik ez",
+    "subtitle": "Arazoa ez zen inoiz zure diziplina. Formatua zen.",
+    "labelOld": "❌ Ohikoa",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Hitzak buruz ikasten dituzu, baina ez dakizu erabiltzen",
+          "text": "Zerrendak eta txartelak, testuingururik gabe. Bihar dena ahaztuta."
+        },
+        "new": {
+          "title": "Hitzak benetako esaldien barruan agertzen zaizkizu",
+          "text": "Hitzak testuinguruan nola jokatzen duen ikusten duzu, eta horrela, behartu gabe, buruan gelditzen zaizu."
+        }
+      },
+      {
+        "old": {
+          "title": "Egunero ariketa berberak",
+          "text": "Aspertu egiten zara, gogoa jaisten da, eta lehen astearen ondoren aplikazioa ez duzu gehiago irekitzen."
+        },
+        "new": {
+          "title": "Bestela ere irakurriko zenukeena irakurtzen duzu",
+          "text": "Liburu salduenak, egiazko istorio bitxiak, dibulgazio zientifikoa – zeure kabuz berriro hartzen duzun materiala."
+        }
+      },
+      {
+        "old": {
+          "title": "Jatorrizkoan irakurtzea zailegia da",
+          "text": "Hitz ezezagunak nonahi, haria eskutik joaten zaizu, eta lehen orrialdean uzten duzu."
+        },
+        "new": {
+          "title": "Itzulpen paraleloa eta, gainera, egokitzapena",
+          "text": "Itzulpena testuaren ondoan bertan duzu, eta liburua zailegia bada, zure mailan berridatz daiteke."
+        }
+      },
+      {
+        "old": {
+          "title": "Katalogoan dagoena irakurtzen duzu",
+          "text": "Liburutegi itxia. Ezin duzu zeure liburua ekarri."
+        },
+        "new": {
+          "title": "Edozein liburu edo testu zure ikasgai bihurtzen da",
+          "text": "Eman aplikazioari maite dituzun liburuak eta behar dituzun dokumentuak, eta itzulpen paraleloarekin, audioarekin eta hitzen errepasoarekin itzuliko dizkizu."
+        }
+      },
+      {
+        "old": {
+          "title": "Irakurri eta entzun bai, baina dena pasiboa da",
+          "text": "Ez duzu non hitz egin, ez non idatzi, eta trebetasuna ez da inoiz finkatzen."
+        },
+        "new": {
+          "title": "Ez duzu irakurri bakarrik egiten: hitz egin eta idatzi ere bai",
+          "text": "Amaitu berri duzun liburuaz aritzen zara AArekin, eta ez duzu gairik asmatu behar. Zerbait esateko duzunean, erraz esaten eta idazten duzu."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Hizkuntzaren 7 trebetasunak, leku bakarrean",
+    "subtitle": "Hizkuntza bat jakitea zazpi trebetasun izatea da. Lingo7 aplikazioak denak batera lantzen ditu, banaka landu beharrean, eta bakoitzak besteak indartzen ditu.",
+    "skills": [
+      {
+        "title": "Irakurmena",
+        "text": "Irakurri jatorrizkoa edo bertsio egokitua, itzulpena ondoan duzula – azkar eta hiztegira jo gabe."
+      },
+      {
+        "title": "Entzumena",
+        "text": "Audio-liburuak eta entzun-eta-irakurri modua – belarria lantzeko modurik eraginkorrenetakoa."
+      },
+      {
+        "title": "Hiztegia",
+        "text": "Hitz berriak irakurri ahala geratzen zaizkizu, buruz ikasi beharrik gabe. Ariketek eta errepikapen tartekatuak epe luzerako finkatzen dituzte."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Gramatika barneratzeko modurik onena arauak benetako esaldi batean lanean ikustea da."
+      },
+      {
+        "title": "Idazmena",
+        "text": "AAren txata: irakurri berri duzunaz aritzen zara, beraz beti duzu zeri buruz idatzi. Ideiari forma ematen laguntzen dizu eta akatsak harrapatzen dizkizu."
+      },
+      {
+        "title": "Mintzamena",
+        "text": "Shadowinga: kontalariaren atzetik ozen errepikatzen duzu, eta jariotasuna, erritmoa eta intonazioa lantzen dituzu."
+      },
+      {
+        "title": "Ahoskera",
+        "text": "Ahoskera-ariketek zure azentua jatorrizko hiztunarenera hurbiltzen laguntzen dute."
+      }
+    ],
+    "conductor": {
+      "badge": "Plan pertsonala · Laster",
+      "title": "Aplikazioak esango dizu gaur zer egin",
+      "text": "Une bakoitzean ariketa egokia hautatzen du: irakurri, ozen errepikatu, hitzak finkatu edo kapitulu bat AArekin komentatu. Ez duzu inoiz erabaki behar nondik hasi, ez zer datorren gero.",
+      "caption": "Gaurko saio baten adibidea – zurea aplikazioak osatuko du.",
+      "steps": [
+        {
+          "label": "Irakurketa",
+          "meta": "15 min"
+        },
+        {
+          "label": "Entzun eta irakurri",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowinga",
+          "meta": "Orain · 7 min"
+        },
+        {
+          "label": "Hitzak",
+          "meta": "25 txartel"
+        },
+        {
+          "label": "AA txata",
+          "meta": "kapitulua komentatu"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Nola ikasi hizkuntza bat liburuekin: bost urrats",
+    "subtitle": "Metodo korapilatsurik ez. Ziklo argi bat, eta zikloan zehar eramango zaituen edukia.",
+    "items": [
+      {
+        "title": "Aukeratu zure edukia",
+        "text": "Liburu salduenen laburpenak, klasikoak, ipuinak – gogoaren arabera, mailaren arabera, duzun denboraren arabera."
+      },
+      {
+        "title": "Irakurri itzulpen paraleloarekin",
+        "text": "Jatorrizkoa eta itzulpena alboz albo; ukitu hitz bat esanahia ikusteko, entzuteko edo gordetzeko."
+      },
+      {
+        "title": "Ikasi hitzak",
+        "text": "Gordetako hitzak ariketetan itzultzen zaizkizu: memoria mota desberdinak lantzen dituzte, eta denboran tartekatuta datoz."
+      },
+      {
+        "title": "Entzun eta errepikatu ozen",
+        "text": "Esaldi bakoitzak audioa du: entzun, eta egin shadowinga kontalariaren atzetik – horrela lantzen dira ahoskera eta intonazioa."
+      },
+      {
+        "title": "Komentatu liburua AArekin",
+        "text": "AAk liburua zurekin batera lantzen du: idazmena eta mintzamena trebatzen dituzu, eta pentsamenduak hizkuntza berrian jartzen ikasten duzu."
+      }
+    ]
+  },
+  "library": {
+    "title": "Ikasi {target} liburuekin: itzulpena ondoan eta mailak A1etik C1era",
+    "subtitle": "Ez zara hizkuntza bat bakarrik ikasten ari: zerbait ere ikasten ari zara. Maila guztietarako materiala, lehen urratsetatik mailarik aurreratuenera.",
+    "tabs": [
+      "Klasikoak",
+      "Salduenak",
+      "Jakin-mina"
+    ],
+    "panels": [
+      {
+        "title": "Irakurri liburu handiak jatorrizkoan, sarea azpian duzula",
+        "text": "Bertsio egokituak eta jatorrizkoak maila bakoitzerako, Printze Txikitik Hawkingeraino. Itzulpen paraleloak prosarik zailena ere irakurgarri egiten du.",
+        "badges": [
+          "A1-A2 Hasiberria",
+          "B1-B2 Tarteko maila",
+          "C1+ Aurreratua"
+        ]
+      },
+      {
+        "title": "Munduko liburu onenen mamia 7-15 minutuan",
+        "text": "Munduko liburu salduenen ideia nagusiak, labur kontatuta – ikasten ari zaren hizkuntzan. Saio berean hazi eta hizkuntza ikasi.",
+        "badges": [
+          "A1-A2 Hasiberria",
+          "B1-B2 Tarteko maila",
+          "C1+ Aurreratua"
+        ]
+      },
+      {
+        "title": "Egunean 5 minutu: datu on bat eta hitz berri batzuk",
+        "text": "Espazioa, psikologia, negozioak, natura, teknologia – ehunka artikulu labur edozein gairi buruz. Ikasi zerbait berria egunero, eta hizkuntza atzetik dator.",
+        "badges": [
+          "A1-A2 Hasiberria",
+          "B1-B2 Tarteko maila",
+          "C1+ Aurreratua"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "BERRIA",
+    "title": "Igo zeure liburua edo testua eta horrekin ikasi",
+    "text": "Igo edozein fitxategi, eta Lingo7 aplikazioak ikasgai bihurtuko du, itzulpen paraleloarekin eta audioarekin. Handik aurrera, betiko zikloa: irakurri, entzun, hitzak ikasi, mintzamena shadowingarekin landu eta AArekin komentatu.",
+    "cards": [
+      {
+        "title": "Liburu salduenak jatorrizkoan",
+        "text": "Harry Potter, Dune, A Game of Thrones – aspalditik irakurri nahi zenituen liburuak, ikasten ari zaren hizkuntzan."
+      },
+      {
+        "title": "Lanak eta ikasketek eskatzen duten hizkuntza",
+        "text": "Laneko dokumentuak, artikulu zientifikoak, azterketetarako materiala – ikasi orain zauden arloko hizkuntza."
+      }
+    ],
+    "usecases": [
+      "Azterketak",
+      "Lana",
+      "Artikuluak",
+      "Elkarrizketak"
+    ],
+    "formatsNote": "Igo zeure fitxategiak formatu hauetan:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Egokitzapena",
+      "title": "Irakurri edozein liburu, zure neurrira <span class=\"accent\">berridatzita</span>",
+      "text": "Hiztegia eta gramatika zailegiak egiten zaizkizu oraindik? Lingo7 aplikazioak hizkera errazagoan berridazten du liburua – istorio bera, pertsonaia berak, esaldi sinpleagoak.",
+      "cta": "Probatu zeure liburuarekin"
+    },
+    "goalQuote": "Nire errezeta gogokoena: hartu Harry Potter eta egin kapitulu bat egunean – irakurri, entzun, hitz berriak ikasi eta AArekin komentatu. Sei hilabete egunean ordu bat edo bi, eta <span class=\"goal-quote__level\">A2tik B2ra</span> ateratzen zara."
+  },
+  "audience": {
+    "title": "Lingo7 zuretzat da, baldin eta...",
+    "items": [
+      "Zeure burua behartuz egin beharreko ikasgaien ordez, edukiarekin ikasi nahi baduzu",
+      "Irakurtzea baino gehiago nahi baduzu – entzutea, hitz egitea eta idaztea ere bai: ahoskera shadowingarekin, eta ideiak hitzez adieraztea AAren txatean",
+      "Zeure materiala landu nahi baduzu – laneko dokumentuak, liburu eta artikulu gogokoenak – eta ez ikasgai prestatuak bakarrik",
+      "Aplikazio gehienek eskaintzen ez duten hizkuntza bakan bat behar baduzu",
+      "5-15 minutuko saio laburretan aritu nahi baduzu"
+    ]
+  },
+  "pains": {
+    "title": "Zerk oztopatzen zaituen, eta Lingo7 aplikazioak horri nola erantzuten dion",
+    "subtitle": "Ez da gaitasun kontua. Formatu kontua da.",
+    "chips": [
+      "Hitz egiteko beldurra",
+      "Aspertu egiten naiz",
+      "Hitzak ez zaizkit geratzen",
+      "Irakurtzea zaila da",
+      "Ez dut ulertzen entzunda",
+      "Ez dut denborarik",
+      "Hizkuntza bakana",
+      "Ez zait egokituko"
+    ],
+    "answers": [
+      {
+        "title": "«Lotsa ematen dit hitz egiteak eta oker esateak»",
+        "text": "Shadowinga esaldiak kontalariaren atzetik ozen errepikatzea da, zeure kabuz eta inork notarik jarri gabe. Horrela lantzen da ahoskera. AAren txatean idatziz lantzen dituzu esamoldeak, eta txatak modu atseginean zuzentzen zaitu."
+      },
+      {
+        "title": "«Berehala aspertzen naiz»",
+        "text": "Elkarren berdinak diren ikasgaien ordez: liburuak, salduenak eta bestela ere irakurriko zenituzkeen gaiei buruzko artikuluak. Edukiak erakartzen zaituenean, erraza da itzultzea."
+      },
+      {
+        "title": "«Hitzak ikusi bai, baina ez zaizkit geratzen»",
+        "text": "Ukitu batez gordetzen duzu hitza, esaldiaren barrutik bertatik, eta gero txartel gisa agertzen zaizu berriro, tartekatutako egutegi baten arabera. Gogoratzeak zorte kontua izateari uzten dio."
+      },
+      {
+        "title": "«Jatorrizkoan irakurtzea zailegia da niretzat»",
+        "text": "Itzulpen paraleloa, esaldiak parean lerrokatuta – ez duzu bi lerrotik behin itzultzailera jo beharrik."
+      },
+      {
+        "title": "«Ez dut ulertzen entzunda»",
+        "text": "Entzun-eta-irakurri moduak hitzaren soinua bere idazkerarekin eta esanahiarekin lotzen du. Belarria berez ohitzen da hizkuntzara."
+      },
+      {
+        "title": "«Ez dut denborarik»",
+        "text": "Formatu laburrak eta saio azkarrak – egunean 5-10 minutu ere aski dira erritmoari eusteko."
+      },
+      {
+        "title": "«Hizkuntza bakan bat behar dut»",
+        "text": "49 hizkuntza, bakanak barne. Eta edozein ikas dezakezu zeure ama-hizkuntzatik abiatuta."
+      },
+      {
+        "title": "«Beldur naiz ez ote zaidan egokituko»",
+        "text": "Irakurtzen badakizu, egokitzen zaizu. Ez da aurretiko ezagutzarik, ez gramatikarik, ez prestaketarik behar – hasi zeure mailako edozein libururekin."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Ikasi {target}",
+    "title": "49 hizkuntza, ohikoenetatik bakanenetara",
+    "subtitle": "Ikasi edozein hizkuntza zeure ama-hizkuntzatik, eta ez ingelesetik bakarrik, aplikazio gehienek behartzen duten bezala.",
+    "groupTitles": [
+      "Ezagunenak",
+      "Hizkuntza guztiak"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 hizkuntza-bikote.</strong> Aukeratu nahi duzun konbinazioa: ikasten ari zaren hizkuntza, eta itzulpena zein hizkuntzatan irakurri nahi duzun."
+  },
+  "reviews": {
+    "title": "Ez genuen espero hainbeste gustatuko zitzaizuenik",
+    "subtitle": "Baina datuak datuak dira: hona hemen jendeak Google Playn idazten duena.",
+    "items": [
+      {
+        "text": "Aplikazio bikaina. Puntu handia da liburu bera ingeleseko hainbat mailatan egotea. Eguneraketaren zain nago, gogoz!",
+        "author": "Екатерина М.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Urteko harpidetza hartu dut eta prezioa oso ondo dago. Benetan aplikazio zoragarria da! Baliabide bikaina ingelesa hobetzeko. Helduetatik haurretaraino, erabilgarria ez ezik beharrezkoa ere bada.",
+        "author": "Mayur L.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Portugesa behar nuen Brasilgo talde batekin lan egiteko. Irakurketa eta audioa aldi berean izatea oso eraginkorra da. Sei asteren buruan bilerei jarraitzeko gai nintzen.",
+        "author": "Rosita R.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Betidanik nahi izan dut alemana ikasi, eta aplikazio honetan dena askoz hurbilagoa eta argiagoa da antzeko besteetan baino. Hamarretik hamar.",
+        "author": "Макс Р.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Audioarekin batera irakurtzeko aukera erabiltzen dut, eta benetako jauzia izan da niretzat. Audioak garbiak dira eta ondo sinkronizatuta daude. Tresna paregabea hizkuntzak ikasten ari denarentzat.",
+        "author": "Zeynep O.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Ideia eta egikaritzea, bikain. Gaur egun serbierazko liburuak dituen aplikazio bakarra da. Zorionak! Eskerrik asko!",
+        "author": "Вася К.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      },
+      {
+        "text": "Irakasle naizen aldetik, benetan aplikazio zoragarria da niretzat. Nire ikasleei gomendatzen diet. Oso atsegina. Guztiei gomendatzen diet.",
+        "author": "Sasha T.",
+        "source": "Google Play • ikusi jatorrizkoa"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Ohiko galderak",
+    "items": [
+      {
+        "q": "Balio du Lingo7 aplikazioak hasiberri hutsarentzat?",
+        "a": "Bai. Maila guztietarako materiala dago, eta itzulpen paraleloari esker testua lehen unetik bertatik ulertzen da."
+      },
+      {
+        "q": "Zein maila behar da jatorrizkoan irakurtzeko?",
+        "a": "Edozein. Itzulpen paraleloarekin ez duzu hiztegirik behar, eta liburua zailegia bada, errazago berridatz daiteke – istorio eta pertsonaia berak, baina zure mailako gramatika eta hitzak. Dena A1etik C1era markatuta dago."
+      },
+      {
+        "q": "Egunean 10 minutuz ikas dezaket?",
+        "a": "Bai. Artikulu laburrak, liburu-laburpenak eta hitz-txartelak eguneroko saio laburretarako eginda daude."
+      },
+      {
+        "q": "Zein hizkuntza daude eskuragarri?",
+        "a": "49 hizkuntza, eta edozein ikas dezakezu zeure ama-hizkuntzatik, ez ingelesetik bakarrik. Hau da, 49 × 48 = 2352 hizkuntza-bikote, hizkuntza bakanak barne."
+      },
+      {
+        "q": "Zertan da desberdina ohiko hizkuntza-aplikazioetatik?",
+        "a": "Elkarrekin loturarik ez duten ariketen ordez, interesatzen zaizun edukiarekin ikasten duzu, eta trebetasun guztiak ziklo bakarrean lotuta daude: irakurri eta entzun, gorde hitzak errepaso tartekaturako, hartu gramatika testuinguruan, landu mintzamena shadowingarekin eta idazmena AAren txatean. Gainera, zeure liburua edo dokumentua igo dezakezu."
+      },
+      {
+        "q": "Ba al dago mintzamena lantzeko aukerarik?",
+        "a": "Bai. Mintzamenerako shadowinga dago: esaldiak kontalariaren atzetik ozen errepikatzen dituzu, eta ahoskera eta intonazioa lantzen. Idazmenerako, AAren txata: irakurritakoaz aritzen zara, esaldiak ondo osatzen laguntzen dizu eta akatsak harrapatzen dizkizu. Oraindik ez dago pertsona batekin zuzenean hitz egiteko aukerarik, baina aurreikusita dago."
+      },
+      {
+        "q": "Zein fitxategi-formatu igo ditzaket?",
+        "a": "PDF, EPUB, FB2 eta TXT. Igo laneko dokumentuak, liburu gogokoenak edo artikuluak – aplikazioak itzulpen paraleloa sortzen du, audioa gehitzen dio eta hitz berriak entrenatzailean biltzen ditu."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Hasi gaur bertan {target} ikasten, ariketen ordez liburu batekin",
+    "text": "Deskargatu aplikazioa eta ireki zure lehen liburua.",
+    "perks": [
+      "49 hizkuntza",
+      "Maila guztiak"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Guri buruz",
+      "Kontaktua",
+      "Lan eskaintzak",
+      "Ikastetxeentzat",
+      "Nola ikasi hizkuntzak",
+      "Erabilera-baldintzak",
+      "Pribatutasuna"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Eskubide guztiak erreserbatuta."
+  },
+  "downloadModal": {
+    "title": "Eskuratu Lingo7",
+    "text": "App Store eta Google Play dendetan eskuragarri"
+  },
+  "stickyCta": {
+    "label": "Eskuratu aplikazioa"
+  },
+  "mobileMenu": {
+    "links": [
+      "Nola dabilen",
+      "Liburutegia",
+      "Hizkuntzak",
+      "Iritziak",
+      "Ohiko galderak"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Entzun",
+      "add": "Gorde",
+      "translate": "Itzuli",
+      "addToMyWords": "Gehitu nire hitzetara",
+      "inMyWords": "Nire hitzetan",
+      "audioMode": "Audio modua",
+      "discussWithAi": "Komentatu AArekin",
+      "selfCheck": "Probatu zeure burua"
+    },
+    "wordCard": {
+      "freqHigh": "OHIKOA",
+      "freqMid": "ERTAINA",
+      "example": "Adibidea",
+      "otherTranslations": "Beste itzulpen batzuk",
+      "synonyms": "Sinonimoak",
+      "open": "Ireki",
+      "group": "Taldea:",
+      "groupDefault": "Orokorra",
+      "page": "or."
+    },
+    "readerSettings": {
+      "sectionText": "TESTUA",
+      "sectionAudio": "AUDIOA",
+      "highlightMyWords": "Nabarmendu nire hitzak",
+      "highlightMyWordsHint": "Gordeta dituzun hitzak markatzen ditu",
+      "theme": "Gaia",
+      "themeLight": "Argia",
+      "fontSize": "Letra-tamaina",
+      "font": "Letra-tipoa",
+      "speakOnTap": "Esan hitza ukitzean",
+      "speakOnTapHint": "Ukitutako hitza ozen irakurtzen du",
+      "speechRate": "Hizketa-abiadura",
+      "pronunciationTest": "Ahoskera-proba",
+      "playSample": "Entzun adibide-esaldi bat",
+      "reset": "Berrezarri ezarpenak",
+      "done": "Egina",
+      "on": "Piztuta",
+      "off": "Itzalita",
+      "accent": "Azentua",
+      "translationAlways": "Beti"
+    },
+    "vocab": {
+      "pickRightPicture": "Aukeratu irudi egokia",
+      "correct": "Guztiz zuzen",
+      "rightAnswer": "Erantzun zuzena:",
+      "next": "Hurrengoa",
+      "done": "Egina",
+      "skip": "Saltatu",
+      "exercise": "Ariketa",
+      "exerciseMeta": "/11 · 10 hitz"
+    },
+    "chat": {
+      "title": "Praktika",
+      "discussing": "«{book}» liburuaz hizketan",
+      "finish": "Amaitu",
+      "playing": "Jotzen…",
+      "replyOptions": "Erantzun-aukerak",
+      "placeholder": "Idatzi mezu bat"
+    },
+    "bookDetail": {
+      "adapted": "Egokitua",
+      "adaptedHint": "Hizkera errazagoan berridatzia, esanahiari eutsita",
+      "original": "Jatorrizkoa",
+      "originalHint": "Jatorrizko testu osoa, ukitu gabe",
+      "open": "Ireki",
+      "genre": "Generoa",
+      "badgeSummary": "Laburpena"
+    },
+    "library": {
+      "profile": "Profila",
+      "search": "Bilatu",
+      "upload": "Igo liburu bat",
+      "tabCatalog": "Katalogoa",
+      "tabAll": "Liburu guztiak",
+      "tabFavorites": "Gogokoak",
+      "shelfBestsellers": "Munduko liburu salduenak",
+      "shelfBestsellersSub": "labur kontatuta, audioarekin",
+      "shelfStories": "Ipuin laburrak",
+      "shelfStoriesSub": "Istorio txikiak, mami handikoak",
+      "bandTitle": "Egunean 5 minutu",
+      "bandText": "Ikasi datu interesgarriak egunero, eta hizkuntza atzetik etorriko da.",
+      "shelfAmazing": "Istorio harrigarriak",
+      "shelfNature": "Naturaren misterioak",
+      "shelfHealth": "Osasuna eta zientzia",
+      "moreTopics": "Gai gehiago",
+      "shelfGolden": "Urrezko klasikoak",
+      "shelfGoldenSub": "Gizateria aldatu duten 200 liburu",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Liburutegia",
+      "practice": "Praktika",
+      "read": "Irakurri",
+      "myWords": "Nire hitzak",
+      "collections": "Bildumak"
+    }
+  },
+  "_note": "Локаль eu (баскский как язык интерфейса читателя, my_lang). Написана с эталона i18n/en.json 2026-08-29, интонация сверена с русским оригиналом ru.json; это не машинный перевод и не правка ru.json — строки собраны заново под баскский синтаксис (глагол в конце, эргативная конструкция, суффиксальное склонение). Обращение — «zu» (нейтральная норма баскских потребительских продуктов; «hi» звучало бы фамильярно). Кавычки — «», как предписывает Euskaltzaindia. Бренд Lingo7 нигде не получает падежного суффикса: цифра 7 читается то как «zazpi», то как «seven», и суффикс пришлось бы выбирать по чтению — вместо этого рядом ставится опорное существительное «Lingo7 aplikazioak / aplikazioan». Тот же приём снимает суффикс с {book} в appUi.chat.discussing. Контракт слота (абсолютив при ikasi) и бюджет выдачи — в _contract. Файл прошёл снятие калек по i18n/en.gloss.json: образные обороты эталона (вес вместо сложности, тяга вместо усиления, возврат предмета вместо напоминания, «откуда берётся произношение») переписаны баскскими средствами.",
+  "_contract": {
+    "government": "Абсолютив (единственное число с артиклем -a) — прямое дополнение переходного глагола ikasi «учить». Баскский язык эргативный, но эргатив на слот не попадает никогда: название языка во всех девяти строках стоит в роли пациенса («Ikasi gaztelania», «Hasi gaur bertan gaztelania ikasten», «Ikasi gaztelania liburuekin»), а агенс — сам читатель, он подразумевается и в тексте не выражен, поэтому маркер -k/-ek не нужен. Абсолютив в баскском немаркирован, так что атом слота совпадает с цитатной/витринной формой названия (gaztelania, ingelesa, errusiera) — колонка display и колонка slot здесь равны, в отличие от fi/et/lt. Ни в одной из девяти строк слот не стоит в инструменталисе (ingelesez / errusieraz) и не несёт адноминального -zko (ingelesezko liburuak): эти формы строятся от ДРУГОЙ основы (ingeles + ez, но ingelesa в абсолютиве), то есть из одного атома не выводятся — поэтому строки, которые естественно потребовали бы «книги на {target}», переписаны под ikasi.",
+    "slotExample": "gaztelania",
+    "slotExampleEnglish": "ingelesa",
+    "longestSlot": "azerbaijanera",
+    "longestSlotLang": "азербайджанский — 13 знаков; ровно столько же белорусский (bielorrusiera), следом thailandiera (12), indonesiera / errumaniera / eslovakiera / esloveniera (по 11)",
+    "titleRenderedLen": 59,
+    "descRenderedLen": 147,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Главная точка отказа — соседний токен, который зависит от подставленного слова. В баскском это не артикль (он суффикс и уже внутри атома), а падежный/адноминальный суффикс: «на английском» = ingelesez, «англоязычные книги» = ingelesezko liburuak, и обе формы строятся от основы ingeles-, а не от абсолютива ingelesa. Поэтому UI не должен нигде дописывать -z / -zko / -ren к слоту: получится *ingelesaz («об англичанине»). Если такая позиция понадобится, нужна вторая колонка.",
+      "library.title «Ikasi {target} liburuekin: itzulpena ondoan eta mailak A1etik C1era» — слот удержан в объявленной позиции ценой перестройки фразы: в английском он определение к «books», по-баскски так нельзя (потребовался бы -zko). Носителю проверить, что H2 не звучит как лозунг.",
+      "«errepikapen tartekatua» выбрано как термин для spaced repetition и держится по всему файлу (hero.pills, meta.*, method, steps, pains, faq). Если редакция предпочтёт «tarteka errepikatzea» или «espaziatutako errepikapena», менять надо разом во всех местах.",
+      "«AA» = adimen artifiziala. Аббревиатура употребляется без пояснения во всех строках (Berria/EITB пишут так); падежные суффиксы к ней прикреплены без дефиса по правилу Euskaltzaindia — AArekin, AAren, AAk. Если редакция хочет полную форму, менять во всех восьми местах разом.",
+      "Бренд: «Lingo7» нигде не склоняется, вместо этого стоит «Lingo7 aplikazioak/aplikazioan». Сделано намеренно — суффикс зависел бы от чтения цифры 7 (zazpi → 7k, seven → 7ek), и любой выбор был бы спорным. Носителю подтвердить, что опора «aplikazioa» не выглядит навязчивой в method.subtitle, pains.title, customBook.text и faq.items[0].",
+      "appUi.chat.discussing: «{book}» liburuaz hizketan — суффикс инструменталиса сидит на слове liburua, а не на названии книги; иначе он зависел бы от последнего звука названия (-z после гласной, -ez после согласной). Тот же запрет, что и для {target}.",
+      "Названия книг: «Printze Txikia» — изданный баскский перевод, стоит как есть. Harry Potter, Dune, A Game of Thrones, Think and Grow Rich, The 80/20 Principle, The 7 Habits…, The Power of Now оставлены латиницей: подтверждённых баскских изданий нет, а изобретать перевод брифом запрещено. Если у издателя есть баскские названия — подставить.",
+      "faq.items[5].a и method.conductor.badge держат ограничение, а не обещание: «Oraindik ez dago pertsona batekin zuzenean hitz egiteko aukerarik, baina aurreikusita dago» и «Laster». При вычитке не усиливать; то же в faq.items[1].a («berridatz daiteke» — возможность) и customBook.adapt.",
+      "Косвенные вопросы проверены на подмену вопросительного союза условным: faq.items[0].q «Balio du Lingo7 aplikazioak hasiberri hutsarentzat?» — прямой вопрос, не «baldin badu»; pains.answers[7] «Beldur naiz ez ote zaidan egokituko» — «ote» здесь вопросительная частица сомнения («ли»), а не условный союз «baldin» («если»). audience.items построены на «baldin eta … baduzu» намеренно: там условие и есть.",
+      "reviews.items[*].text говорят от лица людей, учивших английский/португальский/немецкий/сербский; для страниц пар их придётся курировать под тему пары (отмечено в i18n/README.md). Имена авторов скопированы из эталона побайтово."
+    ]
+  }
+}

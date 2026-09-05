@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "Mëso {target} duke lexuar libra dygjuhësh me audio",
+    "description": "Lexo libra në {target} me shqipen pranë dhe me audio, mëso fjalë me përsëritje me intervale, stërvit të folurin me shadowing dhe fol për librin me AI.",
+    "ogTitle": "Mëso {target} duke lexuar libra dygjuhësh me audio",
+    "ogDescription": "Lexo libra në {target} me përkthimin shqip pranë dhe me audio. Ruaj fjalët me një prekje dhe rikthehu tek ato me përsëritje me intervale.",
+    "twitterTitle": "Mëso {target} duke lexuar libra dygjuhësh me audio",
+    "twitterDescription": "Lexo libra në {target} me shqipen pranë, ruaj fjalët me një prekje dhe përsëriti ato me intervale që të mos i harrosh."
+  },
+  "nav": {
+    "links": [
+      "Si funksionon",
+      "Biblioteka",
+      "Gjuhët",
+      "Vlerësime",
+      "Pyetje të shpeshta"
+    ]
+  },
+  "hero": {
+    "title": "Mëso {target} duke lexuar libra, jo me ushtrime pa fund",
+    "subtitle": "Lexo dhe dëgjo gjëra që të interesojnë vërtet, ruaj fjalët drejtpërdrejt nga faqja dhe algoritmi i përsëritjes me intervale do të t'i kujtojë para se t'i harrosh.",
+    "cta": "Merr aplikacionin",
+    "trust": "49 gjuhë • iPhone / Android",
+    "pills": [
+      "Përkthim paralel",
+      "Audio dhe lexim",
+      "Fjalori yt",
+      "Përsëritje me intervale",
+      "Çdo libër a tekst",
+      "Shadowing",
+      "Bisedë për librin me AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Një libër, jo një kurs",
+        "span": "Mëso me atë që do ta lexoje për qejf"
+      },
+      {
+        "strong": "49 gjuhë",
+        "span": "Nga më të folurat te më të rrallat"
+      },
+      {
+        "strong": "Bibliotekë për çdo shije",
+        "span": "Klasikë, bestseller botërorë dhe artikuj"
+      },
+      {
+        "strong": "Gjithçka rrotullohet në një cikël",
+        "span": "Lexim, audio, fjalë dhe përsëritje"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Pse shumica e aplikacioneve të gjuhëve braktisen – dhe pse ky jo",
+    "subtitle": "Problemi s'ka qenë kurrë disiplina jote. Ka qenë formati.",
+    "labelOld": "❌ Zakonisht",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Mëson përmendsh fjalë që s'di t'i përdorësh",
+          "text": "Lista dhe kartela pa asnjë kontekst. Nesër janë zhdukur prapë."
+        },
+        "new": {
+          "title": "Fjalët dalin brenda fjalive të vërteta",
+          "text": "Sheh si sillet fjala në kontekst, prandaj të ngelet pa e detyruar veten."
+        }
+      },
+      {
+        "old": {
+          "title": "Të njëjtat ushtrime çdo ditë të Zotit",
+          "text": "Bëhet e mërzitshme, motivimi bie dhe pas javës së parë aplikacioni s'hapet më."
+        },
+        "new": {
+          "title": "Lexon atë që do ta lexoje gjithsesi",
+          "text": "Bestseller, histori të vërteta të çuditshme, shkencë popullore – material te i cili kthehesh vetë."
+        }
+      },
+      {
+        "old": {
+          "title": "Origjinali është shumë i vështirë",
+          "text": "Fjalë të panjohura kudo, subjekti të ikën nga dora dhe dorëzohesh që në faqen e parë."
+        },
+        "new": {
+          "title": "Përkthim paralel, plus përshtatje",
+          "text": "Përkthimi është pikërisht pranë tekstit, kurse një libër tepër i vështirë mund të rishkruhet në nivelin tënd."
+        }
+      },
+      {
+        "old": {
+          "title": "Lexon çfarë ka rastisur të ketë katalogu",
+          "text": "Bibliotekë e mbyllur. Librin tënd s'ke ku ta sjellësh."
+        },
+        "new": {
+          "title": "Çdo libër a tekst bëhet libri yt i mësimit",
+          "text": "Jepi aplikacionit librat që do dhe dokumentet që të duhen, dhe ai t'i kthen me përkthim paralel, me audio dhe me përsëritjen e fjalëve."
+        }
+      },
+      {
+        "old": {
+          "title": "Lexon e dëgjon, por gjithçka rri pasive",
+          "text": "S'ke ku të flasësh e ku të shkruash, ndaj shprehia nuk ngulitet kurrë."
+        },
+        "new": {
+          "title": "Nuk lexon vetëm – flet dhe shkruan",
+          "text": "Për librin që sapo mbarove bisedon me AI, ndaj s'ke pse të shpikësh temë. Kur ke diçka për të thënë, ta thuash dhe ta shkruash bëhet e lehtë."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Të 7 aftësitë gjuhësore në një vend të vetëm",
+    "subtitle": "Të dish një gjuhë do të thotë të zotërosh shtatë aftësi. Lingo7 i stërvit bashkë e jo një nga një, që secila t'i çojë përpara të tjerat.",
+    "skills": [
+      {
+        "title": "Leximi",
+        "text": "Lexo origjinalin ose një version të përshtatur, me përkthimin pikërisht pranë – shpejt dhe pa fjalor."
+      },
+      {
+        "title": "Dëgjimi",
+        "text": "Audiolibra dhe modaliteti dëgjo-ndërsa-lexon – nga mënyrat më efektive për ta stërvitur veshin."
+      },
+      {
+        "title": "Fjalori",
+        "text": "Fjalët e reja të ngelen ndërsa lexon, pa i mësuar përmendsh. Ushtrimet dhe përsëritja me intervale i ngulitin në kujtesë për një kohë të gjatë."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Mënyra më e mirë për ta thithur gramatikën është ta shohësh rregullin duke punuar brenda një fjalie të vërtetë."
+      },
+      {
+        "title": "Shkrimi",
+        "text": "Biseda me AI: diskuton atë që sapo lexove, ndaj ke gjithmonë për çfarë të shkruash. Të ndihmon ta formulosh mendimin dhe t'i kap gabimet."
+      },
+      {
+        "title": "Të folurit",
+        "text": "Shadowing: përsërit me zë pas rrëfyesit dhe zhvillon rrjedhshmërinë, ritmin e intonacionin."
+      },
+      {
+        "title": "Shqiptimi",
+        "text": "Ushtrimet e shqiptimit e afrojnë theksin tënd me mënyrën si tingëllon një folës amtar."
+      }
+    ],
+    "conductor": {
+      "badge": "Plan personal · Së shpejti",
+      "title": "Aplikacioni do të të thotë çfarë të bësh sot",
+      "text": "Zgjedh veprimtarinë e duhur në çastin e duhur – të lexosh, të përsëritësh me zë, të ngulitësh fjalë ose të flasësh për një kapitull me AI. S'ke pse të vendosësh kurrë nga t'ia nisësh dhe çfarë vjen pas.",
+      "caption": "Një seancë shembull për sot – tënden do ta ndërtojë aplikacioni.",
+      "steps": [
+        {
+          "label": "Lexim",
+          "meta": "15 min"
+        },
+        {
+          "label": "Dëgjo e lexo",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Tani · 7 min"
+        },
+        {
+          "label": "Fjalët",
+          "meta": "25 kartela"
+        },
+        {
+          "label": "Bisedë me AI",
+          "meta": "diskuto kapitullin"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Si të mësosh një gjuhë nga librat: pesë hapa",
+    "subtitle": "Pa metoda të ndërlikuara. Një cikël i qartë dhe përmbajtje aq e mirë sa të të mbajë brenda tij.",
+    "items": [
+      {
+        "title": "Zgjidh përmbajtjen",
+        "text": "Përmbledhje bestsellerësh, klasikë, tregime të shkurtra – sipas humorit, sipas nivelit, sipas kohës që ke."
+      },
+      {
+        "title": "Lexo me përkthim paralel",
+        "text": "Origjinali dhe përkthimi krah për krah; prek fjalën për kuptimin, për audion ose për ta ruajtur."
+      },
+      {
+        "title": "Mëso fjalët",
+        "text": "Fjalët e ruajtura kthehen në ushtrime që punojnë lloje të ndryshme kujtese, të shpërndara në kohë."
+      },
+      {
+        "title": "Dëgjo dhe përsërit me zë",
+        "text": "Çdo fjali ka audio: dëgjoje, pastaj përsërite pas rrëfyesit – kështu stërviten shqiptimi dhe intonacioni."
+      },
+      {
+        "title": "Fol për librin me AI",
+        "text": "AI-ja e kalon librin bashkë me ty – ushtron shkrimin e të folurin dhe mëson t'i hedhësh mendimet në një gjuhë të re."
+      }
+    ]
+  },
+  "library": {
+    "title": "Libra në {target} me përkthim – sipas nivelit, nga A1 në C1",
+    "subtitle": "Nuk mëson vetëm një gjuhë, mëson edhe diçka. Material për çdo nivel, nga hapat e parë te i përparuari.",
+    "tabs": [
+      "Klasikë",
+      "Bestseller",
+      "Zbulime"
+    ],
+    "panels": [
+      {
+        "title": "Lexo librat e mëdhenj në origjinal – me rrjetë sigurie",
+        "text": "Versione të përshtatura dhe origjinale për nivele të ndryshme, nga „Princi i vogël“ te Hawking. Përkthimi paralel e mban të lexueshme edhe prozën e vështirë.",
+        "badges": [
+          "A1-A2 Fillestar",
+          "B1-B2 Mesatar",
+          "C1+ I përparuar"
+        ]
+      },
+      {
+        "title": "Thelbi i librave më të mirë të botës për 7–15 minuta",
+        "text": "Idetë kryesore të bestsellerëve botërorë, të ritreguara shkurt – në gjuhën që po mëson. Rritesh vetë dhe mëson gjuhën me një ulje të vetme.",
+        "badges": [
+          "A1-A2 Fillestar",
+          "B1-B2 Mesatar",
+          "C1+ I përparuar"
+        ]
+      },
+      {
+        "title": "5 minuta në ditë: një fakt i mirë dhe ca fjalë të reja",
+        "text": "Hapësirë, psikologji, biznes, natyrë, teknologji – qindra artikuj të shkurtër për çdo temë. Mëso diçka të re çdo ditë, kurse gjuha vjen bashkë me të.",
+        "badges": [
+          "A1-A2 Fillestar",
+          "B1-B2 Mesatar",
+          "C1+ I përparuar"
+        ]
+      }
+    ],
+    "examples": [
+      "Mendo dhe pasurohu • Parimi 80/20 • 7 zakonet e njerëzve shumë të efektshëm • Fuqia e së tashmes"
+    ]
+  },
+  "customBook": {
+    "badge": "E RE",
+    "title": "Ngarko librin ose tekstin tënd dhe mëso me të",
+    "text": "Ngarko çfarëdo skedari dhe Lingo7 e kthen në material mësimor me përkthim paralel e me audio. Pastaj vjen cikli i zakonshëm: lexon, dëgjon, mëson fjalë, punon të folurin me shadowing dhe e diskuton librin me AI.",
+    "cards": [
+      {
+        "title": "Bestseller në origjinal",
+        "text": "Harry Potter, Dune, Loja e Froneve – lexo librat që i ke lënë për një ditë tjetër, në gjuhën që po mëson."
+      },
+      {
+        "title": "Gjuha që të duhet për punë e për studime",
+        "text": "Dokumente pune, artikuj shkencorë, material provimesh – mëso gjuhën e fushës ku je vërtet tani."
+      }
+    ],
+    "usecases": [
+      "Provime",
+      "Punë",
+      "Artikuj",
+      "Intervista"
+    ],
+    "formatsNote": "Ngarko skedarët e tu në këto formate:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Përshtatje",
+      "title": "Lexo çdo libër – <span class=\"accent\">të rishkruar</span> sipas nivelit tënd",
+      "text": "Fjalori dhe gramatika prapë të vështira? Lingo7 e rishkruan librin me gjuhë më të thjeshtë – e njëjta histori, të njëjtët personazhe, fjali më të lehta.",
+      "cta": "Provoje me librin tënd"
+    },
+    "goalQuote": "Receta ime e preferuar: merr Harry Potter-in dhe bëj një kapitull në ditë – lexoje, dëgjoje, mëso fjalët e reja, diskutoje me AI. Gjashtë muaj me nga një-dy orë në ditë dhe <span class=\"goal-quote__level\">nga A2 del në B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 është për ty nëse...",
+    "items": [
+      "Do të mësosh me përmbajtje, jo me mësime që i bën me zor",
+      "Do më shumë se thjesht lexim – edhe dëgjim, të folur e shkrim: shqiptim me shadowing dhe të shprehurit e mendimeve në bisedën me AI",
+      "Do të mësosh me materialin tënd – dokumente pune, libra e artikuj që i do – jo vetëm me mësime të gatshme",
+      "Të duhet një gjuhë e rrallë, që shumica e aplikacioneve nuk e kanë",
+      "Do të punosh me seanca të shkurtra 5-15 minutëshe"
+    ]
+  },
+  "pains": {
+    "title": "Çfarë të pengon – dhe si ia bën Lingo7",
+    "subtitle": "S'është punë aftësie. Është punë formati.",
+    "chips": [
+      "Kam frikë të flas",
+      "Mërzitem",
+      "Fjalët s'më ngelen",
+      "Leximi është i vështirë",
+      "S'e kap të folurin",
+      "S'kam kohë",
+      "Gjuhë e rrallë",
+      "S'do të më shkojë"
+    ],
+    "answers": [
+      {
+        "title": "„Kam turp të flas dhe ta bëj gabim“",
+        "text": "Shadowing do të thotë t'i përsëritësh me zë frazat pas rrëfyesit, vetëm për vete, pa të vënë notë askush. Kështu stërvitet shqiptimi. Në bisedën me AI praktikon formulimin me shkrim dhe ajo të korrigjon me butësi."
+      },
+      {
+        "title": "„Mërzitem shpejt“",
+        "text": "Në vend të mësimeve që s'dallohen nga njëri-tjetri: libra, bestseller dhe artikuj për tema që do t'i lexoje gjithsesi. Kur përmbajtja të tërheq, kthimi bëhet i lehtë."
+      },
+      {
+        "title": "„I shoh fjalët, po s'më ngelen“",
+        "text": "Me një prekje e ruan fjalën bashkë me fjalinë e saj, pastaj ajo të del sërish si kartelë sipas një orari me intervale. Të mbash mend s'është më punë fati."
+      },
+      {
+        "title": "„Origjinali është shumë i vështirë për mua“",
+        "text": "Përkthim paralel me fjalitë të vendosura përballë njëra-tjetrës – pa hyrë e dalë te përkthyesi çdo dy rreshta."
+      },
+      {
+        "title": "„S'e kap gjuhën e folur“",
+        "text": "Modaliteti dëgjo-dhe-lexo e lidh tingullin e fjalës me shkrimin dhe me kuptimin e saj. Veshi mësohet me gjuhën natyrshëm."
+      },
+      {
+        "title": "„S'kam kohë“",
+        "text": "Formate të shkurtra dhe seanca të shpejta – edhe 5-10 minuta në ditë të mbajnë brenda ritmit."
+      },
+      {
+        "title": "„Më duhet një gjuhë e rrallë“",
+        "text": "49 gjuhë, edhe të rrallat. Dhe secilën prej tyre e mëson nga gjuha jote amtare."
+      },
+      {
+        "title": "„Kam frikë se s'do të më shkojë“",
+        "text": "Nëse di të lexosh, të shkon. S'kërkohen njohuri, gramatikë a përgatitje paraprake – nis me çfarëdo libri të nivelit tënd."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Mëso {target}",
+    "title": "49 gjuhë, nga më të zakonshmet te më të rrallat",
+    "subtitle": "Mëso çdo gjuhë nga gjuha jote amtare – jo vetëm përmes anglishtes, siç të detyrojnë shumica e aplikacioneve.",
+    "groupTitles": [
+      "Të njohura",
+      "Të gjitha gjuhët"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 çifte gjuhësh.</strong> Zgjidh çfarëdo kombinimi: gjuhën që po mëson dhe gjuhën në të cilën lexon përkthimin."
+  },
+  "reviews": {
+    "title": "S'e prisnim që do t'ju pëlqente kaq shumë",
+    "subtitle": "Po faktet janë fakte – ja çfarë shkruajnë njerëzit në Google Play.",
+    "items": [
+      {
+        "text": "Aplikacion i shkëlqyer. Plus i madh që i njëjti libër vjen në disa nivele të anglishtes. S'po e pres dot përditësimin!",
+        "author": "Екатерина М.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Mora abonimin vjetor dhe i bën shumë lekët. Ky është vërtet një aplikacion i mrekullueshëm! Burim i shkëlqyer për ta përmirësuar anglishten. Nga të rriturit te fëmijët – jo thjesht i dobishëm, po i domosdoshëm.",
+        "author": "Mayur L.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Më duhej portugalishtja për të punuar me një ekip në Brazil. Leximi bashkë me audion njëkohësisht është shumë efektiv. Pas 6 javësh i ndiqja mbledhjet pa problem.",
+        "author": "Rosita R.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Kam dashur gjithmonë të mësoj gjermanisht dhe në këtë aplikacion gjithçka është shumë më e afrueshme e më e qartë se te të ngjashmit. Aplikacioni është 10 me 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Përdor funksionin lexo-me-audio dhe për mua ka qenë kthesë e vërtetë. Regjistrimet janë të qarta dhe të sinkronizuara mirë. Mjet fantastik për këdo që mëson gjuhë.",
+        "author": "Zeynep O.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Ideja dhe zbatimi marrin dhjetë. Për momentin është i vetmi aplikacion me libra në serbisht. Të lumtë! Faleminderit!",
+        "author": "Вася К.",
+        "source": "Google Play • shih origjinalin"
+      },
+      {
+        "text": "Për mua si mësuese ky është vërtet një aplikacion i mrekullueshëm. Ua rekomandoj nxënësve të mi. Shumë i këndshëm. Ua rekomandoj të gjithëve.",
+        "author": "Sasha T.",
+        "source": "Google Play • shih origjinalin"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pyetjet më të shpeshta",
+    "items": [
+      {
+        "q": "A funksionon Lingo7 për një fillestar të plotë?",
+        "a": "Po. Ka material për çdo nivel dhe përkthimi paralel e bën tekstin të kuptueshëm që në rreshtin e parë."
+      },
+      {
+        "q": "Çfarë niveli më duhet për të lexuar në origjinal?",
+        "a": "Çfarëdo niveli. Me përkthimin paralel nuk të duhet fjalor, kurse një libër tepër i vështirë mund të rishkruhet më thjesht – e njëjta histori dhe të njëjtët personazhe, por me gramatikën e fjalët e nivelit tënd. Gjithçka është shënuar nga A1 në C1."
+      },
+      {
+        "q": "A mund të mësoj 10 minuta në ditë?",
+        "a": "Po. Artikujt e shkurtër, përmbledhjet e librave dhe kartelat e fjalëve janë bërë pikërisht për seanca të shkurtra të përditshme."
+      },
+      {
+        "q": "Cilat gjuhë ofrohen?",
+        "a": "49 gjuhë dhe secilën prej tyre mund ta mësosh nga gjuha jote amtare – jo vetëm përmes anglishtes. Dalin 49 × 48 = 2352 çifte gjuhësh, bashkë me gjuhët e rralla."
+      },
+      {
+        "q": "Nga se ndryshon prej aplikacioneve të zakonshme të gjuhëve?",
+        "a": "Në vend të ushtrimeve të shkëputura, mëson me përmbajtje që të intereson, ku çdo aftësi lidhet në një cikël të vetëm: lexon dhe dëgjon, ruan fjalët për përsëritje me intervale, e kap gramatikën në kontekst, punon të folurin me shadowing dhe shkrimin në bisedën me AI. Dhe mund të ngarkosh librin ose dokumentin tënd."
+      },
+      {
+        "q": "A ka praktikë të të folurit?",
+        "a": "Po. Për të folurin ka shadowing – i përsërit me zë frazat pas rrëfyesit dhe praktikon shqiptimin e intonacionin. Për shkrimin ka bisedën me AI: diskuton atë që ke lexuar dhe ajo të ndihmon ta formulosh mendimin e t'i gjen gabimet. Bisedë e drejtpërdrejtë me një njeri ende nuk ka – është në plan."
+      },
+      {
+        "q": "Cilat formate skedarësh mund të ngarkoj?",
+        "a": "PDF, EPUB, FB2 dhe TXT. Ngarko dokumente pune, libra a artikuj që i do – aplikacioni ndërton përkthimin paralel, shton audion dhe i mbledh fjalët e reja te stërvitësi."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Fillo sot të mësosh {target} me një libër, jo me ushtrime",
+    "text": "Shkarko aplikacionin dhe hap librin tënd të parë.",
+    "perks": [
+      "49 gjuhë",
+      "Çdo nivel"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Rreth nesh",
+      "Kontakt",
+      "Karriera",
+      "Për shkollat",
+      "Si të mësosh gjuhë",
+      "Kushtet e shërbimit",
+      "Privatësia"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Të gjitha të drejtat e rezervuara."
+  },
+  "downloadModal": {
+    "title": "Merr Lingo7",
+    "text": "Gjendet në App Store dhe Google Play"
+  },
+  "stickyCta": {
+    "label": "Merr aplikacionin"
+  },
+  "mobileMenu": {
+    "links": [
+      "Si funksionon",
+      "Biblioteka",
+      "Gjuhët",
+      "Vlerësime",
+      "Pyetje të shpeshta"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Dëgjo",
+      "add": "Ruaj",
+      "translate": "Përkthe",
+      "addToMyWords": "Shto te fjalët e mia",
+      "inMyWords": "Te fjalët e mia",
+      "audioMode": "Modaliteti audio",
+      "discussWithAi": "Diskuto me AI",
+      "selfCheck": "Provo veten"
+    },
+    "wordCard": {
+      "freqHigh": "E ZAKONSHME",
+      "freqMid": "MESATARE",
+      "example": "Shembull",
+      "otherTranslations": "Përkthime të tjera",
+      "synonyms": "Sinonime",
+      "open": "Hap",
+      "group": "Grupi:",
+      "groupDefault": "Të përgjithshme",
+      "page": "f."
+    },
+    "readerSettings": {
+      "sectionText": "TEKSTI",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Thekso fjalët e mia",
+      "highlightMyWordsHint": "Shënon fjalët që ke ruajtur",
+      "theme": "Tema",
+      "themeLight": "E çelët",
+      "fontSize": "Madhësia e shkronjave",
+      "font": "Shkronjat",
+      "speakOnTap": "Shqiptoje fjalën me prekje",
+      "speakOnTapHint": "E lexon me zë fjalën që preke",
+      "speechRate": "Shpejtësia e të folurit",
+      "pronunciationTest": "Testi i shqiptimit",
+      "playSample": "Luaj një frazë shembull",
+      "reset": "Rikthe cilësimet",
+      "done": "U krye",
+      "on": "Aktiv",
+      "off": "Joaktiv",
+      "accent": "Theksi",
+      "translationAlways": "Gjithmonë"
+    },
+    "vocab": {
+      "pickRightPicture": "Zgjidh figurën e duhur",
+      "correct": "Pikërisht kështu",
+      "rightAnswer": "Përgjigjja e saktë:",
+      "next": "Më tej",
+      "done": "U krye",
+      "skip": "Kaloje",
+      "exercise": "Ushtrim",
+      "exerciseMeta": "/11 · 10 fjalë"
+    },
+    "chat": {
+      "title": "Praktikë",
+      "discussing": "Po diskutojmë „{book}“",
+      "finish": "Mbaro",
+      "playing": "Po luhet…",
+      "replyOptions": "Variante përgjigjeje",
+      "placeholder": "Shkruaj një mesazh"
+    },
+    "bookDetail": {
+      "adapted": "I përshtatur",
+      "adaptedHint": "I rishkruar me gjuhë më të thjeshtë, kuptimi i ruajtur",
+      "original": "Origjinali",
+      "originalHint": "Teksti i plotë origjinal, i pandryshuar",
+      "open": "Hap",
+      "genre": "Zhanri",
+      "badgeSummary": "Përmbledhje"
+    },
+    "library": {
+      "profile": "Profili",
+      "search": "Kërko",
+      "upload": "Ngarko një libër",
+      "tabCatalog": "Katalogu",
+      "tabAll": "Të gjithë librat",
+      "tabFavorites": "Të preferuarat",
+      "shelfBestsellers": "Bestsellerë botërorë",
+      "shelfBestsellersSub": "të ritreguar shkurt, me audio",
+      "shelfStories": "Tregime të shkurtra",
+      "shelfStoriesSub": "Histori të vogla me kuptim të madh",
+      "bandTitle": "5 minuta në ditë",
+      "bandText": "Zbulo fakte interesante çdo ditë – kurse gjuha mësohet vetvetiu.",
+      "shelfAmazing": "Histori të mahnitshme",
+      "shelfNature": "Enigmat e natyrës",
+      "shelfHealth": "Shëndet dhe shkencë",
+      "moreTopics": "Më shumë tema",
+      "shelfGolden": "Klasika e artë",
+      "shelfGoldenSub": "200 libra që ndryshuan njerëzimin",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteka",
+      "practice": "Praktikë",
+      "read": "Lexo",
+      "myWords": "Fjalët e mia",
+      "collections": "Koleksione"
+    }
+  },
+  "_note": "Локаль sq (албанский). Написана с эталона i18n/en.json 2026-08-30 как албанский оригинал, а не как перевод; тон сверен с ru.json. Обращение — на «ti» (императив 2 л. ед. ч.: Mëso, Lexo, Shkarko) — норма для потребительских приложений в Албании и Косове. Стандартный литературный албанский (тоскский), кавычки „ “, тире — en-dash с пробелами. Названия языков в албанском пишутся со строчной, поэтому слот нигде не стоит первым словом. Контракт слота — неизменяемая форма названия языка (наречие на -isht там, где оно есть, голое имя там, где его нет), в двух байтово-одинаковых позициях: беспредложное дополнение при mëso/mësosh и после неизменяемого предлога në. Бюджет выдачи пересчитан по «azerbajxhanisht». Имена авторов отзывов, formats, коды CEFR, числа и эмодзи скопированы из эталона. Файл прошёл снятие калек по i18n/en.gloss.json: образные обороты эталона (вес, поза, тяга, возврат) переписаны албанскими.",
+  "_contract": {
+    "government": "Неизменяемая форма названия языка (forma e pandryshueshme), одна на все девять строк. Объявленная позиция: беспредложное дополнение при глаголе «mëso / të mësosh» («Mëso {target} duke lexuar libra…», «Fillo sot të mësosh {target}…») и то же самое слово после предлога «në» («Lexo libra në {target}…», «Libra në {target} me përkthim…»). В албанском обе позиции требуют ровно одних и тех же байтов: наречие на -isht (spanjisht, anglisht, frëngjisht) неизменяемо по определению — у него нет ни падежа, ни числа, ни постпозитивного артикля, — а предлог «në» не имеет алломорфов, не элидируется перед гласной и не тянет за собой артикль («në anglisht», «në italisht», «në zulu»). Отвергнута словарная конструкция с носителем «gjuha spanjolle»: она требует согласуемого прилагательного (gjuha spanjolle, но gjuha zulu / gjuha afrikaans — согласование ломается) и читается как школьная программа. Отвергнута и определённая форма «spanjishtja / anglishtja»: постпозитивный артикль выбирается по концовке подставленного слова, то есть неразрешим снаружи слота. Ни определённого артикля, ни согласуемого прилагательного, ни предлога с алломорфией рядом со слотом нет ни в одной из девяти строк.",
+    "slotExample": "spanjisht",
+    "slotExampleEnglish": "anglisht",
+    "longestSlot": "azerbajxhanisht",
+    "longestSlotLang": "азербайджанский (sq azerbajxhanisht, 15 знаков). Следом bjellorusisht (13), boshnjakisht и portugalisht (12), затем bullgarisht, katalanisht, gjermanisht, finlandisht, filipinisht, indonezisht, gjeorgjisht, maqedonisht, norvegjisht, sllovakisht, sllovenisht, vietnamisht (по 11). Список сверен по 49 кодам из i18n/reader-sample.json.",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 157,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Главный риск локали, ради которого и выбрана эта конструкция: примерно у пяти из 49 языков албанского наречия на -isht нет или оно не в ходу — zu «zulu», sw «suahili», af «afrikaans», fil «filipino» (наряду с «filipinisht»), eu «baskisht» (в ходу и «gjuha baske»). Обе объявленные позиции терпят именную группу так же, как наречие: «Mëso zulu» / «libra në zulu», «Mëso afrikaans» / «libra në afrikaans» — грамматически и стилистически нормальны. Ни одна из девяти строк не ломается, если вместо наречия придёт голое имя; проверено подстановкой всех проблемных атомов. В таблицу атомов кладётся именно то, что говорят: azerbajxhanisht, anglisht, spanjisht — но zulu, suahili, afrikaans без -isht.",
+      "Заглавная — данные. В албанском названия языков и наречия на -isht строчные (anglisht, spanjisht), поэтому слот нигде не открывает строку: meta.title/ogTitle/twitterTitle начинаются с «Mëso», описания и library.title — с «Lexo»/«Libra», hero.title — с «Mëso», finalCta.title — с «Fillo». Автозаглавная на слоте не нужна и в албанском выглядит англицизмом.",
+      "library.title «Libra në {target} me përkthim – sipas nivelit, nga A1 në C1» — слот удержан в объявленной позиции (после «në»), падежа не требует. Показать носителю, что H2 не спорит с H1 по конструкции: H1 даёт слот как дополнение при «mëso», H2 — при «në», байты те же.",
+      "«AI» оставлено латиницей и в мужском роде («me AI», «AI-ja», «me AI-n») — так пишет албанский потребительский рынок и медиа. Академическая норма — «IA» (inteligjenca artificiale). Если бренд выберет «IA», менять надо во всём файле разом, включая appUi (appUi.reader.discussWithAi).",
+      "«Shadowing» оставлен английским термином: у албанских изучающих языки он ходит как есть, устоявшегося эквивалента нет. В method.skills[5], steps.items[3] и pains.answers[0] понятие раскрыто описательно («përsërit me zë pas rrëfyesit»), чтобы термин не висел без объяснения.",
+      "«përsëritje me intervale» выбрано для spaced repetition как прозрачный потребительский термин; альтернатива — калька «përsëritje e ndarë në kohë», она длиннее и звучит академично. В steps.items[2] и pains.answers[2] понятие дополнительно раскрыто («të shpërndara në kohë», «sipas një orari me intervale»).",
+      "Названия книг: «Princi i vogël» — изданный албанский перевод, надёжно. «Loja e Froneve» узнаваемо по сериалу, албанское книжное издание сверить. «Dune» оставлен латиницей: албанское издание «Duna» существует не наверняка, а изобретать перевод бриф запрещает — сверить с каталогом и при подтверждении заменить. «Mendo dhe pasurohu», «Parimi 80/20», «7 zakonet e njerëzve shumë të efektshëm», «Fuqia e së tashmes» — сверить с актуальными албанскими изданиями. «Harry Potter» и «Hawking» оставлены латиницей без изменений (албанский иностранные имена латиницей не транслитерирует).",
+      "faq.items[1].q «Çfarë niveli më duhet për të lexuar në origjinal?» — косвенный вопрос об уровне, а не условие; ответ начинается с «Çfarëdo niveli». Модальность «mund të rishkruhet më thjesht» (возможность, не обещание), method.conductor.badge «Së shpejti» и faq.items[5].a «Bisedë e drejtpërdrejtë me një njeri ende nuk ka – është në plan» сохранены точно, при вычитке не усиливать.",
+      "reviews.items[*].text: отзывы говорят от лица людей, учивших английский, португальский, немецкий и сербский. На пар-страницах их придётся курировать под тему пары — отмечено в i18n/README.md.",
+      "appUi.readerSettings.on/off = «Aktiv» / «Joaktiv» (норма албанского Android). Если дизайн потребует пары одного корня — менять оба разом на «I ndezur» / «I fikur». appUi.vocab.exerciseMeta «/11 · 10 fjalë» — числа из эталона."
+    ]
+  }
+}

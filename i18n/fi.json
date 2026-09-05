@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "title": "Opi {target} lukemalla: kaksikieliset kirjat ja ääni",
+    "description": "Opi {target} lukemalla kirjoja: suomennos rinnalla, ääni mukana. Kertaa sanat jaksotetusti, treenaa shadowingia ja keskustele tekoälyn kanssa.",
+    "ogTitle": "Opi {target} lukemalla: kaksikieliset kirjat ja ääni",
+    "ogDescription": "Opi {target} lukemalla kirjoja: suomennos rinnalla ja ääni mukana. Tallenna sanat yhdellä napautuksella ja kertaa ne jaksotetusti.",
+    "twitterTitle": "Opi {target} lukemalla: kaksikieliset kirjat ja ääni",
+    "twitterDescription": "Opi {target} lukemalla kirjoja, joissa suomennos on rinnalla. Tallenna uudet sanat yhdellä napautuksella ja kertaa ne jaksotetusti."
+  },
+  "nav": {
+    "links": [
+      "Miten se toimii",
+      "Kirjasto",
+      "Kielet",
+      "Arviot",
+      "UKK"
+    ]
+  },
+  "hero": {
+    "title": "Opi {target} lukemalla kirjoja – ei pänttäämällä harjoituksia",
+    "subtitle": "Lue ja kuuntele sitä, mikä sinua oikeasti kiinnostaa, tallenna sanat suoraan sivulta ja anna jaksotetun kertauksen algoritmin palauttaa ne mieleen.",
+    "cta": "Lataa sovellus",
+    "trust": "49 kieltä • iPhone / Android",
+    "pills": [
+      "Rinnakkaiskäännös",
+      "Ääni + lukeminen",
+      "Sanastotreeni",
+      "Jaksotettu kertaus",
+      "Mikä tahansa kirja tai teksti",
+      "Shadowing",
+      "Kirjakeskustelu tekoälyn kanssa"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kirja kurssin sijaan",
+        "span": "Opiskele sitä, mitä lukisit huvin vuoksi"
+      },
+      {
+        "strong": "49 kieltä",
+        "span": "Puhutuimmista harvinaisimpiin"
+      },
+      {
+        "strong": "Kirjasto, jossa on laajuutta",
+        "span": "Klassikot, maailman bestsellerit ja artikkelit"
+      },
+      {
+        "strong": "Kaikki kulkee yhtenä kiertona",
+        "span": "Lukeminen, ääni, sanasto ja kertaus"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Miksi useimmat kielisovellukset jäävät kesken – ja tämä ei jää",
+    "subtitle": "Vika ei ollut koskaan itsekurissasi. Vika oli formaatissa.",
+    "labelOld": "❌ Yleensä",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Opettelet sanoja, joita et osaa käyttää",
+          "text": "Listoja ja kortteja ilman kontekstia. Huomiseen mennessä ne ovat taas poissa."
+        },
+        "new": {
+          "title": "Sanat tulevat vastaan oikeissa lauseissa",
+          "text": "Näet, miten sana käyttäytyy kontekstissa, ja se jää mieleen ilman pänttäämistä."
+        }
+      },
+      {
+        "old": {
+          "title": "Joka päivä samat harjoitukset",
+          "text": "Puuduttaa, motivaatio hiipuu, ja ensimmäisen viikon jälkeen sovellus jää avaamatta."
+        },
+        "new": {
+          "title": "Luet sitä, mitä lukisit muutenkin",
+          "text": "Bestsellereitä, outoja tositarinoita, populaaritiedettä – sellaista, jonka ääreen palaat omasta halustasi."
+        }
+      },
+      {
+        "old": {
+          "title": "Alkukielellä lukeminen on liian vaikeaa",
+          "text": "Tuntemattomia sanoja joka rivillä, juoni karkaa käsistä, ja homma jää ensimmäiselle sivulle."
+        },
+        "new": {
+          "title": "Rinnakkaiskäännös ja lisäksi mukautus",
+          "text": "Käännös on heti tekstin vieressä, ja voit mukauttaa liian vaikean kirjan omalle tasollesi."
+        }
+      },
+      {
+        "old": {
+          "title": "Luet sitä, mitä katalogista sattuu löytymään",
+          "text": "Kiinteä kirjasto. Omaa kirjaa ei saa mukaan."
+        },
+        "new": {
+          "title": "Mistä tahansa kirjasta tai tekstistä tulee oppikirjasi",
+          "text": "Anna sovellukselle rakkaimmat kirjasi ja ne dokumentit, joita tarvitset, niin saat ne takaisin rinnakkaiskäännöksellä, äänellä ja sanojen kertauksella."
+        }
+      },
+      {
+        "old": {
+          "title": "Luet ja kuuntelet, mutta kaikki jää passiiviseksi",
+          "text": "Missään ei pääse puhumaan eikä kirjoittamaan, joten taito ei koskaan vakiinnu."
+        },
+        "new": {
+          "title": "Et vain lue – myös puhut ja kirjoitat",
+          "text": "Käyt juuri lukemasi kirjan läpi tekoälyn kanssa, joten aihetta ei tarvitse keksiä. Kun on jotain sanottavaa, puhuminen ja kirjoittaminen sujuvat helposti."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Kielitaidon kaikki 7 osa-aluetta yhdessä paikassa",
+    "subtitle": "Kielen osaaminen koostuu seitsemästä eri osa-alueesta. Lingo7:ssä harjoittelet niitä kaikkia yhtä aikaa etkä yhtä kerrallaan, jolloin jokainen niistä vahvistaa muita.",
+    "skills": [
+      {
+        "title": "Lukeminen",
+        "text": "Lue alkuperäinen tai mukautettu versio niin, että käännös on heti vieressä – nopeasti ja ilman sanakirjaa."
+      },
+      {
+        "title": "Kuunteleminen",
+        "text": "Äänikirjat sekä kuuntele ja lue -tila – yksi tehokkaimmista tavoista harjoittaa korvaa."
+      },
+      {
+        "title": "Sanasto",
+        "text": "Uudet sanat tarttuvat lukiessa ilman pänttäämistä. Harjoitukset ja jaksotettu kertaus painavat ne mieleen pitkäksi aikaa."
+      },
+      {
+        "title": "Kielioppi",
+        "text": "Kielioppi tarttuu parhaiten, kun näet sääntöjen tekevän työnsä oikeassa lauseessa."
+      },
+      {
+        "title": "Kirjoittaminen",
+        "text": "Tekoälychat: keskustelet juuri lukemastasi, joten kirjoitettavaa riittää aina. Se auttaa muotoilemaan ajatuksen ja huomaa virheesi."
+      },
+      {
+        "title": "Puhuminen",
+        "text": "Shadowing: toistat kertojan perässä ääneen ja kehität sujuvuutta, rytmiä ja intonaatiota."
+      },
+      {
+        "title": "Ääntäminen",
+        "text": "Ääntämisharjoitukset auttavat viemään aksenttiasi lähemmäs sitä, miltä natiivipuhuja kuulostaa."
+      }
+    ],
+    "conductor": {
+      "badge": "Oma suunnitelma · Tulossa pian",
+      "title": "Sovellus kertoo, mitä tänään kannattaa tehdä",
+      "text": "Se valitsee oikean tekemisen oikeaan hetkeen – lue, toista ääneen, kertaa sanoja tai käy luku läpi tekoälyn kanssa. Sinun ei tarvitse koskaan päättää, mistä aloittaa tai mitä tulee seuraavaksi.",
+      "caption": "Esimerkki tämän päivän treenistä – sinun omasi sovellus rakentaa itse.",
+      "steps": [
+        {
+          "label": "Lukeminen",
+          "meta": "15 min"
+        },
+        {
+          "label": "Kuuntele ja lue",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Nyt · 7 min"
+        },
+        {
+          "label": "Sanat",
+          "meta": "25 korttia"
+        },
+        {
+          "label": "Tekoälychat",
+          "meta": "keskustele luvusta"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Näin opit kieltä kirjoista: viisi askelta",
+    "subtitle": "Ei monimutkaista metodia. Yksi selkeä kierto ja sisältöä, joka jaksaa kantaa sen läpi.",
+    "items": [
+      {
+        "title": "Valitse sisältösi",
+        "text": "Bestsellerien tiivistelmiä, klassikoita, novelleja – fiiliksen, tason ja käytettävissä olevan ajan mukaan."
+      },
+      {
+        "title": "Lue rinnakkaiskäännöksen kanssa",
+        "text": "Alkuperäinen ja käännös rinnakkain; napauta sanaa, niin näet merkityksen, kuulet ääntämyksen tai tallennat sen."
+      },
+      {
+        "title": "Opettele sanat",
+        "text": "Tallentamasi sanat palaavat harjoituksiin, jotka käyttävät eri muistityyppejä ja jakautuvat ajan mittaan."
+      },
+      {
+        "title": "Kuuntele ja toista ääneen",
+        "text": "Jokaisella lauseella on ääni: kuuntele ja toista kertojan perässä – juuri näin ääntäminen ja intonaatio kehittyvät."
+      },
+      {
+        "title": "Käy kirja läpi tekoälyn kanssa",
+        "text": "Tekoäly kulkee kirjan läpi kanssasi – harjoittelet kirjoittamista ja puhumista ja opit pukemaan ajatukset uudelle kielelle."
+      }
+    ]
+  },
+  "library": {
+    "title": "Opi {target} kirjoista – käännös rinnalla, tasot A1–C1",
+    "subtitle": "Et opi vain kieltä, vaan samalla myös jotain uutta. Materiaalia kaikille tasoille, ensiaskelista edistyneisiin.",
+    "tabs": [
+      "Klassikot",
+      "Bestsellerit",
+      "Löydöt"
+    ],
+    "panels": [
+      {
+        "title": "Lue suuret kirjat alkukielellä – turvaverkon kanssa",
+        "text": "Mukautettuja ja alkuperäisiä versioita eri tasoille, Pikku prinssistä Hawkingiin. Rinnakkaiskäännös pitää vaikeankin proosan luettavana.",
+        "badges": [
+          "A1-A2 Aloittelija",
+          "B1-B2 Keskitaso",
+          "C1+ Edistynyt"
+        ]
+      },
+      {
+        "title": "Maailman parhaiden kirjojen ydin 7–15 minuutissa",
+        "text": "Maailmanlaajuisten bestsellerien keskeiset ajatukset lyhyesti kerrottuna – opiskelemallasi kielellä. Kehity ja opi kieltä samalla istumalla.",
+        "badges": [
+          "A1-A2 Aloittelija",
+          "B1-B2 Keskitaso",
+          "C1+ Edistynyt"
+        ]
+      },
+      {
+        "title": "5 minuuttia päivässä: yksi hyvä fakta ja muutama uusi sana",
+        "text": "Avaruus, psykologia, bisnes, luonto, teknologia – satoja lyhyitä artikkeleita mistä aiheesta tahansa. Opi joka päivä jotain uutta, ja kieli tulee siinä mukana.",
+        "badges": [
+          "A1-A2 Aloittelija",
+          "B1-B2 Keskitaso",
+          "C1+ Edistynyt"
+        ]
+      }
+    ],
+    "examples": [
+      "Ajattele ja vaurastu • 80/20-periaate • Tie menestykseen • Läsnäolon voima"
+    ]
+  },
+  "customBook": {
+    "badge": "UUTTA",
+    "title": "Lataa oma kirjasi tai tekstisi ja opi sen avulla",
+    "text": "Lataa mikä tahansa tiedosto, niin Lingo7 tekee siitä oppimateriaalia rinnakkaiskäännöksellä ja äänellä. Sen jälkeen kaikki menee tuttua kiertoa: luet, kuuntelet, opit sanat, treenaat puhetta shadowingilla ja käyt sisällön läpi tekoälyn kanssa.",
+    "cards": [
+      {
+        "title": "Bestsellerit alkukielellä",
+        "text": "Harry Potter, Dyyni, Valtaistuinpeli – lue vihdoin ne kirjat, jotka olet aikonut lukea, opiskelemallasi kielellä."
+      },
+      {
+        "title": "Se kieli, jota työ ja opinnot vaativat",
+        "text": "Työdokumentit, artikkelit, koemateriaalit – opi juuri sen alan kieli, jossa olet nyt."
+      }
+    ],
+    "usecases": [
+      "Kokeet",
+      "Työ",
+      "Artikkelit",
+      "Haastattelut"
+    ],
+    "formatsNote": "Lataa omat tiedostosi näissä muodoissa:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Mukautus",
+      "title": "Lue mikä tahansa kirja – sinulle sopivaksi <span class=\"accent\">mukautettuna</span>",
+      "text": "Tuntuvatko sanasto ja kielioppi yhä liian vaikeilta? Lingo7 kertoo kirjan uudelleen yksinkertaisemmalla kielellä – sama tarina, samat hahmot, helpommat lauseet.",
+      "cta": "Kokeile omalla kirjallasi"
+    },
+    "goalQuote": "Oma suosikkireseptini: ota Harry Potter ja tee luku päivässä – lue, kuuntele, opettele uudet sanat, käy luku läpi tekoälyn kanssa. Puoli vuotta tunti tai kaksi päivässä, ja <span class=\"goal-quote__level\">A2:sta noustaan B2:een</span>."
+  },
+  "audience": {
+    "title": "Lingo7 on sinua varten, jos...",
+    "items": [
+      "Haluat oppia sisällöstä etkä oppitunneista, joihin pitää pakottaa itsensä",
+      "Haluat muutakin kuin lukemista – myös kuuntelua, puhumista ja kirjoittamista: ääntämistä shadowingin avulla ja ajatusten pukemista sanoiksi tekoälychatissa",
+      "Haluat opiskella omalla materiaalillasi – työdokumenteilla, lempikirjoillasi ja artikkeleilla – etkä pelkillä valmiilla oppitunneilla",
+      "Tarvitset harvinaisen kielen, jota useimmista sovelluksista ei löydy",
+      "Haluat opiskella lyhyissä 5–15 minuutin pätkissä"
+    ]
+  },
+  "pains": {
+    "title": "Mikä on tiellä – ja mitä Lingo7 tekee sille",
+    "subtitle": "Kyse ei ole kyvyistä. Kyse on formaatista.",
+    "chips": [
+      "Pelottaa puhua",
+      "Tylsistyn",
+      "Sanat eivät jää mieleen",
+      "Lukeminen on vaikeaa",
+      "En ymmärrä puhetta",
+      "Ei aikaa",
+      "Harvinainen kieli",
+      "Ei sovi minulle"
+    ],
+    "answers": [
+      {
+        "title": "”Nolottaa puhua ja tehdä virheitä”",
+        "text": "Shadowing tarkoittaa, että toistat fraaseja kertojan perässä ääneen, ihan itseksesi, eikä kukaan ole arvostelemassa. Juuri näin ääntäminen kehittyy. Tekoälychatissa hiot ilmaisua kirjoittamalla, ja se korjaa sinua hienovaraisesti."
+      },
+      {
+        "title": "”Kyllästyn nopeasti”",
+        "text": "Toistensa kaltaisten oppituntien sijaan: kirjoja, bestsellereitä ja artikkeleita aiheista, joista lukisit muutenkin. Kun sisältö koukuttaa, palaaminen on helppoa."
+      },
+      {
+        "title": "”Näen sanat, mutta ne eivät jää päähän”",
+        "text": "Yksi napautus tallentaa sanan suoraan omasta lauseestaan, ja sen jälkeen se palaa korttina sopivin välein. Muistaminen lakkaa olemasta tuurista kiinni."
+      },
+      {
+        "title": "”Alkukielellä lukeminen on minulle liian vaikeaa”",
+        "text": "Rinnakkaiskäännös lause lauseelta kohdakkain – ei tarvitse hypätä kääntäjään joka toisen rivin kohdalla."
+      },
+      {
+        "title": "”En saa puheesta selvää”",
+        "text": "Kuuntele ja lue -tila sitoo sanan äänen sen kirjoitusasuun ja merkitykseen. Korva tottuu kieleen kuin itsestään."
+      },
+      {
+        "title": "”Minulla ei ole aikaa”",
+        "text": "Lyhyet formaatit ja nopeat sessiot – jo 5–10 minuuttia päivässä pitää rytmissä."
+      },
+      {
+        "title": "”Tarvitsen harvinaisen kielen”",
+        "text": "49 kieltä, harvinaiset mukaan lukien. Ja opit mitä tahansa niistä omasta äidinkielestäsi käsin."
+      },
+      {
+        "title": "”Pelkään, ettei tämä sovi minulle”",
+        "text": "Jos osaat lukea, tämä sopii sinulle. Esitietoja, kielioppia tai valmistautumista ei tarvita – aloita millä tahansa kirjalla omalla tasollasi."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Opi {target}",
+    "title": "49 kieltä, yleisistä harvinaisiin",
+    "subtitle": "Opi mitä tahansa kieltä omasta äidinkielestäsi käsin – et vain englannin kautta, kuten useimmat sovellukset pakottavat.",
+    "groupTitles": [
+      "Suositut",
+      "Kaikki kielet"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 kieliparia.</strong> Valitse mikä tahansa yhdistelmä: kieli, jota opiskelet, ja kieli, jolla luet käännöksen."
+  },
+  "reviews": {
+    "title": "Emme odottaneet, että pidätte tästä näin paljon",
+    "subtitle": "Mutta faktat ovat faktoja – näin ihmiset kirjoittavat Google Playssa.",
+    "items": [
+      {
+        "text": "Loistava sovellus. Iso plussa, että samasta kirjasta on useita englannin tasoja. Odotan päivitystä malttamattomana!",
+        "author": "Екатерина М.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Otin vuositilauksen ja se on hintansa väärti. Tämä on todella ihana sovellus! Erinomainen apu englannin parantamiseen. Aikuisista lapsiin — ei vain hyödyllinen vaan välttämätön.",
+        "author": "Mayur L.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Tarvitsin portugalia töihin brasilialaisen tiimin kanssa. Lukeminen + ääni yhtä aikaa on todella tehokasta. 6 viikon jälkeen pysyin jo palavereissa mukana.",
+        "author": "Rosita R.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Olen aina halunnut oppia saksaa, ja tässä sovelluksessa kaikki on paljon helpommin lähestyttävää ja selkeämpää kuin muissa vastaavissa. Sovellus on 10/10.",
+        "author": "Макс Р.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Käytän kuuntele ja lue -toimintoa ja se on ollut minulle ihan läpimurto. Ääniraidat ovat selkeitä ja hyvin synkassa. Mahtava työkalu kielenoppijalle.",
+        "author": "Zeynep O.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Idea ja toteutus saavat täydet pisteet. Tällä hetkellä tämä on ainoa sovellus, jossa on serbiankielisiä kirjoja. Hyvin tehty! Kiitos!",
+        "author": "Вася К.",
+        "source": "Google Play • katso alkuperäinen"
+      },
+      {
+        "text": "Tämä on minulle opettajana todella ihana sovellus. Suosittelen sitä oppilailleni. Tosi miellyttävä. Suosittelen kaikille.",
+        "author": "Sasha T.",
+        "source": "Google Play • katso alkuperäinen"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Usein kysytyt kysymykset",
+    "items": [
+      {
+        "q": "Sopiiko Lingo7 täydelle aloittelijalle?",
+        "a": "Kyllä. Materiaalia on kaikille tasoille, ja rinnakkaiskäännös tekee tekstistä ymmärrettävän heti alusta asti."
+      },
+      {
+        "q": "Miltä tasolta alkaen voi lukea alkukielellä?",
+        "a": "Miltä tahansa. Rinnakkaiskäännöksen ansiosta sanakirjaa ei tarvita, ja liian vaikean kirjan voi mukauttaa yksinkertaisemmaksi – sama tarina ja samat hahmot, mutta oman tasosi kielioppi ja sanat. Kaikki materiaali on luokiteltu tasoille A1–C1."
+      },
+      {
+        "q": "Voinko opiskella 10 minuuttia päivässä?",
+        "a": "Kyllä. Lyhyet artikkelit, kirjatiivistelmät ja sanakortit on tehty juuri lyhyisiin päivittäisiin sessioihin."
+      },
+      {
+        "q": "Mitä kieliä on saatavilla?",
+        "a": "49 kieltä, ja voit oppia mitä tahansa niistä omasta äidinkielestäsi käsin – et vain englannin kautta. Se tekee 49 × 48 = 2352 kieliparia, harvinaiset kielet mukaan lukien."
+      },
+      {
+        "q": "Miten tämä eroaa tavallisista kielisovelluksista?",
+        "a": "Irrallisten harjoitusten sijaan opit sisällöstä, joka kiinnostaa sinua, ja jokainen taito kytkeytyy samaan kiertoon: luet ja kuuntelet, tallennat sanat jaksotettuun kertaukseen, poimit kieliopin kontekstista, treenaat puhetta shadowingilla ja kirjoittamista tekoälychatissa. Ja voit ladata oman kirjasi tai dokumenttisi."
+      },
+      {
+        "q": "Onko puheharjoittelua?",
+        "a": "Kyllä. Puhumista varten on shadowing – toistat fraaseja kertojan perässä ääneen ja harjoittelet ääntämistä ja intonaatiota. Kirjoittamista varten on tekoälychat: keskustelet lukemastasi, ja se auttaa muotoilemaan ajatukset ja löytää virheesi. Elävää keskustelua ihmisen kanssa ei vielä ole – se on suunnitelmissa."
+      },
+      {
+        "q": "Mitä tiedostomuotoja voin ladata?",
+        "a": "PDF, EPUB, FB2 ja TXT. Lataa työdokumentteja, lempikirjojasi tai artikkeleita – sovellus rakentaa rinnakkaiskäännöksen, lisää äänen ja kerää uudet sanat harjoitteluun."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Ala opiskella {target} jo tänään: kirja harjoitusten sijaan",
+    "text": "Lataa sovellus ja avaa ensimmäinen kirjasi.",
+    "perks": [
+      "49 kieltä",
+      "Kaikki tasot"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Tietoa meistä",
+      "Yhteystiedot",
+      "Työpaikat",
+      "Kouluille",
+      "Näin opit kieliä",
+      "Käyttöehdot",
+      "Tietosuoja"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Kaikki oikeudet pidätetään."
+  },
+  "downloadModal": {
+    "title": "Hanki Lingo7",
+    "text": "Saatavilla App Storesta ja Google Playsta"
+  },
+  "stickyCta": {
+    "label": "Lataa sovellus"
+  },
+  "mobileMenu": {
+    "links": [
+      "Miten se toimii",
+      "Kirjasto",
+      "Kielet",
+      "Arviot",
+      "UKK"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Kuuntele",
+      "add": "Tallenna",
+      "translate": "Käännä",
+      "addToMyWords": "Lisää omiin sanoihin",
+      "inMyWords": "Omissa sanoissa",
+      "audioMode": "Äänitila",
+      "discussWithAi": "Keskustele tekoälyn kanssa",
+      "selfCheck": "Testaa itsesi"
+    },
+    "wordCard": {
+      "freqHigh": "YLEINEN",
+      "freqMid": "KESKITASO",
+      "example": "Esimerkki",
+      "otherTranslations": "Lisää käännöksiä",
+      "synonyms": "Synonyymit",
+      "open": "Avaa",
+      "group": "Ryhmä:",
+      "groupDefault": "Yleinen",
+      "page": "s."
+    },
+    "readerSettings": {
+      "sectionText": "TEKSTI",
+      "sectionAudio": "ÄÄNI",
+      "highlightMyWords": "Korosta omat sanat",
+      "highlightMyWordsHint": "Merkitsee tallentamasi sanat",
+      "theme": "Teema",
+      "themeLight": "Vaalea",
+      "fontSize": "Kirjasinkoko",
+      "font": "Kirjasin",
+      "speakOnTap": "Sano sana napautettaessa",
+      "speakOnTapHint": "Lukee napauttamasi sanan ääneen",
+      "speechRate": "Puhenopeus",
+      "pronunciationTest": "Ääntämistesti",
+      "playSample": "Toista esimerkkilause",
+      "reset": "Palauta asetukset",
+      "done": "Valmis",
+      "on": "Päällä",
+      "off": "Pois",
+      "accent": "Aksentti",
+      "translationAlways": "Aina"
+    },
+    "vocab": {
+      "pickRightPicture": "Valitse oikea kuva",
+      "correct": "Aivan oikein",
+      "rightAnswer": "Oikea vastaus:",
+      "next": "Seuraava",
+      "done": "Valmis",
+      "skip": "Ohita",
+      "exercise": "Harjoitus",
+      "exerciseMeta": "/11 · 10 sanaa"
+    },
+    "chat": {
+      "title": "Harjoittelu",
+      "discussing": "Keskustelussa ”{book}”",
+      "finish": "Lopeta",
+      "playing": "Toistetaan…",
+      "replyOptions": "Vastausvaihtoehdot",
+      "placeholder": "Kirjoita viesti"
+    },
+    "bookDetail": {
+      "adapted": "Mukautettu",
+      "adaptedHint": "Kirjoitettu yksinkertaisemmin, merkitys säilytetty",
+      "original": "Alkuperäinen",
+      "originalHint": "Koko alkuperäinen teksti muuttamattomana",
+      "open": "Avaa",
+      "genre": "Genre",
+      "badgeSummary": "Tiivistelmä"
+    },
+    "library": {
+      "profile": "Profiili",
+      "search": "Haku",
+      "upload": "Lataa kirja",
+      "tabCatalog": "Valikoima",
+      "tabAll": "Kaikki kirjat",
+      "tabFavorites": "Suosikit",
+      "shelfBestsellers": "Maailman bestsellerit",
+      "shelfBestsellersSub": "lyhyesti kerrottuna, ääni mukana",
+      "shelfStories": "Lyhyet tarinat",
+      "shelfStoriesSub": "Pieniä tarinoita, isoja oivalluksia",
+      "bandTitle": "5 minuuttia päivässä",
+      "bandText": "Lue joka päivä yksi kiinnostava fakta – kieli tarttuu siinä samalla.",
+      "shelfAmazing": "Uskomattomia tarinoita",
+      "shelfNature": "Luonnon arvoituksia",
+      "shelfHealth": "Terveys ja tiede",
+      "moreTopics": "Lisää aiheita",
+      "shelfGolden": "Kultaiset klassikot",
+      "shelfGoldenSub": "200 kirjaa, jotka muuttivat ihmiskuntaa",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Kirjasto",
+      "practice": "Harjoittelu",
+      "read": "Lue",
+      "myWords": "Omat sanat",
+      "collections": "Kokoelmat"
+    }
+  },
+  "_note": "Локаль fi (пилотная). Полный перевод с эталона en.json; 2026-08-29 обновлены под текущий en.json: meta.* (новая формула без бренда «Lingo7»), steps.title, library.title, faq.items[1].q/.a. Остальные строки не трогались. Контракт слота — партитивное дополнение, соблюдён во всех 9 строках; бюджет выдачи пересчитан по «azerbaidžania». 2026-08-30 файл прошёл снятие калек по i18n/en.gloss.json (16 оборотов, ~30 строк): убраны образы веса, «строить произношение», «lukita sanat», «jauhaa harjoituksia» и связка «osaaminen on seitsemän taitoa»; строки вне глоссария не трогались. 2026-08-30 третий круг по независимому разбору i18n/_qa/gemini-fi.json: kielitaidon osa-alueet вместо «7 kielitaitoa», ablative у уровней (Miltä tasolta / Miltä tahansa), luokiteltu tasoille, harjoittelet/puhumista, согласование лица в compare.rows[2] и числа в compare.rows[4]; meta.* не трогались, бюджет прежний.",
+  "_contract": {
+    "government": "Партитивное дополнение при глаголах oppia/opiskella: «Opi {target} …», «Ala opiskella {target} …». Все 9 строк написаны под эту одну позицию; соседних токенов с алломорфией (артикль, предлог, гармония в суффиксе) рядом со слотом нет.",
+    "slotExample": "espanjaa",
+    "slotExampleEnglish": "englantia",
+    "longestSlot": "azerbaidžania",
+    "longestSlotLang": "азербайджанский (fi azerbaidžani)",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 147,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "meta.title «kaksikieliset kirjat ja ääni» — носителю проверить, что это читается как описание продукта, а не как калька с англ. «Bilingual Books & Audio».",
+      "meta.description — телеграфные назывные группы «suomennos rinnalla, ääni mukana» в сниппете: проверить ритм и то, что финну ясно, что перевод именно на финский.",
+      "library.title «Opi {target} kirjoista – käännös rinnalla, tasot A1–C1» — слот удалось удержать в объявленной позиции ценой переписывания фразы (в en слот — определение к «books», в финском так нельзя). Проверить, что H2 не перегружен.",
+      "faq.items[1].q «Miltä tasolta alkaen voi lukea alkukielellä?» — косвенный вопрос об уровне, не условие; ответ начинается с «Miltä tahansa», модальность «voi mukauttaa» (возможность, не обещание) сохранена.",
+      "Заглавная — данные: слот нигде не стоит первым словом (в fi espanja/Espanja различает язык и страну), автозаглавная в <title> напечатала бы название страны."
+    ]
+  }
+}

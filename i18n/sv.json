@@ -1,0 +1,576 @@
+{
+  "meta": {
+    "title": "Lär dig {target} genom att läsa tvåspråkiga böcker",
+    "description": "Läs böcker på {target} med svensk översättning bredvid och ljud till varje mening. Spara ord med ett tryck och repetera dem med ökande intervall.",
+    "ogTitle": "Lär dig {target} genom att läsa tvåspråkiga böcker",
+    "ogDescription": "Läs böcker på {target} med den svenska översättningen bredvid och ljud till varje mening. Spara ett ord med ett tryck och få se det igen med ökande intervall.",
+    "twitterTitle": "Lär dig {target} genom att läsa tvåspråkiga böcker",
+    "twitterDescription": "Läs böcker på {target} med svenskan direkt bredvid, spara nya ord med ett tryck och repetera dem med ökande intervall."
+  },
+  "nav": {
+    "links": [
+      "Så funkar det",
+      "Bibliotek",
+      "Språk",
+      "Omdömen",
+      "Vanliga frågor"
+    ]
+  },
+  "hero": {
+    "title": "Lär dig {target} genom att läsa böcker – inte genom att traggla övningar",
+    "subtitle": "Läs och lyssna på sådant som faktiskt intresserar dig, spara ord direkt från sidan och låt repetitionsalgoritmen påminna dig om dem när det är dags.",
+    "cta": "Hämta appen",
+    "trust": "49 språk • iPhone / Android",
+    "pills": [
+      "Parallell översättning",
+      "Ljud + läsning",
+      "Bygg ditt ordförråd",
+      "Repetition med ökande intervall",
+      "Vilken bok eller text som helst",
+      "Shadowing",
+      "Diskutera boken med AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "En bok i stället för en kurs",
+        "span": "Lär dig av det du ändå hade läst för nöjes skull"
+      },
+      {
+        "strong": "49 språk",
+        "span": "Från de allra största till de mest ovanliga"
+      },
+      {
+        "strong": "Ett bibliotek med bredd",
+        "span": "Klassiker, världsbestsellers och artiklar"
+      },
+      {
+        "strong": "Allt sitter ihop i ett flöde",
+        "span": "Läsning, ljud, ordförråd och repetition"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Varför de flesta språkappar blir liggande – och varför den här inte blir det",
+    "subtitle": "Det har aldrig handlat om din disciplin. Det har handlat om formatet.",
+    "labelOld": "❌ Oftast",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Du nöter in ord du sedan inte kan använda",
+          "text": "Listor och gloskort utan sammanhang. Borta igen till i morgon."
+        },
+        "new": {
+          "title": "Orden dyker upp i riktiga meningar",
+          "text": "Du ser hur ett ord beter sig i sitt sammanhang, så det fastnar av sig självt."
+        }
+      },
+      {
+        "old": {
+          "title": "Samma övningar varenda dag",
+          "text": "Det blir tråkigt, motivationen sjunker, och efter första veckan öppnas appen inte längre."
+        },
+        "new": {
+          "title": "Du läser sådant du ändå hade läst",
+          "text": "Bestsellers, märkliga sanna historier, populärvetenskap – material du återvänder till av dig själv."
+        }
+      },
+      {
+        "old": {
+          "title": "Originalet är för svårt",
+          "text": "Okända ord överallt, handlingen glider undan, och du ger upp på första sidan."
+        },
+        "new": {
+          "title": "Parallell översättning – och anpassning",
+          "text": "Översättningen visas direkt bredvid texten, och en bok som är för svår kan skrivas om på din nivå."
+        }
+      },
+      {
+        "old": {
+          "title": "Du läser det katalogen råkar ha",
+          "text": "Ett låst bibliotek. Ingen chans att ta med din egen bok."
+        },
+        "new": {
+          "title": "Vilken bok eller text som helst blir din lärobok",
+          "text": "Ge appen böckerna du älskar och dokumenten du behöver, så får du tillbaka dem med parallell översättning, ljud och repetition av orden."
+        }
+      },
+      {
+        "old": {
+          "title": "Du läser och lyssnar, men allt är passivt",
+          "text": "Ingenstans att tala eller skriva, så färdigheten sätter sig aldrig."
+        },
+        "new": {
+          "title": "Du läser inte bara – du talar och skriver",
+          "text": "Boken du just läst ut pratar du igenom med AI, så du slipper hitta på ett ämne. När du har något att säga blir det lätt att både säga och skriva det."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Alla 7 språkfärdigheter på ett ställe",
+    "subtitle": "Att kunna ett språk är att behärska sju färdigheter. Lingo7 tränar dem tillsammans i stället för en i taget, så att de förstärker varandra.",
+    "skills": [
+      {
+        "title": "Läsa",
+        "text": "Läs originalet eller en anpassad version med översättningen direkt bredvid – snabbt och utan ordbok."
+      },
+      {
+        "title": "Lyssna",
+        "text": "Ljudböcker och ett läge där du lyssnar medan du läser – ett av de mest effektiva sätten att träna örat."
+      },
+      {
+        "title": "Ordförråd",
+        "text": "Nya ord fastnar medan du läser, utan att du nöter dem. Övningar och repetition med ökande intervall gör att de sitter kvar länge."
+      },
+      {
+        "title": "Grammatik",
+        "text": "Det bästa sättet att ta till sig grammatik är att se reglerna göra sitt jobb inne i en riktig mening."
+      },
+      {
+        "title": "Skriva",
+        "text": "AI-chatt: du diskuterar det du just har läst, så det finns alltid något att skriva om. Den hjälper dig att forma tanken och fångar dina misstag."
+      },
+      {
+        "title": "Tala",
+        "text": "Shadowing: du härmar uppläsaren högt och tränar upp flyt, rytm och intonation."
+      },
+      {
+        "title": "Uttal",
+        "text": "Uttalsövningar hjälper dig att flytta din brytning närmare hur någon med språket som modersmål låter."
+      }
+    ],
+    "conductor": {
+      "badge": "Personlig plan · Kommer snart",
+      "title": "Appen säger vad du ska göra i dag",
+      "text": "Den väljer rätt sak i rätt läge – läsa, härma högt, befästa orden eller prata igenom ett kapitel med AI. Du behöver aldrig fundera på var du ska börja eller vad som kommer sedan.",
+      "caption": "Ett exempel på ett pass i dag – ditt bygger appen.",
+      "steps": [
+        {
+          "label": "Läsning",
+          "meta": "15 min"
+        },
+        {
+          "label": "Lyssna och läs",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Nu · 7 min"
+        },
+        {
+          "label": "Ord",
+          "meta": "25 kort"
+        },
+        {
+          "label": "AI-chatt",
+          "meta": "diskutera kapitlet"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Så lär du dig ett språk med böcker: fem steg",
+    "subtitle": "Ingen invecklad metod. En tydlig cykel – och innehåll som är bra nog att bära dig igenom den.",
+    "items": [
+      {
+        "title": "Välj ditt innehåll",
+        "text": "Sammanfattningar av bestsellers, klassiker, noveller – efter humör, efter nivå, efter den tid du har."
+      },
+      {
+        "title": "Läs med parallell översättning",
+        "text": "Original och översättning sida vid sida; tryck på ett ord för att se betydelsen, höra det eller spara det."
+      },
+      {
+        "title": "Lär dig orden",
+        "text": "Sparade ord kommer tillbaka i övningar som tränar olika sorters minne, utspridda över tid."
+      },
+      {
+        "title": "Lyssna och härma högt",
+        "text": "Varje mening har ljud: lyssna och härma sedan uppläsaren – det är så uttal och intonation sätter sig."
+      },
+      {
+        "title": "Prata igenom boken med AI",
+        "text": "AI:n går igenom boken tillsammans med dig – du övar på att skriva och tala och lär dig att sätta ord på tankar i ett nytt språk."
+      }
+    ]
+  },
+  "library": {
+    "title": "Böcker på {target} med översättning – efter nivå, från A1 till C1",
+    "subtitle": "Du lär dig inte bara ett språk, du lär dig något. Material för varje nivå, från de första stegen till avancerat.",
+    "tabs": [
+      "Klassiker",
+      "Bestsellers",
+      "Upptäck"
+    ],
+    "panels": [
+      {
+        "title": "Läs de stora böckerna i original – med skyddsnät",
+        "text": "Anpassade versioner och original för olika nivåer, från Lille prinsen till Hawking. Den parallella översättningen håller även svår prosa läsbar.",
+        "badges": [
+          "A1-A2 Nybörjare",
+          "B1-B2 Medelnivå",
+          "C1+ Avancerad"
+        ]
+      },
+      {
+        "title": "Kärnan i världens bästa böcker på 7–15 minuter",
+        "text": "Huvudtankarna ur globala bestsellers, kort återberättade – på språket du lär dig. Du växer och lär dig språket på en och samma gång.",
+        "badges": [
+          "A1-A2 Nybörjare",
+          "B1-B2 Medelnivå",
+          "C1+ Avancerad"
+        ]
+      },
+      {
+        "title": "5 minuter om dagen: ett intressant faktum och några nya ord",
+        "text": "Rymden, psykologi, affärer, natur, teknik – hundratals korta artiklar om vad som helst. Lär dig något nytt varje dag, så följer språket med på köpet.",
+        "badges": [
+          "A1-A2 Nybörjare",
+          "B1-B2 Medelnivå",
+          "C1+ Avancerad"
+        ]
+      }
+    ],
+    "examples": [
+      "Tänk och bli rik • 80/20-principen • De 7 goda vanorna • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "NYTT",
+    "title": "Ladda upp din egen bok eller text och lär dig med hjälp av den",
+    "text": "Ladda upp vilken fil som helst, så gör Lingo7 om den till studiematerial med parallell översättning och ljud. Sedan rullar det på som vanligt: du läser, lyssnar, lär dig ord, jobbar på talet med shadowing och pratar igenom det med AI.",
+    "cards": [
+      {
+        "title": "Bestsellers i original",
+        "text": "Harry Potter, Dune, Kampen om järntronen – läs böckerna du har tänkt ta tag i, på språket du lär dig."
+      },
+      {
+        "title": "Språket som jobbet och studierna kräver",
+        "text": "Arbetsdokument, vetenskapliga artiklar, tentamaterial – lär dig språket i det fält du faktiskt står i just nu."
+      }
+    ],
+    "usecases": [
+      "Prov",
+      "Jobb",
+      "Artiklar",
+      "Intervjuer"
+    ],
+    "formatsNote": "Ladda upp dina egna filer i de här formaten:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Anpassning",
+      "title": "Läs vilken bok som helst – <span class=\"accent\">omskriven</span> för dig",
+      "text": "Är orden och grammatiken fortfarande för svåra? Lingo7 skriver om boken på ett enklare språk – samma historia, samma personer, lättare meningar.",
+      "cta": "Testa på din bok"
+    },
+    "goalQuote": "Mitt favoritrecept: ta Harry Potter och gör ett kapitel om dagen – läs det, lyssna på det, lär dig de nya orden, prata igenom det med AI. Ett halvår med en timme eller två om dagen, så tar du dig <span class=\"goal-quote__level\">från A2 till B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 är för dig som …",
+    "items": [
+      "Vill lära dig av innehåll i stället för lektioner du måste tvinga dig igenom",
+      "Vill mer än att läsa – också lyssna, tala och skriva: uttal genom shadowing, och sätta ord på tankar i AI-chatten",
+      "Vill plugga på ditt eget material – arbetsdokument, favoritböcker och artiklar – inte bara färdiga lektioner",
+      "Behöver ett ovanligt språk som de flesta appar inte har",
+      "Vill jobba i korta pass på 5–15 minuter"
+    ]
+  },
+  "pains": {
+    "title": "Vad som sätter käppar i hjulet – och vad Lingo7 gör åt det",
+    "subtitle": "Det handlar inte om begåvning. Det handlar om format.",
+    "chips": [
+      "Rädd att tala",
+      "Jag tröttnar",
+      "Orden fastnar inte",
+      "Svårt att läsa",
+      "Hänger inte med i talet",
+      "Ingen tid",
+      "Ovanligt språk",
+      "Passar inte mig"
+    ],
+    "answers": [
+      {
+        "title": "”Jag skäms för att tala och göra fel”",
+        "text": "Shadowing betyder att du upprepar fraser högt efter uppläsaren, för dig själv, utan att någon sätter betyg. Det är så uttalet sätter sig. I AI-chatten jobbar du på formuleringarna i skrift, och den rättar dig utan pekpinnar."
+      },
+      {
+        "title": "”Jag tröttnar snabbt”",
+        "text": "I stället för utbytbara lektioner: böcker, bestsellers och artiklar om ämnen du ändå hade läst om. När innehållet suger tag i dig är det lätt att komma tillbaka."
+      },
+      {
+        "title": "”Jag ser orden men de stannar inte kvar”",
+        "text": "Ett tryck sparar ordet ur sin mening, och sedan kommer det tillbaka som ett kort med ökande mellanrum. Att minnas slutar vara en fråga om tur."
+      },
+      {
+        "title": "”Att läsa originalet är för svårt för mig”",
+        "text": "Parallell översättning, mening mot mening – du slipper hoppa till en översättningsapp varannan rad."
+      },
+      {
+        "title": "”Jag hänger inte med när någon talar”",
+        "text": "Läget där du lyssnar och läser samtidigt knyter ihop ordets ljud med dess stavning och dess betydelse. Örat vänjer sig vid språket av sig självt."
+      },
+      {
+        "title": "”Jag har inte tid”",
+        "text": "Korta format och snabba pass – redan 5–10 minuter om dagen håller dig kvar i rytmen."
+      },
+      {
+        "title": "”Jag behöver ett ovanligt språk”",
+        "text": "49 språk, de ovanliga inräknade. Och du lär dig vilket som helst av dem utifrån ditt eget modersmål."
+      },
+      {
+        "title": "”Jag är rädd att det inte passar mig”",
+        "text": "Kan du läsa passar det dig. Inga förkunskaper, ingen grammatik och inga förberedelser krävs – börja med vilken bok som helst på din nivå."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Lär dig {target}",
+    "title": "49 språk, från de vanligaste till de mest ovanliga",
+    "subtitle": "Lär dig vilket språk som helst utifrån ditt eget modersmål – inte bara via engelskan, som de flesta appar tvingar dig till.",
+    "groupTitles": [
+      "Populära",
+      "Alla språk"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 språkpar.</strong> Välj vilken kombination du vill: språket du lär dig, och språket du läser översättningen på."
+  },
+  "reviews": {
+    "title": "Vi räknade inte med att ni skulle gilla den så här mycket",
+    "subtitle": "Men fakta är fakta – så här skriver folk på Google Play.",
+    "items": [
+      {
+        "text": "Grym app. Stort plus att en och samma bok finns i flera engelska nivåer. Väntar otåligt på uppdateringen!",
+        "author": "Екатерина М.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Jag skaffade årsprenumerationen och den är verkligen prisvärd. Det här är en fantastisk app! En utmärkt resurs för att bli bättre på engelska. Från vuxna till barn – inte bara nyttig utan nödvändig.",
+        "author": "Mayur L.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Jag behövde portugisiska för att jobba med ett team i Brasilien. Att läsa och lyssna samtidigt är väldigt effektivt. Efter sex veckor kunde jag redan följa med på mötena.",
+        "author": "Rosita R.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Har alltid velat lära mig tyska, och i den här appen är allt mycket mer lättillgängligt och tydligt än i liknande appar. Appen får 10 av 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Jag använder funktionen där man läser med ljud och det har varit ett riktigt genombrott för mig. Ljudspåren är tydliga och välsynkade. Ett fantastiskt verktyg för den som lär sig språk.",
+        "author": "Zeynep O.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Idén och genomförandet får högsta betyg. Just nu är det den enda appen med böcker på serbiska. Snyggt jobbat! Tack!",
+        "author": "Вася К.",
+        "source": "Google Play • se originalet"
+      },
+      {
+        "text": "Det här är verkligen en fantastisk app för mig som lärare. Jag rekommenderar den till mina elever. Väldigt trevlig. Jag rekommenderar den till alla.",
+        "author": "Sasha T.",
+        "source": "Google Play • se originalet"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vanliga frågor",
+    "items": [
+      {
+        "q": "Funkar Lingo7 om jag är helt nybörjare?",
+        "a": "Ja. Det finns material på varje nivå, och den parallella översättningen gör texten begriplig från allra första början."
+      },
+      {
+        "q": "Vilken nivå behöver jag för att läsa på originalspråket?",
+        "a": "Vilken som helst. Den parallella översättningen gör ordboken överflödig, och en bok som är för svår kan skrivas om till en enklare version – samma historia och samma personer, men med grammatiken och orden på din nivå. Allt är märkt från A1 till C1."
+      },
+      {
+        "q": "Går det att plugga tio minuter om dagen?",
+        "a": "Ja. Korta artiklar, boksammanfattningar och ordkort är gjorda just för korta dagliga pass."
+      },
+      {
+        "q": "Vilka språk finns det?",
+        "a": "49 språk, och du kan lära dig vilket som helst av dem utifrån ditt eget modersmål – inte bara via engelskan. Det blir 49 × 48 = 2352 språkpar, de ovanliga språken inräknade."
+      },
+      {
+        "q": "Vad skiljer det här från vanliga språkappar?",
+        "a": "I stället för lösryckta övningar lär du dig av innehåll som intresserar dig, och varje färdighet hänger ihop i ett och samma flöde: du läser och lyssnar, sparar ord till repetition med ökande intervall, plockar upp grammatik i sitt sammanhang, jobbar på talet med shadowing och på skrivandet i AI-chatten. Och du kan ladda upp din egen bok eller ditt eget dokument."
+      },
+      {
+        "q": "Finns det talträning?",
+        "a": "Ja. För talet finns shadowing – du upprepar fraser högt efter uppläsaren och tränar upp uttal och intonation. För skrivandet finns AI-chatten: du diskuterar det du har läst, och den hjälper dig att formulera dig och hittar dina misstag. Samtal med riktiga människor finns inte än – det är planerat."
+      },
+      {
+        "q": "Vilka filformat kan jag ladda upp?",
+        "a": "PDF, EPUB, FB2 och TXT. Ladda upp arbetsdokument, favoritböcker eller artiklar – appen bygger den parallella översättningen, lägger till ljud och samlar de nya orden i träningen."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Börja lära dig {target} i dag – med en bok i stället för en övning",
+    "text": "Ladda ner appen och öppna din första bok.",
+    "perks": [
+      "49 språk",
+      "Alla nivåer"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Om oss",
+      "Kontakt",
+      "Jobba hos oss",
+      "För skolor",
+      "Så lär du dig språk",
+      "Användarvillkor",
+      "Integritetspolicy"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Alla rättigheter förbehållna."
+  },
+  "downloadModal": {
+    "title": "Hämta Lingo7",
+    "text": "Finns i App Store och Google Play"
+  },
+  "stickyCta": {
+    "label": "Hämta appen"
+  },
+  "mobileMenu": {
+    "links": [
+      "Så funkar det",
+      "Bibliotek",
+      "Språk",
+      "Omdömen",
+      "Vanliga frågor"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang = sv). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Lyssna",
+      "add": "Spara",
+      "translate": "Översätt",
+      "addToMyWords": "Lägg till i mina ord",
+      "inMyWords": "I mina ord",
+      "audioMode": "Ljudläge",
+      "discussWithAi": "Diskutera med AI",
+      "selfCheck": "Testa dig själv"
+    },
+    "wordCard": {
+      "freqHigh": "VANLIGT",
+      "freqMid": "MEDEL",
+      "example": "Exempel",
+      "otherTranslations": "Fler översättningar",
+      "synonyms": "Synonymer",
+      "open": "Öppna",
+      "group": "Grupp:",
+      "groupDefault": "Allmänt",
+      "page": "s."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "LJUD",
+      "highlightMyWords": "Markera mina ord",
+      "highlightMyWordsHint": "Markerar orden du har sparat",
+      "theme": "Tema",
+      "themeLight": "Ljust",
+      "fontSize": "Textstorlek",
+      "font": "Typsnitt",
+      "speakOnTap": "Läs upp ordet vid tryck",
+      "speakOnTapHint": "Läser upp ordet du tryckte på",
+      "speechRate": "Uppläsningstempo",
+      "pronunciationTest": "Uttalstest",
+      "playSample": "Spela upp en exempelfras",
+      "reset": "Återställ inställningarna",
+      "done": "Klar",
+      "on": "På",
+      "off": "Av",
+      "accent": "Accent",
+      "translationAlways": "Alltid"
+    },
+    "vocab": {
+      "pickRightPicture": "Välj rätt bild",
+      "correct": "Helt rätt",
+      "rightAnswer": "Rätt svar:",
+      "next": "Nästa",
+      "done": "Klar",
+      "skip": "Hoppa över",
+      "exercise": "Övning",
+      "exerciseMeta": "/11 · 10 ord"
+    },
+    "chat": {
+      "title": "Träning",
+      "discussing": "Diskuterar ”{book}”",
+      "finish": "Avsluta",
+      "playing": "Spelar upp…",
+      "replyOptions": "Svarsförslag",
+      "placeholder": "Skriv ett meddelande"
+    },
+    "bookDetail": {
+      "adapted": "Anpassad",
+      "adaptedHint": "Omskriven på enklare språk, innebörden bevarad",
+      "original": "Original",
+      "originalHint": "Hela originaltexten, oförändrad",
+      "open": "Öppna",
+      "genre": "Genre",
+      "badgeSummary": "Sammanfattning"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Sök",
+      "upload": "Ladda upp en bok",
+      "tabCatalog": "Katalog",
+      "tabAll": "Alla böcker",
+      "tabFavorites": "Favoriter",
+      "shelfBestsellers": "Världens bestsellers",
+      "shelfBestsellersSub": "i korta sammanfattningar, med ljud",
+      "shelfStories": "Korta berättelser",
+      "shelfStoriesSub": "Små historier med stor poäng",
+      "bandTitle": "5 minuter om dagen",
+      "bandText": "Upptäck intressanta fakta varje dag – så följer språket med på köpet.",
+      "shelfAmazing": "Otroliga historier",
+      "shelfNature": "Naturens gåtor",
+      "shelfHealth": "Hälsa och vetenskap",
+      "moreTopics": "Fler ämnen",
+      "shelfGolden": "Gyllene klassiker",
+      "shelfGoldenSub": "200 böcker som förändrade mänskligheten",
+      "goldenBadge": "TOPP-200"
+    },
+    "nav": {
+      "library": "Bibliotek",
+      "practice": "Träning",
+      "read": "Läs",
+      "myWords": "Mina ord",
+      "collections": "Samlingar"
+    }
+  },
+  "_note": "Полная локаль sv (шведский, язык интерфейса читателя my_lang). Написана с эталона i18n/en.json 2026-08-30 по брифу i18n/TRANSLATION-BRIEF.md; интонация сверена с русским оригиналом ru.json. Структура ключей повторяет en.json ключ в ключ, значения написаны заново по-шведски, не подстрочником и не по датскому/норвежскому файлу. Обращение — на «du» (единственная норма для потребительского приложения в шведском). Названия языков в шведском пишутся СО СТРОЧНОЙ (svenska, engelska, azerbajdzjanska), поэтому слот нигде не стоит первым словом в title-строках. Артикля рядом со слотом нет; атрибутивное употребление названия языка («spanska böcker») запрещено как вторая форма — вместо него всюду «böcker på {target}». Кавычки — шведские ”…”, тире — tankstreck –. Имена авторов отзывов, customBook.formats, коды CEFR, числа и эмодзи скопированы побайтово. Строки на живую вычитку носителем — в _contract.risks. Файл прошёл снятие калек по i18n/en.gloss.json: 12 строк переписаны со смысла, а не с образа эталона (сложность вместо веса, «uttalet sätter sig» вместо «kommer ifrån», «tränar upp uttal» вместо «bygger uttal», «visas bredvid» вместо позы «står», «förstärker varandra» вместо тяги, «påminna om»/«få se igen» вместо возврата предмета). Третий круг (независимый разбор gemini-sv.json): снят ложный друг «levande samtal» → «samtal med riktiga människor» (live = в реальном времени, а не «оживлённая беседа»); customBook.title переведён на инструментальное «lär dig med hjälp av den» по ловушке эталона; method.subtitle — «förstärker varandra» вместо образного «lyfter de andra»; faq.items[1].a — «skrivas om till en enklare version» вместо «skrivas om enklare» (наречие читалось как «переписать проще= легче»); customBook.adapt — «på ett enklare språk» с артиклем; compare.rows[4] развёрнут топикализацией, чтобы «med AI» не цеплялось к «läst ut». Отклонено: method.conductor.title «säger» → «visar» (эталон обещает, что приложение ГОВОРИТ, что делать). Слот {target} и объявленная позиция не тронуты, meta.* не менялись, бюджет выдачи прежний: title 57, description 152.",
+  "_contract": {
+    "government": "Голая, неизменяемая форма названия языка без артикля и без атрибутивного употребления. Объявлена ОДНА позиция: беспредложное дополнение при lära sig / läsa («Lär dig {target}», «Börja lära dig {target}») и то же самое слово после неизменяемого предлога på («Läs böcker på {target}», «Böcker på {target} med översättning»). Шведский падежей не имеет, названия языков не склоняются, и в обеих позициях подставляется ОДИН И ТОТ ЖЕ атом: spanska, engelska, nederländska, azerbajdzjanska, swahili, zulu, afrikaans. Возвратное dig в «lär dig» стоит ПЕРЕД слотом и от подставленного слова не зависит; предлог på алломорфии не имеет — оба токена часть каркаса, а не второй слот. ЗАПРЕЩЕНО атрибутивное употребление («spanska böcker»): у части языков атрибут просто не существует (zulu, swahili, afrikaans), поэтому везде «böcker på {target}». Определённая форма («spanskan») в слоте не используется — она встречается только в фиксированном тексте про engelskan, где слота нет.",
+    "slotExample": "spanska",
+    "slotExampleEnglish": "engelska",
+    "longestSlot": "azerbajdzjanska",
+    "longestSlotLang": "азербайджанский — 15 знаков; следом vietnamesiska (13), nederländska и portugisiska (по 12), indonesiska и filippinska (по 11), bulgariska, makedonska, kirgiziska, katalanska, italienska, mongoliska, slovakiska (по 10)",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Регистр — данные, а не преобразование. В шведском названия языков строчные, поэтому слот нигде не стоит первым словом: meta.title/ogTitle/twitterTitle и hero.title начинаются с «Lär», описания — с «Läs», finalCta.title — с «Börja», library.title — с «Böcker». UI не должен капитализировать слот: «Azerbajdzjanska» в начале строки швед прочитает как ошибку.",
+      "Таблица названий языков обязана отдавать голое существительное (spanska, tyska, nederländska), а не атрибутивную форму и не определённую («spanskan»). Для zulu, swahili и afrikaans атрибутивной формы вообще нет — именно поэтому библиотечный заголовок построен как «Böcker på {target}». Одна лишняя форма молча ломает девять строк.",
+      "meta.title при подстановке «azerbajdzjanska» даёт 57 знаков — запас до 60 всего 3 знака. Любая правка заголовка требует пересчёта, а не оценки на глаз. По той же причине в заголовок не влезло «ljud»: аудио вынесено в описания.",
+      "meta.description и og/twitter-описания держатся на «med svensk översättning bredvid» — носителю проверить, что читается однозначно: перевод именно НА шведский, а не «двуязычная книга вообще».",
+      "hero.title «inte genom att traggla övningar» — «traggla» разговорное и точно ложится на «grinding through drills», но носителю проверить, что рядом с остальным текстом не звучит слишком школьно.",
+      "«AI» оставлено аббревиатурой без «artificiell intelligens» — живая норма шведских приложений. Определённая форма «AI:n» использована только там, где шведский требует определённости. Если редакция выберет «KI/AI» иначе, менять придётся в 12 строках.",
+      "«Shadowing» оставлено английским термином (как в ru/de/da/no/is): устоявшегося шведского слова нет, «skuggning» в этом значении не термин. Если редакция решит иначе — менять сразу в 8 строках.",
+      "«repetition med ökande intervall» — развёрнутая формула для spaced repetition, «ökande intervall» — короткая (hero.pills, meta). Проверить, что обе читаются как один механизм, а не два разных.",
+      "faq.items[1].a «kan skrivas om till en enklare version» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Samtal med riktiga människor finns inte än – det är planerat» и method.conductor.badge «Kommer snart» сохраняют ограничение. При вычитке не усиливать до готового обещания.",
+      "Названия книг: «Lille prinsen», «Kampen om järntronen» (шведское издание A Game of Thrones), «Tänk och bli rik», «80/20-principen», «De 7 goda vanorna» поставлены как изданные шведские. «Harry Potter», «Dune» и «The Power of Now» оставлены оригиналом: у Dune есть старый шведский перевод «Dyn», но современные издания идут под «Dune», а изданное шведское название Tolle подтвердить не удалось — изобретать бриф запрещает. Проверить по Libris; если «Lev i nuet» подтвердится, подставить.",
+      "library.tabs[2] «Upptäck» — рабочий вариант для «Discovery» (третья вкладка = короткие статьи). Если во вкладке приложения другое слово, синхронизировать с UI.",
+      "reviews.items[*].text написаны от лица людей, учивших английский, португальский, немецкий и сербский. Для пар-страниц отзывы придётся курировать под тему пары — отмечено в i18n/README.md.",
+      "appUi.readerSettings.accent — «Accent» про выбор голоса TTS. Если в приложении это про региональный вариант речи, носителю решить между «Accent» и «Dialekt»."
+    ]
+  }
+}

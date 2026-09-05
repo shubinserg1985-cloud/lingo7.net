@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "title": "Õpi {target} keelt lugedes: raamatud tõlke ja heliga",
+    "description": "Õpi {target} keelt raamatutest: eestikeelne tõlge kõrval, igal lausel heli. Korda sõnu ajastatult, harjuta shadowinguga ja aruta loetut tehisintellektiga.",
+    "ogTitle": "Õpi {target} keelt lugedes: raamatud tõlke ja heliga",
+    "ogDescription": "Õpi {target} keelt raamatutest: eestikeelne tõlge on kõrval ja iga lause juurde käib heli. Salvesta sõnad ühe puudutusega ja korda neid ajastatult.",
+    "twitterTitle": "Õpi {target} keelt lugedes: raamatud tõlke ja heliga",
+    "twitterDescription": "Õpi {target} keelt raamatutest, kus eestikeelne tõlge jookseb kõrval. Salvesta uued sõnad ühe puudutusega ja korda neid ajastatult."
+  },
+  "nav": {
+    "links": [
+      "Kuidas see toimib",
+      "Raamatukogu",
+      "Keeled",
+      "Arvustused",
+      "KKK"
+    ]
+  },
+  "hero": {
+    "title": "Õpi {target} keelt raamatuid lugedes, mitte harjutusi tuupides",
+    "subtitle": "Loe ja kuula seda, mis sind päriselt huvitab, salvesta sõnad otse leheküljelt ja lase kordamisalgoritmil need õigel ajal meelde tuletada.",
+    "cta": "Laadi rakendus alla",
+    "trust": "49 keelt • iPhone / Android",
+    "pills": [
+      "Paralleeltõlge",
+      "Heli + lugemine",
+      "Sõnavaratreening",
+      "Ajastatud kordamine",
+      "Iga raamat või tekst",
+      "Shadowing",
+      "Arutelu raamatu üle tehisintellektiga"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Raamat kursuse asemel",
+        "span": "Õpi sellest, mida loeksid niisama lõbu pärast"
+      },
+      {
+        "strong": "49 keelt",
+        "span": "Kõige levinumatest kõige haruldasemateni"
+      },
+      {
+        "strong": "Raamatukogu, kus on valikut",
+        "span": "Klassika, maailma bestsellerid ja artiklid"
+      },
+      {
+        "strong": "Kõik käib ühes ringis",
+        "span": "Lugemine, heli, sõnavara ja kordamine"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Miks enamik keelerakendusi jääb pooleli – ja miks see ei jää",
+    "subtitle": "Asi polnud kunagi sinu distsipliinis. Asi oli formaadis.",
+    "labelOld": "❌ Tavaliselt",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Tuubid sõnu, mida sa kasutada ei oska",
+          "text": "Nimekirjad ja kaardid ilma kontekstita. Homseks on need jälle kadunud."
+        },
+        "new": {
+          "title": "Sõnad tulevad ette päris lausetes",
+          "text": "Näed, kuidas sõna lauses käitub, ja see jääb külge ilma tuupimiseta."
+        }
+      },
+      {
+        "old": {
+          "title": "Iga päev needsamad harjutused",
+          "text": "Läheb tüütuks, motivatsioon kaob ja pärast esimest nädalat jääb rakendus avamata."
+        },
+        "new": {
+          "title": "Loed seda, mida loeksid niikuinii",
+          "text": "Bestsellerid, kummalised tõestisündinud lood, populaarteadus – asjad, mille juurde tuled ise tagasi."
+        }
+      },
+      {
+        "old": {
+          "title": "Originaalis lugemine käib üle jõu",
+          "text": "Tundmatuid sõnu igal real, süžee libiseb käest ja esimesest leheküljest kaugemale ei jõuagi."
+        },
+        "new": {
+          "title": "Paralleeltõlge ja pealekauba kohandus",
+          "text": "Tõlge on kohe teksti kõrval ja liiga raske raamatu saab sinu tasemele ümber kirjutada."
+        }
+      },
+      {
+        "old": {
+          "title": "Loed seda, mis kataloogis juhtub olema",
+          "text": "Kinnine raamatukogu. Oma raamatut kaasa võtta ei saa."
+        },
+        "new": {
+          "title": "Igast raamatust või tekstist saab sinu õpik",
+          "text": "Anna rakendusele oma lemmikraamatud ja need dokumendid, mida sul vaja on, ning saad need tagasi koos paralleeltõlke, heli ja sõnakordamisega."
+        }
+      },
+      {
+        "old": {
+          "title": "Loed ja kuulad, aga kõik jääb passiivseks",
+          "text": "Rääkida ega kirjutada pole kusagil, nii et oskus ei kinnistu."
+        },
+        "new": {
+          "title": "Sa ei ainult loe – sa räägid ja kirjutad",
+          "text": "Arutad äsja loetud raamatu tehisintellektiga läbi, nii et teemat pole vaja välja mõelda. Kui on, mida öelda, tuleb rääkimine ja kirjutamine kergelt."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Kõik 7 keeleoskust ühes kohas",
+    "subtitle": "Keeleoskus koosneb seitsmest eri oskusest. Lingo7 treenib neid koos, mitte ükshaaval, ja nii aitab iga oskus teisi edasi.",
+    "skills": [
+      {
+        "title": "Lugemine",
+        "text": "Loe originaali või kohandatud versiooni nii, et tõlge on kohe kõrval – kiiresti ja ilma sõnaraamatuta."
+      },
+      {
+        "title": "Kuulamine",
+        "text": "Audioraamatud ja kuula-ja-loe režiim – üks tõhusamaid viise kõrva harjutada."
+      },
+      {
+        "title": "Sõnavara",
+        "text": "Uued sõnad jäävad lugedes külge, ilma neid tuupimata. Harjutused ja ajastatud kordamine kinnistavad need pikaks ajaks."
+      },
+      {
+        "title": "Grammatika",
+        "text": "Grammatika läheb kõige paremini külge siis, kui näed reegleid päris lauses tööd tegemas."
+      },
+      {
+        "title": "Kirjutamine",
+        "text": "Tehisintellekti vestlus: arutad äsja loetut, nii et kirjutamiseks on alati ainet. See aitab mõtte vormi valada ja leiab su vead üles."
+      },
+      {
+        "title": "Rääkimine",
+        "text": "Shadowing: kordad jutustaja järel valjusti ja arendad soravust, rütmi ning intonatsiooni."
+      },
+      {
+        "title": "Hääldus",
+        "text": "Hääldusharjutused aitavad viia su aktsendi lähemale sellele, kuidas kõlab emakeelena kõneleja."
+      }
+    ],
+    "conductor": {
+      "badge": "Isiklik plaan · Tuleb peagi",
+      "title": "Rakendus ütleb, mida täna teha",
+      "text": "See valib õige tegevuse õigel hetkel – loe, korda valjusti, kinnista sõnu või aruta peatükk tehisintellektiga läbi. Sul ei tule kunagi otsustada, kust alustada ja mis tuleb järgmisena.",
+      "caption": "Näidis tänasest treeningust – sinu oma paneb rakendus ise kokku.",
+      "steps": [
+        {
+          "label": "Lugemine",
+          "meta": "15 min"
+        },
+        {
+          "label": "Kuula ja loe",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Praegu · 7 min"
+        },
+        {
+          "label": "Sõnad",
+          "meta": "25 kaarti"
+        },
+        {
+          "label": "Tehisintellekti vestlus",
+          "meta": "aruta peatükki"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kuidas raamatutest keelt õppida: viis sammu",
+    "subtitle": "Mingit keerulist metoodikat pole. Üks selge ring ja sisu, mis jaksab su sellest läbi vedada.",
+    "items": [
+      {
+        "title": "Vali sisu",
+        "text": "Bestsellerite kokkuvõtted, klassika, novellid – tuju, taseme ja olemasoleva aja järgi."
+      },
+      {
+        "title": "Loe koos paralleeltõlkega",
+        "text": "Originaal ja tõlge kõrvuti; puuduta sõna, et näha tähendust, kuulda hääldust või see endale salvestada."
+      },
+      {
+        "title": "Õpi sõnad selgeks",
+        "text": "Salvestatud sõnad tulevad tagasi harjutustes, mis panevad tööle eri mälutüübid ja jaotuvad ajas laiali."
+      },
+      {
+        "title": "Kuula ja korda valjusti",
+        "text": "Igal lausel on heli: kuula ja korda jutustaja järel – just nii kujunevadki hääldus ja intonatsioon."
+      },
+      {
+        "title": "Aruta raamat tehisintellektiga läbi",
+        "text": "Tehisintellekt käib raamatu sinuga läbi – harjutad kirjutamist ja rääkimist ning õpid mõtteid uues keeles sõnastama."
+      }
+    ]
+  },
+  "library": {
+    "title": "Raamatud {target} keeles koos tõlkega – tasemed A1 kuni C1",
+    "subtitle": "Sa ei õpi ainult keelt, vaid ka midagi muud. Materjali on igale tasemele, esimestest sammudest edasijõudnuteni.",
+    "tabs": [
+      "Klassika",
+      "Bestsellerid",
+      "Avastused"
+    ],
+    "panels": [
+      {
+        "title": "Loe suuri raamatuid originaalis – turvavõrguga",
+        "text": "Kohandatud ja originaalversioonid eri tasemetele, „Väikesest printsist“ Hawkingini. Paralleeltõlge hoiab ka raske proosa loetavana.",
+        "badges": [
+          "A1-A2 Algaja",
+          "B1-B2 Kesktase",
+          "C1+ Edasijõudnu"
+        ]
+      },
+      {
+        "title": "Maailma parimate raamatute tuum 7–15 minutiga",
+        "text": "Maailma bestsellerite võtmemõtted lühidalt ümber jutustatuna – keeles, mida parajasti õpid. Arened ja õpid keelt ühe istumisega.",
+        "badges": [
+          "A1-A2 Algaja",
+          "B1-B2 Kesktase",
+          "C1+ Edasijõudnu"
+        ]
+      },
+      {
+        "title": "5 minutit päevas: üks hea fakt ja paar uut sõna",
+        "text": "Kosmos, psühholoogia, äri, loodus, tehnoloogia – sadu lühikesi artikleid igal teemal. Õpi iga päev midagi uut ja keel tuleb sellega kaasa.",
+        "badges": [
+          "A1-A2 Algaja",
+          "B1-B2 Kesktase",
+          "C1+ Edasijõudnu"
+        ]
+      }
+    ],
+    "examples": [
+      "Mõtle ja saa rikkaks • 80/20 printsiip • Väga efektiivse inimese 7 harjumust • Praeguse hetke vägi"
+    ]
+  },
+  "customBook": {
+    "badge": "UUS",
+    "title": "Laadi üles oma raamat või tekst ja õpi selle järgi",
+    "text": "Laadi üles ükskõik milline fail ja Lingo7 teeb sellest õppematerjali koos paralleeltõlke ja heliga. Edasi käib kõik tuttavat rada: loed, kuulad, õpid sõnu, treenid rääkimist shadowinguga ja arutad loetu tehisintellektiga läbi.",
+    "cards": [
+      {
+        "title": "Bestsellerid originaalis",
+        "text": "Harry Potter, „Düün“, „Troonide mäng“ – loe lõpuks ära need raamatud, mida oled ammu plaaninud, ja seda keeles, mida õpid."
+      },
+      {
+        "title": "Keel, mida su töö ja õpingud nõuavad",
+        "text": "Töödokumendid, artiklid, eksamimaterjalid – õpi just selle valdkonna keelt, milles sa praegu tegelikult oled."
+      }
+    ],
+    "usecases": [
+      "Eksamid",
+      "Töö",
+      "Artiklid",
+      "Intervjuud"
+    ],
+    "formatsNote": "Laadi oma failid üles järgmistes vormingutes:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Kohandus",
+      "title": "Loe ükskõik millist raamatut – sinu järgi <span class=\"accent\">ümber kirjutatuna</span>",
+      "text": "Kas sõnavara ja grammatika on ikka veel liiga rasked? Lingo7 kirjutab raamatu lihtsamas keeles ümber – sama lugu, samad tegelased, kergemad laused.",
+      "cta": "Proovi oma raamatuga"
+    },
+    "goalQuote": "Minu lemmikretsept: võta Harry Potter ja tee peatükk päevas – loe, kuula, õpi uued sõnad selgeks, aruta tehisintellektiga läbi. Pool aastat tund või kaks päevas ja jõuad <span class=\"goal-quote__level\">A2 pealt B2-le</span>."
+  },
+  "audience": {
+    "title": "Lingo7 on sinu jaoks, kui sa...",
+    "items": [
+      "Tahad õppida sisust, mitte tundidest, millest tuleb end läbi närida",
+      "Tahad enamat kui lugemist – ka kuulamist, rääkimist ja kirjutamist: hääldust shadowingu abil ja mõtete sõnadesse panemist tehisintellekti vestluses",
+      "Tahad õppida oma materjali põhjal – töödokumendid, lemmikraamatud, artiklid – ja mitte ainult valmis tundide järgi",
+      "Vajad haruldast keelt, mida enamikus rakendustes ei ole",
+      "Tahad õppida lühikeste 5–15-minutiliste sessioonidena"
+    ]
+  },
+  "pains": {
+    "title": "Mis jääb ette – ja mida Lingo7 sellega teeb",
+    "subtitle": "Asi pole võimetes. Asi on formaadis.",
+    "chips": [
+      "Kardan rääkida",
+      "Läheb igavaks",
+      "Sõnad ei jää meelde",
+      "Lugemine on raske",
+      "Ei saa kõnest aru",
+      "Pole aega",
+      "Haruldane keel",
+      "Ei sobi mulle"
+    ],
+    "answers": [
+      {
+        "title": "„Mul on piinlik rääkida ja vigu teha“",
+        "text": "Shadowing tähendab, et kordad fraase jutustaja järel valjusti, omaette ja ilma et keegi hindaks. Just nii saabki hääldus paika. Tehisintellekti vestluses lihvid sõnastust kirjalikult ja see parandab sind leebelt."
+      },
+      {
+        "title": "„Mul läheb kiiresti igavaks“",
+        "text": "Ühesuguste tundide asemel: raamatud, bestsellerid ja artiklid teemadel, millest loeksid niikuinii. Kui sisu köidab, on tagasi tulla lihtne."
+      },
+      {
+        "title": "„Näen sõnu, aga need ei jää külge“",
+        "text": "Üks puudutus salvestab sõna koos lausega, kust ta pärit on, ja edasi tuleb ta kaardina õigel ajal uuesti ette. Meeldejätmine ei sõltu enam õnnest."
+      },
+      {
+        "title": "„Originaalis lugemine käib mul üle jõu“",
+        "text": "Paralleeltõlge, kus laused on üks ühele kõrvuti – pole vaja iga paari rea tagant tõlkeprogrammi appi võtta."
+      },
+      {
+        "title": "„Ma ei saa kõnest aru“",
+        "text": "Kuula-ja-loe režiim seob sõna kõla selle kirjapildi ja tähendusega. Kõrv harjub keelega justkui iseenesest."
+      },
+      {
+        "title": "„Mul pole aega“",
+        "text": "Lühikesed formaadid ja kiired seansid – juba 5–10 minutit päevas hoiab sind rütmis."
+      },
+      {
+        "title": "„Mul on vaja haruldast keelt“",
+        "text": "49 keelt, haruldased sealhulgas. Ja igaüht neist saad õppida oma emakeele pealt."
+      },
+      {
+        "title": "„Kardan, et see ei sobi mulle“",
+        "text": "Kui oskad lugeda, siis sobib. Eelteadmisi, grammatikat ega ettevalmistust vaja ei ole – alusta ükskõik millise raamatuga oma tasemel."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Õpi {target} keelt",
+    "title": "49 keelt, tavalistest haruldasteni",
+    "subtitle": "Õpi ükskõik millist keelt oma emakeele pealt – mitte ainult inglise keele kaudu, nagu enamik rakendusi sunnib.",
+    "groupTitles": [
+      "Populaarsed",
+      "Kõik keeled"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 keelepaari.</strong> Vali ükskõik milline kombinatsioon: keel, mida õpid, ja keel, milles tõlget loed."
+  },
+  "reviews": {
+    "title": "Me ei osanud oodata, et see teile nii väga meeldib",
+    "subtitle": "Aga faktid on faktid – vaata, mida inimesed Google Plays kirjutavad.",
+    "items": [
+      {
+        "text": "Suurepärane rakendus. Suur pluss, et üht ja sama raamatut saab mitmel inglise keele tasemel. Ootan uuendust pikisilmi!",
+        "author": "Екатерина М.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "Võtsin aastase tellimuse ja see on oma raha väärt. See on tõesti imeline rakendus! Suurepärane abiline inglise keele parandamiseks. Täiskasvanutest lasteni – mitte ainult kasulik, vaid lausa vajalik.",
+        "author": "Mayur L.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "Mul oli vaja portugali keelt, et Brasiilia tiimiga tööd teha. Lugemine ja heli korraga on väga tõhusad. Kuue nädala pärast pidasin koosolekutel juba järge.",
+        "author": "Rosita R.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "Olen alati tahtnud saksa keelt õppida ja selles rakenduses on kõik palju arusaadavam ja selgem kui teistes samasugustes. Rakendus on 10 punkti 10-st.",
+        "author": "Макс Р.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "Kasutan kuula-ja-loe funktsiooni ja see on olnud minu jaoks tõeline läbimurre. Helilõigud on selged ja hästi sünkroonis. Suurepärane tööriist keeleõppijale.",
+        "author": "Zeynep O.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "Idee ja teostus saavad viie. Praegu on see ainus rakendus, kus on serbiakeelseid raamatuid. Tubli töö! Aitäh!",
+        "author": "Вася К.",
+        "source": "Google Play • vaata originaali"
+      },
+      {
+        "text": "See on minu jaoks õpetajana tõesti imeline rakendus. Soovitan seda oma õpilastele. Väga meeldiv. Soovitan kõigile.",
+        "author": "Sasha T.",
+        "source": "Google Play • vaata originaali"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Korduma kippuvad küsimused",
+    "items": [
+      {
+        "q": "Kas Lingo7 sobib ka päris algajale?",
+        "a": "Jah. Materjali on igal tasemel ja paralleeltõlge teeb teksti arusaadavaks juba päris algusest peale."
+      },
+      {
+        "q": "Mis tasemel peab olema, et originaalis lugeda?",
+        "a": "Ükskõik millisel. Kuna paralleeltõlge on kohe kõrval, ei lähe sõnaraamatut vaja ja liiga raske raamatu saab lihtsamaks ümber kirjutada – sama lugu ja samad tegelased, aga sinu taseme grammatika ja sõnad. Kõik on märgistatud A1-st C1-ni."
+      },
+      {
+        "q": "Kas ma saan õppida 10 minutit päevas?",
+        "a": "Jah. Lühikesed artiklid, raamatute kokkuvõtted ja sõnakaardid on tehtud just lühikeste igapäevaste seansside jaoks."
+      },
+      {
+        "q": "Millised keeled on saadaval?",
+        "a": "49 keelt ja igaüht neist saad õppida oma emakeele pealt – mitte ainult inglise keele kaudu. Kokku teeb see 49 × 48 = 2352 keelepaari, haruldased keeled sealhulgas."
+      },
+      {
+        "q": "Mille poolest see tavalistest keelerakendustest erineb?",
+        "a": "Seosetute harjutuste asemel õpid sisust, mis sind huvitab, ja kõik oskused on seotud ühte ringi: loed ja kuulad, salvestad sõnad ajastatud kordamisse, korjad grammatika kontekstist üles, treenid rääkimist shadowinguga ja kirjutamist tehisintellekti vestluses. Ja oma raamatu või dokumendi saad ka ise üles laadida."
+      },
+      {
+        "q": "Kas rääkimist saab ka harjutada?",
+        "a": "Jah. Rääkimiseks on shadowing – kordad fraase jutustaja järel valjusti ning arendad hääldust ja intonatsiooni. Kirjutamiseks on tehisintellekti vestlus: arutad loetut ja see aitab mõtteid sõnastada ning leiab su vead üles. Elavat vestlust päris inimesega veel ei ole – see on plaanis."
+      },
+      {
+        "q": "Milliseid failivorminguid saab üles laadida?",
+        "a": "PDF, EPUB, FB2 ja TXT. Laadi üles töödokumente, lemmikraamatuid või artikleid – rakendus teeb paralleeltõlke, lisab heli ja korjab uued sõnad treenerisse."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Hakka {target} keelt õppima juba täna – raamatuga, mitte harjutustega",
+    "text": "Laadi rakendus alla ja ava oma esimene raamat.",
+    "perks": [
+      "49 keelt",
+      "Iga tase"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Meist",
+      "Kontakt",
+      "Karjäär",
+      "Koolidele",
+      "Kuidas keeli õppida",
+      "Kasutustingimused",
+      "Privaatsus"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Kõik õigused kaitstud."
+  },
+  "downloadModal": {
+    "title": "Hangi Lingo7",
+    "text": "Saadaval App Store'is ja Google Plays"
+  },
+  "stickyCta": {
+    "label": "Laadi alla"
+  },
+  "mobileMenu": {
+    "links": [
+      "Kuidas see toimib",
+      "Raamatukogu",
+      "Keeled",
+      "Arvustused",
+      "KKK"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Kuula",
+      "add": "Salvesta",
+      "translate": "Tõlgi",
+      "addToMyWords": "Lisa minu sõnade hulka",
+      "inMyWords": "Minu sõnades",
+      "audioMode": "Helirežiim",
+      "discussWithAi": "Aruta tehisintellektiga",
+      "selfCheck": "Kontrolli ennast"
+    },
+    "wordCard": {
+      "freqHigh": "SAGE",
+      "freqMid": "KESKMINE",
+      "example": "Näide",
+      "otherTranslations": "Veel tõlkeid",
+      "synonyms": "Sünonüümid",
+      "open": "Ava",
+      "group": "Rühm:",
+      "groupDefault": "Üldine",
+      "page": "lk"
+    },
+    "readerSettings": {
+      "sectionText": "TEKST",
+      "sectionAudio": "HELI",
+      "highlightMyWords": "Tõsta minu sõnad esile",
+      "highlightMyWordsHint": "Märgib ära sõnad, mille oled salvestanud",
+      "theme": "Teema",
+      "themeLight": "Hele",
+      "fontSize": "Kirja suurus",
+      "font": "Kirjatüüp",
+      "speakOnTap": "Häälda sõna puudutusel",
+      "speakOnTapHint": "Loeb puudutatud sõna ette",
+      "speechRate": "Kõnekiirus",
+      "pronunciationTest": "Hääldustest",
+      "playSample": "Kuula näidislauset",
+      "reset": "Lähtesta seaded",
+      "done": "Valmis",
+      "on": "Sees",
+      "off": "Väljas",
+      "accent": "Aktsent",
+      "translationAlways": "Alati"
+    },
+    "vocab": {
+      "pickRightPicture": "Vali õige pilt",
+      "correct": "Täpselt õige",
+      "rightAnswer": "Õige vastus:",
+      "next": "Edasi",
+      "done": "Valmis",
+      "skip": "Jäta vahele",
+      "exercise": "Harjutus",
+      "exerciseMeta": "/11 · 10 sõna"
+    },
+    "chat": {
+      "title": "Harjutamine",
+      "discussing": "Arutlusel „{book}“",
+      "finish": "Lõpeta",
+      "playing": "Mängib…",
+      "replyOptions": "Vastusevariandid",
+      "placeholder": "Kirjuta sõnum"
+    },
+    "bookDetail": {
+      "adapted": "Kohandatud",
+      "adaptedHint": "Lihtsamas keeles ümber kirjutatud, mõte alles",
+      "original": "Originaal",
+      "originalHint": "Kogu algne tekst muutmata kujul",
+      "open": "Ava",
+      "genre": "Žanr",
+      "badgeSummary": "Kokkuvõte"
+    },
+    "library": {
+      "profile": "Profiil",
+      "search": "Otsing",
+      "upload": "Laadi raamat üles",
+      "tabCatalog": "Kataloog",
+      "tabAll": "Kõik raamatud",
+      "tabFavorites": "Lemmikud",
+      "shelfBestsellers": "Maailma bestsellerid",
+      "shelfBestsellersSub": "lühikokkuvõttena, koos heliga",
+      "shelfStories": "Lühijutud",
+      "shelfStoriesSub": "Väikesed lood suure mõttega",
+      "bandTitle": "5 minutit päevas",
+      "bandText": "Avasta iga päev midagi huvitavat – ja keel jääb külge iseenesest!",
+      "shelfAmazing": "Hämmastavad lood",
+      "shelfNature": "Looduse mõistatused",
+      "shelfHealth": "Tervis ja teadus",
+      "moreTopics": "Rohkem teemasid",
+      "shelfGolden": "Kuldne klassika",
+      "shelfGoldenSub": "200 raamatut, mis muutsid inimkonda",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Raamatukogu",
+      "practice": "Harjutamine",
+      "read": "Loe",
+      "myWords": "Minu sõnad",
+      "collections": "Kogud"
+    }
+  },
+  "_note": "Локаль et. Полный перевод с эталона en.json (2026-08-29), написан как оригинальный эстонский текст, а не как перевод. Контракт слота: {target} — связанная (генитивная) форма названия языка («hispaania»); носитель «keel» вынесен из слота и склоняется по строке, сама форма слота во всех девяти строках одна и та же. Бюджет выдачи пересчитан по «aserbaidžaani». Обращение — «sina», как принято в эстонских потребительских приложениях. Файл прошёл снятие калек по en.gloss.json и третий круг — арбитраж находок нативного аудита (грамматика arutama, постпозиция juures).",
+  "_contract": {
+    "government": "Слот — связанная (генитивная) форма-определение при существительном «keel». В эстонском генитивное определение НЕ согласуется с вершиной, поэтому байты слота одинаковы во всех позициях. Объявленная позиция: партитивное дополнение «{target} keelt» при õppima / hakkama õppima — «Õpi {target} keelt lugedes», «Hakka {target} keelt õppima». Так написаны все восемь обязательных строк. В library.title вершина стоит в инессиве («raamatud {target} keeles»): падеж несёт МОЙ токен keel, форма слота при этом не меняется, второй формы слота нет. Соседей с алломорфией (артикль, предлог, гармония гласных) рядом со слотом нет — keel фиксирован строкой, а не подставленным словом.",
+    "slotExample": "hispaania",
+    "slotExampleEnglish": "inglise",
+    "longestSlot": "aserbaidžaani",
+    "longestSlotLang": "азербайджанский (et aserbaidžaani keel)",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 159,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Заглавная — данные: hispaania (язык) и Hispaania (страна) различаются только регистром. Слот нигде не стоит первым словом: meta.title/ogTitle/twitterTitle и hero.title начинаются с «Õpi», finalCta.title с «Hakka», library.title с «Raamatud».",
+      "library.title «Raamatud {target} keeles koos tõlkega – tasemed A1 kuni C1» — единственная строка, где вершина keel стоит в инессиве, а не в партитиве. Показать носителю, что H2 не спорит по конструкции с H1.",
+      "«shadowing» оставлен термином и склоняется по-эстонски (shadowinguga, shadowingu abil) — проверить у носителя, что это привычнее, чем «järelekordamine».",
+      "«ajastatud kordamine» выбрано вместо кальки «intervallkordamine» как более прозрачное для потребителя; проверить, что термин узнаётся.",
+      "meta.description «eestikeelne tõlge kõrval, igal lausel heli» — телеграфный ритм сниппета; проверить, что эстонцу сразу ясно, что перевод именно на эстонский.",
+      "faq.items[1].q «Mis tasemel peab olema, et originaalis lugeda?» — вопрос об уровне, а не условие; ответ «Ükskõik millisel», модальность «saab lihtsamaks ümber kirjutada» (возможность, не обещание) сохранена.",
+      "Названия книг: «Väike prints», «Düün», «Troonide mäng», «Mõtle ja saa rikkaks», «80/20 printsiip», «Väga efektiivse inimese 7 harjumust», «Praeguse hetke vägi» — сверить с изданными эстонскими названиями."
+    ]
+  }
+}

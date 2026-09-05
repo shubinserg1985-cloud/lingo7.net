@@ -1,0 +1,570 @@
+{
+  "meta": {
+    "title": "Kitab oxuyaraq {target} öyrənin: tərcümə və audio",
+    "description": "Paralel tərcümə və audio ilə {target} kitablar oxuyun, sözləri bir toxunuşla yadda saxlayıb aralıqlı təkrarla öyrənin, süni intellektlə müzakirə edin.",
+    "ogTitle": "Kitab oxuyaraq {target} öyrənin: tərcümə və audio",
+    "ogDescription": "Paralel tərcümə və audio ilə {target} kitablar oxuyun. Bəyəndiyiniz sözü bir toxunuşla yadda saxlayın, aralıqlı təkrar isə onu vaxtında yadınıza salsın.",
+    "twitterTitle": "Kitab oxuyaraq {target} öyrənin: tərcümə və audio",
+    "twitterDescription": "Yanında tərcüməsi ilə {target} kitablar oxuyun, sözləri bir toxunuşla yadda saxlayın və aralıqlı təkrarla möhkəmləndirin."
+  },
+  "nav": {
+    "links": [
+      "Necə işləyir",
+      "Kitabxana",
+      "Dillər",
+      "Rəylər",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Özünüzü məşqlərlə yormadan, kitab oxuyaraq {target} öyrənin",
+    "subtitle": "Həqiqətən maraqlandığınız şeyləri oxuyun və dinləyin, sözləri elə səhifədən yadda saxlayın – aralıqlı təkrar alqoritmi vaxtı çatanda onları yadınıza salsın.",
+    "cta": "Tətbiqi yükləyin",
+    "trust": "49 dil • iPhone / Android",
+    "pills": [
+      "Paralel tərcümə",
+      "Audio + oxu",
+      "Söz məşqi",
+      "Aralıqlı təkrar",
+      "İstənilən kitab və ya mətn",
+      "Shadowing",
+      "Kitabı süni intellektlə müzakirə"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kursun yerinə kitab",
+        "span": "Həvəslə oxuyacağınız şeydən öyrənin"
+      },
+      {
+        "strong": "49 dil",
+        "span": "Ən yayğınından ən nadirinə qədər"
+      },
+      {
+        "strong": "Zəngin kitabxana",
+        "span": "Klassika, dünya bestsellerləri və məqalələr"
+      },
+      {
+        "strong": "Hamısı bir dövrədə",
+        "span": "Oxu, audio, sözlər və təkrar"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Əksər dil tətbiqləri niyə yarımçıq qalır – bu isə qalmır",
+    "subtitle": "Məsələ heç vaxt sizin iradənizdə olmayıb. Məsələ formatdadır.",
+    "labelOld": "❌ Adətən",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Sözləri əzbərləyirsiniz, amma işlədə bilmirsiniz",
+          "text": "Kontekstsiz siyahılar və kartlar. Sabaha qalmır."
+        },
+        "new": {
+          "title": "Sözlər canlı cümlələrin içində qarşınıza çıxır",
+          "text": "Sözün cümlədə necə işləndiyini görürsünüz – yadda qalmaq üçün özünüzü zorlamağa ehtiyac qalmır."
+        }
+      },
+      {
+        "old": {
+          "title": "Hər gün eyni məşqlər",
+          "text": "Darıxdırıcı olur, həvəs sönür, birinci həftədən sonra tətbiq açılmır."
+        },
+        "new": {
+          "title": "Onsuz da oxuyacağınız şeyi oxuyursunuz",
+          "text": "Bestsellerlər, qəribə həqiqi əhvalatlar, elmi-populyar mətnlər – heç kim demədən qayıtdığınız material."
+        }
+      },
+      {
+        "old": {
+          "title": "Orijinalda oxumaq çox çətindir",
+          "text": "Hər tərəfdə tanımadığınız sözlər, süjet əldən çıxır, birinci səhifədə də dayanırsınız."
+        },
+        "new": {
+          "title": "Paralel tərcümə, üstəlik uyğunlaşdırma",
+          "text": "Tərcümə mətnin düz yanındadır, çətin gələn kitabı isə öz səviyyənizə uyğun yenidən yazmaq olar."
+        }
+      },
+      {
+        "old": {
+          "title": "Kataloqda nə varsa, onu oxuyursunuz",
+          "text": "Dəyişməz kitabxana. Öz kitabınızı gətirmək mümkün deyil."
+        },
+        "new": {
+          "title": "İstənilən kitab və ya mətn dərsliyinizə çevrilir",
+          "text": "Sevdiyiniz kitabları və işiniz üçün lazım olan sənədləri tətbiqə verirsiniz, o da paralel tərcümə, audio və söz təkrarı ilə qaytarır."
+        }
+      },
+      {
+        "old": {
+          "title": "Oxuyursunuz, dinləyirsiniz – amma hamısı passivdir",
+          "text": "Danışmağa və yazmağa yer yoxdur, bacarıq da oturuşmur."
+        },
+        "new": {
+          "title": "Yalnız oxumursunuz – danışırsınız və yazırsınız",
+          "text": "Yenicə bitirdiyiniz kitabı süni intellektlə müzakirə edirsiniz – mövzu axtarmağa ehtiyac qalmır. Deməyə sözünüz olanda danışmaq da, yazmaq da asanlaşır."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Dilin 7 bacarığı – hamısı bir yerdə",
+    "subtitle": "Dil bilmək yeddi bacarıq deməkdir. Lingo7 onları bir-bir yox, birlikdə inkişaf etdirir: hər biri o birilərini də irəli aparır.",
+    "skills": [
+      {
+        "title": "Oxu",
+        "text": "Orijinalı və ya uyğunlaşdırılmış versiyanı tərcüməsi düz yanında oxuyun – sürətlə və lüğətsiz."
+      },
+      {
+        "title": "Dinləmə",
+        "text": "Audiokitablar və «dinlə-oxu» rejimi – qulağı öyrəşdirməyin ən təsirli yollarından biri."
+      },
+      {
+        "title": "Söz ehtiyatı",
+        "text": "Yeni sözlər oxuduqca əzbərləmədən yadda qalır. Məşqlər və aralıqlı təkrar onları uzun müddətə möhkəmləndirir."
+      },
+      {
+        "title": "Qrammatika",
+        "text": "Qrammatikanı mənimsəməyin ən yaxşı yolu – qaydaların canlı cümlədə necə işlədiyini görməkdir."
+      },
+      {
+        "title": "Yazı",
+        "text": "Süni intellektlə söhbət: yenicə oxuduğunuzu müzakirə edirsiniz, ona görə yazmağa həmişə mövzu var. O, fikri formalaşdırmağa kömək edir və səhvləri tutur."
+      },
+      {
+        "title": "Danışıq",
+        "text": "Shadowing: diktorun ardınca ucadan təkrarlayır, axıcılığı, ritmi və intonasiyanı formalaşdırırsınız."
+      },
+      {
+        "title": "Tələffüz",
+        "text": "Tələffüz məşqləri aksentinizi doğma danışanın səslənməsinə yaxınlaşdırır."
+      }
+    ],
+    "conductor": {
+      "badge": "Şəxsi plan · Tezliklə",
+      "title": "Bu gün nə edəcəyinizi tətbiq özü deyəcək",
+      "text": "O, lazım olan anda lazım olan işi seçir – oxumaq, ucadan təkrarlamaq, sözləri möhkəmləndirmək və ya fəsli süni intellektlə müzakirə etmək. Nədən başlamağı və sonra nə edəcəyinizi düşünmək lazım deyil.",
+      "caption": "Bugünkü nümunə sessiya – sizinkini tətbiq özü yığacaq.",
+      "steps": [
+        {
+          "label": "Oxu",
+          "meta": "15 dəq"
+        },
+        {
+          "label": "Dinlə-oxu",
+          "meta": "5 dəq"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "İndi · 7 dəq"
+        },
+        {
+          "label": "Sözlər",
+          "meta": "25 kart"
+        },
+        {
+          "label": "Süni intellekt",
+          "meta": "fəsli müzakirə"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kitablardan dil necə öyrənilir: beş addım",
+    "subtitle": "Mürəkkəb metodika yoxdur. Bir aydın dövrə və sizi onun içindən keçirəcək qədər maraqlı material.",
+    "items": [
+      {
+        "title": "Materialı seçin",
+        "text": "Bestseller xülasələri, klassika, qısa hekayələr – əhvalınıza, səviyyənizə və vaxtınıza görə."
+      },
+      {
+        "title": "Paralel tərcümə ilə oxuyun",
+        "text": "Orijinal və tərcümə yan-yana; sözə toxunun – mənasını görün, səsini dinləyin və ya yadda saxlayın."
+      },
+      {
+        "title": "Sözləri öyrənin",
+        "text": "Yadda saxladığınız sözlər müxtəlif yaddaş növlərini işlədən məşqlərdə, vaxta yayılmış şəkildə qarşınıza qayıdır."
+      },
+      {
+        "title": "Dinləyin və ucadan təkrarlayın",
+        "text": "Hər cümlənin audiosu var: dinləyin, sonra diktorun ardınca təkrarlayın – düzgün tələffüz və intonasiya məhz belə formalaşır."
+      },
+      {
+        "title": "Oxuduğunuzu süni intellektlə müzakirə edin",
+        "text": "Süni intellekt kitabı sizinlə birlikdə araşdırır – siz isə yazını və danışığı məşq edir, fikirlərinizi yeni dildə ifadə etməyi öyrənirsiniz."
+      }
+    ]
+  },
+  "library": {
+    "title": "Paralel tərcüməli {target} kitablar – A1-dən C1-ə qədər bütün səviyyələr",
+    "subtitle": "Təkcə dil öyrənmirsiniz – eyni zamanda yeni şeylər öyrənirsiniz. İlk addımlardan qabaqcıl səviyyəyə qədər hər mərhələyə material var.",
+    "tabs": [
+      "Klassika",
+      "Bestsellerlər",
+      "Discovery"
+    ],
+    "panels": [
+      {
+        "title": "Böyük kitabları orijinalda oxuyun – dayaq həmişə yanınızda",
+        "text": "«Balaca Şahzadə»dən Hokinqə qədər: müxtəlif səviyyələr üçün uyğunlaşdırılmış və orijinal versiyalar. Paralel tərcümə ən ağır mətni də oxunaqlı edir.",
+        "badges": [
+          "A1-A2 Başlanğıc",
+          "B1-B2 Orta",
+          "C1+ Qabaqcıl"
+        ]
+      },
+      {
+        "title": "Dünyanın ən yaxşı kitablarının mahiyyəti 7–15 dəqiqəyə",
+        "text": "Dünya bestsellerlərinin əsas ideyaları qısa şəkildə – öyrəndiyiniz dildə. Bir oturuşda həm özünüz inkişaf edin, həm də dili irəli aparın.",
+        "badges": [
+          "A1-A2 Başlanğıc",
+          "B1-B2 Orta",
+          "C1+ Qabaqcıl"
+        ]
+      },
+      {
+        "title": "Gündə 5 dəqiqə: bir maraqlı fakt və bir neçə yeni söz",
+        "text": "Kosmos, psixologiya, biznes, təbiət, texnologiya – istənilən mövzuda yüzlərlə qısa məqalə. Hər gün yeni bir şey öyrənirsiniz, dil də özü ilə gəlir.",
+        "badges": [
+          "A1-A2 Başlanğıc",
+          "B1-B2 Orta",
+          "C1+ Qabaqcıl"
+        ]
+      }
+    ],
+    "examples": [
+      "Düşün və varlan • 80/20 prinsipi • Yüksək səmərəli insanların 7 vərdişi • İndinin gücü"
+    ]
+  },
+  "customBook": {
+    "badge": "YENİ",
+    "title": "Öz kitabınızı və ya mətninizi yükləyin – dili elə ondan öyrənin",
+    "text": "İstənilən faylı yükləyin, Lingo7 onu paralel tərcüməli və səsləndirilmiş dərs materialına çevirsin. Sonrası həmişəki dövrədir: oxuyursunuz, dinləyirsiniz, sözləri öyrənirsiniz, shadowing ilə danışıq üzərində işləyirsiniz və oxuduğunuzu süni intellektlə müzakirə edirsiniz.",
+    "cards": [
+      {
+        "title": "Orijinalda bestsellerlər",
+        "text": "Harri Potter, Dune, A Game of Thrones – çoxdan əl atmaq istədiyiniz kitabları öyrəndiyiniz dildə oxuyun."
+      },
+      {
+        "title": "İş və təhsil üçün lazım olan dil",
+        "text": "İş sənədləri, məqalələr, imtahan materialları – dili məhz indi ehtiyacınız olan sahədə öyrənin."
+      }
+    ],
+    "usecases": [
+      "İmtahanlar",
+      "İş",
+      "Məqalələr",
+      "Müsahibələr"
+    ],
+    "formatsNote": "Öz fayllarınızı bu formatlarda yükləyin:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Uyğunlaşdırma",
+      "title": "İstənilən kitabı oxuyun – sizin üçün <span class=\"accent\">yenidən yazılmış</span> halda",
+      "text": "Sözlər və qrammatika hələ də çətin gəlir? Lingo7 kitabı daha sadə dillə yenidən yazır – eyni əhvalat, eyni qəhrəmanlar, cümlələr isə daha asan.",
+      "cta": "Öz kitabınızda yoxlayın"
+    },
+    "goalQuote": "Mənim ən sevdiyim resept: «Harri Potter»i götürüb hər gün bir fəsil keçirsən – oxuyursan, dinləyirsən, yeni sözləri öyrənirsən, süni intellektlə müzakirə edirsən. Yarım il, gündə bir-iki saat – və <span class=\"goal-quote__level\">A2-dən B2-yə</span> qalxırsan."
+  },
+  "audience": {
+    "title": "Lingo7 sizin üçündür, əgər...",
+    "items": [
+      "Özünüzü zorla oturtduğunuz dərslərlə yox, maraqlı materialla öyrənmək istəyirsinizsə",
+      "Yalnız oxumaq deyil, dinləmək, danışmaq və yazmaq da istəyirsinizsə – shadowing ilə tələffüzü formalaşdırmaq, süni intellektlə söhbətdə fikri sözə çevirmək",
+      "Hazır dərslərdən başqa öz materialınızla – iş sənədləri, sevimli kitablar və məqalələrlə – işləmək istəyirsinizsə",
+      "Əksər tətbiqlərdə tapılmayan nadir bir dil axtarırsınızsa",
+      "5-15 dəqiqəlik qısa sessiyalarla məşğul olmaq istəyirsinizsə"
+    ]
+  },
+  "pains": {
+    "title": "Dil öyrənməyə nə mane olur – Lingo7 bunu necə həll edir",
+    "subtitle": "Məsələ qabiliyyətdə deyil. Məsələ formatdadır.",
+    "chips": [
+      "Danışmağa qorxuram",
+      "Darıxıram",
+      "Sözlər yadda qalmır",
+      "Oxumaq çətindir",
+      "Qulaqla anlamıram",
+      "Vaxtım yoxdur",
+      "Nadir dil",
+      "Mənə uyğun gəlməz"
+    ],
+    "answers": [
+      {
+        "title": "«Danışmağa, səhv etməyə utanıram»",
+        "text": "Shadowing – diktorun ardınca ifadələri ucadan, təkbaşına təkrarlamaqdır; heç kim sizi mühakimə etmir. Düzgün tələffüz məhz belə formalaşır. Süni intellektlə söhbətdə isə ifadələri yazılı qurursunuz, o da sizi həvəsdən salmadan səhvlərinizi düzəldir."
+      },
+      {
+        "title": "«Tez darıxıram»",
+        "text": "Bir-birindən seçilməyən dərslərin əvəzinə – kitablar, bestsellerlər və onsuz da maraqlandığınız mövzularda məqalələr. Material sizi içinə çəkəndə geri qayıtmaq asan olur."
+      },
+      {
+        "title": "«Sözləri görürəm, amma yadda qalmır»",
+        "text": "Bir toxunuşla sözü elə cümlənin içindən sözlərinizə əlavə edirsiniz, sonra o, müəyyən aralıqlarla kart şəklində yenidən qarşınıza çıxır. Yadda saxlamaq bəxt işi olmaqdan çıxır."
+      },
+      {
+        "title": "«Orijinalda oxumaq mənim üçün çox çətindir»",
+        "text": "Cümlə-cümlə düzülmüş paralel tərcümə – iki sətirdən bir tərcüməçiyə keçmək lazım gəlmir."
+      },
+      {
+        "title": "«Danışığı qulaqla tuta bilmirəm»",
+        "text": "«Dinlə və oxu» rejimi sözün səsini yazılışı və mənası ilə bağlayır. Qulağınız dilə təbii yolla öyrəşir."
+      },
+      {
+        "title": "«Vaxtım yoxdur»",
+        "text": "Qısa formatlar və sürətli sessiyalar – gündə 5-10 dəqiqə də ritmdən düşməməyə bəs edir."
+      },
+      {
+        "title": "«Mənə nadir dil lazımdır»",
+        "text": "49 dil, nadirləri də daxil. Üstəlik hər birini öz ana dilinizdən öyrənirsiniz."
+      },
+      {
+        "title": "«Qorxuram ki, mənə uyğun gəlməsin»",
+        "text": "Oxumağı bacarırsınızsa, uyğundur. İlkin bilik, qrammatika və hazırlıq tələb olunmur – öz səviyyənizdə istənilən kitabdan başlayın."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "{target} öyrənin",
+    "title": "49 dil – yayğınından nadirinə qədər",
+    "subtitle": "İstənilən dili öz ana dilinizdən öyrənin – əksər tətbiqlərin məcbur etdiyi kimi yalnız ingilis dili üzərindən yox.",
+    "groupTitles": [
+      "Populyar",
+      "Bütün dillər"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 dil cütü.</strong> İstənilən kombinasiyanı seçin: hansı dili öyrənəcəksiniz və tərcüməni hansı dildə oxuyacaqsınız."
+  },
+  "reviews": {
+    "title": "Bu qədər bəyəniləcəyini biz özümüz də gözləmirdik",
+    "subtitle": "Amma fakt faktdır – Google Play-də bax nə yazırlar.",
+    "items": [
+      {
+        "text": "Tətbiq əladır. Bir kitabın bir neçə ingilis dili səviyyəsində olması böyük artıdır. Yeniləməni səbirsizliklə gözləyirəm!",
+        "author": "Екатерина М.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "İllik abunə aldım, qiymətinə görə çox sərfəlidir. Bu, doğrudan da möhtəşəm tətbiqdir! İngilis dilini yaxşılaşdırmaq üçün əla resursdur. Böyükdən uşağa qədər – təkcə faydalı deyil, həm də vacibdir.",
+        "author": "Mayur L.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "Braziliyadakı komanda ilə işləmək üçün portuqal dili lazım idi. Oxu və audionun eyni anda getməsi çox təsirlidir. 6 həftədən sonra artıq görüşləri izləyə bilirdim.",
+        "author": "Rosita R.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "Həmişə alman dilini öyrənmək istəmişəm, bu tətbiqdə hər şey oxşar tətbiqlərdəkindən qat-qat əlçatan və aydındır. Tətbiq 10 baldan 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "Audio ilə oxu funksiyasından istifadə edirəm və bu, mənim üçün əsl irəliləyiş oldu. Səs yazıları təmiz və yaxşı sinxronlaşdırılıb. Dil öyrənənlər üçün fantastik alətdir.",
+        "author": "Zeynep O.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "İdeya da, icra da 5+. Hazırda serb dilində kitabları olan yeganə tətbiqdir. Afərin! Təşəkkürlər!",
+        "author": "Вася К.",
+        "source": "Google Play • orijinala baxın"
+      },
+      {
+        "text": "Müəllim kimi mənim üçün bu, doğrudan da möhtəşəm tətbiqdir. Şagirdlərimə tövsiyə edirəm. Çox xoşdur. Hamıya tövsiyə edirəm.",
+        "author": "Sasha T.",
+        "source": "Google Play • orijinala baxın"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Tez-tez verilən suallar",
+    "items": [
+      {
+        "q": "Lingo7 sıfırdan başlayana uyğundurmu?",
+        "a": "Bəli. Hər səviyyə üçün material var, paralel tərcümə isə mətni lap ilk gündən anlaşıqlı edir."
+      },
+      {
+        "q": "Orijinalda oxumaq üçün hansı səviyyə lazımdır?",
+        "a": "İstənilən səviyyə. Paralel tərcümə sayəsində lüğətə baxmaq lazım gəlmir, çox çətin gələn kitabı isə tətbiq daha sadə dillə yenidən yazır – eyni əhvalat və qəhrəmanlar, amma sizin səviyyənizə uyğun qrammatika və sözlər. Bütün materiallar A1-dən C1-ə qədər səviyyələrə bölünüb."
+      },
+      {
+        "q": "Gündə 10 dəqiqə məşğul olmaq olarmı?",
+        "a": "Bəli. Qısa məqalələr, kitab xülasələri və söz kartları məhz qısa gündəlik sessiyalar üçün düşünülüb."
+      },
+      {
+        "q": "Hansı dillər var?",
+        "a": "49 dil, üstəlik hər birini öz ana dilinizdən öyrənə bilərsiniz – yalnız ingilis dili üzərindən yox. Bu, 49 × 48 = 2352 dil cütü deməkdir, nadir dillər də daxil."
+      },
+      {
+        "q": "Adi dil tətbiqlərindən nə ilə fərqlənir?",
+        "a": "Bir-biri ilə bağlı olmayan məşqlərin əvəzinə sizi maraqlandıran materialla öyrənirsiniz və bütün bacarıqlar bir dövrədə birləşir: oxuyur və dinləyirsiniz, sözləri aralıqlı təkrara yığırsınız, qrammatikanı kontekstdə tutursunuz, danışığı shadowing ilə, yazını isə süni intellektlə söhbətdə məşq edirsiniz. Üstəlik öz kitabınızı və ya sənədinizi yükləyə bilərsiniz."
+      },
+      {
+        "q": "Danışıq praktikası varmı?",
+        "a": "Bəli. Danışıq üçün shadowing var – diktorun ardınca ifadələri ucadan təkrarlayır, tələffüzünüzü və intonasiyanızı formalaşdırırsınız. Yazı üçün süni intellektlə söhbət var: oxuduğunuzu müzakirə edirsiniz, o da fikri ifadə etməyə kömək edir və səhvləri tapır. Canlı insanla söhbət hələ yoxdur – planlaşdırılır."
+      },
+      {
+        "q": "Hansı fayl formatlarını yükləmək olar?",
+        "a": "PDF, EPUB, FB2 və TXT. İş sənədlərinizi, sevimli kitablarınızı və ya məqalələri yükləyin – tətbiq paralel tərcüməni qurur, audio əlavə edir və yeni sözləri məşqə yığır."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Elə bu gün {target} öyrənməyə başlayın – məşqlə yox, kitabla",
+    "text": "Tətbiqi yükləyin və ilk kitabınızı açın.",
+    "perks": [
+      "49 dil",
+      "Bütün səviyyələr"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Haqqımızda",
+      "Əlaqə",
+      "Vakansiyalar",
+      "Məktəblərə",
+      "Dil necə öyrənilir",
+      "İstifadə şərtləri",
+      "Məxfilik"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Bütün hüquqlar qorunur."
+  },
+  "downloadModal": {
+    "title": "Lingo7-ni yükləyin",
+    "text": "App Store və Google Play-də mövcuddur"
+  },
+  "stickyCta": {
+    "label": "Tətbiqi yükləyin"
+  },
+  "mobileMenu": {
+    "links": [
+      "Necə işləyir",
+      "Kitabxana",
+      "Dillər",
+      "Rəylər",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Строки интерфейса демо-экранов телефона (только my_lang). Источник — design/build/*.html; в index.html их нет, экстрактор лендинга переносит блок целиком. Инвентарь и обратная сверка — tools/mock_strings.py. Содержимое экранов (абзац, слова, реплики чата) лежит в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Dinlə",
+      "add": "Sözlərə",
+      "translate": "Tərcümə",
+      "addToMyWords": "Sözlərimə əlavə et",
+      "inMyWords": "Sözlərimdədir",
+      "audioMode": "Audio rejim",
+      "discussWithAi": "Süni intellektlə müzakirə",
+      "selfCheck": "Özünüzü yoxlayın"
+    },
+    "wordCard": {
+      "freqHigh": "YAYĞIN",
+      "freqMid": "ORTA",
+      "example": "Nümunə",
+      "otherTranslations": "Digər tərcümələr",
+      "synonyms": "Sinonimlər",
+      "open": "Aç",
+      "group": "Qrup:",
+      "groupDefault": "Ümumi",
+      "page": "səh."
+    },
+    "readerSettings": {
+      "sectionText": "MƏTN",
+      "sectionAudio": "AUDİO",
+      "highlightMyWords": "Sözlərimi fərqləndir",
+      "highlightMyWordsHint": "Yadda saxladığınız sözləri işarələyir",
+      "theme": "Tema",
+      "themeLight": "İşıqlı",
+      "fontSize": "Şrift ölçüsü",
+      "font": "Şrift",
+      "speakOnTap": "Toxunanda sözü səsləndir",
+      "speakOnTapHint": "Toxunduğunuz sözü ucadan oxuyur",
+      "speechRate": "Nitq sürəti",
+      "pronunciationTest": "Tələffüz testi",
+      "playSample": "Nümunə ifadəni dinlə",
+      "reset": "Ayarları sıfırla",
+      "done": "Hazırdır",
+      "on": "Aktiv",
+      "off": "Deaktiv",
+      "accent": "Aksent",
+      "translationAlways": "Həmişə"
+    },
+    "vocab": {
+      "pickRightPicture": "Düzgün şəkli seçin",
+      "correct": "Tamamilə düzdür",
+      "rightAnswer": "Düzgün cavab:",
+      "next": "İrəli",
+      "done": "Hazırdır",
+      "skip": "Keç",
+      "exercise": "Məşq",
+      "exerciseMeta": "/11 · 10 söz"
+    },
+    "chat": {
+      "title": "Praktika",
+      "discussing": "Müzakirə edirik: «{book}»",
+      "finish": "Bitir",
+      "playing": "Səslənir…",
+      "replyOptions": "Cavab variantları",
+      "placeholder": "Mesaj yazın"
+    },
+    "bookDetail": {
+      "adapted": "Uyğunlaşdırılmış",
+      "adaptedHint": "Sadə dillə yenidən yazılıb, mənası saxlanılıb",
+      "original": "Orijinal",
+      "originalHint": "Tam orijinal mətn, dəyişiksiz",
+      "open": "Aç",
+      "genre": "Janr",
+      "badgeSummary": "Xülasə"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Axtarış",
+      "upload": "Kitab yükləyin",
+      "tabCatalog": "Kataloq",
+      "tabAll": "Bütün kitablar",
+      "tabFavorites": "Seçilmişlər",
+      "shelfBestsellers": "Dünya bestsellerləri",
+      "shelfBestsellersSub": "qısa xülasədə, səsləndirmə ilə",
+      "shelfStories": "Qısa hekayələr",
+      "shelfStoriesSub": "Balaca hekayələr, böyük məna",
+      "bandTitle": "Gündə 5 dəqiqə",
+      "bandText": "Hər gün maraqlı faktlar öyrənin – dil də özü ilə gələcək.",
+      "shelfAmazing": "Heyrətamiz hekayələr",
+      "shelfNature": "Təbiətin sirləri",
+      "shelfHealth": "Sağlamlıq və elm",
+      "moreTopics": "Daha çox mövzu",
+      "shelfGolden": "Qızıl klassika",
+      "shelfGoldenSub": "Bəşəriyyəti dəyişən 200 kitab",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Kitabxana",
+      "practice": "Praktika",
+      "read": "Oxu",
+      "myWords": "Sözlərim",
+      "collections": "Kolleksiyalar"
+    }
+  },
+  "_note": "Переведено с эталона i18n/en.json под локаль az (азербайджанский как язык интерфейса читателя, my_lang). Не машинный перевод и не правка ru.json: строки переписаны заново под азербайджанский синтаксис. Слот {target} несёт форму названия языка на -ca/-cə (ispanca, ingiliscə, almanca) — суффикс гармонии гласных вобран ВНУТРЬ слота, после слота не стоит ни одного согласуемого токена. Бюджет выдачи посчитан по самому длинному из 49 названий — «azərbaycanca» (12 знаков). Обращение — вежливое «siz», кроме цитаты customBook.goalQuote. Файл прошёл отдельный проход снятия калек по i18n/en.gloss.json: образы эталона (вес=сложность, поза=соседство, тяга=подкрепление, «после диктора») переписаны азербайджанским узусом. Третий проход по независимому разбору носителя: терминология spaced repetition приведена к «aralıqlı təkrar» по всему файлу (изафетно дефектное «interval təkrar» снято), hero.title перестроен под SOV, сняты «sizə qiymət vermir» и «işarələnib».",
+  "_contract": {
+    "government": "Голая (неоформленная) форма названия языка на -ca/-cə. Одна позиция на все 9 строк: неоформленное дополнение при öyrənmək / oxumaq («ispanca öyrənin») и та же самая форма определением перед существительным («ispanca kitablar»). Морфологически это одна и та же неизменяемая словоформа: после слота НИКОГДА не ставится ни падежный, ни притяжательный, ни множественный аффикс, поэтому гармония гласных полностью убрана внутрь слота и наружу не выходит.",
+    "slotExample": "ispanca",
+    "slotExampleEnglish": "ingiliscə",
+    "longestSlot": "azərbaycanca",
+    "longestSlotLang": "азербайджанский (12 знаков); ровно столько же — indoneziyaca, следом afrikaansca и danimarkaca по 11, portuqalca / qalisiyaca / filippincə по 10",
+    "titleRenderedLen": 53,
+    "descRenderedLen": 154,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "meta.title / ogTitle / twitterTitle: слот намеренно поставлен не первым словом. В азербайджанском названия языков пишутся со строчной, а автозаглавная в начале <title> дала бы «Ispanca» вместо «İspanca» (точечная İ) — видимая орфографическая ошибка, которую не поймает ни одна автопроверка.",
+      "hero.title и finalCta.title: «ispanca öyrənin» формально читается и как «учитесь по-испански» (наречное значение -ca). В контексте приложения для изучения языков однозначно и совпадает с турецким узусом «İspanyolca öğrenin», но это первая пара строк, которую стоит показать носителю.",
+      "Формы на -cA у редких языков закреплены в узусе слабее, чем ingiliscə/almanca/rusca: baskca, zuluca, suahilicə, filippincə, qalisiyaca, bosniyaca. Перед выкаткой сверить всю таблицу из 49 атомов; там, где -cA звучит натянуто, узус всё равно ближе к -cA, чем к «bask dili öyrənin».",
+      "library.title: слот стоит определением («ispanca kitablar»), поэтому строка сознательно начата с «Paralel tərcüməli», чтобы заголовок H2 не открывался строчной буквой.",
+      "appUi.chat.discussing: аффикс после названия книги убран конструкцией «Müzakirə edirik: «{book}»» — иначе форма винительного аффикса зависела бы от последнего гласного названия книги (тот же запрет, что и для {target}).",
+      "Названия книг: «Balaca Şahzadə», «Harri Potter», «Düşün və varlan», «Yüksək səmərəli insanların 7 vərdişi» — изданные азербайджанские названия. «Dune» и «A Game of Thrones» оставлены латиницей: изданный азербайджанский перевод не подтверждён. «İndinin gücü» — рабочий вариант, сверить с изданием.",
+      "Обращение: везде вежливое «siz» — норма азербайджанских потребительских продуктов; «sən» звучало бы фамильярно от незнакомого бренда. Единственное исключение — customBook.goalQuote, там прямая речь от первого лица."
+    ]
+  }
+}

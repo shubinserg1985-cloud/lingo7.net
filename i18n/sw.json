@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "Jifunza {target} kwa vitabu vya lugha mbili na sauti",
+    "description": "Jifunza {target} kwa vitabu vyenye tafsiri ya Kiswahili na sauti, hifadhi maneno na uyarudie kwa vipindi, iga msimuliaji, jadili sura na AI.",
+    "ogTitle": "Jifunza {target} kwa vitabu vya lugha mbili na sauti",
+    "ogDescription": "Jifunza {target} kwa vitabu vyenye tafsiri ya Kiswahili na sauti. Hifadhi neno kwa mguso mmoja, kisha ulirudie kwa vipindi vinavyoongezeka.",
+    "twitterTitle": "Jifunza {target} kwa vitabu vya lugha mbili na sauti",
+    "twitterDescription": "Jifunza {target} kwa vitabu vyenye tafsiri ya Kiswahili kando ya maandishi. Hifadhi maneno kwa mguso mmoja, kisha uyarudie kwa vipindi vinavyoongezeka."
+  },
+  "nav": {
+    "links": [
+      "Jinsi inavyofanya kazi",
+      "Maktaba",
+      "Lugha",
+      "Maoni",
+      "Maswali"
+    ]
+  },
+  "hero": {
+    "title": "Jifunza {target} kwa vitabu, si kwa mazoezi ya kukariri",
+    "subtitle": "Soma na usikilize vitu vinavyokuvutia kweli, hifadhi maneno moja kwa moja kutoka kwenye ukurasa, kisha programu itakukumbusha kwa vipindi vinavyoongezeka hadi yakae kichwani.",
+    "cta": "Pakua programu",
+    "trust": "Lugha 49 • iPhone / Android",
+    "pills": [
+      "Tafsiri sambamba",
+      "Sauti pamoja na kusoma",
+      "Kujenga msamiati",
+      "Marudio kwa vipindi",
+      "Kitabu au maandishi yoyote",
+      "Kuiga msimuliaji",
+      "Jadili kitabu na AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kitabu badala ya kozi",
+        "span": "Soma kile ambacho ungekisoma kwa raha"
+      },
+      {
+        "strong": "Lugha 49",
+        "span": "Kuanzia zinazozungumzwa zaidi hadi adimu kabisa"
+      },
+      {
+        "strong": "Maktaba yenye upana",
+        "span": "Klasiki, vitabu maarufu duniani na makala"
+      },
+      {
+        "strong": "Kila kitu kwenye mzunguko mmoja",
+        "span": "Kusoma, sauti, msamiati na marudio"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Kwa nini programu nyingi za lugha huachwa njiani – na hii haiachwi",
+    "subtitle": "Tatizo halikuwa nidhamu yako hata siku moja. Tatizo lilikuwa mtindo wenyewe.",
+    "labelOld": "❌ Kwa kawaida",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Unakariri maneno usiyoweza kuyatumia",
+          "text": "Orodha na kadi bila muktadha wowote. Kesho yake yameshatoweka tena."
+        },
+        "new": {
+          "title": "Maneno yanajitokeza ndani ya sentensi halisi",
+          "text": "Unaona neno linavyotenda kazi kwenye muktadha, kwa hivyo linakaa kichwani bila kulazimishwa."
+        }
+      },
+      {
+        "old": {
+          "title": "Mazoezi yaleyale kila siku bila kubadilika",
+          "text": "Yanachosha, hamasa inashuka, na baada ya wiki moja programu inabaki bila kufunguliwa."
+        },
+        "new": {
+          "title": "Unasoma kile ambacho ungesoma hata hivyo",
+          "text": "Vitabu maarufu, hadithi za kweli za ajabu, sayansi kwa lugha rahisi – vitu unavyorudia kuvisoma wewe mwenyewe."
+        }
+      },
+      {
+        "old": {
+          "title": "Kitabu cha asili ni kigumu mno",
+          "text": "Maneno usiyoyajua kila mahali, hadithi inakupotea, unakata tamaa ukurasa wa kwanza."
+        },
+        "new": {
+          "title": "Tafsiri sambamba, na urahisishaji pia",
+          "text": "Tafsiri iko papo hapo kando ya maandishi, na kitabu kigumu mno kinaweza kuandikwa upya kwa kiwango chako."
+        }
+      },
+      {
+        "old": {
+          "title": "Unasoma kile tu kilichomo kwenye orodha",
+          "text": "Maktaba iliyofungwa. Huwezi kuleta kitabu chako mwenyewe."
+        },
+        "new": {
+          "title": "Kitabu au maandishi yoyote yanakuwa kitabu chako cha kiada",
+          "text": "Mpe programu vitabu unavyovipenda na hati unazozihitaji, nayo itakurudishia vikiwa na tafsiri sambamba, sauti na marudio ya maneno."
+        }
+      },
+      {
+        "old": {
+          "title": "Unasoma na kusikiliza, lakini yote ni ya kupokea tu",
+          "text": "Hakuna pa kuzungumza wala kuandika, kwa hivyo ujuzi haukai."
+        },
+        "new": {
+          "title": "Husomi tu – unazungumza na kuandika pia",
+          "text": "Unajadili na AI kitabu ulichomaliza punde, kwa hivyo huna haja ya kutafuta mada. Ukiwa na la kusema, kusema na kuandika kunakuwa rahisi."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Stadi zote 7 za lugha mahali pamoja",
+    "subtitle": "Kujua lugha ni kumudu stadi saba tofauti. Lingo7 huziimarisha zote kwa pamoja badala ya moja baada ya nyingine, kwa hivyo kila stadi husaidia nyingine kukua.",
+    "skills": [
+      {
+        "title": "Kusoma",
+        "text": "Soma toleo la asili au lililorahisishwa, tafsiri ikiwa papo hapo kando yake – kwa kasi, na bila kamusi."
+      },
+      {
+        "title": "Kusikiliza",
+        "text": "Vitabu vya sauti na hali ya kusikiliza huku ukisoma – mojawapo ya njia bora za kuzoesha sikio."
+      },
+      {
+        "title": "Msamiati",
+        "text": "Maneno mapya yanakaa kichwani unaposoma, bila kuyakariri. Mazoezi na marudio kwa vipindi yanafanya yabaki hapo kwa muda mrefu."
+      },
+      {
+        "title": "Sarufi",
+        "text": "Njia bora ya kuelewa sarufi ni kuona kanuni zikifanya kazi ndani ya sentensi halisi."
+      },
+      {
+        "title": "Kuandika",
+        "text": "Gumzo na AI: unajadili ulichosoma punde, kwa hivyo daima kuna la kuandika. Inakusaidia kuunda wazo na kukamata makosa yako."
+      },
+      {
+        "title": "Kuzungumza",
+        "text": "Kuiga msimuliaji: unarudia kwa sauti mara tu baada ya kumsikia, ukiimarisha ufasaha, mdundo na kiimbo."
+      },
+      {
+        "title": "Matamshi",
+        "text": "Mazoezi ya matamshi yanakusaidia kusogeza lafudhi yako karibu na ile ya mzawa."
+      }
+    ],
+    "conductor": {
+      "badge": "Mpango binafsi · Inakuja hivi karibuni",
+      "title": "Programu itakuambia la kufanya leo",
+      "text": "Inachagua shughuli inayofaa kwa wakati unaofaa – kusoma, kurudia kwa sauti, kuweka maneno kichwani au kujadili sura na AI. Huna haja ya kuamua uanzie wapi wala kinachofuata ni kipi.",
+      "caption": "Mfano wa kipindi cha leo – programu itakutengenezea chako.",
+      "steps": [
+        {
+          "label": "Kusoma",
+          "meta": "dakika 15"
+        },
+        {
+          "label": "Sikiliza na usome",
+          "meta": "dakika 5"
+        },
+        {
+          "label": "Kuiga msimuliaji",
+          "meta": "Sasa · dakika 7"
+        },
+        {
+          "label": "Maneno",
+          "meta": "kadi 25"
+        },
+        {
+          "label": "Gumzo na AI",
+          "meta": "jadili sura"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Jinsi ya kujifunza lugha kwa vitabu: hatua tano",
+    "subtitle": "Hakuna mbinu tata. Mzunguko mmoja ulio wazi, na maudhui mazuri ya kutosha kukubeba ndani yake.",
+    "items": [
+      {
+        "title": "Chagua maudhui yako",
+        "text": "Muhtasari wa vitabu maarufu, klasiki, hadithi fupi – kwa hisia yako, kwa kiwango chako, kwa muda ulio nao."
+      },
+      {
+        "title": "Soma na tafsiri sambamba",
+        "text": "Asili na tafsiri kando kwa kando; gusa neno uone maana yake, uisikie sauti yake, au ulihifadhi."
+      },
+      {
+        "title": "Jifunza maneno",
+        "text": "Maneno uliyohifadhi yanarudi kwenye mazoezi yanayotumia aina tofauti za kumbukumbu, kwa vipindi vinavyoachana zaidi na zaidi."
+      },
+      {
+        "title": "Sikiliza na urudie kwa sauti",
+        "text": "Kila sentensi ina sauti: sikiliza, kisha irudie kwa sauti mara tu baada ya msimuliaji – ndivyo unavyoimarisha matamshi na kiimbo."
+      },
+      {
+        "title": "Jadili kitabu na AI",
+        "text": "AI inapitia kitabu pamoja nawe – unafanya mazoezi ya kuandika na kuzungumza, na kujifunza kuweka mawazo yako katika lugha mpya."
+      }
+    ]
+  },
+  "library": {
+    "title": "Soma {target} kwa vitabu vyenye tafsiri – viwango vyote, kutoka A1 hadi C1",
+    "subtitle": "Hujifunzi lugha tu, unajifunza kitu pia. Kuna maudhui ya kila kiwango, kutoka hatua za kwanza hadi za juu kabisa.",
+    "tabs": [
+      "Klasiki",
+      "Vitabu maarufu",
+      "Gundua"
+    ],
+    "panels": [
+      {
+        "title": "Soma vitabu vikuu kwa lugha ya asili – bila hofu ya kupotea",
+        "text": "Matoleo yaliyorahisishwa na ya asili kwa viwango tofauti, kutoka The Little Prince hadi Hawking. Tafsiri sambamba inafanya hata maandishi magumu yasomeke.",
+        "badges": [
+          "A1-A2 Mwanzo",
+          "B1-B2 Wastani",
+          "C1+ Hali ya juu"
+        ]
+      },
+      {
+        "title": "Kiini cha vitabu bora duniani kwa dakika 7–15",
+        "text": "Mawazo makuu ya vitabu maarufu duniani, yakisimuliwa kwa ufupi – katika lugha unayojifunza. Unakua na unajifunza lugha kwa kikao kimoja.",
+        "badges": [
+          "A1-A2 Mwanzo",
+          "B1-B2 Wastani",
+          "C1+ Hali ya juu"
+        ]
+      },
+      {
+        "title": "Dakika 5 kwa siku: ukweli mmoja wa kuvutia na maneno machache mapya",
+        "text": "Anga, saikolojia, biashara, mazingira, teknolojia – mamia ya makala mafupi kuhusu kila mada. Jifunza jambo jipya kila siku, na lugha inakuja nayo.",
+        "badges": [
+          "A1-A2 Mwanzo",
+          "B1-B2 Wastani",
+          "C1+ Hali ya juu"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "MPYA",
+    "title": "Pakia kitabu au maandishi yako mwenyewe na ujifunze kwayo",
+    "text": "Pakia faili lolote na Lingo7 italigeuza kuwa nyenzo ya kujifunzia yenye tafsiri sambamba na sauti. Baada ya hapo ni mzunguko uleule: unasoma, unasikiliza, unajifunza maneno, unanoa usemi kwa kuiga msimuliaji na kujadili yote na AI.",
+    "cards": [
+      {
+        "title": "Vitabu maarufu kwa lugha ya asili",
+        "text": "Harry Potter, Dune, A Game of Thrones – soma vitabu ulivyokuwa ukikusudia kuvisoma, katika lugha unayojifunza."
+      },
+      {
+        "title": "Lugha inayohitajika kazini na masomoni",
+        "text": "Hati za kazi, majarida, nyenzo za mitihani – jifunza lugha ya fani unayoifanya sasa hivi."
+      }
+    ],
+    "usecases": [
+      "Mitihani",
+      "Kazi",
+      "Makala",
+      "Mahojiano"
+    ],
+    "formatsNote": "Pakia faili zako mwenyewe katika miundo hii:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Kurahisisha",
+      "title": "Soma kitabu chochote – kikiwa <span class=\"accent\">kimeandikwa upya</span> kwa ajili yako",
+      "text": "Msamiati na sarufi bado ni vigumu mno? Lingo7 inakiandika kitabu upya kwa lugha rahisi – hadithi ileile, wahusika waleule, sentensi sahili zaidi.",
+      "cta": "Jaribu kwenye kitabu chako"
+    },
+    "goalQuote": "Mtindo ninaoupenda zaidi: chukua Harry Potter na usome sura moja kwa siku – isome, isikilize, jifunze maneno mapya, kisha ijadili na AI. Miezi sita ya saa moja au mbili kwa siku na unatoka <span class=\"goal-quote__level\">A2 ukiwa B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 ni yako kama...",
+    "items": [
+      "Unataka kujifunza kwa maudhui badala ya masomo unayojilazimisha kuyafanya",
+      "Unataka zaidi ya kusoma – kusikiliza, kuzungumza na kuandika pia: matamshi kwa kuiga msimuliaji, na kueleza mawazo yako kwenye gumzo na AI",
+      "Unataka kujifunza kwa nyenzo zako mwenyewe – hati za kazi, vitabu na makala unayopenda – si masomo yaliyotayarishwa tu",
+      "Unahitaji lugha adimu ambayo programu nyingi hazina",
+      "Unataka kufanya vipindi vifupi vya dakika 5-15"
+    ]
+  },
+  "pains": {
+    "title": "Kinachozuia njiani – na Lingo7 inafanya nini kuhusu hilo",
+    "subtitle": "Si suala la uwezo. Ni suala la mtindo.",
+    "chips": [
+      "Naogopa kuzungumza",
+      "Nachoka haraka",
+      "Maneno hayakai",
+      "Kusoma ni vigumu",
+      "Sielewi mazungumzo",
+      "Sina muda",
+      "Lugha adimu",
+      "Haitanifaa"
+    ],
+    "answers": [
+      {
+        "title": "“Naona aibu kuzungumza na kukosea”",
+        "text": "Kuiga msimuliaji maana yake ni kurudia sentensi kwa sauti mara tu baada ya kumsikia, peke yako, bila mtu wa kukupa alama. Ndivyo matamshi yanavyoimarika. Kwenye gumzo na AI unajizoeza kutunga sentensi kwa maandishi, nayo inakusahihisha kwa upole."
+      },
+      {
+        "title": "“Nachoka haraka”",
+        "text": "Badala ya masomo yanayofanana yote: vitabu, vitabu maarufu na makala kuhusu mada ambazo ungezisoma hata hivyo. Maudhui yanapokuvutia, kurudi ni rahisi."
+      },
+      {
+        "title": "“Naona maneno lakini hayakai”",
+        "text": "Mguso mmoja unahifadhi neno pamoja na sentensi yake, kisha linakujia tena kama kadi kwa ratiba ya vipindi. Kukumbuka kunaacha kuwa suala la bahati."
+      },
+      {
+        "title": "“Kusoma maandishi ya asili ni vigumu mno kwangu”",
+        "text": "Tafsiri sambamba yenye sentensi zilizolingana – huna haja ya kuruka kwenda kwenye kitafsiri kila baada ya mstari."
+      },
+      {
+        "title": "“Sielewi lugha inapozungumzwa”",
+        "text": "Hali ya kusikiliza huku ukisoma inaunganisha sauti ya neno na jinsi linavyoandikwa na maana yake. Sikio linaizoea lugha lenyewe."
+      },
+      {
+        "title": "“Sina muda”",
+        "text": "Miundo mifupi na vipindi vya haraka – hata dakika 5-10 kwa siku zinakuweka kwenye mdundo."
+      },
+      {
+        "title": "“Nahitaji lugha adimu”",
+        "text": "Lugha 49, pamoja na zile adimu. Na yoyote kati yake unaijifunza kutoka lugha yako ya mama."
+      },
+      {
+        "title": "“Naogopa haitanifaa”",
+        "text": "Ukiweza kusoma, inakufaa. Huhitaji ujuzi wa awali, sarufi wala maandalizi – anza na kitabu chochote cha kiwango chako."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Jifunza {target}",
+    "title": "Lugha 49, kutoka zinazojulikana zaidi hadi adimu",
+    "subtitle": "Jifunza lugha yoyote kutoka lugha yako ya mama – si kupitia Kiingereza tu, kama programu nyingi zinavyokulazimisha.",
+    "groupTitles": [
+      "Maarufu",
+      "Lugha zote"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 jozi za lugha.</strong> Chagua mchanganyiko wowote: lugha unayojifunza, na lugha unayosoma tafsiri kwayo."
+  },
+  "reviews": {
+    "title": "Hatukutegemea kwamba mtaipenda kiasi hiki",
+    "subtitle": "Lakini ukweli ni ukweli – haya ndiyo watu wanayoandika kwenye Google Play.",
+    "items": [
+      {
+        "text": "Programu nzuri. Faida kubwa ni kwamba kitabu kimoja kinaweza kuja katika viwango kadhaa vya Kiingereza. Nasubiri sasisho kwa hamu!",
+        "author": "Екатерина М.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Nilichukua usajili wa mwaka mzima na thamani yake ni kubwa kweli. Hii ni programu ya ajabu! Nyenzo bora ya kuboresha Kiingereza chako. Kuanzia watu wazima hadi watoto — si ya manufaa tu, ni ya lazima.",
+        "author": "Mayur L.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Nilihitaji Kireno ili kufanya kazi na timu ya Brazili. Kusoma pamoja na kusikiliza kwa wakati mmoja kunafaa sana. Baada ya wiki sita nilikuwa tayari naelewa mikutano.",
+        "author": "Rosita R.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Nilikuwa nikitamani kujifunza Kijerumani, na kwenye programu hii kila kitu ni chepesi na wazi zaidi kuliko programu nyingine zinazofanana nayo. Programu ni 10 kati ya 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Natumia kipengele cha kusoma pamoja na sauti na kimekuwa mafanikio ya kweli kwangu. Sauti ziko wazi na zimeoanishwa vizuri. Zana bora kabisa kwa anayejifunza lugha.",
+        "author": "Zeynep O.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Wazo na utekelezaji vinapata A+. Kwa sasa hii ndiyo programu pekee yenye vitabu vya Kiserbia. Hongereni! Asanteni!",
+        "author": "Вася К.",
+        "source": "Google Play • tazama asili"
+      },
+      {
+        "text": "Hii kweli ni programu ya ajabu kwangu mimi mwalimu. Nawapendekezea wanafunzi wangu. Inapendeza sana. Naipendekeza kwa kila mtu.",
+        "author": "Sasha T.",
+        "source": "Google Play • tazama asili"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Maswali yanayoulizwa mara kwa mara",
+    "items": [
+      {
+        "q": "Je, Lingo7 itamfaa anayeanza kabisa?",
+        "a": "Ndiyo. Kuna nyenzo za kila kiwango, na tafsiri sambamba inafanya maandishi yaeleweke tangu mwanzo kabisa."
+      },
+      {
+        "q": "Nahitaji kiwango gani ili kusoma toleo la asili?",
+        "a": "Kiwango chochote. Ukiwa na tafsiri sambamba huhitaji kamusi, na kitabu kigumu mno kinaweza kuandikwa upya kwa lugha rahisi zaidi – hadithi ileile na wahusika waleule, lakini sarufi na maneno ya kiwango chako. Kila kitu kimewekewa alama kutoka A1 hadi C1."
+      },
+      {
+        "q": "Je, ninaweza kujifunza dakika 10 kwa siku?",
+        "a": "Ndiyo. Makala mafupi, muhtasari wa vitabu na kadi za maneno zimetengenezwa kwa ajili ya vipindi vifupi vya kila siku."
+      },
+      {
+        "q": "Ni lugha zipi zinapatikana?",
+        "a": "Lugha 49, na unaweza kujifunza yoyote kati yake kutoka lugha yako ya mama – si kupitia Kiingereza tu. Hizo ni jozi 49 × 48 = 2352 za lugha, pamoja na lugha adimu."
+      },
+      {
+        "q": "Hii inatofautianaje na programu za kawaida za lugha?",
+        "a": "Badala ya mazoezi yasiyoshikamana, unajifunza kwa maudhui yanayokuvutia, na kila stadi imefungwa kwenye mzunguko mmoja: unasoma na kusikiliza, unahifadhi maneno kwa marudio ya vipindi, unajifunza sarufi kutoka kwenye muktadha, unanoa usemi kwa kuiga msimuliaji na uandishi kwenye gumzo na AI. Zaidi ya hayo, unaweza kupakia kitabu au hati yako mwenyewe."
+      },
+      {
+        "q": "Je, kuna mazoezi ya kuzungumza?",
+        "a": "Ndiyo. Kwenye kuzungumza kuna kuiga msimuliaji – unarudia sentensi kwa sauti mara tu baada ya kumsikia, ukiimarisha matamshi na kiimbo. Kwenye kuandika kuna gumzo na AI: unajadili uliyosoma, nayo inakusaidia kutunga sentensi na kugundua makosa yako. Mazungumzo ya moja kwa moja na mtu halisi bado hayapo – yamo kwenye mipango."
+      },
+      {
+        "q": "Ni miundo ipi ya faili ninayoweza kupakia?",
+        "a": "PDF, EPUB, FB2 na TXT. Pakia hati za kazi, vitabu unavyovipenda au makala – programu inaunda tafsiri sambamba, inaongeza sauti na kukusanya maneno mapya kwenye mazoezi."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Anza kujifunza {target} leo – kitabu badala ya mazoezi ya kukariri",
+    "text": "Pakua programu na ufungue kitabu chako cha kwanza.",
+    "perks": [
+      "Lugha 49",
+      "Kila kiwango"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Kuhusu sisi",
+      "Wasiliana nasi",
+      "Nafasi za kazi",
+      "Kwa shule",
+      "Jinsi ya kujifunza lugha",
+      "Masharti ya matumizi",
+      "Faragha"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Haki zote zimehifadhiwa."
+  },
+  "downloadModal": {
+    "title": "Pata Lingo7",
+    "text": "Inapatikana kwenye App Store na Google Play"
+  },
+  "stickyCta": {
+    "label": "Pakua programu"
+  },
+  "mobileMenu": {
+    "links": [
+      "Jinsi inavyofanya kazi",
+      "Maktaba",
+      "Lugha",
+      "Maoni",
+      "Maswali"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang = sw). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Sikiliza",
+      "add": "Hifadhi",
+      "translate": "Tafsiri",
+      "addToMyWords": "Ongeza kwenye maneno yangu",
+      "inMyWords": "Lipo kwenye maneno yangu",
+      "audioMode": "Hali ya sauti",
+      "discussWithAi": "Jadili na AI",
+      "selfCheck": "Jipime"
+    },
+    "wordCard": {
+      "freqHigh": "LA KAWAIDA",
+      "freqMid": "LA WASTANI",
+      "example": "Mfano",
+      "otherTranslations": "Tafsiri zaidi",
+      "synonyms": "Visawe",
+      "open": "Fungua",
+      "group": "Kundi:",
+      "groupDefault": "Jumla",
+      "page": "uk."
+    },
+    "readerSettings": {
+      "sectionText": "MAANDISHI",
+      "sectionAudio": "SAUTI",
+      "highlightMyWords": "Angazia maneno yangu",
+      "highlightMyWordsHint": "Huweka alama kwenye maneno uliyohifadhi",
+      "theme": "Mandhari",
+      "themeLight": "Angavu",
+      "fontSize": "Ukubwa wa herufi",
+      "font": "Fonti",
+      "speakOnTap": "Tamka neno unapoligusa",
+      "speakOnTapHint": "Husoma kwa sauti neno ulilogusa",
+      "speechRate": "Kasi ya usomaji",
+      "pronunciationTest": "Jaribio la matamshi",
+      "playSample": "Sikiliza sentensi ya mfano",
+      "reset": "Rejesha mipangilio",
+      "done": "Sawa",
+      "on": "Imewashwa",
+      "off": "Imezimwa",
+      "accent": "Lafudhi",
+      "translationAlways": "Daima"
+    },
+    "vocab": {
+      "pickRightPicture": "Chagua picha sahihi",
+      "correct": "Sahihi kabisa",
+      "rightAnswer": "Jibu sahihi:",
+      "next": "Endelea",
+      "done": "Nimemaliza",
+      "skip": "Ruka",
+      "exercise": "Zoezi",
+      "exerciseMeta": "/11 · maneno 10"
+    },
+    "chat": {
+      "title": "Mazoezi",
+      "discussing": "Tunajadili “{book}”",
+      "finish": "Maliza",
+      "playing": "Inacheza…",
+      "replyOptions": "Mapendekezo ya majibu",
+      "placeholder": "Andika ujumbe"
+    },
+    "bookDetail": {
+      "adapted": "Iliyorahisishwa",
+      "adaptedHint": "Imeandikwa upya kwa lugha rahisi, maana ileile",
+      "original": "Ya asili",
+      "originalHint": "Maandishi kamili ya awali, bila mabadiliko",
+      "open": "Fungua",
+      "genre": "Aina",
+      "badgeSummary": "Muhtasari"
+    },
+    "library": {
+      "profile": "Wasifu",
+      "search": "Tafuta",
+      "upload": "Pakia kitabu",
+      "tabCatalog": "Katalogi",
+      "tabAll": "Vitabu vyote",
+      "tabFavorites": "Vipendwa",
+      "shelfBestsellers": "Vitabu maarufu duniani",
+      "shelfBestsellersSub": "kwa muhtasari, pamoja na sauti",
+      "shelfStories": "Hadithi fupi",
+      "shelfStoriesSub": "Hadithi ndogo zenye maana kubwa",
+      "bandTitle": "Dakika 5 kwa siku",
+      "bandText": "Gundua mambo ya kuvutia kila siku – na lugha inakuja yenyewe.",
+      "shelfAmazing": "Hadithi za ajabu",
+      "shelfNature": "Mafumbo ya asili",
+      "shelfHealth": "Afya na sayansi",
+      "moreTopics": "Mada zaidi",
+      "shelfGolden": "Klasiki za dhahabu",
+      "shelfGoldenSub": "Vitabu 200 vilivyobadilisha wanadamu",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Maktaba",
+      "practice": "Mazoezi",
+      "read": "Soma",
+      "myWords": "Maneno yangu",
+      "collections": "Makusanyo"
+    }
+  },
+  "_note": "Локаль sw (Kiswahili, стандартная восточноафриканская норма). Полный перевод с эталона en.json (2026-08-30), писался как суахилийский оригинал, не как перевод с английского. Контракт слота: голое существительное класса 7 (Ki-…) в позиции прямого дополнения при jifunza / kujifunza / soma — падежей в суахили нет, форма одна, префикс класса уже внутри слота. Главный риск банту — согласователь рядом со слотом (cha / chote / hiki / kilicho…); во всех девяти строках после слота стоят только неизменяемые слова (kwa, leo) либо согласователи, привязанные к vitabu/viwango, а не к слоту. Бюджет выдачи пересчитан по «Kiazerbaijani» — самому длинному из 49 названий. Имена авторов отзывов, customBook.formats, коды CEFR, числа 49 / 7 / 2352 и эмодзи скопированы из эталона. Файл прошёл снятие калек по i18n/en.gloss.json (2026-08-30): образы эталона (сложность как вес, соседство как поза, подкрепление как тяга, «после диктора» как позиция позади) заменены суахилийскими выражениями того же смысла. Третий круг (2026-08-30): по независимому разбору gemini-sw.json приняты правки терминологии (стади вместо уджузи для счётных навыков языка, kuzungumza/kuandika вместо usemi/uandishi в faq о речи), снята калька «put thoughts into words» в audience.items[1]; расхождения обратного перевода по faq.items[5].a («ищет ошибки» вместо «находит») устранены.",
+  "_contract": {
+    "government": "Голое существительное класса 7 (Ki-…) в позиции прямого дополнения при глаголах jifunza «учить», kujifunza (инфинитив после anza) и soma «читать/изучать»: «Jifunza Kihispania kwa vitabu…», «Soma Kihispania kwa vitabu…», «Anza kujifunza Kihispania leo». Суахили не склоняет существительные, поэтому слот отдаёт название языка ровно в словарной форме — вместе с классным префиксом Ki-, который является частью слова, а не отдельным токеном. Все 9 строк написаны под эту одну позицию: слот всюду стоит сразу после глагола и ничем не управляет.",
+    "slotExample": "Kihispania",
+    "slotExampleEnglish": "Kiingereza",
+    "longestSlot": "Kiazerbaijani",
+    "longestSlotLang": "азербайджанский (sw Kiazerbaijani)",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 145,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "Согласование по классу — единственное, что могло сломать контракт. Название языка в суахили это класс 7 (Kihispania, Kiingereza, Kizulu), и любой зависимый от него токен получил бы префикс ch-/ki- («Kihispania chote», «Kihispania hiki», «cha Kihispania»). Поэтому справа от слота во всех девяти строках стоят только неизменяемые слова: предлог kwa и наречие leo. Согласователи vya / vyenye / vyote в этих же строках привязаны к vitabu и viwango (класс 8) и на подставленное слово не реагируют — это стоит показать носителю отдельно, потому что глазами они читаются как «соседи слота».",
+      "Заглавная буква — данные: в суахили названия языков пишутся с прописной (Kiswahili, Kiingereza), поэтому lead=capital и автозаглавная безопасна. Слот всё равно нигде не стоит первым словом: meta.title/ogTitle/twitterTitle и hero.title начинаются с «Jifunza», library.title — с «Soma», finalCta.title — с «Anza».",
+      "library.title: слот удержан ценой переписывания в императив («Soma {target} kwa vitabu vyenye tafsiri…»). Естественнее звучало бы «Vitabu vya {target}…», но там слот попадает в позицию комплемента связки vya, то есть во вторую синтаксическую позицию; чтобы позиция осталась одна, H2 переписан под тот же прямой объект. Носителю проверить, что H2 не спорит с H1 по конструкции.",
+      "«AI» оставлено латиницей и без склонения — так пишут в суахилийских потребительских текстах о технологиях; полный термин «akili bandia» уместен в статье, но в кнопках и пилюлях он длинный. Замена сквозная, если решат иначе (hero.pills[6], method.skills[4], appUi.reader.discussWithAi и др.).",
+      "Shadowing переведён описательно — «kuiga msimuliaji» (повторять вслед за диктором). Английский термин «shadowing» в суахилийском обиходе не закреплён, поэтому вместо кальки выбрано понятное описание; оно проходит сквозняком через hero.pills[5], method.skills[5], steps.items[3], faq.items[5], pains.answers[0].",
+      "«marudio kwa vipindi» / «kwa vipindi vinavyoongezeka» для spaced repetition: устоявшегося термина в суахили нет, поэтому понятие всюду раскрыто описательно (steps.items[2], pains.answers[2]), а не спрятано за словом-ярлыком.",
+      "Названия книг: суахилийских изданий у Dune, A Game of Thrones, Think and Grow Rich, The 80/20 Principle, The 7 Habits, The Power of Now нет — оставлены латиницей по правилу «не изобретать перевод». «The Little Prince» тоже оставлен оригиналом: суахилийский перевод, по-видимому, существует, но его точное заглавие («Mwana Mfalme Mdogo» / «Mfalme Mdogo») нужно сверить по изданию, а не угадывать. Harry Potter оставлен как название серии; Hawking — фамилия, письменность локали латинская.",
+      "faq.items[0].q и faq.items[2].q — косвенные вопросы, оформлены суахилийской вопросительной частицей «Je,», а не условным «kama»: «Je, Lingo7 itamfaa anayeanza kabisa?». Условный союз перевернул бы смысл.",
+      "Модальность ограничений сохранена буквально: method.conductor.badge «Inakuja hivi karibuni» (ещё нет), faq.items[1].a «kinaweza kuandikwa upya» (возможность, не обещание), faq.items[5].a «Mazungumzo ya moja kwa moja na mtu halisi bado hayapo – yamo kwenye mipango» (живого собеседника нет, он в планах).",
+      "Обращение — императив второго лица единственного числа (Jifunza, Soma, Pakua) сквозь весь файл; это нормальный регистр суахилийского потребительского приложения. Вежливое множественное (Jifunzeni) звучало бы как объявление от учреждения."
+    ]
+  }
+}

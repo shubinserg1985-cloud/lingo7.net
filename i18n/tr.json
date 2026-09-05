@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "title": "Kitapla {target} öğren: paralel çeviri ve sesli kitap",
+    "description": "Yanında çevirisiyle {target} kitaplar oku ve dinle, beğendiğin kelimeyi tek dokunuşla kaydet, aralıklı tekrarla pekiştir, bölümü yapay zekâyla konuş.",
+    "ogTitle": "Kitapla {target} öğren: paralel çeviri ve sesli kitap",
+    "ogDescription": "Yanında çevirisiyle {target} kitaplar oku, sesli anlatımını dinle. Beğendiğin kelimeyi tek dokunuşla kaydet, aralıklı tekrar da onu tam zamanında karşına çıkarsın.",
+    "twitterTitle": "Kitapla {target} öğren: paralel çeviri ve sesli kitap",
+    "twitterDescription": "Çevirisi hemen yanındayken {target} kitaplar oku, kelimeleri tek dokunuşla kaydet, aralıklı tekrarla akılda tut."
+  },
+  "nav": {
+    "links": [
+      "Nasıl çalışır",
+      "Kitaplık",
+      "Diller",
+      "Yorumlar",
+      "SSS"
+    ]
+  },
+  "hero": {
+    "title": "Alıştırma çözerek değil, kitap okuyarak {target} öğren",
+    "subtitle": "Gerçekten ilgini çeken şeyleri oku ve dinle, kelimeleri doğrudan sayfadan kaydet; aralıklı tekrar algoritması onları tam zamanında yeniden karşına çıkarsın.",
+    "cta": "Uygulamayı indir",
+    "trust": "49 dil • iPhone / Android",
+    "pills": [
+      "Paralel çeviri",
+      "Ses + okuma",
+      "Kelime dağarcığı",
+      "Aralıklı tekrar",
+      "Her kitap, her metin",
+      "Gölgeleme",
+      "Kitabı yapay zekâyla konuş"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kurs değil, kitap",
+        "span": "Zaten keyfine okuyacağın şeyle çalış"
+      },
+      {
+        "strong": "49 dil",
+        "span": "En yaygınından en az bilinenine"
+      },
+      {
+        "strong": "Geniş bir kitaplık",
+        "span": "Klasikler, dünya çok satanları ve yazılar"
+      },
+      {
+        "strong": "Hepsi tek bir döngüde",
+        "span": "Okuma, ses, kelime ve tekrar"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Dil uygulamalarının çoğu neden yarıda kalır – bu neden kalmıyor",
+    "subtitle": "Eksik olan senin disiplinin değildi, çalışma biçimiydi.",
+    "labelOld": "❌ Genelde",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Kullanamayacağın kelimeleri ezberliyorsun",
+          "text": "Bağlamsız listeler, üst üste kartlar. Yarın olunca hepsi uçup gidiyor."
+        },
+        "new": {
+          "title": "Kelimeler gerçek cümlelerin içinden çıkıyor",
+          "text": "Kelimenin cümle içinde nasıl davrandığını görüyorsun; zorlamadan, kendiliğinden aklında kalıyor."
+        }
+      },
+      {
+        "old": {
+          "title": "Her gün aynı alıştırmalar",
+          "text": "Tekdüzelik başlıyor, heves sönüyor, ilk haftadan sonra uygulama bir daha açılmıyor."
+        },
+        "new": {
+          "title": "Zaten okuyacağın şeyi okuyorsun",
+          "text": "Çok satanlar, tuhaf ama gerçek hikâyeler, popüler bilim – kendi isteğinle geri döndüğün metinler."
+        }
+      },
+      {
+        "old": {
+          "title": "Orijinalinden okumak çok zor",
+          "text": "Her satırda bilmediğin kelime, olay örgüsü elinden kaçıyor, ilk sayfada bırakıyorsun."
+        },
+        "new": {
+          "title": "Paralel çeviri, üstüne bir de uyarlama",
+          "text": "Çeviri metnin tam yanında; fazla zor gelen bir kitabı da uygulama senin seviyende yeniden anlatıyor."
+        }
+      },
+      {
+        "old": {
+          "title": "Katalogda ne varsa onu okuyorsun",
+          "text": "Kitaplık sabit. Kendi kitabını getirmenin yolu yok."
+        },
+        "new": {
+          "title": "Her kitap, her metin senin ders kitabın oluyor",
+          "text": "Sevdiğin kitapları ve işin için gereken belgeleri uygulamaya ver; paralel çevirisi, sesi ve kelime tekrarıyla birlikte geri gelsinler."
+        }
+      },
+      {
+        "old": {
+          "title": "Okuyorsun, dinliyorsun ama hepsi pasif",
+          "text": "Konuşacak, yazacak bir yer yok; beceri bir türlü oturmuyor."
+        },
+        "new": {
+          "title": "Sadece okumuyorsun – konuşuyor ve yazıyorsun da",
+          "text": "Yeni bitirdiğin kitabı yapay zekâyla konuşuyorsun, yani konu aramana gerek kalmıyor. Söyleyecek bir şeyin olunca söylemek de yazmak da kolaylaşıyor."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "7 dil becerisinin hepsi tek yerde",
+    "subtitle": "Bir dili bilmek, yedi ayrı beceriye birden sahip olmaktır. Lingo7 bunları tek tek değil birlikte çalıştırır; her beceri diğerlerinin gelişimini hızlandırır.",
+    "skills": [
+      {
+        "title": "Okuma",
+        "text": "Orijinalini ya da uyarlanmış hâlini, çevirisi hemen yanındayken oku – hızlıca, üstelik sözlüğe hiç bakmadan."
+      },
+      {
+        "title": "Dinleme",
+        "text": "Sesli kitaplar ve dinleye dinleye okuma modu – kulağını dile alıştırmanın en etkili yollarından biri."
+      },
+      {
+        "title": "Kelime",
+        "text": "Yeni kelimeler ezberlemeden, okudukça aklında kalıyor. Alıştırmalar ve aralıklı tekrar da onları kalıcı hafızaya yerleştiriyor."
+      },
+      {
+        "title": "Dilbilgisi",
+        "text": "Dilbilgisini en iyi, kuralın gerçek bir cümlenin içinde nasıl iş gördüğünü göre göre kaparsın."
+      },
+      {
+        "title": "Yazma",
+        "text": "Yapay zekâ sohbeti: az önce okuduklarını konuşuyorsun, yani yazacak konu hep hazır. Düşünceni toparlamana yardım ediyor, hatalarını da yakalıyor."
+      },
+      {
+        "title": "Konuşma",
+        "text": "Gölgeleme (shadowing): anlatıcıyı duyar duymaz yüksek sesle tekrarlıyor, akıcılığını, ritmini ve tonlamanı geliştiriyorsun."
+      },
+      {
+        "title": "Telaffuz",
+        "text": "Telaffuz alıştırmaları, aksanını ana dili o dil olan birinin söyleyişine yaklaştırıyor."
+      }
+    ],
+    "conductor": {
+      "badge": "Kişisel plan · Yakında",
+      "title": "Bugün ne yapacağını uygulama söyleyecek",
+      "text": "Doğru anda doğru işi seçiyor – oku, yüksek sesle tekrarla, kelimeleri pekiştir ya da bölümü yapay zekâyla konuş. Nereden başlayacağına, sırada ne olduğuna karar vermek sana kalmıyor.",
+      "caption": "Bugün için örnek bir program – seninkini uygulama kuracak.",
+      "steps": [
+        {
+          "label": "Okuma",
+          "meta": "15 dk"
+        },
+        {
+          "label": "Dinle ve oku",
+          "meta": "5 dk"
+        },
+        {
+          "label": "Gölgeleme",
+          "meta": "Şimdi · 7 dk"
+        },
+        {
+          "label": "Kelimeler",
+          "meta": "25 kart"
+        },
+        {
+          "label": "Yapay zekâ sohbeti",
+          "meta": "bölümü konuş"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kitaptan dil öğrenmenin beş adımı",
+    "subtitle": "Karmaşık bir yöntem yok. Net bir döngü ve seni o döngüde tutacak kadar iyi içerik.",
+    "items": [
+      {
+        "title": "İçeriğini seç",
+        "text": "Çok satan kitap özetleri, klasikler, kısa öyküler – moduna, seviyene ve ayırabildiğin zamana göre."
+      },
+      {
+        "title": "Paralel çeviriyle oku",
+        "text": "Orijinal ve çeviri yan yana; bir kelimeye dokun, anlamını gör, sesini dinle ya da kaydet."
+      },
+      {
+        "title": "Kelimeleri öğren",
+        "text": "Kaydettiğin kelimeler, farklı hafıza türlerini çalıştıran alıştırmalarla zamana yayılarak yeniden karşına çıkıyor."
+      },
+      {
+        "title": "Dinle ve yüksek sesle tekrarla",
+        "text": "Her cümlenin sesi var: önce dinle, sonra anlatıcının hemen ardından tekrarla – telaffuz da tonlama da böyle oturuyor."
+      },
+      {
+        "title": "Kitabı yapay zekâyla konuş",
+        "text": "Yapay zekâ kitabı seninle birlikte geçiyor – hem yazma hem konuşma pratiği yapıyor, düşüncelerini yeni bir dile dökmeyi öğreniyorsun."
+      }
+    ]
+  },
+  "library": {
+    "title": "Paralel çevirili {target} kitaplar – A1'den C1'e her seviyede",
+    "subtitle": "Sadece dil öğrenmiyorsun, aynı anda bir şeyler de öğreniyorsun. İlk adımlardan ileri seviyeye kadar her seviyeye içerik var.",
+    "tabs": [
+      "Klasikler",
+      "Çok satanlar",
+      "Keşif"
+    ],
+    "panels": [
+      {
+        "title": "Büyük kitapları orijinalinden oku – arkanda emniyet ağı varken",
+        "text": "Küçük Prens'ten Hawking'e, farklı seviyeler için uyarlanmış ve orijinal sürümler. Paralel çeviri sayesinde en çetrefilli metin bile okunur kalıyor.",
+        "badges": [
+          "A1-A2 Başlangıç",
+          "B1-B2 Orta",
+          "C1+ İleri"
+        ]
+      },
+      {
+        "title": "Dünyanın en iyi kitaplarının özü 7–15 dakikada",
+        "text": "Dünya çapındaki çok satanların ana fikirleri, kısacık anlatılmış – hem de öğrendiğin dilde. Aynı oturumda hem kendini geliştir hem dili.",
+        "badges": [
+          "A1-A2 Başlangıç",
+          "B1-B2 Orta",
+          "C1+ İleri"
+        ]
+      },
+      {
+        "title": "Günde 5 dakika: bir güzel bilgi, birkaç yeni kelime",
+        "text": "Uzay, psikoloji, iş dünyası, doğa, teknoloji – her konuda yüzlerce kısa yazı. Her gün yeni bir şey öğren, dil de yanında gelsin.",
+        "badges": [
+          "A1-A2 Başlangıç",
+          "B1-B2 Orta",
+          "C1+ İleri"
+        ]
+      }
+    ],
+    "examples": [
+      "Düşün ve Zengin Ol • 80/20 İlkesi • Etkili İnsanların 7 Alışkanlığı • Şimdinin Gücü"
+    ]
+  },
+  "customBook": {
+    "badge": "YENİ",
+    "title": "Kendi kitabını ya da metnini yükle, çalışma malzemen o olsun",
+    "text": "Hangi dosyayı yüklersen yükle, Lingo7 onu paralel çevirili ve sesli bir çalışma malzemesine dönüştürüyor. Sonrası her zamanki döngü: okuyorsun, dinliyorsun, kelime öğreniyorsun, gölgelemeyle konuşma pratiği yapıyorsun ve kitabı yapay zekâyla konuşuyorsun.",
+    "cards": [
+      {
+        "title": "Orijinalinden çok satanlar",
+        "text": "Harry Potter, Dune, Taht Oyunları – bir türlü sıra gelmeyen kitapları öğrendiğin dilde oku."
+      },
+      {
+        "title": "İşinin ve okulunun dili",
+        "text": "İş belgeleri, makaleler, sınav materyalleri – tam da şu an içinde olduğun alanın dilini öğren."
+      }
+    ],
+    "usecases": [
+      "Sınavlar",
+      "İş",
+      "Makaleler",
+      "Mülakatlar"
+    ],
+    "formatsNote": "Kendi dosyalarını şu biçimlerde yükleyebilirsin:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Uyarlama",
+      "title": "Her kitabı oku – sana göre <span class=\"accent\">yeniden anlatılmış</span> hâliyle",
+      "text": "Kelimeler ve dilbilgisi hâlâ zor mu geliyor? Lingo7 kitabı daha yalın bir dille yeniden anlatıyor – aynı hikâye, aynı karakterler, daha sade cümleler.",
+      "cta": "Kendi kitabında dene"
+    },
+    "goalQuote": "En sevdiğim tarif: Harry Potter'ı aç, günde bir bölüm yap – oku, dinle, yeni kelimeleri öğren, sonra da yapay zekâyla konuş. Günde bir iki saatle altı ay, <span class=\"goal-quote__level\">A2'den girip B2'den çıkmana</span> yeter."
+  },
+  "audience": {
+    "title": "Lingo7 tam sana göre, eğer…",
+    "items": [
+      "Kendini zorlaya zorlaya bitirdiğin derslerle değil, ilgini çeken içerikle öğrenmek istiyorsan",
+      "Okumakla yetinmeyip dinlemeyi, konuşmayı ve yazmayı da istiyorsan – gölgelemeyle telaffuzu, yapay zekâ sohbetinde düşünceni kelimelere dökmeyi",
+      "Hazır derslerle sınırlı kalmayıp kendi malzemenle çalışmak istiyorsan – iş belgelerin, sevdiğin kitaplar ve yazılarla",
+      "Çoğu uygulamada bulunmayan, az konuşulan bir dile ihtiyacın varsa",
+      "5-15 dakikalık kısa oturumlarla ilerlemek istiyorsan"
+    ]
+  },
+  "pains": {
+    "title": "Yolunu ne kesiyor – Lingo7 buna ne yapıyor",
+    "subtitle": "Mesele yetenek meselesi değil. Mesele biçim meselesi.",
+    "chips": [
+      "Konuşmaya çekiniyorum",
+      "Sıkılıyorum",
+      "Kelimeler kalmıyor",
+      "Okumak zor",
+      "Konuşulanı anlamıyorum",
+      "Vaktim yok",
+      "Az bilinen dil",
+      "Bana uymaz"
+    ],
+    "answers": [
+      {
+        "title": "“Konuşurken yanlış yaparım diye utanıyorum”",
+        "text": "Gölgeleme, anlatıcıyı duyar duymaz cümleleri yüksek sesle tekrarlamak demek – tek başına, kimse not vermeden. Telaffuz da zaten böyle oturuyor. Yapay zekâ sohbetinde ise yazarak cümle kurmayı deniyorsun, o da seni kırmadan düzeltiyor."
+      },
+      {
+        "title": "“Çabuk sıkılıyorum”",
+        "text": "Birbirinin aynı derslerin yerine kitaplar, çok satanlar ve zaten merak ettiğin konularda yazılar. İçerik seni içine çekince geri dönmek kolay oluyor."
+      },
+      {
+        "title": "“Kelimeleri görüyorum ama aklımda kalmıyor”",
+        "text": "Tek dokunuşla kelimeyi cümlesiyle birlikte kaydediyorsun, sonra kart olarak aralıklı bir programla yeniden karşına çıkıyor. Hatırlamak şansa kalmıyor."
+      },
+      {
+        "title": "“Orijinalinden okumak bana çok zor geliyor”",
+        "text": "Cümle cümle hizalanmış paralel çeviri – iki satırda bir çeviri uygulamasına atlamak yok."
+      },
+      {
+        "title": "“Konuşulanı yakalayamıyorum”",
+        "text": "Dinleye dinleye okuma modu, kelimenin sesini yazılışına ve anlamına bağlıyor. Kulağın dile kendiliğinden alışıyor."
+      },
+      {
+        "title": "“Vaktim yok”",
+        "text": "Kısa formatlar, kısa oturumlar – günde 5-10 dakika bile ritmi bozmamana yetiyor."
+      },
+      {
+        "title": "“Az konuşulan bir dile ihtiyacım var”",
+        "text": "49 dil, az bilinenler dahil. Üstelik hangisini seçersen seç, kendi ana dilinden öğreniyorsun."
+      },
+      {
+        "title": "“Bana uymaz diye korkuyorum”",
+        "text": "Okuyabiliyorsan sana uyar. Ön bilgi, dilbilgisi ya da hazırlık gerekmiyor – seviyene uygun bir kitapla başlaman yeterli."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "{target} öğren",
+    "title": "49 dil, en yaygınından en az bilinenine",
+    "subtitle": "Hangi dili öğrenirsen öğren kendi ana dilinden öğren – çoğu uygulamanın dayattığı gibi İngilizce üzerinden değil.",
+    "groupTitles": [
+      "Popüler",
+      "Tüm diller"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 dil çifti.</strong> İstediğin bileşimi seç: öğrendiğin dil ve çeviriyi okuduğun dil."
+  },
+  "reviews": {
+    "title": "Bu kadar sevileceğini biz de beklemiyorduk",
+    "subtitle": "Ama gerçek ortada – Google Play'de yazılanlar şöyle.",
+    "items": [
+      {
+        "text": "Harika uygulama. Bir kitabın birkaç farklı İngilizce seviyesinde olması çok büyük artı. Güncellemeyi sabırsızlıkla bekliyorum!",
+        "author": "Екатерина М.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Yıllık aboneliği aldım, verdiği paraya fazlasıyla değiyor. Gerçekten çok güzel bir uygulama! İngilizceyi geliştirmek için mükemmel bir kaynak. Yetişkininden çocuğuna — faydalı değil, gerekli.",
+        "author": "Mayur L.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Brezilya'daki bir ekiple çalışmak için Portekizceye ihtiyacım vardı. Aynı anda okuma + dinleme çok işe yarıyor. 6 hafta sonra toplantıları takip edebiliyordum.",
+        "author": "Rosita R.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Hep Almanca öğrenmek istemiştim; bu uygulamada her şey benzerlerine göre çok daha anlaşılır ve kolay. Uygulama 10 üzerinden 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Sesli okuma özelliğini kullanıyorum, benim için gerçek bir dönüm noktası oldu. Ses kayıtları net, metinle de tam senkron. Dil öğrenenler için muhteşem bir araç.",
+        "author": "Zeynep O.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Fikri de yapılışı da tam not. Şu an Sırpça kitap sunan tek uygulama. Ellerinize sağlık! Teşekkürler!",
+        "author": "Вася К.",
+        "source": "Google Play • orijinalini gör"
+      },
+      {
+        "text": "Bir öğretmen olarak benim için gerçekten çok güzel bir uygulama. Öğrencilerime tavsiye ediyorum. Çok keyifli. Herkese öneririm.",
+        "author": "Sasha T.",
+        "source": "Google Play • orijinalini gör"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Sıkça sorulan sorular",
+    "items": [
+      {
+        "q": "Lingo7 sıfırdan başlayan biri için işe yarar mı?",
+        "a": "Evet. Her seviyeye uygun içerik var, paralel çeviri de metni daha ilk andan anlaşılır kılıyor."
+      },
+      {
+        "q": "Orijinalinden okumak için hangi seviyede olmam gerekiyor?",
+        "a": "Seviyen fark etmez. Paralel çeviri sayesinde sözlüğe bakmak gerekmiyor, fazla zor gelen bir kitap da daha yalın bir dille yeniden anlatılabiliyor – hikâye ve karakterler aynı, dilbilgisiyle kelimeler senin seviyende. Hepsi A1'den C1'e etiketli."
+      },
+      {
+        "q": "Günde 10 dakika çalışsam olur mu?",
+        "a": "Olur. Kısa yazılar, kitap özetleri ve kelime kartları tam da kısa günlük oturumlar için yapıldı."
+      },
+      {
+        "q": "Hangi diller var?",
+        "a": "49 dil var ve hepsini kendi ana dilinden öğrenebilirsin – sadece İngilizce üzerinden değil. Yani 49 × 48 = 2352 dil çifti, az konuşulan diller dahil."
+      },
+      {
+        "q": "Alışılmış dil uygulamalarından farkı ne?",
+        "a": "Birbirinden kopuk alıştırmalar yerine ilgini çeken içerikten öğreniyorsun ve bütün beceriler tek bir döngüde birleşiyor: okuyorsun, dinliyorsun, kelimeleri aralıklı tekrara kaydediyorsun, dilbilgisini bağlam içinde kapıyorsun, konuşmayı gölgelemeyle, yazmayı yapay zekâ sohbetinde çalışıyorsun. Üstelik kendi kitabını ya da belgeni de yükleyebiliyorsun."
+      },
+      {
+        "q": "Konuşma pratiği var mı?",
+        "a": "Var. Konuşma tarafında gölgeleme var – anlatıcıyı duyar duymaz cümleleri yüksek sesle tekrarlıyor, telaffuzunu ve tonlamanı geliştiriyorsun. Yazma tarafında yapay zekâ sohbeti var: okuduklarını konuşuyorsun, o da cümleni toparlamana yardım edip hatalarını buluyor. Gerçek bir insanla canlı konuşma henüz yok – planlarımızda var."
+      },
+      {
+        "q": "Hangi dosya biçimlerini yükleyebilirim?",
+        "a": "PDF, EPUB, FB2 ve TXT. İş belgelerini, sevdiğin kitapları ya da yazıları yükle – uygulama paralel çeviriyi kuruyor, sesini ekliyor ve yeni kelimeleri tekrar aracına topluyor."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bugün alıştırmayla değil, kitapla {target} öğrenmeye başla",
+    "text": "Uygulamayı indir ve ilk kitabını aç.",
+    "perks": [
+      "49 dil",
+      "Her seviye"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Hakkımızda",
+      "İletişim",
+      "Kariyer",
+      "Okullar için",
+      "Dil nasıl öğrenilir",
+      "Kullanım koşulları",
+      "Gizlilik"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Tüm hakları saklıdır."
+  },
+  "downloadModal": {
+    "title": "Lingo7'yi indir",
+    "text": "App Store ve Google Play'de"
+  },
+  "stickyCta": {
+    "label": "Uygulamayı indir"
+  },
+  "mobileMenu": {
+    "links": [
+      "Nasıl çalışır",
+      "Kitaplık",
+      "Diller",
+      "Yorumlar",
+      "SSS"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Dinle",
+      "add": "Kaydet",
+      "translate": "Çevir",
+      "addToMyWords": "Kelimelerime ekle",
+      "inMyWords": "Kelimelerimde",
+      "audioMode": "Ses modu",
+      "discussWithAi": "Yapay zekâyla konuş",
+      "selfCheck": "Kendini dene"
+    },
+    "wordCard": {
+      "freqHigh": "YAYGIN",
+      "freqMid": "ORTA",
+      "example": "Örnek",
+      "otherTranslations": "Diğer anlamlar",
+      "synonyms": "Eş anlamlılar",
+      "open": "Aç",
+      "group": "Grup:",
+      "groupDefault": "Genel",
+      "page": "s."
+    },
+    "readerSettings": {
+      "sectionText": "METİN",
+      "sectionAudio": "SES",
+      "highlightMyWords": "Kelimelerimi vurgula",
+      "highlightMyWordsHint": "Kaydettiğin kelimeleri işaretler",
+      "theme": "Tema",
+      "themeLight": "Açık",
+      "fontSize": "Yazı boyutu",
+      "font": "Yazı tipi",
+      "speakOnTap": "Dokununca kelimeyi seslendir",
+      "speakOnTapHint": "Dokunduğun kelimeyi okur",
+      "speechRate": "Konuşma hızı",
+      "pronunciationTest": "Telaffuz testi",
+      "playSample": "Örnek cümleyi çal",
+      "reset": "Ayarları sıfırla",
+      "done": "Tamam",
+      "on": "Açık",
+      "off": "Kapalı",
+      "accent": "Aksan",
+      "translationAlways": "Her zaman"
+    },
+    "vocab": {
+      "pickRightPicture": "Doğru görseli seç",
+      "correct": "Tam isabet",
+      "rightAnswer": "Doğru cevap:",
+      "next": "İleri",
+      "done": "Bitti",
+      "skip": "Atla",
+      "exercise": "Alıştırma",
+      "exerciseMeta": "/11 · 10 kelime"
+    },
+    "chat": {
+      "title": "Pratik",
+      "discussing": "Konuştuğumuz kitap: “{book}”",
+      "finish": "Bitir",
+      "playing": "Oynatılıyor…",
+      "replyOptions": "Cevap önerileri",
+      "placeholder": "Bir mesaj yaz"
+    },
+    "bookDetail": {
+      "adapted": "Uyarlanmış",
+      "adaptedHint": "Daha yalın bir dille yeniden anlatıldı, anlamı korundu",
+      "original": "Orijinal",
+      "originalHint": "Metnin tamamı, orijinal hâliyle",
+      "open": "Aç",
+      "genre": "Tür",
+      "badgeSummary": "Özet"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Ara",
+      "upload": "Kitap yükle",
+      "tabCatalog": "Katalog",
+      "tabAll": "Tüm kitaplar",
+      "tabFavorites": "Favoriler",
+      "shelfBestsellers": "Dünya çok satanları",
+      "shelfBestsellersSub": "kısa anlatım hâlinde, sesli",
+      "shelfStories": "Kısa hikâyeler",
+      "shelfStoriesSub": "Küçük hikâyeler, büyük anlamlar",
+      "bandTitle": "Günde 5 dakika",
+      "bandText": "Her gün ilginç şeyler öğren, dil de kendiliğinden gelsin.",
+      "shelfAmazing": "Şaşırtıcı hikâyeler",
+      "shelfNature": "Doğanın gizemleri",
+      "shelfHealth": "Sağlık ve bilim",
+      "moreTopics": "Daha fazla konu",
+      "shelfGolden": "Altın klasikler",
+      "shelfGoldenSub": "İnsanlığı değiştiren 200 kitap",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Kitaplık",
+      "practice": "Pratik",
+      "read": "Oku",
+      "myWords": "Kelimelerim",
+      "collections": "Koleksiyonlar"
+    }
+  },
+  "_note": "Переведено с эталона i18n/en.json под локаль tr (турецкий как язык интерфейса читателя, my_lang). Не машинный перевод и не правка az.json: строки написаны заново под турецкий синтаксис и узус потребительских приложений. Слот {target} несёт форму названия языка на -CA (İspanyolca, İngilizce, Almanca) — аффикс гармонии гласных вобран ВНУТРЬ слота, снаружи после слота не стоит ни одного согласуемого токена. Бюджет выдачи посчитан по самому длинному из 49 названий — «Azerbaycanca» (12 знаков). Обращение — неформальное «sen», как принято в турецких потребительских приложениях. Файл прошёл снятие калек по i18n/en.gloss.json: все 30 глоссарных строк перечитаны, образы эталона (вес, поза, тяга, возврат, «work on») переписаны турецкими средствами.",
+  "_contract": {
+    "government": "Голая, неизменяемая форма названия языка на -CA (İspanyolca / İngilizce / Almanca). Одна позиция на все 9 строк: неоформленное дополнение при öğrenmek («İspanyolca öğren») и та же самая словоформа определением перед существительным («İspanyolca kitaplar»). Ни падежного, ни притяжательного, ни множественного аффикса, ни послелога с алломорфией (-le/-la, -e/-a) после слота НЕТ ни в одной из девяти строк — вся гармония гласных заперта внутри атома. Строки, где по-английски естественно было бы «read in {target}» или «{target}'yı öğren», переписаны так, чтобы слот стоял только в этих двух позициях.",
+    "slotExample": "İspanyolca",
+    "slotExampleEnglish": "İngilizce",
+    "longestSlot": "Azerbaycanca",
+    "longestSlotLang": "азербайджанский (12 знаков). Дальше идут İspanyolca / Portekizce / Afrikaanca / Felemenkçe по 10, затем Fransızca, Makedonca, Endonezce, Ukraynaca, Vietnamca, Arnavutça, Filipince, Galiçyaca, İzlandaca, İtalyanca, Katalanca по 9. Взята длинная форма «Azerbaycanca», а не разговорная «Azerice» (7): бюджет считается по худшему случаю.",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 153,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "Обращение: везде неформальное «sen» (oku, öğren, kaydet). Это норма турецких потребительских приложений и обучающих продуктов; вежливое «siz» звучало бы как школьный учебник. Если бренд решит перейти на «siz», правится весь файл разом — форм повелительного наклонения около 60.",
+      "hero.title и finalCta.title: «İspanyolca öğren» формально читается и как наречное «учись по-испански» (значение -CA как наречия). В контексте приложения для изучения языков однозначно и совпадает с узусом поисковых запросов, но это первая пара строк, которую стоит показать носителю.",
+      "Форма на -CA у редких языков закреплена слабее, чем İngilizce/Almanca/Rusça: Baskça, Zuluca, Svahilice, Galiçyaca, Boşnakça, Felemenkçe (или Hollandaca), Belarusça (или устаревшее Beyaz Rusça). Перед выкаткой сверить всю таблицу из 49 атомов; вариант с двумя словами («Beyaz Rusça») ломает вид заголовка, поэтому предпочитать однословные формы.",
+      "meta.title: слот намеренно не первым словом. Названия языков в турецком пишутся с прописной, так что автозаглавная не портит смысл, но при text-transform: capitalize браузер превратит «İspanyolca» в «Ispanyolca» — потеря точки над İ, видимая орфографическая ошибка, которую не поймает ни одна автопроверка.",
+      "appUi.chat.discussing: аффикс после названия книги убран конструкцией «Konuştuğumuz kitap: “{book}”» — иначе форма винительного аффикса зависела бы от последнего гласного названия книги (тот же запрет, что и для {target}).",
+      "«Shadowing» переведено как «gölgeleme»; английский термин дан один раз в скобках в method.skills[5].text, потому что часть турецких изучающих знает его именно по-английски. Проверить у носителя, не нужно ли наоборот — «shadowing» основным, «gölgeleme» в скобках.",
+      "Названия книг: «Küçük Prens», «Taht Oyunları», «Düşün ve Zengin Ol», «80/20 İlkesi», «Etkili İnsanların 7 Alışkanlığı», «Şimdinin Gücü» — изданные турецкие названия. «Dune» и «Harry Potter» оставлены в оригинале: именно так они изданы в Турции.",
+      "customBook.adapt.text и faq.items[1].a: английское «too heavy» переведено как «zor geliyor» (трудно), а не «ağır» (тяжело по весу) — сознательный уход от кальки. reviews.title: английское «We didn't expect you to like it this much» развёрнуто в турецкий безличный залог, дословная связка не строится."
+    ]
+  }
+}

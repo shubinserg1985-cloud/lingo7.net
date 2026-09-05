@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "title": "Leer {target} deur te lees: tweetalige boeke en oudio",
+    "description": "Lees boeke in {target} met die Afrikaanse vertaling en die oudio langsaan, leer woorde met tussenposes, oefen shadowing en gesels oor hoofstukke met KI.",
+    "ogTitle": "Leer {target} deur te lees: tweetalige boeke en oudio",
+    "ogDescription": "Lees boeke in {target} met die Afrikaanse vertaling en die oudio langsaan. Stoor woorde met een tik en herhaal hulle met al groter tussenposes.",
+    "twitterTitle": "Leer {target} deur te lees: tweetalige boeke en oudio",
+    "twitterDescription": "Lees boeke in {target} met Afrikaans reg langsaan, stoor woorde met een tik en herhaal hulle met al groter tussenposes."
+  },
+  "nav": {
+    "links": [
+      "Hoe dit werk",
+      "Biblioteek",
+      "Tale",
+      "Resensies",
+      "Vrae"
+    ]
+  },
+  "hero": {
+    "title": "Leer {target} deur boeke te lees, nie deur eindelose driloefeninge nie",
+    "subtitle": "Lees en luister na dinge wat jou werklik boei, stoor woorde reg uit die teks uit, en ’n herhalingsalgoritme wys hulle net betyds weer vir jou.",
+    "cta": "Kry die app",
+    "trust": "49 tale • iPhone / Android",
+    "pills": [
+      "Parallelle vertaling",
+      "Oudio + lees",
+      "Woordeskatbouer",
+      "Herhaling met tussenposes",
+      "Enige boek of teks",
+      "Shadowing",
+      "Gesels met KI oor die boek"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "’n Boek in plaas van ’n kursus",
+        "span": "Leer met iets wat jy vir plesier sou lees"
+      },
+      {
+        "strong": "49 tale",
+        "span": "Van die algemeenste tot die skaarsste"
+      },
+      {
+        "strong": "’n Biblioteek vir elke smaak",
+        "span": "Klassieke werke, wêreldblitsverkopers en artikels"
+      },
+      {
+        "strong": "Alles hang saam in een kringloop",
+        "span": "Lees, oudio, woordeskat en herhaling"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Hoekom die meeste taal-apps stof vergaar – en dié een nie",
+    "subtitle": "Dit was nog nooit jou dissipline nie. Dit was die formaat.",
+    "labelOld": "❌ Gewoonlik",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Jy memoriseer woorde wat jy nie kan gebruik nie",
+          "text": "Lyste en flitskaarte sonder konteks. Môre is dit alweer weg."
+        },
+        "new": {
+          "title": "Woorde kom in lewende sinne voor",
+          "text": "Jy sien hoe ’n woord in ’n sin werk, en dan onthou jy dit vanself – sonder om dit in te dril."
+        }
+      },
+      {
+        "old": {
+          "title": "Elke dag presies dieselfde oefeninge",
+          "text": "Dit raak vervelig, die motivering sak, en ná die eerste week gaan die app nie weer oop nie."
+        },
+        "new": {
+          "title": "Jy lees wat jy in elk geval sou lees",
+          "text": "Blitsverkopers, vreemde ware verhale, populêre wetenskap – goed waarna jy uit jou eie terugkeer."
+        }
+      },
+      {
+        "old": {
+          "title": "Die oorspronklike is te moeilik om te lees",
+          "text": "Onbekende woorde oral, die storie glip weg, en op bladsy een los jy dit."
+        },
+        "new": {
+          "title": "Parallelle vertaling – en verwerking daarby",
+          "text": "Die vertaling staan reg langs die teks, en ’n boek wat te moeilik is, kan op jou vlak herskryf word."
+        }
+      },
+      {
+        "old": {
+          "title": "Jy lees wat ook al in die katalogus is",
+          "text": "’n Vaste biblioteek. Jou eie boek kan jy nie inbring nie."
+        },
+        "new": {
+          "title": "Enige boek of teks word jou handboek",
+          "text": "Gee die app die boeke waarvan jy hou en die dokumente wat jy nodig het, en jy kry hulle terug met parallelle vertaling, oudio en woordherhaling."
+        }
+      },
+      {
+        "old": {
+          "title": "Jy lees en luister, maar alles bly passief",
+          "text": "Nêrens om te praat of te skryf nie, en die vaardigheid raak nooit vas nie."
+        },
+        "new": {
+          "title": "Jy lees nie net nie – jy praat en skryf ook",
+          "text": "Jy gesels met KI oor die boek wat jy pas klaar gelees het – jy hoef nie ’n onderwerp uit te dink nie. En as jy iets het om te sê, kom die praat en die skryf maklik."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Al 7 taalvaardighede op een plek",
+    "subtitle": "Om ’n taal te ken, verg sewe verskillende vaardighede. Lingo7 oefen hulle saam eerder as een vir een, sodat elkeen die ander versterk.",
+    "skills": [
+      {
+        "title": "Lees",
+        "text": "Lees die oorspronklike of ’n verwerkte weergawe met die vertaling reg langsaan – vinnig en sonder woordeboek."
+      },
+      {
+        "title": "Luister",
+        "text": "Oudioboeke en ’n luister-en-lees-modus – een van die doeltreffendste maniere om jou oor te slyp."
+      },
+      {
+        "title": "Woordeskat",
+        "text": "Nuwe woorde bly hang terwyl jy lees, sonder dat jy hulle indril. Oefeninge en herhaling met tussenposes lê hulle vir die lang duur vas."
+      },
+      {
+        "title": "Grammatika",
+        "text": "Die beste manier om grammatika in te neem, is om die reëls in ’n werklike sin te sien werk."
+      },
+      {
+        "title": "Skryf",
+        "text": "KI-klets: jy bespreek wat jy pas gelees het, en daar is altyd iets om oor te skryf. Dit help jou om die gedagte te vorm en vang jou foute."
+      },
+      {
+        "title": "Praat",
+        "text": "Shadowing: jy praat die verteller hardop na en werk so aan vlotheid, ritme en intonasie."
+      },
+      {
+        "title": "Uitspraak",
+        "text": "Uitspraakoefeninge help jou om jou aksent nader te kry aan dié van ’n moedertaalspreker."
+      }
+    ],
+    "conductor": {
+      "badge": "Persoonlike plan · Binnekort",
+      "title": "Die app sal self vir jou sê wat jy vandag moet doen",
+      "text": "Dit kies die regte ding op die regte oomblik – lees, hardop naspreek, woorde vaslê of ’n hoofstuk met KI bespreek. Jy hoef nooit te besluit waar om te begin of wat volgende kom nie.",
+      "caption": "So lyk ’n sessie vir vandag – joune stel die app self saam.",
+      "steps": [
+        {
+          "label": "Lees",
+          "meta": "15 min"
+        },
+        {
+          "label": "Luister en lees",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Nou · 7 min"
+        },
+        {
+          "label": "Woorde",
+          "meta": "25 kaarte"
+        },
+        {
+          "label": "KI-klets",
+          "meta": "bespreek die hoofstuk"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Hoe om ’n taal uit boeke te leer: vyf stappe",
+    "subtitle": "Geen ingewikkelde metode nie. Een duidelike kringloop, met inhoud wat goed genoeg is om jou daardeur te dra.",
+    "items": [
+      {
+        "title": "Kies jou inhoud",
+        "text": "Opsommings van blitsverkopers, klassieke werke, kortverhale – volgens luim, vlak en die tyd wat jy het."
+      },
+      {
+        "title": "Lees met parallelle vertaling",
+        "text": "Oorspronklike en vertaling langs mekaar; tik ’n woord aan vir die betekenis, die klank, of om dit te stoor."
+      },
+      {
+        "title": "Leer die woorde",
+        "text": "Gestoorde woorde kom terug in oefeninge wat verskillende soorte geheue aanspreek, elke keer met ’n groter tussenpose."
+      },
+      {
+        "title": "Luister en praat hardop na",
+        "text": "Elke sin het oudio: luister, en praat dan die verteller na – so kry jy uitspraak en intonasie reg."
+      },
+      {
+        "title": "Bespreek die boek met KI",
+        "text": "Die KI werk die boek saam met jou deur – jy oefen skryf en praat, en leer om jou gedagtes in ’n nuwe taal te sê."
+      }
+    ]
+  },
+  "library": {
+    "title": "Boeke in {target} met vertaling – volgens vlak, A1 tot C1",
+    "subtitle": "Jy leer nie net ’n taal nie, jy leer ook iets. Materiaal vir elke vlak, van die eerste treë tot gevorderd.",
+    "tabs": [
+      "Klassieke werke",
+      "Blitsverkopers",
+      "Discovery"
+    ],
+    "panels": [
+      {
+        "title": "Lees die groot boeke in die oorspronklike – met ’n vangnet",
+        "text": "Verwerkte en oorspronklike weergawes vir verskillende vlakke, van Die Klein Prinsie tot Hawking. Die parallelle vertaling hou selfs moeilike prosa leesbaar.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Middelvlak",
+          "C1+ Gevorderd"
+        ]
+      },
+      {
+        "title": "Die kern van die wêreld se beste boeke in 7–15 minute",
+        "text": "Die kerngedagtes van wêreldwye blitsverkopers, kort oorvertel – in die taal wat jy leer. Groei en leer die taal in dieselfde sitting.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Middelvlak",
+          "C1+ Gevorderd"
+        ]
+      },
+      {
+        "title": "5 minute per dag: een goeie feit en ’n paar nuwe woorde",
+        "text": "Ruimte, sielkunde, sake, natuur, tegnologie – honderde kort artikels oor enige onderwerp. Leer elke dag iets nuuts, en die taal kom sommer saam.",
+        "badges": [
+          "A1-A2 Beginner",
+          "B1-B2 Middelvlak",
+          "C1+ Gevorderd"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "NUUT",
+    "title": "Laai jou eie boek of teks op en leer daaruit",
+    "text": "Laai enige lêer op, en Lingo7 maak daarvan leerstof met parallelle vertaling en oudio. Daarna is dit die gewone kringloop: jy lees, luister, leer woorde, slyp jou spraak met shadowing en bespreek alles met KI.",
+    "cards": [
+      {
+        "title": "Blitsverkopers in die oorspronklike",
+        "text": "Harry Potter, Dune, A Game of Thrones – lees die boeke waarby jy nog altyd wou uitkom, in die taal wat jy leer."
+      },
+      {
+        "title": "Die taal wat jou werk en studie vra",
+        "text": "Werkdokumente, artikels, eksamenstof – leer die taal van die veld waarin jy nou eintlik staan."
+      }
+    ],
+    "usecases": [
+      "Eksamens",
+      "Werk",
+      "Artikels",
+      "Onderhoude"
+    ],
+    "formatsNote": "Laai jou eie lêers op in hierdie formate:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Verwerking",
+      "title": "Lees enige boek – <span class=\"accent\">herskryf</span> om by jou te pas",
+      "text": "Is die woorde en die grammatika nog te moeilik? Lingo7 herskryf die boek in eenvoudiger taal – dieselfde storie, dieselfde karakters, makliker sinne.",
+      "cta": "Probeer dit op jou boek"
+    },
+    "goalQuote": "My gunstelingresep: vat Harry Potter en doen ’n hoofstuk per dag – lees dit, luister daarna, leer die nuwe woorde, bespreek dit met KI. Ses maande lank ’n uur of twee per dag, en jy stap <span class=\"goal-quote__level\">by A2 in en by B2 uit</span>."
+  },
+  "audience": {
+    "title": "Lingo7 is vir jou as jy...",
+    "items": [
+      "Met inhoud wil leer eerder as met lesse waardeur jy jouself moet sleep",
+      "Meer as net lees wil hê – ook luister, praat en skryf: uitspraak deur shadowing, en in die KI-klets jou gedagtes in woorde omsit",
+      "Met jou eie materiaal wil werk – werkdokumente, gunstelingboeke en artikels – en nie net met klaargemaakte lesse nie",
+      "’n Skaars taal soek wat die meeste apps nie aanbied nie",
+      "In kort sessies van 5-15 minute wil werk"
+    ]
+  },
+  "pains": {
+    "title": "Wat in die pad staan – en wat Lingo7 daaraan doen",
+    "subtitle": "Dit gaan nie oor aanleg nie. Dit gaan oor formaat.",
+    "chips": [
+      "Bang om te praat",
+      "Ek verveel my",
+      "Woorde bly nie",
+      "Lees is swaar",
+      "Sukkel met luister",
+      "Geen tyd",
+      "Skaars taal",
+      "Sal my nie pas nie"
+    ],
+    "answers": [
+      {
+        "title": "“Ek skaam my om te praat en foute te maak”",
+        "text": "Shadowing beteken dat jy die verteller hardop napraat, frase vir frase, op jou eie, met niemand wat punte gee nie. So slyp jy jou uitspraak. In die KI-klets werk jy skriftelik aan jou formulering, en dit help jou vriendelik reg."
+      },
+      {
+        "title": "“Ek verveel my gou”",
+        "text": "In plaas van eenderse lesse: boeke, blitsverkopers en artikels oor onderwerpe waaroor jy in elk geval sou lees. As die inhoud jou boei, is dit maklik om terug te kom."
+      },
+      {
+        "title": "“Ek sien die woorde, maar hulle bly nie”",
+        "text": "Een tik stoor ’n woord saam met die sin waarin dit staan, en later duik dit weer as ’n kaart op, elke keer met ’n groter tussenpose. Onthou is nie meer ’n kwessie van geluk nie."
+      },
+      {
+        "title": "“Die oorspronklike is vir my te swaar om te lees”",
+        "text": "Parallelle vertaling met die sinne langs mekaar in lyn – jy hoef nie elke tweede reël in ’n vertaalprogram te gaan kyk nie."
+      },
+      {
+        "title": "“Ek kan nie die gesproke taal volg nie”",
+        "text": "Die luister-en-lees-modus koppel die klank van ’n woord aan die spelling en die betekenis daarvan. Jou oor raak vanself gewoond aan die taal."
+      },
+      {
+        "title": "“Ek het nie die tyd nie”",
+        "text": "Kort formate en vinnige sessies – selfs 5-10 minute per dag hou jou in die ritme."
+      },
+      {
+        "title": "“Ek soek ’n skaars taal”",
+        "text": "49 tale, skaarses ingesluit. En jy leer enigeen van hulle vanuit jou eie moedertaal."
+      },
+      {
+        "title": "“Ek is bang dit pas nie vir my nie”",
+        "text": "As jy kan lees, pas dit vir jou. Geen voorkennis, grammatika of voorbereiding nodig nie – begin met enige boek op jou vlak."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Leer {target}",
+    "title": "49 tale, van die algemeenste tot die skaarsste",
+    "subtitle": "Leer enige taal vanuit jou eie moedertaal – nie net deur Engels nie, soos die meeste apps jou dwing.",
+    "groupTitles": [
+      "Gewild",
+      "Alle tale"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 taalpare.</strong> Kies enige kombinasie: die taal wat jy leer, en die taal waarin jy die vertaling lees."
+  },
+  "reviews": {
+    "title": "Ons het nie verwag dat julle só daarvan sou hou nie",
+    "subtitle": "Maar feite is feite – dis wat mense op Google Play skryf.",
+    "items": [
+      {
+        "text": "Wonderlike app. Groot pluspunt dat een boek op verskillende Engelse vlakke beskikbaar is. Ek wag ongeduldig vir die opdatering!",
+        "author": "Екатерина М.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Ek het die jaarintekening gekry en dit is baie goeie waarde. Dit is regtig ’n wonderlike app! ’n Uitstekende hulpbron om jou Engels te verbeter. Van volwassenes tot kinders – nie net nuttig nie, maar nodig.",
+        "author": "Mayur L.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Ek het Portugees nodig gehad om met ’n span in Brasilië te werk. Om gelyktydig te lees en te luister, werk baie goed. Ná 6 weke kon ek die vergaderings al volg.",
+        "author": "Rosita R.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Ek wou nog altyd Duits leer, en in hierdie app is alles baie meer toeganklik en duidelik as in ander apps van die soort. Die app is 10 uit 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Ek gebruik die lees-met-oudio-funksie en dit was vir my ’n regte deurbraak. Die klankbane is helder en goed gesinchroniseer. Fantastiese hulpmiddel vir taalleerders.",
+        "author": "Zeynep O.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Die idee en die uitvoering kry ’n A+. Op die oomblik is dit die enigste app met Serwiese boeke. Mooi so! Dankie!",
+        "author": "Вася К.",
+        "source": "Google Play • sien die oorspronklike"
+      },
+      {
+        "text": "Dit is regtig ’n wonderlike app vir my as onderwyser. Ek beveel dit by my leerders aan. Baie aangenaam. Ek beveel dit by almal aan.",
+        "author": "Sasha T.",
+        "source": "Google Play • sien die oorspronklike"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Gereelde vrae",
+    "items": [
+      {
+        "q": "Sal Lingo7 werk as ek heeltemal van voor af begin?",
+        "a": "Ja. Daar is stof vir elke vlak, en die parallelle vertaling maak die teks van die heel begin af verstaanbaar."
+      },
+      {
+        "q": "Van watter vlak af kan ek in die oorspronklike lees?",
+        "a": "Van enige vlak af. Die parallelle vertaling maak ’n woordeboek onnodig, en ’n boek wat te moeilik is, kan in eenvoudiger taal herskryf word – dieselfde storie en karakters, maar met grammatika en woorde wat by jou vlak pas. Alles is van A1 tot C1 gemerk."
+      },
+      {
+        "q": "Kan ek 10 minute per dag leer?",
+        "a": "Ja. Kort artikels, boekopsommings en woordkaarte is juis vir kort daaglikse sessies gemaak."
+      },
+      {
+        "q": "Watter tale is beskikbaar?",
+        "a": "49 tale, en jy kan enigeen van hulle vanuit jou eie moedertaal leer – nie net deur Engels nie. Dit is 49 × 48 = 2352 taalpare, skaars tale ingesluit."
+      },
+      {
+        "q": "Hoe verskil dit van die gewone taal-apps?",
+        "a": "In plaas van los oefeninge leer jy met inhoud wat jou interesseer, en elke vaardigheid is in een kringloop vasgeknoop: jy lees en luister, stoor woorde vir herhaling met tussenposes, tel grammatika in konteks op, slyp jou spraak met shadowing en jou skryfwerk in die KI-klets. En jy kan jou eie boek of dokument oplaai."
+      },
+      {
+        "q": "Is daar praatoefening?",
+        "a": "Ja. Vir praat is daar shadowing – jy praat die verteller hardop na, frase vir frase, en so kry jy jou uitspraak en intonasie reg. Vir skryf is daar die KI-klets: jy bespreek wat jy gelees het, en dit help jou formuleer en vind jou foute. Daar is nog nie ’n lewende gesprek met ’n mens nie – dit is beplan."
+      },
+      {
+        "q": "Watter lêerformate kan ek oplaai?",
+        "a": "PDF, EPUB, FB2 en TXT. Laai werkdokumente, gunstelingboeke of artikels op – die app bou die parallelle vertaling, voeg oudio by en versamel die nuwe woorde in die woordoefenaar."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Begin vandag om {target} te leer – met ’n boek in plaas van driloefeninge",
+    "text": "Laai die app af en maak jou eerste boek oop.",
+    "perks": [
+      "49 tale",
+      "Elke vlak"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Oor ons",
+      "Kontak",
+      "Loopbane",
+      "Vir skole",
+      "Hoe om tale te leer",
+      "Gebruiksvoorwaardes",
+      "Privaatheid"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Alle regte voorbehou."
+  },
+  "downloadModal": {
+    "title": "Kry Lingo7",
+    "text": "Beskikbaar op die App Store en Google Play"
+  },
+  "stickyCta": {
+    "label": "Kry die app"
+  },
+  "mobileMenu": {
+    "links": [
+      "Hoe dit werk",
+      "Biblioteek",
+      "Tale",
+      "Resensies",
+      "Vrae"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Luister",
+      "add": "Stoor",
+      "translate": "Vertaal",
+      "addToMyWords": "Voeg by my woorde",
+      "inMyWords": "In my woorde",
+      "audioMode": "Oudiomodus",
+      "discussWithAi": "Gesels met KI",
+      "selfCheck": "Toets jouself"
+    },
+    "wordCard": {
+      "freqHigh": "ALGEMEEN",
+      "freqMid": "MIDDEL",
+      "example": "Voorbeeld",
+      "otherTranslations": "Meer vertalings",
+      "synonyms": "Sinonieme",
+      "open": "Maak oop",
+      "group": "Groep:",
+      "groupDefault": "Algemeen",
+      "page": "bl."
+    },
+    "readerSettings": {
+      "sectionText": "TEKS",
+      "sectionAudio": "OUDIO",
+      "highlightMyWords": "Merk my woorde uit",
+      "highlightMyWordsHint": "Merk die woorde uit wat jy gestoor het",
+      "theme": "Tema",
+      "themeLight": "Lig",
+      "fontSize": "Lettergrootte",
+      "font": "Lettertipe",
+      "speakOnTap": "Sê die woord as jy dit aantik",
+      "speakOnTapHint": "Lees die woord wat jy aangetik het, hardop voor",
+      "speechRate": "Spraakspoed",
+      "pronunciationTest": "Uitspraaktoets",
+      "playSample": "Speel ’n voorbeeldfrase",
+      "reset": "Stel instellings terug",
+      "done": "Klaar",
+      "on": "Aan",
+      "off": "Af",
+      "accent": "Aksent",
+      "translationAlways": "Altyd"
+    },
+    "vocab": {
+      "pickRightPicture": "Kies die regte prent",
+      "correct": "Presies reg",
+      "rightAnswer": "Regte antwoord:",
+      "next": "Volgende",
+      "done": "Klaar",
+      "skip": "Slaan oor",
+      "exercise": "Oefening",
+      "exerciseMeta": "/11 · 10 woorde"
+    },
+    "chat": {
+      "title": "Oefen",
+      "discussing": "Ons gesels oor “{book}”",
+      "finish": "Eindig",
+      "playing": "Speel af…",
+      "replyOptions": "Antwoordkeuses",
+      "placeholder": "Skryf ’n boodskap"
+    },
+    "bookDetail": {
+      "adapted": "Verwerk",
+      "adaptedHint": "In eenvoudiger taal herskryf, betekenis behou",
+      "original": "Oorspronklik",
+      "originalHint": "Die volledige oorspronklike teks, onveranderd",
+      "open": "Maak oop",
+      "genre": "Genre",
+      "badgeSummary": "Opsomming"
+    },
+    "library": {
+      "profile": "Profiel",
+      "search": "Soek",
+      "upload": "Laai ’n boek op",
+      "tabCatalog": "Katalogus",
+      "tabAll": "Alle boeke",
+      "tabFavorites": "Gunstelinge",
+      "shelfBestsellers": "Wêreldwye blitsverkopers",
+      "shelfBestsellersSub": "kort oorvertel, met oudio",
+      "shelfStories": "Kort verhale",
+      "shelfStoriesSub": "Klein stories met ’n groot boodskap",
+      "bandTitle": "5 minute per dag",
+      "bandText": "Ontdek elke dag iets interessants – en die taal kom sommer saam.",
+      "shelfAmazing": "Ongelooflike stories",
+      "shelfNature": "Raaisels van die natuur",
+      "shelfHealth": "Gesondheid en wetenskap",
+      "moreTopics": "Meer onderwerpe",
+      "shelfGolden": "Goue klassieke",
+      "shelfGoldenSub": "200 boeke wat die mensdom verander het",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteek",
+      "practice": "Oefen",
+      "read": "Lees",
+      "myWords": "My woorde",
+      "collections": "Versamelings"
+    }
+  },
+  "_note": "Переведено с эталона i18n/en.json на африкаанс (язык интерфейса читателя, my_lang), 2026-08-29, по брифу i18n/TRANSLATION-BRIEF.md. Структура ключей собрана из en.json механически, значения написаны заново, не подстрочником. Обращение на «jy» (неформальное) — норма для потребительского приложения. Названия языков в африкаанс пишутся С ЗАГЛАВНОЙ (Engels, Spaans, Zoeloe) — вопреки пометке в задании про «германские со строчной» (это верно для da/no/sv/is, но не для af и nl). Книги без изданного африкаанс-перевода оставлены латиницей; «The Little Prince» — изданное «Die Klein Prinsie». Файл прошёл снятие калек по i18n/en.gloss.json (2026-08-30): сложность больше не «swaar» (вес), адаптация больше не «oorskryf» (списать набело), а «herskryf»; shadowing описан как «die verteller napraat», а не «agter die verteller aan». Третий круг (2026-08-30, разбор i18n/_qa/gemini-af.json): порядок слов в faq.items[5].a и compare.rows[4].new.text приведён к обычному африкаанс (без голландской топикализации), в method.conductor.title добавлен адресат «vir jou», в pains.answers[0].text снята частица «in» при «slyp».",
+  "_contract": {
+    "government": "Голое неизменяемое название языка без артикля и без атрибутивного -e: прямое дополнение при глаголе «leer» (Leer Spaans / om Spaans te leer) и та же форма после предлога «in» (boeke in Spaans). В африкаанс нет падежей, поэтому байты слота в обеих позициях идентичны. ЗАПРЕЩЕНО атрибутивное употребление (Spaanse boeke) — это вторая форма, её в файле нет.",
+    "slotExample": "Spaans",
+    "slotExampleEnglish": "Engels",
+    "longestSlot": "Azerbeidjans",
+    "longestSlotLang": "азербайджанский (12 знаков; следом — Wit-Russies 11, Nederlands / Indonesies / Macedonies / Viëtnamees 10)",
+    "titleRenderedLen": 57,
+    "descRenderedLen": 156,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "library.examples[0] — четыре деловые книги оставлены по-английски: изданных африкаанс-переводов не нашлось, выдумывать бриф запрещает. Носителю — проверить по каталогам ZA.",
+      "«Shadowing» оставлен английским термином (как в ru.json). Альтернатива «naspraak» понятнее, но не устоялась.",
+      "«KI» = kunsmatige intelligensie. В южноафриканском узусе часто пишут и «AI»; если решим единообразно — менять сразу во всех 12 строках.",
+      "«app» вместо «toepassing» — живая разговорная норма, но пурист может возразить.",
+      "«blitsverkopers» для bestsellers и «verwerking» для adaptation — проверить, что не читается книжно рядом с разговорным «app».",
+      "meta.description при longestSlot — 156 знаков из 160: любая правка длиннее четырёх знаков выбивает бюджет."
+    ]
+  }
+}

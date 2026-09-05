@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "title": "Matuto ng {target} sa pagbabasa: may salin at audio",
+    "description": "Magbasa ng libro sa {target}, katabi ang salin sa Filipino at may audio. I-save ang salita sa isang tap, ulitin sa tamang agwat, pag-usapan ang libro sa AI.",
+    "ogTitle": "Matuto ng {target} sa pagbabasa: may salin at audio",
+    "ogDescription": "Magbasa ng libro sa {target}, katabi ang salin sa Filipino at may audio sa bawat pangungusap. Isang tap lang para i-save ang salita, at babalik ito sa lumalawak na agwat.",
+    "twitterTitle": "Matuto ng {target} sa pagbabasa: may salin at audio",
+    "twitterDescription": "Magbasa ng libro sa {target} habang katabi ang salin sa Filipino. I-save ang bagong salita sa isang tap, at babalik ito sa tamang agwat."
+  },
+  "nav": {
+    "links": [
+      "Paano ito gumagana",
+      "Aklatan",
+      "Mga wika",
+      "Mga review",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Matuto ng {target} sa pagbabasa ng libro, hindi sa walang katapusang drills",
+    "subtitle": "Magbasa at makinig sa mga bagay na talagang gusto mo, i-save ang mga salita mismo sa pahina, at may algoritmong magpapakita ulit ng mga ito sa tamang agwat.",
+    "cta": "I-download ang app",
+    "trust": "49 na wika • iPhone / Android",
+    "pills": [
+      "Magkatabing salin",
+      "Audio + pagbabasa",
+      "Pagsasanay sa salita",
+      "Pag-uulit sa tamang agwat",
+      "Kahit anong libro o teksto",
+      "Shadowing",
+      "Pag-usapan ang libro sa AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Libro, hindi kurso",
+        "span": "Aralin ang babasahin mo rin naman"
+      },
+      {
+        "strong": "49 na wika",
+        "span": "Mula sa pinakalaganap hanggang sa pinakabihira"
+      },
+      {
+        "strong": "Malawak na aklatan",
+        "span": "Mga klasiko, bestseller sa buong mundo at artikulo"
+      },
+      {
+        "strong": "Iisang ikot ang lahat",
+        "span": "Pagbabasa, audio, salita at pag-uulit"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Bakit iniiwan ang karamihan sa mga app sa wika – at bakit iba ito",
+    "subtitle": "Hindi kailanman ang disiplina mo ang problema. Ang format.",
+    "labelOld": "❌ Karaniwan",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Kabisado mo ang salita, pero hindi mo magamit",
+          "text": "Listahan at flashcard na walang konteksto. Bukas, wala na uli."
+        },
+        "new": {
+          "title": "Lumalabas ang salita sa totoong pangungusap",
+          "text": "Nakikita mo kung paano gumagalaw ang salita sa loob ng pangungusap, kaya kumakapit ito nang hindi pinipilit."
+        }
+      },
+      {
+        "old": {
+          "title": "Parehong ehersisyo araw-araw",
+          "text": "Nakakasawa. Nawawala ang gana. Pagkalipas ng isang linggo, hindi na nabubuksan ang app."
+        },
+        "new": {
+          "title": "Binabasa mo ang babasahin mo rin naman",
+          "text": "Mga bestseller, kakaibang totoong kuwento, popular science – materyal na babalikan mo nang kusa."
+        }
+      },
+      {
+        "old": {
+          "title": "Masyadong mahirap magbasa sa orihinal",
+          "text": "Puro salitang hindi mo kilala, nawawala ang kuwento, sumusuko ka sa unang pahina."
+        },
+        "new": {
+          "title": "Magkatabing salin, at may adaptasyon",
+          "text": "Nasa tabi lang ng teksto ang salin, at kung masyadong mahirap ang libro, puwede itong isulat muli sa antas mo."
+        }
+      },
+      {
+        "old": {
+          "title": "Kung ano ang nasa katalogo, iyon ang binabasa mo",
+          "text": "Saradong aklatan. Hindi mo maidaragdag ang sarili mong libro."
+        },
+        "new": {
+          "title": "Kahit anong libro o teksto, puwedeng maging aralin mo",
+          "text": "Ibigay mo sa app ang mga paborito mong libro at ang mga dokumentong kailangan mo, at ibabalik ang mga ito nang may katabing salin, audio at pag-uulit ng salita."
+        }
+      },
+      {
+        "old": {
+          "title": "Nagbabasa ka at nakikinig, pero pasibo ang lahat",
+          "text": "Walang mapagsalitaan o mapagsulatan, kaya hindi kumakapit ang kasanayan."
+        },
+        "new": {
+          "title": "Hindi ka lang nagbabasa – nagsasalita at nagsusulat ka rin",
+          "text": "Pinag-uusapan ninyo ng AI ang kababasa mo lang na libro, kaya hindi ka na maghahanap ng paksa. Kapag may gusto kang sabihin, madali na itong sabihin at isulat."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Lahat ng 7 kasanayan sa wika, nasa iisang lugar",
+    "subtitle": "Pitong kasanayan ang bumubuo sa tunay na kahusayan sa isang wika. Sabay-sabay na sinasanay ng Lingo7 ang mga ito, hindi isa-isa, kaya pinapalakas ng bawat isa ang isa't isa.",
+    "skills": [
+      {
+        "title": "Pagbabasa",
+        "text": "Basahin ang orihinal o ang pinadaling bersyon, katabi ang salin – mabilis, at walang diksyunaryo."
+      },
+      {
+        "title": "Pakikinig",
+        "text": "Mga audiobook at ang mode na makinig-habang-nagbabasa – isa ito sa pinakamabisang paraan para masanay ang tainga mo."
+      },
+      {
+        "title": "Bokabularyo",
+        "text": "Kumakapit ang bagong salita habang nagbabasa ka, hindi mo kailangang kabisaduhin. Ang mga ehersisyo at ang pag-uulit sa tamang agwat ang nagpapatibay sa mga ito nang matagalan."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Ang pinakamagandang paraan para pumasok ang gramatika: makita mo mismo ang tuntunin habang gumagana ito sa loob ng totoong pangungusap."
+      },
+      {
+        "title": "Pagsulat",
+        "text": "AI chat: pinag-uusapan ninyo ang kababasa mo lang, kaya lagi kang may maisusulat. Tinutulungan ka nitong buuin ang iniisip mo at nahuhuli nito ang mga mali."
+      },
+      {
+        "title": "Pagsasalita",
+        "text": "Shadowing: inuulit mo nang malakas ang sinasabi ng tagapagsalaysay, at doon nahahasa ang tatas, ritmo at intonasyon."
+      },
+      {
+        "title": "Pagbigkas",
+        "text": "May mga ehersisyo sa pagbigkas na naglalapit sa punto mo sa tunog ng katutubong nagsasalita."
+      }
+    ],
+    "conductor": {
+      "badge": "Personal na plano · Malapit na",
+      "title": "Ang app mismo ang magsasabi kung ano ang gagawin mo ngayong araw",
+      "text": "Pipiliin nito ang tamang gawain sa tamang sandali – magbasa, mag-ulit nang malakas, patibayin ang mga salita o pag-usapan ang kabanata sa AI. Hindi mo na kailangang magdesisyon kung saan magsisimula at kung ano ang susunod.",
+      "caption": "Halimbawa ng sesyon ngayong araw – ang sa iyo, app na ang bubuo.",
+      "steps": [
+        {
+          "label": "Pagbabasa",
+          "meta": "15 min"
+        },
+        {
+          "label": "Makinig at basahin",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Ngayon · 7 min"
+        },
+        {
+          "label": "Mga salita",
+          "meta": "25 na kard"
+        },
+        {
+          "label": "AI chat",
+          "meta": "pag-usapan ang kabanata"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Paano matuto ng wika mula sa mga libro: limang hakbang",
+    "subtitle": "Walang komplikadong metodo. Isang malinaw na ikot, at content na sapat na kawili-wili para dalhin ka hanggang dulo.",
+    "items": [
+      {
+        "title": "Pumili ng babasahin",
+        "text": "Buod ng mga bestseller, klasiko, maikling kuwento – ayon sa timpla mo, sa antas mo at sa oras na mayroon ka."
+      },
+      {
+        "title": "Magbasa nang may katabing salin",
+        "text": "Magkatabi ang orihinal at ang salin; i-tap ang salita para sa kahulugan, sa tunog nito, o para i-save."
+      },
+      {
+        "title": "Aralin ang mga salita",
+        "text": "Bumabalik ang mga na-save mong salita sa mga ehersisyong gumagamit ng iba't ibang uri ng memorya, sa lumalawak na agwat."
+      },
+      {
+        "title": "Makinig at ulitin nang malakas",
+        "text": "May audio ang bawat pangungusap: makinig, tapos ulitin mo agad nang malakas ang sinabi ng tagapagsalaysay – doon nahahasa ang pagbigkas at intonasyon."
+      },
+      {
+        "title": "Pag-usapan ang libro sa AI",
+        "text": "Kasama mo ang AI sa pagdaan sa libro – nagsasanay ka sa pagsulat at pagsasalita, at natututo kang ilagay sa bagong wika ang iniisip mo."
+      }
+    ]
+  },
+  "library": {
+    "title": "Mga libro sa {target}, may katabing salin – nakaayos ayon sa antas mula A1 hanggang C1",
+    "subtitle": "Hindi lang wika ang natututuhan mo – may iba ka ring natututuhan. May materyal para sa bawat antas, mula sa unang hakbang hanggang sa pinakamataas.",
+    "tabs": [
+      "Klasiko",
+      "Bestseller",
+      "Tuklas"
+    ],
+    "panels": [
+      {
+        "title": "Basahin sa orihinal ang mga dakilang libro – may sasalo sa iyo",
+        "text": "May adaptasyon at may orihinal para sa iba't ibang antas, mula sa Ang Munting Prinsipe hanggang kay Hawking. Dahil katabi ang salin, nababasa kahit ang mabigat na prosa.",
+        "badges": [
+          "A1-A2 Baguhan",
+          "B1-B2 Katamtaman",
+          "C1+ Bihasa"
+        ]
+      },
+      {
+        "title": "Ang laman ng pinakamagagandang libro sa mundo sa loob ng 7–15 minuto",
+        "text": "Ang mga pangunahing ideya ng mga bestseller sa buong mundo, isinalaysay nang maikli – sa wikang inaaral mo. Sabay ang paglago mo at ang pag-aaral ng wika.",
+        "badges": [
+          "A1-A2 Baguhan",
+          "B1-B2 Katamtaman",
+          "C1+ Bihasa"
+        ]
+      },
+      {
+        "title": "5 minuto kada araw: isang magandang datos at ilang bagong salita",
+        "text": "Kalawakan, sikolohiya, negosyo, kalikasan, teknolohiya – daan-daang maikling artikulo sa kahit anong paksa. Araw-araw may bago kang nalalaman, at kasama na roon ang wika.",
+        "badges": [
+          "A1-A2 Baguhan",
+          "B1-B2 Katamtaman",
+          "C1+ Bihasa"
+        ]
+      }
+    ],
+    "examples": [
+      "Think and Grow Rich • The 80/20 Principle • The 7 Habits of Highly Effective People • The Power of Now"
+    ]
+  },
+  "customBook": {
+    "badge": "BAGO",
+    "title": "I-upload ang sarili mong libro o teksto at matuto mula rito",
+    "text": "I-upload ang kahit anong file at gagawin itong materyal ng Lingo7, may katabing salin at may audio. Pagkatapos, ang karaniwang ikot na: magbabasa ka, makikinig, mag-aaral ng salita, sasanayin ang pagsasalita sa shadowing at pag-uusapan ninyo ito ng AI.",
+    "cards": [
+      {
+        "title": "Mga bestseller sa orihinal",
+        "text": "Harry Potter, Dune, A Game of Thrones – basahin ang mga librong matagal mo nang binabalak, sa wikang inaaral mo."
+      },
+      {
+        "title": "Ang wikang kailangan ng trabaho at pag-aaral mo",
+        "text": "Mga dokumento sa trabaho, papel na pang-akademiko, reviewer sa pagsusulit – aralin ang wika ng larangang kinaroroonan mo ngayon."
+      }
+    ],
+    "usecases": [
+      "Pagsusulit",
+      "Trabaho",
+      "Artikulo",
+      "Interbyu"
+    ],
+    "formatsNote": "I-upload ang sarili mong file sa mga format na ito:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptasyon",
+      "title": "Basahin ang kahit anong libro – <span class=\"accent\">isinulat muli</span> para sa iyo",
+      "text": "Mahirap pa rin ba ang bokabularyo at gramatika? Isusulat muli ng Lingo7 ang libro sa mas simpleng wika – parehong kuwento, parehong tauhan, mas magaan na pangungusap.",
+      "cta": "Subukan sa libro mo"
+    },
+    "goalQuote": "Paborito kong resipe: kunin mo ang Harry Potter at isang kabanata kada araw – basahin, pakinggan, aralin ang mga bagong salita, tapos pag-usapan sa AI. Anim na buwan sa isa o dalawang oras araw-araw, at <span class=\"goal-quote__level\">mula A2 lalabas kang B2</span>."
+  },
+  "audience": {
+    "title": "Para sa iyo ang Lingo7 kung...",
+    "items": [
+      "Gusto mong matuto sa content, hindi sa mga aralin na kailangan mo pang pagpilitan",
+      "Gusto mo ng higit pa sa pagbabasa – pakikinig, pagsasalita at pagsulat din: pagbigkas sa pamamagitan ng shadowing, at pagpapahayag ng iniisip sa AI chat",
+      "Gusto mong pag-aralan ang sarili mong materyal – dokumento sa trabaho, paboritong libro at artikulo – hindi lang ang mga nakahandang aralin",
+      "Kailangan mo ng bihirang wikang wala sa karamihan ng app",
+      "Gusto mong mag-aral sa maiikling sesyon na 5-15 minuto"
+    ]
+  },
+  "pains": {
+    "title": "Ano ang humahadlang – at ano ang ginagawa ng Lingo7 dito",
+    "subtitle": "Hindi ito usapin ng talino. Usapin ito ng format.",
+    "chips": [
+      "Takot magsalita",
+      "Nakakasawa",
+      "Hindi kumakapit ang salita",
+      "Mahirap magbasa",
+      "Hirap sa pandinig",
+      "Walang oras",
+      "Bihirang wika",
+      "Hindi bagay sa akin"
+    ],
+    "answers": [
+      {
+        "title": "“Nahihiya akong magsalita at magkamali”",
+        "text": "Ang shadowing: inuulit mo nang malakas ang mga parirala ng tagapagsalaysay, mag-isa, walang nagbibigay ng grado. Doon nahahasa ang pagbigkas. Sa AI chat naman, sinasanay mo nang pasulat ang pagbuo ng pangungusap, at banayad nitong itinatama ang mga mali mo."
+      },
+      {
+        "title": "“Mabilis akong magsawa”",
+        "text": "Sa halip na magkakamukhang aralin: mga libro, bestseller at artikulo sa mga paksang babasahin mo rin naman. Kapag nakakawili ang content, madaling bumalik."
+      },
+      {
+        "title": "“Nakikita ko ang mga salita, pero hindi nananatili”",
+        "text": "Isang tap lang, na-save na ang salita mismo mula sa pangungusap, tapos babalik ito bilang kard sa lumalawak na agwat. Hindi na suwerte ang pag-alala."
+      },
+      {
+        "title": "“Masyadong mahirap para sa akin ang magbasa sa orihinal”",
+        "text": "Magkatabi ang salin at nakahanay ang bawat pangungusap – hindi ka na lilipat-lipat sa translator kada dalawang linya."
+      },
+      {
+        "title": "“Hindi ko maintindihan kapag sinasalita”",
+        "text": "Iniuugnay ng mode na makinig-at-basahin ang tunog ng salita sa baybay at sa kahulugan nito. Nasasanay ang tainga mo sa wika nang natural."
+      },
+      {
+        "title": "“Wala akong oras”",
+        "text": "Maiikling format at mabibilis na sesyon – kahit 5-10 minuto sa isang araw, nananatili kang nasa ritmo."
+      },
+      {
+        "title": "“Bihirang wika ang kailangan ko”",
+        "text": "49 na wika, kasama ang mga bihira. At kahit alin sa mga ito, matututuhan mo mula sa sarili mong wika."
+      },
+      {
+        "title": "“Natatakot akong hindi ito bagay sa akin”",
+        "text": "Kung marunong kang magbasa, bagay ito sa iyo. Walang kailangang paunang kaalaman, gramatika o paghahanda – magsimula sa kahit anong librong nasa antas mo."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Matuto ng {target}",
+    "title": "49 na wika, mula sa laganap hanggang sa bihira",
+    "subtitle": "Matuto ng kahit anong wika mula sa sarili mong wika – hindi lang sa pamamagitan ng Ingles, gaya ng ipinipilit ng karamihan sa mga app.",
+    "groupTitles": [
+      "Sikat",
+      "Lahat ng wika"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 na pares ng wika.</strong> Piliin ang kahit anong kombinasyon: ang wikang inaaral mo at ang wikang gagamitin sa salin."
+  },
+  "reviews": {
+    "title": "Hindi namin inasahang magugustuhan ninyo ito nang ganito",
+    "subtitle": "Pero heto ang katotohanan – ito ang isinusulat ng mga tao sa Google Play.",
+    "items": [
+      {
+        "text": "Ang galing ng app. Malaking plus na ang iisang libro ay may iba't ibang antas ng Ingles. Hindi na ako makapaghintay sa update!",
+        "author": "Екатерина М.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "Kumuha ako ng taunang subscription at sulit na sulit. Talagang kahanga-hanga ang app na ito! Napakagandang kasangkapan para pagbutihin ang Ingles. Mula sa matatanda hanggang sa mga bata — hindi lang kapaki-pakinabang, kailangan talaga.",
+        "author": "Mayur L.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "Kailangan ko ng Portuges para makatrabaho ang team sa Brazil. Napakabisa ng sabay na pagbabasa at pakikinig. Pagkatapos ng 6 na linggo, kaya ko nang sundan ang mga miting.",
+        "author": "Rosita R.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "Matagal ko nang gustong matuto ng Aleman, at sa app na ito, mas madaling lapitan at mas malinaw ang lahat kaysa sa ibang katulad nito. 10 sa 10 ang app.",
+        "author": "Макс Р.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "Ginagamit ko ang pagbabasa na may audio at malaking bagay ito para sa akin. Malinaw ang mga audio at maayos ang pagkakahanay. Napakagandang kasangkapan para sa nag-aaral ng wika.",
+        "author": "Zeynep O.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "A+ ang ideya at ang pagkakagawa. Sa ngayon, ito lang ang app na may mga librong Serbiyano. Magaling! Salamat!",
+        "author": "Вася К.",
+        "source": "Google Play • tingnan ang orihinal"
+      },
+      {
+        "text": "Bilang guro, talagang kahanga-hanga ang app na ito para sa akin. Nirerekomenda ko ito sa mga estudyante ko. Napakasarap gamitin. Nirerekomenda ko ito sa lahat.",
+        "author": "Sasha T.",
+        "source": "Google Play • tingnan ang orihinal"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Mga madalas itanong",
+    "items": [
+      {
+        "q": "Bagay ba ang Lingo7 sa purong baguhan?",
+        "a": "Oo. May materyal sa bawat antas, at dahil katabi ang salin, naiintindihan ang teksto mula pa sa unang pahina."
+      },
+      {
+        "q": "Anong antas ang kailangan ko para makabasa sa orihinal?",
+        "a": "Kahit anong antas. Dahil katabi ang salin, hindi mo na kailangan ng diksyunaryo, at ang masyadong mahirap na libro ay puwedeng isulat muli nang mas simple – parehong kuwento at parehong tauhan, pero gramatika at bokabularyong akma sa antas mo. Nakamarka ang lahat mula A1 hanggang C1."
+      },
+      {
+        "q": "Puwede bang 10 minuto lang sa isang araw?",
+        "a": "Oo. Ang maiikling artikulo, ang buod ng libro at ang kard ng salita ay ginawa para sa maiikling sesyon araw-araw."
+      },
+      {
+        "q": "Anong mga wika ang mayroon?",
+        "a": "49 na wika, at kahit alin sa mga ito ay matututuhan mo mula sa sarili mong wika – hindi lang sa pamamagitan ng Ingles. Iyan ay 49 × 48 = 2352 na pares ng wika, kasama na ang mga bihira."
+      },
+      {
+        "q": "Ano ang kaibahan nito sa karaniwang mga app sa wika?",
+        "a": "Sa halip na magkakahiwalay na ehersisyo, natututo ka sa content na kawili-wili sa iyo, at nakatali ang bawat kasanayan sa iisang ikot: nagbabasa ka at nakikinig, sine-save ang mga salita para sa pag-uulit sa tamang agwat, napupulot ang gramatika sa konteksto, sinasanay ang pagsasalita sa shadowing at ang pagsulat sa AI chat. At puwede mong i-upload ang sarili mong libro o dokumento."
+      },
+      {
+        "q": "May pagsasanay ba sa pagsasalita?",
+        "a": "Oo. Para sa pagsasalita, may shadowing – inuulit mo nang malakas ang mga parirala ng tagapagsalaysay at doon nahahasa ang pagbigkas at intonasyon. Para sa pagsulat, may AI chat: pinag-uusapan ninyo ang binasa mo, at tinutulungan ka nitong bumuo ng pangungusap at nahahanap nito ang mga mali mo. Wala pang tunay na pakikipag-usap sa tao – nakaplano pa lang iyon."
+      },
+      {
+        "q": "Anong mga format ng file ang puwedeng i-upload?",
+        "a": "PDF, EPUB, FB2 at TXT. Mag-upload ng dokumento sa trabaho, paboritong libro o artikulo – bubuuin ng app ang katabing salin, lalagyan ito ng audio at titipunin ang mga bagong salita sa pagsasanay."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Magsimula ka nang matuto ng {target} ngayon – sa libro, hindi sa drills",
+    "text": "I-download ang app at buksan ang unang libro mo.",
+    "perks": [
+      "49 na wika",
+      "Bawat antas"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Tungkol sa amin",
+      "Kontak",
+      "Mga trabaho",
+      "Para sa paaralan",
+      "Paano matuto ng wika",
+      "Mga tuntunin ng serbisyo",
+      "Privacy"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Nakalaan ang lahat ng karapatan."
+  },
+  "downloadModal": {
+    "title": "Kunin ang Lingo7",
+    "text": "Nasa App Store at Google Play"
+  },
+  "stickyCta": {
+    "label": "I-download ang app"
+  },
+  "mobileMenu": {
+    "links": [
+      "Paano gumagana",
+      "Aklatan",
+      "Mga wika",
+      "Mga review",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Makinig",
+      "add": "I-save",
+      "translate": "Isalin",
+      "addToMyWords": "Idagdag sa mga salita ko",
+      "inMyWords": "Nasa mga salita ko",
+      "audioMode": "Audio mode",
+      "discussWithAi": "Pag-usapan sa AI",
+      "selfCheck": "Subukan ang sarili"
+    },
+    "wordCard": {
+      "freqHigh": "MADALAS",
+      "freqMid": "KATAMTAMAN",
+      "example": "Halimbawa",
+      "otherTranslations": "Iba pang salin",
+      "synonyms": "Kasingkahulugan",
+      "open": "Buksan",
+      "group": "Grupo:",
+      "groupDefault": "Pangkalahatan",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEKSTO",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "I-highlight ang mga salita ko",
+      "highlightMyWordsHint": "Minamarkahan ang mga salitang na-save mo",
+      "theme": "Tema",
+      "themeLight": "Maliwanag",
+      "fontSize": "Laki ng letra",
+      "font": "Font",
+      "speakOnTap": "Bigkasin ang salita kapag na-tap",
+      "speakOnTapHint": "Binabasa nang malakas ang salitang tinap mo",
+      "speechRate": "Bilis ng pagsasalita",
+      "pronunciationTest": "Pagsusuri sa pagbigkas",
+      "playSample": "Patugtugin ang halimbawang parirala",
+      "reset": "I-reset ang mga setting",
+      "done": "Tapos na",
+      "on": "Naka-on",
+      "off": "Naka-off",
+      "accent": "Punto",
+      "translationAlways": "Palagi"
+    },
+    "vocab": {
+      "pickRightPicture": "Piliin ang tamang larawan",
+      "correct": "Tama na tama",
+      "rightAnswer": "Tamang sagot:",
+      "next": "Susunod",
+      "done": "Tapos na",
+      "skip": "Laktawan",
+      "exercise": "Ehersisyo",
+      "exerciseMeta": "/11 · 10 salita"
+    },
+    "chat": {
+      "title": "Pagsasanay",
+      "discussing": "Pinag-uusapan ang “{book}”",
+      "finish": "Tapusin",
+      "playing": "Nagpe-play…",
+      "replyOptions": "Mga puwedeng isagot",
+      "placeholder": "Magsulat ng mensahe"
+    },
+    "bookDetail": {
+      "adapted": "Adaptasyon",
+      "adaptedHint": "Isinulat muli sa mas simpleng wika, buo ang kahulugan",
+      "original": "Orihinal",
+      "originalHint": "Ang buong orihinal na teksto, walang binago",
+      "open": "Buksan",
+      "genre": "Uri",
+      "badgeSummary": "Buod"
+    },
+    "library": {
+      "profile": "Profile",
+      "search": "Hanapin",
+      "upload": "Mag-upload ng libro",
+      "tabCatalog": "Katalogo",
+      "tabAll": "Lahat ng libro",
+      "tabFavorites": "Mga paborito",
+      "shelfBestsellers": "Mga bestseller sa buong mundo",
+      "shelfBestsellersSub": "sa maikling buod, may audio",
+      "shelfStories": "Mga maikling kuwento",
+      "shelfStoriesSub": "Maliliit na kuwento, malalim ang dala",
+      "bandTitle": "5 minuto kada araw",
+      "bandText": "Araw-araw may bagong kawili-wiling datos – at kasama na roon ang wika, kusa itong papasok.",
+      "shelfAmazing": "Mga kamangha-manghang kuwento",
+      "shelfNature": "Mga misteryo ng kalikasan",
+      "shelfHealth": "Kalusugan at agham",
+      "moreTopics": "Marami pang paksa",
+      "shelfGolden": "Ginintuang klasiko",
+      "shelfGoldenSub": "200 librong nagbago sa sangkatauhan",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Aklatan",
+      "practice": "Pagsasanay",
+      "read": "Magbasa",
+      "myWords": "Mga salita ko",
+      "collections": "Mga koleksyon"
+    }
+  },
+  "_note": "Полная локаль fil (филиппинский/тагалог). Переведена с эталона i18n/en.json 2026-08-29 по брифу i18n/TRANSLATION-BRIEF.md, интонация сверена с русским оригиналом ru.json и с уже вычитанным филиппинским абзацем в reader-sample.json. Обращение — на «ka/mo» (единственная норма для потребительского приложения; «kayo/po» звучало бы как госуслуга). Носитель «wika» перед названием языка НЕ ставится: филиппинец говорит «matuto ng Espanyol», а не «matuto ng wikang Espanyol», — конструкция с «wikang» оставлена только там, где речь о языке вообще, без слота. Названия языков в филиппинском пишутся С ЗАГЛАВНОЙ, поэтому регистр слота безопасен, но слот всё равно нигде не стоит первым словом. Главная ловушка языка — лигатура na/-ng: её форма выбирается по ПОСЛЕДНЕМУ звуку предыдущего слова, поэтому ни в одной из девяти строк за слотом не стоит лигатура (после слота только запятая, тире, двоеточие либо неизменяемые sa/at/ngayon/habang). Маркеры ng и sa перед слотом неизменяемы и безопасны. Кавычки — «“ ”» (филиппинская типографика совпадает с английской), тире — en-dash. Контракт слота и бюджет выдачи — в _contract. Файл прошёл отдельный проход снятия калек по i18n/en.gloss.json (2026-08-30): вес→сложность, «позади диктора»→повтор сразу за услышанным, «строить произношение»→«hasain», «hila»→«palakasin», «doon matuto»→«matuto mula rito», инанимат «kanila»→«mga ito». Третий проход по разбору носителя (i18n/_qa/gemini-fil.json, 2026-08-30): meta.description — «pag-usapan sa AI» без объекта тянуло за собой «ang salita», добавлено «ang libro» (как в hero.pills); method.subtitle — инанимат «silang»→«ang mga ito» и «ang iba»→«ang isa't isa»; faq.items[5].a — «usapan sa isang tao»→«pakikipag-usap sa tao»; audience.items[1] — «pagbuo ng iniisip»→«pagpapahayag ng iniisip» (эталон: putting thoughts into words); steps.title — «sa mga libro»→«mula sa mga libro» (слепой обратный перевод прочитал локатив «in books»); pains.answers[0].text — порядок слов «sinasanay mo nang pasulat»; compare.rows[4].new.text — «madali na itong sabihin». Отклонены: «orihinal na wika» в faq.items[1].q («sa orihinal» держится в трёх строках файла, менять одну нельзя) и «lumalawak na agwat»→«tamang agwat» в meta.ogDescription (расширяющийся интервал — точное значение spaced repetition, та же формула в ещё двух строках).",
+  "_contract": {
+    "government": "Голое несклоняемое название языка в позиции дополнения при маркере: ng при matuto/mag-aral («Matuto ng {target}») и sa при magbasa/libro («Magbasa ng libro sa {target}»). Филиппинские существительные не склоняются, поэтому обе позиции дают ОДНИ И ТЕ ЖЕ байты — это и есть одна объявленная позиция. Маркеры ng и sa стоят СНАРУЖИ слота и неизменяемы (алломорфии ni/nina тут нет: название языка — не личное имя). ЗАПРЕЩЕНО ставить после слота лигатуру na/-ng («mga libro sa {target} na may salin»): её форма зависит от последнего звука подставленного слова — Espanyol na, но Rusong. Все девять строк построены так, что за слотом идёт запятая, тире, двоеточие или неизменяемое слово. Носитель «wika/wikang» в слот не входит и рядом с ним не стоит.",
+    "slotExample": "Espanyol",
+    "slotExampleEnglish": "Ingles",
+    "longestSlot": "Bielorusyano",
+    "longestSlotLang": "белорусский — Bielorusyano, 12 знаков; следом Aserbaiyano (11), Romaniyano и Biyetnames (по 10), Afrikaans, Galisyano, Kroasyano, Serbiyano, Ukraniano, Estonyano, Latbiyano, Masedonyo, Georgiano, Pinlandes (по 9)",
+    "titleRenderedLen": 55,
+    "descRenderedLen": 160,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "Набор из 49 названий языков (отдельная таблица, не в этом файле) должен быть выдержан в одной орфографии: испанизированные филиппинские формы (Ingles, Espanyol, Aleman, Pranses, Italyano, Portuges, Olandes, Suweko, Danes, Norwego, Pinlandes, Polako, Tseko, Hungaro, Bulgaro, Romaniyano, Serbiyano, Kroasyano, Bosnyo, Esloveno, Eslovako, Ukraniano, Bielorusyano, Aserbaiyano, Kazako, Kirgiso, Uzbeko, Mongol, Armenyo, Georgiano, Estonyano, Latbiyano, Lituwano, Masedonyo, Albano, Griyego, Turko, Basko, Katalan, Galisyano, Islandes, Biyetnames, Indones, Malay, Suwahili, Afrikaans, Zulu, Ruso, Filipino). Если редакция решит писать редкие языки по-английски (Azerbaijani, Belarusian), длиннейший слот меняется — пересчитать бюджет.",
+      "Лигатура na/-ng — главный риск локали. Показать носителю все девять слотовых строк и убедиться, что ни в одной за слотом не появилось «na»: правка вида «mga libro sa {target} na may salin» ломает контракт на языках, кончающихся на гласную (Rusong, а не Ruso na).",
+      "meta.description и og/twitter-описания держатся на «katabi ang salin sa Filipino» — проверить, что читается однозначно: перевод именно НА филиппинский, а не «книга на двух языках вообще».",
+      "hero.title «hindi sa walang katapusang drills» — «drills» намеренно оставлено английским: так говорят в филиппинских школах и приложениях. Если редакция хочет чистый тагалог, менять на «paulit-ulit na ehersisyo» сразу и в compare.rows[1].old.title.",
+      "«Shadowing» оставлено английским термином (как в ru.json и в остальных локалях): филиппинского устоявшегося слова нет. Встречается в 6 строках — менять только все сразу.",
+      "«AI» оставлено аббревиатурой, без «artipisyal na intelihensiya»: живая норма филиппинских приложений. Артикля/лигатуры рядом с ней нет.",
+      "Таглиш дозирован: i-save, i-upload, i-tap, app, audio, chat, content, bestseller, subscription — это слова, которыми филиппинцы реально пользуются; «kasangkapan», «babasahin», «kard» оставлены филиппинскими. Носителю проверить, что смесь не выглядит рваной.",
+      "faq.items[1].a «puwedeng isulat muli nang mas simple» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «Wala pang tunay na pakikipag-usap sa tao – nakaplano pa lang iyon» и method.conductor.badge «Malapit na» сохраняют ограничение. При вычитке не усиливать.",
+      "Названия книг: «Ang Munting Prinsipe» — изданный филиппинский перевод «Маленького принца». Harry Potter, Dune, A Game of Thrones, Think and Grow Rich, The 80/20 Principle, The 7 Habits, The Power of Now филиппинских изданий не имеют — оставлены оригиналом латиницей, как требует бриф. «Hawking» — фамилия, латиница филиппинской орфографии не мешает.",
+      "library.tabs[2] «Tuklas» — рабочий вариант для «Discovery»; синхронизировать с вкладкой в приложении.",
+      "appUi.readerSettings.on/off — «Naka-on»/«Naka-off»: живая форма филиппинских тумблеров. Если в макете кнопка узкая, вернуть «On»/«Off».",
+      "reviews.items[*].text написаны от лица людей, учивших английский, португальский, немецкий и сербский. Для парных страниц отзывы придётся курировать под тему пары — отмечено в i18n/README.md."
+    ]
+  }
+}

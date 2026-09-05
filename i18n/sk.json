@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "title": "Nauč sa po {target} čítaním: dvojjazyčné knihy a audio",
+    "description": "Čítaj po {target} so slovenským prekladom hneď vedľa textu a s audiom, slová si ukladaj jedným ťuknutím, trénuj shadowing a rozober kapitolu s AI.",
+    "ogTitle": "Nauč sa po {target} čítaním: dvojjazyčné knihy a audio",
+    "ogDescription": "Čítaj po {target} a slovenský preklad máš hneď vedľa, ku každej vete audio. Slovo si uložíš jedným ťuknutím a vráti sa ti na opakovanie s odstupom.",
+    "twitterTitle": "Nauč sa po {target} čítaním: dvojjazyčné knihy a audio",
+    "twitterDescription": "Čítaj po {target}, preklad do slovenčiny máš rovno vedľa textu. Nové slová si ukladáš jedným ťuknutím a vracajú sa ti s narastajúcim odstupom."
+  },
+  "nav": {
+    "links": [
+      "Ako to funguje",
+      "Knižnica",
+      "Jazyky",
+      "Recenzie",
+      "Časté otázky"
+    ]
+  },
+  "hero": {
+    "title": "Nauč sa po {target} čítaním kníh, nie drilovaním nekonečných cvičení",
+    "subtitle": "Čítaj a počúvaj to, čo ťa naozaj zaujíma, slová si ukladaj priamo zo stránky a opakovanie s odstupom ti ich pripomenie presne vtedy, keď ich začínaš zabúdať.",
+    "cta": "Stiahnuť aplikáciu",
+    "trust": "49 jazykov • iPhone / Android",
+    "pills": [
+      "Paralelný preklad",
+      "Audio aj čítanie",
+      "Slovná zásoba",
+      "Opakovanie s odstupom",
+      "Ľubovoľná kniha či text",
+      "Shadowing",
+      "Rozhovor o knihe s AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Kniha namiesto kurzu",
+        "span": "Uč sa z toho, čo by si čítal pre radosť"
+      },
+      {
+        "strong": "49 jazykov",
+        "span": "Od najrozšírenejších po tie najvzácnejšie"
+      },
+      {
+        "strong": "Knižnica so záberom",
+        "span": "Klasika, svetové bestsellery aj články"
+      },
+      {
+        "strong": "Všetko beží v jednom kolobehu",
+        "span": "Čítanie, audio, slovíčka a opakovanie"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Prečo väčšinu jazykových aplikácií po čase zahodíš – a túto nie",
+    "subtitle": "Nikdy to nebolo o tvojej disciplíne. Bolo to o formáte.",
+    "labelOld": "❌ Zvyčajne",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Učíš sa naspamäť slová, ktoré potom nepoužiješ",
+          "text": "Zoznamy a kartičky bez kontextu. Do zajtra sú preč."
+        },
+        "new": {
+          "title": "Slová stretávaš v živých vetách",
+          "text": "Vidíš, ako sa slovo správa vo vete, a preto ti ostane v hlave aj bez nútenia."
+        }
+      },
+      {
+        "old": {
+          "title": "Každý deň tie isté cvičenia",
+          "text": "Omrzí to, chuť opadne a po prvom týždni už aplikáciu neotvoríš."
+        },
+        "new": {
+          "title": "Čítaš to, čo by si čítal aj tak",
+          "text": "Bestsellery, neuveriteľné skutočné príbehy, populárna veda – veci, ku ktorým sa vraciaš sám od seba."
+        }
+      },
+      {
+        "old": {
+          "title": "Originál je na teba priťažký",
+          "text": "Samé neznáme slová, dej ti uniká a končíš na prvej strane."
+        },
+        "new": {
+          "title": "Paralelný preklad a k tomu adaptácia",
+          "text": "Preklad máš hneď vedľa textu, a keď je kniha nad tvoje sily, dá sa prepísať na tvoju úroveň."
+        }
+      },
+      {
+        "old": {
+          "title": "Čítaš len to, čo je práve v katalógu",
+          "text": "Pevná knižnica. Vlastnú knihu do nej nedostaneš."
+        },
+        "new": {
+          "title": "Učebnicou sa stane hocijaká kniha či text",
+          "text": "Nahráš knihy, ktoré máš rád, aj dokumenty, ktoré potrebuješ, a vrátia sa ti s paralelným prekladom, audiom a opakovaním slov."
+        }
+      },
+      {
+        "old": {
+          "title": "Čítaš a počúvaš, lenže všetko je pasívne",
+          "text": "Nemáš kde hovoriť ani písať, tak sa zručnosť neusadí."
+        },
+        "new": {
+          "title": "Nielen čítaš – aj hovoríš a píšeš",
+          "text": "O knihe, ktorú si práve dočítal, sa porozprávaš s AI, takže si tému nemusíš vymýšľať. A keď máš čo povedať, hovorí sa aj píše oveľa ľahšie."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Všetkých 7 jazykových zručností na jednom mieste",
+    "subtitle": "Ovládať jazyk znamená zvládnuť sedem rôznych zručností. Lingo7 ich trénuje naraz, nie jednu po druhej, takže sa navzájom posilňujú.",
+    "skills": [
+      {
+        "title": "Čítanie",
+        "text": "Čítaj originál alebo adaptovanú verziu s prekladom hneď vedľa – rýchlo a bez slovníka."
+      },
+      {
+        "title": "Počúvanie",
+        "text": "Audioknihy a režim, v ktorom počúvaš a čítaš naraz – jeden z najúčinnejších spôsobov, ako si vycvičiť ucho."
+      },
+      {
+        "title": "Slovná zásoba",
+        "text": "Nové slová ti ostávajú priamo z čítania, nemusíš ich drviť. Cvičenia a opakovanie s odstupom ich ukotvia nadlho."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Gramatiku vstrebeš najlepšie tak, že vidíš, ako pravidlá fungujú v živej vete."
+      },
+      {
+        "title": "Písanie",
+        "text": "Chat s AI: rozoberáš to, čo si práve prečítal, takže máš vždy o čom písať. Pomôže ti sformulovať myšlienku a nájde ti chyby."
+      },
+      {
+        "title": "Hovorenie",
+        "text": "Shadowing: hneď po rozprávačovi nahlas opakuješ vety a získavaš plynulosť, rytmus aj intonáciu."
+      },
+      {
+        "title": "Výslovnosť",
+        "text": "Cvičenia na výslovnosť ti pomôžu priblížiť prízvuk k tomu, ako znie rodený hovoriaci."
+      }
+    ],
+    "conductor": {
+      "badge": "Osobný plán · Pripravujeme",
+      "title": "Aplikácia ti povie, čo máš dnes robiť",
+      "text": "Vyberie ti správnu činnosť v správnej chvíli – čítať, opakovať nahlas, ukotviť slovíčka alebo prebrať kapitolu s AI. Nikdy nemusíš riešiť, čím začať a čo bude ďalej.",
+      "caption": "Ukážka dnešnej lekcie – tú tvoju ti aplikácia poskladá sama.",
+      "steps": [
+        {
+          "label": "Čítanie",
+          "meta": "15 min"
+        },
+        {
+          "label": "Počúvaj a čítaj",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Teraz · 7 min"
+        },
+        {
+          "label": "Slovíčka",
+          "meta": "25 kartičiek"
+        },
+        {
+          "label": "Chat s AI",
+          "meta": "rozbor kapitoly"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Ako sa naučiť jazyk z kníh: päť krokov",
+    "subtitle": "Žiadna zložitá metóda. Jeden jasný kolobeh a obsah, ktorý ťa ním prevedie.",
+    "items": [
+      {
+        "title": "Vyber si obsah",
+        "text": "Zhrnutia bestsellerov, klasika, poviedky – podľa nálady, podľa úrovne, podľa toho, koľko máš času."
+      },
+      {
+        "title": "Čítaj s paralelným prekladom",
+        "text": "Originál a preklad vedľa seba; ťukni na slovo a hneď máš význam aj výslovnosť – alebo si ho uložíš."
+      },
+      {
+        "title": "Nauč sa slová",
+        "text": "Uložené slová sa ti vracajú v cvičeniach na rôzne druhy pamäti – a s odstupmi, ktoré sa postupne predlžujú."
+      },
+      {
+        "title": "Počúvaj a opakuj nahlas",
+        "text": "Ku každej vete je audio: vypočuj si ju a hneď ju zopakuj po rozprávačovi – presne takto sa cibrí výslovnosť aj intonácia."
+      },
+      {
+        "title": "Rozober knihu s AI",
+        "text": "AI prejde knihu s tebou – trénuješ písanie aj reč a učíš sa vyjadrovať myšlienky v novom jazyku."
+      }
+    ]
+  },
+  "library": {
+    "title": "Čítaj po {target}: knihy s prekladom podľa úrovne, od A1 po C1",
+    "subtitle": "Neučíš sa len jazyk, dozvedáš sa aj niečo nové. Materiál na každú úroveň, od prvých krokov po pokročilých.",
+    "tabs": [
+      "Klasika",
+      "Bestsellery",
+      "Objavovanie"
+    ],
+    "panels": [
+      {
+        "title": "Čítaj veľké knihy v origináli – so záchrannou sieťou",
+        "text": "Adaptované aj pôvodné verzie pre rôzne úrovne, od Malého princa po Hawkinga. Vďaka paralelnému prekladu ostane čitateľná aj náročná próza.",
+        "badges": [
+          "A1-A2 Začiatočník",
+          "B1-B2 Mierne pokročilý",
+          "C1+ Pokročilý"
+        ]
+      },
+      {
+        "title": "Jadro najlepších svetových kníh za 7 až 15 minút",
+        "text": "Kľúčové myšlienky svetových bestsellerov prerozprávané nakrátko – v jazyku, ktorý sa učíš. Posunieš sa dopredu a jazyk ide s tebou.",
+        "badges": [
+          "A1-A2 Začiatočník",
+          "B1-B2 Mierne pokročilý",
+          "C1+ Pokročilý"
+        ]
+      },
+      {
+        "title": "5 minút denne: jeden dobrý fakt a pár nových slov",
+        "text": "Vesmír, psychológia, biznis, príroda, technológie – stovky krátkych článkov na akúkoľvek tému. Každý deň sa dozvieš niečo nové a jazyk ti pribúda popri tom.",
+        "badges": [
+          "A1-A2 Začiatočník",
+          "B1-B2 Mierne pokročilý",
+          "C1+ Pokročilý"
+        ]
+      }
+    ],
+    "examples": [
+      "Mysli a zbohatni • Princíp 80/20 • 7 návykov skutočne efektívnych ľudí • Sila prítomného okamihu"
+    ]
+  },
+  "customBook": {
+    "badge": "NOVÉ",
+    "title": "Nahraj si vlastnú knihu alebo text a uč sa priamo z nich",
+    "text": "Nahraj akýkoľvek súbor a Lingo7 z neho spraví študijný materiál s paralelným prekladom a audiom. Ďalej už ide obvyklý kolobeh: čítaš, počúvaš, učíš sa slová, cez shadowing pracuješ na reči a nakoniec si to rozoberieš s AI.",
+    "cards": [
+      {
+        "title": "Bestsellery v origináli",
+        "text": "Harry Potter, Duna, Hra o tróny – prečítaj si konečne knihy, ku ktorým sa roky chystáš, v jazyku, ktorý sa učíš."
+      },
+      {
+        "title": "Jazyk, ktorý potrebuješ v práci a v škole",
+        "text": "Pracovné dokumenty, odborné články, materiály na skúšku – nauč sa jazyk odboru, v ktorom sa práve pohybuješ."
+      }
+    ],
+    "usecases": [
+      "Skúšky",
+      "Práca",
+      "Články",
+      "Pohovory"
+    ],
+    "formatsNote": "Vlastné súbory nahráš v týchto formátoch:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptácia",
+      "title": "Čítaj akúkoľvek knihu – <span class=\"accent\">prepísanú</span> na tvoju mieru",
+      "text": "Slovná zásoba a gramatika sú stále príliš náročné? Lingo7 vie knihu prepísať jednoduchším jazykom – rovnaký príbeh, rovnaké postavy, jednoduchšie vety.",
+      "cta": "Vyskúšaj to na svojej knihe"
+    },
+    "goalQuote": "Môj obľúbený recept: vezmi Harryho Pottera a dávaj si kapitolu denne – prečítaj si ju, vypočuj, nauč sa nové slová, rozober ju s AI. Pol roka po hodine či dvoch denne a <span class=\"goal-quote__level\">z A2 sa dostaneš na B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 je pre teba, ak...",
+    "items": [
+      "Chceš sa učiť z obsahu, a nie z lekcií, do ktorých sa musíš nútiť",
+      "Chceš viac než čítanie – aj počúvanie, hovorenie a písanie: výslovnosť cez shadowing a vyjadrovanie myšlienok v chate s AI",
+      "Chceš sa učiť z vlastných materiálov – pracovných dokumentov, obľúbených kníh a článkov – nielen z hotových lekcií",
+      "Potrebuješ vzácnejší jazyk, ktorý väčšina aplikácií nemá",
+      "Chceš sa učiť po kúskoch – v dávkach po 5 až 15 minút"
+    ]
+  },
+  "pains": {
+    "title": "Čo ti stojí v ceste – a čo s tým Lingo7 robí",
+    "subtitle": "Nie je to otázka schopností. Je to otázka formátu.",
+    "chips": [
+      "Bojím sa hovoriť",
+      "Nudí ma to",
+      "Slová sa nedržia",
+      "Čítanie je ťažké",
+      "Nerozumiem reči",
+      "Nemám čas",
+      "Vzácny jazyk",
+      "Nebude mi to sedieť"
+    ],
+    "answers": [
+      {
+        "title": "„Hanbím sa hovoriť a robiť pritom chyby“",
+        "text": "Shadowing znamená, že hneď po rozprávačovi nahlas opakuješ frázy – sám a bez toho, aby ťa niekto známkoval. Práve tým si vycibríš výslovnosť. V chate s AI si formulácie skúšaš písomne a chyby ti opraví ohľaduplne."
+      },
+      {
+        "title": "„Rýchlo ma to prestane baviť“",
+        "text": "Namiesto zameniteľných lekcií knihy, bestsellery a články o témach, ktoré ťa zaujímajú aj mimo učenia. Keď ťa obsah vtiahne, vracať sa k nemu je ľahké."
+      },
+      {
+        "title": "„Slová vidím, ale nedržia sa mi“",
+        "text": "Jedno ťuknutie uloží slovo aj s vetou, z ktorej je, a potom sa ti vráti ako kartička s narastajúcim odstupom. Zapamätať si slovíčko tak prestane byť otázkou šťastia."
+      },
+      {
+        "title": "„Originál je na mňa priťažký“",
+        "text": "Paralelný preklad s vetami zarovnanými k sebe – nemusíš každý druhý riadok skákať do prekladača."
+      },
+      {
+        "title": "„Hovorenej reči nerozumiem“",
+        "text": "Režim, v ktorom počúvaš a čítaš naraz, spojí zvuk slova s jeho zápisom aj významom. Ucho si na jazyk zvykne samo."
+      },
+      {
+        "title": "„Nemám na to čas“",
+        "text": "Krátke texty a rýchle cvičenia – aj 5 až 10 minút denne ťa udrží v rytme."
+      },
+      {
+        "title": "„Potrebujem vzácny jazyk“",
+        "text": "49 jazykov vrátane tých vzácnych. A ktorýkoľvek z nich sa učíš zo svojho materinského jazyka."
+      },
+      {
+        "title": "„Bojím sa, že mi to nebude sedieť“",
+        "text": "Ak vieš čítať, sedieť ti to bude. Netreba žiadne predošlé znalosti, gramatiku ani prípravu – začni s hociktorou knihou na svojej úrovni."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Učiť sa po {target}",
+    "title": "49 jazykov, od bežných po vzácne",
+    "subtitle": "Uč sa ktorýkoľvek jazyk zo svojho materinského – nie cez angličtinu, ako ťa k tomu nútí väčšina aplikácií.",
+    "groupTitles": [
+      "Populárne",
+      "Všetky jazyky"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 jazykových dvojíc.</strong> Vyber si akúkoľvek kombináciu: jazyk, ktorý sa učíš, a jazyk, v ktorom čítaš preklad."
+  },
+  "reviews": {
+    "title": "Nečakali sme, že si to ľudia obľúbia až takto",
+    "subtitle": "Ale fakty sú fakty – toto ľudia píšu na Google Play.",
+    "items": [
+      {
+        "text": "Skvelá aplikácia. Obrovské plus, že tá istá kniha môže byť vo viacerých úrovniach angličtiny. Netrpezlivo čakám na aktualizáciu!",
+        "author": "Екатерина М.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Kúpil som si ročné predplatné a za tie peniaze je to veľmi dobré. Toto je naozaj úžasná aplikácia! Vynikajúca pomôcka na zlepšenie angličtiny. Od dospelých po deti – nielen užitočná, ale priam potrebná.",
+        "author": "Mayur L.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Potrebovala som portugalčinu na prácu s tímom v Brazílii. Čítanie a audio naraz fungujú veľmi dobre. Po šiestich týždňoch som už zvládala sledovať porady.",
+        "author": "Rosita R.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Vždy som sa chcel naučiť po nemecky a v tejto aplikácii je všetko oveľa prístupnejšie a zrozumiteľnejšie než v podobných appkách. Aplikácia 10 z 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Používam čítanie s audiom a je to pre mňa naozaj prelom. Nahrávky sú čisté a pekne zosynchronizované s textom. Fantastický nástroj pre každého, kto sa učí jazyk.",
+        "author": "Zeynep O.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Nápad aj prevedenie zaslúžia jednotku. Momentálne je to jediná aplikácia, kde sú knihy v srbčine. Dobrá práca! Ďakujem!",
+        "author": "Вася К.",
+        "source": "Google Play • pozrieť originál"
+      },
+      {
+        "text": "Pre mňa ako učiteľa je to naozaj úžasná aplikácia. Odporúčam ju svojim študentom. Veľmi príjemné. Odporúčam ju každému.",
+        "author": "Sasha T.",
+        "source": "Google Play • pozrieť originál"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Časté otázky",
+    "items": [
+      {
+        "q": "Zvládne Lingo7 aj úplný začiatočník?",
+        "a": "Áno. Materiál je na každej úrovni a paralelný preklad robí text zrozumiteľným hneď od prvej strany."
+      },
+      {
+        "q": "Akú úroveň potrebujem na čítanie v origináli?",
+        "a": "Akúkoľvek. Vďaka paralelnému prekladu nepotrebuješ slovník, a keď je kniha priťažká, dá sa prepísať jednoduchšie – rovnaký príbeh a rovnaké postavy, ale gramatika a slová tvojej úrovne. Všetko je označené od A1 po C1."
+      },
+      {
+        "q": "Dá sa učiť aj desať minút denne?",
+        "a": "Áno. Krátke články, zhrnutia kníh a kartičky so slovami sú urobené presne na krátke denné dávky."
+      },
+      {
+        "q": "Aké jazyky sú k dispozícii?",
+        "a": "49 jazykov a ktorýkoľvek z nich sa učíš zo svojho materinského jazyka – nie iba cez angličtinu. To je 49 × 48 = 2352 jazykových dvojíc vrátane vzácnych jazykov."
+      },
+      {
+        "q": "Čím sa to líši od bežných jazykových aplikácií?",
+        "a": "Namiesto nesúvisiacich cvičení sa učíš z obsahu, ktorý ťa zaujíma, a všetky zručnosti sú zapojené do jedného kolobehu: čítaš a počúvaš, slová si ukladáš na opakovanie s odstupom, gramatiku chytáš v kontexte, na reči pracuješ cez shadowing a na písaní v chate s AI. A môžeš si nahrať vlastnú knihu alebo dokument."
+      },
+      {
+        "q": "Je tam aj precvičovanie hovorenia?",
+        "a": "Áno. Na hovorenie je tu shadowing – nahlas opakuješ frázy hneď po rozprávačovi a trénuješ si výslovnosť aj intonáciu. Na písanie je tu chat s AI: rozoberáš v ňom, čo si prečítal, a pomôže ti sformulovať vety aj nájsť chyby. Živý rozhovor s človekom zatiaľ nie je – máme ho v pláne."
+      },
+      {
+        "q": "Aké formáty súborov sa dajú nahrať?",
+        "a": "PDF, EPUB, FB2 a TXT. Nahraj pracovné dokumenty, obľúbené knihy či články – aplikácia k nim spraví paralelný preklad, pridá audio a nové slová ti pozbiera na precvičovanie."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Začni sa učiť po {target} ešte dnes – s knihou namiesto drilu",
+    "text": "Stiahni si aplikáciu a otvor prvú knihu.",
+    "perks": [
+      "49 jazykov",
+      "Každá úroveň"
+    ]
+  },
+  "footer": {
+    "links": [
+      "O nás",
+      "Kontakt",
+      "Kariéra",
+      "Pre školy",
+      "Ako sa učiť jazyky",
+      "Podmienky používania",
+      "Ochrana súkromia"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Všetky práva vyhradené."
+  },
+  "downloadModal": {
+    "title": "Stiahni si Lingo7",
+    "text": "Dostupné v App Store a na Google Play"
+  },
+  "stickyCta": {
+    "label": "Stiahnuť aplikáciu"
+  },
+  "mobileMenu": {
+    "links": [
+      "Ako to funguje",
+      "Knižnica",
+      "Jazyky",
+      "Recenzie",
+      "Časté otázky"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Počúvať",
+      "add": "Uložiť",
+      "translate": "Preložiť",
+      "addToMyWords": "Pridať k mojim slovám",
+      "inMyWords": "V mojich slovách",
+      "audioMode": "Režim audio",
+      "discussWithAi": "Rozobrať s AI",
+      "selfCheck": "Otestuj sa"
+    },
+    "wordCard": {
+      "freqHigh": "ČASTÉ",
+      "freqMid": "STREDNÉ",
+      "example": "Príklad",
+      "otherTranslations": "Ďalšie preklady",
+      "synonyms": "Synonymá",
+      "open": "Otvoriť",
+      "group": "Skupina:",
+      "groupDefault": "Všeobecné",
+      "page": "s."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Zvýrazniť moje slová",
+      "highlightMyWordsHint": "Označí slová, ktoré máš uložené",
+      "theme": "Motív",
+      "themeLight": "Svetlý",
+      "fontSize": "Veľkosť písma",
+      "font": "Písmo",
+      "speakOnTap": "Vysloviť slovo po ťuknutí",
+      "speakOnTapHint": "Prečíta slovo, na ktoré ťukneš",
+      "speechRate": "Rýchlosť reči",
+      "pronunciationTest": "Test výslovnosti",
+      "playSample": "Prehrať ukážkovú vetu",
+      "reset": "Obnoviť nastavenia",
+      "done": "Hotovo",
+      "on": "Zap.",
+      "off": "Vyp.",
+      "accent": "Prízvuk",
+      "translationAlways": "Vždy"
+    },
+    "vocab": {
+      "pickRightPicture": "Vyber správny obrázok",
+      "correct": "Presne tak",
+      "rightAnswer": "Správna odpoveď:",
+      "next": "Ďalej",
+      "done": "Hotovo",
+      "skip": "Preskočiť",
+      "exercise": "Cvičenie",
+      "exerciseMeta": "/11 · 10 slov"
+    },
+    "chat": {
+      "title": "Precvičovanie",
+      "discussing": "Rozoberáme „{book}“",
+      "finish": "Ukončiť",
+      "playing": "Prehráva sa…",
+      "replyOptions": "Návrhy odpovedí",
+      "placeholder": "Napíš správu"
+    },
+    "bookDetail": {
+      "adapted": "Adaptovaná",
+      "adaptedHint": "Prepísaná jednoduchším jazykom, význam ostáva",
+      "original": "Originál",
+      "originalHint": "Celý pôvodný text, bez zmien",
+      "open": "Otvoriť",
+      "genre": "Žáner",
+      "badgeSummary": "Zhrnutie"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Hľadať",
+      "upload": "Nahraj knihu",
+      "tabCatalog": "Katalóg",
+      "tabAll": "Všetky knihy",
+      "tabFavorites": "Obľúbené",
+      "shelfBestsellers": "Svetové bestsellery",
+      "shelfBestsellersSub": "v krátkom prerozprávaní, s audiom",
+      "shelfStories": "Krátke poviedky",
+      "shelfStoriesSub": "Malé príbehy s veľkým odkazom",
+      "bandTitle": "5 minút denne",
+      "bandText": "Každý deň sa dozvieš niečo zaujímavé – a jazyk ti pribudne popri tom!",
+      "shelfAmazing": "Neuveriteľné príbehy",
+      "shelfNature": "Záhady prírody",
+      "shelfHealth": "Zdravie a veda",
+      "moreTopics": "Ďalšie témy",
+      "shelfGolden": "Zlatá klasika",
+      "shelfGoldenSub": "200 kníh, ktoré zmenili ľudstvo",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Knižnica",
+      "practice": "Precvičovanie",
+      "read": "Čítať",
+      "myWords": "Moje slová",
+      "collections": "Kolekcie"
+    }
+  },
+  "_note": "Словацкая локаль (my_lang = sk). Написана с нуля по эталону i18n/en.json: смысл, обещания и интонация выверены построчно, но синтаксис словацкий, а не калька с английского. Контракт слота {target} — наречная форма названия языка на -sky/-cky при неизменяемом предлоге «po» (po španielsky, po anglicky, po azerbajdžansky). Форма не склоняется, рода и числа не имеет, артиклей в словацком нет, «po» пишется всегда одинаково — подставленное слово не переключает ни один соседний токен. Названия языков в словацком со строчной, поэтому {target} нигде не стоит первым словом в title. Обращение — на «ty» во всём файле. Бюджет выдачи посчитан по «azerbajdžansky» (14 знаков). Имена авторов отзывов, Lingo7, форматы файлов, коды CEFR и числа скопированы из эталона. Третий круг (независимый разбор носителем, i18n/_qa/gemini-sk.json): исправлены пять строк — коллокация «bifľovaním cvičení» в hero.title (в словацком «bifľovať sa» берёт объектом заучиваемое — слова, fakty, — а упражнения драгают, поэтому «drilovaním»; заодно строка вернулась к смыслу «grinding through drills», а не «зубрёжка»); персонификация «zručnosti sa navzájom posúvajú dopredu» в method.subtitle → «navzájom sa posilňujú» (глоссарное «each one pulls the others along» — про взаимное усиление навыков, а не про продвижение ученика); название навыка «reč» → «hovorenie» в faq.items[5].a и audience.items[1] — так навык назван в method.skills[5].title и в самом вопросе faq.items[5].q; калька «obliekanie myšlienok do slov» → «vyjadrovanie myšlienok» (audience.items[1], в одном ряду со steps.items[4].text); потерянный интенсификатор «too» в customBook.adapt.text — «stále náročné» → «stále príliš náročné». Плюс порядок слов «pomôže ti vetu sformulovať» → «pomôže ti sformulovať vety» (нейтральный порядок, множественное как общая практика). Отклонены: «rozložené opakovanie» вместо «opakovanie s odstupom» (терминологический выбор, держится разом в пяти местах и калькой не является); перевод «rozober» в несовершенный вид в meta.description (смешение видов в перечне императивов — словацкая норма, не ошибка, а строка стоит на верхней границе бюджета); перестановка «sa» в compare.rows[4].new.text («rozpráva aj píše sa» ставит клитику в третью позицию и ломает закон Ваккернагеля — текущее «hovorí sa aj píše» верно); замена «zatiaľ nie je» на «zatiaľ neponúkame» в faq.items[5].a (модальность ограничения и так дословна).",
+  "_contract": {
+    "government": "Наречие образа действия «po + -sky/-cky» при глаголах «naučiť sa / učiť sa» и «čítať»: «Nauč sa po španielsky», «Čítaj po španielsky». Это единственная объявленная позиция, под неё написаны все девять строк. Предлог «po» входит в шаблон строки, а не в слот, и это безопасно: в словацком «po» не имеет алломорфов (вокализация «so/zo/vo» его не касается), поэтому подставленное название ничего рядом не переключает. Наречие неизменяемо — ни падежа, ни рода, ни числа. Именной вариант отвергнут сознательно: «učiť sa španielčinu» требует аккузатива, а «knihy v španielčine» — локатива, то есть двух разных форм слота на девять строк. Наречие снимает это целиком и одинаково работает при глаголе «учить» и при глаголе «читать».",
+    "slotExample": "španielsky",
+    "slotExampleEnglish": "anglicky",
+    "longestSlot": "azerbajdžansky",
+    "longestSlotLang": "азербайджанский (az) — 14 знаков. Следом: portugalsky (11); по 10 — španielsky, francúzsky, ukrajinsky, chorvátsky, macedónsky, indonézsky, filipínsky, katalánsky, galícijsky, afrikánsky, bosniansky, vietnamsky, bielorusky. Самые короткие — česky и rusky (5).",
+    "titleRenderedLen": 60,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "meta.title / ogTitle / twitterTitle с «azerbajdžansky» дают ровно 60 знаков — это верхняя граница бюджета, запаса нет. Любая правка заголовка требует пересчёта, а не оценки на глаз; на всех остальных 48 языках строка на 3–9 знаков короче.",
+      "Наречная конструкция «po + -sky» — ядро контракта. Для частотных языков она безупречна («Nauč sa po španielsky»), но для редких (po svahilsky, po zulusky, po afrikánsky, po baskicky, po galícijsky) встречается заметно реже. Строки hero.title, library.title и finalCta.title стоит показать носителю именно на этих target-ах.",
+      "library.title держит слот той же глагольной позицией («Čítaj po {target}: knihy…»), а не именной («knihy v španielčine»), которая потребовала бы второй формы слота. Проверить, что заголовок читается как название каталога, а не только как призыв.",
+      "Тыканье («Nauč sa», «Čítaj», «Stiahni si») выдержано по всему файлу — в словацких потребительских приложениях это норма. Если редакция решит перейти на «vy», переписывать придётся весь файл, а не отдельные строки: обращение вшито в глагольные формы почти каждой строки.",
+      "reviews.title написан без прямого обращения («Nečakali sme, že si to ľudia obľúbia až takto»): в оригинале «we didn't expect YOU to like it», но словацкое «vás» посреди тыкающего текста читалось бы как смена тона. Проверить, что H2 не потерял теплоту.",
+      "«opakovanie s odstupom» — выбранный словацкий термин для spaced repetition (в ходу также «intervalové opakovanie»). Держится единообразно там, где нужен именно термин: hero.subtitle, hero.pills[3], method.skills[2].text, meta.ogDescription. Где строка описывает механику, а не называет функцию, стоит описательное «s narastajúcim odstupom» / «s odstupmi, ktoré sa postupne predlžujú» (meta.twitterDescription, steps.items[2].text, pains.answers[2].text). Если редакция предпочтёт «intervalové opakovanie», менять надо во всех четырёх терминологических местах сразу.",
+      "«AI» и «shadowing» оставлены латиницей: так их называют словацкие языковые сообщества, а «umelá inteligencia» не влезает в кнопки и подписи. Разговорные краски намеренные и их стоит подтвердить носителю: «drilovanie» (hero.title), «drviť» (method.skills[2].text), «známkoval» (pains.answers[0].text), «cibriť si výslovnosť» (steps.items[3].text, pains.answers[0].text).",
+      "Названия книг взяты по словацким изданиям: «Malý princ», «Duna», «Hra o tróny», «Mysli a zbohatni», «Princíp 80/20», «7 návykov skutočne efektívnych ľudí», «Sila prítomného okamihu». Сверить с каталогом, если цитируется конкретное издание.",
+      "Модальность ограничений сохранена дословно: method.conductor.badge — «Pripravujeme», faq.items[1].a и compare.rows[2].new.text — «dá sa prepísať» (возможность, не обещание), faq.items[5].a — «Živý rozhovor s človekom zatiaľ nie je – máme ho v pláne». При вычитке не усиливать.",
+      "Косвенные вопросы проверены отдельно: в faq они переписаны прямыми вопросами («Zvládne to aj úplný začiatočník?»), союз «ak» (если) в них не появляется нигде.",
+      "«prepísať» в словацком — именно «переписать иначе», не «списать» (ловушка bs/mk). Чтобы прочтение «перепечатать» было невозможно, глагол всюду стоит с уточнением способа: «prepísať na tvoju úroveň» (compare.rows[2].new.text), «prepísať jednoduchším jazykom» (customBook.adapt.text, appUi.bookDetail.adaptedHint), «prepísať jednoduchšie» (faq.items[1].a). Уточнение убирать нельзя.",
+      "Ловушки эталона переписаны смыслом, а не образом, и это места для сверки носителем: «repeat after the narrator» → «hneď po rozprávačovi» (временное следование, не позади в пространстве); «that's where pronunciation comes from» → «presne takto sa cibrí výslovnosť» / «práve tým si vycibríš výslovnosť» (способ, не место); «build pronunciation» → «získavaš / trénuješ si», не «buduješ»; «bring them back» → «pripomenie ti ich» (напоминание, не возврат предмета); «when the content pulls» → «keď ťa obsah vtiahne»; «each one pulls the others along» → «navzájom sa posilňujú»."
+    ]
+  }
+}

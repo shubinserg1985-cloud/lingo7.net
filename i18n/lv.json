@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "title": "Mācies {target}, lasot grāmatas ar tulkojumu",
+    "description": "Mācies {target}, lasot grāmatas ar tulkojumu latviski un audio. Krāj vārdus atkārtošanai, trenē runu ar shadowing un pārrunā izlasīto ar MI.",
+    "ogTitle": "Mācies {target}, lasot grāmatas ar tulkojumu",
+    "ogDescription": "Mācies {target}, lasot grāmatas: tulkojums latviski ir turpat blakus tekstam, un katram teikumam ir audio. Saglabā vārdus ar vienu pieskārienu un atkārto tos ar intervāliem.",
+    "twitterTitle": "Mācies {target}, lasot grāmatas ar tulkojumu",
+    "twitterDescription": "Mācies {target}, lasot grāmatas ar tulkojumu latviski un audio. Saglabā jaunos vārdus ar vienu pieskārienu un atkārto tos ar intervāliem."
+  },
+  "nav": {
+    "links": [
+      "Kā tas darbojas",
+      "Bibliotēka",
+      "Valodas",
+      "Atsauksmes",
+      "Jautājumi"
+    ]
+  },
+  "hero": {
+    "title": "Mācies {target}, lasot grāmatas, nevis pildot bezgalīgus vingrinājumus",
+    "subtitle": "Lasi un klausies to, kas tevi tiešām interesē, saglabā vārdus turpat no lappuses un ļauj atkārtošanas algoritmam tos atgādināt īstajā brīdī.",
+    "cta": "Lejupielādē lietotni",
+    "trust": "49 valodas • iPhone / Android",
+    "pills": [
+      "Paralēlais tulkojums",
+      "Audio un lasīšana",
+      "Vārdu krājums",
+      "Intervālu atkārtošana",
+      "Jebkura grāmata vai teksts",
+      "Shadowing",
+      "Sarunas par grāmatu ar MI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Grāmata kursa vietā",
+        "span": "Mācies no tā, ko lasītu prieka pēc"
+      },
+      {
+        "strong": "49 valodas",
+        "span": "No pasaules lielākajām līdz retām"
+      },
+      {
+        "strong": "Bibliotēka ar izvēli",
+        "span": "Klasika, pasaules bestselleri un raksti"
+      },
+      {
+        "strong": "Viss griežas vienā aplī",
+        "span": "Lasīšana, audio, vārdi un atkārtošana"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Kāpēc valodu lietotnes parasti tiek pamestas – un kāpēc šī ne",
+    "subtitle": "Vaina nekad nav bijusi tavā disciplīnā. Vaina bija formātā.",
+    "labelOld": "❌ Parasti",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Kal vārdus, ko pēc tam neproti izmantot",
+          "text": "Saraksti un kartītes bez konteksta. Līdz rītam tie atkal ir pazuduši."
+        },
+        "new": {
+          "title": "Vārdi nāk pretī dzīvos teikumos",
+          "text": "Tu redzi, kā vārds uzvedas teikumā, un tas paliek prātā bez piespiešanās."
+        }
+      },
+      {
+        "old": {
+          "title": "Katru dienu tie paši vingrinājumi",
+          "text": "Kļūst garlaicīgi, motivācija noplok, un pēc pirmās nedēļas lietotne paliek neatvērta."
+        },
+        "new": {
+          "title": "Lasi to, ko lasītu tāpat",
+          "text": "Bestselleri, dīvaini patiesi stāsti, populārzinātne – lietas, pie kurām gribas atgriezties."
+        }
+      },
+      {
+        "old": {
+          "title": "Lasīt oriģinālā ir par grūtu",
+          "text": "Nezināmi vārdi uz katras rindas, sižets izslīd no rokām, un tālāk par pirmo lappusi netiec."
+        },
+        "new": {
+          "title": "Paralēlais tulkojums un vēl adaptācija",
+          "text": "Tulkojums ir turpat blakus tekstam, un pārāk grūtu grāmatu var pielāgot tavam līmenim."
+        }
+      },
+      {
+        "old": {
+          "title": "Lasi to, kas gadās katalogā",
+          "text": "Slēgta bibliotēka. Savu grāmatu tur neienesīsi."
+        },
+        "new": {
+          "title": "Par mācību grāmatu kļūst jebkura grāmata vai teksts",
+          "text": "Iedod lietotnei mīļākās grāmatas un vajadzīgos dokumentus, un tā atdod tos atpakaļ ar paralēlo tulkojumu, audio un vārdu atkārtošanu."
+        }
+      },
+      {
+        "old": {
+          "title": "Lasi un klausies, bet viss paliek pasīvs",
+          "text": "Runāt un rakstīt nav kur, tāpēc prasme neiegulst."
+        },
+        "new": {
+          "title": "Tu ne tikai lasi – tu runā un raksti",
+          "text": "Tikko izlasīto grāmatu pārrunā ar MI, tāpēc tēma nav jāizdomā. Kad ir ko teikt, arī pateikt un uzrakstīt sanāk viegli."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Visas 7 valodas prasmes vienā vietā",
+    "subtitle": "Valodas zināšanas sastāv no septiņām dažādām prasmēm. Lingo7 trenē tās kopā, nevis pa vienai, tāpēc katra no tām stiprina pārējās.",
+    "skills": [
+      {
+        "title": "Lasīšana",
+        "text": "Lasi oriģinālu vai vieglāku versiju ar tulkojumu turpat blakus – ātri un bez vārdnīcas."
+      },
+      {
+        "title": "Klausīšanās",
+        "text": "Audiogrāmatas un režīms „klausies un lasi“ – viens no iedarbīgākajiem veidiem, kā pieradināt ausi."
+      },
+      {
+        "title": "Vārdu krājums",
+        "text": "Jaunie vārdi paliek prātā, kamēr lasi, bez kalšanas. Vingrinājumi un intervālu atkārtošana nostiprina tos uz ilgu laiku."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Vislabāk gramatika iegulst tad, kad redzi likumus strādājam dzīvā teikumā."
+      },
+      {
+        "title": "Rakstīšana",
+        "text": "Saruna ar mākslīgo intelektu: pārrunā tikko izlasīto, tāpēc vienmēr ir par ko rakstīt. MI palīdz noformulēt domu un pamana tavas kļūdas."
+      },
+      {
+        "title": "Runāšana",
+        "text": "Shadowing: skaļi atkārto pēc diktora un attīsti runas plūdumu, ritmu un intonāciju."
+      },
+      {
+        "title": "Izruna",
+        "text": "Izrunas vingrinājumi palīdz pietuvināt akcentu tam, kā valoda skan dzimtās valodas runātāja mutē."
+      }
+    ],
+    "conductor": {
+      "badge": "Personīgais plāns · Drīzumā",
+      "title": "Lietotne pati pateiks, ko šodien darīt",
+      "text": "Tā izvēlas īsto nodarbi īstajā brīdī – palasīt, atkārtot skaļi, nostiprināt vārdus vai pārrunāt nodaļu ar MI. Tev nekad nav jālemj, ar ko sākt un kas būs nākamais.",
+      "caption": "Šodienas nodarbības paraugs – tavējo lietotne saliks pati.",
+      "steps": [
+        {
+          "label": "Lasīšana",
+          "meta": "15 min"
+        },
+        {
+          "label": "Klausies un lasi",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Tagad · 7 min"
+        },
+        {
+          "label": "Vārdi",
+          "meta": "25 kartītes"
+        },
+        {
+          "label": "Saruna ar MI",
+          "meta": "pārrunāt nodaļu"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kā mācīties valodu no grāmatām: pieci soļi",
+    "subtitle": "Nekādas sarežģītas metodikas. Viens skaidrs aplis un saturs, kas izved tevi tam cauri.",
+    "items": [
+      {
+        "title": "Izvēlies saturu",
+        "text": "Bestselleru kopsavilkumi, klasika, īsstāsti – pēc noskaņas, pēc līmeņa, pēc tā, cik laika ir."
+      },
+      {
+        "title": "Lasi ar paralēlo tulkojumu",
+        "text": "Oriģināls un tulkojums blakus; pieskaries vārdam, lai redzētu nozīmi, dzirdētu izrunu vai to saglabātu."
+      },
+      {
+        "title": "Iemācies vārdus",
+        "text": "Saglabātie vārdi atgriežas vingrinājumos, kas iedarbina dažādus atmiņas veidus un ir izkliedēti laikā."
+      },
+      {
+        "title": "Klausies un atkārto skaļi",
+        "text": "Katram teikumam ir audio: noklausies un atkārto pēc diktora – tā arī veidojas izruna un intonācija."
+      },
+      {
+        "title": "Pārrunā grāmatu ar MI",
+        "text": "MI kopā ar tevi iziet cauri grāmatai – tu trenē rakstīšanu un runu un mācies izteikt domas jaunajā valodā."
+      }
+    ]
+  },
+  "library": {
+    "title": "Ko lasīt, lai apgūtu {target}: grāmatas ar tulkojumu no A1 līdz C1 līmenim",
+    "subtitle": "Tu ne tikai mācies valodu – tu arī uzzini ko jaunu. Materiāli ir katram līmenim, no pirmajiem soļiem līdz augstākajam.",
+    "tabs": [
+      "Klasika",
+      "Bestselleri",
+      "Atklājumi"
+    ],
+    "panels": [
+      {
+        "title": "Lasi lielās grāmatas oriģinālā – ar drošības tīklu",
+        "text": "Adaptētas un oriģinālās versijas dažādiem līmeņiem, no „Mazā prinča“ līdz Hokingam. Paralēlais tulkojums arī grūtu prozu notur lasāmu.",
+        "badges": [
+          "A1-A2 Pamatlīmenis",
+          "B1-B2 Vidējais līmenis",
+          "C1+ Augstākais līmenis"
+        ]
+      },
+      {
+        "title": "Pasaules labāko grāmatu būtība 7–15 minūtēs",
+        "text": "Pasaules bestselleru galvenās domas īsi pārstāstītas – valodā, kuru mācies. Vienā piesēdienā gan uzzini ko jaunu, gan mācies valodu.",
+        "badges": [
+          "A1-A2 Pamatlīmenis",
+          "B1-B2 Vidējais līmenis",
+          "C1+ Augstākais līmenis"
+        ]
+      },
+      {
+        "title": "5 minūtes dienā: viens labs fakts un daži jauni vārdi",
+        "text": "Kosmoss, psiholoģija, bizness, daba, tehnoloģijas – simtiem īsu rakstu par jebkuru tēmu. Katru dienu uzzini ko jaunu, un valoda nāk līdzi.",
+        "badges": [
+          "A1-A2 Pamatlīmenis",
+          "B1-B2 Vidējais līmenis",
+          "C1+ Augstākais līmenis"
+        ]
+      }
+    ],
+    "examples": [
+      "Domā un kļūsti bagāts • 80/20 princips • Ļoti efektīvu cilvēku 7 paradumi • Tagadnes spēks"
+    ]
+  },
+  "customBook": {
+    "badge": "JAUNS",
+    "title": "Augšupielādē savu grāmatu vai tekstu un mācies no tā",
+    "text": "Augšupielādē jebkuru failu, un Lingo7 pārvērš to par mācību materiālu ar paralēlo tulkojumu un audio. Tālāk viss iet pa ierasto loku: lasi, klausies, mācies vārdus, trenē runu ar shadowing un pārrunā izlasīto ar MI.",
+    "cards": [
+      {
+        "title": "Bestselleri oriģinālā",
+        "text": "Harijs Poters, „Kāpa“, „Troņu spēle“ – ķeries beidzot pie tām grāmatām, ko sen gribēji izlasīt, turklāt valodā, kuru mācies."
+      },
+      {
+        "title": "Valoda, kas vajadzīga darbā un studijās",
+        "text": "Darba dokumenti, raksti, eksāmena materiāli – mācies tieši tās jomas valodu, kurā tu šobrīd patiešām esi."
+      }
+    ],
+    "usecases": [
+      "Eksāmeni",
+      "Darbs",
+      "Raksti",
+      "Darba intervijas"
+    ],
+    "formatsNote": "Augšupielādē savus failus šādos formātos:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptācija",
+      "title": "Lasi jebkuru grāmatu – <span class=\"accent\">pielāgotu</span> tieši tev",
+      "text": "Vārdi un gramatika joprojām ir pārāk sarežģīti? Lingo7 pārstāsta grāmatu vienkāršākā valodā – tas pats stāsts, tie paši varoņi, vieglāki teikumi.",
+      "cta": "Pamēģini ar savu grāmatu"
+    },
+    "goalQuote": "Mana mīļākā recepte: paņem „Hariju Poteru“ un katru dienu izej cauri vienai nodaļai – izlasi, noklausies, iemācies jaunos vārdus, pārrunā ar MI. Pusgads pa stundai vai divām dienā – un esi izaudzis <span class=\"goal-quote__level\">no A2 līdz B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 ir domāts tev, ja tu...",
+    "items": [
+      "Gribi mācīties no satura, nevis ar varu lauzties cauri nodarbībām",
+      "Gribi vairāk nekā lasīšanu – arī klausīšanos, runāšanu un rakstīšanu: izrunu ar shadowing un domu ietērpšanu vārdos sarunā ar MI",
+      "Gribi mācīties no sava materiāla – darba dokumentiem, mīļākajām grāmatām un rakstiem – nevis tikai no gataviem uzdevumiem",
+      "Tev vajadzīga reta valoda, kādas lielākajā daļā lietotņu nav",
+      "Gribi mācīties īsos 5–15 minūšu piegājienos"
+    ]
+  },
+  "pains": {
+    "title": "Kas stāv ceļā – un ko Lingo7 ar to dara",
+    "subtitle": "Jautājums nav par spējām. Jautājums ir par formātu.",
+    "chips": [
+      "Bail runāt",
+      "Kļūst garlaicīgi",
+      "Vārdi nepaliek prātā",
+      "Grūti lasīt",
+      "Nesaprotu runu",
+      "Nav laika",
+      "Reta valoda",
+      "Man nederēs"
+    ],
+    "answers": [
+      {
+        "title": "„Man ir neērti runāt un kļūdīties“",
+        "text": "Shadowing nozīmē skaļi atkārtot frāzes pēc diktora – vienatnē, un neviens tev neliek atzīmes. Tieši tā arī veidojas izruna. Sarunā ar MI formulējumus slīpē rakstiski, un tas kļūdas izlabo bez pārmetumiem."
+      },
+      {
+        "title": "„Man ātri kļūst garlaicīgi“",
+        "text": "Vienādu nodarbību vietā – grāmatas, bestselleri un raksti par tēmām, par kurām lasītu tāpat. Kad saturs aizrauj, atgriezties ir viegli."
+      },
+      {
+        "title": "„Vārdus redzu, bet tie nepaliek prātā“",
+        "text": "Viens pieskāriens saglabā vārdu kopā ar teikumu, no kura tas nācis, un pēc tam tas atgriežas kā kartīte ar aizvien lielākiem intervāliem. Atcerēšanās vairs nav veiksmes lieta."
+      },
+      {
+        "title": "„Lasīt oriģinālā man ir par grūtu“",
+        "text": "Paralēlais tulkojums ar salāgotiem teikumiem – nav ik pēc otrās rindas jāmeklē vārdi tulkotājā."
+      },
+      {
+        "title": "„Es slikti saprotu runāto valodu“",
+        "text": "Režīms „klausies un lasi“ sasaista vārda skanējumu ar tā rakstību un nozīmi. Auss pierod pie valodas pati no sevis."
+      },
+      {
+        "title": "„Man nav laika“",
+        "text": "Īsi formāti un ātras nodarbes – pat 5–10 minūtes dienā notur tevi ritmā."
+      },
+      {
+        "title": "„Man vajag retu valodu“",
+        "text": "49 valodas, arī retās. Un jebkuru no tām tu mācies no savas dzimtās valodas."
+      },
+      {
+        "title": "„Baidos, ka man nederēs“",
+        "text": "Ja proti lasīt, tad derēs. Nekādas priekšzināšanas, gramatika vai sagatavošanās nav vajadzīga – sāc ar jebkuru grāmatu savā līmenī."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Mācies {target}",
+    "title": "49 valodas – no izplatītākajām līdz pašām retākajām",
+    "subtitle": "Mācies jebkuru valodu no savas dzimtās, nevis tikai caur angļu valodu, kā tev liek lielākā daļa lietotņu.",
+    "groupTitles": [
+      "Populārākās",
+      "Visas valodas"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 valodu pāri.</strong> Izvēlies jebkuru kombināciju: valodu, kuru mācies, un valodu, kurā lasi tulkojumu."
+  },
+  "reviews": {
+    "title": "Negaidījām, ka patiks tik ļoti",
+    "subtitle": "Bet fakti ir fakti – lūk, ko cilvēki raksta Google Play.",
+    "items": [
+      {
+        "text": "Lieliska lietotne. Milzīgs pluss, ka viena un tā pati grāmata ir vairākos angļu valodas līmeņos. Nepacietīgi gaidu atjauninājumu!",
+        "author": "Екатерина М.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Nopirku gada abonementu – par šo naudu tas ir ļoti izdevīgi. Šī tiešām ir brīnišķīga lietotne! Izcils resurss, ar ko uzlabot angļu valodu. No pieaugušajiem līdz bērniem – ne tikai noderīga, bet vajadzīga.",
+        "author": "Mayur L.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Man vajadzēja portugāļu valodu darbam ar komandu Brazīlijā. Lasīšana un audio vienlaikus strādā ļoti labi. Pēc 6 nedēļām jau spēju sekot līdzi sanāksmēm.",
+        "author": "Rosita R.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Vienmēr gribēju iemācīties vācu valodu, un šajā lietotnē viss ir daudz saprotamāk un skaidrāk nekā citās līdzīgās. Lietotne 10 no 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Izmantoju lasīšanu kopā ar audio, un man tas ir bijis īsts pavērsiens. Ieraksti ir skaidri un labi salāgoti ar tekstu. Fantastisks rīks tiem, kas mācās valodas.",
+        "author": "Zeynep O.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Ideja un izpildījums pelna augstāko atzīmi. Pagaidām šī ir vienīgā lietotne ar grāmatām serbu valodā. Malacis! Paldies!",
+        "author": "Вася К.",
+        "source": "Google Play • skatīt oriģinālu"
+      },
+      {
+        "text": "Man kā skolotājai šī tiešām ir brīnišķīga lietotne. Iesaku to saviem skolēniem. Ļoti patīkami. Iesaku visiem.",
+        "author": "Sasha T.",
+        "source": "Google Play • skatīt oriģinālu"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Biežāk uzdotie jautājumi",
+    "items": [
+      {
+        "q": "Vai Lingo7 derēs pilnīgam iesācējam?",
+        "a": "Jā. Materiāli ir katram līmenim, un paralēlais tulkojums padara tekstu saprotamu jau no pašas pirmās lappuses."
+      },
+      {
+        "q": "Kāds līmenis vajadzīgs, lai lasītu oriģinālā?",
+        "a": "Jebkurš. Paralēlais tulkojums ļauj iztikt bez vārdnīcas, un pārāk grūtu grāmatu var pārstāstīt vienkāršākā valodā – tas pats stāsts un tie paši varoņi, tikai tava līmeņa gramatika un vārdi. Katram tekstam ir norādīts līmenis no A1 līdz C1."
+      },
+      {
+        "q": "Vai var mācīties 10 minūtes dienā?",
+        "a": "Jā. Īsie raksti, grāmatu kopsavilkumi un vārdu kartītes ir domāti tieši īsām ikdienas nodarbēm."
+      },
+      {
+        "q": "Kādas valodas ir pieejamas?",
+        "a": "49 valodas, un jebkuru no tām var mācīties no savas dzimtās valodas, nevis tikai caur angļu valodu. Sanāk 49 × 48 = 2352 valodu pāri, tostarp ar retām valodām."
+      },
+      {
+        "q": "Ar ko tas atšķiras no parastajām valodu lietotnēm?",
+        "a": "Nesaistītu vingrinājumu vietā tu mācies no satura, kas tevi interesē, un visas prasmes ir sasietas vienā aplī: lasi un klausies, saglabā vārdus atkārtošanai ar intervāliem, uztver gramatiku kontekstā, trenē runu ar shadowing un rakstīšanu sarunā ar MI. Un vari augšupielādēt savu grāmatu vai dokumentu."
+      },
+      {
+        "q": "Vai ir runāšanas prakse?",
+        "a": "Jā. Runu trenē shadowing – skaļi atkārto frāzes pēc diktora un izkop izrunu un intonāciju. Rakstīšanu trenē saruna ar MI: pārrunā izlasīto, un tas palīdz noformulēt domu un atrod tavas kļūdas. Dzīvu sarunu ar cilvēku vēl nav – tās ir plānos."
+      },
+      {
+        "q": "Kādus failu formātus var augšupielādēt?",
+        "a": "PDF, EPUB, FB2 un TXT. Augšupielādē darba dokumentus, mīļākās grāmatas vai rakstus – lietotne uztaisa paralēlo tulkojumu, pieliek audio un savāc jaunos vārdus treniņam."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Sāc mācīties {target} jau šodien – ar grāmatu, nevis ar vingrinājumiem",
+    "text": "Lejupielādē lietotni un atver savu pirmo grāmatu.",
+    "perks": [
+      "49 valodas",
+      "Katrs līmenis"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Par mums",
+      "Kontakti",
+      "Karjera",
+      "Skolām",
+      "Kā mācīties valodas",
+      "Lietošanas noteikumi",
+      "Privātums"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Visas tiesības aizsargātas."
+  },
+  "downloadModal": {
+    "title": "Lejupielādē Lingo7",
+    "text": "Pieejama gan App Store, gan Google Play"
+  },
+  "stickyCta": {
+    "label": "Lejupielādē lietotni"
+  },
+  "mobileMenu": {
+    "links": [
+      "Kā tas darbojas",
+      "Bibliotēka",
+      "Valodas",
+      "Atsauksmes",
+      "Jautājumi"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Klausīties",
+      "add": "Saglabāt",
+      "translate": "Tulkot",
+      "addToMyWords": "Pievienot maniem vārdiem",
+      "inMyWords": "Manos vārdos",
+      "audioMode": "Audio režīms",
+      "discussWithAi": "Pārrunāt ar MI",
+      "selfCheck": "Pārbaudi sevi"
+    },
+    "wordCard": {
+      "freqHigh": "BIEŽS",
+      "freqMid": "VIDĒJS",
+      "example": "Piemērs",
+      "otherTranslations": "Citi tulkojumi",
+      "synonyms": "Sinonīmi",
+      "open": "Atvērt",
+      "group": "Grupa:",
+      "groupDefault": "Vispārīgi",
+      "page": "lpp."
+    },
+    "readerSettings": {
+      "sectionText": "TEKSTS",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Izcelt manus vārdus",
+      "highlightMyWordsHint": "Iezīmē tavus saglabātos vārdus",
+      "theme": "Noformējums",
+      "themeLight": "Gaišs",
+      "fontSize": "Burtu izmērs",
+      "font": "Fonts",
+      "speakOnTap": "Izrunāt vārdu pēc pieskāriena",
+      "speakOnTapHint": "Nolasa vārdu, kuram pieskaries",
+      "speechRate": "Runas ātrums",
+      "pronunciationTest": "Izrunas pārbaude",
+      "playSample": "Atskaņot parauga frāzi",
+      "reset": "Atiestatīt iestatījumus",
+      "done": "Gatavs",
+      "on": "Ieslēgts",
+      "off": "Izslēgts",
+      "accent": "Akcents",
+      "translationAlways": "Vienmēr"
+    },
+    "vocab": {
+      "pickRightPicture": "Izvēlies pareizo attēlu",
+      "correct": "Tieši tā",
+      "rightAnswer": "Pareizā atbilde:",
+      "next": "Tālāk",
+      "done": "Gatavs",
+      "skip": "Izlaist",
+      "exercise": "Vingrinājums",
+      "exerciseMeta": "/11 · 10 vārdi"
+    },
+    "chat": {
+      "title": "Prakse",
+      "discussing": "Pārrunājam „{book}“",
+      "finish": "Pabeigt",
+      "playing": "Atskaņo…",
+      "replyOptions": "Atbilžu varianti",
+      "placeholder": "Uzraksti ziņu"
+    },
+    "bookDetail": {
+      "adapted": "Adaptēts",
+      "adaptedHint": "Pārrakstīts vienkāršākā valodā, jēga saglabāta",
+      "original": "Oriģināls",
+      "originalHint": "Pilns oriģināla teksts, negrozīts",
+      "open": "Atvērt",
+      "genre": "Žanrs",
+      "badgeSummary": "Kopsavilkums"
+    },
+    "library": {
+      "profile": "Profils",
+      "search": "Meklēt",
+      "upload": "Augšupielādē grāmatu",
+      "tabCatalog": "Katalogs",
+      "tabAll": "Visas grāmatas",
+      "tabFavorites": "Izlase",
+      "shelfBestsellers": "Pasaules bestselleri",
+      "shelfBestsellersSub": "īsā pārstāstā, ar audio",
+      "shelfStories": "Īsstāsti",
+      "shelfStoriesSub": "Mazi stāsti ar lielu jēgu",
+      "bandTitle": "5 minūtes dienā",
+      "bandText": "Katru dienu uzzini kaut ko interesantu – un valoda nāk līdzi pati.",
+      "shelfAmazing": "Neparasti stāsti",
+      "shelfNature": "Dabas noslēpumi",
+      "shelfHealth": "Veselība un zinātne",
+      "moreTopics": "Vairāk tēmu",
+      "shelfGolden": "Zelta klasika",
+      "shelfGoldenSub": "200 grāmatas, kas mainīja cilvēci",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Bibliotēka",
+      "practice": "Prakse",
+      "read": "Lasīt",
+      "myWords": "Mani vārdi",
+      "collections": "Kolekcijas"
+    }
+  },
+  "_note": "Локаль lv. Полный перевод с эталона en.json (2026-08-29), написан как оригинальный латышский текст, а не как перевод с английского. Контракт слота: {target} несёт ВСЮ именную группу в винительном падеже вместе с носителем — «spāņu valodu», «angļu valodu». Носитель valoda неотделим: «spāņu» само по себе не название языка, а родительный мн. этнонима, поэтому оно входит в слот, а не стоит рядом. Позиция слота одна на все девять строк — прямое дополнение при mācīties / apgūt. Бюджет выдачи пересчитан по «nīderlandiešu valodu» — это самое длинное из 49 названий в форме слота (13 знаков + valodu), длиннее азербайджанского. Обращение — «tu», как принято в латышских потребительских приложениях. Файл прошёл снятие калек по i18n/en.gloss.json (2026-08-30): убраны «atceļ vajadzību», «mācies pēc tā», «par smagu», «tieši no turienes rodas izruna», «katra velk sev līdzi pārējās», «Kad saturs velk», «algoritmam tos atgriezt» и «lietotne stāv neatvērta». Третий круг (2026-08-30, разбор gemini-lv.json): разобрана связка «Runai ir shadowing / Rakstīšanai ir saruna» в faq.items[5].a, снята лишняя запятая в «Kad ir ko teikt», в library.title убрано «pa līmeņiem» и возвращено «ar tulkojumu» из эталона. Находки про «aiz diktora», «oriģinālvalodā» и «Valodas apguvi veido» отклонены.",
+  "_contract": {
+    "government": "Прямое дополнение в винительном падеже (akuzatīvs) при глаголах mācīties / apgūt: «Mācies {target}», «Sāc mācīties {target}», «lai apgūtu {target}». Слот содержит всю именную группу целиком — атрибут в родительном мн. плюс носитель valoda в винительном («azerbaidžāņu valodu»), потому что без valoda латышского названия языка просто нет: «spāņu» — это родительный мн. от «spānis» (испанец), самостоятельным словом оно не является. Носитель поэтому внутри слота, а не снаружи: снаружи он потребовал бы второй формы для library.title. Все девять строк написаны под эту одну позицию; ни артиклей, ни предлогов с алломорфией, ни согласуемых соседей рядом со слотом нет — соседний токен всюду глагол или запятая.",
+    "slotExample": "spāņu valodu",
+    "slotExampleEnglish": "angļu valodu",
+    "longestSlot": "nīderlandiešu valodu",
+    "longestSlotLang": "нидерландский (lv nīderlandiešu valoda); азербайджанский «azerbaidžāņu valodu» на знак короче",
+    "titleRenderedLen": 56,
+    "descRenderedLen": 152,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Слот держит всю группу «X valodu» в винительном. Если рендер где-то захочет именительный (переключатель языков, хлебные крошки, hreflang) — нужна отдельная колонка display («spāņu valoda»), подстановка слота туда даст ошибку, невидимую линтеру.",
+      "Названия языков в латышском со строчной, поэтому слот нигде не стоит первым словом: meta.title/ogTitle/twitterTitle и hero.title начинаются с «Mācies», finalCta.title — с «Sāc», library.title — с «Ko lasīt».",
+      "library.title «Ko lasīt, lai apgūtu {target}: grāmatas ar tulkojumu no A1 līdz C1 līmenim» — слот удалось поставить в объявленной позиции (винительный при apgūt), поэтому формулировка «grāmatas {target} valodā» (локатив, вторая форма) не понадобилась. Показать носителю, что H2 не спорит по конструкции с H1.",
+      "«MI» (mākslīgais intelekts) выбрано вместо разговорного «AI» как основной термин; один раз развёрнуто целиком в method.skills[4] («Saruna ar mākslīgo intelektu»). Проверить у носителя, что для потребительского лендинга MI не звучит слишком официально.",
+      "«shadowing» оставлен английским термином и не склоняется («trenē runu ar shadowing», «izrunu ar shadowing») — латышской нормы для него нет; проверить, что это привычнее, чем описательное «atkārtošana pēc diktora».",
+      "«intervālu atkārtošana» (spaced repetition) — проверить узнаваемость термина; в живых строках он часто раскрыт как «atkārto tos ar intervāliem».",
+      "faq.items[1].q «Kāds līmenis vajadzīgs, lai lasītu oriģinālā?» и faq.items[2].q «Vai var mācīties 10 minūtes dienā?» — косвенные вопросы переданы через «vai», не через условное «ja»; модальность «var pārstāstīt vienkāršākā valodā» и «vēl nav – tās ir plānos» сохранена как ограничение, а не как обещание.",
+      "Названия книг: «Mazais princis», «Kāpa» (Dune), «Troņu spēle», «Domā un kļūsti bagāts», «80/20 princips», «Ļoti efektīvu cilvēku 7 paradumi», «Tagadnes spēks», «Harijs Poters», Hokings — сверить с изданными латышскими названиями, особенно «Kāpa».",
+      "Глагол адаптации разведён по смыслу: «pārstāstīt vienkāršākā valodā» (пересказать проще) и «pielāgot tavam līmenim» (подогнать под уровень) вместо «pārrakstīt», у которого в латышском живёт и второе значение «переписать начисто, списать». В appUi.bookDetail.adaptedHint осталось «Pārrakstīts vienkāršākā valodā» — строка из мокапов, вне глоссария; при следующей правке экранов свести к «Pārstāstīts».",
+      "«atkārto frāzes pēc diktora» (faq.items[5].a, pains.answers[0].text, method.skills[5].text, steps.items[3].text) — предлог выбран сознательно: «pēc» = следом во времени, латышская норма «atkārto pēc manis». Вариант «aiz diktora» (его предложил внешний аудит) означает пространственное «позади диктора» и повторяет русское «повторяй за диктором» — это ровно та калька, которую en.gloss.json запрещает. Если носитель когда-нибудь предложит «aiz» — сначала спросить, о времени он говорит или о месте."
+    ]
+  }
+}

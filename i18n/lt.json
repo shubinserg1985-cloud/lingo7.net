@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "title": "Mokykis {target} kalbos: įgarsintos knygos, vertimas",
+    "description": "Skaityk knygas {target} kalba su lietuvišku vertimu ir įgarsinimu, kartok žodžius intervalais, lavink tarimą shadowing metodu ir aptark skyrių su DI.",
+    "ogTitle": "Mokykis {target} kalbos: įgarsintos knygos, vertimas",
+    "ogDescription": "Skaityk knygas {target} kalba – lietuviškas vertimas visada greta, o kiekvienas sakinys turi įgarsinimą. Naują žodį išsaugok vienu palietimu ir kartok jį intervalais.",
+    "twitterTitle": "Mokykis {target} kalbos: įgarsintos knygos, vertimas",
+    "twitterDescription": "Skaityk knygas {target} kalba – lietuviškas vertimas visada greta. Naujus žodžius išsaugok vienu palietimu ir kartok juos vis retesniais intervalais."
+  },
+  "nav": {
+    "links": [
+      "Kaip veikia",
+      "Biblioteka",
+      "Kalbos",
+      "Atsiliepimai",
+      "DUK"
+    ]
+  },
+  "hero": {
+    "title": "Mokykis {target} kalbos iš knygų, o ne iš begalinių pratimų",
+    "subtitle": "Skaityk ir klausyk to, kas tau iš tikrųjų įdomu, išsaugok žodžius tiesiai iš teksto, o kartojimo algoritmas pats juos primins tinkamu metu.",
+    "cta": "Atsisiųsk programėlę",
+    "trust": "49 kalbos • iPhone / Android",
+    "pills": [
+      "Lygiagretus vertimas",
+      "Garsas + skaitymas",
+      "Žodžių treniruoklis",
+      "Intervalinis kartojimas",
+      "Bet kuri knyga ar tekstas",
+      "Shadowing",
+      "Knygos aptarimas su DI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Knyga vietoj kurso",
+        "span": "Mokaisi iš to, ką skaitytum ir dėl malonumo"
+      },
+      {
+        "strong": "49 kalbos",
+        "span": "Nuo populiariausių iki pačių rečiausių"
+      },
+      {
+        "strong": "Biblioteka pagal skonį",
+        "span": "Klasika, pasaulio bestseleriai ir straipsniai"
+      },
+      {
+        "strong": "Viskas sukasi vienu ratu",
+        "span": "Skaitymas, garsas, žodžiai ir kartojimas"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Kodėl daugumą kalbų programėlių greitai metame – o šios ne",
+    "subtitle": "Problema niekada nebuvo tavo valia. Problema buvo formatas.",
+    "labelOld": "❌ Įprastai",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Kali žodžius, kurių paskui niekur nepavartoji",
+          "text": "Sąrašai ir kortelės be konteksto. Rytoj jų jau nebėra."
+        },
+        "new": {
+          "title": "Žodžiai pasitaiko gyvuose sakiniuose",
+          "text": "Matai, kaip žodis elgiasi kontekste, todėl jis įstringa galvoje savaime, nieko nekalant."
+        }
+      },
+      {
+        "old": {
+          "title": "Kasdien tie patys pratimai",
+          "text": "Darosi nuobodu, motyvacija krinta, ir po pirmos savaitės programėlė lieka neatidaryta."
+        },
+        "new": {
+          "title": "Skaitai tai, ką skaitytum ir šiaip",
+          "text": "Bestseleriai, keistos tikros istorijos, mokslo populiarinimas – medžiaga, prie kurios grįžti savo noru."
+        }
+      },
+      {
+        "old": {
+          "title": "Skaityti originalą per sunku",
+          "text": "Nepažįstami žodžiai kas antroje eilutėje, siužetas išsprūsta iš rankų, ir meti jau pirmame puslapyje."
+        },
+        "new": {
+          "title": "Lygiagretus vertimas, o prireikus – ir adaptacija",
+          "text": "Vertimas – čia pat, šalia teksto, o per sunkią knygą galima pritaikyti savo lygiui."
+        }
+      },
+      {
+        "old": {
+          "title": "Skaitai tai, kas atsitiktinai atsidūrė kataloge",
+          "text": "Fiksuota biblioteka. Savos knygos neįkelsi."
+        },
+        "new": {
+          "title": "Vadovėliu tampa bet kuri knyga ar tekstas",
+          "text": "Įkelk mėgstamas knygas ir reikalingus dokumentus, o programėlė grąžins juos su lygiagrečiu vertimu, garsu ir žodžių kartojimu."
+        }
+      },
+      {
+        "old": {
+          "title": "Skaitai ir klausai, bet viskas vyksta pasyviai",
+          "text": "Nėra kur kalbėti ar rašyti, tad įgūdis taip ir nesusiformuoja."
+        },
+        "new": {
+          "title": "Ne tik skaitai – dar ir kalbi bei rašai",
+          "text": "Ką tik perskaitytą knygą aptari su DI, tad temos sugalvoti nereikia. Kai turi ką pasakyti, tampa lengva ir kalbėti, ir rašyti."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Visi 7 kalbos įgūdžiai vienoje vietoje",
+    "subtitle": "Kalbos mokėjimas – tai septyni įgūdžiai. Lingo7 lavina juos kartu, o ne po vieną, todėl kiekvienas stiprina visus kitus.",
+    "skills": [
+      {
+        "title": "Skaitymas",
+        "text": "Skaitai originalą arba adaptuotą versiją su vertimu čia pat greta – greitai ir be žodyno."
+      },
+      {
+        "title": "Klausymas",
+        "text": "Audioknygos ir režimas, kai vienu metu klausai ir skaitai – vienas veiksmingiausių būdų išlavinti klausą."
+      },
+      {
+        "title": "Žodynas",
+        "text": "Nauji žodžiai lieka galvoje beskaitant, be jokio kalimo. Pratimai ir intervalinis kartojimas įtvirtina juos ilgam."
+      },
+      {
+        "title": "Gramatika",
+        "text": "Geriausiai gramatika įsisavinama tada, kai matai, kaip taisyklė veikia gyvame sakinyje."
+      },
+      {
+        "title": "Rašymas",
+        "text": "DI pokalbis: aptari ką tik perskaitytą tekstą, tad visada yra apie ką rašyti. Jis padeda suformuluoti mintį ir pagauna klaidas."
+      },
+      {
+        "title": "Kalbėjimas",
+        "text": "Shadowing: garsiai kartoji ką tik išgirstas frazes ir lavini sklandumą, ritmą bei intonaciją."
+      },
+      {
+        "title": "Tarimas",
+        "text": "Tarimo pratimai padeda priartinti akcentą prie to, kaip kalba gimtakalbis."
+      }
+    ],
+    "conductor": {
+      "badge": "Asmeninis planas · Jau greitai",
+      "title": "Programėlė pati pasakys, ką veikti šiandien",
+      "text": "Ji parenka tinkamą veiklą tinkamu metu – paskaityti, pakartoti garsiai, įtvirtinti žodžius ar aptarti skyrių su DI. Tau nebereikia galvoti, nuo ko pradėti ir kas toliau.",
+      "caption": "Pavyzdinis šiandienos užsiėmimas – tavo planą programėlė sudarys pati.",
+      "steps": [
+        {
+          "label": "Skaitymas",
+          "meta": "15 min"
+        },
+        {
+          "label": "Klausau ir skaitau",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Dabar · 7 min"
+        },
+        {
+          "label": "Žodžiai",
+          "meta": "25 kortelės"
+        },
+        {
+          "label": "DI pokalbis",
+          "meta": "aptariame skyrių"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Kaip mokytis kalbos iš knygų: penki žingsniai",
+    "subtitle": "Jokio sudėtingo metodo. Vienas aiškus ratas ir turinys, kuris pats neša per jį.",
+    "items": [
+      {
+        "title": "Išsirink turinį",
+        "text": "Bestselerių santraukos, klasika, apsakymai – pagal nuotaiką, pagal lygį, pagal tai, kiek turi laiko."
+      },
+      {
+        "title": "Skaityk su lygiagrečiu vertimu",
+        "text": "Originalas ir vertimas vienas šalia kito; palieti žodį – matai reikšmę, girdi tarimą arba išsaugai jį."
+      },
+      {
+        "title": "Išmok žodžius",
+        "text": "Išsaugoti žodžiai grįžta pratimuose, kurie įtraukia skirtingus atminties tipus, ir kartojasi vis retesniais intervalais."
+      },
+      {
+        "title": "Klausyk ir kartok garsiai",
+        "text": "Kiekvienas sakinys turi įgarsinimą: paklausyk ir tuoj pat garsiai pakartok – būtent taip ir susiformuoja tarimas bei intonacija."
+      },
+      {
+        "title": "Aptark knygą su DI",
+        "text": "DI pereina knygą kartu su tavimi – treniruojiesi rašyti ir kalbėti, mokaisi dėlioti mintis nauja kalba."
+      }
+    ]
+  },
+  "library": {
+    "title": "Knygos {target} kalba su vertimu – pagal lygius nuo A1 iki C1",
+    "subtitle": "Mokaisi ne tik kalbos – kartu ir sužinai ką nors naujo. Medžiagos yra kiekvienam lygiui, nuo pirmų žingsnių iki aukštumų.",
+    "tabs": [
+      "Klasika",
+      "Bestseleriai",
+      "Atradimai"
+    ],
+    "panels": [
+      {
+        "title": "Skaityk didžiąsias knygas originalo kalba – su apsauginiu tinklu",
+        "text": "Adaptuotos ir originalios versijos skirtingiems lygiams – nuo „Mažojo princo“ iki Hokingo. Lygiagretus vertimas leidžia įveikti net sunkią prozą.",
+        "badges": [
+          "A1-A2 Pradedantysis",
+          "B1-B2 Vidutinis",
+          "C1+ Pažengęs"
+        ]
+      },
+      {
+        "title": "Geriausių pasaulio knygų esmė per 7–15 minučių",
+        "text": "Pagrindinės pasaulinių bestselerių mintys, perpasakotos trumpai – ta kalba, kurios mokaisi. Vienu prisėdimu ir tobulėji, ir kalbos mokaisi.",
+        "badges": [
+          "A1-A2 Pradedantysis",
+          "B1-B2 Vidutinis",
+          "C1+ Pažengęs"
+        ]
+      },
+      {
+        "title": "5 minutės per dieną: vienas geras faktas ir keli nauji žodžiai",
+        "text": "Kosmosas, psichologija, verslas, gamta, technologijos – šimtai trumpų straipsnių bet kuria tema. Kasdien sužinai ką nors naujo, o kalba prisideda savaime.",
+        "badges": [
+          "A1-A2 Pradedantysis",
+          "B1-B2 Vidutinis",
+          "C1+ Pažengęs"
+        ]
+      }
+    ],
+    "examples": [
+      "Mąstyk ir tapk turtingas • 80/20 principas • 7 labai veiksmingų žmonių įpročiai • Dabarties galia"
+    ]
+  },
+  "customBook": {
+    "badge": "NAUJA",
+    "title": "Įkelk savo knygą ar tekstą – iš jo ir mokykis",
+    "text": "Įkelk bet kokį failą, o Lingo7 pavers jį mokymosi medžiaga su lygiagrečiu vertimu ir įgarsinimu. Toliau viskas kaip visada: skaitai, klausai, mokaisi žodžių, garsiai kartoji ką tik išgirstas frazes ir aptari perskaitytą tekstą su DI.",
+    "cards": [
+      {
+        "title": "Bestseleriai originalo kalba",
+        "text": "„Haris Poteris“, „Kopa“, „Sostų žaidimas“ – perskaityk knygas, prie kurių vis neprieini, ta kalba, kurios mokaisi."
+      },
+      {
+        "title": "Kalba, kurios reikia darbui ir studijoms",
+        "text": "Darbo dokumentai, straipsniai, egzaminų medžiaga – mokaisi tos srities kalbos, kurioje esi dabar."
+      }
+    ],
+    "usecases": [
+      "Egzaminai",
+      "Darbas",
+      "Straipsniai",
+      "Interviu"
+    ],
+    "formatsNote": "Įkelk savo failus šiais formatais:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptacija",
+      "title": "Skaityk bet kurią knygą – <span class=\"accent\">perrašytą</span> pagal tave",
+      "text": "Žodynas ir gramatika vis dar per sunkūs? Lingo7 perrašo knygą paprastesne kalba – ta pati istorija, tie patys veikėjai, tik lengvesni sakiniai.",
+      "cta": "Išbandyk su savo knyga"
+    },
+    "goalQuote": "Mano mėgstamiausias receptas: imi „Harį Poterį“ ir kasdien nuvarai po skyrių – perskaitai, paklausai, išmoksti naujus žodžius, aptari su DI. Pusmetis po valandą kitą per dieną – ir <span class=\"goal-quote__level\">iš A2 išeini su B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 – tau, jei...",
+    "items": [
+      "Nori mokytis iš turinio, o ne iš pamokų, per kurias reikia prisiversti",
+      "Nori ne tik skaityti, bet ir klausyti, kalbėti bei rašyti: tarimą lavinti shadowing metodu, o mintis dėlioti DI pokalbyje",
+      "Nori mokytis iš savo medžiagos – darbo dokumentų, mėgstamų knygų ir straipsnių, o ne tik iš paruoštų pamokų",
+      "Ieškai retos kalbos, kurios daugumoje programėlių tiesiog nėra",
+      "Nori mokytis trumpais 5–15 minučių prisėdimais"
+    ]
+  },
+  "pains": {
+    "title": "Kas trukdo – ir ką su tuo daro Lingo7",
+    "subtitle": "Čia klausimas ne gabumų. Čia klausimas formato.",
+    "chips": [
+      "Baisu kalbėti",
+      "Greitai nusibosta",
+      "Žodžiai nelimpa",
+      "Skaityti sunku",
+      "Nesuprantu iš klausos",
+      "Nėra laiko",
+      "Reta kalba",
+      "Man netiks"
+    ],
+    "answers": [
+      {
+        "title": "„Gėda kalbėti ir klysti“",
+        "text": "Shadowing – tai ką tik išgirstų frazių kartojimas garsiai, vienumoje ir be jokių vertintojų. Būtent taip ir susiformuoja tarimas. O DI pokalbyje mokaisi dėlioti mintis raštu, ir jis švelniai pataiso klaidas."
+      },
+      {
+        "title": "„Man greitai nusibosta“",
+        "text": "Vietoj vienodų pamokų – knygos, bestseleriai ir straipsniai temomis, apie kurias skaitytum ir šiaip. Kai turinys traukia, grįžti nesunku."
+      },
+      {
+        "title": "„Žodžius matau, bet jie neužsilaiko“",
+        "text": "Vienas palietimas išsaugo žodį kartu su sakiniu, o paskui jis grįžta kortele vis retesniais intervalais. Įsiminti nustoja būti sėkmės reikalas."
+      },
+      {
+        "title": "„Skaityti originalą man per sunku“",
+        "text": "Lygiagretus vertimas su sulygiuotais sakiniais – nereikia kas antrą eilutę griebtis vertėjo."
+      },
+      {
+        "title": "„Nesuprantu sakytinės kalbos“",
+        "text": "Režimas „klausau ir skaitau“ susieja žodžio skambesį su jo rašyba ir reikšme. Klausa prie kalbos pripranta savaime."
+      },
+      {
+        "title": "„Neturiu laiko“",
+        "text": "Trumpi formatai ir greiti prisėdimai – net 5–10 minučių per dieną išlaiko ritmą."
+      },
+      {
+        "title": "„Man reikia retos kalbos“",
+        "text": "49 kalbos, tarp jų ir retos. Ir bet kurios iš jų mokaisi per savo gimtąją kalbą."
+      },
+      {
+        "title": "„Bijau, kad man netiks“",
+        "text": "Jei moki skaityti, tau tinka. Nereikia jokių išankstinių žinių, gramatikos ar pasiruošimo – pradėk nuo bet kurios savo lygio knygos."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Mokykis {target} kalbos",
+    "title": "49 kalbos – nuo dažniausių iki rečiausių",
+    "subtitle": "Mokykis bet kurios kalbos per savo gimtąją, o ne per anglų, kaip verčia dauguma programėlių.",
+    "groupTitles": [
+      "Populiarios",
+      "Visos kalbos"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 kalbų poros.</strong> Rinkis bet kokį derinį: kalbą, kurios mokaisi, ir kalbą, kuria skaitai vertimą."
+  },
+  "reviews": {
+    "title": "Nesitikėjome, kad jums taip patiks",
+    "subtitle": "Bet faktai yra faktai – štai ką žmonės rašo „Google Play“.",
+    "items": [
+      {
+        "text": "Puiki programėlė. Didelis pliusas, kad ta pati knyga būna kelių anglų kalbos lygių. Nekantriai laukiu atnaujinimo!",
+        "author": "Екатерина М.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Įsigijau metinę prenumeratą – kaina tikrai verta to, ką gauni. Tai išties nuostabi programėlė! Puikus išteklius anglų kalbai pagerinti. Nuo suaugusiųjų iki vaikų – ne tik naudinga, bet ir būtina.",
+        "author": "Mayur L.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Man reikėjo portugalų kalbos, kad dirbčiau su komanda Brazilijoje. Skaitymas kartu su garsu veikia labai stipriai. Po 6 savaičių jau supratau, kas vyksta susitikimuose.",
+        "author": "Rosita R.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Visada norėjau išmokti vokiečių kalbą, o šioje programėlėje viskas kur kas paprasčiau ir aiškiau nei kitose panašiose. Programėlė 10 iš 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Naudojuosi funkcija, kai skaitai ir kartu klausai įrašo, ir man tai tapo tikru proveržiu. Įrašai aiškūs ir gerai sinchronizuoti. Fantastiškas įrankis besimokantiems kalbų.",
+        "author": "Zeynep O.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Idėja ir įgyvendinimas – penki. Šiuo metu tai vienintelė programėlė, kurioje yra knygų serbų kalba. Šaunuoliai! Ačiū!",
+        "author": "Вася К.",
+        "source": "Google Play • žiūrėti originalą"
+      },
+      {
+        "text": "Man, kaip mokytojui, tai tikrai nuostabi programėlė. Rekomenduoju ją savo mokiniams. Naudotis labai malonu. Rekomenduoju visiems.",
+        "author": "Sasha T.",
+        "source": "Google Play • žiūrėti originalą"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Dažniausiai užduodami klausimai",
+    "items": [
+      {
+        "q": "Ar Lingo7 tiks visiškam pradedančiajam?",
+        "a": "Taip. Medžiagos yra kiekvienam lygiui, o su lygiagrečiu vertimu tekstas suprantamas nuo pat pradžių."
+      },
+      {
+        "q": "Kokio lygio reikia norint skaityti originalą?",
+        "a": "Bet kokio. Lygiagretus vertimas leidžia skaityti be žodyno, o per sunkią knygą galima adaptuoti – ta pati istorija ir tie patys veikėjai, tik tavo lygio gramatika ir žodžiai. Viskas pažymėta nuo A1 iki C1."
+      },
+      {
+        "q": "Ar galiu mokytis po 10 minučių per dieną?",
+        "a": "Taip. Trumpi straipsniai, knygų santraukos ir žodžių kortelės kaip tik tam ir skirti – trumpiems kasdieniams prisėdimams."
+      },
+      {
+        "q": "Kokių kalbų galima mokytis?",
+        "a": "49 kalbos, ir bet kurios iš jų gali mokytis per savo gimtąją kalbą – ne tik per anglų. Iš viso 49 × 48 = 2352 kalbų poros, tarp jų ir retos kalbos."
+      },
+      {
+        "q": "Kuo tai skiriasi nuo įprastų kalbų programėlių?",
+        "a": "Vietoj atskirų pratimų mokaisi iš turinio, kuris tau įdomus, o visi įgūdžiai sujungti į vieną ratą: skaitai ir klausai, išsaugai žodžius intervaliniam kartojimui, gramatiką pagauni kontekste, kalbėjimą lavini shadowing metodu, o rašymą – DI pokalbyje. Be to, gali įkelti savo knygą ar dokumentą."
+      },
+      {
+        "q": "Ar yra kalbėjimo praktika?",
+        "a": "Taip. Kalbėjimui – shadowing: garsiai kartoji ką tik išgirstas frazes ir lavini tarimą bei intonaciją. Rašymui – DI pokalbis: aptari tai, ką perskaitei, o jis padeda suformuluoti mintį ir randa klaidas. Gyvo pokalbio su žmogumi kol kas nėra – jis planuojamas."
+      },
+      {
+        "q": "Kokių formatų failus galiu įkelti?",
+        "a": "PDF, EPUB, FB2 ir TXT. Įkelk darbo dokumentus, mėgstamas knygas ar straipsnius – programėlė paruoš lygiagretų vertimą, pridės įgarsinimą ir surinks naujus žodžius į treniruoklį."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Pradėk mokytis {target} kalbos šiandien – iš knygos, o ne iš pratimų",
+    "text": "Atsisiųsk programėlę ir atsiversk pirmą knygą.",
+    "perks": [
+      "49 kalbos",
+      "Visi lygiai"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Apie mus",
+      "Kontaktai",
+      "Karjera",
+      "Mokykloms",
+      "Kaip mokytis kalbų",
+      "Naudojimo sąlygos",
+      "Privatumas"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Visos teisės saugomos."
+  },
+  "downloadModal": {
+    "title": "Atsisiųsk Lingo7",
+    "text": "Rasi „App Store“ ir „Google Play“ parduotuvėse"
+  },
+  "stickyCta": {
+    "label": "Atsisiųsk programėlę"
+  },
+  "mobileMenu": {
+    "links": [
+      "Kaip veikia",
+      "Biblioteka",
+      "Kalbos",
+      "Atsiliepimai",
+      "DUK"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Klausyti",
+      "add": "Išsaugoti",
+      "translate": "Versti",
+      "addToMyWords": "Įtraukti į mano žodžius",
+      "inMyWords": "Mano žodžiuose",
+      "audioMode": "Garso režimas",
+      "discussWithAi": "Aptarti su DI",
+      "selfCheck": "Pasitikrink"
+    },
+    "wordCard": {
+      "freqHigh": "DAŽNAS",
+      "freqMid": "VIDUTINIS",
+      "example": "Pavyzdys",
+      "otherTranslations": "Kiti vertimai",
+      "synonyms": "Sinonimai",
+      "open": "Atverti",
+      "group": "Grupė:",
+      "groupDefault": "Bendra",
+      "page": "p."
+    },
+    "readerSettings": {
+      "sectionText": "TEKSTAS",
+      "sectionAudio": "GARSAS",
+      "highlightMyWords": "Paryškinti mano žodžius",
+      "highlightMyWordsHint": "Pažymi tavo išsaugotus žodžius",
+      "theme": "Tema",
+      "themeLight": "Šviesi",
+      "fontSize": "Šrifto dydis",
+      "font": "Šriftas",
+      "speakOnTap": "Ištarti žodį palietus",
+      "speakOnTapHint": "Balsu perskaito paliestą žodį",
+      "speechRate": "Kalbėjimo greitis",
+      "pronunciationTest": "Tarimo testas",
+      "playSample": "Paleisti pavyzdinę frazę",
+      "reset": "Atstatyti nustatymus",
+      "done": "Atlikta",
+      "on": "Įjungta",
+      "off": "Išjungta",
+      "accent": "Akcentas",
+      "translationAlways": "Visada"
+    },
+    "vocab": {
+      "pickRightPicture": "Pasirink tinkamą paveikslėlį",
+      "correct": "Tiksliai taip",
+      "rightAnswer": "Teisingas atsakymas:",
+      "next": "Toliau",
+      "done": "Baigta",
+      "skip": "Praleisti",
+      "exercise": "Pratimas",
+      "exerciseMeta": "/11 · 10 žodžių"
+    },
+    "chat": {
+      "title": "Praktika",
+      "discussing": "Aptariame „{book}“",
+      "finish": "Baigti",
+      "playing": "Grojama…",
+      "replyOptions": "Atsakymo variantai",
+      "placeholder": "Rašyk žinutę"
+    },
+    "bookDetail": {
+      "adapted": "Adaptuota",
+      "adaptedHint": "Perrašyta paprasčiau, prasmė išlaikyta",
+      "original": "Originalas",
+      "originalHint": "Visas originalus tekstas, nekeistas",
+      "open": "Atverti",
+      "genre": "Žanras",
+      "badgeSummary": "Santrauka"
+    },
+    "library": {
+      "profile": "Profilis",
+      "search": "Paieška",
+      "upload": "Įkelk knygą",
+      "tabCatalog": "Katalogas",
+      "tabAll": "Visos knygos",
+      "tabFavorites": "Mėgstami",
+      "shelfBestsellers": "Pasaulio bestseleriai",
+      "shelfBestsellersSub": "trumpai perpasakoti, su įgarsinimu",
+      "shelfStories": "Trumpi apsakymai",
+      "shelfStoriesSub": "Mažos istorijos, didelės mintys",
+      "bandTitle": "5 minutės per dieną",
+      "bandText": "Kasdien sužinok po įdomų faktą – o kalba prisidės savaime.",
+      "shelfAmazing": "Stebinančios istorijos",
+      "shelfNature": "Gamtos paslaptys",
+      "shelfHealth": "Sveikata ir mokslas",
+      "moreTopics": "Daugiau temų",
+      "shelfGolden": "Auksinė klasika",
+      "shelfGoldenSub": "200 knygų, pakeitusių žmoniją",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteka",
+      "practice": "Praktika",
+      "read": "Skaityti",
+      "myWords": "Mano žodžiai",
+      "collections": "Rinkiniai"
+    }
+  },
+  "_note": "Локаль lt. Полный перевод с эталона en.json (2026-08-29), писался как литовский оригинал, а не как перевод. Контракт слота: {target} — родительный множественного этнонима («ispanų», «anglų»), приименное определение к существительному «kalba». Носитель «kalba» вынесен из слота и склоняется самой строкой (kalbos / kalba), поэтому байты слота во всех девяти строках одинаковы. Бюджет выдачи пересчитан по «azerbaidžaniečių». Обращение — «tu» (единственное число), как в литовских потребительских приложениях. Имена авторов отзывов, customBook.formats, коды CEFR, числа и эмодзи скопированы из эталона побайтово. Файл прошёл снятие калек по i18n/en.gloss.json (2026-08-30): образные обороты эталона — сложность как вес, соседство как поза, подкрепление как тяга, повторение «позади диктора» и «возврат» слов алгоритмом — переписаны литовскими средствами. Третий круг (2026-08-30, слепой обратный перевод + аудит носителя, i18n/_qa/gemini-lt.json): «knygos su vertimu ir garsu» → «įgarsintos knygos, vertimas» (garsas = звук вообще, у книги читается как звуковые эффекты; термин файла — įgarsinimas), «Mokėti kalbą – tai septyni įgūdžiai» → «Kalbos mokėjimas – tai septyni įgūdžiai» (связка из en.gloss.json), «Kalbėjimui yra shadowing» → «Kalbėjimui – shadowing:» (снято экзистенциальное «yra», строка выровнена по соседней «Rašymui – …»), «jis suplanuotas» → «jis planuojamas», «pritaikyti tavo lygiui» → «savo lygiui» (возвратное притяжательное при безличном galima). Требования снять носитель «kalba» из девяти строк со слотом отклонены: слот — родительный этнонима, «Mokykis ispanų» без «kalbos» неграмматично.",
+  "_contract": {
+    "government": "Слот — приименное определение в родительном падеже множественного числа (этноним: ispanų, anglų, vokiečių) при существительном «kalba». Литовское определение в родительном НЕ согласуется с вершиной, поэтому форма слота не меняется, в каком бы падеже ни стояло «kalba». Объявленная позиция: «{target} kalba» — дополнение при mokytis (род.: «mokykis {target} kalbos», «pradėk mokytis {target} kalbos») и обстоятельство при skaityti (твор.: «skaityk knygas {target} kalba», «knygos {target} kalba»). Падеж несёт МОЙ токен kalba, не слот; второй формы слота нет ни в одной из девяти строк. Соседей с алломорфией (артикль, предлог с вариантами, гармония) рядом со слотом нет: слева всегда мой фиксированный глагол или существительное, справа — фиксированное «kalba».",
+    "slotExample": "ispanų",
+    "slotExampleEnglish": "anglų",
+    "longestSlot": "azerbaidžaniečių",
+    "longestSlotLang": "азербайджанский (lt azerbaidžaniečių kalba)",
+    "titleRenderedLen": 60,
+    "descRenderedLen": 157,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Носитель «kalba» остаётся в строке — это не «конвенция {target} язык», а требование языка: «ispanų» само по себе значит «испанцев», без «kalba» фразы нет. Проверить у носителя, что конструкции «mokykis {target} kalbos» и «knygos {target} kalba» звучат как обычная реклама, а не как школьный учебник.",
+      "Заглавная — данные: в литовском названия языков пишутся со строчной (ispanų, anglų), поэтому слот нигде не стоит первым словом: meta.title/ogTitle/twitterTitle и hero.title начинаются с «Mokykis», описания — со «Skaityk», finalCta.title с «Pradėk», library.title с «Knygos».",
+      "Форма слота для азербайджанского выбрана длинная — «azerbaidžaniečių» (16 знаков), хотя в обиходе встречается и «azerbaidžanų». Бюджет считан по длинной: если таблица названий отдаст короткую, заголовок только укоротится.",
+      "Все причастия и полупричастия (skaitydamas/skaitydama, vienas/viena) из текста убраны намеренно: они выдают род читателя. Везде личные формы глагола — «skaitai, klausai, mokaisi, kartoji, aptari». При правках следить, чтобы род не вернулся.",
+      "«shadowing» оставлен английским термином и нигде не склоняется — стоит либо чипом, либо в позиции «Shadowing – tai …», «lavini shadowing metodu». Конструкция «per + вин.» для орудия («per shadowing») снята как ненормативная, орудие теперь несёт творительный «metodu». Литовского обиходного эквивалента нет; носителю проверить, не нужен ли описательный вариант «ką tik išgirstų frazių kartojimas garsiai».",
+      "«DI» (dirbtinis intelektas) выбрано вместо «AI»; замена сквозная по файлу, если решат писать «AI».",
+      "«intervalinis kartojimas» / «kartok intervalais» — термин для spaced repetition; в steps.items[2] и pains.answers[2] он раскрыт описательно («vis retesniais intervalais»), чтобы не висел без объяснения.",
+      "faq.items[1].q «Kokio lygio reikia norint skaityti originalą?» — косвенный вопрос об уровне, а не условие; ответ «Bet kokio». Модальность сохранена: «galima adaptuoti» (возможность), «Gyvo pokalbio su žmogumi kol kas nėra – jis planuojamas» (ограничение, не обещание), method.conductor.badge «Jau greitai».",
+      "Названия книг: «Mažasis princas», «Haris Poteris», «Kopa», «Sostų žaidimas», «80/20 principas», «Dabarties galia» — уверенно; «Mąstyk ir tapk turtingas» и «7 labai veiksmingų žmonių įpročiai» сверить с литовскими изданиями (Hill и Covey), там заголовки у разных издательств расходятся. Hawking → «Hokingas».",
+      "library.panels[*].badges: уровни подписаны «Pradedantysis / Vidutinis / Pažengęs» (мужской род как нейтральная словарная форма ярлыка); носителю решить, не лучше ли «Pradedantiesiems / Pažengusiems» (дательный «для кого»).",
+      "Снятие калек (2026-08-30): «kartoti paskui diktorių» заменено на «garsiai kartoji ką tik išgirstas frazes» — «paskui» читалось как позиция в пространстве, а не следование во времени; «vertimas eina šalia» → «vertimas – čia pat, šalia teksto» / «visada greta» (глагол движения убран); «tempia kitus paskui save» → «kiekvienas stiprina visus kitus»; «algoritmas grąžins žodžius» → «primins»; «panaikina žodyno poreikį» → «leidžia skaityti be žodyno»; «be prievartos» → «savaime, nieko nekalant»; «lįsti į vertėją» → «griebtis vertėjo». Носителю проверить, что «pritaikyti savo lygiui» и «galima adaptuoti» читаются как пересказ проще, а не как урезание книги."
+    ]
+  }
+}

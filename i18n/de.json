@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "title": "{target} lernen: zweisprachige Bücher & Audio",
+    "description": "{target} lesen, mit deutscher Übersetzung daneben und Audio: Wörter per Spaced Repetition lernen, Shadowing üben, Kapitel mit der KI besprechen.",
+    "ogTitle": "{target} lernen: zweisprachige Bücher & Audio",
+    "ogDescription": "{target} lesen, mit der deutschen Übersetzung daneben und Audio zu jedem Satz. Ein Antippen speichert ein Wort, Spaced Repetition zeigt es im richtigen Moment wieder.",
+    "twitterTitle": "{target} lernen: zweisprachige Bücher & Audio",
+    "twitterDescription": "{target} lesen, die deutsche Übersetzung steht daneben. Wörter antippen, speichern und per Spaced Repetition wiederholen."
+  },
+  "nav": {
+    "links": [
+      "So funktioniert's",
+      "Bibliothek",
+      "Sprachen",
+      "Bewertungen",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "{target} lernen, indem du Bücher liest – nicht, indem du dich durch Übungen quälst",
+    "subtitle": "Lies und hör dir an, was dich wirklich interessiert, speichere Wörter direkt aus dem Text, und ein Spaced-Repetition-Algorithmus zeigt sie dir im richtigen Moment wieder.",
+    "cta": "App herunterladen",
+    "trust": "49 Sprachen • iPhone / Android",
+    "pills": [
+      "Parallelübersetzung",
+      "Audio + Lesen",
+      "Wortschatztrainer",
+      "Spaced Repetition",
+      "Jedes Buch, jeder Text",
+      "Shadowing",
+      "Buch mit KI besprechen"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Ein Buch statt eines Kurses",
+        "span": "Lerne mit dem, was du gern liest"
+      },
+      {
+        "strong": "49 Sprachen",
+        "span": "Von den meistgesprochenen bis zu den seltensten"
+      },
+      {
+        "strong": "Eine Bibliothek mit Auswahl",
+        "span": "Klassiker, Weltbestseller und Artikel"
+      },
+      {
+        "strong": "Alles läuft in einem Kreislauf",
+        "span": "Lesen, Audio, Wortschatz, Wiederholung"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Warum die meisten Sprach-Apps liegen bleiben – und diese nicht",
+    "subtitle": "Es lag nie an deiner Disziplin. Es lag am Format.",
+    "labelOld": "❌ Meistens",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Du paukst Wörter, die du nie wirklich benutzen kannst",
+          "text": "Listen und Karteikarten ohne Kontext. Morgen schon wieder weg."
+        },
+        "new": {
+          "title": "Wörter tauchen in echten Sätzen auf",
+          "text": "Du siehst, wie sich ein Wort im Kontext verhält – und es bleibt hängen, ohne dass du es erzwingst."
+        }
+      },
+      {
+        "old": {
+          "title": "Jeden Tag die immer gleichen Übungen",
+          "text": "Es wird öde, die Motivation sinkt, und nach der ersten Woche bleibt die App zu."
+        },
+        "new": {
+          "title": "Du liest, was du ohnehin lesen würdest",
+          "text": "Bestseller, kuriose wahre Geschichten, Populärwissenschaft – Stoff, zu dem du von selbst zurückkommst."
+        }
+      },
+      {
+        "old": {
+          "title": "Das Original ist zu schwer",
+          "text": "Überall unbekannte Wörter, die Handlung entgleitet dir, auf Seite eins ist Schluss."
+        },
+        "new": {
+          "title": "Parallelübersetzung, dazu Adaption",
+          "text": "Die Übersetzung steht direkt neben dem Text, und ein zu schwieriges Buch lässt sich für dein Niveau neu erzählen."
+        }
+      },
+      {
+        "old": {
+          "title": "Du liest, was der Katalog gerade hergibt",
+          "text": "Eine feste Bibliothek. Dein eigenes Buch bleibt draußen."
+        },
+        "new": {
+          "title": "Jedes Buch, jeder Text wird dein Lehrbuch",
+          "text": "Gib der App die Bücher, die du liebst, und die Dokumente, die du brauchst – du bekommst sie zurück mit Parallelübersetzung, Audio und Wortwiederholung."
+        }
+      },
+      {
+        "old": {
+          "title": "Du liest und hörst, aber alles bleibt passiv",
+          "text": "Nirgends sprechen, nirgends schreiben – so festigt sich nichts."
+        },
+        "new": {
+          "title": "Du liest nicht nur – du sprichst und schreibst",
+          "text": "Über das Buch, das du gerade gelesen hast, sprichst du mit der KI – ein Thema musst du dir also nicht ausdenken. Und wenn du etwas zu sagen hast, fallen dir Sprechen und Schreiben leicht."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Alle 7 Sprachfähigkeiten an einem Ort",
+    "subtitle": "Wer eine Sprache kann, beherrscht sieben Fähigkeiten. Lingo7 trainiert sie gemeinsam statt eine nach der anderen – so verstärkt jede die anderen.",
+    "skills": [
+      {
+        "title": "Lesen",
+        "text": "Lies das Original oder eine adaptierte Fassung, die Übersetzung direkt daneben – schnell und ohne Wörterbuch."
+      },
+      {
+        "title": "Hören",
+        "text": "Hörbücher und der Modus Hören und Lesen – eine der wirksamsten Methoden, das Gehör zu trainieren."
+      },
+      {
+        "title": "Wortschatz",
+        "text": "Neue Wörter bleiben schon beim Lesen hängen, ganz ohne Pauken. Übungen und Spaced Repetition verankern sie langfristig."
+      },
+      {
+        "title": "Grammatik",
+        "text": "Grammatik nimmst du am besten auf, wenn du die Regeln im echten Satz arbeiten siehst."
+      },
+      {
+        "title": "Schreiben",
+        "text": "KI-Chat: Du besprichst, was du gerade gelesen hast – Stoff zum Schreiben gibt es also immer. Die KI hilft dir, den Gedanken zu formulieren, und findet deine Fehler."
+      },
+      {
+        "title": "Sprechen",
+        "text": "Shadowing: Du sprichst dem Sprecher laut nach und trainierst Sprechfluss, Rhythmus und Intonation."
+      },
+      {
+        "title": "Aussprache",
+        "text": "Ausspracheübungen bringen deinen Akzent näher an den Klang von Muttersprachlern."
+      }
+    ],
+    "conductor": {
+      "badge": "Persönlicher Plan · Demnächst",
+      "title": "Die App sagt dir, was heute dran ist",
+      "text": "Sie wählt zur richtigen Zeit die richtige Aufgabe – lesen, laut nachsprechen, Wörter festigen oder ein Kapitel mit der KI besprechen. Du musst nie entscheiden, wo du anfängst und was als Nächstes kommt.",
+      "caption": "Eine Beispiel-Einheit für heute – deine baut die App.",
+      "steps": [
+        {
+          "label": "Lesen",
+          "meta": "15 Min."
+        },
+        {
+          "label": "Hören & Lesen",
+          "meta": "5 Min."
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Jetzt · 7 Min."
+        },
+        {
+          "label": "Wörter",
+          "meta": "25 Karten"
+        },
+        {
+          "label": "KI-Chat",
+          "meta": "Kapitel besprechen"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "So lernst du eine Sprache mit Büchern: fünf Schritte",
+    "subtitle": "Keine ausgeklügelte Methode. Ein klarer Kreislauf – und Inhalte, die gut genug sind, um dich hindurchzutragen.",
+    "items": [
+      {
+        "title": "Inhalt aussuchen",
+        "text": "Bestseller-Zusammenfassungen, Klassiker, Kurzgeschichten – nach Laune, nach Niveau, nach der Zeit, die du hast."
+      },
+      {
+        "title": "Mit Parallelübersetzung lesen",
+        "text": "Original und Übersetzung nebeneinander; tipp ein Wort an für die Bedeutung, für die Aussprache oder um es zu speichern."
+      },
+      {
+        "title": "Die Wörter lernen",
+        "text": "Gespeicherte Wörter kommen in Übungen zurück, die verschiedene Arten von Gedächtnis ansprechen – zeitlich verteilt."
+      },
+      {
+        "title": "Hören und laut nachsprechen",
+        "text": "Zu jedem Satz gibt es Audio: erst hören, dann dem Sprecher nachsprechen – so entwickeln sich Aussprache und Intonation."
+      },
+      {
+        "title": "Das Buch mit der KI besprechen",
+        "text": "Die KI geht das Buch mit dir durch – du übst Schreiben und Sprechen und lernst, Gedanken in einer neuen Sprache auszudrücken."
+      }
+    ]
+  },
+  "library": {
+    "title": "{target} lesen: Bücher mit Parallelübersetzung, nach Niveau von A1 bis C1",
+    "subtitle": "Du lernst nicht nur eine Sprache, du lernst auch etwas. Material für jedes Niveau, von den ersten Schritten bis fortgeschritten.",
+    "tabs": [
+      "Klassiker",
+      "Bestseller",
+      "Entdecken"
+    ],
+    "panels": [
+      {
+        "title": "Die großen Bücher im Original lesen – mit Sicherheitsnetz",
+        "text": "Adaptierte und Original-Fassungen für verschiedene Niveaus, vom Kleinen Prinzen bis Hawking. Die Parallelübersetzung hält auch schwierige Prosa lesbar.",
+        "badges": [
+          "A1-A2 Anfänger",
+          "B1-B2 Mittelstufe",
+          "C1+ Fortgeschritten"
+        ]
+      },
+      {
+        "title": "Der Kern der besten Bücher der Welt in 7–15 Minuten",
+        "text": "Die Kernideen weltweiter Bestseller, kurz nacherzählt – in der Sprache, die du lernst. Weiterkommen und Sprache lernen in einem Zug.",
+        "badges": [
+          "A1-A2 Anfänger",
+          "B1-B2 Mittelstufe",
+          "C1+ Fortgeschritten"
+        ]
+      },
+      {
+        "title": "5 Minuten am Tag: ein guter Fakt und ein paar neue Wörter",
+        "text": "Weltraum, Psychologie, Wirtschaft, Natur, Technik – Hunderte kurze Artikel zu jedem Thema. Jeden Tag etwas Neues lernen, und die Sprache kommt mit.",
+        "badges": [
+          "A1-A2 Anfänger",
+          "B1-B2 Mittelstufe",
+          "C1+ Fortgeschritten"
+        ]
+      }
+    ],
+    "examples": [
+      "Denke nach und werde reich • Das 80/20-Prinzip • Die 7 Wege zur Effektivität • Jetzt! Die Kraft der Gegenwart"
+    ]
+  },
+  "customBook": {
+    "badge": "NEU",
+    "title": "Lade dein eigenes Buch oder deinen Text hoch und lerne damit",
+    "text": "Lade eine beliebige Datei hoch, und Lingo7 macht daraus Lernmaterial mit Parallelübersetzung und Audio. Danach läuft der gewohnte Kreislauf: Du liest, hörst, lernst Wörter, arbeitest mit Shadowing an der Sprechfertigkeit und besprichst alles mit der KI.",
+    "cards": [
+      {
+        "title": "Bestseller im Original",
+        "text": "Harry Potter, Dune, A Game of Thrones – lies endlich die Bücher, die du dir vorgenommen hast, in der Sprache, die du lernst."
+      },
+      {
+        "title": "Die Sprache, die Beruf und Studium brauchen",
+        "text": "Arbeitsdokumente, Fachtexte, Prüfungsstoff – lerne die Sprache des Fachs, in dem du gerade wirklich steckst."
+      }
+    ],
+    "usecases": [
+      "Prüfungen",
+      "Beruf",
+      "Artikel",
+      "Interviews"
+    ],
+    "formatsNote": "Lade eigene Dateien in diesen Formaten hoch:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaption",
+      "title": "Jedes Buch lesen – für dich <span class=\"accent\">neu erzählt</span>",
+      "text": "Wortschatz und Grammatik noch zu schwer? Lingo7 erzählt das Buch in einfacherer Sprache neu – gleiche Geschichte, gleiche Figuren, leichtere Sätze.",
+      "cta": "Mit deinem Buch testen"
+    },
+    "goalQuote": "Mein Lieblingsrezept: Nimm Harry Potter und mach ein Kapitel pro Tag – lesen, hören, die neuen Wörter lernen, mit der KI besprechen. Ein halbes Jahr, ein bis zwei Stunden am Tag, und du gehst <span class=\"goal-quote__level\">als A2 rein und kommst als B2 raus</span>."
+  },
+  "audience": {
+    "title": "Lingo7 ist für dich, wenn du …",
+    "items": [
+      "mit Inhalten lernen willst statt mit Lektionen, zu denen du dich zwingen musst",
+      "mehr willst als Lesen – auch Hören, Sprechen und Schreiben: Aussprache über Shadowing trainieren und im KI-Chat Gedanken in Worte fassen",
+      "mit eigenem Material lernen willst – Arbeitsdokumente, Lieblingsbücher und Artikel – und nicht nur mit fertigen Lektionen",
+      "eine seltene Sprache brauchst, die die meisten Apps nicht anbieten",
+      "in kurzen Einheiten von 5 bis 15 Minuten arbeiten willst"
+    ]
+  },
+  "pains": {
+    "title": "Was im Weg steht – und was Lingo7 dagegen tut",
+    "subtitle": "Es ist keine Frage der Begabung. Es ist eine Frage des Formats.",
+    "chips": [
+      "Angst zu sprechen",
+      "Mir wird langweilig",
+      "Wörter bleiben nicht",
+      "Lesen ist schwer",
+      "Hören fällt schwer",
+      "Keine Zeit",
+      "Seltene Sprache",
+      "Nichts für mich"
+    ],
+    "answers": [
+      {
+        "title": "„Ich schäme mich, zu sprechen und Fehler zu machen“",
+        "text": "Beim Shadowing sprichst du dem Sprecher Sätze laut nach – allein, ohne dass dich jemand bewertet. Genau so entwickelst du deine Aussprache. Im KI-Chat feilst du schriftlich an Formulierungen, und die KI korrigiert dich behutsam."
+      },
+      {
+        "title": "„Mir wird schnell langweilig“",
+        "text": "Statt austauschbarer Lektionen: Bücher, Bestseller und Artikel zu Themen, über die du ohnehin lesen würdest. Wenn der Inhalt dich packt, bleibst du leichter dran."
+      },
+      {
+        "title": "„Ich sehe die Wörter, aber sie bleiben nicht“",
+        "text": "Ein Antippen speichert ein Wort direkt aus seinem Satz heraus, danach taucht es als Karte in wachsenden Abständen wieder auf. Behalten ist dann keine Glückssache mehr."
+      },
+      {
+        "title": "„Das Original ist mir zu schwer“",
+        "text": "Parallelübersetzung, Satz für Satz auf einer Höhe – kein Sprung in den Übersetzer bei jeder zweiten Zeile."
+      },
+      {
+        "title": "„Ich verstehe die gesprochene Sprache nicht“",
+        "text": "Der Modus Hören und Lesen verbindet den Klang eines Wortes mit seiner Schreibweise und seiner Bedeutung. Dein Gehör gewöhnt sich ganz von selbst an die Sprache."
+      },
+      {
+        "title": "„Ich habe keine Zeit“",
+        "text": "Kurze Formate und schnelle Einheiten – schon 5 bis 10 Minuten am Tag halten dich im Rhythmus."
+      },
+      {
+        "title": "„Ich brauche eine seltene Sprache“",
+        "text": "49 Sprachen, seltene inklusive. Und du lernst jede davon aus deiner eigenen Muttersprache heraus."
+      },
+      {
+        "title": "„Ich fürchte, es passt nicht zu mir“",
+        "text": "Wenn du lesen kannst, passt es. Kein Vorwissen, keine Grammatik, keine Vorbereitung nötig – fang mit einem beliebigen Buch auf deinem Niveau an."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "{target} lernen",
+    "title": "49 Sprachen, von verbreitet bis selten",
+    "subtitle": "Lerne jede Sprache aus deiner eigenen Muttersprache heraus – nicht nur über Englisch, wie es die meisten Apps verlangen.",
+    "groupTitles": [
+      "Beliebt",
+      "Alle Sprachen"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 Sprachpaare.</strong> Wähle jede Kombination: die Sprache, die du lernst, und die Sprache, in der du die Übersetzung liest."
+  },
+  "reviews": {
+    "title": "Dass es euch so gut gefällt, hätten wir nicht erwartet",
+    "subtitle": "Aber Fakten sind Fakten – das schreiben Leute bei Google Play.",
+    "items": [
+      {
+        "text": "Tolle App. Riesiger Pluspunkt, dass es ein Buch in mehreren Englisch-Niveaus geben kann. Warte ungeduldig auf das Update!",
+        "author": "Екатерина М.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Ich habe das Jahresabo genommen, und es ist sein Geld wirklich wert. Das ist echt eine wunderbare App! Eine ausgezeichnete Möglichkeit, sein Englisch zu verbessern. Von Erwachsenen bis Kindern – nicht nur nützlich, sondern notwendig.",
+        "author": "Mayur L.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Ich brauchte Portugiesisch für die Arbeit mit einem Team in Brasilien. Lesen + Audio gleichzeitig ist sehr effektiv. Nach 6 Wochen konnte ich den Meetings schon folgen.",
+        "author": "Rosita R.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Wollte schon immer Deutsch lernen, und in dieser App ist alles viel zugänglicher und klarer als in anderen Apps dieser Art. App ist 10 von 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Ich nutze die Funktion Lesen mit Audio, und das war für mich ein echter Durchbruch. Die Audiospuren sind klar und gut synchronisiert. Fantastisches Werkzeug für alle, die Sprachen lernen.",
+        "author": "Zeynep O.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Idee und Umsetzung bekommen eine glatte Eins. Im Moment ist es die einzige App mit serbischen Büchern. Gut gemacht! Danke!",
+        "author": "Вася К.",
+        "source": "Google Play • Original ansehen"
+      },
+      {
+        "text": "Für mich als Lehrer ist das wirklich eine wunderbare App. Ich empfehle sie meinen Schülern. Sehr angenehm. Ich empfehle sie allen.",
+        "author": "Sasha T.",
+        "source": "Google Play • Original ansehen"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      {
+        "q": "Funktioniert Lingo7 auch für komplette Anfänger?",
+        "a": "Ja. Es gibt Material für jedes Niveau, und die Parallelübersetzung macht den Text von Anfang an verständlich."
+      },
+      {
+        "q": "Ab welchem Niveau kann ich im Original lesen?",
+        "a": "Ab jedem. Die Parallelübersetzung macht das Wörterbuch überflüssig, und ein zu schwieriges Buch lässt sich in einfacherer Sprache neu erzählen – gleiche Geschichte, gleiche Figuren, aber Grammatik und Wörter auf deinem Niveau. Alles ist von A1 bis C1 eingestuft."
+      },
+      {
+        "q": "Kann ich mit 10 Minuten am Tag lernen?",
+        "a": "Ja. Kurze Artikel, Buchzusammenfassungen und Wortkarten sind für kurze tägliche Einheiten gemacht."
+      },
+      {
+        "q": "Welche Sprachen gibt es?",
+        "a": "49 Sprachen, und du kannst jede davon aus deiner eigenen Muttersprache heraus lernen – nicht nur über Englisch. Das sind 49 × 48 = 2352 Sprachpaare, seltene Sprachen inklusive."
+      },
+      {
+        "q": "Was unterscheidet das von den üblichen Sprach-Apps?",
+        "a": "Statt zusammenhangloser Übungen lernst du mit Inhalten, die dich interessieren, und alle Fähigkeiten hängen in einem Kreislauf zusammen: Du liest und hörst, speicherst Wörter für die Spaced Repetition, nimmst Grammatik im Kontext auf, arbeitest mit Shadowing an der Sprechfertigkeit und im KI-Chat am Schreiben. Und du kannst dein eigenes Buch oder Dokument hochladen."
+      },
+      {
+        "q": "Gibt es Sprechpraxis?",
+        "a": "Ja. Fürs Sprechen gibt es Shadowing – du sprichst dem Sprecher Sätze laut nach und trainierst Aussprache und Intonation. Fürs Schreiben gibt es den KI-Chat: Du besprichst, was du gelesen hast, und die KI hilft dir beim Formulieren und findet deine Fehler. Ein echtes Gespräch mit einem Menschen gibt es noch nicht – das ist geplant."
+      },
+      {
+        "q": "Welche Dateiformate kann ich hochladen?",
+        "a": "PDF, EPUB, FB2 und TXT. Lade Arbeitsdokumente, Lieblingsbücher oder Artikel hoch – die App baut die Parallelübersetzung, ergänzt Audio und sammelt die neuen Wörter im Trainer."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Fang heute an, {target} zu lernen – mit einem Buch statt einer Übung",
+    "text": "Lade die App herunter und öffne dein erstes Buch.",
+    "perks": [
+      "49 Sprachen",
+      "Jedes Niveau"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Über uns",
+      "Kontakt",
+      "Karriere",
+      "Für Schulen",
+      "Sprachen lernen",
+      "Nutzungsbedingungen",
+      "Datenschutz"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Alle Rechte vorbehalten."
+  },
+  "downloadModal": {
+    "title": "Hol dir Lingo7",
+    "text": "Verfügbar im App Store und bei Google Play"
+  },
+  "stickyCta": {
+    "label": "App herunterladen"
+  },
+  "mobileMenu": {
+    "links": [
+      "So funktioniert's",
+      "Bibliothek",
+      "Sprachen",
+      "Bewertungen",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Hören",
+      "add": "Speichern",
+      "translate": "Übersetzen",
+      "addToMyWords": "Zu meinen Wörtern",
+      "inMyWords": "In meinen Wörtern",
+      "audioMode": "Audiomodus",
+      "discussWithAi": "Mit KI besprechen",
+      "selfCheck": "Selbst testen"
+    },
+    "wordCard": {
+      "freqHigh": "HÄUFIG",
+      "freqMid": "MITTEL",
+      "example": "Beispiel",
+      "otherTranslations": "Weitere Übersetzungen",
+      "synonyms": "Synonyme",
+      "open": "Öffnen",
+      "group": "Gruppe:",
+      "groupDefault": "Allgemein",
+      "page": "S."
+    },
+    "readerSettings": {
+      "sectionText": "TEXT",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Meine Wörter hervorheben",
+      "highlightMyWordsHint": "Markiert die Wörter, die du gespeichert hast",
+      "theme": "Design",
+      "themeLight": "Hell",
+      "fontSize": "Schriftgröße",
+      "font": "Schriftart",
+      "speakOnTap": "Wort beim Tippen vorlesen",
+      "speakOnTapHint": "Liest das angetippte Wort vor",
+      "speechRate": "Sprechtempo",
+      "pronunciationTest": "Aussprachetest",
+      "playSample": "Beispielsatz abspielen",
+      "reset": "Einstellungen zurücksetzen",
+      "done": "Fertig",
+      "on": "An",
+      "off": "Aus",
+      "accent": "Akzent",
+      "translationAlways": "Immer"
+    },
+    "vocab": {
+      "pickRightPicture": "Wähle das richtige Bild",
+      "correct": "Genau richtig",
+      "rightAnswer": "Richtige Antwort:",
+      "next": "Weiter",
+      "done": "Fertig",
+      "skip": "Überspringen",
+      "exercise": "Übung",
+      "exerciseMeta": "/11 · 10 Wörter"
+    },
+    "chat": {
+      "title": "Üben",
+      "discussing": "Gespräch über „{book}“",
+      "finish": "Beenden",
+      "playing": "Spielt ab…",
+      "replyOptions": "Antwortvorschläge",
+      "placeholder": "Nachricht schreiben"
+    },
+    "bookDetail": {
+      "adapted": "Adaptiert",
+      "adaptedHint": "In einfacherer Sprache umgeschrieben, Sinn bleibt",
+      "original": "Original",
+      "originalHint": "Der vollständige Originaltext, unverändert",
+      "open": "Öffnen",
+      "genre": "Genre",
+      "badgeSummary": "Kurzfassung"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Suche",
+      "upload": "Buch hochladen",
+      "tabCatalog": "Katalog",
+      "tabAll": "Alle Bücher",
+      "tabFavorites": "Favoriten",
+      "shelfBestsellers": "Weltbestseller",
+      "shelfBestsellersSub": "kurz nacherzählt, mit Audio",
+      "shelfStories": "Kurzgeschichten",
+      "shelfStoriesSub": "Kleine Geschichten, große Gedanken",
+      "bandTitle": "5 Minuten am Tag",
+      "bandText": "Jeden Tag ein interessanter Fakt – und die Sprache lernt sich wie von selbst.",
+      "shelfAmazing": "Erstaunliche Geschichten",
+      "shelfNature": "Rätsel der Natur",
+      "shelfHealth": "Gesundheit und Wissenschaft",
+      "moreTopics": "Mehr Themen",
+      "shelfGolden": "Goldene Klassiker",
+      "shelfGoldenSub": "200 Bücher, die die Menschheit verändert haben",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Bibliothek",
+      "practice": "Üben",
+      "read": "Lesen",
+      "myWords": "Meine Wörter",
+      "collections": "Sammlungen"
+    }
+  },
+  "_note": "Полная локаль. Переведена с эталона i18n/en.json, 2026-08-29 приведена к его текущей редакции: meta.* (заголовок без бренда, новая формула), steps.title, library.title, faq.items[1]. Остальные строки — с прошлого прогона, не переписывались. Контракт слота и бюджет выдачи — в _contract. 2026-08-30 пройдено снятие калек по i18n/en.gloss.json (все 30 ключей глоссария; арбитраж находок gemini-de.json) — образы эталона переписаны немецкой идиоматикой, бюджет выдачи пересчитан. 2026-08-30 третий круг по свежему разбору gemini-de.json: приняты обе находки major (сочетаемость «Aussprache», параллелизм в audience.items[1]) и одна minor (compare.rows[4]); четыре minor отклонены как вкусовые, meta.* не менялись — бюджет выдачи прежний.",
+  "_contract": {
+    "government": "Прямое дополнение без артикля при lernen/lesen: «{target} lernen», «{target} lesen». В немецком название языка в этой позиции стоит в неизменяемой безартиклевой форме (Nullartikel-Form) и совпадает с базовой: Spanisch, Aserbaidschanisch, Zulu. Все девять строк написаны под эту позицию; артикля или предлога рядом со слотом нет нигде, поэтому подставленное слово ничего не переключает.",
+    "slotExample": "Spanisch",
+    "slotExampleEnglish": "Englisch",
+    "longestSlot": "Aserbaidschanisch",
+    "longestSlotLang": "азербайджанский — 17 знаков; следом Niederländisch (14), Portugiesisch и Vietnamesisch (13)",
+    "titleRenderedLen": 54,
+    "descRenderedLen": 153,
+    "lead": "capital",
+    "librarySlot": true,
+    "risks": [
+      "meta.title начинается со слота — в немецком это безопасно (названия языков с заглавной), но UI не должен дополнительно капитализировать строку: она уже готова.",
+      "«zweisprachige Bücher» в title — носителю проверить, что это читается как категория «книга с параллельным текстом», а не «книга на двух языках вообще».",
+      "library.title построен как «{target} lesen: …», а не «Bücher auf {target} …»: форма слота у обеих конструкций одна и та же, но позиция при глаголе оставляет government единственным.",
+      "Адаптация книги везде названа «(in einfacherer Sprache) neu erzählen» — это пересказ, а не «abschreiben»; модальность возможности держится через «lässt sich», обещанием «schreibt die App um» не становится.",
+      "steps.items[2] «Gespeicherte Wörter kommen in Übungen zurück» и compare.rows[3] «du bekommst sie zurück» оставлены как есть: там «zurück» на месте (то же и в эталоне), но при вычитке носителем стоит взглянуть."
+    ]
+  }
+}

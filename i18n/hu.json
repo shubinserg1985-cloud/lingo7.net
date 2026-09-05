@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "title": "Tanulj {target} olvasással: kétnyelvű könyvek hanggal",
+    "description": "Olvass könyveket {target}, magyar fordítással és hanggal, mentsd a szavakat, ismételd őket időzítve, gyakorolj shadowinggal, és beszélgess az MI-vel.",
+    "ogTitle": "Tanulj {target} olvasással: kétnyelvű könyvek hanggal",
+    "ogDescription": "Olvass könyveket {target}, magyar fordítással és hanggal. Mentsd a szavakat egy koppintással, és ismételd őket egyre nagyobb időközönként.",
+    "twitterTitle": "Tanulj {target} olvasással: kétnyelvű könyvek hanggal",
+    "twitterDescription": "Olvass könyveket {target} úgy, hogy a magyar fordítás ott van mellettük. Mentsd a szavakat egy koppintással, és ismételd őket időzítve."
+  },
+  "nav": {
+    "links": [
+      "Hogyan működik",
+      "Könyvtár",
+      "Nyelvek",
+      "Vélemények",
+      "GYIK"
+    ]
+  },
+  "hero": {
+    "title": "Tanulj {target} könyvekből, ne magolós feladatokból",
+    "subtitle": "Olvasd és hallgasd azt, ami tényleg érdekel, mentsd a szavakat egyenesen a szövegből, az ismétlést pedig bízd az algoritmusra, ami a megfelelő pillanatban újra megmutatja őket.",
+    "cta": "Töltsd le az appot",
+    "trust": "49 nyelv • iPhone / Android",
+    "pills": [
+      "Párhuzamos fordítás",
+      "Hang + olvasás",
+      "Szókincsépítés",
+      "Időzített ismétlés",
+      "Bármilyen könyv vagy szöveg",
+      "Shadowing",
+      "Beszélgetés a könyvről MI-vel"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Könyv tanfolyam helyett",
+        "span": "Abból tanulsz, amit magadtól is elolvasnál"
+      },
+      {
+        "strong": "49 nyelv",
+        "span": "A legelterjedtebbtől a legritkábbig"
+      },
+      {
+        "strong": "Sokszínű könyvtár",
+        "span": "Klasszikusok, világsikerek és cikkek"
+      },
+      {
+        "strong": "Minden egyetlen körben megy",
+        "span": "Olvasás, hang, szavak és ismétlés"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Miért hagyják abba a nyelvtanuló appokat – és miért nem ezt",
+    "subtitle": "Soha nem a fegyelmeddel volt baj, hanem a formátummal.",
+    "labelOld": "❌ Általában",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Olyan szavakat magolsz, amiket nem tudsz használni",
+          "text": "Listák és kártyák, kontextus nélkül. Holnapra már nincsenek meg."
+        },
+        "new": {
+          "title": "A szavak élő mondatokban bukkannak fel",
+          "text": "Látod, hogyan viselkedik a szó a szövegben, így erőltetés nélkül megmarad."
+        }
+      },
+      {
+        "old": {
+          "title": "Nap mint nap ugyanaz a gyakorlat",
+          "text": "Egy hét után unalmas lesz, a lendület elfogy, az appot pedig már meg sem nyitod."
+        },
+        "new": {
+          "title": "Azt olvasod, amit amúgy is elolvasnál",
+          "text": "Sikerkönyvek, furcsa igaz történetek, ismeretterjesztés – olyan anyag, amihez magadtól visszatérsz."
+        }
+      },
+      {
+        "old": {
+          "title": "Eredetiben olvasni túl nehéz",
+          "text": "Mindenhol ismeretlen szavak, a történet elveszik, az első oldalon feladod."
+        },
+        "new": {
+          "title": "Párhuzamos fordítás, és ha kell, átírás",
+          "text": "A fordítás ott van a szöveg mellett, a túl nehéz könyvet pedig át lehet íratni a saját szintedre."
+        }
+      },
+      {
+        "old": {
+          "title": "Azt olvasod, ami épp van a katalógusban",
+          "text": "Kötött könyvtár. A saját könyvedet nem hozhatod be."
+        },
+        "new": {
+          "title": "Bármelyik könyvből vagy szövegből tankönyv lesz",
+          "text": "Add oda az appnak a kedvenc könyveidet és a munkához kellő dokumentumokat, és visszakapod őket párhuzamos fordítással, hanggal és szóismétléssel."
+        }
+      },
+      {
+        "old": {
+          "title": "Olvasol és hallgatsz, de csak passzívan",
+          "text": "Nincs hol megszólalni vagy írni, így a tudás nem áll össze."
+        },
+        "new": {
+          "title": "Nem csak olvasol – beszélsz és írsz is",
+          "text": "Az MI-vel arról a könyvről beszélgetsz, amit épp befejeztél, így témát sem kell kitalálni. Ha van mondanivalód, könnyebben fejezed ki magad szóban és írásban."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Mind a 7 nyelvi készség egy helyen",
+    "subtitle": "A nyelvtudás hét készségből áll. A Lingo7 nem egyesével, hanem együtt fejleszti őket, így mindegyik erősíti a többit.",
+    "skills": [
+      {
+        "title": "Olvasás",
+        "text": "Olvasd az eredetit vagy az átírt változatot úgy, hogy a fordítás ott van mellette – gyorsan, szótár nélkül."
+      },
+      {
+        "title": "Hallgatás",
+        "text": "Hangoskönyvek és egy mód, amiben egyszerre hallgatsz és olvasol – a fül szoktatására ez az egyik legjobb módszer."
+      },
+      {
+        "title": "Szókincs",
+        "text": "Az új szavak olvasás közben ragadnak rád, magolás nélkül. A gyakorlatok és az időzített ismétlés pedig hosszú távra rögzítik őket."
+      },
+      {
+        "title": "Nyelvtan",
+        "text": "A nyelvtan akkor épül be igazán, ha élő mondatban látod működni a szabályt."
+      },
+      {
+        "title": "Írás",
+        "text": "MI-csevegés: arról beszélgetsz, amit épp olvastál, így mindig van miről írnod. Segít megfogalmazni a gondolatot, és kiszúrja a hibáidat."
+      },
+      {
+        "title": "Beszéd",
+        "text": "Shadowing: hangosan ismételsz a felolvasó után, ettől lesz gördülékeny a beszéded, ettől kap ritmust és dallamot."
+      },
+      {
+        "title": "Kiejtés",
+        "text": "A kiejtésgyakorlatok közelebb viszik az akcentusodat ahhoz, ahogy egy anyanyelvi beszélő hangzik."
+      }
+    ],
+    "conductor": {
+      "badge": "Személyes terv · Hamarosan",
+      "title": "Az app megmondja, mit csinálj ma",
+      "text": "Mindig a megfelelő pillanatban ajánlja a megfelelő feladatot: olvasás, hangos ismétlés, szórögzítés vagy egy fejezet megbeszélése az MI-vel. Neked nem kell eldöntened, hol kezdd és mi jön utána.",
+      "caption": "Így nézhet ki egy mai kör – a tiédet az app állítja majd össze.",
+      "steps": [
+        {
+          "label": "Olvasás",
+          "meta": "15 perc"
+        },
+        {
+          "label": "Hallgatva olvasás",
+          "meta": "5 perc"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Most · 7 perc"
+        },
+        {
+          "label": "Szavak",
+          "meta": "25 kártya"
+        },
+        {
+          "label": "MI-csevegés",
+          "meta": "a fejezet megbeszélése"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Így tanulj nyelvet könyvekből: öt lépés",
+    "subtitle": "Semmi bonyolult módszer. Egy tiszta kör, és olyan tartalom, ami végig is visz rajta.",
+    "items": [
+      {
+        "title": "Válaszd ki, mit olvasol",
+        "text": "Sikerkönyv-összefoglalók, klasszikusok, novellák – kedv, szint és szabadidő szerint."
+      },
+      {
+        "title": "Olvass párhuzamos fordítással",
+        "text": "Az eredeti és a fordítás egymás mellett; koppints egy szóra a jelentéséért, a hangjáért vagy azért, hogy elmentsd."
+      },
+      {
+        "title": "Tanuld meg a szavakat",
+        "text": "Az elmentett szavak gyakorlatokban jönnek vissza, egyre nagyobb időközönként, többféle memóriát megmozgatva."
+      },
+      {
+        "title": "Hallgasd és mondd utána hangosan",
+        "text": "Minden mondathoz van hang: hallgasd meg, majd ismételd a felolvasó után – így alakul ki a kiejtés és a hanglejtés."
+      },
+      {
+        "title": "Beszéld meg a könyvet az MI-vel",
+        "text": "Az MI végigmegy veled a könyvön – közben írásban és szóban is gyakorolsz, és megtanulod új nyelven megfogalmazni a gondolataidat."
+      }
+    ]
+  },
+  "library": {
+    "title": "Olvass könyveket {target}, magyar fordítással – szintek szerint, A1-től C1-ig",
+    "subtitle": "Nem csak nyelvet tanulsz, közben meg is tudsz valamit. Minden szinthez van anyag, az első lépésektől a haladóig.",
+    "tabs": [
+      "Klasszikusok",
+      "Sikerkönyvek",
+      "Felfedezés"
+    ],
+    "panels": [
+      {
+        "title": "Olvasd eredetiben a nagy könyveket – hálóval",
+        "text": "Átírt és eredeti változatok több szinten, A kis hercegtől Hawkingig. A párhuzamos fordítástól a nehéz próza is olvasható marad.",
+        "badges": [
+          "A1-A2 Kezdő",
+          "B1-B2 Középhaladó",
+          "C1+ Haladó"
+        ]
+      },
+      {
+        "title": "A világ legjobb könyveinek lényege 7–15 perc alatt",
+        "text": "A nagy sikerkönyvek fő gondolatai röviden elmesélve – azon a nyelven, amit tanulsz. Egyszerre viszed előre magad és a nyelvet.",
+        "badges": [
+          "A1-A2 Kezdő",
+          "B1-B2 Középhaladó",
+          "C1+ Haladó"
+        ]
+      },
+      {
+        "title": "Napi 5 perc: egy jó tény és néhány új szó",
+        "text": "Űrkutatás, pszichológia, üzlet, természet, technológia – több száz rövid cikk bármilyen témában. Minden nap megtudsz valami újat, a nyelv pedig jön vele.",
+        "badges": [
+          "A1-A2 Kezdő",
+          "B1-B2 Középhaladó",
+          "C1+ Haladó"
+        ]
+      }
+    ],
+    "examples": [
+      "Gondolkodj és gazdagodj! • A 80/20 elv • A kiemelkedően eredményes emberek 7 szokása • A most hatalma"
+    ]
+  },
+  "customBook": {
+    "badge": "ÚJ",
+    "title": "Töltsd fel a saját könyvedet vagy szövegedet, és abból tanulj",
+    "text": "Tölts fel bármilyen fájlt, és a Lingo7 tananyagot csinál belőle: párhuzamos fordítással és hanggal. Onnantól megy a megszokott kör – olvasol, hallgatsz, szavakat tanulsz, shadowinggal csiszolod a beszédet, és megbeszéled az MI-vel.",
+    "cards": [
+      {
+        "title": "Sikerkönyvek eredetiben",
+        "text": "Harry Potter, Dűne, Trónok harca – olvasd el azon a nyelven, amit tanulsz, azokat a könyveket, amikre eddig nem jutott idő."
+      },
+      {
+        "title": "Az a nyelv, ami a munkádhoz és a tanuláshoz kell",
+        "text": "Munkahelyi dokumentumok, szakcikkek, vizsgaanyag – annak a területnek a nyelvét tanulod, amivel most is foglalkozol."
+      }
+    ],
+    "usecases": [
+      "Vizsgák",
+      "Munka",
+      "Cikkek",
+      "Interjúk"
+    ],
+    "formatsNote": "Ilyen formátumokban töltheted fel a saját fájljaidat:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Átírás",
+      "title": "Olvass bármilyen könyvet – rád <span class=\"accent\">szabott</span> változatban",
+      "text": "Túl nehéz még a szókincs és a nyelvtan? A Lingo7 egyszerűbb nyelvezetre írja át a könyvet – ugyanaz a történet, ugyanazok a szereplők, csak könnyebb mondatokkal.",
+      "cta": "Próbáld ki a saját könyveden"
+    },
+    "goalQuote": "A kedvenc receptem: fogd a Harry Pottert, és csinálj napi egy fejezetet – olvasd el, hallgasd meg, tanuld meg az új szavakat, beszéld meg az MI-vel. Fél év napi egy-két órával, és <span class=\"goal-quote__level\">A2-ről B2-re</span> jutsz."
+  },
+  "audience": {
+    "title": "Neked való a Lingo7, ha…",
+    "items": [
+      "Tartalomból tanulnál, nem leckékből, amiket erőltetned kell",
+      "Nemcsak olvasnál, hanem hallgatnál, beszélnél és írnál is – a kiejtést shadowinggal csiszolod, a gondolataidat pedig az MI-csevegésben öntöd szavakba",
+      "A saját anyagodból tanulnál – munkahelyi dokumentumokból, kedvenc könyvekből és cikkekből –, nem csak kész leckékből",
+      "Olyan ritka nyelv kell, amit a legtöbb app nem tud",
+      "Rövid, 5-15 perces körökben haladnál"
+    ]
+  },
+  "pains": {
+    "title": "Mi szokott közbejönni – és mit kezd vele a Lingo7",
+    "subtitle": "Nem a képességen múlik, hanem a formán.",
+    "chips": [
+      "Félek megszólalni",
+      "Elunom",
+      "Nem ragadnak meg a szavak",
+      "Nehéz az olvasás",
+      "Nem értem a beszédet",
+      "Nincs időm",
+      "Ritka nyelv",
+      "Nekem nem való"
+    ],
+    "answers": [
+      {
+        "title": "„Kínos megszólalni, mert biztos hibázom”",
+        "text": "A shadowing annyi, hogy hangosan ismételsz a felolvasó után – egyedül, és senki nem osztályoz. Ettől áll be a kiejtés. Az MI-csevegésben írásban csiszolod a megfogalmazást, az MI pedig finoman kijavít."
+      },
+      {
+        "title": "„Hamar elunom”",
+        "text": "Egyforma leckék helyett könyvek, sikerkönyvek és cikkek olyan témákról, amikről amúgy is olvasnál. Ha a tartalom magával ragad, könnyű visszaülni."
+      },
+      {
+        "title": "„Látom a szavakat, de nem maradnak meg”",
+        "text": "Egy koppintás, és a szó a mondatával együtt elmentődik, aztán kártyaként tér vissza, egyre nagyobb időközönként. Az emlékezés így nem szerencse kérdése."
+      },
+      {
+        "title": "„Nekem túl nehéz eredetiben olvasni”",
+        "text": "Párhuzamos fordítás, mondatról mondatra egymáshoz igazítva – nem kell minden második sornál fordítóba ugrani."
+      },
+      {
+        "title": "„Nem értem a beszélt nyelvet”",
+        "text": "A hallgatva olvasás módban a szó hangalakja összekapcsolódik a leírt formájával és a jelentésével. A füled magától szokja meg a nyelvet."
+      },
+      {
+        "title": "„Nincs rá időm”",
+        "text": "Rövid tartalmak, gyors körök – napi 5-10 perc is elég ahhoz, hogy benne maradj a ritmusban."
+      },
+      {
+        "title": "„Ritka nyelv kell nekem”",
+        "text": "49 nyelv, a ritkábbak is. És bármelyiket a saját anyanyelvedről tanulod."
+      },
+      {
+        "title": "„Félek, hogy nekem nem való”",
+        "text": "Ha tudsz olvasni, neked való. Nem kell hozzá előzetes tudás, nyelvtan vagy felkészülés – kezdd bármelyik könyvvel, ami a szintedhez passzol."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Tanulj {target}",
+    "title": "49 nyelv, a legelterjedtebbektől a ritkákig",
+    "subtitle": "Bármelyik nyelvet a saját anyanyelvedről tanulhatod – nem csak angolon keresztül, ahogy a legtöbb app kényszerít rá.",
+    "groupTitles": [
+      "Népszerű",
+      "Összes nyelv"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 nyelvpár.</strong> Bármilyen párosítás összerakható: az egyik nyelvet tanulod, a másikon a fordítást olvasod."
+  },
+  "reviews": {
+    "title": "Nem számítottunk rá, hogy ennyire fog tetszeni",
+    "subtitle": "De a tény az tény – ezt írják az emberek a Google Play-en.",
+    "items": [
+      {
+        "text": "Nagyszerű app. Óriási plusz, hogy ugyanaz a könyv több angol szinten is megvan. Alig várom a frissítést!",
+        "author": "Екатерина М.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "Éves előfizetést vettem, és bőven megéri az árát. Ez tényleg egy csodálatos app! Kiváló eszköz az angoltudás fejlesztésére. Felnőttnek és gyereknek egyaránt nemcsak hasznos, hanem szükséges.",
+        "author": "Mayur L.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "Portugálra volt szükségem egy brazil csapathoz. Az, hogy egyszerre olvasok és hallgatok, nagyon hatékony. Hat hét után már követni tudtam a meetingeket.",
+        "author": "Rosita R.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "Mindig is meg akartam tanulni németül, és ebben az appban minden sokkal barátságosabb és érthetőbb, mint a hasonló alkalmazásokban. 10/10.",
+        "author": "Макс Р.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "A hanggal együtt olvasós funkciót használom, és ez nekem tényleg áttörés volt. A hangfelvételek tiszták, és pontosan illeszkednek a szöveghez. Fantasztikus eszköz nyelvtanulóknak.",
+        "author": "Zeynep O.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "Az ötlet és a kivitelezés is ötös. Jelenleg ez az egyetlen app, amiben vannak szerb könyvek. Szép munka! Köszönöm!",
+        "author": "Вася К.",
+        "source": "Google Play • eredeti megtekintése"
+      },
+      {
+        "text": "Tanárként nekem tényleg nagyszerű ez az app. Ajánlom a diákjaimnak. Nagyon kellemes. Mindenkinek ajánlom.",
+        "author": "Sasha T.",
+        "source": "Google Play • eredeti megtekintése"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Gyakori kérdések",
+    "items": [
+      {
+        "q": "Működik a Lingo7 teljesen kezdőként is?",
+        "a": "Igen. Minden szinthez van anyag, a párhuzamos fordítástól pedig már az első perctől érthető a szöveg."
+      },
+      {
+        "q": "Milyen szinttől lehet eredetiben olvasni?",
+        "a": "Bármilyen szinttől. A párhuzamos fordítás mellett nem kell szótár, a túl nehéz könyvet pedig át lehet íratni egyszerűbbre – ugyanaz a történet és ugyanazok a szereplők, csak a te szinted nyelvtanával és szavaival. Minden anyagon ott a jelölés A1-től C1-ig."
+      },
+      {
+        "q": "Lehet napi 10 percet tanulni?",
+        "a": "Igen. A rövid cikkek, a könyvösszefoglalók és a szókártyák pont rövid, napi körökre vannak kitalálva."
+      },
+      {
+        "q": "Milyen nyelvek érhetők el?",
+        "a": "49 nyelv, és bármelyiket a saját anyanyelvedről tanulhatod – nem csak angolon keresztül. Ez 49 × 48 = 2352 nyelvpár, a ritka nyelvekkel együtt."
+      },
+      {
+        "q": "Miben más ez, mint a szokásos nyelvtanuló appok?",
+        "a": "Egymástól független gyakorlatok helyett olyan tartalomból tanulsz, ami érdekel, és minden készség egyetlen körbe fűződik: olvasol és hallgatsz, a szavakat elmented és időzítve ismételed, a nyelvtant szövegkörnyezetből szeded fel, a beszédet shadowinggal, az írást pedig az MI-csevegésben gyakorlod. Ráadásul feltöltheted a saját könyvedet vagy dokumentumodat."
+      },
+      {
+        "q": "Van benne beszédgyakorlás?",
+        "a": "Igen. A beszédhez ott a shadowing – hangosan ismétled a mondatokat a felolvasó után, és ettől áll be a kiejtés meg a hanglejtés. Az íráshoz pedig az MI-csevegés: megbeszéled, amit olvastál, az MI pedig segít a megfogalmazásban, és megtalálja a hibáidat. Élő beszélgetés emberrel egyelőre nincs – az még csak tervben van."
+      },
+      {
+        "q": "Milyen fájlformátumokat lehet feltölteni?",
+        "a": "PDF, EPUB, FB2 és TXT. Tölts fel munkahelyi dokumentumot, kedvenc könyvet vagy cikket – az app elkészíti hozzá a párhuzamos fordítást, hangot ad alá, az új szavakat pedig beteszi a gyakorlóba."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Kezdj el {target} tanulni még ma – könyvvel, nem magolással",
+    "text": "Töltsd le az appot, és nyisd ki az első könyvedet.",
+    "perks": [
+      "49 nyelv",
+      "Minden szint"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Rólunk",
+      "Kapcsolat",
+      "Karrier",
+      "Iskoláknak",
+      "Hogyan tanuljunk nyelvet",
+      "Felhasználási feltételek",
+      "Adatvédelem"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Minden jog fenntartva."
+  },
+  "downloadModal": {
+    "title": "A Lingo7 letöltése",
+    "text": "Elérhető az App Store-ban és a Google Play-en"
+  },
+  "stickyCta": {
+    "label": "Töltsd le az appot"
+  },
+  "mobileMenu": {
+    "links": [
+      "Hogyan működik",
+      "Könyvtár",
+      "Nyelvek",
+      "Vélemények",
+      "GYIK"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Meghallgatás",
+      "add": "Mentés",
+      "translate": "Fordítás",
+      "addToMyWords": "Hozzáadás a szavaimhoz",
+      "inMyWords": "A szavaim között",
+      "audioMode": "Hangos mód",
+      "discussWithAi": "Megbeszélés az MI-vel",
+      "selfCheck": "Ellenőrizd magad"
+    },
+    "wordCard": {
+      "freqHigh": "GYAKORI",
+      "freqMid": "KÖZEPES",
+      "example": "Példa",
+      "otherTranslations": "További jelentések",
+      "synonyms": "Szinonimák",
+      "open": "Megnyitás",
+      "group": "Csoport:",
+      "groupDefault": "Általános",
+      "page": "o."
+    },
+    "readerSettings": {
+      "sectionText": "SZÖVEG",
+      "sectionAudio": "HANG",
+      "highlightMyWords": "A szavaim kiemelése",
+      "highlightMyWordsHint": "Megjelöli az elmentett szavakat",
+      "theme": "Téma",
+      "themeLight": "Világos",
+      "fontSize": "Betűméret",
+      "font": "Betűtípus",
+      "speakOnTap": "Kimondás koppintásra",
+      "speakOnTapHint": "Felolvassa a szót, amire koppintottál",
+      "speechRate": "Beszédtempó",
+      "pronunciationTest": "Kiejtésteszt",
+      "playSample": "Mintamondat lejátszása",
+      "reset": "Beállítások visszaállítása",
+      "done": "Kész",
+      "on": "Be",
+      "off": "Ki",
+      "accent": "Akcentus",
+      "translationAlways": "Mindig"
+    },
+    "vocab": {
+      "pickRightPicture": "Válaszd ki a megfelelő képet",
+      "correct": "Pontosan így van",
+      "rightAnswer": "Helyes válasz:",
+      "next": "Tovább",
+      "done": "Kész",
+      "skip": "Kihagyás",
+      "exercise": "Gyakorlat",
+      "exerciseMeta": "/11 · 10 szó"
+    },
+    "chat": {
+      "title": "Gyakorlás",
+      "discussing": "„{book}” megbeszélése",
+      "finish": "Befejezés",
+      "playing": "Lejátszás…",
+      "replyOptions": "Válaszötletek",
+      "placeholder": "Írj egy üzenetet"
+    },
+    "bookDetail": {
+      "adapted": "Átírt",
+      "adaptedHint": "Egyszerűbb nyelven, a tartalom változatlan",
+      "original": "Eredeti",
+      "originalHint": "A teljes eredeti szöveg, változtatás nélkül",
+      "open": "Megnyitás",
+      "genre": "Műfaj",
+      "badgeSummary": "Összefoglaló"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Keresés",
+      "upload": "Tölts fel könyvet",
+      "tabCatalog": "Katalógus",
+      "tabAll": "Minden könyv",
+      "tabFavorites": "Kedvencek",
+      "shelfBestsellers": "Világsikerek",
+      "shelfBestsellersSub": "röviden elmesélve, hanggal",
+      "shelfStories": "Rövid történetek",
+      "shelfStoriesSub": "Kis történetek, nagy tanulsággal",
+      "bandTitle": "Napi 5 perc",
+      "bandText": "Minden nap megtudsz valami érdekeset – a nyelv pedig jön magától!",
+      "shelfAmazing": "Elképesztő történetek",
+      "shelfNature": "A természet rejtélyei",
+      "shelfHealth": "Egészség és tudomány",
+      "moreTopics": "További témák",
+      "shelfGolden": "Örök klasszikusok",
+      "shelfGoldenSub": "200 könyv, amely megváltoztatta az emberiséget",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Könyvtár",
+      "practice": "Gyakorlás",
+      "read": "Olvasás",
+      "myWords": "Szavaim",
+      "collections": "Gyűjtemények"
+    }
+  },
+  "_note": "Локаль hu. Полный перевод с эталона en.json (2026-08-29), писался как венгерский оригинал, не как перевод. Контракт слота — наречие на -ul/-ül (модально-эссивный падеж) при tanul / olvas / kezd el … tanulni; конструкция безартиклевая, поэтому венгерское a/az рядом со слотом не появляется ни в одной из 9 строк. Бюджет выдачи пересчитан по «azerbajdzsánul». Имена авторов отзывов, formats, коды CEFR, числа и эмодзи скопированы из эталона. Файл прошёл снятие калек по i18n/en.gloss.json (2026-08-30): переписаны образные обороты эталона — «bring them back», «pulls the others along», «Knowing a language is seven skills», «that's where pronunciation comes from», «when the content pulls», «sits unopened». Третий круг по разбору i18n/_qa/gemini-hu.json (2026-08-30): порядок слов в четырёх строках со слотом (наречие вынесено из фокусной позиции за объект), «nemcsak … hanem … is» в audience.items[1], управление átír vmit vmire в customBook.adapt.text, идиома вместо кальки в compare.rows[4].new.text.",
+  "_contract": {
+    "government": "Наречие на -ul/-ül (a magyar -ul/-ül modális-esszívusz) в позиции обстоятельства образа действия при глаголах tanul / olvas и при «kezd el … tanulni»: «Tanulj {target} könyvekből», «Olvass könyveket {target}», «Kezdj el {target} tanulni». Слот отдаёт готовое наречие целиком, суффикс -ul/-ül уже внутри него, поэтому гармония гласных решается на стороне данных, а не строки. Все 9 строк написаны под эту одну позицию. Артикль a/az, единственный сосед с алломорфией в венгерском, обойдён конструкцией: перед слотом всюду стоит глагол в повелительном наклонении, определённого артикля рядом нет вообще.",
+    "slotExample": "spanyolul",
+    "slotExampleEnglish": "angolul",
+    "longestSlot": "azerbajdzsánul",
+    "longestSlotLang": "азербайджанский (hu azerbajdzsán)",
+    "titleRenderedLen": 59,
+    "descRenderedLen": 155,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Формы слота на -ul/-ül для языков с основой на гласный: zu «zuluul», sw «szuahéliül», fil «filippínóul», gl «galiciaiul», af «afrikaansul». Венгр в этих пяти случаях скорее скажет «zulu nyelven», «afrikaans nyelven». Эти пять пар — кандидаты в таблицу фраз-исключений (README, «варианты фраз»), в самом файле ничего чинить не нужно: конструкция строк остаётся рабочей, вопрос только в идиоматичности атома.",
+      "Заглавная — данные: в венгерском названия языков и наречия на -ul/-ül пишутся со строчной (spanyolul, angolul). Поэтому слот нигде не стоит первым словом: meta.title/ogTitle/twitterTitle начинаются с «Tanulj», meta.description/ogDescription/twitterDescription и library.title — с «Olvass», hero.title — с «Tanulj», finalCta.title — с «Kezdj el». Автозаглавная в начале <title> напечатала бы «Spanyolul», что не ломает смысл, но и не нужна.",
+      "library.title «Olvass könyveket {target}, magyar fordítással – szintek szerint, A1-től C1-ig» — слот удержан в объявленной позиции ценой переписывания в императив (в en слот — определение к «books», по-венгерски это потребовало бы прилагательного «spanyol», то есть второй формы слота). Порядок слов: наречие стоит ПОСЛЕ объекта («Olvass könyveket spanyolul»), а не между глаголом и объектом, — иначе слот попадает в венгерскую фокусную позицию и читается контрастно. Так же выстроены meta.description, ogDescription, twitterDescription. Показать носителю, что H2 не спорит с H1 по конструкции.",
+      "«MI» вместо «AI» выбрано как венгерская аббревиатура (mesterséges intelligencia), артикль всюду «az MI» — по произношению «em-i». Носителю проверить регистр: в потребительских приложениях всё чаще пишут «AI». Замена сквозная, если решат иначе.",
+      "«időzített ismétlés» выбрано для spaced repetition как прозрачный потребительский термин; альтернативы — «szakaszos ismétlés», «térközös ismétlés». В steps.items[2] и pains.answers[2] то же понятие раскрыто описательно («egyre nagyobb időközönként»), чтобы термин не висел без объяснения.",
+      "«shadowing» оставлен английским термином и склоняется по-венгерски (shadowinggal) — так его и называют венгерские нейтивы; венгерского эквивалента в обиходе нет.",
+      "faq.items[1].q «Milyen szinttől lehet eredetiben olvasni?» — косвенный вопрос об уровне, а не условие; ответ начинается с «Bármilyen szinttől». Модальность «át lehet íratni egyszerűbbre» (возможность, не обещание) и «Élő beszélgetés emberrel egyelőre nincs – az még tervben van» сохранены точно.",
+      "Названия книг взяты по венгерским изданиям: «A kis herceg», «Dűne», «Trónok harca», «Gondolkodj és gazdagodj!», «A 80/20 elv», «A kiemelkedően eredményes emberek 7 szokása», «A most hatalma» — сверить с актуальными изданиями.",
+      "«App Store-ban», «Google Play-en», «Lingo7» без падежного суффикса (в downloadModal.title дано отглагольное «A Lingo7 letöltése», чтобы не писать «Lingo7-et», читающееся как «lingohetet»).",
+      "Орфография nemcsak: в audience.items[1] стоит полная коррелятивная связка «Nemcsak …, hanem … is» (слитно), в compare.rows[4].new.title — короткое «Nem csak olvasol – beszélsz és írsz is» (раздельно, без hanem). По AkH это не разнобой, а два разных случая, но носителю стоит подтвердить.",
+      "«Ettől áll be a kiejtés» (pains.answers[0], faq.items[5].a) — разговорное, но это ровно то «вырабатывается произношение», которого требует en.gloss.json (утверждение о способе, а не о месте). Второй прогон разбора предложил «javul/válik természetessé»; отклонено как ослабление. Носителю решить, не слишком ли разговорно."
+    ]
+  }
+}

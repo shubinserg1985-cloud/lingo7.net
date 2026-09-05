@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "title": "Nauka {target} przez czytanie: książki i audio",
+    "description": "Ucz się {target} z książek: tłumaczenie na polski obok tekstu, audio, powtórki słówek w odstępach, shadowing i rozmowa z AI o rozdziale.",
+    "ogTitle": "Nauka {target} przez czytanie: książki i audio",
+    "ogDescription": "Ucz się {target} z książek: tłumaczenie na polski obok tekstu i audio do każdego zdania. Słówka zapisujesz jednym dotknięciem, a powtórki przypominają je w porę.",
+    "twitterTitle": "Nauka {target} przez czytanie: książki i audio",
+    "twitterDescription": "Ucz się {target} z książek, które i tak chcesz przeczytać: tłumaczenie obok tekstu, audio, słówka jednym dotknięciem i powtórki we właściwym momencie."
+  },
+  "nav": {
+    "links": [
+      "Jak to działa",
+      "Biblioteka",
+      "Języki",
+      "Opinie",
+      "FAQ"
+    ]
+  },
+  "hero": {
+    "title": "Ucz się {target}, czytając książki, a nie ślęcząc nad ćwiczeniami",
+    "subtitle": "Czytaj i słuchaj tego, co naprawdę cię interesuje, zapisuj słowa prosto ze strony, a algorytm powtórek przypomni ci je wtedy, kiedy trzeba.",
+    "cta": "Pobierz aplikację",
+    "trust": "49 języków • iPhone / Android",
+    "pills": [
+      "Tłumaczenie obok tekstu",
+      "Audio + czytanie",
+      "Nauka słówek",
+      "Powtórki w odstępach",
+      "Dowolna książka lub tekst",
+      "Shadowing",
+      "Rozmowa o książce z AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Książka zamiast kursu",
+        "span": "Ucz się z tego, co i tak czytasz dla przyjemności"
+      },
+      {
+        "strong": "49 języków",
+        "span": "Od najpopularniejszych po najrzadsze"
+      },
+      {
+        "strong": "Biblioteka z rozmachem",
+        "span": "Klasyka, światowe bestsellery i artykuły"
+      },
+      {
+        "strong": "Wszystko w jednym obiegu",
+        "span": "Czytanie, audio, słówka i powtórki"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Dlaczego większość aplikacji do nauki języków ląduje w koszu – a ta nie",
+    "subtitle": "Nigdy nie chodziło o twoją silną wolę. Chodziło o format.",
+    "labelOld": "❌ Zwykle",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Wkuwasz słowa, których i tak nie użyjesz",
+          "text": "Listy i fiszki bez kontekstu. Do jutra nie zostaje z nich nic."
+        },
+        "new": {
+          "title": "Słowa pojawiają się w prawdziwych zdaniach",
+          "text": "Widzisz, jak słowo zachowuje się w kontekście, więc zostaje w głowie bez przymusu."
+        }
+      },
+      {
+        "old": {
+          "title": "Codziennie te same ćwiczenia",
+          "text": "Robi się nudno, motywacja siada, a po pierwszym tygodniu nikt tej aplikacji już nie otwiera."
+        },
+        "new": {
+          "title": "Czytasz to, co i tak chcesz przeczytać",
+          "text": "Bestsellery, dziwne prawdziwe historie, popularna nauka – materiał, do którego wracasz sam z siebie."
+        }
+      },
+      {
+        "old": {
+          "title": "Oryginał jest za trudny",
+          "text": "Nieznane słowa co chwilę, fabuła ucieka, poddajesz się na pierwszej stronie."
+        },
+        "new": {
+          "title": "Tłumaczenie obok, a do tego adaptacja",
+          "text": "Tłumaczenie masz tuż obok tekstu, a zbyt trudną książkę da się uprościć do twojego poziomu."
+        }
+      },
+      {
+        "old": {
+          "title": "Czytasz to, co akurat jest w katalogu",
+          "text": "Zamknięta biblioteka. Własnej książki nie wgrasz."
+        },
+        "new": {
+          "title": "Każda książka i każdy tekst staje się podręcznikiem",
+          "text": "Wrzucasz ulubione książki i potrzebne dokumenty, a aplikacja oddaje je z tłumaczeniem obok tekstu, z audio i ze słówkami do powtórek."
+        }
+      },
+      {
+        "old": {
+          "title": "Czytasz i słuchasz, ale wszystko biernie",
+          "text": "Nie ma gdzie mówić ani pisać, więc nic się nie utrwala."
+        },
+        "new": {
+          "title": "Nie tylko czytasz – mówisz i piszesz",
+          "text": "O właśnie skończonej książce rozmawiasz z AI, więc nie musisz wymyślać tematu. Kiedy masz coś do powiedzenia, łatwiej to i powiedzieć, i napisać."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Wszystkie 7 sprawności językowych w jednym miejscu",
+    "subtitle": "Znać język to opanować siedem różnych sprawności. W Lingo7 ćwiczysz je razem, a nie po kolei, więc każda podciąga pozostałe.",
+    "skills": [
+      {
+        "title": "Czytanie",
+        "text": "Czytaj oryginał albo wersję uproszczoną, z tłumaczeniem tuż obok – szybko i bez słownika."
+      },
+      {
+        "title": "Słuchanie",
+        "text": "Audiobooki i tryb „słucham i czytam” – jeden z najskuteczniejszych sposobów na osłuchanie się z językiem."
+      },
+      {
+        "title": "Słownictwo",
+        "text": "Nowe słowa zostają w głowie w trakcie czytania, bez wkuwania. Ćwiczenia i powtórki w odstępach utrwalają je na długo."
+      },
+      {
+        "title": "Gramatyka",
+        "text": "Gramatykę najlepiej przyswaja się wtedy, gdy widzisz reguły przy pracy – w żywym zdaniu."
+      },
+      {
+        "title": "Pisanie",
+        "text": "Czat z AI: rozmawiasz o tym, co właśnie czytasz, więc zawsze jest o czym pisać. AI pomaga ułożyć myśl i wyłapuje błędy."
+      },
+      {
+        "title": "Mówienie",
+        "text": "Shadowing: powtarzasz na głos za lektorem i wyrabiasz płynność, rytm oraz intonację."
+      },
+      {
+        "title": "Wymowa",
+        "text": "Ćwiczenia wymowy pomagają zbliżyć twój akcent do tego, jak brzmi native speaker."
+      }
+    ],
+    "conductor": {
+      "badge": "Plan dla ciebie · Wkrótce",
+      "title": "Aplikacja podpowie, co robić dzisiaj",
+      "text": "Sama dobierze właściwe zajęcie na właściwy moment – czytanie, powtarzanie na głos, utrwalanie słówek albo rozmowę o rozdziale z AI. Nie musisz decydować, od czego zacząć ani co dalej.",
+      "caption": "Przykładowa sesja na dziś – twoją aplikacja ułoży sama.",
+      "steps": [
+        {
+          "label": "Czytanie",
+          "meta": "15 min"
+        },
+        {
+          "label": "Słucham i czytam",
+          "meta": "5 min"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Teraz · 7 min"
+        },
+        {
+          "label": "Słówka",
+          "meta": "25 kart"
+        },
+        {
+          "label": "Czat z AI",
+          "meta": "rozmowa o rozdziale"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Jak uczyć się języka z książek: pięć kroków",
+    "subtitle": "Żadnej wymyślnej metody. Jeden czytelny cykl i treści na tyle dobre, że same cię przez niego przeprowadzą.",
+    "items": [
+      {
+        "title": "Wybierz treść",
+        "text": "Streszczenia bestsellerów, klasyka, opowiadania – pod nastrój, pod poziom, pod czas, który masz."
+      },
+      {
+        "title": "Czytaj z tłumaczeniem obok",
+        "text": "Oryginał i tłumaczenie obok siebie; dotknij słowa, żeby zobaczyć znaczenie, usłyszeć wymowę albo je zapisać."
+      },
+      {
+        "title": "Naucz się słówek",
+        "text": "Zapisane słowa wracają w ćwiczeniach, które uruchamiają różne rodzaje pamięci i rozkładają powtórki w czasie."
+      },
+      {
+        "title": "Słuchaj i powtarzaj na głos",
+        "text": "Każde zdanie ma audio: posłuchaj, a potem powtórz za lektorem – tak właśnie wyrabia się wymowę i intonację."
+      },
+      {
+        "title": "Porozmawiaj o książce z AI",
+        "text": "AI przechodzi z tobą przez książkę – ćwiczysz pisanie i mówienie, i uczysz się ubierać myśli w nowy język."
+      }
+    ]
+  },
+  "library": {
+    "title": "Książki do nauki {target} z tłumaczeniem – poziomy od A1 do C1",
+    "subtitle": "Nie uczysz się samego języka – przy okazji dowiadujesz się czegoś. Materiały na każdy poziom, od pierwszych kroków po zaawansowany.",
+    "tabs": [
+      "Klasyka",
+      "Bestsellery",
+      "Odkrycia"
+    ],
+    "panels": [
+      {
+        "title": "Czytaj wielkie książki w oryginale – z asekuracją",
+        "text": "Wersje uproszczone i oryginalne na różne poziomy, od „Małego Księcia” po Hawkinga. Tłumaczenie obok sprawia, że nawet trudna proza daje się czytać.",
+        "badges": [
+          "A1-A2 Początkujący",
+          "B1-B2 Średnio zaawansowany",
+          "C1+ Zaawansowany"
+        ]
+      },
+      {
+        "title": "Sedno najlepszych książek świata w 7–15 minut",
+        "text": "Najważniejsze myśli światowych bestsellerów, opowiedziane skrótem – w języku, którego się uczysz. Rozwijasz się i uczysz języka za jednym posiedzeniem.",
+        "badges": [
+          "A1-A2 Początkujący",
+          "B1-B2 Średnio zaawansowany",
+          "C1+ Zaawansowany"
+        ]
+      },
+      {
+        "title": "5 minut dziennie: jeden dobry fakt i kilka nowych słów",
+        "text": "Kosmos, psychologia, biznes, przyroda, technologia – setki krótkich artykułów na dowolny temat. Codziennie dowiadujesz się czegoś nowego, a język przychodzi przy okazji.",
+        "badges": [
+          "A1-A2 Początkujący",
+          "B1-B2 Średnio zaawansowany",
+          "C1+ Zaawansowany"
+        ]
+      }
+    ],
+    "examples": [
+      "Myśl i bogać się • Zasada 80/20 • 7 nawyków skutecznego działania • Potęga teraźniejszości"
+    ]
+  },
+  "customBook": {
+    "badge": "NOWOŚĆ",
+    "title": "Wgraj własną książkę albo tekst i ucz się z tego",
+    "text": "Wgraj dowolny plik, a Lingo7 zamieni go w materiał do nauki – z tłumaczeniem obok tekstu i z audio. Dalej wszystko idzie zwykłym trybem: czytasz, słuchasz, uczysz się słówek, nad mową pracujesz przez shadowing i rozmawiasz o przeczytanym z AI.",
+    "cards": [
+      {
+        "title": "Bestsellery w oryginale",
+        "text": "Harry Potter, Diuna, Gra o tron – przeczytaj wreszcie książki, które ciągle odkładasz, w języku, którego się uczysz."
+      },
+      {
+        "title": "Język, którego wymaga twoja praca i nauka",
+        "text": "Dokumenty z pracy, artykuły naukowe, materiały na egzamin – ucz się języka tej dziedziny, w której naprawdę teraz jesteś."
+      }
+    ],
+    "usecases": [
+      "Egzaminy",
+      "Praca",
+      "Artykuły",
+      "Rozmowy o pracę"
+    ],
+    "formatsNote": "Wgrywaj własne pliki w tych formatach:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Adaptacja",
+      "title": "Czytaj każdą książkę – <span class=\"accent\">napisaną na nowo</span> pod ciebie",
+      "text": "Słownictwo i gramatyka wciąż za trudne? Lingo7 napisze tę książkę na nowo, prostszym językiem – ta sama historia, ci sami bohaterowie, łatwiejsze zdania.",
+      "cta": "Sprawdź na swojej książce"
+    },
+    "goalQuote": "Mój ulubiony przepis: bierzesz Harry’ego Pottera i robisz rozdział dziennie – czytasz, słuchasz, uczysz się nowych słów, rozmawiasz o tym z AI. Pół roku po godzinę–dwie dziennie i wychodzisz <span class=\"goal-quote__level\">z A2 na B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 jest dla ciebie, jeśli…",
+    "items": [
+      "Chcesz uczyć się z treści, a nie z lekcji, do których trzeba się zmuszać",
+      "Chcesz czegoś więcej niż czytania – także słuchania, mówienia i pisania: wymowy przez shadowing i ubierania myśli w słowa na czacie z AI",
+      "Chcesz uczyć się na własnych materiałach – dokumentach z pracy, ulubionych książkach i artykułach – a nie tylko na gotowych lekcjach",
+      "Potrzebujesz rzadkiego języka, którego większość aplikacji nie ma",
+      "Chcesz pracować w krótkich sesjach po 5–15 minut"
+    ]
+  },
+  "pains": {
+    "title": "Co przeszkadza – i co z tym robi Lingo7",
+    "subtitle": "To nie kwestia zdolności. To kwestia formatu.",
+    "chips": [
+      "Boję się mówić",
+      "Szybko mi się nudzi",
+      "Słowa nie zostają",
+      "Czytanie jest trudne",
+      "Nie nadążam za mową",
+      "Brak czasu",
+      "Rzadki język",
+      "To nie dla mnie"
+    ],
+    "answers": [
+      {
+        "title": "„Wstyd mi mówić i się mylić”",
+        "text": "Shadowing to powtarzanie zdań na głos za lektorem – samemu, bez nikogo, kto stawia oceny. Tak właśnie wyrabia się wymowę. Na czacie z AI dopracowujesz sformułowania na piśmie, a AI poprawia cię delikatnie."
+      },
+      {
+        "title": "„Szybko mi się nudzi”",
+        "text": "Zamiast wymiennych lekcji: książki, bestsellery i artykuły na tematy, po które i tak sięgasz. Kiedy treść wciąga, powrót do niej nic nie kosztuje."
+      },
+      {
+        "title": "„Widzę słowa, ale one nie zostają”",
+        "text": "Jedno dotknięcie zapisuje słowo razem ze zdaniem, a potem samo wraca jako karta, w powtórkach rozłożonych w czasie. Zapamiętywanie przestaje być kwestią szczęścia."
+      },
+      {
+        "title": "„Oryginał jest dla mnie za trudny”",
+        "text": "Tłumaczenie obok, zdanie w zdanie – nie musisz co chwilę skakać do translatora."
+      },
+      {
+        "title": "„Nie nadążam za mówionym językiem”",
+        "text": "Tryb „słucham i czytam” wiąże brzmienie słowa z jego zapisem i znaczeniem. Ucho przyzwyczaja się do języka samo."
+      },
+      {
+        "title": "„Nie mam czasu”",
+        "text": "Krótkie formaty i szybkie sesje – nawet 5–10 minut dziennie trzyma cię w rytmie."
+      },
+      {
+        "title": "„Potrzebuję rzadkiego języka”",
+        "text": "49 języków, z rzadkimi włącznie. I każdego uczysz się ze swojego ojczystego."
+      },
+      {
+        "title": "„Boję się, że to nie dla mnie”",
+        "text": "Jeśli umiesz czytać, to jest dla ciebie. Nie trzeba wcześniejszej wiedzy, gramatyki ani przygotowania – zaczynasz od dowolnej książki na swoim poziomie."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Ucz się {target}",
+    "title": "49 języków, od popularnych po rzadkie",
+    "subtitle": "Ucz się dowolnego języka ze swojego ojczystego – nie tylko przez angielski, jak każe większość aplikacji.",
+    "groupTitles": [
+      "Popularne",
+      "Wszystkie języki"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 pary językowe.</strong> Wybierz dowolne połączenie: język, którego się uczysz, i język, w którym widzisz tłumaczenie."
+  },
+  "reviews": {
+    "title": "Nie spodziewaliśmy się, że aż tak wam się spodoba",
+    "subtitle": "Ale fakty są faktami – oto, co ludzie piszą w Google Play.",
+    "items": [
+      {
+        "text": "Świetna aplikacja. Ogromny plus, że jedna książka bywa w kilku poziomach angielskiego. Czekam niecierpliwie na aktualizację!",
+        "author": "Екатерина М.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Wykupiłem abonament roczny i to bardzo dobra cena. To naprawdę wspaniała aplikacja! Znakomite narzędzie do podciągnięcia angielskiego. Od dorosłych po dzieci – nie tylko przydatna, ale wręcz potrzebna.",
+        "author": "Mayur L.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Potrzebowałam portugalskiego do pracy z zespołem w Brazylii. Czytanie i audio naraz działa bardzo skutecznie. Po 6 tygodniach nadążałam już na spotkaniach.",
+        "author": "Rosita R.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Zawsze chciałem uczyć się niemieckiego, a w tej aplikacji wszystko jest dużo bardziej przystępne i jasne niż w podobnych. Aplikacja na 10 na 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Korzystam z czytania razem z audio i to był dla mnie prawdziwy przełom. Ścieżki są czyste i dobrze zsynchronizowane z tekstem. Fantastyczne narzędzie dla uczących się języków.",
+        "author": "Zeynep O.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Pomysł i wykonanie na piątkę. Na dziś to jedyna aplikacja z książkami po serbsku. Dobra robota! Dziękuję!",
+        "author": "Вася К.",
+        "source": "Google Play • zobacz oryginał"
+      },
+      {
+        "text": "Dla mnie jako nauczyciela to naprawdę wspaniała aplikacja. Polecam ją swoim uczniom. Bardzo przyjemna w obsłudze. Polecam wszystkim.",
+        "author": "Sasha T.",
+        "source": "Google Play • zobacz oryginał"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      {
+        "q": "Czy Lingo7 sprawdzi się u kogoś zupełnie początkującego?",
+        "a": "Tak. Materiały są na każdy poziom, a tłumaczenie obok sprawia, że tekst jest zrozumiały od pierwszej strony."
+      },
+      {
+        "q": "Jaki poziom trzeba mieć, żeby czytać w oryginale?",
+        "a": "Dowolny. Dzięki tłumaczeniu obok nie musisz sięgać po słownik, a zbyt trudną książkę da się uprościć – ta sama historia i ci sami bohaterowie, ale gramatyka i słowa z twojego poziomu. Wszystko jest oznaczone od A1 do C1."
+      },
+      {
+        "q": "Czy da się uczyć po 10 minut dziennie?",
+        "a": "Tak. Krótkie artykuły, streszczenia książek i karty ze słówkami są zrobione właśnie pod krótkie codzienne sesje."
+      },
+      {
+        "q": "Jakie języki są dostępne?",
+        "a": "49 języków, a każdego z nich uczysz się ze swojego ojczystego – nie tylko przez angielski. To 49 × 48 = 2352 pary językowe, z rzadkimi językami włącznie."
+      },
+      {
+        "q": "Czym to się różni od zwykłych aplikacji do nauki języków?",
+        "a": "Zamiast oderwanych ćwiczeń uczysz się z treści, które cię interesują, a wszystkie sprawności są spięte w jeden obieg: czytasz i słuchasz, zapisujesz słówka do powtórek, łapiesz gramatykę w kontekście, nad mową pracujesz przez shadowing, a nad pisaniem na czacie z AI. Możesz też wgrać własną książkę albo dokument."
+      },
+      {
+        "q": "Czy jest praktyka mówienia?",
+        "a": "Tak. Do mówienia jest shadowing – powtarzasz zdania na głos za lektorem i wyrabiasz wymowę oraz intonację. Do pisania jest czat z AI: rozmawiasz o tym, co właśnie czytasz, a on pomaga sformułować myśl i znajduje błędy. Żywej rozmowy z człowiekiem jeszcze nie ma – jest w planach."
+      },
+      {
+        "q": "Jakie formaty plików można wgrać?",
+        "a": "PDF, EPUB, FB2 i TXT. Wgraj dokumenty z pracy, ulubione książki albo artykuły – aplikacja zbuduje tłumaczenie obok tekstu, doda audio i zbierze nowe słowa do powtórek."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Zacznij uczyć się {target} już dziś – od książki, nie od ćwiczeń",
+    "text": "Pobierz aplikację i otwórz pierwszą książkę.",
+    "perks": [
+      "49 języków",
+      "Każdy poziom"
+    ]
+  },
+  "footer": {
+    "links": [
+      "O nas",
+      "Kontakt",
+      "Kariera",
+      "Dla szkół",
+      "Jak uczyć się języków",
+      "Regulamin",
+      "Prywatność"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Wszelkie prawa zastrzeżone."
+  },
+  "downloadModal": {
+    "title": "Pobierz Lingo7",
+    "text": "Dostępna w App Store i Google Play"
+  },
+  "stickyCta": {
+    "label": "Pobierz aplikację"
+  },
+  "mobileMenu": {
+    "links": [
+      "Jak to działa",
+      "Biblioteka",
+      "Języki",
+      "Opinie",
+      "FAQ"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (только my_lang). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Słuchaj",
+      "add": "Zapisz",
+      "translate": "Przetłumacz",
+      "addToMyWords": "Dodaj do moich słów",
+      "inMyWords": "W moich słowach",
+      "audioMode": "Tryb audio",
+      "discussWithAi": "Omów z AI",
+      "selfCheck": "Sprawdź się"
+    },
+    "wordCard": {
+      "freqHigh": "CZĘSTE",
+      "freqMid": "ŚREDNIE",
+      "example": "Przykład",
+      "otherTranslations": "Więcej tłumaczeń",
+      "synonyms": "Synonimy",
+      "open": "Otwórz",
+      "group": "Grupa:",
+      "groupDefault": "Ogólne",
+      "page": "s."
+    },
+    "readerSettings": {
+      "sectionText": "TEKST",
+      "sectionAudio": "AUDIO",
+      "highlightMyWords": "Podświetlaj moje słowa",
+      "highlightMyWordsHint": "Zaznacza zapisane przez ciebie słowa",
+      "theme": "Motyw",
+      "themeLight": "Jasny",
+      "fontSize": "Wielkość tekstu",
+      "font": "Krój pisma",
+      "speakOnTap": "Wymawiaj słowo po dotknięciu",
+      "speakOnTapHint": "Czyta na głos dotknięte słowo",
+      "speechRate": "Tempo mowy",
+      "pronunciationTest": "Test wymowy",
+      "playSample": "Odtwórz przykładową frazę",
+      "reset": "Przywróć ustawienia",
+      "done": "Gotowe",
+      "on": "Wł.",
+      "off": "Wył.",
+      "accent": "Akcent",
+      "translationAlways": "Zawsze"
+    },
+    "vocab": {
+      "pickRightPicture": "Wybierz właściwy obrazek",
+      "correct": "Dokładnie tak",
+      "rightAnswer": "Poprawna odpowiedź:",
+      "next": "Dalej",
+      "done": "Gotowe",
+      "skip": "Pomiń",
+      "exercise": "Ćwiczenie",
+      "exerciseMeta": "/11 · 10 słów"
+    },
+    "chat": {
+      "title": "Praktyka",
+      "discussing": "Rozmawiamy o „{book}”",
+      "finish": "Zakończ",
+      "playing": "Odtwarzanie…",
+      "replyOptions": "Gotowe odpowiedzi",
+      "placeholder": "Napisz wiadomość"
+    },
+    "bookDetail": {
+      "adapted": "Uproszczona",
+      "adaptedHint": "Napisana prostszym językiem, sens bez zmian",
+      "original": "Oryginał",
+      "originalHint": "Pełny tekst oryginału, nietknięty",
+      "open": "Otwórz",
+      "genre": "Gatunek",
+      "badgeSummary": "Streszczenie"
+    },
+    "library": {
+      "profile": "Profil",
+      "search": "Szukaj",
+      "upload": "Wgraj książkę",
+      "tabCatalog": "Katalog",
+      "tabAll": "Wszystkie książki",
+      "tabFavorites": "Ulubione",
+      "shelfBestsellers": "Światowe bestsellery",
+      "shelfBestsellersSub": "w skrócie, z audio",
+      "shelfStories": "Krótkie opowiadania",
+      "shelfStoriesSub": "Małe historie z dużym sensem",
+      "bandTitle": "5 minut dziennie",
+      "bandText": "Codziennie poznawaj ciekawostki – a język przyjdzie sam!",
+      "shelfAmazing": "Niezwykłe historie",
+      "shelfNature": "Zagadki natury",
+      "shelfHealth": "Zdrowie i nauka",
+      "moreTopics": "Więcej tematów",
+      "shelfGolden": "Złota klasyka",
+      "shelfGoldenSub": "200 książek, które zmieniły ludzkość",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Biblioteka",
+      "practice": "Praktyka",
+      "read": "Czytaj",
+      "myWords": "Moje słowa",
+      "collections": "Kolekcje"
+    }
+  },
+  "_note": "Польская локаль (my_lang = pl). Написана с нуля по эталону i18n/en.json, интонация сверена с ru.json; построчного перевода нет, синтаксис везде польский. Контракт слота {target} — родительный падеж названия языка (hiszpańskiego, angielskiego, azerbejdżańskiego): он управляется и глаголом «uczyć się», и отглагольным существительным «nauka», поэтому одной формы хватает на все девять строк. Наречная форма «po hiszpańsku» отвергнута: она неприменима к несклоняемым названиям (zulu, suahili, afrikaans) и не сочетается с «uczyć się». Названия языков в польском пишутся со строчной, поэтому {target} нигде не стоит первым словом в title. Обращение — на «ty» во всём файле. Бюджет выдачи посчитан по «azerbejdżańskiego» (17 знаков). Файл прошёл снятие калек по i18n/en.gloss.json: образные обороты эталона (вес, поза, тяга, «rewritten») переписаны польскими средствами.",
+  "_contract": {
+    "government": "Родительный падеж (dopełniacz) при глаголе «uczyć się» и при отглагольном существительном «nauka»: «Ucz się hiszpańskiego», «Nauka hiszpańskiego», «Książki do nauki hiszpańskiego». Это единственная объявленная позиция, и все девять строк написаны под неё, включая library.title. Все 49 названий — субстантивированные прилагательные муж. рода, родительный у них строго регулярен: -ski/-cki → -skiego/-ckiego; несклоняемые (zulu, suahili, afrikaans) в родительном совпадают с базовой формой, конструкция их держит. Артиклей в польском нет; предлога, чья форма зависела бы от подставленного слова (алломорфия w/we, z/ze), рядом со слотом нет ни в одной из девяти строк — слот всюду стоит сразу после управляющего слова, а дальше идёт предлог с фиксированной формой («z książek»), запятая или тире. Локативный вариант («książki po hiszpańsku», «w języku hiszpańskim»), который был бы естественнее для заголовка библиотеки, отвергнут: он потребовал бы второй формы слота, а на несклоняемых названиях («po zulu») просто ломается.",
+    "slotExample": "hiszpańskiego",
+    "slotExampleEnglish": "angielskiego",
+    "longestSlot": "azerbejdżańskiego",
+    "longestSlotLang": "азербайджанский (az) — 17 знаков; следом indonezyjskiego / niderlandzkiego (15), portugalskiego (14), hiszpańskiego / wietnamskiego / macedońskiego / białoruskiego / filipińskiego / katalońskiego / galicyjskiego (13)",
+    "titleRenderedLen": 55,
+    "descRenderedLen": 145,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "hero.title «Ucz się {target}, czytając książki, a nie ślęcząc nad ćwiczeniami» — конструкция «przez czytanie… przez ślęczenie» снята в пользу деепричастий (третий круг правки); «wkuwanie ćwiczeń» снято ещё раньше (по-польски wkuwa się słówka i regułki, а не ćwiczenia). Носителю стоит подтвердить тон «ślęcząc», а вёрстке — заголовок с самым длинным названием языка.",
+      "compare.title «Dlaczego większość aplikacji do nauki języków ląduje w koszu – a ta nie» — образ «ląduje w koszu» резче английского «get abandoned». Проверить, что это читается как честная самоирония, а не как выпад в сторону конкурентов.",
+      "customBook.usecases[3] «Rozmowy o pracę» — английское «Interviews» двусмысленно (собеседование или интервью для СМИ). Выбрано собеседование по соседям в списке (Egzaminy, Praca, Artykuły); если продукт имел в виду интервью-жанр, строку надо менять на «Wywiady».",
+      "reviews.items[6] (Sasha T.) — пол автора неизвестен, поэтому отзыв переписан как «Dla mnie jako nauczyciela…»: в польском причастия и прилагательные рода не избегают, и любая другая формулировка навязала бы пол.",
+      "appUi.readerSettings.speakOnTap «Wymawiaj słowo po dotknięciu» — длинная строка для переключателя в мокапе; если вёрстка ломается, короткий вариант «Wymawiaj po dotknięciu»."
+    ]
+  }
+}

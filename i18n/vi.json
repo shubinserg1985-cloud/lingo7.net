@@ -1,0 +1,574 @@
+{
+  "meta": {
+    "title": "Học {target} qua sách song ngữ: đọc và nghe",
+    "description": "Đọc sách {target} kèm bản dịch tiếng Việt và audio, nhớ từ mới nhờ lặp lại ngắt quãng, luyện nói shadowing và bàn từng chương với AI.",
+    "ogTitle": "Học {target} qua sách song ngữ: đọc và nghe",
+    "ogDescription": "Đọc sách {target} kèm bản dịch tiếng Việt ngay bên cạnh và có audio. Chạm một cái là lưu được từ, rồi lặp lại ngắt quãng nhắc bạn đúng lúc.",
+    "twitterTitle": "Học {target} qua sách song ngữ: đọc và nghe",
+    "twitterDescription": "Đọc sách {target} với tiếng Việt ngay bên cạnh, chạm một cái để lưu từ, rồi ôn lại theo lịch lặp lại ngắt quãng."
+  },
+  "nav": {
+    "links": [
+      "Cách hoạt động",
+      "Thư viện",
+      "Ngôn ngữ",
+      "Đánh giá",
+      "Hỏi đáp"
+    ]
+  },
+  "hero": {
+    "title": "Học {target} bằng cách đọc sách, chứ không phải cày bài tập",
+    "subtitle": "Đọc và nghe đúng những thứ bạn thật sự quan tâm, lưu từ mới ngay trên trang đang đọc, rồi thuật toán lặp lại ngắt quãng sẽ nhắc lại chúng đúng lúc bạn sắp quên.",
+    "cta": "Tải ứng dụng",
+    "trust": "49 ngôn ngữ • iPhone / Android",
+    "pills": [
+      "Dịch đối chiếu",
+      "Vừa đọc vừa nghe",
+      "Tích lũy vốn từ",
+      "Lặp lại ngắt quãng",
+      "Mọi sách, mọi văn bản",
+      "Shadowing",
+      "Bàn về sách với AI"
+    ]
+  },
+  "trust": {
+    "cards": [
+      {
+        "strong": "Một cuốn sách, không phải một khóa học",
+        "span": "Học bằng đúng thứ bạn vốn vẫn đọc cho vui"
+      },
+      {
+        "strong": "49 ngôn ngữ",
+        "span": "Từ thứ tiếng đông người nói nhất đến thứ hiếm nhất"
+      },
+      {
+        "strong": "Thư viện đủ rộng",
+        "span": "Sách kinh điển, sách bán chạy thế giới và bài viết"
+      },
+      {
+        "strong": "Mọi thứ khép thành một vòng",
+        "span": "Đọc, nghe, từ vựng và ôn tập"
+      }
+    ]
+  },
+  "compare": {
+    "title": "Vì sao phần lớn app học ngoại ngữ bị bỏ giữa chừng – còn app này thì không",
+    "subtitle": "Vấn đề chưa bao giờ nằm ở ý chí của bạn. Nó nằm ở cách học.",
+    "labelOld": "❌ Thường thấy",
+    "labelNew": "✅ Lingo7",
+    "rows": [
+      {
+        "old": {
+          "title": "Học thuộc những từ rồi chẳng dùng được",
+          "text": "Danh sách từ và thẻ ghi nhớ, không có ngữ cảnh nào cả. Đến mai là quên sạch."
+        },
+        "new": {
+          "title": "Từ mới hiện ra ngay trong câu thật",
+          "text": "Bạn thấy từ đó được dùng ra sao trong ngữ cảnh, nên nó ở lại trong đầu mà chẳng phải học vẹt."
+        }
+      },
+      {
+        "old": {
+          "title": "Ngày nào cũng đúng ngần ấy bài tập",
+          "text": "Chán dần, động lực tụt, qua tuần đầu là chẳng ai mở app ra nữa."
+        },
+        "new": {
+          "title": "Bạn đọc đúng thứ đằng nào bạn cũng đọc",
+          "text": "Sách bán chạy, chuyện có thật kỳ lạ, khoa học thường thức – toàn thứ tự bạn sẽ quay lại đọc tiếp."
+        }
+      },
+      {
+        "old": {
+          "title": "Đọc nguyên bản thì khó quá sức",
+          "text": "Từ lạ chi chít, mạch truyện tuột mất, hết trang đầu là bỏ."
+        },
+        "new": {
+          "title": "Có bản dịch đối chiếu, và có cả bản viết dễ hơn",
+          "text": "Bản dịch hiện ngay cạnh nguyên bản, còn cuốn nào khó quá thì viết lại được cho vừa trình độ của bạn."
+        }
+      },
+      {
+        "old": {
+          "title": "Kho có gì thì đọc nấy",
+          "text": "Thư viện đóng cứng. Muốn mang sách của mình vào cũng chịu."
+        },
+        "new": {
+          "title": "Cuốn nào, văn bản nào cũng thành giáo trình của bạn",
+          "text": "Đưa cho app những cuốn bạn thích và những tài liệu bạn cần, app trả lại kèm bản dịch đối chiếu, audio và phần ôn từ."
+        }
+      },
+      {
+        "old": {
+          "title": "Đọc với nghe thì có, nhưng toàn thụ động",
+          "text": "Chẳng có chỗ nào để nói hay viết, nên kỹ năng không bao giờ hình thành."
+        },
+        "new": {
+          "title": "Không chỉ đọc – bạn còn nói và viết",
+          "text": "Bạn bàn với AI về chính cuốn vừa đọc xong, nên khỏi phải nặn ra chủ đề. Khi trong đầu đã có điều muốn nói, nói ra và viết ra đều dễ hơn hẳn."
+        }
+      }
+    ]
+  },
+  "method": {
+    "title": "Cả 7 kỹ năng ngoại ngữ gom về một chỗ",
+    "subtitle": "Biết một thứ tiếng nghĩa là thạo bảy kỹ năng khác nhau. Lingo7 luyện cả bảy cùng lúc chứ không tách rời, để kỹ năng này đẩy kỹ năng kia tiến nhanh hơn.",
+    "skills": [
+      {
+        "title": "Đọc",
+        "text": "Đọc nguyên bản hoặc bản viết lại dễ hơn, bản dịch hiện ngay bên cạnh – đọc nhanh và không phải tra từ điển."
+      },
+      {
+        "title": "Nghe",
+        "text": "Sách nói và chế độ vừa nghe vừa đọc – một trong những cách luyện tai hiệu quả nhất."
+      },
+      {
+        "title": "Từ vựng",
+        "text": "Từ mới đọng lại ngay trong lúc đọc, không cần học vẹt. Bài tập và lặp lại ngắt quãng giữ chúng ở lại thật lâu."
+      },
+      {
+        "title": "Ngữ pháp",
+        "text": "Cách ngấm ngữ pháp tốt nhất là nhìn quy tắc chạy ngay trong một câu thật."
+      },
+      {
+        "title": "Viết",
+        "text": "Chat với AI: bạn bàn về chính đoạn vừa đọc, nên lúc nào cũng có chuyện để viết. AI giúp bạn gọt ý cho gọn và nhặt ra lỗi sai."
+      },
+      {
+        "title": "Nói",
+        "text": "Shadowing: bạn nói to theo giọng đọc ngay khi vừa nghe, luyện độ trôi chảy, nhịp và ngữ điệu."
+      },
+      {
+        "title": "Phát âm",
+        "text": "Các bài luyện phát âm giúp giọng của bạn nghe gần với người bản xứ hơn."
+      }
+    ],
+    "conductor": {
+      "badge": "Lộ trình riêng · Sắp có",
+      "title": "App sẽ nói cho bạn biết hôm nay nên học gì",
+      "text": "App chọn đúng việc vào đúng lúc – đọc, nói to theo giọng đọc, ôn cho chắc từ mới hay bàn một chương với AI. Bạn không phải nghĩ xem bắt đầu từ đâu và tiếp theo làm gì.",
+      "caption": "Một buổi học mẫu cho hôm nay – buổi của bạn sẽ do app tự xếp.",
+      "steps": [
+        {
+          "label": "Đọc",
+          "meta": "15 phút"
+        },
+        {
+          "label": "Vừa nghe vừa đọc",
+          "meta": "5 phút"
+        },
+        {
+          "label": "Shadowing",
+          "meta": "Bây giờ · 7 phút"
+        },
+        {
+          "label": "Từ vựng",
+          "meta": "25 thẻ"
+        },
+        {
+          "label": "Chat với AI",
+          "meta": "bàn về chương vừa đọc"
+        }
+      ]
+    }
+  },
+  "steps": {
+    "title": "Cách học ngoại ngữ qua sách: năm bước",
+    "subtitle": "Không có phương pháp cầu kỳ nào cả. Chỉ một vòng học rõ ràng, cộng với nội dung đủ hay để bạn đi hết vòng đó.",
+    "items": [
+      {
+        "title": "Chọn nội dung",
+        "text": "Tóm tắt sách bán chạy, tác phẩm kinh điển, truyện ngắn – chọn theo tâm trạng, theo trình độ, theo lượng thời gian bạn có."
+      },
+      {
+        "title": "Đọc kèm bản dịch đối chiếu",
+        "text": "Nguyên bản và bản dịch hiện cạnh nhau; chạm vào một từ để xem nghĩa, nghe phát âm hoặc lưu lại."
+      },
+      {
+        "title": "Học từ mới",
+        "text": "Những từ đã lưu quay lại trong các bài tập đánh vào nhiều kiểu trí nhớ khác nhau, giãn dần theo thời gian."
+      },
+      {
+        "title": "Nghe rồi nói to theo",
+        "text": "Câu nào cũng có audio: nghe xong là nói to theo giọng đọc ngay – đó chính là cách luyện phát âm và ngữ điệu."
+      },
+      {
+        "title": "Bàn về cuốn sách với AI",
+        "text": "AI đi cùng bạn qua từng chương – bạn luyện viết, luyện nói và tập diễn đạt suy nghĩ bằng thứ tiếng mới."
+      }
+    ]
+  },
+  "library": {
+    "title": "Sách {target} có bản dịch – chia theo trình độ, từ A1 đến C1",
+    "subtitle": "Bạn không chỉ học một thứ tiếng, bạn còn học được điều gì đó. Có nội dung cho mọi trình độ, từ những bước đầu tiên đến nâng cao.",
+    "tabs": [
+      "Kinh điển",
+      "Sách bán chạy",
+      "Khám phá"
+    ],
+    "panels": [
+      {
+        "title": "Đọc nguyên bản những cuốn sách lớn mà không sợ bí",
+        "text": "Có bản viết dễ hơn và bản nguyên gốc cho từng trình độ, từ Hoàng tử bé đến Hawking. Bản dịch đối chiếu khiến cả những trang văn khó vẫn đọc trôi.",
+        "badges": [
+          "A1-A2 Sơ cấp",
+          "B1-B2 Trung cấp",
+          "C1+ Nâng cao"
+        ]
+      },
+      {
+        "title": "Cốt lõi của những cuốn sách hay nhất thế giới trong 7–15 phút",
+        "text": "Những ý chính của các cuốn bán chạy toàn cầu, kể lại thật gọn – bằng chính thứ tiếng bạn đang học. Vừa biết thêm điều mới vừa giỏi thêm thứ tiếng đó, trong cùng một lần ngồi.",
+        "badges": [
+          "A1-A2 Sơ cấp",
+          "B1-B2 Trung cấp",
+          "C1+ Nâng cao"
+        ]
+      },
+      {
+        "title": "5 phút mỗi ngày: một điều đáng biết và vài từ mới",
+        "text": "Vũ trụ, tâm lý, kinh doanh, thiên nhiên, công nghệ – hàng trăm bài viết ngắn đủ mọi chủ đề. Ngày nào cũng biết thêm điều mới, còn ngôn ngữ thì đi kèm theo.",
+        "badges": [
+          "A1-A2 Sơ cấp",
+          "B1-B2 Trung cấp",
+          "C1+ Nâng cao"
+        ]
+      }
+    ],
+    "examples": [
+      "Nghĩ giàu làm giàu • Nguyên lý 80/20 • 7 thói quen để thành đạt • Sức mạnh của hiện tại"
+    ]
+  },
+  "customBook": {
+    "badge": "MỚI",
+    "title": "Tải lên sách hay văn bản của bạn rồi học bằng chính tài liệu đó",
+    "text": "Tải lên file bất kỳ, Lingo7 biến nó thành tài liệu học có bản dịch đối chiếu và audio. Sau đó vẫn là vòng quen thuộc: bạn đọc, nghe, học từ, luyện nói bằng shadowing và bàn lại với AI.",
+    "cards": [
+      {
+        "title": "Sách bán chạy, đọc thẳng nguyên bản",
+        "text": "Harry Potter, Xứ Cát, Trò chơi vương quyền – đọc những cuốn bạn định đọc mãi mà chưa đọc, bằng thứ tiếng bạn đang học."
+      },
+      {
+        "title": "Đúng thứ tiếng mà việc học và việc làm của bạn cần",
+        "text": "Tài liệu công việc, bài báo khoa học, đề thi – học đúng thứ tiếng của lĩnh vực bạn đang làm ngay lúc này."
+      }
+    ],
+    "usecases": [
+      "Thi cử",
+      "Công việc",
+      "Bài viết",
+      "Phỏng vấn"
+    ],
+    "formatsNote": "Tải lên file của bạn ở các định dạng:",
+    "formats": "PDF EPUB FB2 TXT",
+    "adapt": {
+      "badge": "⚡ Viết lại dễ hơn",
+      "title": "Đọc cuốn nào cũng được – <span class=\"accent\">viết lại</span> cho vừa với bạn",
+      "text": "Từ vựng với ngữ pháp vẫn còn khó quá? Lingo7 viết lại cuốn sách bằng ngôn từ đơn giản hơn – vẫn câu chuyện ấy, vẫn nhân vật ấy, chỉ là câu văn dễ đọc hơn.",
+      "cta": "Thử với cuốn sách của bạn"
+    },
+    "goalQuote": "Công thức tôi thích nhất: lấy Harry Potter, mỗi ngày một chương – đọc, nghe, học từ mới, rồi bàn với AI. Nửa năm, mỗi ngày một đến hai tiếng, là <span class=\"goal-quote__level\">từ A2 lên B2</span>."
+  },
+  "audience": {
+    "title": "Lingo7 hợp với bạn, nếu bạn...",
+    "items": [
+      "Muốn học bằng nội dung hay, thay vì những bài học phải ép mình mới ngồi vào",
+      "Không chỉ muốn đọc – còn muốn nghe, nói và viết nữa: luyện phát âm bằng shadowing, tập diễn đạt suy nghĩ trong chat với AI",
+      "Muốn học bằng tài liệu của chính mình – hồ sơ công việc, sách và bài viết bạn thích – chứ không chỉ mấy bài soạn sẵn",
+      "Cần một thứ tiếng hiếm mà phần lớn app không có",
+      "Muốn học từng quãng ngắn 5-15 phút"
+    ]
+  },
+  "pains": {
+    "title": "Cái gì làm bạn khựng lại – và Lingo7 xử lý ra sao",
+    "subtitle": "Không phải chuyện bạn có năng khiếu hay không. Là chuyện cách học.",
+    "chips": [
+      "Ngại nói",
+      "Chán nhanh",
+      "Từ không đọng lại",
+      "Đọc khó quá",
+      "Nghe không kịp",
+      "Không có thời gian",
+      "Tiếng hiếm",
+      "Sợ không hợp"
+    ],
+    "answers": [
+      {
+        "title": "“Tôi ngại nói, sợ nói sai”",
+        "text": "Shadowing là nói to theo từng câu ngay sau giọng đọc, một mình, không ai chấm điểm. Đó chính là cách luyện phát âm. Còn trong chat với AI, bạn tập diễn đạt bằng chữ viết, và AI sửa lại cho bạn nhẹ nhàng, không phán xét."
+      },
+      {
+        "title": "“Tôi chán rất nhanh”",
+        "text": "Thay cho những bài học na ná nhau: sách, sách bán chạy và bài viết về đúng chủ đề đằng nào bạn cũng đọc. Nội dung mà cuốn thì quay lại đọc tiếp là chuyện dễ."
+      },
+      {
+        "title": "“Từ thì nhìn thấy đấy, mà chẳng đọng lại”",
+        "text": "Chạm một cái là lưu được từ ngay từ trong câu, rồi nó quay lại dưới dạng thẻ theo lịch giãn dần. Nhớ được hay không, từ giờ không còn là chuyện hên xui nữa."
+      },
+      {
+        "title": "“Đọc nguyên bản khó quá sức tôi”",
+        "text": "Bản dịch đối chiếu, câu nào khớp câu nấy – khỏi phải cứ vài dòng lại nhảy sang app dịch."
+      },
+      {
+        "title": "“Tôi nghe không kịp người ta nói”",
+        "text": "Chế độ vừa nghe vừa đọc nối âm thanh của từ với mặt chữ và với nghĩa của nó. Tai bạn quen dần với thứ tiếng đó một cách tự nhiên."
+      },
+      {
+        "title": "“Tôi không có thời gian”",
+        "text": "Nội dung ngắn, buổi học nhanh – mỗi ngày 5-10 phút cũng đủ giữ nhịp."
+      },
+      {
+        "title": "“Tôi cần một thứ tiếng hiếm”",
+        "text": "49 ngôn ngữ, có cả những thứ tiếng hiếm. Và thứ nào bạn cũng học được từ chính tiếng mẹ đẻ của mình."
+      },
+      {
+        "title": "“Tôi sợ nó không hợp với mình”",
+        "text": "Biết đọc là hợp rồi. Không cần vốn sẵn, không cần thuộc ngữ pháp, không cần chuẩn bị gì – cứ bắt đầu bằng một cuốn vừa trình độ."
+      }
+    ]
+  },
+  "languages": {
+    "chip": "Học {target}",
+    "title": "49 ngôn ngữ, từ phổ biến đến hiếm gặp",
+    "subtitle": "Học thứ tiếng nào cũng được, ngay từ tiếng mẹ đẻ của bạn – không phải vòng qua tiếng Anh như phần lớn app bắt bạn làm.",
+    "groupTitles": [
+      "Phổ biến",
+      "Tất cả ngôn ngữ"
+    ],
+    "pairs": "<strong>49 × 48 = 2352 cặp ngôn ngữ.</strong> Ghép kiểu nào cũng được: thứ tiếng bạn đang học, và thứ tiếng bạn đọc bản dịch."
+  },
+  "reviews": {
+    "title": "Chúng tôi không ngờ các bạn lại thích đến vậy",
+    "subtitle": "Nhưng sự thật là sự thật – đây là những gì mọi người viết trên Google Play.",
+    "items": [
+      {
+        "text": "App hay. Điểm cộng lớn là cùng một cuốn sách mà có nhiều mức trình độ tiếng Anh khác nhau. Đang nóng lòng chờ bản cập nhật!",
+        "author": "Екатерина М.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Tôi mua gói năm, rất đáng tiền. Đây thật sự là một app tuyệt vời! Một nguồn học cực tốt để tiếng Anh khá lên. Từ người lớn đến trẻ con — không chỉ hữu ích mà là cần thiết.",
+        "author": "Mayur L.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Tôi cần tiếng Bồ Đào Nha để làm việc với nhóm bên Brazil. Vừa đọc vừa nghe cùng lúc hiệu quả thật sự. Sau 6 tuần là tôi đã theo được các cuộc họp.",
+        "author": "Rosita R.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Tôi vẫn luôn muốn học tiếng Đức, và trong app này mọi thứ dễ vào và rõ ràng hơn hẳn mấy app cùng loại. App 10 trên 10.",
+        "author": "Макс Р.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Tôi dùng tính năng vừa đọc vừa nghe và đó là bước ngoặt thật sự với tôi. Phần audio rõ và khớp chữ rất chuẩn. Công cụ tuyệt vời cho người học ngoại ngữ.",
+        "author": "Zeynep O.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Ý tưởng và cách làm đều đáng điểm A+. Hiện giờ đây là app duy nhất có sách tiếng Serbia. Làm tốt lắm! Cảm ơn!",
+        "author": "Вася К.",
+        "source": "Google Play • xem bản gốc"
+      },
+      {
+        "text": "Với tôi, một giáo viên, đây thật sự là app rất tuyệt. Tôi giới thiệu cho học sinh của mình. Dùng rất dễ chịu. Tôi giới thiệu cho tất cả mọi người.",
+        "author": "Sasha T.",
+        "source": "Google Play • xem bản gốc"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Người mới hoàn toàn thì dùng Lingo7 được không?",
+        "a": "Được. Có nội dung cho mọi trình độ, và bản dịch đối chiếu giúp bạn hiểu được văn bản ngay từ những dòng đầu tiên."
+      },
+      {
+        "q": "Cần trình độ nào mới đọc được nguyên bản?",
+        "a": "Trình độ nào cũng đọc được. Có bản dịch đối chiếu thì không phải tra từ điển nữa, còn cuốn nào khó quá thì có thể viết lại đơn giản hơn – vẫn câu chuyện ấy, vẫn nhân vật ấy, nhưng ngữ pháp và từ ngữ đúng trình độ của bạn. Mọi thứ đều gắn nhãn từ A1 đến C1."
+      },
+      {
+        "q": "Mỗi ngày học 10 phút có được không?",
+        "a": "Được. Bài viết ngắn, bản tóm tắt sách và thẻ từ đều làm ra cho những buổi học ngắn mỗi ngày."
+      },
+      {
+        "q": "Có những ngôn ngữ nào?",
+        "a": "49 ngôn ngữ, và thứ nào bạn cũng học được từ chính tiếng mẹ đẻ của mình – không phải vòng qua tiếng Anh. Tổng cộng là 49 × 48 = 2352 cặp ngôn ngữ, có cả những thứ tiếng hiếm."
+      },
+      {
+        "q": "Cái này khác gì mấy app học ngoại ngữ thông thường?",
+        "a": "Thay vì những bài tập rời rạc, bạn học bằng nội dung mình thấy thích, và mọi kỹ năng đều nằm chung một vòng: bạn đọc và nghe, lưu từ để ôn ngắt quãng, ngấm ngữ pháp qua ngữ cảnh, luyện nói bằng shadowing và luyện viết trong chat với AI. Ngoài ra bạn còn tải được sách hay tài liệu của chính mình lên."
+      },
+      {
+        "q": "Có luyện nói không?",
+        "a": "Có. Phần nói là shadowing – bạn nói to theo từng câu ngay sau giọng đọc, luyện dần phát âm và ngữ điệu. Phần viết là chat với AI: bạn bàn về những gì vừa đọc, AI giúp bạn diễn đạt và chỉ ra chỗ sai. Còn nói chuyện trực tiếp với người thật thì hiện chưa có – cái đó đang trong kế hoạch."
+      },
+      {
+        "q": "Tải lên được những định dạng file nào?",
+        "a": "PDF, EPUB, FB2 và TXT. Bạn tải lên tài liệu công việc, cuốn sách hay bài viết mình thích – app dựng bản dịch đối chiếu, thêm audio và gom từ mới vào phần luyện tập."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bắt đầu học {target} ngay hôm nay, bằng một cuốn sách chứ không phải bài tập",
+    "text": "Tải app về và mở cuốn sách đầu tiên.",
+    "perks": [
+      "49 ngôn ngữ",
+      "Mọi trình độ"
+    ]
+  },
+  "footer": {
+    "links": [
+      "Giới thiệu",
+      "Liên hệ",
+      "Tuyển dụng",
+      "Dành cho trường học",
+      "Cách học ngoại ngữ",
+      "Điều khoản dịch vụ",
+      "Quyền riêng tư"
+    ],
+    "copyright": "© 2024-2026 Lingo7. Bảo lưu mọi quyền."
+  },
+  "downloadModal": {
+    "title": "Tải Lingo7",
+    "text": "Có trên App Store và Google Play"
+  },
+  "stickyCta": {
+    "label": "Tải ứng dụng"
+  },
+  "mobileMenu": {
+    "links": [
+      "Cách hoạt động",
+      "Thư viện",
+      "Ngôn ngữ",
+      "Đánh giá",
+      "Hỏi đáp"
+    ]
+  },
+  "appUi": {
+    "_note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
+    "reader": {
+      "listen": "Nghe",
+      "add": "Lưu",
+      "translate": "Dịch",
+      "addToMyWords": "Thêm vào từ của tôi",
+      "inMyWords": "Đã có trong từ của tôi",
+      "audioMode": "Chế độ nghe",
+      "discussWithAi": "Bàn với AI",
+      "selfCheck": "Tự kiểm tra"
+    },
+    "wordCard": {
+      "freqHigh": "HAY GẶP",
+      "freqMid": "TRUNG BÌNH",
+      "example": "Ví dụ",
+      "otherTranslations": "Nghĩa khác",
+      "synonyms": "Từ đồng nghĩa",
+      "open": "Mở",
+      "group": "Nhóm:",
+      "groupDefault": "Chung",
+      "page": "tr."
+    },
+    "readerSettings": {
+      "sectionText": "CHỮ",
+      "sectionAudio": "ÂM THANH",
+      "highlightMyWords": "Tô sáng từ của tôi",
+      "highlightMyWordsHint": "Đánh dấu những từ bạn đã lưu",
+      "theme": "Giao diện",
+      "themeLight": "Sáng",
+      "fontSize": "Cỡ chữ",
+      "font": "Phông chữ",
+      "speakOnTap": "Chạm là đọc từ lên",
+      "speakOnTapHint": "Đọc to từ bạn vừa chạm",
+      "speechRate": "Tốc độ đọc",
+      "pronunciationTest": "Kiểm tra phát âm",
+      "playSample": "Nghe thử một câu",
+      "reset": "Đặt lại cài đặt",
+      "done": "Xong",
+      "on": "Bật",
+      "off": "Tắt",
+      "accent": "Giọng",
+      "translationAlways": "Luôn luôn"
+    },
+    "vocab": {
+      "pickRightPicture": "Chọn đúng hình",
+      "correct": "Chuẩn luôn",
+      "rightAnswer": "Đáp án đúng:",
+      "next": "Tiếp",
+      "done": "Xong",
+      "skip": "Bỏ qua",
+      "exercise": "Bài tập",
+      "exerciseMeta": "/11 · 10 từ"
+    },
+    "chat": {
+      "title": "Luyện tập",
+      "discussing": "Đang bàn về “{book}”",
+      "finish": "Kết thúc",
+      "playing": "Đang phát…",
+      "replyOptions": "Gợi ý trả lời",
+      "placeholder": "Nhập tin nhắn"
+    },
+    "bookDetail": {
+      "adapted": "Bản đơn giản",
+      "adaptedHint": "Viết lại bằng lời dễ hơn, nội dung giữ nguyên",
+      "original": "Nguyên bản",
+      "originalHint": "Toàn bộ nguyên tác, không sửa gì",
+      "open": "Mở",
+      "genre": "Thể loại",
+      "badgeSummary": "Tóm tắt"
+    },
+    "library": {
+      "profile": "Hồ sơ",
+      "search": "Tìm kiếm",
+      "upload": "Tải sách lên",
+      "tabCatalog": "Danh mục",
+      "tabAll": "Tất cả sách",
+      "tabFavorites": "Yêu thích",
+      "shelfBestsellers": "Sách bán chạy thế giới",
+      "shelfBestsellersSub": "bản tóm tắt ngắn, có audio",
+      "shelfStories": "Truyện ngắn",
+      "shelfStoriesSub": "Chuyện nhỏ mà ý lớn",
+      "bandTitle": "5 phút mỗi ngày",
+      "bandText": "Mỗi ngày biết thêm một điều thú vị – còn ngôn ngữ thì tự khắc theo sau!",
+      "shelfAmazing": "Chuyện lạ có thật",
+      "shelfNature": "Bí ẩn thiên nhiên",
+      "shelfHealth": "Sức khỏe và khoa học",
+      "moreTopics": "Thêm chủ đề",
+      "shelfGolden": "Tinh hoa kinh điển",
+      "shelfGoldenSub": "200 cuốn sách đã thay đổi nhân loại",
+      "goldenBadge": "TOP-200"
+    },
+    "nav": {
+      "library": "Thư viện",
+      "practice": "Luyện tập",
+      "read": "Đọc",
+      "myWords": "Từ của tôi",
+      "collections": "Bộ sưu tập"
+    }
+  },
+  "_note": "Полная локаль vi (вьетнамский). Написана с эталона i18n/en.json 2026-08-30, тон сверен с русским оригиналом ru.json и с ловушками из en.gloss.json. Обращение — «bạn» (нейтрально-дружеское «ты», норма для потребительских приложений во Вьетнаме; «quý khách» звучало бы как банк или авиакомпания, «anh/chị» навязывает возраст и пол). Регистр — общевьетнамский, без севернo-/южновьетнамских маркеров; орфография с новым размещением тонового знака (hoà → hòa не встречается, но принцип выдержан). Кавычки — “ ” (современная вьетнамская норма, совпадает с английской по начертанию); тире — en-dash с пробелами, как в эталоне. Диакритика проставлена полностью, «đ» — не «d». Названия языков во вьетнамском строятся как «tiếng + топоним» (tiếng Anh, tiếng Tây Ban Nha), и слово «tiếng» здесь не костыль от склонения, а часть самого имени: без него «Tây Ban Nha» — это страна Испания, а не испанский язык. Поэтому «tiếng» входит В слот целиком (прямо оговорённое брифом исключение), а не стоит рядом с ним. Термины: «bản dịch đối chiếu» (параллельный перевод), «lặp lại ngắt quãng» (интервальные повторения), «sách nói» (аудиокнига), «shadowing» оставлен латиницей — так его и называет вьетнамское сообщество изучающих языки. Контракт слота и бюджет выдачи — в _contract. Файл прошёл отдельный проход по i18n/en.gloss.json на снятие калек: все 30 строк-ловушек перечитаны, образные обороты эталона (сложность как вес, соседство как поза, подкрепление как тяга, «repeat after» как позиция в пространстве, «rewrite» как «списать») переданы вьетнамскими средствами, а не скопированы.",
+  "_contract": {
+    "government": "Голая именная группа (danh ngữ) с вершиной-классификатором «tiếng», без предлога, артикля, связки и счётного слова. Объявлена ОДНА позиция: беспредложное прямое дополнение при глаголе «học» — «Học {target} qua sách song ngữ…», «Bắt đầu học {target} ngay hôm nay…». Вьетнамский изолирующий: у существительного нет ни падежа, ни числа, ни рода, поэтому ровно те же байты стоят и в постпозитивном определении к существительному — «Đọc sách {target}…», «Sách {target} có bản dịch…» (во вьетнамском между определяемым и определением нет связки, в отличие от тагальского «na/-ng», так что второго токена не появляется). Это не вторая форма и не второй падеж — это то же самое слово в другой линейной позиции. Проверено на всех 49 названиях: học tiếng Anh / sách tiếng Anh, học tiếng Zulu / sách tiếng Zulu, học tiếng Afrikaans / sách tiếng Afrikaans. «tiếng» обязано лежать ВНУТРИ слота: «Tây Ban Nha», «Nga», «Hà Lan», «Ba Lan», «Đan Mạch» сами по себе — названия СТРАН, и «học Tây Ban Nha» читается как «изучать Испанию». Согласуемых соседей у слота нет ни в одной из девяти строк: предлоги «bằng», «qua», «với» неизменяемы, классификатор перед слотом не ставится нигде (иначе вышло бы «tiếng tiếng Anh»), артиклей во вьетнамском нет.",
+    "slotExample": "tiếng Tây Ban Nha",
+    "slotExampleEnglish": "tiếng Anh",
+    "longestSlot": "tiếng Tây Ban Nha",
+    "longestSlotLang": "испанский — 17 знаков; ровно столько же у филиппинского «tiếng Philippines» (если бренд выберет вариант «tiếng Filipino», останется 14). Следом по 16: «tiếng Bồ Đào Nha» (португальский), «tiếng Thổ Nhĩ Kỳ» (турецкий), «tiếng Azerbaijan», «tiếng Kazakhstan», «tiếng Kyrgyzstan», «tiếng Uzbekistan». Затем по 15: «tiếng Thụy Điển», «tiếng Afrikaans», «tiếng Macedonia», «tiếng Indonesia», «tiếng Lithuania». Бюджет считан по 17 знакам, список сверен по 49 кодам из i18n/reader-sample.json.",
+    "titleRenderedLen": 52,
+    "descRenderedLen": 142,
+    "lead": "lower",
+    "librarySlot": true,
+    "risks": [
+      "Главная точка отказа — слово «tiếng». Оно ОБЯЗАНО храниться внутри атома слота и не должно дублироваться снаружи: если UI когда-нибудь допишет «tiếng» перед слотом, выйдет «học tiếng tiếng Anh»; если, наоборот, «tiếng» вырежут из таблицы атомов, «Học Tây Ban Nha qua sách song ngữ» превратится в «изучай Испанию» и пройдёт все автопроверки. Это вьетнамский аналог финской ловушки espanja/Espanja, только не в регистре, а в вершине именной группы.",
+      "Автокапитализация слота недопустима. Слот начинается со строчного «tiếng», и он нигде не стоит первым словом: meta.title/ogTitle/twitterTitle начинаются с «Học», library.title — с «Sách», meta.description — с «Đọc». Если UI капитализирует первое слово строки, «Tiếng Tây Ban Nha» ещё выглядит терпимо, но это уже не вьетнамская орфография.",
+      "Таблица из 49 атомов должна хранить именно форму «tiếng + имя» и быть согласована с колонкой display. У шести языков во вьетнамском ходят по два имени: tiếng Philippines / tiếng Filipino, tiếng Litva / tiếng Lithuania, tiếng Gruzia / tiếng Georgia, tiếng Iceland / tiếng Ai-xơ-len, tiếng Kazakhstan / tiếng Kazakh, tiếng Mã Lai / tiếng Malaysia. Выбрать по одному и держать одинаково во всех 49 локалях.",
+      "hero.title «chứ không phải cày bài tập»: «cày» — это разговорное «пахать, задрачивать», ровно то, что значит английское «grinding through drills», но регистр у него молодёжный. Носителю подтвердить, что для аудитории 25+ это читается бодро, а не развязно; запасной вариант — «chứ không phải luyện bài tập cho xong».",
+      "«shadowing» оставлено латиницей (hero.pills, method.skills[5], faq.items[5].a, audience.items[1], customBook.text). Во вьетнамских сообществах изучающих языки термин ходит именно так, устоявшегося перевода нет; в pains.answers[0] и steps.items[3] он раскрыт описательно — «nói to theo giọng đọc». Если редакция решит переводить термин, менять надо во всём файле разом. Важно: «nói to theo» = говорить СЛЕДОМ ВО ВРЕМЕНИ, вслед за услышанным; глагол «nhại» (передразнивать) снят по замечанию носителя — в словаре он значит «подражать, чтобы поддразнить», для учебного приёма это не тот регистр; пространственного «позади диктора» («đứng sau người đọc») в файле нет нигде — это ловушка из en.gloss.json.",
+      "faq.items[1].a «có thể viết lại đơn giản hơn» и customBook.adapt держат модальность возможности, а не обещания; faq.items[5].a «nói chuyện trực tiếp với người thật thì hiện chưa có – cái đó đang trong kế hoạch» и method.conductor.badge «Sắp có» сохраняют ограничение. При вычитке не усиливать. Глагол выбран «viết lại» (в library.panels[1] остаётся «kể lại» — там речь о пересказе-саммари), а НЕ «chép lại»: «chép lại» во вьетнамском — это «списать чужой текст», ровно та ошибка, на которой погорели bs и mk.",
+      "«bản dịch đối chiếu» выбрано единым термином для parallel translation (альтернативы — «dịch song song», «song ngữ đối chiếu»). «sách song ngữ» оставлено только там, где речь о формате книги. Если редакция предпочтёт «dịch song song», менять надо во всём файле разом, включая meta и appUi.",
+      "meta.description и og-описание говорят «kèm bản dịch tiếng Việt» — носителю проверить, что вьетнамскому читателю однозначно ясно: перевод именно на вьетнамский, а не «двуязычная книга вообще». В twitterDescription по бюджету оставлено короткое «với tiếng Việt ngay bên cạnh».",
+      "Названия книг стоят в изданных вьетнамских переводах: «Hoàng tử bé», «Xứ Cát», «Trò chơi vương quyền», «Nghĩ giàu làm giàu», «Nguyên lý 80/20», «7 thói quen để thành đạt», «Sức mạnh của hiện tại». «Harry Potter» и фамилия «Hawking» — латиница, вьетнамская письменность латинская, транслитерация не нужна. Носителю сверить «7 thói quen để thành đạt»: у Кови во Вьетнаме ходит и вариант «7 thói quen hiệu quả» — число 7 обязано остаться в любом.",
+      "reviews.items[*].text: отзывы говорят от лица людей, учивших английский / португальский / немецкий / сербский. Для пар-страниц их придётся курировать под тему пары — отмечено в i18n/README.md. Имена авторов скопированы из эталона побайтово, включая кириллические.",
+      "appUi.readerSettings.on/off = «Bật» / «Tắt» (норма вьетнамского Android и iOS). appUi.bookDetail.adapted = «Bản đơn giản» — если дизайн потребует более короткого токена, менять вместе с подсказкой adaptedHint, иначе разъедется обещание «сокращено» vs «упрощено»: текст НЕ сокращается, он пересказывается проще."
+    ]
+  }
+}
