@@ -1,0 +1,3365 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* ===== i18n text-length utilities =====
+   Контент переводится на 49 языков (нем./фин. в ~1.7× длиннее англ.).
+   Корень переполнений — min-width:auto у flex/grid-детей. Эти классы стандартизируют устойчивость. */
+.u-wrap-safe {            /* текстовый flex/grid-child, который должен сжиматься уже своего слова */
+  min-width: 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+.u-ellipsis {             /* одна строка + ellipsis — только где полное слово не критично */
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.u-clamp-2 {              /* 2 строки без клипа — тосты, значения, чипы-подсказки */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.u-cluster-wrap   { display: flex; flex-wrap: wrap; }            /* ряд pill/perk/футер — перенос */
+.u-cluster-scroll { display: flex; overflow-x: auto; scrollbar-width: none; }  /* ряд табов/навигации — скролл */
+.u-cluster-scroll::-webkit-scrollbar { display: none; }
+.u-cluster-scroll > * { flex-shrink: 0; }
+.u-hug-btn {              /* кнопка/плитка обнимает подпись и растёт вниз, не клипает */
+  height: auto;
+  min-height: var(--btn-h, 46px);
+  padding: 0 12px;
+  line-height: 1.15;
+  white-space: normal;
+}
+.u-hug-btn > * { min-width: 0; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1a1a2e;
+  background: #fff;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { text-decoration: none; color: inherit; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  /* Отступы ТОЛЬКО по горизонтали, и записаны длинно намеренно.
+     Сокращённое «padding: 0 24px» задаёт заодно верх и низ нулями. Элемент
+     шапки несёт два класса сразу — class="container header__inner", — и вес у
+     правил одинаковый: при равном весе побеждает то, что ниже по файлу.
+     Медиазапрос с .container стоит ниже .header__inner, поэтому его нули
+     перебивали padding-top: 14px, и в диапазоне 769-1024 px логотип со
+     значками прилипал к верхнему краю. На ≤768 следом шло своё правило
+     .header__inner и всё чинило, на ≥1025 медиазапрос не действовал — оттого
+     поломка сидела ровно в одной полосе шириной 255 px. */
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* ===== Shared ===== */
+.section__title {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.section__subtitle {
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  max-width: 560px;
+  margin: 0 auto 56px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn--primary {
+  padding: 18px 40px;
+  background: #34D399;
+  color: #fff;
+  font-size: 17px;
+  box-shadow: 0 4px 24px rgba(52, 211, 153, 0.3);
+}
+
+.btn--primary:hover {
+  background: #2bc48a;
+  transform: translateY(-1px);
+}
+
+.btn--full { width: 100%; }
+
+.pill {
+  display: inline-block;
+  padding: 7px 16px;
+  background: rgba(52, 211, 153, 0.1);
+  color: #1a1a2e;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+/* i18n: помещается ли шапка — решается ЗАМЕРОМ, а не числом в медиазапросе.
+   Длина подписей меняется от языка к языку в разы: казахское «Қалай жұмыс
+   істейді» ломало ряд даже на широком экране, где брейкпоинт 1024px не
+   срабатывает.
+
+   Ужимается СТУПЕНЧАТО, и порядок здесь содержательный. Первыми уходят бейджи
+   сторов: их дублирует кнопка в первом экране, потеря невелика. Меню уходит
+   только если и без бейджей не влезло — на широком экране прятать навигацию в
+   бургер незачем, места там достаточно. */
+.nav__link { white-space: nowrap; }
+
+/* Наборов кнопок сторов ДВА, и это принципиально: было три, и оба бага в
+   шапке пришли ровно оттуда. Большие бейджи (--desktop) и квадратные значки
+   (--compact). Третий набор, --mobile, дублировал значки своими картинками и
+   существовал только ради телефона; из-за него в коридоре 769-1024 px не
+   показывался НИ ОДИН набор: бейджи там уже спрятаны медиазапросом, значки
+   включались только ступенью ужимания, а она на 804 px не срабатывала,
+   потому что ряд помещался. На 749 px кнопки были, на 804 их не было.
+
+   Порядок правил ниже значим: вес у них 0,2,0 и 0,3,0, при равном побеждает
+   стоящее ниже. Специфичность выше, чем у общего .header__right, - то
+   правило объявлено ниже по файлу и при равном весе перебивало скрытие. */
+.header .header__right--compact { display: none; gap: 8px; }
+
+/* Всё, что уже не широкий экран: бейджей нет, значит стоят значки. */
+@media (max-width: 1024px) {
+  .header .header__right--compact { display: flex; }
+}
+
+.header.is-tight .header__right--desktop { display: none; }
+.header.is-tight .header__right--compact { display: flex; }
+
+/* Квадратная кнопка со значком: ширина задаётся значком, а не текстом, поэтому
+   от языка не зависит вовсе. */
+.store-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #1a1a2e;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.store-icon:hover { border-color: rgba(0, 0, 0, 0.28); background: rgba(0, 0, 0, 0.03); }
+
+.header.is-tighter .nav { display: none; }
+.header.is-tighter .burger { display: flex; }
+
+/* Вторая ступень на узком экране: у переключателя языка остаётся только значок.
+   Подпись — это название языка НА НЁМ САМОМ, и «беларуская мова» вдвое длиннее
+   «Deutsch»; ширину под неё не задать, любое число обрежет часть языков.
+   Список при этом остаётся полным: <select> лежит прозрачным поверх значка, и
+   нажатие открывает системный выбор с целыми названиями. */
+.header.is-tighter .langswitch {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  justify-content: center;
+  margin-left: auto;
+}
+.header.is-tighter .langswitch__globe { width: 21px; height: 21px; color: #1a1a2e; }
+.header.is-tighter .langswitch__select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  background: none;
+  /* Размер шрифта у <select> один на подпись И на раскрытый список — развести
+     их нельзя. На узком экране подпись ужата до 13px ради ширины, и вместе с
+     ней мельчал список из 49 языков. Здесь подписи не видно вовсе, поэтому
+     ужимать нечего. 16px — не вкус, а порог: ниже него iOS приближает страницу
+     при фокусе на поле. 20px — верх осмысленного: дальше нативный список
+     упирается в системные метрики и крупнее не становится. */
+  font-size: 20px;
+}
+
+/* Третья ступень: значки сторов уходят совсем. Это последнее, чем можно
+   пожертвовать, и жертва невелика — кнопка загрузки стоит в первом же экране.
+   Правило обязано идти ПОСЛЕ «is-tight», а не до: вес у них одинаковый (три
+   класса), и при равном весе побеждает то, что ниже по файлу. Ровно на этом
+   один раз уже попались — два комплекта значков висели рядом. */
+.header.is-tightest .header__right--compact { display: none; }
+
+/* ===== Переключатель языка интерфейса ===== */
+.langswitch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* Всё свободное место уходит СЮДА, одним промежутком. При space-between оно
+     делилось поровну между логотипом, языком, бургером и значками: на 900 px
+     это три пустоты по 140-154 px, и ряд читался как четыре случайных
+     предмета. Теперь слева бренд, справа — собранная группа управления. */
+  margin-left: auto;
+}
+
+.langswitch__globe {
+  width: 17px;
+  height: 17px;
+  flex: none;
+  color: #7b8794;
+}
+
+/* Ширину НЕ задаём: названия языков на них самих различаются в разы —
+   от «Ελληνικά» до «Bahasa Indonesia», — и любое число здесь обрежет часть. */
+.langswitch__select {
+  appearance: none;
+  -webkit-appearance: none;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  background: transparent;
+  padding: 5px 26px 5px 10px;
+  font: inherit;
+  font-size: 14px;
+  color: inherit;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23555' stroke-width='1.6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 9px center;
+}
+
+.langswitch__select:hover { border-color: rgba(0, 0, 0, 0.24); }
+
+@media (max-width: 720px) {
+  .langswitch { margin-left: auto; }
+  /* 13px тут стояли ради ширины ряда — и вместе с подписью мельчал список из
+     49 языков, потому что у <select> размер один на то и на другое. Ужимать
+     подпись ради ряда больше не нужно: если с 16px ряд не помещается, замер в
+     langswitch.js сам уведёт шапку на следующую ступень, где подписи не будет
+     вовсе. Пусть решает измерение, а не заниженный шрифт. */
+  .langswitch__select { padding: 4px 22px 4px 8px; font-size: 16px; }
+}
+
+/* ===== Header ===== */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* Зазор обязателен: при полном ряде логотип упирался в первый пункт меню,
+     и на длинных локалях они читались одним словом — «Lingo7Как это работает». */
+  gap: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+/* Ничто в шапке не сжимается. Пока сжималось, ломались сразу две вещи.
+   Видимая: бургер, заданный как 36x36, на тесном ряду становился 12 px в
+   ширину — по нему уже не попасть пальцем. Невидимая и худшая: пока флекс-
+   элементы уступают место, scrollWidth НЕ превышает clientWidth, а именно
+   на этом сравнении держится fitHeader(). Ряд не помещался, но переполнения
+   не было, и ни одна ступень ужимания не включалась. Запрет сжатия делает
+   замер честным: не влезло — значит видно. */
+.header__inner > * { flex-shrink: 0; }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo__img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.logo__text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: -0.01em;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+}
+
+.nav__link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #3a3a4a;
+  transition: color 0.2s;
+}
+
+.nav__link:hover { color: #34D399; }
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.store-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  border: none;
+  background: none;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.store-btn:hover { opacity: 0.7; }
+.store-btn img { height: 100%; width: auto; }
+
+.store-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 1.5px solid #e0e0e4;
+  transition: border-color 0.2s;
+  overflow: hidden;
+}
+
+.store-link:hover { border-color: #34D399; }
+.store-link__img { height: 100%; width: auto; }
+
+/* ===== 1. Hero ===== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+  overflow: hidden;
+  background: #f9fafb;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero__wave {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+
+.hero__wave--1 {
+  width: 140%;
+  height: 600px;
+  top: 8%;
+  left: -20%;
+  background: linear-gradient(180deg, rgba(52,211,153,0.08) 0%, transparent 100%);
+  transform: rotate(-3deg);
+}
+
+.hero__wave--2 {
+  width: 120%;
+  height: 500px;
+  top: 40%;
+  left: -10%;
+  background: linear-gradient(180deg, rgba(52,211,153,0.05) 0%, transparent 100%);
+  transform: rotate(2deg);
+}
+
+.hero__inner {
+  position: relative;
+  z-index: 1;
+  /* Флекс-элемент по умолчанию не сжимается ниже своего содержимого
+     (min-width: auto) — тот самый корень переполнений, о котором сказано в
+     шапке файла. Внутри лежит бегущая лента шириной 100vw, и без этой строки
+     .hero__inner раздувался шире экрана, утаскивая за собой всю страницу. */
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.hero__content {
+  flex: 1;
+  max-width: 560px;
+}
+
+.hero__title {
+  font-size: 46px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.hero__cta {
+  margin-bottom: 12px;
+}
+
+.hero__trust {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 28px;
+}
+
+.hero__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero__pills--mobile,
+.hero__speech {
+  display: none;
+}
+
+/* Phone frame (shared) */
+.phone__frame {
+  background: #fff;
+  border-radius: 28px;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.04);
+  overflow: hidden;
+  border: 5px solid #f0f0f0;
+}
+
+.phone__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Hero showcase */
+.hero__showcase {
+  position: relative;
+  flex: 0 0 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.hero__phone-wrap {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.phone__frame--hero {
+  width: 264px;
+  height: 568px;         /* чуть больше выреза безеля, чтобы экран заходил под его кромку (без щели) */
+  border: none;
+  border-radius: 19px;   /* мягкое скругление корпуса (phone-frame-soft.svg) под скругление ридера — не режет контент */
+  outline: none;
+  box-shadow: 0 10px 44px rgba(0,0,0,0.14), 0 2px 10px rgba(0,0,0,0.05);
+  background: #fff;
+  overflow: hidden;
+  position: relative;   /* контекст для .hero__screen (стек экранов hero) */
+}
+
+/* our reader.html mock, embedded & scaled to the phone frame (390×844 → 260×563) */
+.hero__reader-frame {
+  width: 390px;
+  height: 844px;
+  border: 0;
+  display: block;
+  transform: scale(0.6769);
+  transform-origin: top left;
+}
+
+/* экраны hero-анимации (библиотека + ридер) — стек, переключаемые прозрачностью */
+.hero__screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;   /* чистая анимация — пользователь не кликает по экрану (демо само тапает синтетически) */
+}
+#heroLibrary { z-index: 2; }   /* библиотека — первый экран, сверху */
+#heroReader  { z-index: 1; }
+
+/* живые экраны блока «цикл»: мок 390×844, масштабированный в рамку карточки (тот же приём, что hero) */
+.phone__frame--cycle {
+  width: 270px;          /* как .phone__frame--sm; border-box: контент 260 (−5px рамки с каждой стороны) */
+  height: 572px;         /* 260×(844/390)=562.7 контента + 10 рамки; низ чуть уходит под overflow:hidden */
+  margin: 0 auto;
+  border-radius: 32px;
+  border-width: 5px;
+  position: relative;
+}
+.cycle__screen {
+  width: 390px;
+  height: 844px;
+  border: 0;
+  display: block;
+  transform: scale(0.6667);   /* 260/390 */
+  transform-origin: top left;
+  pointer-events: none;       /* чистая анимация — демо тапает синтетически, пользователь не вмешивается */
+}
+
+
+
+/* Маскот лежит в <picture> ради WebP: 1629 КБ PNG на первом экране почти
+   наверняка были LCP. После уменьшения до 600 px (показывается 299) и WebP —
+   63 КБ, в двадцать шесть раз меньше. Обёртке нужен display: contents, иначе
+   она встанет между позиционированием и картинкой. */
+.hero__mascot, .hero__speech-mascot, .goal-quote__mascot {
+  display: block;
+  /* width: auto обязателен. Атрибуты width/height у <img> нужны, чтобы браузер
+     занял место до загрузки, но width при этом становится подсказкой вёрстки и
+     перебивает автоширину: маскот при height: 299px растягивался в 600×299
+     вместо квадрата. Явное auto возвращает пропорции, а высота из атрибутов
+     остаётся работать на резервирование места. */
+  width: auto;
+}
+
+picture:has(> .hero__mascot),
+picture:has(> .hero__speech-mascot),
+picture:has(> .goal-quote__mascot) { display: contents; }
+
+.hero__mascot {
+  position: absolute;
+  height: 299px;
+  left: -210px;
+  bottom: -24px;
+  z-index: -1;
+}
+
+.phone__shell {
+  position: absolute;
+  width: 272px;
+  height: 575px;
+  top: 0;
+  left: -4px;
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* Vocabulary deck — overlapping cards */
+.vocab-deck {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;   /* при нехватке места старые (левые) плашки уходят под обрез, новейшая — видна */
+  max-width: 264px;            /* i18n: не шире экрана телефона — колода не разъедется ни на каком языке */
+  overflow: clip;
+  overflow-clip-margin: 10px;  /* клипуем лишние плашки, но с запасом под тени */
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 25;
+}
+
+.vocab-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1.5px solid #e5e7eb;
+  gap: 3px;
+  position: relative;
+  margin-left: -12px;
+}
+
+.vocab-card:first-child {
+  margin-left: 0;
+}
+
+.vocab-card:nth-child(1) { z-index: 1; }
+.vocab-card:nth-child(2) { z-index: 2; }
+.vocab-card:nth-child(3) { z-index: 3; }
+.vocab-card:nth-child(4) { z-index: 4; }
+.vocab-card:nth-child(5) { z-index: 5; }
+
+
+.vocab-card__en {
+  font-size: 11px;
+  font-weight: 700;
+  color: #1a1a2e;
+  white-space: nowrap;
+}
+
+.vocab-card__divider {
+  width: 20px;
+  height: 1px;
+  background: #e5e7eb;
+}
+
+.vocab-card__ru {
+  font-size: 8px;
+  color: #999;
+  white-space: nowrap;
+}
+
+.vocab-card--new {
+  background: rgba(52, 211, 153, 0.08);
+  border-color: #34D399;
+}
+
+.vocab-card--new .vocab-card__en {
+  color: #059669;
+}
+
+.vocab-card--new:not(.is-visible) {
+  width: 0;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.vocab-card--new.is-visible {
+  animation: vocab-pop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes vocab-pop {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+/* Tap finger */
+.reader__finger {
+  position: absolute;
+  z-index: 30;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, top 0.4s ease, left 0.4s ease;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.reader__finger.is-visible {
+  opacity: 1;
+}
+
+.reader__finger.is-tapping {
+  animation: finger-tap 0.3s ease;
+}
+
+@keyframes finger-tap {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(0.85); }
+}
+
+/* Catalog overlay */
+.reader__catalog {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  right: 3px;
+  bottom: 0;
+  z-index: 30;
+  background: #fff;
+  border-radius: 33px;
+  overflow: hidden;
+  transition: opacity 0.6s ease;
+}
+
+.reader__catalog.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.reader__catalog-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+/* Reader mock */
+.reader {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.reader__header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.reader__back {
+  font-size: 20px;
+  color: #f97316;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.reader__title {
+  font-size: 9px;
+  color: #333;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader__page {
+  font-size: 9px;
+  color: #999;
+}
+
+.reader__footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 0;
+  border-top: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.reader__listen {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #e5e7eb;
+  color: #666;
+  transition: all 0.3s;
+}
+
+.reader__listen.is-active {
+  background: #f97316;
+  color: #fff;
+}
+
+.reader__eq {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5px;
+  height: 12px;
+}
+
+.reader__eq-bar {
+  width: 2px;
+  background: #fff;
+  border-radius: 1px;
+  animation: eq-bounce 1s ease-in-out infinite;
+}
+
+.reader__eq-bar:nth-child(1) { height: 4px; animation-delay: 0s; }
+.reader__eq-bar:nth-child(2) { height: 8px; animation-delay: 0.15s; }
+.reader__eq-bar:nth-child(3) { height: 5px; animation-delay: 0.3s; }
+.reader__eq-bar:nth-child(4) { height: 10px; animation-delay: 0.45s; }
+
+@keyframes eq-bounce {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+.reader__content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 14px 14px 20px;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  pointer-events: none;
+}
+
+.reader__content::-webkit-scrollbar {
+  display: none;
+}
+
+.reader__chapter {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.reader__chapter-ru {
+  font-size: 9px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.reader__subchapter {
+  font-size: 10px;
+  font-weight: 700;
+  color: #1a1a2e;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.reader__subchapter-ru {
+  font-size: 8px;
+  color: #999;
+  text-align: center;
+  margin-bottom: 14px;
+  font-style: italic;
+}
+
+.reader__pair {
+  margin-bottom: 10px;
+}
+
+.reader__en {
+  font-size: 10px;
+  line-height: 1.5;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+  transition: background 0.3s, color 0.3s;
+  padding: 2px 4px;
+  margin: 0 -4px 2px;
+  border-radius: 4px;
+}
+
+.reader__en.is-reading {
+  background: rgba(249, 115, 22, 0.06);
+  border-radius: 4px;
+}
+
+.reader__word.is-spoken {
+  background: rgba(249, 115, 22, 0.25);
+  color: #c2410c;
+  border-radius: 3px;
+  padding: 1px 2px;
+  margin: -1px -2px;
+}
+
+.reader__ru {
+  font-size: 9px;
+  line-height: 1.4;
+  color: #aaa;
+  padding: 0 4px;
+}
+
+/* Highlighted translation word */
+.reader__ru-hl {
+  background: rgba(249, 115, 22, 0.18);
+  color: #c2410c;
+  border-radius: 3px;
+  padding: 1px 3px;
+  margin: -1px -3px;
+  transition: background 0.3s;
+}
+
+/* Tapped word */
+.reader__word.is-tapped {
+  background: #f97316;
+  color: #fff;
+  border-radius: 3px;
+  padding: 1px 3px;
+  margin: -1px -3px;
+}
+
+/* Word popup bar */
+.reader__popup {
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  display: none;
+  justify-content: center;
+  gap: 4px;
+  padding: 8px 10px 10px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  box-shadow: 0 -4px 16px rgba(0,0,0,0.06);
+  z-index: 10;
+  border-radius: 0 0 32px 32px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.reader__popup.is-visible {
+  display: flex;
+}
+
+.reader__popup-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+}
+
+.reader__popup-btn svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.reader__popup-btn[data-action="add"] {
+  background: #f97316;
+  color: #fff;
+  border-color: #f97316;
+}
+
+.reader__popup-btn[data-action="add"] svg {
+  stroke: #fff;
+}
+
+/* Word card overlay */
+.reader__card {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  z-index: 20;
+  display: none;
+  flex-direction: column;
+  padding: 16px;
+  overflow-y: auto;
+}
+
+.reader__card.is-visible {
+  display: flex;
+}
+
+.reader__card-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.reader__card-close {
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: #f3f4f6;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 1;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reader__card-word {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+
+.reader__card-transcription {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.reader__card-translation {
+  font-size: 16px;
+  color: #1a1a2e;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.reader__card-divider {
+  height: 1px;
+  background: #eee;
+  margin-bottom: 12px;
+}
+
+.reader__card-all {
+  font-size: 10px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.reader__card-alt {
+  font-size: 11px;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+.reader__card-example {
+  margin-top: 12px;
+  font-size: 11px;
+  color: #1a1a2e;
+  line-height: 1.5;
+}
+
+.reader__card-example em {
+  color: #f97316;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.reader__card-example-ru {
+  font-size: 10px;
+  color: #999;
+  line-height: 1.4;
+}
+
+/* Toast notification */
+.reader__toast {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: #1a1a2e;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  border-radius: 20px;
+  white-space: nowrap;
+  z-index: 15;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  pointer-events: none;
+}
+
+.reader__toast.is-visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+
+/* ===== 2. Trust-strip ===== */
+.trust {
+  padding: 48px 0;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.trust__inner {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.trust__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+  padding: 20px 16px;
+  flex: 0 1 200px;
+}
+
+.trust__icon {
+  margin-bottom: 4px;
+}
+
+.trust__card strong {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+.trust__card span {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.3;
+}
+
+/* ===== 3. Compare-block ===== */
+.compare {
+  padding: 100px 0;
+  background: #f9fafb;
+}
+
+.compare__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.compare__row {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  border: 1px solid #eee;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.compare__row.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.compare__old,
+.compare__new {
+  flex: 1;
+  padding: 24px 28px;
+}
+
+.compare__old {
+  background: #f7f5f5;
+}
+
+.compare__new {
+  background: rgba(52, 211, 153, 0.10);
+  box-shadow: inset 4px 0 0 #34D399;
+}
+
+.compare__arrow {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #34D399;
+  font-weight: 700;
+  padding: 0 6px;
+  background: transparent;
+}
+
+.compare__label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.compare__label--old {
+  background: #e8e8e8;
+  color: #666;
+}
+
+.compare__label--new {
+  background: rgba(52, 211, 153, 0.15);
+  color: #0d9668;
+}
+
+.compare__old strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.compare__old p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.compare__new strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.compare__new p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+/* ===== 4. Method (7 skills grid) ===== */
+.method {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.method__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1120px;
+  margin: 48px auto 0;
+}
+
+.skill-card {
+  flex: 0 1 250px;
+  background: #f9fafb;
+  border: 1px solid #eef1f3;
+  border-radius: 18px;
+  padding: 28px 24px;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(52, 211, 153, 0.4);
+  box-shadow: 0 12px 28px rgba(5, 150, 105, 0.10);
+}
+
+.skill-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(52, 211, 153, 0.12);
+  margin-bottom: 16px;
+}
+
+.skill-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.skill-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Conductor — smart-algorithm band (coming soon) */
+.conductor {
+  margin-top: 56px;
+  background: linear-gradient(135deg, #0e2a22 0%, #0c1a26 100%);
+  border-radius: 24px;
+  padding: 44px 40px;
+  color: #fff;
+}
+
+.conductor__head {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 44px;
+}
+
+.conductor__badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #34D399;
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.conductor__title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.25;
+  margin: 0 0 14px;
+}
+
+.conductor__text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.conductor__route {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.conductor__route::before {
+  content: '';
+  position: absolute;
+  top: 27px;
+  left: 9%;
+  right: 9%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.12);
+  z-index: 0;
+}
+
+.conductor__step {
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+}
+
+.conductor__dot {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: #123026;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #9fb3ad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.conductor__dot svg { width: 24px; height: 24px; }
+
+.conductor__step-body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.conductor__step-label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.conductor__step-meta {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.conductor__step.is-now .conductor__dot {
+  background: #34D399;
+  border-color: #34D399;
+  color: #0c1a26;
+  box-shadow: 0 0 0 6px rgba(52, 211, 153, 0.18);
+}
+
+.conductor__step.is-now .conductor__step-meta {
+  color: #34D399;
+  font-weight: 700;
+}
+
+.conductor__caption {
+  text-align: center;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 40px 0 0;
+}
+
+@media (max-width: 768px) {
+  .conductor { padding: 32px 22px; }
+  .conductor__head { margin-bottom: 32px; }
+  .conductor__title { font-size: 22px; }
+  .conductor__text { font-size: 15px; }
+  .conductor__route {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    width: fit-content;
+  }
+  .conductor__route::before {
+    top: 35px;
+    bottom: 35px;
+    left: 26px;
+    right: auto;
+    width: 2px;
+    height: auto;
+  }
+  .conductor__step {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 16px;
+    padding: 8px 0;
+  }
+  .conductor__step-body { gap: 2px; }
+  .conductor__caption { margin-top: 28px; }
+}
+
+/* ===== 5. Steps ===== */
+.steps {
+  padding: 100px 0;
+  background: #f9fafb;
+}
+
+.steps__grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.steps__card {
+  flex: 0 0 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.steps__num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #34D399;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.steps__phone {
+  margin-bottom: 20px;
+}
+
+.phone__frame--sm {
+  width: 270px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 32px;
+  border-width: 5px;
+}
+
+.steps__card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1.3;
+  background: rgba(52, 211, 153, 0.12);
+  border-radius: 12px;
+  padding: 10px 12px;
+  min-height: 2.6em;
+  margin-bottom: 14px;
+}
+
+.steps__card-text {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.steps__connector {
+  display: none;
+}
+
+.steps__summary {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  color: #888;
+  margin-top: 48px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== 6. Library ===== */
+.library {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.library__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 48px;
+}
+
+.library__tab {
+  padding: 10px 24px;
+  border-radius: 24px;
+  border: 1.5px solid #e0e0e4;
+  background: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: #3a3a4a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.library__tab:hover {
+  border-color: #34D399;
+  color: #34D399;
+}
+
+.library__tab.is-active {
+  background: #34D399;
+  border-color: #34D399;
+  color: #fff;
+}
+
+.library__panel {
+  display: none;
+}
+
+.library__panel.is-active {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  animation: fade-up 0.3s ease;
+}
+
+.library__panel-content {
+  flex: 1;
+}
+
+.library__panel-content h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.library__panel-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.library__examples {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.library__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.library__badge {
+  display: inline-block;
+  padding: 5px 12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+}
+
+.library__phone {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.library__arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
+  z-index: 2;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.library__arrow:hover {
+  border-color: #34D399;
+  color: #34D399;
+  box-shadow: 0 2px 12px rgba(52,211,153,0.15);
+}
+
+.library__arrow--prev { left: -52px; }
+.library__arrow--next { right: -52px; }
+
+.library__dots {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.library__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #d1d5db;
+  transition: background 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+
+.library__dot:hover {
+  background: #a0d8c0;
+}
+
+.library__dot.is-active {
+  background: #34D399;
+  transform: scale(1.25);
+}
+
+.library__screen {
+  width: 390px;
+  height: 844px;
+  border: 0;
+  display: block;
+  transform: scale(0.641);       /* 250/390 — мок 390×844 в рамку карточки */
+  transform-origin: top left;
+  pointer-events: none;          /* тач по рамке = свайп карусели; iframe не перехватывает */
+  transition: opacity 0.15s ease;
+}
+
+.phone__frame--md {
+  width: 260px;
+  height: 551px;                 /* 250×844/390=541 контента + 10 рамки */
+  border-radius: 32px;
+  border-width: 5px;
+}
+
+/* ===== 7. Demo ===== */
+.demo {
+  padding: 100px 0;
+  background: #f9fafb;
+}
+
+.demo__slider {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  /* Отрицательное поле обязано совпадать с отступом .container: приём «во всю
+     ширину» вытягивает полосу ровно на padding контейнера в каждую сторону.
+     Отступ меняется по ширине экрана (40 → 24 → 16), значит и поле обязано —
+     иначе полоса вылезает за экран и появляется горизонтальная прокрутка.
+     Переопределение под 768 px было, под 1024 — нет, и в полосе 769-1024
+     страница была шире экрана на 32 px. Ни одна проверка этого не видела. */
+  padding: 0 40px 20px;
+  margin: 0 -40px;
+  scrollbar-width: none;
+}
+
+.demo__slider::-webkit-scrollbar {
+  display: none;
+}
+
+.demo__slide {
+  flex: 0 0 auto;
+  scroll-snap-align: center;
+  text-align: center;
+}
+
+.phone__frame--demo {
+  width: 200px;
+  height: 400px;
+  border-radius: 26px;
+  border-width: 5px;
+  margin-bottom: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.demo__slide:hover .phone__frame--demo {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 48px rgba(0,0,0,0.12), 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.demo__caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* Pill NEW variant */
+.pill--new {
+  background: rgba(52, 211, 153, 0.15);
+  border-color: #34D399;
+  position: relative;
+}
+
+.pill--new::after {
+  content: 'NEW';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #34D399;
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  padding: 1px 4px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+/* ===== Wow-banner: Custom Book ===== */
+.custom-book {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 50%, #fff 100%);
+}
+
+.custom-book__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.custom-book__badge {
+  display: inline-block;
+  background: #34D399;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 8px;
+  letter-spacing: 0.05em;
+  margin-bottom: 16px;
+}
+
+.custom-book__title {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.custom-book__text {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.6;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+/* Two cards side by side */
+.custom-book__cards {
+  display: flex;
+  align-items: stretch;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.custom-book__card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 20px;
+  padding: 32px;
+  border: 1px solid #eee;
+}
+
+.custom-book__card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 12px;
+}
+
+.custom-book__card p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Book shelf inside card */
+.custom-book__shelf {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex: 1;
+  align-content: center;
+}
+
+.custom-book__shelf img {
+  width: 72px;
+  height: 108px;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.custom-book__shelf img:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* Use cases inside card */
+.custom-book__usecases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* 2 колонки; min-width:0 на плитке не даёт длинному слову распереть */
+  gap: 12px;
+}
+
+.custom-book__usecase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 16px;
+  background: #f0fdf4;
+  border-radius: 12px;
+  border: 1px solid rgba(52, 211, 153, 0.2);
+}
+
+.custom-book__usecase span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* Steps */
+.custom-book__steps {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.custom-book__step {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  flex: 1;
+  max-width: 360px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  border: 1px solid #eee;
+}
+
+.custom-book__step-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #34D399;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.custom-book__step strong {
+  display: block;
+  font-size: 16px;
+  color: #1a1a2e;
+  margin-bottom: 2px;
+}
+
+.custom-book__step p {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.custom-book__formats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.custom-book__formats span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #059669;
+  background: #f0fdf4;
+  border: 1px solid rgba(52, 211, 153, 0.25);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+
+.custom-book__formats-block {
+  margin-top: auto;
+  padding-top: 18px;
+  border-top: 1px solid #eef1f3;
+}
+
+.custom-book__formats-note {
+  display: block;
+  font-size: 13px;
+  color: #888;
+}
+
+/* Goal quote — mascot speech bubble */
+.goal-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 48px;
+}
+
+.goal-quote__mascot {
+  width: 110px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.goal-quote__bubble {
+  position: relative;
+  background: #fff;
+  border-radius: 18px;
+  padding: 20px 26px;
+  max-width: 620px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.07);
+}
+
+.goal-quote__bubble::before {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-right: 9px solid #fff;
+}
+
+.goal-quote__bubble p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.goal-quote__level {
+  color: #34D399;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .goal-quote {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+  .goal-quote__mascot {
+    width: 88px;
+    margin-bottom: -4px;
+    position: relative;
+    z-index: 1;
+  }
+  .goal-quote__bubble::before {
+    left: 50%;
+    right: auto;
+    top: -8px;
+    transform: translateX(-50%);
+    border: 9px solid transparent;
+    border-top: none;
+    border-bottom-color: #fff;
+  }
+}
+
+.custom-book__cta {
+  text-align: center;
+  margin-top: 32px;
+}
+
+/* Adaptation band */
+.custom-book__adapt {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #fff;
+  border: 1px solid rgba(52, 211, 153, 0.28);
+  border-radius: 20px;
+  padding: 32px 36px;
+  box-shadow: 0 8px 30px rgba(52, 211, 153, 0.10);
+}
+
+.custom-book__adapt-body { flex: 1; }
+
+.custom-book__adapt-cta { flex-shrink: 0; }
+
+.custom-book__adapt-badge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #059669;
+  margin-bottom: 14px;
+}
+
+.custom-book__adapt-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a2e;
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+
+/* Выделение смыслового слова. Общее правило, а не привязанное к одному
+   заголовку: слот {target} стоит в разных местах фразы — в немецком первым
+   словом, в грузинском в середине, — и цепляться оно должно за само слово.
+
+   Тон глубокий (#059669), а не мятный: на 60-пиксельном заголовке насыщенности
+   #34D399 не хватает, буквы выглядят выцветшими. Оба цвета на странице уже
+   есть, новый не заводился. */
+.accent { color: #059669; }
+
+.custom-book__adapt-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.custom-book__adapt-sub {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 16px;
+}
+
+.custom-book__adapt-points {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));  /* i18n: сам в 1 колонку на узком */
+  gap: 20px;
+}
+
+.custom-book__adapt-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;              /* даёт ячейке сжиматься уже длинного слова */
+}
+
+.custom-book__adapt-point svg { flex-shrink: 0; margin-top: 2px; }
+
+.custom-book__adapt-point p {
+  min-width: 0;
+  overflow-wrap: anywhere;   /* ломает длинные композиты */
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.custom-book__adapt-point strong { color: #1a1a2e; }
+
+
+/* ===== 8. Audience ===== */
+.audience {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.audience__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.audience__card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 24px;
+  background: #f9fafb;
+  border-radius: 14px;
+  border: 1px solid #eee;
+  flex: 0 1 auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.audience__card.is-revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.audience__card svg { flex-shrink: 0; }
+
+.audience__card span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #1a1a2e;
+}
+
+/* ===== 9. Pains ===== */
+.pains {
+  padding: 100px 0;
+  background: #f9fafb;
+}
+
+.pains__chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 720px;
+  margin: 0 auto 36px;
+}
+
+.pains__chip {
+  padding: 10px 20px;
+  border-radius: 24px;
+  border: 1.5px solid #e0e0e4;
+  background: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: #3a3a4a;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.pains__chip:hover { border-color: #34D399; color: #34D399; }
+
+.pains__chip.is-active {
+  background: #34D399;
+  border-color: #34D399;
+  color: #fff;
+}
+
+.pains__answers {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pains__answer {
+  display: none;
+  text-align: center;
+  padding: 32px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+}
+
+.pains__answer.is-active {
+  display: block;
+  animation: fade-up 0.3s ease;
+}
+
+.pains__answer strong {
+  display: block;
+  font-size: 18px;
+  color: #1a1a2e;
+  margin-bottom: 12px;
+}
+
+.pains__answer p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== 10. Languages ===== */
+.languages {
+  padding: 80px 0;
+  background: #fff;
+  overflow: hidden;
+}
+
+.languages .section__subtitle { margin-bottom: 14px; }
+
+.languages__pairs {
+  max-width: 640px;
+  margin: 0 auto 48px;
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.languages__pairs strong { color: #059669; }
+
+.languages__group {
+  margin-bottom: 32px;
+}
+
+.languages__group:last-child {
+  margin-bottom: 0;
+}
+
+.languages__group-title {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9aa5ad;
+  margin-bottom: 16px;
+}
+
+.languages__grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.lang-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  background: #fff;
+  border: 1px solid #eef1f3;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a1a2e;
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s, box-shadow 0.15s;
+}
+
+.lang-chip img {
+  width: 22px;
+  height: auto;
+  border-radius: 3px;
+}
+
+/* На узком экране плашка языка съедает всю строку: 199 px при доступных 358.
+   49 языков превращались в 49 строк — блок вырастал до 1600-2200 px, три
+   экрана подряд из одних плашек. Уплотняем так, чтобы вставали ПО ДВЕ:
+   флаг мельче, шрифт 13px, отступы уже. Ширина самой длинной подписи
+   («Bahasa Indonesia», «беларуская мова») при этом остаётся в габарите. */
+@media (max-width: 560px) {
+  /* Шаг строки тоже считается: 49 плашек по две в ряд — это 25 строк, и
+     каждый лишний пиксель отступа умножается на 25. */
+  .languages__grid { gap: 6px; }
+  .lang-chip {
+    gap: 6px;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 20px;
+  }
+  .lang-chip img { width: 18px; }
+
+  /* Показываем ТОЛЬКО название языка. Подпись плашки — «Учить {target}», и
+     глагол повторяется 49 раз; на 360 px самая длинная плашка занимала 206 px
+     при доступных 326, и блок вырастал до 1988 px. Гасим шрифт у плашки и
+     возвращаем его названию: порядок слов в разных языках разный, а так он
+     неважен вовсе. Текст «Учить» остаётся в разметке и читается с экрана —
+     скрыт он только для глаза. */
+  .lang-chip { font-size: 0; }
+  .lang-chip .lang-chip__name { font-size: 13px; }
+}
+
+.lang-chip:hover {
+  border-color: #34D399;
+  background: #f0fdf4;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(52, 211, 153, 0.15);
+}
+
+.languages__marquee {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.languages__track {
+  display: flex;
+  gap: 12px;
+  animation: marquee 40s linear infinite;
+  width: max-content;
+}
+
+.languages__track span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background: #f5f5f5;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3a3a4a;
+  white-space: nowrap;
+}
+
+.languages__track span img {
+  width: 24px;
+  height: 18px;
+  border-radius: 3px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ===== 11. Reviews ===== */
+.reviews {
+  padding: 100px 0;
+  background: #f9fafb;
+}
+
+.reviews__grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  /* Отрицательное поле обязано совпадать с отступом .container: приём «во всю
+     ширину» вытягивает полосу ровно на padding контейнера в каждую сторону.
+     Отступ меняется по ширине экрана (40 → 24 → 16), значит и поле обязано —
+     иначе полоса вылезает за экран и появляется горизонтальная прокрутка.
+     Переопределение под 768 px было, под 1024 — нет, и в полосе 769-1024
+     страница была шире экрана на 32 px. Ни одна проверка этого не видела. */
+  padding: 0 40px 20px;
+  margin: 0 -40px;
+  scrollbar-width: none;
+}
+
+.reviews__grid::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews__card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 24px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex: 0 0 320px;
+  scroll-snap-align: center;
+}
+
+.reviews__stars {
+  color: #f59e0b;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.reviews__text {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.reviews__author strong {
+  display: block;
+  font-size: 15px;
+  color: #1a1a2e;
+}
+
+.reviews__author span {
+  font-size: 13px;
+  color: #888;
+}
+
+.reviews__author .reviews__source {
+  color: #34D399;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+.reviews__card:hover .reviews__source {
+  opacity: 1;
+}
+
+.reviews__card[data-review] {
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.reviews__card[data-review]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+}
+
+/* Review modal */
+.review-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.review-modal.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.review-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.review-modal__content {
+  position: relative;
+  max-width: 800px;
+  max-height: 90vh;
+  margin: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.25);
+}
+
+.review-modal__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.review-modal__close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  font-size: 28px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  z-index: 1;
+}
+
+/* ===== 12. FAQ ===== */
+.faq {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.faq__list {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faq__item {
+  border-bottom: 1px solid #eee;
+}
+
+.faq__q {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a2e;
+  cursor: pointer;
+  text-align: left;
+  gap: 16px;
+}
+
+.faq__q svg {
+  flex-shrink: 0;
+  color: #999;
+  transition: transform 0.25s;
+}
+
+.faq__item.is-open .faq__q svg {
+  transform: rotate(180deg);
+  color: #34D399;
+}
+
+.faq__a {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.faq__item.is-open .faq__a {
+  grid-template-rows: 1fr;   /* i18n: раскрывается до натуральной высоты, не режет длинный перевод */
+}
+
+.faq__a p {
+  min-height: 0;             /* нужно для схлопывания grid-строки */
+  padding: 0 0 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ===== 13. Final CTA ===== */
+.final-cta {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #34D399 0%, #0d9668 100%);
+  text-align: center;
+}
+
+.final-cta__inner {
+  max-width: 600px;
+}
+
+.final-cta__title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.final-cta__text {
+  font-size: 18px;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.final-cta .btn--primary {
+  background: #fff;
+  color: #0d9668;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+
+.final-cta .btn--primary:hover {
+  background: #f0fdf4;
+  transform: translateY(-2px);
+}
+
+.btn--lg {
+  padding: 20px 56px;
+  font-size: 18px;
+  border-radius: 16px;
+}
+
+.final-cta__store-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.final-cta__store-buttons .store-btn {
+  display: inline-flex;
+  transition: transform 0.2s;
+  /* Базовые 44px тут не годятся: картинка внутри выше, и нижние 12 пикселей
+     бейджа оказывались ЗА пределами ссылки — нажатие по ним не срабатывало.
+     Видно этого не было: у .store-btn нет ни фона, ни рамки. */
+  height: auto;
+}
+
+.final-cta__store-buttons .store-btn:hover {
+  transform: translateY(-2px);
+}
+
+.final-cta__store-buttons img {
+  display: block;
+  height: 56px;
+}
+
+/* На узком экране бейджи ужимаются, но остаются бейджами: ширина считается от
+   высоты по собственным пропорциям (2.99 у Apple, 3.38 у Google), а не задаётся
+   числом. При 44px это 132 + 12 + 149 = 293 px — помещается в ряд на 390 px, а
+   если не поместится, flex-wrap перенесёт второй бейдж на строку ниже. */
+@media (max-width: 480px) {
+  .final-cta__store-buttons { gap: 12px; }
+  .final-cta__store-buttons img { height: 44px; }
+}
+
+.final-cta__perks {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.final-cta__perks span {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.9);
+}
+
+/* ===== 14. Footer ===== */
+.footer {
+  padding: 48px 0;
+  background: #1a1a2e;
+  color: #999;
+}
+
+.footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer .logo__text {
+  color: #fff;
+}
+
+.footer__brand .logo {
+  margin-bottom: 12px;
+}
+
+.footer__copy {
+  font-size: 13px;
+  color: #666;
+  margin-top: 16px;
+}
+
+/* Ряд языковых версий в подвале. Он не украшение: до него ни на один хаб и
+   ни на одну страницу пары не вело ни одной ссылки — плашки языков стоят с
+   href="#", переход делает JS, а страница без входящих ссылок для поисковика
+   сирота. Набран мелко и приглушённо: это служебная навигация, а не призыв. */
+.langnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  max-width: 1200px;
+  margin: 28px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.langnav a {
+  font-size: 12.5px;
+  line-height: 1.6;
+  color: #7c8698;
+  transition: color 0.15s;
+}
+
+.langnav a:hover { color: #34D399; }
+
+/* Коды для установки — ТОЛЬКО на большом экране. На телефоне QR бесполезен:
+   отсканировать собственный экран нечем, а место он съедает. Показываем с
+   900 px, где в подвале есть свободная колонка. */
+.footer__qr { display: none; }
+
+@media (min-width: 900px) {
+  .footer__qr { display: block; }
+}
+
+.footer__qr-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #cbd3dd;
+  margin-bottom: 14px;
+}
+
+.footer__qr-codes { display: flex; gap: 18px; }
+
+.footer__qr-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  font-size: 11.5px;
+  color: #7c8698;
+  transition: color 0.15s;
+}
+
+.footer__qr-item img {
+  /* Белая подложка обязательна: код тёмный, а подвал тоже тёмный, и без
+     подложки сканеру не за что зацепиться. Поля внутри SVG уже есть. */
+  display: block;
+  width: 92px;
+  height: 92px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 6px;
+}
+
+.footer__qr-item:hover { color: #34D399; }
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 14px 24px;
+}
+
+.footer__links a {
+  font-size: 14px;
+  color: #999;
+  overflow-wrap: anywhere;
+  transition: color 0.2s;
+}
+
+.footer__links a:hover { color: #34D399; }
+
+.footer__subscribe p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+.footer__form {
+  display: flex;
+  gap: 8px;
+}
+
+.footer__input {
+  padding: 10px 16px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  background: #252540;
+  color: #fff;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  width: 100%;
+  max-width: 280px;
+  min-width: 0;
+}
+
+.footer__input::placeholder { color: #666; }
+.footer__input:focus { border-color: #34D399; }
+
+.footer__btn {
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+/* ===== Sticky CTA (mobile only) ===== */
+.sticky-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  padding: 12px 16px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom));
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(0,0,0,0.06);
+}
+
+/* ===== Burger & Mobile Menu ===== */
+.burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  /* Крайний справа: в разметке бургер стоит ПЕРЕД значками сторов, и на
+     экране оказывался между языком и ними. Переставлять разметку нельзя —
+     её пишут инжекторы, — а порядок отображения задаётся здесь. */
+  order: 1;
+  /* 40x40, как у значков сторов рядом. Было 36 — рядом с сорока это читалось
+     как случайность, а по маленькой кнопке ещё и труднее попасть. */
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  z-index: 101;
+}
+
+.burger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #1a1a2e;
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+.burger.is-open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.burger.is-open span:nth-child(2) {
+  opacity: 0;
+}
+.burger.is-open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 999;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mobile-menu.is-open {
+  display: flex;
+}
+
+.burger {
+  z-index: 1000;
+}
+
+.mobile-menu__link {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1a1a2e;
+  transition: color 0.2s;
+}
+
+.mobile-menu__link:hover {
+  color: #34D399;
+}
+
+@media (max-width: 768px) {
+  .burger { display: flex; }
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 1024px) {
+  .container { padding-left: 24px; padding-right: 24px; }
+
+  /* i18n: переключаемся в бургер уже с 1024px — на длинных локалях nav (5 ссылок) + бейджи сторов
+     не помещаются в ряд шапки в диапазоне 769-1024 и налезают друг на друга */
+  .nav { display: none; }
+  .header__right--desktop { display: none; }
+  .burger { display: flex; }
+
+  .hero__inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  /* Стрелки карусели вынесены на 52px вбок от телефона, а отступ контейнера
+     здесь 24px — они уезжают за край экрана на 28px и тянут за собой
+     горизонтальную прокрутку всей страницы. На ≤768 дизайн их уже прятал;
+     полоса 769-1024 была пропущена. Листание остаётся точками под телефоном. */
+  .library__arrow { display: none; }
+
+  /* Полосы «во всю ширину» — под отступ контейнера этой ширины (24px). */
+  .demo__slider,
+  .reviews__grid {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .hero__content { max-width: 100%; }
+
+  .hero__title { font-size: 38px; }
+
+  .hero__pills--desktop { display: none; }
+  /* Полоса «во всю ширину». Отрицательные поля по обе стороны равны отступу
+     .container этой ширины — тогда полоса ровно достаёт до краёв экрана.
+     Было width: 100vw и одно поле -16px под отступ 16px, то есть под ДРУГУЮ
+     ширину экрана: в полосе 769-1024 контейнер даёт 24px, и лента вылезала
+     за экран на 32px, добавляя горизонтальную прокрутку всей странице.
+
+     Ширина остаётся 100vw. Пробовал убрать её в пользу width:auto с полями по
+     обе стороны — стало хуже: лента внутри идёт с white-space:nowrap, и без
+     заданной ширины она раздувала минимальную ширину .hero__inner до его
+     max-width в 1200 px. Ширину задаём, а к краям притягиваем ОДНИМ полем
+     слева, равным отступу контейнера. */
+  .hero__pills--mobile {
+    display: block;
+    width: 100vw;
+    margin-left: -24px;
+    overflow: hidden;
+    padding-top: 14px;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  }
+
+  .hero__pills-track {
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    animation: pills-scroll 12s linear infinite;
+    width: max-content;
+  }
+
+  @keyframes pills-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  .hero__showcase {
+    flex: none;
+    width: 100%;
+    max-width: 380px;
+  }
+
+  .phone__frame--hero { width: 235px; height: 504px; border-radius: 17px; }
+  .hero__reader-frame { transform: scale(0.6026); }
+  .phone__shell { width: 242px; height: 510px; left: -4px; top: 0; }
+  /* колода — уменьшаем под более узкий телефон (235px), чтобы не выступала по бокам */
+  .vocab-deck { max-width: 235px; }
+  /* Плашки НЕ уменьшаем. Здесь стояли 10px на слово и 7px на перевод — семь
+     пикселей нечитаемы вовсе. И нужды в этом нет: колода клипует лишние
+     плашки сама (overflow: clip, justify-content: flex-end — старые уходят
+     под обрез, новейшая видна), а три плашки в полный размер занимают 120px
+     при доступных 235. Ужимали место, которого хватало. */
+
+  .section__title { font-size: 32px; }
+
+  .compare__row {
+    flex-direction: column;
+  }
+  .compare__arrow {
+    justify-content: center;
+    padding: 8px 0;
+    transform: rotate(90deg);
+    background: transparent;
+  }
+
+  .steps__grid { flex-wrap: wrap; gap: 20px; justify-content: center; }
+  .steps__connector { display: none; }
+  .steps__card { flex: 0 1 calc(50% - 20px); max-width: 260px; }
+
+  .library__panel.is-active { gap: 40px; }
+  .library__panel-content h3 { font-size: 24px; }
+  .phone__frame--md { width: 230px; height: 486px; }   /* контент 220 */
+  .library__screen { transform: scale(0.564); }         /* 220/390 */
+
+  .final-cta__title { font-size: 30px; }
+  .footer__inner { flex-wrap: wrap; }
+}
+
+@media (max-width: 768px) {
+  .container { padding-left: 16px; padding-right: 16px; }
+
+  .nav { display: none; }
+
+  .header__inner { padding-top: 12px; padding-bottom: 12px; }
+
+  .hero {
+    min-height: auto;
+    padding-top: 72px;
+  }
+
+  .hero__pills--mobile { margin-left: -16px; }
+
+  .hero__inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 40px;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .hero__content .hero__subtitle,
+  .hero__content .hero__trust {
+    display: none;
+  }
+
+  .hero__speech {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    width: 100%;
+    padding: 0 8px;
+  }
+
+  .hero__speech-mascot {
+    width: 80px;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: -6px;
+    z-index: 1;
+  }
+
+  .hero__speech-bubble {
+    position: relative;
+    background: #f0fdf4;
+    border: 1px solid rgba(52,211,153,0.2);
+    border-radius: 18px;
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .hero__speech-bubble::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #f0fdf4;
+  }
+
+  .hero__speech-trust {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #888;
+  }
+
+  .hero__cta {
+    display: none;
+  }
+
+  .hero__showcase {
+    max-width: 300px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .hero__mascot {
+    display: none;
+  }
+
+  .reader__popup {
+    gap: 2px;
+    padding: 6px 6px 8px;
+  }
+
+
+
+  .header__right--desktop { display: none; }
+
+  .phone__frame--hero { width: 283px; height: 610px; border-radius: 20px; }
+  .hero__reader-frame { transform: scale(0.7256); }
+  .phone__shell { width: 292px; height: 618px; left: -5px; top: 0; }
+
+  .trust__inner { gap: 12px; }
+  .trust__card { flex: 0 1 calc(50% - 6px); padding: 16px 12px; }
+  .trust { display: none; }
+
+  .compare { padding: 40px 0; }
+  .section__title { font-size: 26px; }
+  .section__subtitle { font-size: 16px; margin-bottom: 36px; }
+
+  .compare__old,
+  .compare__new {
+    padding: 18px 20px;
+  }
+
+  .method { padding: 40px 0; }
+
+  /* Steps: vertical */
+  .steps { padding: 40px 0; }
+  .steps__grid { flex-direction: column; align-items: center; gap: 40px; }
+  .steps__card { max-width: 300px; width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; padding: 0; }
+  .steps__num { margin-bottom: 12px; }
+  .steps__phone { display: block; margin-bottom: 16px; }
+  .phone__frame--sm { width: 280px; height: auto; }
+  .phone__frame--cycle { width: 280px; height: 594px; }   /* контент 270; 270×844/390=584 + 10 рамки */
+  .cycle__screen { transform: scale(0.6923); }             /* 270/390 */
+  .steps__connector { display: none; }
+
+  /* Library: tabs + panels */
+  .library { padding: 40px 0; }
+  .library__tabs {
+    display: flex;
+    gap: 8px;
+    font-size: 13px;
+  }
+  .library__tab { padding: 8px 14px; font-size: 13px; }
+
+  .library__panels {
+    display: block;
+  }
+
+  .library__panel {
+    display: none !important;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    animation: none !important;
+  }
+
+  .library__panel.is-active {
+    display: flex !important;
+  }
+
+  .library__panel-content { order: 2; }
+  .library__panel-content h3 { font-size: 20px; }
+  .library__phone { order: 1; }
+  .library__arrow { display: none; }
+  .phone__frame--md { width: 280px; height: 594px; margin: 0 auto; }   /* контент 270 */
+  .library__screen { transform: scale(0.692); }                         /* 270/390 */
+  .library__badges { justify-content: center; }
+
+  /* Custom book banner */
+  .custom-book { padding: 48px 0; }
+  .custom-book__header { margin-bottom: 32px; }
+  .custom-book__title { font-size: 26px; }
+  .custom-book__text { font-size: 15px; }
+  .custom-book__cards { flex-direction: column; gap: 16px; }
+  .custom-book__card { padding: 24px; }
+  .custom-book__card h3 { font-size: 20px; }
+  .custom-book__shelf img { width: 56px; height: 84px; }
+  .custom-book__adapt { flex-direction: column; align-items: stretch; gap: 24px; padding: 24px; }
+  .custom-book__adapt-title { font-size: 22px; }
+  .custom-book__steps { flex-direction: column; gap: 16px; }
+  .custom-book__step { text-align: left; }
+
+  /* Demo: smaller */
+  .demo { padding: 40px 0; }
+  .demo__slider { padding: 0 16px 16px; margin: 0 -16px; gap: 16px; }
+  .phone__frame--demo { width: 170px; height: 340px; border-radius: 22px; border-width: 4px; }
+  .demo__caption { font-size: 13px; }
+
+  /* Audience */
+  .audience { padding: 40px 0; }
+  .audience__grid { gap: 10px; }
+  .audience__card { padding: 14px 18px; }
+  .audience__card span { font-size: 14px; }
+
+  /* Pains */
+  .pains { padding: 40px 0; }
+  .pains__chips { gap: 8px; }
+  .pains__chip { padding: 8px 16px; font-size: 14px; }
+  .pains__answer { padding: 24px 20px; }
+
+  /* Languages */
+  .languages { padding: 40px 0; }
+
+  /* Reviews */
+  .reviews { padding: 40px 0; }
+  .reviews__grid { padding: 0 16px 16px; margin: 0 -16px; gap: 12px; }
+  .reviews__card { flex: 0 0 280px; padding: 24px 20px; }
+
+  /* FAQ */
+  .faq { padding: 40px 0; }
+  .faq__q { font-size: 15px; }
+
+  /* Final CTA */
+  .final-cta { padding: 40px 0; }
+  .final-cta__title { font-size: 26px; }
+  .final-cta__text { font-size: 16px; }
+  .btn--lg { padding: 18px 40px; font-size: 16px; }
+  .final-cta__perks { flex-wrap: wrap; gap: 12px; justify-content: center; }
+
+  /* Footer */
+  .footer__inner { flex-direction: column; gap: 28px; align-items: flex-start; }
+  .footer__links { flex-wrap: wrap; gap: 16px; }
+  .footer__input { width: 160px; }
+
+  /* Show sticky CTA on mobile */
+  .sticky-cta { display: none; }
+  .sticky-cta.is-visible { display: block; }
+  body { padding-bottom: 0; }
+}
+
+@media (max-width: 400px) {
+  .hero__title { font-size: 26px; }
+
+  .hero__showcase { max-width: 260px; }
+  .phone__frame--hero { width: 264px; height: 568px; border-radius: 19px; }
+  .hero__reader-frame { transform: scale(0.6769); }
+  .phone__shell { width: 272px; height: 575px; left: -4px; top: 0; }
+  .store-link { height: 36px; }
+}
+
+/* ===== Download Modal ===== */
+.download-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-modal.is-open { display: flex; }
+
+.download-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(4px);
+}
+
+.download-modal__card {
+  position: relative;
+  background: #fff;
+  border-radius: 24px;
+  padding: 40px 36px 36px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  animation: fade-up 0.3s ease;
+}
+
+.download-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #999;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.download-modal__close:hover { color: #333; }
+
+.download-modal__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 8px;
+}
+
+.download-modal__text {
+  font-size: 15px;
+  color: #666;
+  margin: 0 0 24px;
+}
+
+.download-modal__stores {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.download-modal__stores img {
+  display: block;
+  height: 52px;
+}
+

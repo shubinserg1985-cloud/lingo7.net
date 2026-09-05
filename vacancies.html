@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingo7 Educational Representative — for language students worldwide</title>
+  <meta name="description" content="We are looking for Lingo7 representatives in cities worldwide. 50% of every payment your users make, renewals included. No fees, no upfront costs.">
+  <link rel="canonical" href="https://lingo7.net/vacancies.html">
+  <link rel="alternate" hreflang="en" href="https://lingo7.net/vacancies.html">
+  <link rel="alternate" hreflang="ru" href="https://lingo7.net/ru/vacancies.html">
+  <link rel="alternate" hreflang="x-default" href="https://lingo7.net/vacancies.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lingo7.net/vacancies.html">
+  <meta property="og:title" content="Lingo7 Educational Representative">
+  <meta property="og:description" content="Open your city with Lingo7. 50% of every payment, paid in stablecoins, no fees.">
+  <meta property="og:image" content="https://lingo7.net/icon-512.png">
+  <meta property="og:locale" content="en">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* Стили страницы самодостаточны — как у about.html и остальных статических
+       страниц сайта. Цвета, шрифт и отступы взяты оттуда же: новой визуальной
+       системы не вводится. */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #1a1a2e; background: #fff; -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .header__inner {
+      max-width: 1000px; margin: 0 auto; padding: 14px 20px;
+      display: flex; flex-wrap: wrap; gap: 6px 16px;
+      align-items: center; justify-content: space-between;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; }
+    .logo__img { height: 32px; width: auto; }
+    .logo__text { font-size: 19px; font-weight: 700; }
+    .header__back {
+      font-size: 15px; font-weight: 600; color: #34D399;
+      display: flex; align-items: center; gap: 6px; overflow-wrap: anywhere;
+    }
+
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+    main { padding-top: 62px; }
+
+    .hero { padding: 56px 0 40px; text-align: center; }
+    .hero h1 {
+      font-size: clamp(28px, 6vw, 44px); line-height: 1.15;
+      font-weight: 800; letter-spacing: -0.02em; margin-bottom: 18px;
+    }
+    .hero h1 span { color: #34D399; }
+    .hero__sub { font-size: clamp(16px, 2.4vw, 19px); color: #4a5160; margin-bottom: 28px; }
+    .cta {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 52px; padding: 12px 30px; border-radius: 14px;
+      background: #34D399; color: #fff; font-size: 16px; font-weight: 700;
+      box-shadow: 0 6px 20px rgba(52,211,153,0.32);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .cta:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(52,211,153,0.4); }
+
+    section.blk { padding: 30px 0; border-top: 1px solid rgba(0,0,0,0.06); }
+    section.blk:first-of-type { border-top: 0; }
+    h2 {
+      font-size: clamp(21px, 3.4vw, 28px); font-weight: 800;
+      letter-spacing: -0.015em; line-height: 1.25; margin-bottom: 14px;
+    }
+    h3 {
+      font-size: clamp(17px, 2.6vw, 20px); font-weight: 700;
+      margin: 22px 0 8px;
+    }
+    p { margin-bottom: 14px; color: #2c3342; }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 0 0 14px; padding-left: 22px; color: #2c3342; }
+    li { margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    strong { font-weight: 700; color: #1a1a2e; }
+
+    .note {
+      background: #F4FBF7; border: 1px solid #D6F0E2; border-radius: 14px;
+      padding: 18px 20px; margin: 18px 0 0;
+    }
+    .quote {
+      border-left: 3px solid #34D399; padding-left: 18px; margin: 4px 0 0;
+      color: #2c3342;
+    }
+    .steps { list-style: none; padding: 0; }
+    .steps li {
+      padding: 14px 16px; border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 14px; margin-bottom: 10px;
+    }
+    .faq dt { font-weight: 700; margin-top: 16px; }
+    .faq dd { margin: 4px 0 0; color: #2c3342; }
+
+    .apply {
+      background: #F7F8FA; border-radius: 18px; padding: 24px 22px; margin-top: 8px;
+    }
+    .apply__mail {
+      display: inline-block; font-size: clamp(18px, 3.6vw, 24px); font-weight: 800;
+      color: #34D399; margin: 6px 0 14px; overflow-wrap: anywhere;
+    }
+
+    .footer { border-top: 1px solid rgba(0,0,0,0.06); margin-top: 40px; padding: 28px 0 40px; }
+    .footer__inner {
+      max-width: 1000px; margin: 0 auto; padding: 0 20px;
+      display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between;
+    }
+    .footer__copy { font-size: 13.5px; color: #8b95a1; margin: 8px 0 0; }
+    .footer__links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 15px; color: #4a5160; }
+
+    @media (max-width: 560px) {
+      .hero { padding: 38px 0 30px; }
+      section.blk { padding: 26px 0; }
+      .footer__inner { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <a href="/" class="logo">
+      <img src="/favicon.svg" alt="Lingo7" class="logo__img">
+      <span class="logo__text">Lingo7</span>
+    </a>
+    <a href="/" class="header__back">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to site
+    </a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>Studying linguistics or languages? <span>This one is for you.</span></h1>
+      <p class="hero__sub">Lingo7 is changing how the world learns languages. We are looking for representatives in cities everywhere — people who get into a new method early and earn from bringing it to their city.</p>
+      <a href="#apply" class="cta">I want to be a representative</a>
+    </section>
+
+    <section class="blk">
+      <h2>Why this is an opening, not a side gig</h2>
+      <p>There are millions of language graduates. Most will go on to teach from the same textbooks they were taught from. But the way languages are learned is changing right now: reading what you actually find interesting instead of cramming; large amounts of living language instead of “fill in the article” drills.</p>
+      <p>You can enter the profession as the ten-thousandth teacher doing the old thing — or you can come in early on this wave, alongside the project creating it. A Lingo7 representative is the person who opens their own city.</p>
+    </section>
+
+    <section class="blk">
+      <h2>What Lingo7 is</h2>
+      <p>Lingo7 turns any book into a personal language course: sentence-by-sentence parallel translation, audio, and a dictionary that reminds you to review words at the right moment. Any pair of languages. You read Harry Potter, a thriller, or a book from your own field — and the language arrives through interest rather than willpower.</p>
+    </section>
+
+    <section class="blk">
+      <h2>What a representative does</h2>
+      <p>You promote Lingo7 in your city, by whatever means you can invent: talking to people, language schools, businesses whose staff need a language, student communities, local chats and social media.</p>
+      <p>You get a personal promo code. Everyone who subscribes with it is tied to you permanently — and you get your share of every payment they make, renewals included.</p>
+    </section>
+
+    <section class="blk">
+      <h2>Honest arithmetic</h2>
+      <p>Let us count on a working model, not on handing out cards to everyone (models are covered below). Say you have 40 real conversations a day with people who need the language for work, and one in fifteen subscribes — that is 2–3 people a day, 50–60 a month.</p>
+      <p>A subscription is around&nbsp;$10 a month (in some countries the local price is lower), and your share is 50%. By the end of the first month that is roughly&nbsp;$250–300. And those people keep paying while they use the app: you start the next month with an accumulated base, not from zero. After a few months of this it is&nbsp;$1,000 and up. And one agreement with a hotel manager for a team of 20–30 does the same in a single conversation.</p>
+      <div class="note"><p>This is an estimate to show the order of magnitude, not a promise: the result depends on the model, the city, and you.</p></div>
+    </section>
+
+    <section class="blk">
+      <h2>An example from the founder</h2>
+      <div class="quote">
+        <p>I am Sergey, the founder of Lingo7. I live in Miami and do the same work I am offering you. I started simply: a T-shirt with lingo7.net, business cards — and off to where there are many Spanish speakers, to the shops and the beach. In a few hours you talk to a hundred or two people, and plenty are interested. That is how I see who reacts and how.</p>
+        <p>But that is the top of the funnel, not the economics. The economics come from precise models — hotels, for instance, where the language decides a career. Models are covered below. I do not hand out assignments from an office: I test every tactic on myself, and the best ones we pass on to the whole network.</p>
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>Terms</h2>
+      <ul>
+        <li>50% of every payment your users make, renewals included, for as long as they keep using the app.</li>
+        <li>The subscription is about $10/month; in some countries the local price is lower — commission is calculated on the actual payment.</li>
+        <li>Paid out once a month in stablecoins (USDT/USDC) — works from any country, no banks and no borders.</li>
+        <li>No fees and nothing to buy from us: no “starter kits”, no paid training. Business card and T-shirt artwork, a conversation script and a link with your code — free.</li>
+        <li>There is no fixed salary: you get what you bring, with no ceiling.</li>
+      </ul>
+    </section>
+
+    <section class="blk">
+      <h2>Why this is not a scam</h2>
+      <p>We take nothing from you — no fees, no deposits, no payment for “training”. We earn only when you earn: the user pays for a subscription and half of it is yours.</p>
+      <p>Your users are tied to your promo code in the system and the accounting is transparent. And the founder walks around Miami with business cards himself — this page was written by someone doing exactly what it offers you.</p>
+    </section>
+
+    <section class="blk">
+      <h2>Earnings come from the model, not from luck</h2>
+      <p>The product is the same, yet two representatives in one city can end up ten times apart. The difference is not luck and not whether the topic is “hot”. The difference is the model: where you are, who you talk to, and what you offer.</p>
+
+      <h3>Two representatives, one city</h3>
+      <p>The first stands on the beach handing cards to everyone. Three hundred contacts a day, two or three subscriptions per thousand — and a month later he decides it “does not work”.</p>
+      <p>The second goes to hotels and restaurants, where the language is a condition for the staff’s careers. He shows the app, but negotiates with the manager rather than the waiter: one meeting, twenty or thirty subscriptions for the whole shift, and the hotel pays, not the employee. Same city, same hours, different model — different money.</p>
+      <p>If it is not working for you, it almost always means one thing: wrong model. That is fixable, and we work through such cases together.</p>
+
+      <h3>Models people start with</h3>
+      <ul>
+        <li>Hotels, restaurants, tourism — staff need the language for their careers; the best way in is through the manager.</li>
+        <li>Businesses whose staff deal with foreigners: taxis, salons, clinics, retail.</li>
+        <li>Language schools in your city: introductions, promo codes for students, partnership.</li>
+        <li>Universities and student communities.</li>
+        <li>Local chats and social media: expats, recent arrivals, people preparing to move.</li>
+      </ul>
+
+      <h3>The team</h3>
+      <p>We do not keep the models to ourselves. Representatives share a chat and hold regular calls: who tried what, what the numbers were, what worked. A tactic that lands in one city is available to everyone else the next day.</p>
+      <p>That is why we look for people with an entrepreneurial streak — the ones who see not “hand out cards”, but “where in my city are the people who need the language for money, and who is willing to pay for them”.</p>
+    </section>
+
+    <section class="blk">
+      <h2>Where this leads</h2>
+      <p>Representative is the first step, not the ceiling.</p>
+      <ul class="steps">
+        <li><strong>Step 1. Representative.</strong> You promote the app, build a base of subscribers, and earn commission.</li>
+        <li><strong>Step 2. Your own class.</strong> You open your own group using the Lingo7 method — we provide the method and instructions for running the sessions. <a href="/for-schools.html" style="color:#34D399;font-weight:600">For schools and teachers →</a></li>
+        <li><strong>Step 3. Your own school under the Lingo7 brand.</strong> For partners who have shown results: if the location fits, opening a school together with Lingo7 is possible.</li>
+      </ul>
+      <p>This is not a promise to everyone — it is a real route for those who prove themselves by doing.</p>
+    </section>
+
+    <section class="blk">
+      <h2>Who this is not for</h2>
+      <p>Let us say it plainly. This is not for you if you:</p>
+      <ul>
+        <li>want a fixed salary for hours served;</li>
+        <li>are not ready to talk to strangers;</li>
+        <li>expect results within a week and without effort;</li>
+        <li>want ready instructions for every step and will not try things of your own.</li>
+      </ul>
+    </section>
+
+    <section class="blk">
+      <h2>Who we are looking for</h2>
+      <p>Students of linguistics and language programmes — or people seriously in love with languages. Any city in the world. What matters is an entrepreneurial streak: the will to look, try, count and grow in the language field rather than wait for instructions.</p>
+    </section>
+
+    <section class="blk" id="apply">
+      <h2>How to apply</h2>
+      <div class="apply">
+        <p>Write to us:</p>
+        <a class="apply__mail" href="mailto:support@lingo7.net?subject=Lingo7%20representative%20application">support@lingo7.net</a>
+        <p>Tell us about yourself — this is enough:</p>
+        <ul>
+          <li>your name;</li>
+          <li>country and city;</li>
+          <li>university, programme and year, if you are studying;</li>
+          <li>which languages you know or are learning;</li>
+          <li>a contact that suits you: Telegram or email;</li>
+          <li>why you.</li>
+        </ul>
+        <p>We will look at your application and reply within a few days.</p>
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>Questions we get</h2>
+      <dl class="faq">
+        <dt>How do you pay?</dt>
+        <dd>Once a month in stablecoins (USDT/USDC) to your crypto wallet, from any country.</dd>
+        <dt>How will you know a user came from me?</dt>
+        <dd>By your personal promo code. The user stays tied to you permanently.</dd>
+        <dt>Do I need to invest anything?</dt>
+        <dd>No payments to us. Materials artwork and the conversation script are free.</dd>
+        <dt>Can I combine it with studying?</dt>
+        <dd>Yes, the schedule is entirely your own.</dd>
+        <dt>What if it is not working for me?</dt>
+        <dd>Then it is the wrong model. Write to the shared chat — we work it out and change it together.</dd>
+        <dt>Is there already a representative in my city?</dt>
+        <dd>Mention your city in the application — we will discuss areas and how to work.</dd>
+      </dl>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <a href="/" class="logo">
+        <img src="/favicon.svg" alt="Lingo7" class="logo__img">
+        <span class="logo__text">Lingo7</span>
+      </a>
+      <p class="footer__copy">&copy; 2024&ndash;2026 SEYU LLC. All rights reserved.</p>
+    </div>
+    <div class="footer__links">
+      <a href="/">Home</a>
+      <a href="/for-schools.html">For schools</a>
+      <a href="/contacts.html">Contacts</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

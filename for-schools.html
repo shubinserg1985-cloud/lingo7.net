@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A Lingo7 class — for language schools and teachers</title>
+  <meta name="description" content="Open a Lingo7 class: learning through real reading instead of textbooks. The method, the app for your students, and a place in the partner school directory.">
+  <link rel="canonical" href="https://lingo7.net/for-schools.html">
+  <link rel="alternate" hreflang="en" href="https://lingo7.net/for-schools.html">
+  <link rel="alternate" hreflang="ru" href="https://lingo7.net/ru/for-schools.html">
+  <link rel="alternate" hreflang="x-default" href="https://lingo7.net/for-schools.html">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lingo7.net/for-schools.html">
+  <meta property="og:title" content="A Lingo7 class for your school">
+  <meta property="og:description" content="Learning through real reading and interest, not textbooks. For language schools and private teachers.">
+  <meta property="og:image" content="https://lingo7.net/icon-512.png">
+  <meta property="og:locale" content="en">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* Стили страницы самодостаточны — как у about.html и остальных статических
+       страниц сайта. Цвета, шрифт и отступы взяты оттуда же: новой визуальной
+       системы не вводится. */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 16px; scroll-behavior: smooth; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #1a1a2e; background: #fff; -webkit-font-smoothing: antialiased;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    .header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .header__inner {
+      max-width: 1000px; margin: 0 auto; padding: 14px 20px;
+      display: flex; flex-wrap: wrap; gap: 6px 16px;
+      align-items: center; justify-content: space-between;
+    }
+    .logo { display: flex; align-items: center; gap: 10px; }
+    .logo__img { height: 32px; width: auto; }
+    .logo__text { font-size: 19px; font-weight: 700; }
+    .header__back {
+      font-size: 15px; font-weight: 600; color: #34D399;
+      display: flex; align-items: center; gap: 6px; overflow-wrap: anywhere;
+    }
+
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+    main { padding-top: 62px; }
+
+    .hero { padding: 56px 0 40px; text-align: center; }
+    .hero h1 {
+      font-size: clamp(28px, 6vw, 44px); line-height: 1.15;
+      font-weight: 800; letter-spacing: -0.02em; margin-bottom: 18px;
+    }
+    .hero h1 span { color: #34D399; }
+    .hero__sub { font-size: clamp(16px, 2.4vw, 19px); color: #4a5160; margin-bottom: 28px; }
+    .cta {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-height: 52px; padding: 12px 30px; border-radius: 14px;
+      background: #34D399; color: #fff; font-size: 16px; font-weight: 700;
+      box-shadow: 0 6px 20px rgba(52,211,153,0.32);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .cta:hover { transform: translateY(-2px); box-shadow: 0 10px 26px rgba(52,211,153,0.4); }
+
+    section.blk { padding: 30px 0; border-top: 1px solid rgba(0,0,0,0.06); }
+    section.blk:first-of-type { border-top: 0; }
+    h2 {
+      font-size: clamp(21px, 3.4vw, 28px); font-weight: 800;
+      letter-spacing: -0.015em; line-height: 1.25; margin-bottom: 14px;
+    }
+    h3 {
+      font-size: clamp(17px, 2.6vw, 20px); font-weight: 700;
+      margin: 22px 0 8px;
+    }
+    p { margin-bottom: 14px; color: #2c3342; }
+    p:last-child { margin-bottom: 0; }
+    ul { margin: 0 0 14px; padding-left: 22px; color: #2c3342; }
+    li { margin-bottom: 8px; }
+    li:last-child { margin-bottom: 0; }
+    strong { font-weight: 700; color: #1a1a2e; }
+
+    .note {
+      background: #F4FBF7; border: 1px solid #D6F0E2; border-radius: 14px;
+      padding: 18px 20px; margin: 18px 0 0;
+    }
+    .quote {
+      border-left: 3px solid #34D399; padding-left: 18px; margin: 4px 0 0;
+      color: #2c3342;
+    }
+    .steps { list-style: none; padding: 0; }
+    .steps li {
+      padding: 14px 16px; border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 14px; margin-bottom: 10px;
+    }
+    .faq dt { font-weight: 700; margin-top: 16px; }
+    .faq dd { margin: 4px 0 0; color: #2c3342; }
+
+    .apply {
+      background: #F7F8FA; border-radius: 18px; padding: 24px 22px; margin-top: 8px;
+    }
+    .apply__mail {
+      display: inline-block; font-size: clamp(18px, 3.6vw, 24px); font-weight: 800;
+      color: #34D399; margin: 6px 0 14px; overflow-wrap: anywhere;
+    }
+
+    .footer { border-top: 1px solid rgba(0,0,0,0.06); margin-top: 40px; padding: 28px 0 40px; }
+    .footer__inner {
+      max-width: 1000px; margin: 0 auto; padding: 0 20px;
+      display: flex; flex-wrap: wrap; gap: 18px; align-items: center; justify-content: space-between;
+    }
+    .footer__copy { font-size: 13.5px; color: #8b95a1; margin: 8px 0 0; }
+    .footer__links { display: flex; flex-wrap: wrap; gap: 18px; font-size: 15px; color: #4a5160; }
+
+    @media (max-width: 560px) {
+      .hero { padding: 38px 0 30px; }
+      section.blk { padding: 26px 0; }
+      .footer__inner { flex-direction: column; align-items: flex-start; }
+    }
+  
+    /* Сравнительная таблица. На широком экране — таблица, на узком —
+       карточки: каждая строка становится блоком с подписями. Правило
+       обязательно, иначе пять колонок дают горизонтальную прокрутку, а её
+       на сайте нет нигде. */
+    .cmp { width: 100%; border-collapse: collapse; margin: 18px 0 0; font-size: 15.5px; }
+    .cmp th, .cmp td { padding: 12px 14px; text-align: left; vertical-align: top; }
+    .cmp thead th { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: #8b95a1; }
+    .cmp tbody tr { border-top: 1px solid rgba(0,0,0,0.07); }
+    .cmp tbody th { font-weight: 700; width: 26%; }
+    .cmp td:last-child { background: #F4FBF7; }
+    @media (max-width: 640px) {
+      .cmp, .cmp tbody, .cmp tr, .cmp td, .cmp th { display: block; width: auto; }
+      .cmp thead { display: none; }
+      .cmp tbody tr {
+        border: 1px solid rgba(0,0,0,0.09); border-radius: 14px;
+        padding: 4px 2px; margin-bottom: 12px;
+      }
+      .cmp tbody th { width: auto; padding-bottom: 4px; }
+      .cmp td { padding-top: 4px; }
+      .cmp td::before {
+        content: attr(data-l); display: block;
+        font-size: 12.5px; text-transform: uppercase; letter-spacing: .04em;
+        color: #8b95a1; margin-bottom: 2px;
+      }
+      .cmp td:last-child { background: #F4FBF7; border-radius: 10px; }
+    }
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <a href="/" class="logo">
+      <img src="/favicon.svg" alt="Lingo7" class="logo__img">
+      <span class="logo__text">Lingo7</span>
+    </a>
+    <a href="/" class="header__back">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><polyline points="12 19 5 12 12 5"/></svg>
+      Back to site
+    </a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section class="hero">
+      <h1>Your school can <span>teach differently</span></h1>
+      <p class="hero__sub">Open a Lingo7 class — learning through real reading and interest, not through textbooks. For language schools and private teachers.</p>
+      <a href="#apply" class="cta">Become a partner</a>
+    </section>
+
+    <section class="blk">
+      <h2>The problem</h2>
+      <p>Take any standard textbook — Cambridge, Oxford, any of them. The same topics at every level: the environment, travel, “at the airport”, “ordering in a restaurant”. A student discusses pollution for the fifth time in their years of study — who finds that interesting? The student is bored, progress is slow, and schools are indistinguishable from one another: the only thing left to compete on is price.</p>
+    </section>
+
+    <section class="blk">
+      <h2>A Lingo7 class: what it looks like in your school</h2>
+      <p>The world is far bigger than any textbook. It holds millions of books, and everyone has their own: one set is interesting in Russia, another in Cuba, a third in Argentina. Lingo7 can turn any book into a textbook — with sentence-by-sentence parallel translation, audio, and a dictionary that reminds students to review words. Which means your group’s textbook becomes the book it actually wants to read.</p>
+
+      <h3>The lesson</h3>
+      <p>The group votes on what to read: Harry Potter, a recent bestseller, a book from their own profession. In class you work through a chapter — reading, discussing the plot, looking at grammar and turns of phrase inside a living text rather than in a table. The teacher leads the discussion and the analysis. The technical part — translation, audio, dictionary, spaced review — is handled by the app on each student’s phone.</p>
+
+      <h3>Homework</h3>
+      <p>In an ordinary school homework means “do the exercises”, and everyone hates it. Here homework is one thing: read. You have worked through a chapter in class — now they have three days to read half the book. The student reads not because it was assigned but because they want to know what happens next, and arrives at the next session with something they want to discuss.</p>
+
+      <h3>The 10/90 split</h3>
+      <p>About 10% of the language work happens in class. The other 90% happens at home, as reading that does not feel like study. Those 90% are what produce the result. Six months on, a group that has spent that time reading books it enjoys is a different group: it understands living language and speaks, because it has something to say.</p>
+
+      <h3>A mixed group</h3>
+      <p>If the group is international, that is an advantage in itself. Today you read a Spanish book, tomorrow a French one, the day after a German one. Students from those countries tell the others about their culture and their books — and speak more than anyone, and then the roles change. Speaking practice appears on its own, without artificial topics.</p>
+
+      <p>The school gets not “one more course” but a method nobody else in the city has. And above all, results: students read, speak and do not drop out, because they are interested. Your students’ success is the best proof that partnering with Lingo7 was the right decision — and the best advertisement your school can have.</p>
+
+      <table class="cmp">
+        <thead>
+          <tr><th></th><th>Ordinary school</th><th>Lingo7 school</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Textbook</th>
+            <td data-l="Ordinary school">One for everyone, the same topics at every level</td>
+            <td data-l="Lingo7 school">The book the group chose</td>
+          </tr>
+          <tr>
+            <th>Lesson</th>
+            <td data-l="Ordinary school">Exercises and scripted dialogues</td>
+            <td data-l="Lingo7 school">Reading and discussing a living text</td>
+          </tr>
+          <tr>
+            <th>Homework</th>
+            <td data-l="Ordinary school">Exercises nobody likes</td>
+            <td data-l="Lingo7 school">Keep reading, because it is interesting</td>
+          </tr>
+          <tr>
+            <th>Language volume</th>
+            <td data-l="Ordinary school">Limited to classroom hours</td>
+            <td data-l="Lingo7 school">10% lesson + 90% reading</td>
+          </tr>
+          <tr>
+            <th>What sets the school apart</th>
+            <td data-l="Ordinary school">The same as all the others</td>
+            <td data-l="Lingo7 school">The only one in the city with this method</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="blk">
+      <h2>What you get</h2>
+      <ul>
+        <li>The method and the instructions: how to run sessions in the Lingo7 format.</li>
+        <li>The app for your students.</li>
+        <li>A place in the partner school directory on lingo7.net.</li>
+        <li>Lingo7 partner school status.</li>
+        <li>Distinct positioning: among the identical schools in your city, you are the one teaching through interest and a modern method.</li>
+      </ul>
+      <div class="note"><p>Being a Lingo7 partner school is a signal to the student: this school does not simply sell hours, it invests in development, is open to new technology and cares about results. That is the mark of a strong school — and we help you show it.</p></div>
+    </section>
+
+    <section class="blk">
+      <h2>Terms</h2>
+      <ul>
+        <li>No prepayments, no joining fees, nothing paid up front.</li>
+        <li>A small commission on results — terms are agreed individually.</li>
+        <li>Premises, filling the groups and day-to-day operations are on your side. We are responsible for the method and the technology.</li>
+      </ul>
+    </section>
+
+    <section class="blk">
+      <h2>For private teachers</h2>
+      <p>All of the above works without a school. If you are a tutor or a teacher, gather your own Lingo7-format groups and get the method, the app for your students, and a place in the directory.</p>
+    </section>
+
+    <section class="blk" id="apply">
+      <h2>How to apply</h2>
+      <div class="apply">
+        <p>Write to us:</p>
+        <a class="apply__mail" href="mailto:support@lingo7.net?subject=Lingo7%20school%20partnership">support@lingo7.net</a>
+        <p>Tell us about yourself — this is enough:</p>
+        <ul>
+          <li>the name of the school or the teacher;</li>
+          <li>country and city;</li>
+          <li>website or social media, if you have them;</li>
+          <li>which languages you teach;</li>
+          <li>roughly how many students;</li>
+          <li>a contact that suits you: email or Telegram.</li>
+        </ul>
+        <p>We will get in touch within a few days.</p>
+      </div>
+    </section>
+
+    <section class="blk">
+      <h2>Questions we get</h2>
+      <dl class="faq">
+        <dt>What does it cost?</dt>
+        <dd>Nothing up front. A small commission on results, with terms agreed individually.</dd>
+        <dt>What does it take to start?</dt>
+        <dd>Send an application → a call → you receive the method and the instructions and launch your first class.</dd>
+      </dl>
+      <div class="note">
+        <p>Looking for representative work rather than a school partnership? <a href="/vacancies.html" style="color:#34D399;font-weight:700">See our programme for language students →</a></p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div>
+      <a href="/" class="logo">
+        <img src="/favicon.svg" alt="Lingo7" class="logo__img">
+        <span class="logo__text">Lingo7</span>
+      </a>
+      <p class="footer__copy">&copy; 2024&ndash;2026 SEYU LLC. All rights reserved.</p>
+    </div>
+    <div class="footer__links">
+      <a href="/">Home</a>
+      <a href="/vacancies.html">Representatives</a>
+      <a href="/contacts.html">Contacts</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
