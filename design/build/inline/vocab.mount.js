@@ -1,17 +1,9 @@
-/* Собрано tools/inline_mock.py из design/build/vocab.html — руками не править.
-   Мок остаётся рабочей отдельной страницей; компонент пересобирается из него. */
 window.mountMock_vocab = function (__R, __P) {
-  // Параметры мока (?hold, ?seg=read, ?book=0, ?loop) читаются из location.search.
-  // Подменяем location, чтобы не трогать разбор внутри мока.
   const location = { search: (__P && __P.search) || '' };
 
 (function(){
   const accent = '#1FA45B';
   const coral  = '#D96A5C';
-  // ---- данные ------------------------------------------------------------
-  // Подпись верного ответа — слово на языке ЧИТАТЕЛЯ; картинку выбирают по
-  // слову на изучаемом. Раньше и подпись, и все кнопки были зашиты по-русски,
-  // поэтому упражнение оставалось русским на любой паре.
   const P = (typeof __P !== 'undefined' && __P) || null;
   const UI_DEFAULT = {
   "appUi.vocab.pickRightPicture": "Pick the right picture",
@@ -42,9 +34,6 @@ window.mountMock_vocab = function (__R, __P) {
                    ru: (P && P.vocab && P.vocab.tr) || 'Home' };  // подпись на языке читателя
   const st = { ex:5, selected:null, revealed:false, results:{} };  // results: {exNum: 'ok'|'bad'}
 
-  // Подписи по метке и само изучаемое слово. Раньше и «ЧАСТОЕ», и слово «home»
-  // стояли в разметке литералами: на паре sr←es экран показывал английское
-  // слово при сербской хроме.
   __R.querySelectorAll('[data-ui]').forEach(function (el) {
     const v = UI[el.getAttribute('data-ui')];
     if (v) el.textContent = v;
@@ -60,7 +49,6 @@ window.mountMock_vocab = function (__R, __P) {
     for (let i=0;i<11;i++){
       const res = st.results[i+1];                        // 'ok' | 'bad' | undefined
       const done = i < st.ex-1, current = i === st.ex-1;
-      // результат ответа важнее «просто пройдено»: неверно → красная, верно → зелёная
       let bg;
       if (res === 'bad')       bg = coral;
       else if (res === 'ok')   bg = accent;
@@ -74,7 +62,6 @@ window.mountMock_vocab = function (__R, __P) {
     el.innerHTML = html;
   }
 
-  // ---- варианты (сетка 2×2). Верный тап → зелёная рамка, неверный → коралловая ----
   function optionsHtml(){
     const tiles = OPTS.map(o => {
       const border  = st.selected===o.id ? (o.correct ? accent : coral) : 'transparent';
@@ -87,7 +74,6 @@ window.mountMock_vocab = function (__R, __P) {
     </div>`;
   }
 
-  // ---- reveal: верно → зелёная «Совершенно верно!», неверно → коралловая «Правильный ответ:» ----
   function revealHtml(correct){
     const col   = correct ? accent : coral;
     const title = correct ? T('appUi.vocab.correct') : T('appUi.vocab.rightAnswer');
@@ -137,7 +123,6 @@ window.mountMock_vocab = function (__R, __P) {
   }
   function advance(d){ st.ex = Math.min(11, Math.max(1, st.ex + d)); st.selected = null; st.revealed = false; render(); }
 
-  // клики по плиткам — делегированием (сетка перерисовывается)
   choiceEl.addEventListener('click', e => {
     const t = e.target.closest('[data-id]');
     if (t) pick(t.dataset.id);
@@ -148,13 +133,11 @@ window.mountMock_vocab = function (__R, __P) {
 
   render();
 
-  // ==== авто-демо: запускается, когда экран встроен в карточку блока «цикл» (iframe) или через ?demo ====
   const IFRAME = window.self !== window.top;
   const DEMO = IFRAME || /[?&]demo\b/.test(location.search);
   if (DEMO) startDemo();
 
   function startDemo(){
-    // body трогает только фрейм: у смонтированного компонента это body лендинга
     if (IFRAME) document.body.style.cssText = 'margin:0;padding:0;background:transparent;min-height:0;display:block';
     const screen = __R.querySelector('[data-el="screen"]');
     screen.style.borderRadius = '0'; screen.style.boxShadow = 'none';   // рамку/тень даёт внешняя .phone__frame
@@ -165,10 +148,6 @@ window.mountMock_vocab = function (__R, __P) {
     finger.style.cssText = 'position:absolute;z-index:60;width:44px;height:44px;pointer-events:none;opacity:0;transition:opacity .18s, top .38s ease, left .38s ease;filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))';
     finger.innerHTML = '<svg width="44" height="44" viewBox="0 0 48 48" fill="none"><path d="M19 5c-1.7 0-3 1.3-3 3v17.5l-3.4-3.6a3.1 3.1 0 0 0-4.5 4.3l8.7 10.4c1.4 1.7 3.4 2.6 5.6 2.6h8.1a6 6 0 0 0 6-5.2l1.3-9.7a3.2 3.2 0 0 0-3.2-3.6H22V8c0-1.7-1.3-3-3-3z" fill="#fff" stroke="#2b2b2b" stroke-width="2" stroke-linejoin="round"/></svg>';
     screen.appendChild(finger);
-    // getBoundingClientRect отдаёт координаты ПОСЛЕ transform, а style.left/top
-    // задаются в координатах макета, до него. Во фрейме предков с transform не
-    // было; в карточке «пяти шагов» экран ужат до 0.667, и палец уезжал — тапал
-    // не туда, куда показывает. То же чинилось у ридера и у каталога.
     const scaleOf = () => (screen.offsetWidth
       ? screen.getBoundingClientRect().width / screen.offsetWidth : 1) || 1;
     const fingerTo = el => {
@@ -187,13 +166,11 @@ window.mountMock_vocab = function (__R, __P) {
 
     (async function run(){
       while (true) {
-        // сброс: немного прошлого прогресса + встаём на упражнение 5
         st.ex = 5; st.selected = null; st.revealed = false;
         st.results = { 1:'ok', 2:'ok', 3:'bad', 4:'ok' };
         render(); hideFinger();
         await sleepD(1200);
 
-        // БИТ A — верный ответ (casa): палец скользит по плиткам и выбирает дом
         for (const id of ['seats','hacker','book']){ fingerTo(tile(id)); await sleepD(230); }
         fingerTo(tile('casa')); await sleepD(330); await tapAnim(); clickEl(tile('casa'));   // зелёная рамка, «Готово»
         await sleepD(800);
@@ -202,7 +179,6 @@ window.mountMock_vocab = function (__R, __P) {
         await fTap(skipBtn, 430);   // Вперёд → упражнение 6
         await sleepD(850);
 
-        // БИТ B — неверный ответ (book вместо casa): показываем и коралловое состояние
         for (const id of ['seats','hacker','casa']){ fingerTo(tile(id)); await sleepD(230); }
         fingerTo(tile('book')); await sleepD(330); await tapAnim(); clickEl(tile('book'));    // коралловая рамка
         await sleepD(800);

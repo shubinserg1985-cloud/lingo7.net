@@ -1,4 +1,3 @@
-/* ===== Reset & Base ===== */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -10,9 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== i18n text-length utilities =====
-   Контент переводится на 49 языков (нем./фин. в ~1.7× длиннее англ.).
-   Корень переполнений — min-width:auto у flex/grid-детей. Эти классы стандартизируют устойчивость. */
 .u-wrap-safe {            /* текстовый flex/grid-child, который должен сжиматься уже своего слова */
   min-width: 0;
   overflow-wrap: anywhere;
@@ -58,20 +54,10 @@ a { text-decoration: none; color: inherit; }
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  /* Отступы ТОЛЬКО по горизонтали, и записаны длинно намеренно.
-     Сокращённое «padding: 0 24px» задаёт заодно верх и низ нулями. Элемент
-     шапки несёт два класса сразу — class="container header__inner", — и вес у
-     правил одинаковый: при равном весе побеждает то, что ниже по файлу.
-     Медиазапрос с .container стоит ниже .header__inner, поэтому его нули
-     перебивали padding-top: 14px, и в диапазоне 769-1024 px логотип со
-     значками прилипал к верхнему краю. На ≤768 следом шло своё правило
-     .header__inner и всё чинило, на ≥1025 медиазапрос не действовал — оттого
-     поломка сидела ровно в одной полосе шириной 255 px. */
   padding-left: 40px;
   padding-right: 40px;
 }
 
-/* ===== Shared ===== */
 .section__title {
   font-size: 40px;
   font-weight: 800;
@@ -129,31 +115,10 @@ a { text-decoration: none; color: inherit; }
   border: 1px solid rgba(52, 211, 153, 0.25);
 }
 
-/* i18n: помещается ли шапка — решается ЗАМЕРОМ, а не числом в медиазапросе.
-   Длина подписей меняется от языка к языку в разы: казахское «Қалай жұмыс
-   істейді» ломало ряд даже на широком экране, где брейкпоинт 1024px не
-   срабатывает.
-
-   Ужимается СТУПЕНЧАТО, и порядок здесь содержательный. Первыми уходят бейджи
-   сторов: их дублирует кнопка в первом экране, потеря невелика. Меню уходит
-   только если и без бейджей не влезло — на широком экране прятать навигацию в
-   бургер незачем, места там достаточно. */
 .nav__link { white-space: nowrap; }
 
-/* Наборов кнопок сторов ДВА, и это принципиально: было три, и оба бага в
-   шапке пришли ровно оттуда. Большие бейджи (--desktop) и квадратные значки
-   (--compact). Третий набор, --mobile, дублировал значки своими картинками и
-   существовал только ради телефона; из-за него в коридоре 769-1024 px не
-   показывался НИ ОДИН набор: бейджи там уже спрятаны медиазапросом, значки
-   включались только ступенью ужимания, а она на 804 px не срабатывала,
-   потому что ряд помещался. На 749 px кнопки были, на 804 их не было.
-
-   Порядок правил ниже значим: вес у них 0,2,0 и 0,3,0, при равном побеждает
-   стоящее ниже. Специфичность выше, чем у общего .header__right, - то
-   правило объявлено ниже по файлу и при равном весе перебивало скрытие. */
 .header .header__right--compact { display: none; gap: 8px; }
 
-/* Всё, что уже не широкий экран: бейджей нет, значит стоят значки. */
 @media (max-width: 1024px) {
   .header .header__right--compact { display: flex; }
 }
@@ -161,8 +126,6 @@ a { text-decoration: none; color: inherit; }
 .header.is-tight .header__right--desktop { display: none; }
 .header.is-tight .header__right--compact { display: flex; }
 
-/* Квадратная кнопка со значком: ширина задаётся значком, а не текстом, поэтому
-   от языка не зависит вовсе. */
 .store-icon {
   display: inline-flex;
   align-items: center;
@@ -180,11 +143,6 @@ a { text-decoration: none; color: inherit; }
 .header.is-tighter .nav { display: none; }
 .header.is-tighter .burger { display: flex; }
 
-/* Вторая ступень на узком экране: у переключателя языка остаётся только значок.
-   Подпись — это название языка НА НЁМ САМОМ, и «беларуская мова» вдвое длиннее
-   «Deutsch»; ширину под неё не задать, любое число обрежет часть языков.
-   Список при этом остаётся полным: <select> лежит прозрачным поверх значка, и
-   нажатие открывает системный выбор с целыми названиями. */
 .header.is-tighter .langswitch {
   position: relative;
   width: 34px;
@@ -202,31 +160,15 @@ a { text-decoration: none; color: inherit; }
   border: 0;
   opacity: 0;
   background: none;
-  /* Размер шрифта у <select> один на подпись И на раскрытый список — развести
-     их нельзя. На узком экране подпись ужата до 13px ради ширины, и вместе с
-     ней мельчал список из 49 языков. Здесь подписи не видно вовсе, поэтому
-     ужимать нечего. 16px — не вкус, а порог: ниже него iOS приближает страницу
-     при фокусе на поле. 20px — верх осмысленного: дальше нативный список
-     упирается в системные метрики и крупнее не становится. */
   font-size: 20px;
 }
 
-/* Третья ступень: значки сторов уходят совсем. Это последнее, чем можно
-   пожертвовать, и жертва невелика — кнопка загрузки стоит в первом же экране.
-   Правило обязано идти ПОСЛЕ «is-tight», а не до: вес у них одинаковый (три
-   класса), и при равном весе побеждает то, что ниже по файлу. Ровно на этом
-   один раз уже попались — два комплекта значков висели рядом. */
 .header.is-tightest .header__right--compact { display: none; }
 
-/* ===== Переключатель языка интерфейса ===== */
 .langswitch {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  /* Всё свободное место уходит СЮДА, одним промежутком. При space-between оно
-     делилось поровну между логотипом, языком, бургером и значками: на 900 px
-     это три пустоты по 140-154 px, и ряд читался как четыре случайных
-     предмета. Теперь слева бренд, справа — собранная группа управления. */
   margin-left: auto;
 }
 
@@ -237,8 +179,6 @@ a { text-decoration: none; color: inherit; }
   color: #7b8794;
 }
 
-/* Ширину НЕ задаём: названия языков на них самих различаются в разы —
-   от «Ελληνικά» до «Bahasa Indonesia», — и любое число здесь обрежет часть. */
 .langswitch__select {
   appearance: none;
   -webkit-appearance: none;
@@ -259,15 +199,9 @@ a { text-decoration: none; color: inherit; }
 
 @media (max-width: 720px) {
   .langswitch { margin-left: auto; }
-  /* 13px тут стояли ради ширины ряда — и вместе с подписью мельчал список из
-     49 языков, потому что у <select> размер один на то и на другое. Ужимать
-     подпись ради ряда больше не нужно: если с 16px ряд не помещается, замер в
-     langswitch.js сам уведёт шапку на следующую ступень, где подписи не будет
-     вовсе. Пусть решает измерение, а не заниженный шрифт. */
   .langswitch__select { padding: 4px 22px 4px 8px; font-size: 16px; }
 }
 
-/* ===== Header ===== */
 .header {
   position: fixed;
   top: 0;
@@ -285,20 +219,11 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
   justify-content: space-between;
 
-  /* Зазор обязателен: при полном ряде логотип упирался в первый пункт меню,
-     и на длинных локалях они читались одним словом — «Lingo7Как это работает». */
   gap: 20px;
   padding-top: 14px;
   padding-bottom: 14px;
 }
 
-/* Ничто в шапке не сжимается. Пока сжималось, ломались сразу две вещи.
-   Видимая: бургер, заданный как 36x36, на тесном ряду становился 12 px в
-   ширину — по нему уже не попасть пальцем. Невидимая и худшая: пока флекс-
-   элементы уступают место, scrollWidth НЕ превышает clientWidth, а именно
-   на этом сравнении держится fitHeader(). Ряд не помещался, но переполнения
-   не было, и ни одна ступень ужимания не включалась. Запрет сжатия делает
-   замер честным: не влезло — значит видно. */
 .header__inner > * { flex-shrink: 0; }
 
 .logo {
@@ -369,7 +294,6 @@ a { text-decoration: none; color: inherit; }
 .store-link:hover { border-color: #34D399; }
 .store-link__img { height: 100%; width: auto; }
 
-/* ===== 1. Hero ===== */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -413,10 +337,6 @@ a { text-decoration: none; color: inherit; }
 .hero__inner {
   position: relative;
   z-index: 1;
-  /* Флекс-элемент по умолчанию не сжимается ниже своего содержимого
-     (min-width: auto) — тот самый корень переполнений, о котором сказано в
-     шапке файла. Внутри лежит бегущая лента шириной 100vw, и без этой строки
-     .hero__inner раздувался шире экрана, утаскивая за собой всю страницу. */
   min-width: 0;
   display: flex;
   align-items: center;
@@ -466,7 +386,6 @@ a { text-decoration: none; color: inherit; }
   display: none;
 }
 
-/* Phone frame (shared) */
 .phone__frame {
   background: #fff;
   border-radius: 28px;
@@ -483,7 +402,6 @@ a { text-decoration: none; color: inherit; }
   object-position: top;
 }
 
-/* Hero showcase */
 .hero__showcase {
   position: relative;
   flex: 0 0 420px;
@@ -501,7 +419,6 @@ a { text-decoration: none; color: inherit; }
   align-items: center;
 }
 
-
 .phone__frame--hero {
   width: 264px;
   height: 568px;         /* чуть больше выреза безеля, чтобы экран заходил под его кромку (без щели) */
@@ -514,7 +431,6 @@ a { text-decoration: none; color: inherit; }
   position: relative;   /* контекст для .hero__screen (стек экранов hero) */
 }
 
-/* our reader.html mock, embedded & scaled to the phone frame (390×844 → 260×563) */
 .hero__reader-frame {
   width: 390px;
   height: 844px;
@@ -524,7 +440,6 @@ a { text-decoration: none; color: inherit; }
   transform-origin: top left;
 }
 
-/* экраны hero-анимации (библиотека + ридер) — стек, переключаемые прозрачностью */
 .hero__screen {
   position: absolute;
   top: 0;
@@ -535,7 +450,6 @@ a { text-decoration: none; color: inherit; }
 #heroLibrary { z-index: 2; }   /* библиотека — первый экран, сверху */
 #heroReader  { z-index: 1; }
 
-/* живые экраны блока «цикл»: мок 390×844, масштабированный в рамку карточки (тот же приём, что hero) */
 .phone__frame--cycle {
   width: 270px;          /* как .phone__frame--sm; border-box: контент 260 (−5px рамки с каждой стороны) */
   height: 572px;         /* 260×(844/390)=562.7 контента + 10 рамки; низ чуть уходит под overflow:hidden */
@@ -554,19 +468,8 @@ a { text-decoration: none; color: inherit; }
   pointer-events: none;       /* чистая анимация — демо тапает синтетически, пользователь не вмешивается */
 }
 
-
-
-/* Маскот лежит в <picture> ради WebP: 1629 КБ PNG на первом экране почти
-   наверняка были LCP. После уменьшения до 600 px (показывается 299) и WebP —
-   63 КБ, в двадцать шесть раз меньше. Обёртке нужен display: contents, иначе
-   она встанет между позиционированием и картинкой. */
 .hero__mascot, .hero__speech-mascot, .goal-quote__mascot {
   display: block;
-  /* width: auto обязателен. Атрибуты width/height у <img> нужны, чтобы браузер
-     занял место до загрузки, но width при этом становится подсказкой вёрстки и
-     перебивает автоширину: маскот при height: 299px растягивался в 600×299
-     вместо квадрата. Явное auto возвращает пропорции, а высота из атрибутов
-     остаётся работать на резервирование места. */
   width: auto;
 }
 
@@ -592,7 +495,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   pointer-events: none;
 }
 
-/* Vocabulary deck — overlapping cards */
 .vocab-deck {
   display: flex;
   align-items: stretch;
@@ -629,7 +531,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 .vocab-card:nth-child(3) { z-index: 3; }
 .vocab-card:nth-child(4) { z-index: 4; }
 .vocab-card:nth-child(5) { z-index: 5; }
-
 
 .vocab-card__en {
   font-size: 11px;
@@ -677,7 +578,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   to { transform: scale(1); opacity: 1; }
 }
 
-/* Tap finger */
 .reader__finger {
   position: absolute;
   z-index: 30;
@@ -700,7 +600,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   50% { transform: scale(0.85); }
 }
 
-/* Catalog overlay */
 .reader__catalog {
   position: absolute;
   top: 3px;
@@ -726,7 +625,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   object-position: bottom;
 }
 
-/* Reader mock */
 .reader {
   width: 100%;
   height: 100%;
@@ -905,7 +803,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   padding: 0 4px;
 }
 
-/* Highlighted translation word */
 .reader__ru-hl {
   background: rgba(249, 115, 22, 0.18);
   color: #c2410c;
@@ -915,7 +812,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   transition: background 0.3s;
 }
 
-/* Tapped word */
 .reader__word.is-tapped {
   background: #f97316;
   color: #fff;
@@ -924,7 +820,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin: -1px -3px;
 }
 
-/* Word popup bar */
 .reader__popup {
   position: absolute;
   bottom: 8px;
@@ -979,7 +874,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   stroke: #fff;
 }
 
-/* Word card overlay */
 .reader__card {
   position: absolute;
   inset: 0;
@@ -1073,7 +967,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   line-height: 1.4;
 }
 
-/* Toast notification */
 .reader__toast {
   position: absolute;
   bottom: 60px;
@@ -1100,8 +993,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   transform: translateX(-50%) translateY(0);
 }
 
-
-/* ===== 2. Trust-strip ===== */
 .trust {
   padding: 48px 0;
   background: #fff;
@@ -1141,7 +1032,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   line-height: 1.3;
 }
 
-/* ===== 3. Compare-block ===== */
 .compare {
   padding: 100px 0;
   background: #f9fafb;
@@ -1250,7 +1140,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   font-weight: 500;
 }
 
-/* ===== 4. Method (7 skills grid) ===== */
 .method {
   padding: 100px 0;
   background: #fff;
@@ -1305,7 +1194,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: #555;
 }
 
-/* Conductor — smart-algorithm band (coming soon) */
 .conductor {
   margin-top: 56px;
   background: linear-gradient(135deg, #0e2a22 0%, #0c1a26 100%);
@@ -1462,7 +1350,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .conductor__caption { margin-top: 28px; }
 }
 
-/* ===== 5. Steps ===== */
 .steps {
   padding: 100px 0;
   background: #f9fafb;
@@ -1547,7 +1434,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin-right: auto;
 }
 
-/* ===== 6. Library ===== */
 .library {
   padding: 100px 0;
   background: #fff;
@@ -1721,7 +1607,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   border-width: 5px;
 }
 
-/* ===== 7. Demo ===== */
 .demo {
   padding: 100px 0;
   background: #f9fafb;
@@ -1733,12 +1618,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  /* Отрицательное поле обязано совпадать с отступом .container: приём «во всю
-     ширину» вытягивает полосу ровно на padding контейнера в каждую сторону.
-     Отступ меняется по ширине экрана (40 → 24 → 16), значит и поле обязано —
-     иначе полоса вылезает за экран и появляется горизонтальная прокрутка.
-     Переопределение под 768 px было, под 1024 — нет, и в полосе 769-1024
-     страница была шире экрана на 32 px. Ни одна проверка этого не видела. */
   padding: 0 40px 20px;
   margin: 0 -40px;
   scrollbar-width: none;
@@ -1774,7 +1653,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: #1a1a2e;
 }
 
-/* Pill NEW variant */
 .pill--new {
   background: rgba(52, 211, 153, 0.15);
   border-color: #34D399;
@@ -1795,7 +1673,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   letter-spacing: 0.05em;
 }
 
-/* ===== Wow-banner: Custom Book ===== */
 .custom-book {
   padding: 100px 0;
   background: linear-gradient(135deg, #ecfdf5 0%, #f0fdf4 50%, #fff 100%);
@@ -1835,7 +1712,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin: 0 auto;
 }
 
-/* Two cards side by side */
 .custom-book__cards {
   display: flex;
   align-items: stretch;
@@ -1867,7 +1743,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin-bottom: 20px;
 }
 
-/* Book shelf inside card */
 .custom-book__shelf {
   display: flex;
   gap: 8px;
@@ -1889,7 +1764,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   transform: translateY(-3px) scale(1.05);
 }
 
-/* Use cases inside card */
 .custom-book__usecases {
   display: grid;
   grid-template-columns: 1fr 1fr;   /* 2 колонки; min-width:0 на плитке не даёт длинному слову распереть */
@@ -1915,7 +1789,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: #1a1a2e;
 }
 
-/* Steps */
 .custom-book__steps {
   display: flex;
   justify-content: center;
@@ -1992,7 +1865,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: #888;
 }
 
-/* Goal quote — mascot speech bubble */
 .goal-quote {
   display: flex;
   align-items: center;
@@ -2069,7 +1941,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin-top: 32px;
 }
 
-/* Adaptation band */
 .custom-book__adapt {
   display: flex;
   align-items: center;
@@ -2103,13 +1974,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin-bottom: 14px;
 }
 
-/* Выделение смыслового слова. Общее правило, а не привязанное к одному
-   заголовку: слот {target} стоит в разных местах фразы — в немецком первым
-   словом, в грузинском в середине, — и цепляться оно должно за само слово.
-
-   Тон глубокий (#059669), а не мятный: на 60-пиксельном заголовке насыщенности
-   #34D399 не хватает, буквы выглядят выцветшими. Оба цвета на странице уже
-   есть, новый не заводился. */
 .accent { color: #059669; }
 
 .custom-book__adapt-text {
@@ -2153,8 +2017,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 
 .custom-book__adapt-point strong { color: #1a1a2e; }
 
-
-/* ===== 8. Audience ===== */
 .audience {
   padding: 80px 0;
   background: #fff;
@@ -2196,7 +2058,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: #1a1a2e;
 }
 
-/* ===== 9. Pains ===== */
 .pains {
   padding: 100px 0;
   background: #f9fafb;
@@ -2265,7 +2126,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   line-height: 1.6;
 }
 
-/* ===== 10. Languages ===== */
 .languages {
   padding: 80px 0;
   background: #fff;
@@ -2334,14 +2194,7 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   border-radius: 3px;
 }
 
-/* На узком экране плашка языка съедает всю строку: 199 px при доступных 358.
-   49 языков превращались в 49 строк — блок вырастал до 1600-2200 px, три
-   экрана подряд из одних плашек. Уплотняем так, чтобы вставали ПО ДВЕ:
-   флаг мельче, шрифт 13px, отступы уже. Ширина самой длинной подписи
-   («Bahasa Indonesia», «беларуская мова») при этом остаётся в габарите. */
 @media (max-width: 560px) {
-  /* Шаг строки тоже считается: 49 плашек по две в ряд — это 25 строк, и
-     каждый лишний пиксель отступа умножается на 25. */
   .languages__grid { gap: 6px; }
   .lang-chip {
     gap: 6px;
@@ -2351,12 +2204,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   }
   .lang-chip img { width: 18px; }
 
-  /* Показываем ТОЛЬКО название языка. Подпись плашки — «Учить {target}», и
-     глагол повторяется 49 раз; на 360 px самая длинная плашка занимала 206 px
-     при доступных 326, и блок вырастал до 1988 px. Гасим шрифт у плашки и
-     возвращаем его названию: порядок слов в разных языках разный, а так он
-     неважен вовсе. Текст «Учить» остаётся в разметке и читается с экрана —
-     скрыт он только для глаза. */
   .lang-chip { font-size: 0; }
   .lang-chip .lang-chip__name { font-size: 13px; }
 }
@@ -2406,7 +2253,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   100% { transform: translateX(-50%); }
 }
 
-/* ===== 11. Reviews ===== */
 .reviews {
   padding: 100px 0;
   background: #f9fafb;
@@ -2418,12 +2264,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  /* Отрицательное поле обязано совпадать с отступом .container: приём «во всю
-     ширину» вытягивает полосу ровно на padding контейнера в каждую сторону.
-     Отступ меняется по ширине экрана (40 → 24 → 16), значит и поле обязано —
-     иначе полоса вылезает за экран и появляется горизонтальная прокрутка.
-     Переопределение под 768 px было, под 1024 — нет, и в полосе 769-1024
-     страница была шире экрана на 32 px. Ни одна проверка этого не видела. */
   padding: 0 40px 20px;
   margin: 0 -40px;
   scrollbar-width: none;
@@ -2492,7 +2332,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   box-shadow: 0 8px 32px rgba(0,0,0,0.08);
 }
 
-/* Review modal */
 .review-modal {
   position: fixed;
   inset: 0;
@@ -2551,7 +2390,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   z-index: 1;
 }
 
-/* ===== 12. FAQ ===== */
 .faq {
   padding: 100px 0;
   background: #fff;
@@ -2613,7 +2451,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   line-height: 1.6;
 }
 
-/* ===== 13. Final CTA ===== */
 .final-cta {
   padding: 100px 0;
   background: linear-gradient(135deg, #34D399 0%, #0d9668 100%);
@@ -2667,9 +2504,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 .final-cta__store-buttons .store-btn {
   display: inline-flex;
   transition: transform 0.2s;
-  /* Базовые 44px тут не годятся: картинка внутри выше, и нижние 12 пикселей
-     бейджа оказывались ЗА пределами ссылки — нажатие по ним не срабатывало.
-     Видно этого не было: у .store-btn нет ни фона, ни рамки. */
   height: auto;
 }
 
@@ -2682,10 +2516,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   height: 56px;
 }
 
-/* На узком экране бейджи ужимаются, но остаются бейджами: ширина считается от
-   высоты по собственным пропорциям (2.99 у Apple, 3.38 у Google), а не задаётся
-   числом. При 44px это 132 + 12 + 149 = 293 px — помещается в ряд на 390 px, а
-   если не поместится, flex-wrap перенесёт второй бейдж на строку ниже. */
 @media (max-width: 480px) {
   .final-cta__store-buttons { gap: 12px; }
   .final-cta__store-buttons img { height: 44px; }
@@ -2704,7 +2534,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   color: rgba(255,255,255,0.9);
 }
 
-/* ===== 14. Footer ===== */
 .footer {
   padding: 48px 0;
   background: #1a1a2e;
@@ -2733,10 +2562,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   margin-top: 16px;
 }
 
-/* Ряд языковых версий в подвале. Он не украшение: до него ни на один хаб и
-   ни на одну страницу пары не вело ни одной ссылки — плашки языков стоят с
-   href="#", переход делает JS, а страница без входящих ссылок для поисковика
-   сирота. Набран мелко и приглушённо: это служебная навигация, а не призыв. */
 .langnav {
   display: flex;
   flex-wrap: wrap;
@@ -2756,9 +2581,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 
 .langnav a:hover { color: #34D399; }
 
-/* Коды для установки — ТОЛЬКО на большом экране. На телефоне QR бесполезен:
-   отсканировать собственный экран нечем, а место он съедает. Показываем с
-   900 px, где в подвале есть свободная колонка. */
 .footer__qr { display: none; }
 
 @media (min-width: 900px) {
@@ -2785,8 +2607,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 }
 
 .footer__qr-item img {
-  /* Белая подложка обязательна: код тёмный, а подвал тоже тёмный, и без
-     подложки сканеру не за что зацепиться. Поля внутри SVG уже есть. */
   display: block;
   width: 92px;
   height: 92px;
@@ -2846,7 +2666,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   font-size: 14px;
 }
 
-/* ===== Sticky CTA (mobile only) ===== */
 .sticky-cta {
   display: none;
   position: fixed;
@@ -2862,18 +2681,12 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   border-top: 1px solid rgba(0,0,0,0.06);
 }
 
-/* ===== Burger & Mobile Menu ===== */
 .burger {
   display: none;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  /* Крайний справа: в разметке бургер стоит ПЕРЕД значками сторов, и на
-     экране оказывался между языком и ними. Переставлять разметку нельзя —
-     её пишут инжекторы, — а порядок отображения задаётся здесь. */
   order: 1;
-  /* 40x40, как у значков сторов рядом. Было 36 — рядом с сорока это читалось
-     как случайность, а по маленькой кнопке ещё и труднее попасть. */
   width: 40px;
   height: 40px;
   background: none;
@@ -2940,13 +2753,9 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .burger { display: flex; }
 }
 
-/* ===== Responsive ===== */
-
 @media (max-width: 1024px) {
   .container { padding-left: 24px; padding-right: 24px; }
 
-  /* i18n: переключаемся в бургер уже с 1024px — на длинных локалях nav (5 ссылок) + бейджи сторов
-     не помещаются в ряд шапки в диапазоне 769-1024 и налезают друг на друга */
   .nav { display: none; }
   .header__right--desktop { display: none; }
   .burger { display: flex; }
@@ -2957,13 +2766,8 @@ picture:has(> .goal-quote__mascot) { display: contents; }
     gap: 40px;
   }
 
-  /* Стрелки карусели вынесены на 52px вбок от телефона, а отступ контейнера
-     здесь 24px — они уезжают за край экрана на 28px и тянут за собой
-     горизонтальную прокрутку всей страницы. На ≤768 дизайн их уже прятал;
-     полоса 769-1024 была пропущена. Листание остаётся точками под телефоном. */
   .library__arrow { display: none; }
 
-  /* Полосы «во всю ширину» — под отступ контейнера этой ширины (24px). */
   .demo__slider,
   .reviews__grid {
     padding-left: 24px;
@@ -2977,17 +2781,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .hero__title { font-size: 38px; }
 
   .hero__pills--desktop { display: none; }
-  /* Полоса «во всю ширину». Отрицательные поля по обе стороны равны отступу
-     .container этой ширины — тогда полоса ровно достаёт до краёв экрана.
-     Было width: 100vw и одно поле -16px под отступ 16px, то есть под ДРУГУЮ
-     ширину экрана: в полосе 769-1024 контейнер даёт 24px, и лента вылезала
-     за экран на 32px, добавляя горизонтальную прокрутку всей странице.
-
-     Ширина остаётся 100vw. Пробовал убрать её в пользу width:auto с полями по
-     обе стороны — стало хуже: лента внутри идёт с white-space:nowrap, и без
-     заданной ширины она раздувала минимальную ширину .hero__inner до его
-     max-width в 1200 px. Ширину задаём, а к краям притягиваем ОДНИМ полем
-     слева, равным отступу контейнера. */
   .hero__pills--mobile {
     display: block;
     width: 100vw;
@@ -3020,13 +2813,7 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .phone__frame--hero { width: 235px; height: 504px; border-radius: 17px; }
   .hero__reader-frame { transform: scale(0.6026); }
   .phone__shell { width: 242px; height: 510px; left: -4px; top: 0; }
-  /* колода — уменьшаем под более узкий телефон (235px), чтобы не выступала по бокам */
   .vocab-deck { max-width: 235px; }
-  /* Плашки НЕ уменьшаем. Здесь стояли 10px на слово и 7px на перевод — семь
-     пикселей нечитаемы вовсе. И нужды в этом нет: колода клипует лишние
-     плашки сама (overflow: clip, justify-content: flex-end — старые уходят
-     под обрез, новейшая видна), а три плашки в полный размер занимают 120px
-     при доступных 235. Ужимали место, которого хватало. */
 
   .section__title { font-size: 32px; }
 
@@ -3153,8 +2940,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
     padding: 6px 6px 8px;
   }
 
-
-
   .header__right--desktop { display: none; }
 
   .phone__frame--hero { width: 283px; height: 610px; border-radius: 20px; }
@@ -3176,7 +2961,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
 
   .method { padding: 40px 0; }
 
-  /* Steps: vertical */
   .steps { padding: 40px 0; }
   .steps__grid { flex-direction: column; align-items: center; gap: 40px; }
   .steps__card { max-width: 300px; width: 100%; text-align: center; display: flex; flex-direction: column; align-items: center; padding: 0; }
@@ -3187,7 +2971,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .cycle__screen { transform: scale(0.6923); }             /* 270/390 */
   .steps__connector { display: none; }
 
-  /* Library: tabs + panels */
   .library { padding: 40px 0; }
   .library__tabs {
     display: flex;
@@ -3221,7 +3004,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .library__screen { transform: scale(0.692); }                         /* 270/390 */
   .library__badges { justify-content: center; }
 
-  /* Custom book banner */
   .custom-book { padding: 48px 0; }
   .custom-book__header { margin-bottom: 32px; }
   .custom-book__title { font-size: 26px; }
@@ -3235,49 +3017,40 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .custom-book__steps { flex-direction: column; gap: 16px; }
   .custom-book__step { text-align: left; }
 
-  /* Demo: smaller */
   .demo { padding: 40px 0; }
   .demo__slider { padding: 0 16px 16px; margin: 0 -16px; gap: 16px; }
   .phone__frame--demo { width: 170px; height: 340px; border-radius: 22px; border-width: 4px; }
   .demo__caption { font-size: 13px; }
 
-  /* Audience */
   .audience { padding: 40px 0; }
   .audience__grid { gap: 10px; }
   .audience__card { padding: 14px 18px; }
   .audience__card span { font-size: 14px; }
 
-  /* Pains */
   .pains { padding: 40px 0; }
   .pains__chips { gap: 8px; }
   .pains__chip { padding: 8px 16px; font-size: 14px; }
   .pains__answer { padding: 24px 20px; }
 
-  /* Languages */
   .languages { padding: 40px 0; }
 
-  /* Reviews */
   .reviews { padding: 40px 0; }
   .reviews__grid { padding: 0 16px 16px; margin: 0 -16px; gap: 12px; }
   .reviews__card { flex: 0 0 280px; padding: 24px 20px; }
 
-  /* FAQ */
   .faq { padding: 40px 0; }
   .faq__q { font-size: 15px; }
 
-  /* Final CTA */
   .final-cta { padding: 40px 0; }
   .final-cta__title { font-size: 26px; }
   .final-cta__text { font-size: 16px; }
   .btn--lg { padding: 18px 40px; font-size: 16px; }
   .final-cta__perks { flex-wrap: wrap; gap: 12px; justify-content: center; }
 
-  /* Footer */
   .footer__inner { flex-direction: column; gap: 28px; align-items: flex-start; }
   .footer__links { flex-wrap: wrap; gap: 16px; }
   .footer__input { width: 160px; }
 
-  /* Show sticky CTA on mobile */
   .sticky-cta { display: none; }
   .sticky-cta.is-visible { display: block; }
   body { padding-bottom: 0; }
@@ -3293,7 +3066,6 @@ picture:has(> .goal-quote__mascot) { display: contents; }
   .store-link { height: 36px; }
 }
 
-/* ===== Download Modal ===== */
 .download-modal {
   display: none;
   position: fixed;

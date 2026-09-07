@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<!-- Собрано tools/build_locale_page.py из page.html — руками не править.
-     Пара hu←en. Правки текста идут в page.html, затем
-     python3 tools/extract_i18n.py --write и пересборка. -->
 
 <html lang="hu" data-pair="hu-en">
 <head>
@@ -9,12 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="meta.title">Tanulj angolul olvasással: kétnyelvű könyvek hanggal</title>
   <meta name="description" content="Olvass könyveket angolul, magyar fordítással és hanggal, mentsd a szavakat, ismételd őket időzítve, gyakorolj shadowinggal, és beszélgess az MI-vel.">
-  <!-- page.html — ИСХОДНИК, из которого собирается дерево, и одновременно
-       файл репозитория: GitHub Pages отдаёт его по адресу /page.html как
-       обычную страницу. Там он выглядит почти как «/», только с несделанными
-       подстановками вместо названий языков — то есть худшей копией главной.
-       Запрет снимается сборкой: head() в l7_build_tree.py стирает эту строку
-       из каждой собранной страницы и ставит свою, где нужно. -->
+  
   <link rel="canonical" href="https://lingo7.net/hu/">
   <link rel="alternate" hreflang="x-default" href="https://lingo7.net/">
   <link rel="alternate" hreflang="en" href="https://lingo7.net/">
@@ -67,7 +59,7 @@
   <link rel="alternate" hreflang="vi" href="https://lingo7.net/vi/">
   <link rel="alternate" hreflang="zu" href="https://lingo7.net/zu/">
 
-  <!-- Open Graph -->
+  
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://lingo7.net/hu/">
   <meta property="og:title" content="Tanulj angolul olvasással: kétnyelvű könyvek hanggal">
@@ -76,7 +68,7 @@
   <meta property="og:locale" content="hu">
   <meta property="og:site_name" content="Lingo7">
 
-  <!-- Twitter -->
+  
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Tanulj angolul olvasással: kétnyelvű könyvek hanggal">
   <meta name="twitter:description" content="Olvass könyveket angolul úgy, hogy a magyar fordítás ott van mellettük. Mentsd a szavakat egy koppintással, és ismételd őket időzítve.">
@@ -97,7 +89,7 @@
 </head>
 <body>
 
-  <!-- Header -->
+  
   <header class="header">
     <div class="container header__inner">
       <a href="#" class="logo">
@@ -111,7 +103,7 @@
         <a data-i18n="nav.links[3]" href="#reviews" class="nav__link">Vélemények</a>
         <a data-i18n="nav.links[4]" href="#faq" class="nav__link">GYIK</a>
       </nav>
-        <!-- langswitch:select -->
+        
         <label class="langswitch">
           <svg class="langswitch__globe" viewBox="0 0 20 20" aria-hidden="true"
                fill="none" stroke="currentColor" stroke-width="1.4">
@@ -171,7 +163,7 @@
             <option value="ka">ქართული</option>
           </select>
         </label>
-        <!-- /langswitch:select -->
+        
               <button class="burger" id="burger" aria-label="Меню">
         <span></span><span></span><span></span>
       </button>
@@ -183,9 +175,7 @@
           <img src="/pics/badges/googleplay-wikimedia.svg" alt="Google Play" height="40">
         </a>
       </div>
-        <!-- Компактные кнопки сторов: те же ссылки, что у бейджей. Показываются
-             вместо них, когда ряд шапки не помещается — на длинных локалях
-             подписи меню вдвое длиннее русских. -->
+        
         <div class="header__right header__right--compact">
           <a href="https://apps.apple.com/us/app/lingo7-reading-audio/id6471030440"
              class="store-icon" target="_blank" rel="noopener" aria-label="App Store">
@@ -207,29 +197,10 @@
     <a data-i18n="mobileMenu.links[4]" href="#faq" class="mobile-menu__link">GYIK</a>
   </div>
 
-  <!-- Основное содержимое страницы.
-
-       <main> здесь не украшение и не для поисковика: сказать поисковику
-       «смотри сюда» произвольным атрибутом нельзя, он определяет сердцевину
-       сам. Тег нужен по двум другим причинам.
-
-       Первая — это верная разметка: у страницы появляется ориентир main для
-       читалок с экрана, и посетитель с клавиатуры перескакивает навигацию
-       одним нажатием.
-
-       Вторая — измерительная. Google, по словам собственных инженеров,
-       считает похожесть страниц НЕ по всему документу: навигация и подвал
-       из подсчёта выбрасываются, сравнивается сердцевина. Наш аудит мерил
-       по документу целиком — вместе с подвалом на 49 nyelv, — и оттого его
-       число отвечало не на тот вопрос. Теперь граница объявлена явно, и
-       считать можно ровно то, что считает поиск.
-
-       Снаружи остаются шапка, выпадающее меню, подвал и окно загрузки:
-       они одинаковы на всех 2352 страницах и к предмету страницы отношения
-       не имеют. -->
+  
   <main>
 
-  <!-- 1. Hero -->
+  
   <section class="hero">
     <div class="hero__bg">
       <div class="hero__wave hero__wave--1"></div>
@@ -263,16 +234,16 @@
           <div class="phone__frame phone__frame--hero">
             <div id="heroReader" class="hero__reader-frame hero__screen mock--reader"
                  role="img" aria-label="Демонстрация чтения в Lingo7">
-              <!-- mock:reader:markup -->
+              
               <div data-el="reader" style="width:390px;height:844px;margin:0 auto;background:#ffffff;display:flex;flex-direction:column;position:relative;overflow:hidden;border-radius:28px;box-shadow:0 8px 40px rgba(0,0,0,.18)">
               
-                <!-- status bar -->
+                
                 <div style="height:52px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:10px 26px 0 34px">
                   <span style="font-size:17px;font-weight:700;color:#17181A;letter-spacing:-0.3px">21:00</span>
                   <img loading="lazy" src="/design/build/assets/icons/status.png" alt="" style="height:13.5px;width:auto;display:block">
                 </div>
               
-                <!-- header -->
+                
                 <div style="flex:none;display:flex;align-items:center;gap:10px;padding:8px 14px 10px;border-bottom:1px solid #e3e1d8">
                   <span style="width:40px;height:40px;flex:none;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:10px">
                     <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#1d2733" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 18l-6-6 6-6"></path></svg>
@@ -297,9 +268,9 @@
                   </span>
                 </div>
               
-                <!-- scroll -->
+                
                 <div class="rd-scroll" data-el="scroll" style="flex:1;overflow-y:auto;padding:20px 15px 150px;position:relative">
-                  <!-- centered title block -->
+                  
                   <div style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:20px">
                     <div style="display:flex;align-items:center;gap:11px">
                       <span style="font-size:20px;font-weight:700;color:#2b3440;letter-spacing:-.2px" data-book="title">The Curious Case of Benjamin Button</span>
@@ -311,7 +282,7 @@
               
                   <div data-el="paras"><div style="margin-bottom:24px"><p class="rd-line" data-p="0" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="0" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="0" data-k="0">In</span> <span class="w" data-p="0" data-k="1">1860,</span> <span class="w" data-p="0" data-k="2">it</span> <span class="w" data-p="0" data-k="3">was</span> <span class="w" data-p="0" data-k="4">still</span> <span class="w" data-p="0" data-k="5">believed</span> <span class="w" data-p="0" data-k="6">that</span> <span class="w" data-p="0" data-k="7">one</span> <span class="w" data-p="0" data-k="8">ought</span> <span class="w" data-p="0" data-k="9">to</span> <span class="w" data-p="0" data-k="10">be</span> <span class="w" data-p="0" data-k="11">born</span> <span class="w" data-p="0" data-k="12">at</span> <span class="w" data-p="0" data-k="13">home.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="0" data-k="0" style="border-radius:3px">1860-ban</span> <span class="tw" data-p="0" data-k="1" style="border-radius:3px">még</span> <span class="tw" data-p="0" data-k="2" style="border-radius:3px">úgy</span> <span class="tw" data-p="0" data-k="3" style="border-radius:3px">tartották,</span> <span class="tw" data-p="0" data-k="4" style="border-radius:3px">hogy</span> <span class="tw" data-p="0" data-k="5" style="border-radius:3px">az</span> <span class="tw" data-p="0" data-k="6" style="border-radius:3px">embernek</span> <span class="tw" data-p="0" data-k="7" style="border-radius:3px">otthon</span> <span class="tw" data-p="0" data-k="8" style="border-radius:3px">kell</span> <span class="tw" data-p="0" data-k="9" style="border-radius:3px">megszületnie.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="1" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="1" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="1" data-k="0">Nowadays,</span> <span class="w" data-p="1" data-k="1">rumor</span> <span class="w" data-p="1" data-k="2">has</span> <span class="w" data-p="1" data-k="3">it,</span> <span class="w" data-p="1" data-k="4">the</span> <span class="w" data-p="1" data-k="5">high</span> <span class="w" data-p="1" data-k="6">priests</span> <span class="w" data-p="1" data-k="7">of</span> <span class="w" data-p="1" data-k="8">medicine</span> <span class="w" data-p="1" data-k="9">command</span> <span class="w" data-p="1" data-k="10">that</span> <span class="w" data-p="1" data-k="11">the</span> <span class="w" data-p="1" data-k="12">first</span> <span class="w" data-p="1" data-k="13">cry</span> <span class="w" data-p="1" data-k="14">of</span> <span class="w" data-p="1" data-k="15">a</span> <span class="w" data-p="1" data-k="16">newborn</span> <span class="w" data-p="1" data-k="17">resound</span> <span class="w" data-p="1" data-k="18">in</span> <span class="w" data-p="1" data-k="19">the</span> <span class="w" data-p="1" data-k="20">sterile</span> <span class="w" data-p="1" data-k="21">atmosphere</span> <span class="w" data-p="1" data-k="22">of</span> <span class="w" data-p="1" data-k="23">a</span> <span class="w" data-p="1" data-k="24">clinic,</span> <span class="w" data-p="1" data-k="25">preferably</span> <span class="w" data-p="1" data-k="26">a</span> <span class="w" data-p="1" data-k="27">fashionable</span> <span class="w" data-p="1" data-k="28">one.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="1" data-k="0" style="border-radius:3px">Manapság,</span> <span class="tw" data-p="1" data-k="1" style="border-radius:3px">úgy</span> <span class="tw" data-p="1" data-k="2" style="border-radius:3px">hírlik,</span> <span class="tw" data-p="1" data-k="3" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="4" style="border-radius:3px">orvostudomány</span> <span class="tw" data-p="1" data-k="5" style="border-radius:3px">főpapjai</span> <span class="tw" data-p="1" data-k="6" style="border-radius:3px">azt</span> <span class="tw" data-p="1" data-k="7" style="border-radius:3px">parancsolják,</span> <span class="tw" data-p="1" data-k="8" style="border-radius:3px">hogy</span> <span class="tw" data-p="1" data-k="9" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="10" style="border-radius:3px">újszülött</span> <span class="tw" data-p="1" data-k="11" style="border-radius:3px">első</span> <span class="tw" data-p="1" data-k="12" style="border-radius:3px">sírása</span> <span class="tw" data-p="1" data-k="13" style="border-radius:3px">egy</span> <span class="tw" data-p="1" data-k="14" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="15" style="border-radius:3px">lehetőleg</span> <span class="tw" data-p="1" data-k="16" style="border-radius:3px">divatos</span> <span class="tw" data-p="1" data-k="17" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="18" style="border-radius:3px">klinika</span> <span class="tw" data-p="1" data-k="19" style="border-radius:3px">steril</span> <span class="tw" data-p="1" data-k="20" style="border-radius:3px">légkörében</span> <span class="tw" data-p="1" data-k="21" style="border-radius:3px">csendüljön</span> <span class="tw" data-p="1" data-k="22" style="border-radius:3px">fel.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="2" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="2" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="2" data-k="0">Therefore,</span> <span class="w" data-p="2" data-k="1">when</span> <span class="w" data-p="2" data-k="2">the</span> <span class="w" data-p="2" data-k="3">young</span> <span class="w" data-p="2" data-k="4">married</span> <span class="w" data-p="2" data-k="5">couple</span> <span class="w" data-p="2" data-k="6">Mr.</span> <span class="w" data-p="2" data-k="7">and</span> <span class="w" data-p="2" data-k="8">Mrs.</span> <span class="w" data-p="2" data-k="9">Roger</span> <span class="w" data-p="2" data-k="10">Button</span> <span class="w" data-p="2" data-k="11">decided</span> <span class="w" data-p="2" data-k="12">on</span> <span class="w" data-p="2" data-k="13">one</span> <span class="w" data-p="2" data-k="14">fine</span> <span class="w" data-p="2" data-k="15">summer</span> <span class="w" data-p="2" data-k="16">day</span> <span class="w" data-p="2" data-k="17">in</span> <span class="w" data-p="2" data-k="18">1860</span> <span class="w" data-p="2" data-k="19">that</span> <span class="w" data-p="2" data-k="20">their</span> <span class="w" data-p="2" data-k="21">first</span> <span class="w" data-p="2" data-k="22">child</span> <span class="w" data-p="2" data-k="23">should</span> <span class="w" data-p="2" data-k="24">enter</span> <span class="w" data-p="2" data-k="25">the</span> <span class="w" data-p="2" data-k="26">world</span> <span class="w" data-p="2" data-k="27">in</span> <span class="w" data-p="2" data-k="28">a</span> <span class="w" data-p="2" data-k="29">clinic,</span> <span class="w" data-p="2" data-k="30">they</span> <span class="w" data-p="2" data-k="31">were</span> <span class="w" data-p="2" data-k="32">ahead</span> <span class="w" data-p="2" data-k="33">of</span> <span class="w" data-p="2" data-k="34">fashion</span> <span class="w" data-p="2" data-k="35">by</span> <span class="w" data-p="2" data-k="36">a</span> <span class="w" data-p="2" data-k="37">full</span> <span class="w" data-p="2" data-k="38">fifty</span> <span class="w" data-p="2" data-k="39">years.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="2" data-k="0" style="border-radius:3px">Ezért,</span> <span class="tw" data-p="2" data-k="1" style="border-radius:3px">amikor</span> <span class="tw" data-p="2" data-k="2" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="3" style="border-radius:3px">fiatal</span> <span class="tw" data-p="2" data-k="4" style="border-radius:3px">házaspár,</span> <span class="tw" data-p="2" data-k="5" style="border-radius:3px">Roger</span> <span class="tw" data-p="2" data-k="6" style="border-radius:3px">Button</span> <span class="tw" data-p="2" data-k="7" style="border-radius:3px">úr</span> <span class="tw" data-p="2" data-k="8" style="border-radius:3px">és</span> <span class="tw" data-p="2" data-k="9" style="border-radius:3px">neje,</span> <span class="tw" data-p="2" data-k="10" style="border-radius:3px">1860</span> <span class="tw" data-p="2" data-k="11" style="border-radius:3px">egyik</span> <span class="tw" data-p="2" data-k="12" style="border-radius:3px">szép</span> <span class="tw" data-p="2" data-k="13" style="border-radius:3px">nyári</span> <span class="tw" data-p="2" data-k="14" style="border-radius:3px">napján</span> <span class="tw" data-p="2" data-k="15" style="border-radius:3px">úgy</span> <span class="tw" data-p="2" data-k="16" style="border-radius:3px">döntött,</span> <span class="tw" data-p="2" data-k="17" style="border-radius:3px">hogy</span> <span class="tw" data-p="2" data-k="18" style="border-radius:3px">elsőszülöttjük</span> <span class="tw" data-p="2" data-k="19" style="border-radius:3px">klinikán</span> <span class="tw" data-p="2" data-k="20" style="border-radius:3px">jöjjön</span> <span class="tw" data-p="2" data-k="21" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="22" style="border-radius:3px">világra,</span> <span class="tw" data-p="2" data-k="23" style="border-radius:3px">teljes</span> <span class="tw" data-p="2" data-k="24" style="border-radius:3px">ötven</span> <span class="tw" data-p="2" data-k="25" style="border-radius:3px">évvel</span> <span class="tw" data-p="2" data-k="26" style="border-radius:3px">megelőzte</span> <span class="tw" data-p="2" data-k="27" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="28" style="border-radius:3px">divatot.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="3" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="3" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="3" data-k="0">Whether</span> <span class="w" data-p="3" data-k="1">this</span> <span class="w" data-p="3" data-k="2">anachronism</span> <span class="w" data-p="3" data-k="3">is</span> <span class="w" data-p="3" data-k="4">connected</span> <span class="w" data-p="3" data-k="5">with</span> <span class="w" data-p="3" data-k="6">the</span> <span class="w" data-p="3" data-k="7">astonishing</span> <span class="w" data-p="3" data-k="8">story</span> <span class="w" data-p="3" data-k="9">I</span> <span class="w" data-p="3" data-k="10">am</span> <span class="w" data-p="3" data-k="11">about</span> <span class="w" data-p="3" data-k="12">to</span> <span class="w" data-p="3" data-k="13">relate</span> <span class="w" data-p="3" data-k="14">here</span> <span class="w" data-p="3" data-k="15">will</span> <span class="w" data-p="3" data-k="16">forever</span> <span class="w" data-p="3" data-k="17">remain</span> <span class="w" data-p="3" data-k="18">a</span> <span class="w" data-p="3" data-k="19">mystery.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="3" data-k="0" style="border-radius:3px">Hogy</span> <span class="tw" data-p="3" data-k="1" style="border-radius:3px">ez</span> <span class="tw" data-p="3" data-k="2" style="border-radius:3px">az</span> <span class="tw" data-p="3" data-k="3" style="border-radius:3px">anakronizmus</span> <span class="tw" data-p="3" data-k="4" style="border-radius:3px">összefügg-e</span> <span class="tw" data-p="3" data-k="5" style="border-radius:3px">azzal</span> <span class="tw" data-p="3" data-k="6" style="border-radius:3px">a</span> <span class="tw" data-p="3" data-k="7" style="border-radius:3px">bámulatos</span> <span class="tw" data-p="3" data-k="8" style="border-radius:3px">történettel,</span> <span class="tw" data-p="3" data-k="9" style="border-radius:3px">amelyet</span> <span class="tw" data-p="3" data-k="10" style="border-radius:3px">itt</span> <span class="tw" data-p="3" data-k="11" style="border-radius:3px">elbeszélni</span> <span class="tw" data-p="3" data-k="12" style="border-radius:3px">készülök,</span> <span class="tw" data-p="3" data-k="13" style="border-radius:3px">örökre</span> <span class="tw" data-p="3" data-k="14" style="border-radius:3px">rejtély</span> <span class="tw" data-p="3" data-k="15" style="border-radius:3px">marad.</span> </p></div></div>
               
-                  <!-- popup -->
+                  
                   <div data-el="popup" style="display:none;position:absolute;background:#ffffff;border:1px solid #eceae2;border-radius:17px;box-shadow:0 8px 28px rgba(40,45,50,.14);align-items:center;gap:2px;padding:3px 5px;z-index:5">
                     <span data-el="pop-listen" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:6px 8px;border-radius:12px">
                       <span style="height:18px;display:flex;align-items:center"><svg width="18" height="16" viewBox="0 0 22 19" fill="none" stroke="#2b3440" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.8 2.4 6 5.8H3.1A1.1 1.1 0 0 0 2 6.9v5.2a1.1 1.1 0 0 0 1.1 1.1H6l3.8 3.4V2.4Z" fill="#2b3440"></path><path d="M13.6 6.4a4 4 0 0 1 0 6.2"></path><path d="M16.6 3.8a7.6 7.6 0 0 1 0 11.4"></path></svg></span>
@@ -331,7 +302,7 @@
                   </div>
                 </div>
               
-                <!-- audio pill -->
+                
                 <div data-el="pill" style="position:absolute;left:50%;transform:translateX(-50%);bottom:36px;background:#ffffff;border-radius:48px;box-shadow:0 8px 28px rgba(40,45,50,.16),0 2px 8px rgba(40,45,50,.08);display:flex;align-items:center;gap:13px;padding:5px 5px 5px 14px">
                   <svg width="12" height="17" viewBox="0 0 15 21" style="cursor:grab;flex:none"><circle cx="4" cy="4" r="2" fill="#c3cad1"></circle><circle cx="11" cy="4" r="2" fill="#c3cad1"></circle><circle cx="4" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="11" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="4" cy="17" r="2" fill="#c3cad1"></circle><circle cx="11" cy="17" r="2" fill="#c3cad1"></circle></svg>
                   <span style="width:43px;height:43px;flex:none;border-radius:50%;background:#f0f1ee;display:flex;align-items:center;justify-content:center;cursor:pointer">
@@ -342,11 +313,11 @@
                 </div>
               
               </div>
-              <!-- /mock:reader:markup -->
+              
             </div>
             <div id="heroLibrary" class="hero__reader-frame hero__screen mock--library"
                  role="img" aria-label="Katalógus книг Lingo7">
-              <!-- mock:library:markup:heroLibrary -->
+              
               <div data-el="frame" style="width:390px;height:844px;background:#F3F1E9;position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:28px;box-shadow:0 8px 40px rgba(0,0,0,.18)"><div style="padding:12px 26px 0 18px;display:flex;justify-content:space-between;align-items:flex-start;flex:none">
                 <div style="font-size:17px;font-weight:700;color:#17181A;letter-spacing:-0.3px;margin-left:24px;padding-top:3px">21:00</div>
                 <div style="margin-top:6px"><img loading="lazy" src="data:image/png;base64,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" alt="" style="height:13.5px;width:auto;display:block"></div>
@@ -503,7 +474,7 @@
                   <div style="font-size:12px;line-height:1.32;color:#2E2F2A;margin-top:8px;letter-spacing:-0.1px;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden">Jane Eyre</div>
                   <div style="font-size:10.5px;letter-spacing:-0.1px;line-height:1.3;color:#8B8B80;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">Charlotte Brontë</div>
                 </div></div></div><div data-el="nav" style="flex:none;background:#F3F1E9;border-top:1px solid rgba(0,0,0,0.06);display:flex;align-items:flex-end;padding:8px 4px 38px;position:relative;z-index:2"><div data-nav="library" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#1F9D53"><span style="display:inline-block;width:25px;height:21px;background:currentColor;-webkit-mask:var(--l7i-dabdb167) center/contain no-repeat;mask:var(--l7i-dabdb167) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Könyvtár</span><div style="width:50px;height:2.5px;border-radius:2px;background:#1F9D53"></div></div><div data-nav="practice" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44"><span style="display:inline-block;width:27px;height:23px;background:currentColor;-webkit-mask:var(--l7i-3e58675b) center/contain no-repeat;mask:var(--l7i-3e58675b) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Gyakorlás</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="read" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-1.6-1.6-4-2.2-8-2.2v14c4 0 6.4.6 8 2.2 1.6-1.6 4-2.2 8-2.2v-14c-4 0-6.4.6-8 2.2z"></path><path d="M12 6v14"></path></svg><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Olvasás</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="words" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44"><span style="display:inline-block;width:29px;height:23px;background:currentColor;-webkit-mask:var(--l7i-1857561b) center/contain no-repeat;mask:var(--l7i-1857561b) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Szavaim</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="collections" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44"><span style="display:inline-block;width:44px;height:23px;background:currentColor;-webkit-mask:var(--l7i-46f0d299) center/contain no-repeat;mask:var(--l7i-46f0d299) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Gyűjtemények</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div></div><div data-el="read-cover" style="position:absolute;left:50%;transform:translateX(-50%);bottom:62px;width:72px;height:66px;background:#FFFFFF;border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,0.14);padding:5px;z-index:3"><img loading="lazy" src="/design/build/assets/covers/player.png" alt="" style="width:100%;height:100%;object-fit:contain;border-radius:11px"></div></div>
-              <!-- /mock:library:markup:heroLibrary -->
+              
             </div>
           </div>
         </div>
@@ -539,7 +510,7 @@
     </div>
   </section>
 
-  <!-- 2. Trust-strip -->
+  
   <section class="trust">
     <div class="container trust__inner">
       <div class="trust__card">
@@ -565,7 +536,7 @@
     </div>
   </section>
 
-  <!-- 3. Compare-block -->
+  
   <section class="compare" id="why">
     <div class="container">
       <h2 data-i18n="compare.title" class="section__title">Miért hagyják abba a nyelvtanuló appokat – és miért nem ezt</h2>
@@ -646,7 +617,6 @@
     </div>
   </section>
 
-<!-- 4. Метод L7 (Orbital) -->
 <section class="method" id="method">
     <div class="container">
       <h2 data-i18n="method.title" class="section__title">Mind a 7 nyelvi készség egy helyen</h2>
@@ -723,7 +693,7 @@
     </div>
   </section>
 
-  <!-- 5. 4 шага -->
+  
   <section class="steps" id="steps">
     <div class="container">
       <h2 data-i18n="steps.title" class="section__title">Így tanulj nyelvet könyvekből: öt lépés</h2>
@@ -736,9 +706,9 @@
             <div class="phone__frame phone__frame--cycle">
             <div id="cycleLibrary" class="cycle__screen mock--library"
                  role="img" aria-label="Экран: каталог книг">
-              <!-- mock:library:markup:cycleLibrary -->
+              
               <div data-el="frame" style="width:390px;height:844px;background:#F3F1E9;position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:28px;box-shadow:0 8px 40px rgba(0,0,0,.18)"></div>
-              <!-- /mock:library:markup:cycleLibrary -->
+              
             </div>
             </div>
           </div>
@@ -752,16 +722,16 @@
             <div class="phone__frame phone__frame--cycle">
             <div id="stepRead" class="cycle__screen mock--reader"
                  role="img" aria-label="Экран: чтение с переводом">
-              <!-- mock:reader:markup:stepRead -->
+              
               <div data-el="reader" style="width:390px;height:844px;margin:0 auto;background:#ffffff;display:flex;flex-direction:column;position:relative;overflow:hidden;border-radius:0;box-shadow:none">
               
-                <!-- status bar -->
+                
                 <div style="height:52px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:10px 26px 0 34px">
                   <span style="font-size:17px;font-weight:700;color:#17181A;letter-spacing:-0.3px">21:00</span>
                   <img loading="lazy" src="/design/build/assets/icons/status.png" alt="" style="height:13.5px;width:auto;display:block">
                 </div>
               
-                <!-- header -->
+                
                 <div style="flex:none;display:flex;align-items:center;gap:10px;padding:8px 14px 10px;border-bottom:1px solid #e3e1d8">
                   <span style="width:40px;height:40px;flex:none;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:10px">
                     <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#1d2733" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 18l-6-6 6-6"></path></svg>
@@ -786,9 +756,9 @@
                   </span>
                 </div>
               
-                <!-- scroll -->
+                
                 <div class="rd-scroll" data-el="scroll" style="flex:1;overflow-y:auto;padding:20px 15px 150px;position:relative">
-                  <!-- centered title block -->
+                  
                   <div style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:20px">
                     <div style="display:flex;align-items:center;gap:11px">
                       <span style="font-size:20px;font-weight:700;color:#2b3440;letter-spacing:-.2px" data-book="title">The Curious Case of Benjamin Button</span>
@@ -800,7 +770,7 @@
               
                   <div data-el="paras"><div style="margin-bottom:24px"><p class="rd-line" data-p="0" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="0" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="0" data-k="0">In</span> <span class="w" data-p="0" data-k="1">1860,</span> <span class="w" data-p="0" data-k="2">it</span> <span class="w" data-p="0" data-k="3">was</span> <span class="w" data-p="0" data-k="4">still</span> <span class="w" data-p="0" data-k="5">believed</span> <span class="w" data-p="0" data-k="6">that</span> <span class="w" data-p="0" data-k="7">one</span> <span class="w" data-p="0" data-k="8">ought</span> <span class="w" data-p="0" data-k="9">to</span> <span class="w" data-p="0" data-k="10">be</span> <span class="w" data-p="0" data-k="11">born</span> <span class="w" data-p="0" data-k="12">at</span> <span class="w" data-p="0" data-k="13">home.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="0" data-k="0" style="border-radius:3px">1860-ban</span> <span class="tw" data-p="0" data-k="1" style="border-radius:3px">még</span> <span class="tw" data-p="0" data-k="2" style="border-radius:3px">úgy</span> <span class="tw" data-p="0" data-k="3" style="border-radius:3px">tartották,</span> <span class="tw" data-p="0" data-k="4" style="border-radius:3px">hogy</span> <span class="tw" data-p="0" data-k="5" style="border-radius:3px">az</span> <span class="tw" data-p="0" data-k="6" style="border-radius:3px">embernek</span> <span class="tw" data-p="0" data-k="7" style="border-radius:3px">otthon</span> <span class="tw" data-p="0" data-k="8" style="border-radius:3px">kell</span> <span class="tw" data-p="0" data-k="9" style="border-radius:3px">megszületnie.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="1" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="1" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="1" data-k="0">Nowadays,</span> <span class="w" data-p="1" data-k="1">rumor</span> <span class="w" data-p="1" data-k="2">has</span> <span class="w" data-p="1" data-k="3">it,</span> <span class="w" data-p="1" data-k="4">the</span> <span class="w" data-p="1" data-k="5">high</span> <span class="w" data-p="1" data-k="6">priests</span> <span class="w" data-p="1" data-k="7">of</span> <span class="w" data-p="1" data-k="8">medicine</span> <span class="w" data-p="1" data-k="9">command</span> <span class="w" data-p="1" data-k="10">that</span> <span class="w" data-p="1" data-k="11">the</span> <span class="w" data-p="1" data-k="12">first</span> <span class="w" data-p="1" data-k="13">cry</span> <span class="w" data-p="1" data-k="14">of</span> <span class="w" data-p="1" data-k="15">a</span> <span class="w" data-p="1" data-k="16">newborn</span> <span class="w" data-p="1" data-k="17">resound</span> <span class="w" data-p="1" data-k="18">in</span> <span class="w" data-p="1" data-k="19">the</span> <span class="w" data-p="1" data-k="20">sterile</span> <span class="w" data-p="1" data-k="21">atmosphere</span> <span class="w" data-p="1" data-k="22">of</span> <span class="w" data-p="1" data-k="23">a</span> <span class="w" data-p="1" data-k="24">clinic,</span> <span class="w" data-p="1" data-k="25">preferably</span> <span class="w" data-p="1" data-k="26">a</span> <span class="w" data-p="1" data-k="27">fashionable</span> <span class="w" data-p="1" data-k="28">one.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="1" data-k="0" style="border-radius:3px">Manapság,</span> <span class="tw" data-p="1" data-k="1" style="border-radius:3px">úgy</span> <span class="tw" data-p="1" data-k="2" style="border-radius:3px">hírlik,</span> <span class="tw" data-p="1" data-k="3" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="4" style="border-radius:3px">orvostudomány</span> <span class="tw" data-p="1" data-k="5" style="border-radius:3px">főpapjai</span> <span class="tw" data-p="1" data-k="6" style="border-radius:3px">azt</span> <span class="tw" data-p="1" data-k="7" style="border-radius:3px">parancsolják,</span> <span class="tw" data-p="1" data-k="8" style="border-radius:3px">hogy</span> <span class="tw" data-p="1" data-k="9" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="10" style="border-radius:3px">újszülött</span> <span class="tw" data-p="1" data-k="11" style="border-radius:3px">első</span> <span class="tw" data-p="1" data-k="12" style="border-radius:3px">sírása</span> <span class="tw" data-p="1" data-k="13" style="border-radius:3px">egy</span> <span class="tw" data-p="1" data-k="14" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="15" style="border-radius:3px">lehetőleg</span> <span class="tw" data-p="1" data-k="16" style="border-radius:3px">divatos</span> <span class="tw" data-p="1" data-k="17" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="18" style="border-radius:3px">klinika</span> <span class="tw" data-p="1" data-k="19" style="border-radius:3px">steril</span> <span class="tw" data-p="1" data-k="20" style="border-radius:3px">légkörében</span> <span class="tw" data-p="1" data-k="21" style="border-radius:3px">csendüljön</span> <span class="tw" data-p="1" data-k="22" style="border-radius:3px">fel.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="2" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="2" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="2" data-k="0">Therefore,</span> <span class="w" data-p="2" data-k="1">when</span> <span class="w" data-p="2" data-k="2">the</span> <span class="w" data-p="2" data-k="3">young</span> <span class="w" data-p="2" data-k="4">married</span> <span class="w" data-p="2" data-k="5">couple</span> <span class="w" data-p="2" data-k="6">Mr.</span> <span class="w" data-p="2" data-k="7">and</span> <span class="w" data-p="2" data-k="8">Mrs.</span> <span class="w" data-p="2" data-k="9">Roger</span> <span class="w" data-p="2" data-k="10">Button</span> <span class="w" data-p="2" data-k="11">decided</span> <span class="w" data-p="2" data-k="12">on</span> <span class="w" data-p="2" data-k="13">one</span> <span class="w" data-p="2" data-k="14">fine</span> <span class="w" data-p="2" data-k="15">summer</span> <span class="w" data-p="2" data-k="16">day</span> <span class="w" data-p="2" data-k="17">in</span> <span class="w" data-p="2" data-k="18">1860</span> <span class="w" data-p="2" data-k="19">that</span> <span class="w" data-p="2" data-k="20">their</span> <span class="w" data-p="2" data-k="21">first</span> <span class="w" data-p="2" data-k="22">child</span> <span class="w" data-p="2" data-k="23">should</span> <span class="w" data-p="2" data-k="24">enter</span> <span class="w" data-p="2" data-k="25">the</span> <span class="w" data-p="2" data-k="26">world</span> <span class="w" data-p="2" data-k="27">in</span> <span class="w" data-p="2" data-k="28">a</span> <span class="w" data-p="2" data-k="29">clinic,</span> <span class="w" data-p="2" data-k="30">they</span> <span class="w" data-p="2" data-k="31">were</span> <span class="w" data-p="2" data-k="32">ahead</span> <span class="w" data-p="2" data-k="33">of</span> <span class="w" data-p="2" data-k="34">fashion</span> <span class="w" data-p="2" data-k="35">by</span> <span class="w" data-p="2" data-k="36">a</span> <span class="w" data-p="2" data-k="37">full</span> <span class="w" data-p="2" data-k="38">fifty</span> <span class="w" data-p="2" data-k="39">years.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="2" data-k="0" style="border-radius:3px">Ezért,</span> <span class="tw" data-p="2" data-k="1" style="border-radius:3px">amikor</span> <span class="tw" data-p="2" data-k="2" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="3" style="border-radius:3px">fiatal</span> <span class="tw" data-p="2" data-k="4" style="border-radius:3px">házaspár,</span> <span class="tw" data-p="2" data-k="5" style="border-radius:3px">Roger</span> <span class="tw" data-p="2" data-k="6" style="border-radius:3px">Button</span> <span class="tw" data-p="2" data-k="7" style="border-radius:3px">úr</span> <span class="tw" data-p="2" data-k="8" style="border-radius:3px">és</span> <span class="tw" data-p="2" data-k="9" style="border-radius:3px">neje,</span> <span class="tw" data-p="2" data-k="10" style="border-radius:3px">1860</span> <span class="tw" data-p="2" data-k="11" style="border-radius:3px">egyik</span> <span class="tw" data-p="2" data-k="12" style="border-radius:3px">szép</span> <span class="tw" data-p="2" data-k="13" style="border-radius:3px">nyári</span> <span class="tw" data-p="2" data-k="14" style="border-radius:3px">napján</span> <span class="tw" data-p="2" data-k="15" style="border-radius:3px">úgy</span> <span class="tw" data-p="2" data-k="16" style="border-radius:3px">döntött,</span> <span class="tw" data-p="2" data-k="17" style="border-radius:3px">hogy</span> <span class="tw" data-p="2" data-k="18" style="border-radius:3px">elsőszülöttjük</span> <span class="tw" data-p="2" data-k="19" style="border-radius:3px">klinikán</span> <span class="tw" data-p="2" data-k="20" style="border-radius:3px">jöjjön</span> <span class="tw" data-p="2" data-k="21" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="22" style="border-radius:3px">világra,</span> <span class="tw" data-p="2" data-k="23" style="border-radius:3px">teljes</span> <span class="tw" data-p="2" data-k="24" style="border-radius:3px">ötven</span> <span class="tw" data-p="2" data-k="25" style="border-radius:3px">évvel</span> <span class="tw" data-p="2" data-k="26" style="border-radius:3px">megelőzte</span> <span class="tw" data-p="2" data-k="27" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="28" style="border-radius:3px">divatot.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="3" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="3" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="3" data-k="0">Whether</span> <span class="w" data-p="3" data-k="1">this</span> <span class="w" data-p="3" data-k="2">anachronism</span> <span class="w" data-p="3" data-k="3">is</span> <span class="w" data-p="3" data-k="4">connected</span> <span class="w" data-p="3" data-k="5">with</span> <span class="w" data-p="3" data-k="6">the</span> <span class="w" data-p="3" data-k="7">astonishing</span> <span class="w" data-p="3" data-k="8">story</span> <span class="w" data-p="3" data-k="9">I</span> <span class="w" data-p="3" data-k="10">am</span> <span class="w" data-p="3" data-k="11">about</span> <span class="w" data-p="3" data-k="12">to</span> <span class="w" data-p="3" data-k="13">relate</span> <span class="w" data-p="3" data-k="14">here</span> <span class="w" data-p="3" data-k="15">will</span> <span class="w" data-p="3" data-k="16">forever</span> <span class="w" data-p="3" data-k="17">remain</span> <span class="w" data-p="3" data-k="18">a</span> <span class="w" data-p="3" data-k="19">mystery.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="3" data-k="0" style="border-radius:3px">Hogy</span> <span class="tw" data-p="3" data-k="1" style="border-radius:3px">ez</span> <span class="tw" data-p="3" data-k="2" style="border-radius:3px">az</span> <span class="tw" data-p="3" data-k="3" style="border-radius:3px">anakronizmus</span> <span class="tw" data-p="3" data-k="4" style="border-radius:3px">összefügg-e</span> <span class="tw" data-p="3" data-k="5" style="border-radius:3px">azzal</span> <span class="tw" data-p="3" data-k="6" style="border-radius:3px">a</span> <span class="tw" data-p="3" data-k="7" style="border-radius:3px">bámulatos</span> <span class="tw" data-p="3" data-k="8" style="border-radius:3px">történettel,</span> <span class="tw" data-p="3" data-k="9" style="border-radius:3px">amelyet</span> <span class="tw" data-p="3" data-k="10" style="border-radius:3px">itt</span> <span class="tw" data-p="3" data-k="11" style="border-radius:3px">elbeszélni</span> <span class="tw" data-p="3" data-k="12" style="border-radius:3px">készülök,</span> <span class="tw" data-p="3" data-k="13" style="border-radius:3px">örökre</span> <span class="tw" data-p="3" data-k="14" style="border-radius:3px">rejtély</span> <span class="tw" data-p="3" data-k="15" style="border-radius:3px">marad.</span> </p></div></div>
               
-                  <!-- popup -->
+                  
                   <div data-el="popup" style="display:none;position:absolute;background:#ffffff;border:1px solid #eceae2;border-radius:17px;box-shadow:0 8px 28px rgba(40,45,50,.14);align-items:center;gap:2px;padding:3px 5px;z-index:5">
                     <span data-el="pop-listen" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:6px 8px;border-radius:12px">
                       <span style="height:18px;display:flex;align-items:center"><svg width="18" height="16" viewBox="0 0 22 19" fill="none" stroke="#2b3440" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.8 2.4 6 5.8H3.1A1.1 1.1 0 0 0 2 6.9v5.2a1.1 1.1 0 0 0 1.1 1.1H6l3.8 3.4V2.4Z" fill="#2b3440"></path><path d="M13.6 6.4a4 4 0 0 1 0 6.2"></path><path d="M16.6 3.8a7.6 7.6 0 0 1 0 11.4"></path></svg></span>
@@ -820,7 +790,7 @@
                   </div>
                 </div>
               
-                <!-- audio pill -->
+                
                 <div data-el="pill" style="position:absolute;left:50%;transform:translateX(-50%);bottom:36px;background:#ffffff;border-radius:48px;box-shadow:0 8px 28px rgba(40,45,50,.16),0 2px 8px rgba(40,45,50,.08);display:none;align-items:center;gap:13px;padding:5px 5px 5px 14px">
                   <svg width="12" height="17" viewBox="0 0 15 21" style="cursor:grab;flex:none"><circle cx="4" cy="4" r="2" fill="#c3cad1"></circle><circle cx="11" cy="4" r="2" fill="#c3cad1"></circle><circle cx="4" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="11" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="4" cy="17" r="2" fill="#c3cad1"></circle><circle cx="11" cy="17" r="2" fill="#c3cad1"></circle></svg>
                   <span style="width:43px;height:43px;flex:none;border-radius:50%;background:#f0f1ee;display:flex;align-items:center;justify-content:center;cursor:pointer">
@@ -831,7 +801,7 @@
                 </div>
               
               </div>
-              <!-- /mock:reader:markup:stepRead -->
+              
             </div>
             </div>
           </div>
@@ -845,16 +815,16 @@
             <div class="phone__frame phone__frame--cycle">
             <div id="stepVocab" class="cycle__screen mock--vocab"
                  role="img" aria-label="Экран: упражнение на слова">
-              <!-- mock:vocab:markup:stepVocab -->
+              
               <div data-el="screen" style="width:390px;height:844px;margin:0 auto;background:#F6F4EA;display:flex;flex-direction:column;overflow:hidden;position:relative;border-radius:0;box-shadow:none">
               
-                <!-- status bar -->
+                
                 <div style="height:52px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:10px 26px 0 34px">
                   <span style="font-size:17px;font-weight:700;color:#17181A;letter-spacing:-0.3px">21:03</span>
                   <img loading="lazy" src="/design/build/assets/icons/status.png" alt="" style="height:13.5px;width:auto;display:block">
                 </div>
               
-                <!-- header -->
+                
                 <div style="display:flex;align-items:center;gap:12px;padding:8px 16px 0 11px;flex:none">
                   <div style="width:44px;height:56px;background:#fff;border:1.5px solid #E9E6DB;border-radius:16px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex:none">
                     <svg width="10" height="16" viewBox="0 0 11 18"><path d="M9 2 L2.5 9 L9 16" fill="none" stroke="#17181A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
@@ -862,14 +832,14 @@
                   <div data-el="ex-label" style="font-size:20px;font-weight:700;color:#17181A;letter-spacing:-.3px">Gyakorlat 5/11 · 10 szó</div>
                 </div>
               
-                <!-- progress pills -->
+                
                 <div style="display:flex;align-items:center;padding:8px 20px 0 16px;flex:none">
                   <div data-el="prev" style="cursor:pointer;width:24px;flex:none;display:flex;justify-content:flex-start"><svg width="22" height="18" viewBox="0 0 24 19"><path d="M9 2 L2 9.5 L9 17 M2 9.5 H23" fill="none" stroke="#17181A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
                   <div data-el="pills" style="flex:1;display:flex;align-items:center;padding:6px 0 0 26px;height:46px"><div style="width:30px;height:38px;border-radius:10px;background:#1FA45B;border:1.5px solid #F6F4EA;margin-left:0px;transform:translateY(0px);box-shadow:none;position:relative;z-index:1;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#1FA45B;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:2;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#D96A5C;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:3;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#1FA45B;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:4;flex:none"></div><div style="width:30px;height:46px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(-8px);box-shadow:0 3px 8px rgba(0,0,0,.14);position:relative;z-index:12;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:6;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:5;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:4;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:3;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:2;flex:none"></div><div style="width:30px;height:38px;border-radius:10px;background:#fff;border:1.5px solid #F6F4EA;margin-left:-21px;transform:translateY(0px);box-shadow:none;position:relative;z-index:1;flex:none"></div></div>
                   <div data-el="next" style="cursor:pointer;width:24px;flex:none;display:flex;justify-content:flex-end"><svg width="22" height="18" viewBox="0 0 24 19"><path d="M15 2 L22 9.5 L15 17 M22 9.5 H1" fill="none" stroke="#17181A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
                 </div>
               
-                <!-- word card -->
+                
                 <div style="margin:10px 12px 0;background:#fff;border-radius:24px;padding:14px 20px 16px;flex:none;height:238px;display:flex;flex-direction:column;position:relative">
                   <div style="display:flex;align-items:flex-start;justify-content:flex-end;gap:16px">
                     <div style="display:flex;flex-direction:column;align-items:center;gap:4px;padding-top:4px">
@@ -890,7 +860,7 @@
                   </div>
                 </div>
               
-                <!-- choice / reveal card -->
+                
                 <div data-el="choice" style="margin:12px 12px 0;background:#fff;border-radius:24px;border:1.5px solid #1FA45B55;flex:none;overflow:hidden;transition:border-color .2s,border-width .2s;border-color:#1FA45B55;border-width:1.5px"><div style="padding:16px 0 18px;display:flex;flex-direction:column;align-items:center">
                     <div style="font-size:26px;font-weight:800;color:#1FA45B;margin-bottom:14px;text-align:center">Válaszd ki a megfelelő képet</div>
                     <div style="display:grid;grid-template-columns:137px 137px;gap:10px 11px;align-items:start"><div data-data-el="seats" style="width:137px;height:97px;border-radius:14px;overflow:hidden;cursor:pointer;border:3px solid transparent;box-sizing:border-box;opacity:1;transition:opacity .3s,border-color .15s"><img loading="lazy" src="/design/build/assets/vocab/opt-seats.png" alt="" style="width:100%;height:100%;object-fit:cover;display:block"></div><div data-data-el="hacker" style="width:137px;height:97px;border-radius:14px;overflow:hidden;cursor:pointer;border:3px solid transparent;box-sizing:border-box;opacity:1;transition:opacity .3s,border-color .15s"><img loading="lazy" src="/design/build/assets/vocab/opt-hacker.png" alt="" style="width:100%;height:100%;object-fit:cover;display:block"></div><div data-data-el="casa" style="width:137px;height:105px;border-radius:14px;overflow:hidden;cursor:pointer;border:3px solid transparent;box-sizing:border-box;opacity:1;transition:opacity .3s,border-color .15s"><img loading="lazy" src="/design/build/assets/vocab/opt-casa.png" alt="" style="width:100%;height:100%;object-fit:cover;display:block"></div><div data-data-el="book" style="width:137px;height:105px;border-radius:14px;overflow:hidden;cursor:pointer;border:3px solid transparent;box-sizing:border-box;opacity:1;transition:opacity .3s,border-color .15s"><img loading="lazy" src="/design/build/assets/vocab/opt-book.png" alt="" style="width:100%;height:100%;object-fit:cover;display:block"></div></div>
@@ -900,7 +870,7 @@
                 <div data-el="skip" style="margin:0 12px 22px;border-radius:16px;height:52px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700;cursor:pointer;flex:none;transition:background .2s,color .2s;background:#fff;color:#1c1a15">Kihagyás</div>
               
               </div>
-              <!-- /mock:vocab:markup:stepVocab -->
+              
             </div>
             </div>
           </div>
@@ -914,16 +884,16 @@
             <div class="phone__frame phone__frame--cycle">
             <div id="stepAudio" class="cycle__screen mock--reader"
                  role="img" aria-label="Экран: аудио-режим и шэдоуинг">
-              <!-- mock:reader:markup:stepAudio -->
+              
               <div data-el="reader" style="width:390px;height:844px;margin:0 auto;background:#ffffff;display:flex;flex-direction:column;position:relative;overflow:hidden;border-radius:0;box-shadow:none">
               
-                <!-- status bar -->
+                
                 <div style="height:52px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:10px 26px 0 34px">
                   <span style="font-size:17px;font-weight:700;color:#17181A;letter-spacing:-0.3px">21:00</span>
                   <img loading="lazy" src="/design/build/assets/icons/status.png" alt="" style="height:13.5px;width:auto;display:block">
                 </div>
               
-                <!-- header -->
+                
                 <div style="flex:none;display:flex;align-items:center;gap:10px;padding:8px 14px 10px;border-bottom:1px solid #e3e1d8">
                   <span style="width:40px;height:40px;flex:none;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:10px">
                     <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#1d2733" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"></path><path d="M11 18l-6-6 6-6"></path></svg>
@@ -948,9 +918,9 @@
                   </span>
                 </div>
               
-                <!-- scroll -->
+                
                 <div class="rd-scroll" data-el="scroll" style="flex:1;overflow-y:auto;padding:20px 15px 150px;position:relative">
-                  <!-- centered title block -->
+                  
                   <div style="display:flex;flex-direction:column;align-items:center;text-align:center;margin-bottom:20px">
                     <div style="display:flex;align-items:center;gap:11px">
                       <span style="font-size:20px;font-weight:700;color:#2b3440;letter-spacing:-.2px" data-book="title">The Curious Case of Benjamin Button</span>
@@ -962,7 +932,7 @@
               
                   <div data-el="paras"><div style="margin-bottom:24px"><p class="rd-line" data-p="0" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="0" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="0" data-k="0">In</span> <span class="w" data-p="0" data-k="1">1860,</span> <span class="w" data-p="0" data-k="2">it</span> <span class="w" data-p="0" data-k="3">was</span> <span class="w" data-p="0" data-k="4">still</span> <span class="w" data-p="0" data-k="5">believed</span> <span class="w" data-p="0" data-k="6">that</span> <span class="w" data-p="0" data-k="7">one</span> <span class="w" data-p="0" data-k="8">ought</span> <span class="w" data-p="0" data-k="9">to</span> <span class="w" data-p="0" data-k="10">be</span> <span class="w" data-p="0" data-k="11">born</span> <span class="w" data-p="0" data-k="12">at</span> <span class="w" data-p="0" data-k="13">home.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="0" data-k="0" style="border-radius:3px">1860-ban</span> <span class="tw" data-p="0" data-k="1" style="border-radius:3px">még</span> <span class="tw" data-p="0" data-k="2" style="border-radius:3px">úgy</span> <span class="tw" data-p="0" data-k="3" style="border-radius:3px">tartották,</span> <span class="tw" data-p="0" data-k="4" style="border-radius:3px">hogy</span> <span class="tw" data-p="0" data-k="5" style="border-radius:3px">az</span> <span class="tw" data-p="0" data-k="6" style="border-radius:3px">embernek</span> <span class="tw" data-p="0" data-k="7" style="border-radius:3px">otthon</span> <span class="tw" data-p="0" data-k="8" style="border-radius:3px">kell</span> <span class="tw" data-p="0" data-k="9" style="border-radius:3px">megszületnie.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="1" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="1" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="1" data-k="0">Nowadays,</span> <span class="w" data-p="1" data-k="1">rumor</span> <span class="w" data-p="1" data-k="2">has</span> <span class="w" data-p="1" data-k="3">it,</span> <span class="w" data-p="1" data-k="4">the</span> <span class="w" data-p="1" data-k="5">high</span> <span class="w" data-p="1" data-k="6">priests</span> <span class="w" data-p="1" data-k="7">of</span> <span class="w" data-p="1" data-k="8">medicine</span> <span class="w" data-p="1" data-k="9">command</span> <span class="w" data-p="1" data-k="10">that</span> <span class="w" data-p="1" data-k="11">the</span> <span class="w" data-p="1" data-k="12">first</span> <span class="w" data-p="1" data-k="13">cry</span> <span class="w" data-p="1" data-k="14">of</span> <span class="w" data-p="1" data-k="15">a</span> <span class="w" data-p="1" data-k="16">newborn</span> <span class="w" data-p="1" data-k="17">resound</span> <span class="w" data-p="1" data-k="18">in</span> <span class="w" data-p="1" data-k="19">the</span> <span class="w" data-p="1" data-k="20">sterile</span> <span class="w" data-p="1" data-k="21">atmosphere</span> <span class="w" data-p="1" data-k="22">of</span> <span class="w" data-p="1" data-k="23">a</span> <span class="w" data-p="1" data-k="24">clinic,</span> <span class="w" data-p="1" data-k="25">preferably</span> <span class="w" data-p="1" data-k="26">a</span> <span class="w" data-p="1" data-k="27">fashionable</span> <span class="w" data-p="1" data-k="28">one.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="1" data-k="0" style="border-radius:3px">Manapság,</span> <span class="tw" data-p="1" data-k="1" style="border-radius:3px">úgy</span> <span class="tw" data-p="1" data-k="2" style="border-radius:3px">hírlik,</span> <span class="tw" data-p="1" data-k="3" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="4" style="border-radius:3px">orvostudomány</span> <span class="tw" data-p="1" data-k="5" style="border-radius:3px">főpapjai</span> <span class="tw" data-p="1" data-k="6" style="border-radius:3px">azt</span> <span class="tw" data-p="1" data-k="7" style="border-radius:3px">parancsolják,</span> <span class="tw" data-p="1" data-k="8" style="border-radius:3px">hogy</span> <span class="tw" data-p="1" data-k="9" style="border-radius:3px">az</span> <span class="tw" data-p="1" data-k="10" style="border-radius:3px">újszülött</span> <span class="tw" data-p="1" data-k="11" style="border-radius:3px">első</span> <span class="tw" data-p="1" data-k="12" style="border-radius:3px">sírása</span> <span class="tw" data-p="1" data-k="13" style="border-radius:3px">egy</span> <span class="tw" data-p="1" data-k="14" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="15" style="border-radius:3px">lehetőleg</span> <span class="tw" data-p="1" data-k="16" style="border-radius:3px">divatos</span> <span class="tw" data-p="1" data-k="17" style="border-radius:3px">–</span> <span class="tw" data-p="1" data-k="18" style="border-radius:3px">klinika</span> <span class="tw" data-p="1" data-k="19" style="border-radius:3px">steril</span> <span class="tw" data-p="1" data-k="20" style="border-radius:3px">légkörében</span> <span class="tw" data-p="1" data-k="21" style="border-radius:3px">csendüljön</span> <span class="tw" data-p="1" data-k="22" style="border-radius:3px">fel.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="2" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="2" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="2" data-k="0">Therefore,</span> <span class="w" data-p="2" data-k="1">when</span> <span class="w" data-p="2" data-k="2">the</span> <span class="w" data-p="2" data-k="3">young</span> <span class="w" data-p="2" data-k="4">married</span> <span class="w" data-p="2" data-k="5">couple</span> <span class="w" data-p="2" data-k="6">Mr.</span> <span class="w" data-p="2" data-k="7">and</span> <span class="w" data-p="2" data-k="8">Mrs.</span> <span class="w" data-p="2" data-k="9">Roger</span> <span class="w" data-p="2" data-k="10">Button</span> <span class="w" data-p="2" data-k="11">decided</span> <span class="w" data-p="2" data-k="12">on</span> <span class="w" data-p="2" data-k="13">one</span> <span class="w" data-p="2" data-k="14">fine</span> <span class="w" data-p="2" data-k="15">summer</span> <span class="w" data-p="2" data-k="16">day</span> <span class="w" data-p="2" data-k="17">in</span> <span class="w" data-p="2" data-k="18">1860</span> <span class="w" data-p="2" data-k="19">that</span> <span class="w" data-p="2" data-k="20">their</span> <span class="w" data-p="2" data-k="21">first</span> <span class="w" data-p="2" data-k="22">child</span> <span class="w" data-p="2" data-k="23">should</span> <span class="w" data-p="2" data-k="24">enter</span> <span class="w" data-p="2" data-k="25">the</span> <span class="w" data-p="2" data-k="26">world</span> <span class="w" data-p="2" data-k="27">in</span> <span class="w" data-p="2" data-k="28">a</span> <span class="w" data-p="2" data-k="29">clinic,</span> <span class="w" data-p="2" data-k="30">they</span> <span class="w" data-p="2" data-k="31">were</span> <span class="w" data-p="2" data-k="32">ahead</span> <span class="w" data-p="2" data-k="33">of</span> <span class="w" data-p="2" data-k="34">fashion</span> <span class="w" data-p="2" data-k="35">by</span> <span class="w" data-p="2" data-k="36">a</span> <span class="w" data-p="2" data-k="37">full</span> <span class="w" data-p="2" data-k="38">fifty</span> <span class="w" data-p="2" data-k="39">years.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="2" data-k="0" style="border-radius:3px">Ezért,</span> <span class="tw" data-p="2" data-k="1" style="border-radius:3px">amikor</span> <span class="tw" data-p="2" data-k="2" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="3" style="border-radius:3px">fiatal</span> <span class="tw" data-p="2" data-k="4" style="border-radius:3px">házaspár,</span> <span class="tw" data-p="2" data-k="5" style="border-radius:3px">Roger</span> <span class="tw" data-p="2" data-k="6" style="border-radius:3px">Button</span> <span class="tw" data-p="2" data-k="7" style="border-radius:3px">úr</span> <span class="tw" data-p="2" data-k="8" style="border-radius:3px">és</span> <span class="tw" data-p="2" data-k="9" style="border-radius:3px">neje,</span> <span class="tw" data-p="2" data-k="10" style="border-radius:3px">1860</span> <span class="tw" data-p="2" data-k="11" style="border-radius:3px">egyik</span> <span class="tw" data-p="2" data-k="12" style="border-radius:3px">szép</span> <span class="tw" data-p="2" data-k="13" style="border-radius:3px">nyári</span> <span class="tw" data-p="2" data-k="14" style="border-radius:3px">napján</span> <span class="tw" data-p="2" data-k="15" style="border-radius:3px">úgy</span> <span class="tw" data-p="2" data-k="16" style="border-radius:3px">döntött,</span> <span class="tw" data-p="2" data-k="17" style="border-radius:3px">hogy</span> <span class="tw" data-p="2" data-k="18" style="border-radius:3px">elsőszülöttjük</span> <span class="tw" data-p="2" data-k="19" style="border-radius:3px">klinikán</span> <span class="tw" data-p="2" data-k="20" style="border-radius:3px">jöjjön</span> <span class="tw" data-p="2" data-k="21" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="22" style="border-radius:3px">világra,</span> <span class="tw" data-p="2" data-k="23" style="border-radius:3px">teljes</span> <span class="tw" data-p="2" data-k="24" style="border-radius:3px">ötven</span> <span class="tw" data-p="2" data-k="25" style="border-radius:3px">évvel</span> <span class="tw" data-p="2" data-k="26" style="border-radius:3px">megelőzte</span> <span class="tw" data-p="2" data-k="27" style="border-radius:3px">a</span> <span class="tw" data-p="2" data-k="28" style="border-radius:3px">divatot.</span> </p></div><div style="margin-bottom:24px"><p class="rd-line" data-p="3" style="margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s"><span class="rd-toggle" data-p="3" style="width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0"></span><span class="w" data-p="3" data-k="0">Whether</span> <span class="w" data-p="3" data-k="1">this</span> <span class="w" data-p="3" data-k="2">anachronism</span> <span class="w" data-p="3" data-k="3">is</span> <span class="w" data-p="3" data-k="4">connected</span> <span class="w" data-p="3" data-k="5">with</span> <span class="w" data-p="3" data-k="6">the</span> <span class="w" data-p="3" data-k="7">astonishing</span> <span class="w" data-p="3" data-k="8">story</span> <span class="w" data-p="3" data-k="9">I</span> <span class="w" data-p="3" data-k="10">am</span> <span class="w" data-p="3" data-k="11">about</span> <span class="w" data-p="3" data-k="12">to</span> <span class="w" data-p="3" data-k="13">relate</span> <span class="w" data-p="3" data-k="14">here</span> <span class="w" data-p="3" data-k="15">will</span> <span class="w" data-p="3" data-k="16">forever</span> <span class="w" data-p="3" data-k="17">remain</span> <span class="w" data-p="3" data-k="18">a</span> <span class="w" data-p="3" data-k="19">mystery.</span> </p><p class="rd-tr" style="margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty"><span class="tw" data-p="3" data-k="0" style="border-radius:3px">Hogy</span> <span class="tw" data-p="3" data-k="1" style="border-radius:3px">ez</span> <span class="tw" data-p="3" data-k="2" style="border-radius:3px">az</span> <span class="tw" data-p="3" data-k="3" style="border-radius:3px">anakronizmus</span> <span class="tw" data-p="3" data-k="4" style="border-radius:3px">összefügg-e</span> <span class="tw" data-p="3" data-k="5" style="border-radius:3px">azzal</span> <span class="tw" data-p="3" data-k="6" style="border-radius:3px">a</span> <span class="tw" data-p="3" data-k="7" style="border-radius:3px">bámulatos</span> <span class="tw" data-p="3" data-k="8" style="border-radius:3px">történettel,</span> <span class="tw" data-p="3" data-k="9" style="border-radius:3px">amelyet</span> <span class="tw" data-p="3" data-k="10" style="border-radius:3px">itt</span> <span class="tw" data-p="3" data-k="11" style="border-radius:3px">elbeszélni</span> <span class="tw" data-p="3" data-k="12" style="border-radius:3px">készülök,</span> <span class="tw" data-p="3" data-k="13" style="border-radius:3px">örökre</span> <span class="tw" data-p="3" data-k="14" style="border-radius:3px">rejtély</span> <span class="tw" data-p="3" data-k="15" style="border-radius:3px">marad.</span> </p></div></div>
               
-                  <!-- popup -->
+                  
                   <div data-el="popup" style="display:none;position:absolute;background:#ffffff;border:1px solid #eceae2;border-radius:17px;box-shadow:0 8px 28px rgba(40,45,50,.14);align-items:center;gap:2px;padding:3px 5px;z-index:5">
                     <span data-el="pop-listen" style="display:flex;flex-direction:column;align-items:center;gap:4px;cursor:pointer;padding:6px 8px;border-radius:12px">
                       <span style="height:18px;display:flex;align-items:center"><svg width="18" height="16" viewBox="0 0 22 19" fill="none" stroke="#2b3440" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.8 2.4 6 5.8H3.1A1.1 1.1 0 0 0 2 6.9v5.2a1.1 1.1 0 0 0 1.1 1.1H6l3.8 3.4V2.4Z" fill="#2b3440"></path><path d="M13.6 6.4a4 4 0 0 1 0 6.2"></path><path d="M16.6 3.8a7.6 7.6 0 0 1 0 11.4"></path></svg></span>
@@ -982,7 +952,7 @@
                   </div>
                 </div>
               
-                <!-- audio pill -->
+                
                 <div data-el="pill" style="position:absolute;left:50%;transform:translateX(-50%);bottom:36px;background:#ffffff;border-radius:48px;box-shadow:0 8px 28px rgba(40,45,50,.16),0 2px 8px rgba(40,45,50,.08);display:flex;align-items:center;gap:13px;padding:5px 5px 5px 14px">
                   <svg width="12" height="17" viewBox="0 0 15 21" style="cursor:grab;flex:none"><circle cx="4" cy="4" r="2" fill="#c3cad1"></circle><circle cx="11" cy="4" r="2" fill="#c3cad1"></circle><circle cx="4" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="11" cy="10.5" r="2" fill="#c3cad1"></circle><circle cx="4" cy="17" r="2" fill="#c3cad1"></circle><circle cx="11" cy="17" r="2" fill="#c3cad1"></circle></svg>
                   <span style="width:43px;height:43px;flex:none;border-radius:50%;background:#f0f1ee;display:flex;align-items:center;justify-content:center;cursor:pointer">
@@ -993,7 +963,7 @@
                 </div>
               
               </div>
-              <!-- /mock:reader:markup:stepAudio -->
+              
             </div>
             </div>
           </div>
@@ -1007,7 +977,7 @@
             <div class="phone__frame phone__frame--cycle">
             <div id="stepChat" class="cycle__screen mock--chat"
                  role="img" aria-label="Экран: разговор с ИИ о книге">
-              <!-- mock:chat:markup:stepChat -->
+              
               <div data-el="screen" style="width:390px;height:844px;margin:0 auto;background:#F5F4EE;display:flex;flex-direction:column;position:relative;overflow:hidden;border-radius:0;box-shadow:none">
               
                 <div style="height:52px;flex:none;display:flex;align-items:center;justify-content:space-between;padding:10px 26px 0 34px">
@@ -1070,7 +1040,7 @@
                 <div data-el="nav" style="flex:none;background:#F5F4EE;border-top:1px solid rgba(0,0,0,0.06);display:flex;align-items:flex-end;padding:8px 4px 38px;position:relative;z-index:2"><div data-nav="library" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44;position:relative"><span style="display:inline-block;width:25px;height:21px;background:currentColor;-webkit-mask:var(--l7i-dabdb167) center/contain no-repeat;mask:var(--l7i-dabdb167) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Könyvtár</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="practice" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#1F9D53;position:relative"><span style="display:inline-block;width:27px;height:23px;background:currentColor;-webkit-mask:var(--l7i-3e58675b) center/contain no-repeat;mask:var(--l7i-3e58675b) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Gyakorlás</span><div style="width:50px;height:2.5px;border-radius:2px;background:#1F9D53"></div></div><div data-nav="read" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44;position:relative"><div style="position:absolute;bottom:26px;left:50%;transform:translateX(-50%);width:72px;height:66px;background:#fff;border-radius:16px;box-shadow:0 4px 18px rgba(0,0,0,0.14);padding:5px;z-index:3"><img loading="lazy" src="/design/build/assets/chat/read-cover.png" alt="" style="width:100%;height:100%;object-fit:contain;border-radius:11px"></div><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-1.6-1.6-4-2.2-8-2.2v14c4 0 6.4.6 8 2.2 1.6-1.6 4-2.2 8-2.2v-14c-4 0-6.4.6-8 2.2z"></path><path d="M12 6v14"></path></svg><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Olvasás</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="words" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44;position:relative"><span style="display:inline-block;width:29px;height:23px;background:currentColor;-webkit-mask:var(--l7i-1857561b) center/contain no-repeat;mask:var(--l7i-1857561b) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Szavaim</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div><div data-nav="collections" style="flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;color:#4B4F44;position:relative"><span style="display:inline-block;width:44px;height:23px;background:currentColor;-webkit-mask:var(--l7i-46f0d299) center/contain no-repeat;mask:var(--l7i-46f0d299) center/contain no-repeat"></span><span style="font-size:11px;font-weight:500;text-align:center;line-height:1.05;overflow-wrap:anywhere;max-width:100%">Gyűjtemények</span><div style="width:50px;height:2.5px;border-radius:2px;background:transparent"></div></div></div>
               
               </div>
-              <!-- /mock:chat:markup:stepChat -->
+              
             </div>
             </div>
           </div>
@@ -1081,7 +1051,7 @@
     </div>
   </section>
 
-    <!-- 6. Könyvtár -->
+    
   <section class="library" id="library">
     <div class="container">
       <h2 data-i18n="library.title" class="section__title">Olvass könyveket angolul, magyar fordítással – szintek szerint, A1-től C1-ig</h2>
@@ -1110,7 +1080,7 @@
             <div class="phone__frame phone__frame--md">
             <div id="classicsBook" class="library__screen mock--book"
                  role="img" aria-label="Klasszikusok — страница книги">
-              <!-- mock:book:markup:classicsBook -->
+              
               <div data-el="screen" style="width:390px;height:844px;background:#F3F1E9;position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:0;box-shadow:none;color:#17181A">
               
                 <div style="padding:12px 26px 0 18px;display:flex;justify-content:space-between;align-items:flex-start;flex:none;position:relative;z-index:6">
@@ -1121,7 +1091,7 @@
                 <div data-el="card" data-slide="0" class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" src="/design/build/assets/book/b2165.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1171,7 +1141,7 @@
               <div data-el="card" data-slide="1" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2166.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1221,7 +1191,7 @@
               <div data-el="card" data-slide="2" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2167.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1271,7 +1241,7 @@
               <div data-el="card" data-slide="3" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2168.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1321,7 +1291,7 @@
               <div data-el="card" data-slide="4" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2169.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1371,7 +1341,7 @@
               <div data-el="card" data-slide="5" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2170.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1421,7 +1391,7 @@
               <div data-el="card" data-slide="6" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2171.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:none;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff"></div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1476,7 +1446,7 @@
                 </div>
               
               </div>
-              <!-- /mock:book:markup:classicsBook -->
+              
             </div>
             </div>
             <div class="library__dots">
@@ -1508,7 +1478,7 @@
             <div class="phone__frame phone__frame--md">
             <div id="bestBook" class="library__screen mock--book"
                  role="img" aria-label="Sikerkönyvek — страница книги">
-              <!-- mock:book:markup:bestBook -->
+              
               <div data-el="screen" style="width:390px;height:844px;background:#F3F1E9;position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:0;box-shadow:none;color:#17181A">
               
                 <div style="padding:12px 26px 0 18px;display:flex;justify-content:space-between;align-items:flex-start;flex:none;position:relative;z-index:6">
@@ -1519,7 +1489,7 @@
                 <div data-el="card" data-slide="0" class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" src="/design/build/assets/book/b2172.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1569,7 +1539,7 @@
               <div data-el="card" data-slide="1" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2173.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1619,7 +1589,7 @@
               <div data-el="card" data-slide="2" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2174.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1669,7 +1639,7 @@
               <div data-el="card" data-slide="3" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2175.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1719,7 +1689,7 @@
               <div data-el="card" data-slide="4" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2176.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1769,7 +1739,7 @@
               <div data-el="card" data-slide="5" hidden class="bk-scroll" style="flex:1;overflow-y:auto">
                   <div style="position:relative">
                     <img loading="lazy" data-el="hero" data-src="/design/build/assets/book/b2177.png" alt="" style="display:block;width:390px;height:215px;object-fit:cover">
-                    <!-- back/like кнопки — запечены в нарезанном hero (иконки без текста, локализация не нужна) -->
+                    
                     <div data-el="badge" style="position:absolute;left:14px;bottom:9px;display:inline-flex;align-items:center;background:#4a4944;border-radius:10px;padding:8px 15px;font-size:12.5px;font-weight:800;letter-spacing:.8px;color:#fff">Summary</div>
                   </div>
                   <div style="padding:12px 19px 28px">
@@ -1824,7 +1794,7 @@
                 </div>
               
               </div>
-              <!-- /mock:book:markup:bestBook -->
+              
             </div>
             </div>
             <div class="library__dots">
@@ -1854,9 +1824,9 @@
             <div class="phone__frame phone__frame--md">
             <div id="discoverLibrary" class="library__screen mock--library"
                  role="img" aria-label="Discover — каталог и статьи">
-              <!-- mock:library:markup:discoverLibrary -->
+              
               <div data-el="frame" style="width:390px;height:844px;background:#F3F1E9;position:relative;display:flex;flex-direction:column;overflow:hidden;border-radius:28px;box-shadow:0 8px 40px rgba(0,0,0,.18)"></div>
-              <!-- /mock:library:markup:discoverLibrary -->
+              
             </div>
             </div>
             <div class="library__dots">
@@ -1876,7 +1846,7 @@
     </div>
   </section>
 
-  <!-- Wow-баннер: Загрузи книгу -->
+  
   <section class="custom-book">
     <div class="container">
       <div class="custom-book__header">
@@ -1953,7 +1923,7 @@
     </div>
   </section>
 
-  <!-- 8. Для кого -->
+  
   <section class="audience" id="audience">
     <div class="container">
       <h2 data-i18n="audience.title" class="section__title">Neked való a Lingo7, ha…</h2>
@@ -1982,7 +1952,7 @@
     </div>
   </section>
 
-  <!-- 9. Боли → Решения -->
+  
   <section class="pains" id="pains">
     <div class="container">
       <h2 data-i18n="pains.title" class="section__title">Mi szokott közbejönni – és mit kezd vele a Lingo7</h2>
@@ -2036,7 +2006,7 @@
     </div>
   </section>
 
-  <!-- 10. 49 nyelv -->
+  
   <section class="languages" id="languages">
     <div class="container">
       <h2 data-i18n="languages.title" class="section__title">49 nyelv, a legelterjedtebbektől a ritkákig</h2>
@@ -2104,7 +2074,7 @@
     </div>
   </section>
 
-  <!-- 11. Vélemények -->
+  
   <section class="reviews" id="reviews">
     <div class="container">
       <h2 data-i18n="reviews.title" class="section__title">Nem számítottunk rá, hogy ennyire fog tetszeni</h2>
@@ -2170,7 +2140,7 @@
     </div>
   </section>
 
-  <!-- Review screenshot modal -->
+  
   <div class="review-modal" id="reviewModal">
     <div class="review-modal__backdrop"></div>
     <div class="review-modal__content">
@@ -2179,7 +2149,7 @@
     </div>
   </div>
 
-  <!-- 12. GYIK -->
+  
   <section class="faq" id="faq">
     <div class="container">
       <h2 data-i18n="faq.title" class="section__title">Gyakori kérdések</h2>
@@ -2216,7 +2186,7 @@
     </div>
   </section>
 
-  <!-- 13. Финальный CTA -->
+  
   <section class="final-cta" id="stores">
     <div class="container final-cta__inner">
       <h2 data-i18n="finalCta.title" class="final-cta__title">Kezdj el angolul tanulni még ma – könyvvel, nem magolással</h2>
@@ -2238,7 +2208,7 @@
 
   </main>
 
-  <!-- 14. Footer -->
+  
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
@@ -2271,7 +2241,7 @@
         <a data-i18n="footer.links[6]" href="/privacy.html">Adatvédelem</a>
       </div>
     </div>
-<!-- langnav -->
+
       <nav class="langnav" aria-label="Site language">
           <a href="/af/" hreflang="af" lang="af">Afrikaans</a>
           <a href="/az/" hreflang="az" lang="az">Azərbaycan dili</a>
@@ -2323,10 +2293,10 @@
           <a href="/hy/" hreflang="hy" lang="hy">հայերեն</a>
           <a href="/ka/" hreflang="ka" lang="ka">ქართული</a>
       </nav>
-      <!-- /langnav -->
+      
   </footer>
 
-  <!-- Download Modal -->
+  
   <div class="download-modal" id="downloadModal" role="dialog" aria-modal="true" aria-labelledby="downloadModalTitle">
     <div class="download-modal__backdrop" data-close-download></div>
     <div class="download-modal__card">
@@ -2344,29 +2314,23 @@
     </div>
   </div>
 
-  <!-- Sticky CTA (mobile) -->
+  
   <div class="sticky-cta" id="stickyCta">
     <a data-i18n="stickyCta.label" href="#" class="btn btn--primary btn--full" data-open-download>Töltsd le az appot</a>
   </div>
 
-<!-- pairpicker:js -->
 <script src="/design/build/inline/pairs-hu.js"></script>
   <script src="/design/build/inline/books-en.js"></script>
-<!-- langswitch:js -->
+
 <script src="/design/build/inline/published.js"></script>
 <script src="/design/build/inline/langswitch.js"></script>
-<!-- /langswitch:js -->
+
 <script src="/design/build/inline/pairpick.js"></script>
-<!-- /pairpicker:js -->
 
-<!-- landing:js -->
 <script src="/design/build/inline/landing.js"></script>
-<!-- /landing:js -->
 
-<!-- mock:reader:css -->
 <link rel="stylesheet" href="/design/build/inline/reader.css">
-<!-- /mock:reader:css -->
-<!-- mock:reader:js -->
+
 <script src="/design/build/inline/reader.mount.js"></script>
 <script>
 (function(){
@@ -2376,23 +2340,17 @@
   mountMock_reader(document.getElementById('heroReader'), { search: '?demo&hold', paras: (P && P.paras) || [{"line": "In 1860, it was still believed that one ought to be born at home.", "tr": "1860-ban még úgy tartották, hogy az embernek otthon kell megszületnie."}, {"line": "Nowadays, rumor has it, the high priests of medicine command that the first cry of a newborn resound in the sterile atmosphere of a clinic, preferably a fashionable one.", "tr": "Manapság, úgy hírlik, az orvostudomány főpapjai azt parancsolják, hogy az újszülött első sírása egy – lehetőleg divatos – klinika steril légkörében csendüljön fel."}, {"line": "Therefore, when the young married couple Mr. and Mrs. Roger Button decided on one fine summer day in 1860 that their first child should enter the world in a clinic, they were ahead of fashion by a full fifty years.", "tr": "Ezért, amikor a fiatal házaspár, Roger Button úr és neje, 1860 egyik szép nyári napján úgy döntött, hogy elsőszülöttjük klinikán jöjjön a világra, teljes ötven évvel megelőzte a divatot."}, {"line": "Whether this anachronism is connected with the astonishing story I am about to relate here will forever remain a mystery.", "tr": "Hogy ez az anakronizmus összefügg-e azzal a bámulatos történettel, amelyet itt elbeszélni készülök, örökre rejtély marad."}], taps: P && P.taps, dict: P && P.dict, align: P && P.align, ui: P && P.ui, book: P && P.book, target: P && P.target, accents: P && P.accents });
 })();
 </script>
-<!-- /mock:reader:js -->
-<!-- mock:library:css -->
+
 <link rel="stylesheet" href="/design/build/inline/library.css">
-<!-- /mock:library:css -->
-<!-- mock:library:js -->
+
 <script src="/design/build/inline/library.mount.js"></script>
-<!-- /mock:library:js -->
-<!-- mock:book:css -->
+
 <link rel="stylesheet" href="/design/build/inline/book.css">
-<!-- /mock:book:css -->
-<!-- mock:book:js -->
+
 <script src="/design/build/inline/book.mount.js"></script>
-<!-- /mock:book:js -->
-<!-- mock:catalog:shells -->
+
 <script src="/design/build/inline/shells.js"></script>
-<!-- /mock:catalog:shells -->
-<!-- mock:catalog:boot -->
+
 <script>
 (function(){
   // Две базы. base — язык ЧИТАТЕЛЯ: герой и «пять шагов», то есть
@@ -2423,20 +2381,15 @@
   mountMock_library(document.getElementById("discoverLibrary"), Object.assign({ search: "?demo&loop" }, baseT));
 })();
 </script>
-<!-- /mock:catalog:boot -->
-<!-- mock:vocab:css -->
+
 <link rel="stylesheet" href="/design/build/inline/vocab.css">
-<!-- /mock:vocab:css -->
-<!-- mock:vocab:js -->
+
 <script src="/design/build/inline/vocab.mount.js"></script>
-<!-- /mock:vocab:js -->
-<!-- mock:chat:css -->
+
 <link rel="stylesheet" href="/design/build/inline/chat.css">
-<!-- /mock:chat:css -->
-<!-- mock:chat:js -->
+
 <script src="/design/build/inline/chat.mount.js"></script>
-<!-- /mock:chat:js -->
-<!-- mock:steps:boot -->
+
 <script>
 (function(){
   var P = window.L7_pickPair && window.L7_pickPair();
@@ -2449,6 +2402,6 @@
   mountMock_chat(document.getElementById("stepChat"), Object.assign({ search: "?demo" }, base));
 })();
 </script>
-<!-- /mock:steps:boot -->
+
 </body>
 </html>

@@ -1,46 +1,11 @@
-/* Собрано tools/inline_mock.py из design/build/reader.html — руками не править.
-   Мок остаётся рабочей отдельной страницей; компонент пересобирается из него. */
 window.mountMock_reader = function (__R, __P) {
-  // Параметры мока (?hold, ?seg=read, ?book=0, ?loop) читаются из location.search.
-  // Подменяем location, чтобы не трогать разбор внутри мока.
   const location = { search: (__P && __P.search) || '' };
 
 (function(){
-  // ==== DATA: target = English (bold), native = Russian (grey) ====
-    // Абзац приходит параметром монтирования: на странице пары это версии
-  // target и my из i18n/reader-sample.json. Отдельной страницей __P не
-  // существует, и берётся набор по умолчанию — английский с русским.
-  // Позиции тап-слов в предложениях. Сценарий демо раньше ИСКАЛ их по
-  // английским словам — idxOf(w0, 'home') и idxOf(w1, 'medicine'), — поэтому
-  // на любой паре с неанглийским изучаемым языком слова не находились и
-  // сценарий тихо вставал. Теперь индексы приходят из highlightTaps, где они
-  // заполнены на все 49 языков: {p: предложение, from, to: границы токенов}.
   const TAPS = (typeof __P !== 'undefined' && __P && __P.taps) ? __P.taps
              : [{ p: 0, from: 13, to: 14, key: 'home' },
                 { p: 1, from: 8, to: 9, key: 'medicine' }];
-  // Ключ словаря карточки — нажатое слово на ИЗУЧАЕМОМ языке. Раньше
-  // сценарий брал запись по английскому имени тап-слова, и на паре en←ru
-  // это давало undefined: исключение рвало сценарий сразу после нажатия
-  // «Add to my words», карточка так и оставалась открытой.
   const dictOf = i => DICT[(TAPS[i] && TAPS[i].key) || ''] || {};
-  // Подписи интерфейса — только язык читателя. Приходят параметром из
-  // PairPayload.chrome(); значения по умолчанию русские, чтобы мок оставался
-  // рабочей отдельной страницей. Раньше они были зашиты в код, и на паре
-  // en←ru экран показывал «Группа: Общая» и «Добавить в мои слова» по-русски.
-  // Подписи интерфейса — только язык читателя. Приходят параметром из
-  // PairPayload.chrome(); значения по умолчанию русские, чтобы мок оставался
-  // рабочей отдельной страницей.
-  //
-  // ВАЖНО: набор здесь обязан быть ПОЛНЫМ. Ключ translationAlways появился
-  // позже этого блока, запасного значения для него не оказалось, и на
-  // сербской странице в строке «Преведи» печаталось «undefined».
-  // Подписи интерфейса — только язык читателя, приходят из PairPayload.chrome().
-  // Значения ниже — ЭТАЛОННЫЕ, английские: они нужны лишь чтобы мок открывался
-  // отдельной страницей для дизайн-ревью. Русскому здесь не место — на сербской
-  // странице русское слово так же неуместно, как английское.
-  //
-  // Подпираться ими на живой странице НЕЛЬЗЯ: выгрузка отказывается писать,
-  // если у локали неполный набор подписей, поэтому до подстановки не доходит.
   const UI_DEFAULT = {
     "appUi._note": "Интерфейс демо-экранов телефона (my_lang only). Источник — design/build/*.html. В index.html этих строк нет, экстрактор лендинга переносит блок как есть. Инвентарь и обратная сверка — tools/mock_strings.py. Контент экранов (абзац, слова, диалог чата) живёт в reader-sample.json, здесь только обвязка.",
     "appUi.reader.listen": "Listen",
@@ -106,20 +71,11 @@ window.mountMock_reader = function (__R, __P) {
   const UI = Object.assign({}, UI_DEFAULT,
     (typeof __P !== 'undefined' && __P && __P.ui) ? __P.ui : {});
 
-  // Название книги и глава. Роли разные: в шапке приложения — язык
-  // читателя, в тексте — изучаемый, под ним перевод. Раньше и то и другое
-  // было зашито по-русски, поэтому на паре en←ru шапка оставалась русской.
   const BOOK = Object.assign({
     title: 'The Curious Case of Benjamin Button', chapter: 'Chapter 1',
     titleMy: 'Загадочная история Бенджамина Баттона', chapterMy: 'Глава 1',
     shortMy: 'Загадочная история Бенджамина…'
   }, (typeof __P !== 'undefined' && __P && __P.book) ? __P.book : {});
-  // Подписи, стоящие в статической разметке, заполняются по метке:
-  // <span data-ui="appUi.reader.listen">…</span>
-  // __R — корень СМОНТИРОВАННОГО компонента; его подставляет inline_mock.py
-  // параметром функции. На отдельной странице такого имени нет вовсе, и голое
-  // обращение к нему бросало ReferenceError, убивая скрипт целиком — вместе с
-  // авто-демо. Поэтому проверка через typeof, как и у __P рядом.
   const __ROOT = (typeof __R !== 'undefined' && __R) || document;
   __ROOT.querySelectorAll('[data-book]').forEach(function (el) {
     const v = BOOK[el.getAttribute('data-book')];
@@ -141,33 +97,15 @@ window.mountMock_reader = function (__R, __P) {
       tr:   "Связан ли этот анахронизм с удивительной историей, которую я собираюсь здесь рассказать, навсегда останется тайной." }
   ];
   const SPEEDS = [0.7, 0.8, 0.9, 1, 1.2, 1.5];
-  // pivot alignment: tapped original word → matching translation word (green in both)
-  // Подсветка парного слова в переводе. Раньше это была таблица «английское
-  // слово → русское», поэтому на любой другой паре подсветка не срабатывала:
-  // нажатое «дома» в таблице отсутствовало. Теперь это ДИАПАЗОН токенов в
-  // строке перевода — так же, как тап хранится диапазоном, а не индексом.
-  // ВНИМАНИЕ: индексы здесь — по строке ПЕРЕВОДА (my), а не по изучаемой.
-  // Запасной набор один раз держал английские индексы внутри русской строки, и
-  // на отдельных страницах ?seg=read и ?seg=audio подсветка вставала на «чтобы
-  // первый». Сверяется tools/l7_mock_defaults.py.
   const ALIGN = (typeof __P !== 'undefined' && __P && __P.align) ? __P.align
               : { 0: [8, 9], 1: [4, 5] };
 
-  // === i18n: строка «Акцент» зависит от ИЗУЧАЕМОГО (target) языка, а не от языка интерфейса. ===
-  // Она есть только у target-языков с вариантами произношения (сейчас — en и es). Для остальных
-  // target-языков ряда «Акцент» нет вовсе. Флаг и набор акцентов — свойство target-языка; их
-  // названия («Британский» …) переводятся на язык интерфейса. TARGET здесь = 'en' (учим английский).
-  // Изучаемый язык и настройки, которые от него зависят. Раньше TARGET был
-  // зашит как 'en', поэтому ряд «Акцент» висел на ЛЮБОЙ паре — даже когда
-  // учат сербский, у которого акцентов в наборе нет. Названия акцентов были
-  // зашиты по-русски, хотя читаются на языке читателя.
   const TARGET = (typeof __P !== 'undefined' && __P && __P.target) || 'en';
   const ACCENTS = (typeof __P !== 'undefined' && __P && __P.accents) ? __P.accents
                 : { en: { flag: '🇬🇧', name: 'Британский' },
                     es: { flag: '🇪🇸', name: 'Испанский (Испания)' } };
   const targetAccent = ACCENTS[TARGET];   // нет языка в наборе ⇒ ряда нет вовсе
 
-  // ==== state ====
   const st = { playing: true, active: 0, wordIdx: 0, speedIdx: 2, popup: null, added: {} };
   let timer = null;
 
@@ -176,14 +114,9 @@ window.mountMock_reader = function (__R, __P) {
   const popup = __R.querySelector('[data-el="popup"]');
   const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 
-  // ==== SVG icons for para toggle ====
   const playIcon = '<svg width="11" height="11" viewBox="0 0 12 12"><path d="M3.4 1.6 10.4 6 3.4 10.4 Z" fill="#1F9D53"></path></svg>';
   const pauseIcon = '<svg width="10" height="11" viewBox="0 0 10 11"><rect x="0.5" y="0" width="3.2" height="11" rx="1.4" fill="#ffffff"></rect><rect x="6.3" y="0" width="3.2" height="11" rx="1.4" fill="#ffffff"></rect></svg>';
 
-  // ==== build paragraph DOM once ====
-  // Разметка абзаца может уже стоять в странице: её отдают статикой, чтобы текст
-  // книги был в исходнике, а не появлялся из скрипта. Тогда перерисовывать нельзя —
-  // видимое и отрендеренное обязаны совпадать, — и остаётся только навесить события.
   function wireParas(){
     parasEl.querySelectorAll('.rd-toggle').forEach(t => {
       const i = +t.dataset.p;
@@ -209,7 +142,6 @@ window.mountMock_reader = function (__R, __P) {
       line.dataset.p = i;
       line.style.cssText = 'margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s';
 
-      // toggle circle
       const toggle = document.createElement('span');
       toggle.className = 'rd-toggle';
       toggle.dataset.p = i;
@@ -217,7 +149,6 @@ window.mountMock_reader = function (__R, __P) {
       toggle.addEventListener('click', () => togglePara(i));
       line.appendChild(toggle);
 
-      // words
       p.line.split(/\s+/).forEach((w, k) => {
         const span = document.createElement('span');
         span.className = 'w';
@@ -245,10 +176,6 @@ window.mountMock_reader = function (__R, __P) {
     paint();
   }
 
-  // ==== paint dynamic state (toggle icons + word highlight) ====
-  // Диапазон соответствия слову-пивоту в предложении p. Приходит из данных
-  // (tap_lang.lex_from/lex_to) и одинаков для обеих сторон — язык не знает,
-  // изучаемый он сейчас или родной.
   function lexOf(p){
     for (let n = 0; n < TAPS.length; n++) if (TAPS[n].p === p) return TAPS[n];
     return null;
@@ -279,15 +206,9 @@ window.mountMock_reader = function (__R, __P) {
       const i = +s.dataset.p, k = +s.dataset.k;
       let bg = 'transparent';
       if (audio && st.active === i && k === st.wordIdx && st.playing) bg = '#F7B267';  // karaoke word
-      // Подсвечивается ДИАПАЗОН соответствия слову-пивоту, а не один токен:
-      // у mn «анагаах ухаан» и vi «y học» слово состоит из двух токенов.
-      // Раньше на изучаемой стороне горел один токен, а на стороне перевода —
-      // весь диапазон вместе с предлогом: отсюда «дома → код куће» в одну
-      // сторону и «куће → home» в другую.
       else if (st.popup && st.popup.p === i && inLex(i, k)) bg = '#CDE4CE';   // tapped word
       s.style.background = bg;
     });
-    // highlight the aligned translation word (home↔дома, medicine↔медицины)
     let alignRange = null, alignP = -1;
     if (st.popup && ALIGN[st.popup.p]) { alignRange = ALIGN[st.popup.p]; alignP = st.popup.p; }
     __R.querySelectorAll('.tw').forEach(sp => {
@@ -301,10 +222,7 @@ window.mountMock_reader = function (__R, __P) {
     updatePill(); paint();
   }
 
-  // ==== karaoke loop ====
   function currentSpeed(){ return SPEEDS[st.speedIdx]; }
-  // Шаг караоке: миллисекунды на слово, делённые на выбранную скорость.
-  // Было 380, стало 292 — на 30% быстрее (380 / 1.3).
   const KARAOKE_STEP_MS = 292;
   function schedule(){
     clearTimeout(timer);
@@ -324,25 +242,18 @@ window.mountMock_reader = function (__R, __P) {
   }
   function scrollTo0(){ scroll.scrollTo({ top: 0, behavior: 'smooth' }); }
 
-  // ==== paragraph toggle ====
   function togglePara(i){
     if (st.active === i){ st.playing = !st.playing; }
     else { st.active = i; st.wordIdx = 0; st.playing = true; scrollToActive(); }
     updatePill(); paint();
   }
 
-  // Масштаб предка. getBoundingClientRect() отдаёт координаты ПОСЛЕ transform,
-  // а style.left/top задаются в нелокализованных координатах макета. Пока мок
-  // жил в <iframe>, предков с transform не было и разница не мешала. В составе
-  // страницы экран ужат до 0.6769 — и попап с пальцем уезжали вверх-влево.
-  // Отдельной страницей возвращает 1, поэтому поведение мока не меняется.
   const scaleOf = el => {
     const host = el.closest('#reader, [data-el="reader"]');
     if (!host || !host.offsetWidth) return 1;
     return host.getBoundingClientRect().width / host.offsetWidth || 1;
   };
 
-  // ==== popup ====
   function openPopup(e, word, p, k){
     const sc = scaleOf(e.currentTarget);
     const r = e.currentTarget.getBoundingClientRect();
@@ -375,9 +286,6 @@ window.mountMock_reader = function (__R, __P) {
   __R.querySelector('[data-el="pop-close"]').addEventListener('click', closePopup);
   __R.querySelector('[data-el="pop-listen"]').addEventListener('click', ()=>{});
 
-  // ==== word card (tap "Перевод" on a dictionary word) ====
-  // Словарь карточки слова: ключ — текст нажатого слова на изучаемом языке.
-  // Для пары приходит параметром из wordCardDemo; по умолчанию — англо-русский.
   const DICT = (typeof __P !== 'undefined' && __P && __P.dict) ? __P.dict : {
     home:     { title:'home',     freq:UI['appUi.wordCard.freqHigh'],  d:3, transBold:'дом,',     transRest:' домой', img:'/design/build/assets/reader/img-casa.png',      other:2, syn:4,
       en:'In 1860, it was still believed that one ought to be born at |home.|',
@@ -431,7 +339,6 @@ window.mountMock_reader = function (__R, __P) {
       </div>`;
     __R.querySelector('[data-el="reader"]').appendChild(o);
     o.querySelector('[data-el="card-bg"]').addEventListener('click', closeCard);
-    // кнопка «Добавить в мои слова» ↔ «✓ В моих словах» (ключ — как у плашки, для синхронизации)
     const addBtn = o.querySelector('[data-el="card-add"]');
     const paintAdd = () => {
       const added = !!st.added[st.popup.word];
@@ -453,7 +360,6 @@ window.mountMock_reader = function (__R, __P) {
     if (st.popup && DICT[st.popup.word.toLowerCase()]) renderCard(st.popup.word.toLowerCase());
   });
 
-  // ==== pill ====
   const pillPlay = __R.querySelector('[data-el="pill-play"]');
   function updatePill(){
     __R.querySelector('[data-el="pill"]').style.display = (st.mAudio !== false) ? 'flex' : 'none';
@@ -470,7 +376,6 @@ window.mountMock_reader = function (__R, __P) {
     st.speedIdx = (st.speedIdx + 1) % SPEEDS.length; updatePill(); schedule();
   });
 
-  // ==== settings menu (hamburger → right drawer) ====
   Object.assign(st, { menu:false, mAudio:true, mHl:false, mPr:false, mSpeed:0.9, mOrig:20, mTrans:17 });
   const menuEl = document.createElement('div');
   menuEl.setAttribute("data-el", "menu");
@@ -535,9 +440,6 @@ window.mountMock_reader = function (__R, __P) {
       arow.querySelector('[data-malabel]').textContent = st.mAudio ? UI['appUi.readerSettings.on'] : UI['appUi.readerSettings.off'];
       arow.querySelector('[data-madot]').style.background = st.mAudio ? '#1F9D53' : '#cfcfc8';
       applyAudioMode();
-      // Включил аудио — возвращаемся к чтению, «Готово» жать не надо.
-      // Задержка нужна, чтобы переключатель успел показать «Вкл» и зелёную точку:
-      // без неё плашка исчезает раньше, чем видно, что именно переключилось.
       setTimeout(() => toggleMenu(false), 420);
     };
     menuEl.querySelectorAll('[data-sw]').forEach(el => el.onclick = () => {
@@ -572,22 +474,16 @@ window.mountMock_reader = function (__R, __P) {
   }
   __R.querySelector('[data-el="menu-btn"]').addEventListener('click', () => toggleMenu());
 
-  // ==== init ====
   buildParas();
   applyFontSizes();
   updatePill();
   schedule();
 
-  // ==== hero auto-demo (активен, когда мок встроен в iframe, либо ?demo) ====
   const DEMO = (window.self !== window.top) || /[?&]demo\b/.test(location.search);
   if (DEMO) startDemo();
 
   function startDemo(){
     const readerEl = __R.querySelector('[data-el="reader"]');
-    // в iframe убираем «подложку» standalone-мока: тело без полей/фона, #reader во весь кадр
-    // (скругление/тень даёт внешняя рамка телефона в лендинге)
-    // Только во фрейме: там это собственный <body> мока. В составе страницы
-    // строка затирала инлайном стили тела ЛЕНДИНГА — фон, отступы, display.
     if (window.self !== window.top) {
       document.body.style.cssText = 'margin:0;padding:0;background:transparent;min-height:0;display:block';
     }
@@ -595,10 +491,6 @@ window.mountMock_reader = function (__R, __P) {
     readerEl.style.boxShadow = 'none';
     st.playing = false; updatePill(); paint();   // в демо караоке не крутится вхолостую до старта скрипта
     const sleepD = ms => new Promise(r => setTimeout(r, ms));
-    // Компонент называет себя. Раньше лендинг отличал hero-ридер от ридеров
-    // карточек «цикла» по e.source: у фреймов это разные contentWindow. Теперь
-    // встроены ВСЕ, источник у всех один — window страницы, — и плашки над
-    // телефоном прилетали от чужого экрана, крутящего свой цикл в своём темпе.
     const MOUNT_ID = (typeof __R !== 'undefined' && __R && __R.id) || '';
     const post = msg => {
       try { window.parent.postMessage(Object.assign({ from: MOUNT_ID }, msg), '*'); }
@@ -606,7 +498,6 @@ window.mountMock_reader = function (__R, __P) {
     };
     const clickEl = el => el && el.dispatchEvent(new MouseEvent('click', { bubbles:true, cancelable:true, view:window }));
 
-    // палец-указатель
     const finger = document.createElement('div');
     finger.style.cssText = 'position:absolute;z-index:60;width:44px;height:44px;pointer-events:none;opacity:0;transition:opacity .18s, top .38s ease, left .38s ease;filter:drop-shadow(0 3px 5px rgba(0,0,0,.28))';
     finger.innerHTML = '<svg width="44" height="44" viewBox="0 0 48 48" fill="none"><path d="M19 5c-1.7 0-3 1.3-3 3v17.5l-3.4-3.6a3.1 3.1 0 0 0-4.5 4.3l8.7 10.4c1.4 1.7 3.4 2.6 5.6 2.6h8.1a6 6 0 0 0 6-5.2l1.3-9.7a3.2 3.2 0 0 0-3.2-3.6H22V8c0-1.7-1.3-3-3-3z" fill="#fff" stroke="#2b2b2b" stroke-width="2" stroke-linejoin="round"/></svg>';
@@ -620,10 +511,8 @@ window.mountMock_reader = function (__R, __P) {
     };
     const tapAnim = async () => { finger.animate([{transform:'scale(1)'},{transform:'scale(.78)'},{transform:'scale(1)'}], {duration:280}); await sleepD(280); };
 
-    // целевые слова = ключи DICT, найденные среди отрисованных .w
     const clean = s => s.replace(/[.,;:!?«»"'—:]/g,'').toLowerCase();
 
-    // ==== сценарная раскадровка hero-демо ридера ====
     async function runScript(){
       const el = id => __R.querySelector('[data-el="' + id + '"]');
       const paraWords = p => [...parasEl.children[p].querySelectorAll('.w')];
@@ -633,51 +522,40 @@ window.mountMock_reader = function (__R, __P) {
       const hideFinger = () => finger.style.opacity = '0';
       const idxOf = (words, w) => words.findIndex(s => clean(s.textContent) === w);
       async function fTap(t, pre){ if(!t) return; fingerTo(t); await sleepD(pre||430); await tapAnim(); clickEl(t); }
-      // сегмент демо: 'read' (чтение+перевод — карточка 2), 'audio' (аудио/shadowing — карточка 4), 'full' (hero — всё)
       const SEG = (location.search.match(/[?&]seg=(read|audio)\b/) || [])[1] || 'full';
 
       while (true){
-        // сброс: 'audio' стартует с включённым звуком с 1-го предложения; 'read'/'full' — аудио OFF, верх текста
         st.added = {}; st.mAudio = (SEG === 'audio'); st.playing = false; st.active = 0; st.wordIdx = 0; st.popup = null; st.stopAtEnd = false;
         { const c = cardEl(); if (c) c.remove(); }
         popup.style.display = 'none'; menuEl.style.display = 'none'; st.menu = false;
         applyAudioMode();
-        // scrollTo0() крутит собственную область ридера — нужен всегда.
-        // window.scrollTo(0,0) во фрейме двигал сам фрейм, а в составе
-        // страницы кидал ЛЕНДИНГ в начало на каждом витке анимации.
         scrollTo0();
         if (window.self !== window.top) window.scrollTo(0, 0);
         paint(); updatePill();
         post({ type:'l7demo-reset' });
         await sleepD(1200);
 
-        // ===== ЧТЕНИЕ (шаги 1-3): для 'read' и 'full' =====
         if (SEG !== 'audio') {
-          // 1) палец ведёт по словам 1-го предложения и тапает home
           const w0 = paraWords(0);
           const homeIdx = (TAPS[0].at != null ? TAPS[0].at : TAPS[0].from);
           for (let k=0; k<homeIdx; k++){ fingerTo(w0[k]); await sleepD(180); }
           fingerTo(w0[homeIdx]); await sleepD(330); await tapAnim();
           clickEl(w0[homeIdx]);                    // тап home → попап (home + дома зелёным)
           await sleepD(1100);
-          // 2) Перевод → карточка → Добавить → карточка закрывается
           await fTap(el('pop-translate')); await sleepD(1300);
           await fTap(cardEl() && cardEl().querySelector('[data-el="card-add"]'));
           post({ type:'l7demo-save', en:dictOf(0).title, ru:(dictOf(0).transBold||'').replace(/[,\s]+$/,'') });
           await sleepD(1100);
           { const bg = cardEl() && cardEl().querySelector('[data-el="card-bg"]'); if (bg) clickEl(bg); }
           hideFinger(); await sleepD(700);
-          // 3) крестик на плашке → плашка закрывается
           await fTap(el('pop-close')); hideFinger(); await sleepD(850);
         }
 
-        // 'read' — тем же стилем проходим 2-е предложение (слово medicine), затем цикл
         if (SEG === 'read') {
           await sleepD(600);
           scrollToPara(1); await sleepD(750);
           const w1r = paraWords(1);
           const medIdxR = (TAPS[1].at != null ? TAPS[1].at : TAPS[1].from);
-          // палец ведёт по словам 2-го предложения и тапает medicine
           for (let k=0; k<medIdxR; k++){ fingerTo(w1r[k]); await sleepD(150); }
           fingerTo(w1r[medIdxR]); await sleepD(330); await tapAnim();
           clickEl(w1r[medIdxR]);                    // тап medicine → попап (medicine + медицины зелёным)
@@ -692,16 +570,12 @@ window.mountMock_reader = function (__R, __P) {
           continue;
         }
 
-        // ===== переход к аудио (шаг 4): только 'full' (в 'audio' звук уже включён) =====
         if (SEG === 'full') {
-          // 4) бутерброд → меню → аудио ON (плашка закрывается сама)
           await fTap(el('menu-btn')); await sleepD(950);
           await fTap(menuEl.querySelector('[data-maudio]')); hideFinger(); await sleepD(900);
         }
 
-        // ===== АУДИО (карточка 4, 'audio'): 1-е предложение home→«В слова» + 2-е medicine→«В слова» + доигрывание =====
         if (SEG === 'audio') {
-          // 5) караоке 1-го предложения (In 1860 … home)
           scrollTo0(); await sleepD(500);
           await fTap(paraToggle(0)); hideFinger();      // togglePara(0): active=0, playing=true
           const w0a = paraWords(0);
@@ -710,7 +584,6 @@ window.mountMock_reader = function (__R, __P) {
           while (!(st.active===0 && st.wordIdx >= homeIdxA - 1 && st.playing) && gA++ < 500) await sleepD(45);
           st.playing = false; updatePill(); paint();     // пауза у «home»
           await sleepD(350);
-          // тап home → плашка → «В слова» (галочка) → ✕
           fingerTo(w0a[homeIdxA]); finger.style.opacity='1'; await sleepD(430); await tapAnim();
           clickEl(w0a[homeIdxA]); await sleepD(1000);
           await fTap(el('pop-add')); await sleepD(350);   // «В слова» вместо «Перевод»
@@ -718,7 +591,6 @@ window.mountMock_reader = function (__R, __P) {
           await sleepD(900);
           await fTap(el('pop-close')); hideFinger(); await sleepD(650);
 
-          // 6) караоке 2-го предложения (Nowadays … medicine)
           scrollToPara(1); await sleepD(650);
           await fTap(paraToggle(1)); hideFinger();        // active=1, playing=true
           const w1a = paraWords(1);
@@ -728,7 +600,6 @@ window.mountMock_reader = function (__R, __P) {
           while (!(st.active===1 && st.wordIdx >= thatIdxA && st.playing) && gB++ < 500) await sleepD(45);
           st.playing = false; updatePill(); paint();      // пауза у «that» (после medicine)
           await sleepD(350);
-          // тап medicine → плашка → «В слова» → ✕
           fingerTo(w1a[medIdxA]); finger.style.opacity='1'; await sleepD(430); await tapAnim();
           clickEl(w1a[medIdxA]); await sleepD(1000);
           await fTap(el('pop-add')); await sleepD(350);   // «В слова» вместо «Перевод»
@@ -736,7 +607,6 @@ window.mountMock_reader = function (__R, __P) {
           await sleepD(900);
           await fTap(el('pop-close')); hideFinger(); await sleepD(650);
 
-          // 7) большой Play → караоке доигрывает до конца, затем цикл
           st.stopAtEnd = true;
           await fTap(el('pill-play')); hideFinger();
           let gEndA = 0;
@@ -747,11 +617,8 @@ window.mountMock_reader = function (__R, __P) {
           continue;
         }
 
-        // ===== АУДИО (hero, 'full'): шаги 5-9 =====
-        // 5) per-sentence Play у 2-го абзаца → играет только его
         scrollToPara(1); await sleepD(700);
         await fTap(paraToggle(1)); hideFinger();  // togglePara(1): active=1, playing=true, караоке
-        // 6) караоке идёт оранжевым; ждём "that" (после medicine), затем пауза
         const w1 = paraWords(1);
         const medIdx = (TAPS[1].at != null ? TAPS[1].at : TAPS[1].from);
         const thatIdx = Math.min(TAPS[1].to, w1.length - 1);
@@ -759,18 +626,14 @@ window.mountMock_reader = function (__R, __P) {
         while (!(st.active===1 && st.wordIdx >= thatIdx && st.playing) && guard++ < 500) await sleepD(45);
         st.playing = false; updatePill(); paint();     // пауза на "that" (значок пауза → play)
         await sleepD(350);
-        // 7) тап medicine → попап (medicine + медицины зелёным)
         fingerTo(w1[medIdx]); finger.style.opacity='1'; await sleepD(430); await tapAnim();
         clickEl(w1[medIdx]); await sleepD(1000);
-        // 8) Перевод → Добавить → закрыть карточку → крестик
         await fTap(el('pop-translate')); await sleepD(1300);
         await fTap(cardEl() && cardEl().querySelector('[data-el="card-add"]'));
         post({ type:'l7demo-save', en:dictOf(1).title, ru:(dictOf(1).transBold||'').replace(/[,\s]+$/,'') });
         await sleepD(1100);
         { const bg = cardEl() && cardEl().querySelector('[data-el="card-bg"]'); if (bg) clickEl(bg); }
         hideFinger(); await sleepD(750);
-        // 9) большой Play → плашка закрывается сама, караоке идёт по всему тексту
-        //    до последней фразы «…will forever remain a mystery.» и там останавливается
         st.stopAtEnd = true;                        // финал: advance() сам остановится на конце, без гонки и без loop на «In 1860»
         await fTap(el('pill-play')); hideFinger();  // pill-play включает st.playing → караоке резюмится с «that»
         let gEnd = 0;
@@ -780,7 +643,6 @@ window.mountMock_reader = function (__R, __P) {
         await sleepD(2200);
       }
     }
-    // ?hold — ждём сигнал 'l7demo-go' от лендинга; иначе стартуем сразу
     if (/[?&]hold\b/.test(location.search)) {
       window.addEventListener('message', function onGo(e){
         if (e && e.data && e.data.type === 'l7demo-go') { window.removeEventListener('message', onGo); runScript(); }

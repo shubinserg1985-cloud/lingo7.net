@@ -1,38 +1,15 @@
-/* Данные пары для всех экранов. Источник — design/build/inline/pairs.js.
-
-   Главное здесь — window.L7_pickPair(): из него берут текст, словарь, каталог,
-   диалог и упражнение ВСЕ пять моков. Без него телефон на странице пустой.
-
-   Вторая половина файла — проверочный блок «посмотреть любую языковую пару».
-   Он существовал, пока страниц /[my]/learn-[target] не было и увидеть пару
-   было негде. Теперь дерево собрано, и смотреть надо на саму страницу пары, а
-   не на её предпросмотр. Блок из разметки убран; код оставлен и молча
-   выключается, если блока нет — так файл продолжает работать и на странице
-   разработки, где блок при желании можно вернуть. */
 (function () {
   var D = window.L7_PAIRS;
   if (!D) return;
 
-  // Пару решает переключатель языка (langswitch.js) и кладёт сюда — разбор
-  // адреса, умолчание и правило «изучаемый ≠ родной» существуют ОДИН раз.
-  // Раньше этот файл решал то же самое сам, своими литералами 'ru' и 'en':
-  // правка умолчания в одном месте сделала бы текст страницы одним языком, а
-  // телефон рядом — другим, и заметить это можно было бы только глазами.
   var CUR = window.L7_PAIR;
   if (!CUR) {
     console.error('L7: пара не определена — langswitch.js должен идти до pairs.js-потребителей');
     return;
   }
 
-  // Ключ словаря карточки — текст нажатого слова, очищенный ровно так же, как
-  // это делает мок в openPopup. Иначе карточка не откроется.
   function keyOf(s) { return s.replace(/[.,;:!?«»"'\u2014:]/g, '').toLowerCase(); }
 
-  // Абзац, позиции тап-слов и словарь карточки для выбранной пары.
-  // Сценарий демо раньше искал тап-слова по английским «home» и «medicine»,
-  // поэтому на паре вроде en←ru они не находились и демо тихо вставало.
-  // Всё, что нужно экрану для пары. Собрано в базе (data/lingo7.db) слоем
-  // модели и выгружено tools/l7_export_pairs.py — здесь только выбор пары.
   window.L7_pickPair = function () {
     var tg = CUR.target, my = CUR.my;
     var a = D.paras[tg], b = D.paras[my];
@@ -65,14 +42,9 @@
       };
     });
 
-    // Заготовленные плашки над телефоном: слово на изучаемом языке и его
-    // перевод на язык читателя. Раньше здесь был зашитый англо-русский список,
-    // поэтому на паре en←sr первые три плашки оставались Year/год.
     var st = D.show[tg] || [], sm = D.show[my] || [];
     var showcase = st.map(function (w, i) { return { en: w, ru: sm[i] || '' }; });
 
-    // Настройка, зависящая от изучаемого языка. Мок ждёт карту по коду языка;
-    // если языка в ней нет, ряд не выводится вовсе — так и должно быть.
     var accents = {};
     (D.accents[tg] || []).forEach(function (o, i) {
       if (i === 0) accents[tg] = { flag: o.flag, name: (o.names || {})[my] || (o.names || {}).en || '' };
@@ -85,24 +57,15 @@
       ui: ui,
       book: { title: bt.title, chapter: bt.chapter,
               titleMy: bm.title, chapterMy: bm.chapter, shortMy: bm.short },
-      // Каталог: устройство полок языка не знает и берётся как есть, текст —
-      // только языка ЧИТАТЕЛЯ. Изучаемый язык на каталог не влияет: полка
-      // показывает, ЧТО читать, а не на чём.
       catalog: D.catalog, catText: D.catText[my],
-      // Упражнение: картинку выбирают по слову на ИЗУЧАЕМОМ, подпись верного
-      // ответа — на языке читателя. Раньше подпись была зашита как «Дом».
       vocab: { word: (D.cards[tg] && D.cards[tg].home || {}).word || '',
                tr:   (D.cards[my] && D.cards[my].home || {}).main || '' },
-      // Диалог: реплика на изучаемом плюс её перевод, обе из одной таблицы по
-      // двум локалям — как абзац ридера.
       chat: { target: D.chat[tg], my: D.chat[my] }
     };
   };
 
   function taks_at(taps, i) { return taps[i].at; }
 
-  // Разметка ровно та, что строит buildParas: скрипт её подхватывает, а не
-  // перерисовывает, поэтому она обязана совпадать до атрибутов.
   var L = 'margin:0 -9px;padding:5px 9px;border-radius:13px;font-size:20px;line-height:1.38;color:#333d4b;text-wrap:pretty;transition:background .2s';
   var T = 'width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;vertical-align:middle;margin:-6px 12px -6px 0';
   var R = 'margin:5px 0 0;font-size:17.5px;line-height:1.34;color:#93a0ae;text-wrap:pretty';
@@ -125,9 +88,6 @@
     }).join('');
   }
 
-  // Блока в разметке может не быть — на боевых страницах его и нет.
-  // Раньше отсутствие #pairOut роняло скрипт на out.innerHTML, и вместе с ним
-  // умирал L7_pickPair, то есть все пять экранов сразу.
   function hasBlock() { return !!document.getElementById('pairOut'); }
 
   function render() {
@@ -151,14 +111,11 @@
 
     document.getElementById('pairUrl').textContent = '/' + my + '/learn-' + tg;
 
-    // Ловушка, ради которой блок и нужен: в финском и эстонском «espanja» и
-    // «Espanja» различаются только регистром, и заглавная — это СТРАНА.
     var warn = document.getElementById('pairWarn');
     var bad = D.lead[my] === 'lower' && slot && slot[0] !== slot[0].toLowerCase();
     warn.hidden = !bad;
     if (bad) warn.textContent = 'В этой локали названия языков пишутся со строчной, а атом «' +
       slot + '» начинается с заглавной — проверьте, не название ли это страны.';
-    // display-форма нужна переключателю языков и hreflang, slot — подстановке
     document.getElementById('pairTarget').title = 'slot: ' + slot + '  ·  display: ' + disp;
   }
 

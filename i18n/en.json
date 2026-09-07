@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "A book instead of a course",
-        "span": "Study the thing you'd read for fun"
+        "span": "Learn {target} from what you'd read for fun"
       },
       {
         "strong": "49 languages",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "How to learn a language from books: five steps",
+    "title": "How to learn {target} from books: five steps",
     "subtitle": "No elaborate method. One clear cycle, with content good enough to carry you through it.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "{target} books with translation – by level, A1 to C1",
-    "subtitle": "You're not only learning a language, you're learning something. Material for every level, from first steps to advanced.",
+    "subtitle": "You're not only learning {target}, you're learning something. Material for every level, from first steps to advanced.",
     "tabs": [
       "Classics",
       "Bestsellers",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NEW",
-    "title": "Upload your own book or text and learn from that",
+    "title": "Upload your own book or text and learn {target} from it",
     "text": "Upload any file and Lingo7 turns it into study material with parallel translation and audio. After that it's the usual loop: you read, listen, learn words, work on speech through shadowing and talk it over with AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "The language your work and studies need",
-        "text": "Work documents, papers, exam material – learn the language of the field you're actually in right now."
+        "text": "Work documents, papers, exam material – learn {target} in the field you're actually in right now."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 is for you if you...",
     "items": [
-      "Want to learn from content instead of lessons you have to push yourself through",
+      "Want to learn {target} from content instead of lessons you have to push yourself through",
       "Want more than reading – listening, speaking and writing too: pronunciation through shadowing, and putting thoughts into words in the AI chat",
       "Want to study your own material – work documents, favorite books and articles – not only ready-made lessons",
       "Need a rare language that most apps don't carry",
@@ -279,7 +279,7 @@
     ]
   },
   "pains": {
-    "title": "What gets in the way – and what Lingo7 does about it",
+    "title": "What gets in the way of learning {target} – and what Lingo7 does about it",
     "subtitle": "It isn't a question of ability. It's a question of format.",
     "chips": [
       "Scared to speak",
@@ -398,7 +398,7 @@
       },
       {
         "q": "How is this different from the usual language apps?",
-        "a": "Instead of disconnected exercises, you learn from content that interests you, with every skill tied into one loop: you read and listen, save words for spaced review, pick up grammar in context, work on speech through shadowing and on writing in the AI chat. And you can upload your own book or document."
+        "a": "Instead of disconnected exercises, you learn {target} from content that interests you, with every skill tied into one loop: you read and listen, save words for spaced review, pick up grammar in context, work on speech through shadowing and on writing in the AI chat. And you can upload your own book or document."
       },
       {
         "q": "Is there speaking practice?",
