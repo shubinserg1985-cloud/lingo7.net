@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Funda {target} ngezincwadi ezinenguqulo, zihlelwe ngamazinga kusuka ku-A1 kuya ku-C1",
-    "subtitle": "Awugcini ngokufunda ulimi – kukhona nokusha okufundayo. Kukhona okufanele wonke amazinga, kusuka ezinyathelweni zokuqala kuya kwabasezingeni eliphezulu.",
+    "subtitle": "Awugcini ngokufunda {target} – kukhona nokusha okufundayo. Kukhona okufanele wonke amazinga, kusuka ezinyathelweni zokuqala kuya kwabasezingeni eliphezulu.",
     "tabs": [
       "Amaklasikhi",
       "Ezidumile",
@@ -271,7 +271,7 @@
   "audience": {
     "title": "I-Lingo7 ingeyakho uma...",
     "items": [
-      "Ufuna ukufunda ngokukuthakazelisayo, hhayi ngezifundo okumele uziphoqe ukuzenza",
+      "Ufuna ukufunda {target} ngokukuthakazelisayo, hhayi ngezifundo okumele uziphoqe ukuzenza",
       "Ufuna okungaphezu kokufunda – ukulalela, ukukhuluma nokubhala futhi: ukuphimisela ngokulingisa umlandi, nokubeka imicabango yakho engxoxweni ne-AI",
       "Ufuna ukufunda ngezinto zakho – amadokhumenti omsebenzi, izincwadi ozithandayo nezindatshana – hhayi izifundo ezimisiwe kuphela",
       "Udinga ulimi olungavamile ezingenalo izinhlelo eziningi",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Lwehluke ngani kwezinye izinhlelo zezilimi?",
-        "a": "Esikhundleni semisebenzi engahlangene, ufunda ngokukuthakazelisayo, wonke amakhono ehlangene emjikelezweni owodwa: uyafunda uyalalela, ugcine amagama uwabuyekeze ngezikhathi ezihlelekile, uthole uhlelo lolimi emshweni, usebenze ekukhulumeni ngokulingisa umlandi nasekubhaleni engxoxweni ne-AI. Futhi ungalayisha eyakho incwadi noma idokhumenti."
+        "a": "Esikhundleni semisebenzi engahlangene, ufunda {target} ngokukuthakazelisayo, wonke amakhono ehlangene emjikelezweni owodwa: uyafunda uyalalela, ugcine amagama uwabuyekeze ngezikhathi ezihlelekile, uthole uhlelo lolimi emshweni, usebenze ekukhulumeni ngokulingisa umlandi nasekubhaleni engxoxweni ne-AI. Futhi ungalayisha eyakho incwadi noma idokhumenti."
       },
       {
         "q": "Kukhona ukuzijwayeza ukukhuluma?",

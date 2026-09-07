@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Bók í stað námskeiðs",
-        "span": "Lærðu á því sem þú myndir lesa hvort eð er"
+        "span": "Lærðu {target} á því sem þú myndir lesa hvort eð er"
       },
       {
         "strong": "49 tungumál",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Hvernig á að læra tungumál af bókum: fimm skref",
+    "title": "Hvernig á að læra {target} af bókum: fimm skref",
     "subtitle": "Engin flókin aðferð. Ein skýr hringrás og efni sem er nógu gott til að halda þér gangandi.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Bækur á {target} með þýðingu – eftir stigum, A1 til C1",
-    "subtitle": "Þú ert ekki bara að læra tungumál, þú ert að læra eitthvað. Efni fyrir öll stig, frá fyrstu skrefum upp í lengra komna.",
+    "subtitle": "Þú ert ekki bara að læra {target}, þú ert að læra eitthvað. Efni fyrir öll stig, frá fyrstu skrefum upp í lengra komna.",
     "tabs": [
       "Klassík",
       "Metsölubækur",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NÝTT",
-    "title": "Settu inn þína eigin bók eða texta og lærðu af efninu",
+    "title": "Settu inn þína eigin bók eða texta og lærðu {target} af efninu",
     "text": "Settu inn hvaða skrá sem er og Lingo7 breytir henni í námsefni með samhliða þýðingu og hljóði. Eftir það tekur venjuleg hringrás við: þú lest, hlustar, lærir orð, vinnur í talinu með shadowing og ræðir efnið við gervigreindina.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Málið sem vinnan og námið krefjast",
-        "text": "Vinnuskjöl, greinar, prófefni – lærðu orðfærið á því sviði sem þú stendur raunverulega í núna."
+        "text": "Vinnuskjöl, greinar, prófefni – lærðu {target} á því sviði sem þú stendur raunverulega í núna."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 er fyrir þig ef þú ...",
     "items": [
-      "Vilt læra af efni sem heldur þér, ekki af kennslustundum sem þú þarft að pína þig í gegnum",
+      "Vilt læra {target} af efni sem heldur þér, ekki af kennslustundum sem þú þarft að pína þig í gegnum",
       "Vilt meira en lestur – líka hlustun, tal og ritun: framburð með shadowing og að koma hugsunum í orð í spjallinu við gervigreindina",
       "Vilt læra á þínu eigin efni – vinnuskjölum, uppáhaldsbókum og greinum – ekki bara á tilbúnum kennslustundum",
       "Þarft sjaldgæft tungumál sem flest öpp bjóða ekki upp á",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Hvernig er þetta frábrugðið venjulegum tungumálaöppum?",
-        "a": "Í staðinn fyrir ótengdar æfingar lærirðu af efni sem þú hefur áhuga á, og allir þættirnir hanga saman í einni hringrás: þú lest og hlustar, vistar orð til upprifjunar með vaxandi millibili, tekur málfræðina upp í samhengi, vinnur í talinu með shadowing og í rituninni í spjallinu við gervigreindina. Og þú getur sett inn þína eigin bók eða skjal."
+        "a": "Í staðinn fyrir ótengdar æfingar lærirðu {target} af efni sem þú hefur áhuga á, og allir þættirnir hanga saman í einni hringrás: þú lest og hlustar, vistar orð til upprifjunar með vaxandi millibili, tekur málfræðina upp í samhengi, vinnur í talinu með shadowing og í rituninni í spjallinu við gervigreindina. Og þú getur sett inn þína eigin bók eða skjal."
       },
       {
         "q": "Er einhver talæfing í boði?",

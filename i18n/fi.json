@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Näin opit kieltä kirjoista: viisi askelta",
+    "title": "Näin opit {target} kirjoista: viisi askelta",
     "subtitle": "Ei monimutkaista metodia. Yksi selkeä kierto ja sisältöä, joka jaksaa kantaa sen läpi.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Opi {target} kirjoista – käännös rinnalla, tasot A1–C1",
-    "subtitle": "Et opi vain kieltä, vaan samalla myös jotain uutta. Materiaalia kaikille tasoille, ensiaskelista edistyneisiin.",
+    "subtitle": "Et opi vain {target}, vaan samalla myös jotain uutta. Materiaalia kaikille tasoille, ensiaskelista edistyneisiin.",
     "tabs": [
       "Klassikot",
       "Bestsellerit",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "UUTTA",
-    "title": "Lataa oma kirjasi tai tekstisi ja opi sen avulla",
+    "title": "Lataa oma kirjasi tai tekstisi ja opi {target} sen avulla",
     "text": "Lataa mikä tahansa tiedosto, niin Lingo7 tekee siitä oppimateriaalia rinnakkaiskäännöksellä ja äänellä. Sen jälkeen kaikki menee tuttua kiertoa: luet, kuuntelet, opit sanat, treenaat puhetta shadowingilla ja käyt sisällön läpi tekoälyn kanssa.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 on sinua varten, jos...",
     "items": [
-      "Haluat oppia sisällöstä etkä oppitunneista, joihin pitää pakottaa itsensä",
+      "Haluat oppia {target} sisällöstä etkä oppitunneista, joihin pitää pakottaa itsensä",
       "Haluat muutakin kuin lukemista – myös kuuntelua, puhumista ja kirjoittamista: ääntämistä shadowingin avulla ja ajatusten pukemista sanoiksi tekoälychatissa",
       "Haluat opiskella omalla materiaalillasi – työdokumenteilla, lempikirjoillasi ja artikkeleilla – etkä pelkillä valmiilla oppitunneilla",
       "Tarvitset harvinaisen kielen, jota useimmista sovelluksista ei löydy",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Miten tämä eroaa tavallisista kielisovelluksista?",
-        "a": "Irrallisten harjoitusten sijaan opit sisällöstä, joka kiinnostaa sinua, ja jokainen taito kytkeytyy samaan kiertoon: luet ja kuuntelet, tallennat sanat jaksotettuun kertaukseen, poimit kieliopin kontekstista, treenaat puhetta shadowingilla ja kirjoittamista tekoälychatissa. Ja voit ladata oman kirjasi tai dokumenttisi."
+        "a": "Irrallisten harjoitusten sijaan opit {target} sisällöstä, joka kiinnostaa sinua, ja jokainen taito kytkeytyy samaan kiertoon: luet ja kuuntelet, tallennat sanat jaksotettuun kertaukseen, poimit kieliopin kontekstista, treenaat puhetta shadowingilla ja kirjoittamista tekoälychatissa. Ja voit ladata oman kirjasi tai dokumenttisi."
       },
       {
         "q": "Onko puheharjoittelua?",

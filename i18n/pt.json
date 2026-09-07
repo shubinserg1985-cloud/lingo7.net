@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Um livro no lugar do curso",
-        "span": "Estude com aquilo que você leria por prazer"
+        "span": "Estude {target} com aquilo que você leria por prazer"
       },
       {
         "strong": "49 idiomas",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Como aprender um idioma com livros: cinco passos",
+    "title": "Como aprender {target} com livros: cinco passos",
     "subtitle": "Nada de método elaborado. Um ciclo claro e conteúdo bom o bastante para você chegar ao fim dele.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Livros em {target} com tradução, por nível do A1 ao C1",
-    "subtitle": "Você não aprende só o idioma, aprende alguma coisa junto. Tem material para todo nível, dos primeiros passos ao avançado.",
+    "subtitle": "Você não aprende só {target}, aprende alguma coisa junto. Tem material para todo nível, dos primeiros passos ao avançado.",
     "tabs": [
       "Clássicos",
       "Best-sellers",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOVO",
-    "title": "Envie o seu próprio livro ou texto e aprenda com ele",
+    "title": "Envie o seu próprio livro ou texto e aprenda {target} com ele",
     "text": "Envie qualquer arquivo e o Lingo7 transforma tudo em material de estudo, com tradução ao lado e áudio. Depois é o ciclo de sempre: você lê, ouve, aprende as palavras, trabalha a fala no shadowing e comenta tudo com a IA.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "O Lingo7 é para você que...",
     "items": [
-      "Quer aprender com conteúdo, e não com lições que precisa se obrigar a fazer",
+      "Quer aprender {target} com conteúdo, e não com lições que precisa se obrigar a fazer",
       "Quer mais do que leitura: escuta, fala e escrita também, com a pronúncia treinada no shadowing e as ideias ganhando forma no chat com a IA",
       "Quer estudar pelo seu próprio material (documentos de trabalho, livros e artigos favoritos), não só por lições prontas",
       "Precisa de um idioma raro, desses que quase nenhum app tem",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Qual é a diferença para os apps de idioma de sempre?",
-        "a": "Em vez de exercícios soltos, você aprende com conteúdo que interessa de verdade, e todas as habilidades entram no mesmo ciclo: você lê e ouve, salva palavras para revisar com repetição espaçada, pega a gramática no contexto, trabalha a fala no shadowing e a escrita no chat com a IA. E ainda dá para enviar o seu próprio livro ou documento."
+        "a": "Em vez de exercícios soltos, você aprende {target} com conteúdo que interessa de verdade, e todas as habilidades entram no mesmo ciclo: você lê e ouve, salva palavras para revisar com repetição espaçada, pega a gramática no contexto, trabalha a fala no shadowing e a escrita no chat com a IA. E ainda dá para enviar o seu próprio livro ou documento."
       },
       {
         "q": "Tem prática de fala?",

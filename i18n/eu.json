@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Nola ikasi hizkuntza bat liburuekin: bost urrats",
+    "title": "Nola ikasi {target} liburuekin: bost urrats",
     "subtitle": "Metodo korapilatsurik ez. Ziklo argi bat, eta zikloan zehar eramango zaituen edukia.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Ikasi {target} liburuekin: itzulpena ondoan eta mailak A1etik C1era",
-    "subtitle": "Ez zara hizkuntza bat bakarrik ikasten ari: zerbait ere ikasten ari zara. Maila guztietarako materiala, lehen urratsetatik mailarik aurreratuenera.",
+    "subtitle": "Ez zara {target} bakarrik ikasten ari: zerbait ere ikasten ari zara. Maila guztietarako materiala, lehen urratsetatik mailarik aurreratuenera.",
     "tabs": [
       "Klasikoak",
       "Salduenak",
@@ -249,7 +249,7 @@
       },
       {
         "title": "Lanak eta ikasketek eskatzen duten hizkuntza",
-        "text": "Laneko dokumentuak, artikulu zientifikoak, azterketetarako materiala – ikasi orain zauden arloko hizkuntza."
+        "text": "Laneko dokumentuak, artikulu zientifikoak, azterketetarako materiala – ikasi orain zauden arloko {target}."
       }
     ],
     "usecases": [

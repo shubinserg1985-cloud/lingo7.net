@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Így tanulj nyelvet könyvekből: öt lépés",
+    "title": "Így tanulj {target} könyvekből: öt lépés",
     "subtitle": "Semmi bonyolult módszer. Egy tiszta kör, és olyan tartalom, ami végig is visz rajta.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Olvass könyveket {target}, magyar fordítással – szintek szerint, A1-től C1-ig",
-    "subtitle": "Nem csak nyelvet tanulsz, közben meg is tudsz valamit. Minden szinthez van anyag, az első lépésektől a haladóig.",
+    "subtitle": "Nem csak {target} tanulsz, közben meg is tudsz valamit. Minden szinthez van anyag, az első lépésektől a haladóig.",
     "tabs": [
       "Klasszikusok",
       "Sikerkönyvek",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "ÚJ",
-    "title": "Töltsd fel a saját könyvedet vagy szövegedet, és abból tanulj",
+    "title": "Töltsd fel a saját könyvedet vagy szövegedet, és abból tanulj {target}",
     "text": "Tölts fel bármilyen fájlt, és a Lingo7 tananyagot csinál belőle: párhuzamos fordítással és hanggal. Onnantól megy a megszokott kör – olvasol, hallgatsz, szavakat tanulsz, shadowinggal csiszolod a beszédet, és megbeszéled az MI-vel.",
     "cards": [
       {

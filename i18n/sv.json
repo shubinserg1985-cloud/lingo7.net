@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "En bok i stället för en kurs",
-        "span": "Lär dig av det du ändå hade läst för nöjes skull"
+        "span": "Lär dig {target} av det du ändå hade läst för nöjes skull"
       },
       {
         "strong": "49 språk",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Så lär du dig ett språk med böcker: fem steg",
+    "title": "Så lär du dig {target} med böcker: fem steg",
     "subtitle": "Ingen invecklad metod. En tydlig cykel – och innehåll som är bra nog att bära dig igenom den.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Böcker på {target} med översättning – efter nivå, från A1 till C1",
-    "subtitle": "Du lär dig inte bara ett språk, du lär dig något. Material för varje nivå, från de första stegen till avancerat.",
+    "subtitle": "Du lär dig inte bara {target}, du lär dig något. Material för varje nivå, från de första stegen till avancerat.",
     "tabs": [
       "Klassiker",
       "Bestsellers",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NYTT",
-    "title": "Ladda upp din egen bok eller text och lär dig med hjälp av den",
+    "title": "Ladda upp din egen bok eller text och lär dig {target} med hjälp av den",
     "text": "Ladda upp vilken fil som helst, så gör Lingo7 om den till studiematerial med parallell översättning och ljud. Sedan rullar det på som vanligt: du läser, lyssnar, lär dig ord, jobbar på talet med shadowing och pratar igenom det med AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Språket som jobbet och studierna kräver",
-        "text": "Arbetsdokument, vetenskapliga artiklar, tentamaterial – lär dig språket i det fält du faktiskt står i just nu."
+        "text": "Arbetsdokument, vetenskapliga artiklar, tentamaterial – lär dig {target} i det fält du faktiskt står i just nu."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 är för dig som …",
     "items": [
-      "Vill lära dig av innehåll i stället för lektioner du måste tvinga dig igenom",
+      "Vill lära dig {target} av innehåll i stället för lektioner du måste tvinga dig igenom",
       "Vill mer än att läsa – också lyssna, tala och skriva: uttal genom shadowing, och sätta ord på tankar i AI-chatten",
       "Vill plugga på ditt eget material – arbetsdokument, favoritböcker och artiklar – inte bara färdiga lektioner",
       "Behöver ett ovanligt språk som de flesta appar inte har",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Vad skiljer det här från vanliga språkappar?",
-        "a": "I stället för lösryckta övningar lär du dig av innehåll som intresserar dig, och varje färdighet hänger ihop i ett och samma flöde: du läser och lyssnar, sparar ord till repetition med ökande intervall, plockar upp grammatik i sitt sammanhang, jobbar på talet med shadowing och på skrivandet i AI-chatten. Och du kan ladda upp din egen bok eller ditt eget dokument."
+        "a": "I stället för lösryckta övningar lär du dig {target} av innehåll som intresserar dig, och varje färdighet hänger ihop i ett och samma flöde: du läser och lyssnar, sparar ord till repetition med ökande intervall, plockar upp grammatik i sitt sammanhang, jobbar på talet med shadowing och på skrivandet i AI-chatten. Och du kan ladda upp din egen bok eller ditt eget dokument."
       },
       {
         "q": "Finns det talträning?",

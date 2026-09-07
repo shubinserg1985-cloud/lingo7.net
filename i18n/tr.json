@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Kurs değil, kitap",
-        "span": "Zaten keyfine okuyacağın şeyle çalış"
+        "span": "Zaten keyfine okuyacağın şeyle {target} çalış"
       },
       {
         "strong": "49 dil",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kitaptan dil öğrenmenin beş adımı",
+    "title": "Kitaptan {target} öğrenmenin beş adımı",
     "subtitle": "Karmaşık bir yöntem yok. Net bir döngü ve seni o döngüde tutacak kadar iyi içerik.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Paralel çevirili {target} kitaplar – A1'den C1'e her seviyede",
-    "subtitle": "Sadece dil öğrenmiyorsun, aynı anda bir şeyler de öğreniyorsun. İlk adımlardan ileri seviyeye kadar her seviyeye içerik var.",
+    "subtitle": "Sadece {target} öğrenmiyorsun, aynı anda bir şeyler de öğreniyorsun. İlk adımlardan ileri seviyeye kadar her seviyeye içerik var.",
     "tabs": [
       "Klasikler",
       "Çok satanlar",
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 tam sana göre, eğer…",
     "items": [
-      "Kendini zorlaya zorlaya bitirdiğin derslerle değil, ilgini çeken içerikle öğrenmek istiyorsan",
+      "Kendini zorlaya zorlaya bitirdiğin derslerle değil, ilgini çeken içerikle {target} öğrenmek istiyorsan",
       "Okumakla yetinmeyip dinlemeyi, konuşmayı ve yazmayı da istiyorsan – gölgelemeyle telaffuzu, yapay zekâ sohbetinde düşünceni kelimelere dökmeyi",
       "Hazır derslerle sınırlı kalmayıp kendi malzemenle çalışmak istiyorsan – iş belgelerin, sevdiğin kitaplar ve yazılarla",
       "Çoğu uygulamada bulunmayan, az konuşulan bir dile ihtiyacın varsa",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Alışılmış dil uygulamalarından farkı ne?",
-        "a": "Birbirinden kopuk alıştırmalar yerine ilgini çeken içerikten öğreniyorsun ve bütün beceriler tek bir döngüde birleşiyor: okuyorsun, dinliyorsun, kelimeleri aralıklı tekrara kaydediyorsun, dilbilgisini bağlam içinde kapıyorsun, konuşmayı gölgelemeyle, yazmayı yapay zekâ sohbetinde çalışıyorsun. Üstelik kendi kitabını ya da belgeni de yükleyebiliyorsun."
+        "a": "Birbirinden kopuk alıştırmalar yerine ilgini çeken içerikten {target} öğreniyorsun ve bütün beceriler tek bir döngüde birleşiyor: okuyorsun, dinliyorsun, kelimeleri aralıklı tekrara kaydediyorsun, dilbilgisini bağlam içinde kapıyorsun, konuşmayı gölgelemeyle, yazmayı yapay zekâ sohbetinde çalışıyorsun. Üstelik kendi kitabını ya da belgeni de yükleyebiliyorsun."
       },
       {
         "q": "Konuşma pratiği var mı?",

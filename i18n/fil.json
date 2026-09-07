@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Paano matuto ng wika mula sa mga libro: limang hakbang",
+    "title": "Paano matuto ng {target} mula sa mga libro: limang hakbang",
     "subtitle": "Walang komplikadong metodo. Isang malinaw na ikot, at content na sapat na kawili-wili para dalhin ka hanggang dulo.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Mga libro sa {target}, may katabing salin – nakaayos ayon sa antas mula A1 hanggang C1",
-    "subtitle": "Hindi lang wika ang natututuhan mo – may iba ka ring natututuhan. May materyal para sa bawat antas, mula sa unang hakbang hanggang sa pinakamataas.",
+    "subtitle": "Hindi lang {target} ang natututuhan mo – may iba ka ring natututuhan. May materyal para sa bawat antas, mula sa unang hakbang hanggang sa pinakamataas.",
     "tabs": [
       "Klasiko",
       "Bestseller",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "BAGO",
-    "title": "I-upload ang sarili mong libro o teksto at matuto mula rito",
+    "title": "I-upload ang sarili mong libro o teksto at matuto ng {target} mula rito",
     "text": "I-upload ang kahit anong file at gagawin itong materyal ng Lingo7, may katabing salin at may audio. Pagkatapos, ang karaniwang ikot na: magbabasa ka, makikinig, mag-aaral ng salita, sasanayin ang pagsasalita sa shadowing at pag-uusapan ninyo ito ng AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Ang wikang kailangan ng trabaho at pag-aaral mo",
-        "text": "Mga dokumento sa trabaho, papel na pang-akademiko, reviewer sa pagsusulit – aralin ang wika ng larangang kinaroroonan mo ngayon."
+        "text": "Mga dokumento sa trabaho, papel na pang-akademiko, reviewer sa pagsusulit – aralin ang {target} ng larangang kinaroroonan mo ngayon."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Para sa iyo ang Lingo7 kung...",
     "items": [
-      "Gusto mong matuto sa content, hindi sa mga aralin na kailangan mo pang pagpilitan",
+      "Gusto mong matuto ng {target} sa content, hindi sa mga aralin na kailangan mo pang pagpilitan",
       "Gusto mo ng higit pa sa pagbabasa – pakikinig, pagsasalita at pagsulat din: pagbigkas sa pamamagitan ng shadowing, at pagpapahayag ng iniisip sa AI chat",
       "Gusto mong pag-aralan ang sarili mong materyal – dokumento sa trabaho, paboritong libro at artikulo – hindi lang ang mga nakahandang aralin",
       "Kailangan mo ng bihirang wikang wala sa karamihan ng app",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Ano ang kaibahan nito sa karaniwang mga app sa wika?",
-        "a": "Sa halip na magkakahiwalay na ehersisyo, natututo ka sa content na kawili-wili sa iyo, at nakatali ang bawat kasanayan sa iisang ikot: nagbabasa ka at nakikinig, sine-save ang mga salita para sa pag-uulit sa tamang agwat, napupulot ang gramatika sa konteksto, sinasanay ang pagsasalita sa shadowing at ang pagsulat sa AI chat. At puwede mong i-upload ang sarili mong libro o dokumento."
+        "a": "Sa halip na magkakahiwalay na ehersisyo, natututo ka ng {target} sa content na kawili-wili sa iyo, at nakatali ang bawat kasanayan sa iisang ikot: nagbabasa ka at nakikinig, sine-save ang mga salita para sa pag-uulit sa tamang agwat, napupulot ang gramatika sa konteksto, sinasanay ang pagsasalita sa shadowing at ang pagsulat sa AI chat. At puwede mong i-upload ang sarili mong libro o dokumento."
       },
       {
         "q": "May pagsasanay ba sa pagsasalita?",

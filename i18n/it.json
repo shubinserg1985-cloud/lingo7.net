@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 è per te se...",
     "items": [
-      "Vuoi imparare dai contenuti e non da lezioni che ti tocca finire a denti stretti",
+      "Vuoi imparare dai contenuti in {target} e non da lezioni che ti tocca finire a denti stretti",
       "Vuoi qualcosa di più della lettura: anche ascolto, parlato e scrittura, con la pronuncia allenata dallo shadowing e i pensieri messi in parole nella chat con l'IA",
       "Vuoi studiare sul tuo materiale – documenti di lavoro, libri e articoli che ti piacciono – e non solo su lezioni già pronte",
       "Ti serve una lingua rara che quasi nessuna app ha",
@@ -398,7 +398,7 @@
       },
       {
         "q": "In cosa è diversa dalle solite app per le lingue?",
-        "a": "Invece di esercizi scollegati, impari su contenuti che ti interessano, con tutte le competenze legate in un unico ciclo: leggi e ascolti, salvi le parole per ripassarle a intervalli, assorbi la grammatica nel contesto, lavori sul parlato con lo shadowing e sulla scrittura nella chat con l'IA. E puoi caricare un tuo libro o un tuo documento."
+        "a": "Invece di esercizi scollegati, impari su contenuti in {target} che ti interessano, con tutte le competenze legate in un unico ciclo: leggi e ascolti, salvi le parole per ripassarle a intervalli, assorbi la grammatica nel contesto, lavori sul parlato con lo shadowing e sulla scrittura nella chat con l'IA. E puoi caricare un tuo libro o un tuo documento."
       },
       {
         "q": "C'è pratica di conversazione?",

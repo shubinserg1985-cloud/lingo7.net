@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "En bok i stedet for et kurs",
-        "span": "Lær av det du ville lest uansett"
+        "span": "Lær {target} av det du ville lest uansett"
       },
       {
         "strong": "49 språk",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Slik lærer du et språk av bøker: fem steg",
+    "title": "Slik lærer du {target} av bøker: fem steg",
     "subtitle": "Ingen innfløkt metode. Én tydelig runde, og innhold som er godt nok til å dra deg gjennom den.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Bøker på {target} med oversettelse – etter nivå, fra A1 til C1",
-    "subtitle": "Du lærer ikke bare et språk, du lærer noe. Her er det stoff til alle nivåer, fra de aller første stegene til det mest avanserte.",
+    "subtitle": "Du lærer ikke bare {target}, du lærer noe. Her er det stoff til alle nivåer, fra de aller første stegene til det mest avanserte.",
     "tabs": [
       "Klassikere",
       "Bestselgere",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NYTT",
-    "title": "Last opp din egen bok eller tekst og lær av den",
+    "title": "Last opp din egen bok eller tekst og lær {target} av den",
     "text": "Last opp en hvilken som helst fil, så gjør Lingo7 den om til lærestoff med parallell oversettelse og lyd. Etterpå går det som vanlig: du leser, lytter, lærer ord, jobber med talen gjennom shadowing og snakker om det med KI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Språket jobben og studiene krever",
-        "text": "Arbeidsdokumenter, fagartikler, pensum – lær språket i det feltet du faktisk står i akkurat nå."
+        "text": "Arbeidsdokumenter, fagartikler, pensum – lær {target} i det feltet du faktisk står i akkurat nå."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 er for deg som ...",
     "items": [
-      "Vil lære av innhold i stedet for leksjoner du må tvinge deg gjennom",
+      "Vil lære {target} av innhold i stedet for leksjoner du må tvinge deg gjennom",
       "Vil ha mer enn lesing – også lytting, tale og skriving: uttale gjennom shadowing, og å sette ord på tankene i KI-chatten",
       "Vil bruke ditt eget stoff – jobbdokumenter, favorittbøker og artikler – og ikke bare ferdige leksjoner",
       "Trenger et sjeldent språk som de fleste apper ikke har",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Hva skiller dette fra vanlige språkapper?",
-        "a": "I stedet for løsrevne øvelser lærer du av innhold som interesserer deg, og alle ferdighetene henger sammen i én runde: du leser og lytter, lagrer ord til repetisjon med økende intervall, plukker opp grammatikken i sammenheng, jobber med talen gjennom shadowing og med skrivingen i KI-chatten. Og du kan laste opp din egen bok eller ditt eget dokument."
+        "a": "I stedet for løsrevne øvelser lærer du {target} av innhold som interesserer deg, og alle ferdighetene henger sammen i én runde: du leser og lytter, lagrer ord til repetisjon med økende intervall, plukker opp grammatikken i sammenheng, jobber med talen gjennom shadowing og med skrivingen i KI-chatten. Og du kan laste opp din egen bok eller ditt eget dokument."
       },
       {
         "q": "Får jeg øvd på å snakke?",

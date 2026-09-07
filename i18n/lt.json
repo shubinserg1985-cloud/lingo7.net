@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Knyga vietoj kurso",
-        "span": "Mokaisi iš to, ką skaitytum ir dėl malonumo"
+        "span": "Mokaisi {target} kalbos iš to, ką skaitytum ir dėl malonumo"
       },
       {
         "strong": "49 kalbos",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kaip mokytis kalbos iš knygų: penki žingsniai",
+    "title": "Kaip mokytis {target} kalbos iš knygų: penki žingsniai",
     "subtitle": "Jokio sudėtingo metodo. Vienas aiškus ratas ir turinys, kuris pats neša per jį.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Knygos {target} kalba su vertimu – pagal lygius nuo A1 iki C1",
-    "subtitle": "Mokaisi ne tik kalbos – kartu ir sužinai ką nors naujo. Medžiagos yra kiekvienam lygiui, nuo pirmų žingsnių iki aukštumų.",
+    "subtitle": "Mokaisi ne tik {target} kalbos – kartu ir sužinai ką nors naujo. Medžiagos yra kiekvienam lygiui, nuo pirmų žingsnių iki aukštumų.",
     "tabs": [
       "Klasika",
       "Bestseleriai",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NAUJA",
-    "title": "Įkelk savo knygą ar tekstą – iš jo ir mokykis",
+    "title": "Įkelk savo knygą ar tekstą – iš jo ir mokykis {target} kalbos",
     "text": "Įkelk bet kokį failą, o Lingo7 pavers jį mokymosi medžiaga su lygiagrečiu vertimu ir įgarsinimu. Toliau viskas kaip visada: skaitai, klausai, mokaisi žodžių, garsiai kartoji ką tik išgirstas frazes ir aptari perskaitytą tekstą su DI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Kalba, kurios reikia darbui ir studijoms",
-        "text": "Darbo dokumentai, straipsniai, egzaminų medžiaga – mokaisi tos srities kalbos, kurioje esi dabar."
+        "text": "Darbo dokumentai, straipsniai, egzaminų medžiaga – mokaisi tos srities {target} kalbos, kurioje esi dabar."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 – tau, jei...",
     "items": [
-      "Nori mokytis iš turinio, o ne iš pamokų, per kurias reikia prisiversti",
+      "Nori mokytis {target} kalbos iš turinio, o ne iš pamokų, per kurias reikia prisiversti",
       "Nori ne tik skaityti, bet ir klausyti, kalbėti bei rašyti: tarimą lavinti shadowing metodu, o mintis dėlioti DI pokalbyje",
       "Nori mokytis iš savo medžiagos – darbo dokumentų, mėgstamų knygų ir straipsnių, o ne tik iš paruoštų pamokų",
       "Ieškai retos kalbos, kurios daugumoje programėlių tiesiog nėra",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Kuo tai skiriasi nuo įprastų kalbų programėlių?",
-        "a": "Vietoj atskirų pratimų mokaisi iš turinio, kuris tau įdomus, o visi įgūdžiai sujungti į vieną ratą: skaitai ir klausai, išsaugai žodžius intervaliniam kartojimui, gramatiką pagauni kontekste, kalbėjimą lavini shadowing metodu, o rašymą – DI pokalbyje. Be to, gali įkelti savo knygą ar dokumentą."
+        "a": "Vietoj atskirų pratimų mokaisi {target} kalbos iš turinio, kuris tau įdomus, o visi įgūdžiai sujungti į vieną ratą: skaitai ir klausai, išsaugai žodžius intervaliniam kartojimui, gramatiką pagauni kontekste, kalbėjimą lavini shadowing metodu, o rašymą – DI pokalbyje. Be to, gali įkelti savo knygą ar dokumentą."
       },
       {
         "q": "Ar yra kalbėjimo praktika?",

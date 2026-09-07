@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Książka zamiast kursu",
-        "span": "Ucz się z tego, co i tak czytasz dla przyjemności"
+        "span": "Ucz się {target} z tego, co i tak czytasz dla przyjemności"
       },
       {
         "strong": "49 języków",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Jak uczyć się języka z książek: pięć kroków",
+    "title": "Jak uczyć się {target} z książek: pięć kroków",
     "subtitle": "Żadnej wymyślnej metody. Jeden czytelny cykl i treści na tyle dobre, że same cię przez niego przeprowadzą.",
     "items": [
       {
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOWOŚĆ",
-    "title": "Wgraj własną książkę albo tekst i ucz się z tego",
+    "title": "Wgraj własną książkę albo tekst i ucz się {target} z tego",
     "text": "Wgraj dowolny plik, a Lingo7 zamieni go w materiał do nauki – z tłumaczeniem obok tekstu i z audio. Dalej wszystko idzie zwykłym trybem: czytasz, słuchasz, uczysz się słówek, nad mową pracujesz przez shadowing i rozmawiasz o przeczytanym z AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 jest dla ciebie, jeśli…",
     "items": [
-      "Chcesz uczyć się z treści, a nie z lekcji, do których trzeba się zmuszać",
+      "Chcesz uczyć się {target} z treści, a nie z lekcji, do których trzeba się zmuszać",
       "Chcesz czegoś więcej niż czytania – także słuchania, mówienia i pisania: wymowy przez shadowing i ubierania myśli w słowa na czacie z AI",
       "Chcesz uczyć się na własnych materiałach – dokumentach z pracy, ulubionych książkach i artykułach – a nie tylko na gotowych lekcjach",
       "Potrzebujesz rzadkiego języka, którego większość aplikacji nie ma",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Czym to się różni od zwykłych aplikacji do nauki języków?",
-        "a": "Zamiast oderwanych ćwiczeń uczysz się z treści, które cię interesują, a wszystkie sprawności są spięte w jeden obieg: czytasz i słuchasz, zapisujesz słówka do powtórek, łapiesz gramatykę w kontekście, nad mową pracujesz przez shadowing, a nad pisaniem na czacie z AI. Możesz też wgrać własną książkę albo dokument."
+        "a": "Zamiast oderwanych ćwiczeń uczysz się {target} z treści, które cię interesują, a wszystkie sprawności są spięte w jeden obieg: czytasz i słuchasz, zapisujesz słówka do powtórek, łapiesz gramatykę w kontekście, nad mową pracujesz przez shadowing, a nad pisaniem na czacie z AI. Możesz też wgrać własną książkę albo dokument."
       },
       {
         "q": "Czy jest praktyka mówienia?",

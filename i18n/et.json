@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kuidas raamatutest keelt õppida: viis sammu",
+    "title": "Kuidas raamatutest {target} keelt õppida: viis sammu",
     "subtitle": "Mingit keerulist metoodikat pole. Üks selge ring ja sisu, mis jaksab su sellest läbi vedada.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Raamatud {target} keeles koos tõlkega – tasemed A1 kuni C1",
-    "subtitle": "Sa ei õpi ainult keelt, vaid ka midagi muud. Materjali on igale tasemele, esimestest sammudest edasijõudnuteni.",
+    "subtitle": "Sa ei õpi ainult {target} keelt, vaid ka midagi muud. Materjali on igale tasemele, esimestest sammudest edasijõudnuteni.",
     "tabs": [
       "Klassika",
       "Bestsellerid",

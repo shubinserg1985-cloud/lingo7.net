@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "En bog i stedet for et kursus",
-        "span": "Lær sproget af det, du læser for sjov"
+        "span": "Lær {target} af det, du læser for sjov"
       },
       {
         "strong": "49 sprog",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Sådan lærer du et sprog gennem bøger: fem trin",
+    "title": "Sådan lærer du {target} gennem bøger: fem trin",
     "subtitle": "Ingen indviklet metode. Én klar cyklus – og indhold, der er godt nok til at bære dig igennem den.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Bøger på {target} med oversættelse – efter niveau, fra A1 til C1",
-    "subtitle": "Du lærer ikke bare et sprog, du lærer også noget. Stof til alle niveauer, fra de første skridt til det avancerede.",
+    "subtitle": "Du lærer ikke bare {target}, du lærer også noget. Stof til alle niveauer, fra de første skridt til det avancerede.",
     "tabs": [
       "Klassikere",
       "Bestsellere",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NYT",
-    "title": "Upload din egen bog eller tekst, og lær af den",
+    "title": "Upload din egen bog eller tekst, og lær {target} af den",
     "text": "Upload en hvilken som helst fil, og Lingo7 laver den om til studiemateriale med parallel oversættelse og lyd. Derefter kører den vante cyklus: du læser, lytter, lærer ord, arbejder med talen gennem shadowing og taler om det hele med AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Det sprog, dit arbejde og studie kræver",
-        "text": "Arbejdsdokumenter, artikler, eksamensstof – lær sproget fra det felt, du rent faktisk står i lige nu."
+        "text": "Arbejdsdokumenter, artikler, eksamensstof – lær {target} fra det felt, du rent faktisk står i lige nu."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 er noget for dig, hvis du...",
     "items": [
-      "Vil lære af indhold i stedet for lektioner, du skal tvinge dig selv igennem",
+      "Vil lære {target} af indhold i stedet for lektioner, du skal tvinge dig selv igennem",
       "Vil mere end at læse – også lytte, tale og skrive: træne udtalen gennem shadowing og sætte ord på tankerne i AI-chatten",
       "Vil bruge dit eget materiale – arbejdsdokumenter, yndlingsbøger og artikler – og ikke kun færdige lektioner",
       "Har brug for et sjældent sprog, som de fleste apps ikke har",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Hvad er forskellen på det her og de sædvanlige sprogapps?",
-        "a": "I stedet for løsrevne øvelser lærer du af indhold, der interesserer dig, og alle færdigheder hænger sammen i én cyklus: du læser og lytter, gemmer ord til gentagelse med stigende interval, opsnapper grammatikken i sammenhæng, arbejder med talen gennem shadowing og med skriften i AI-chatten. Og du kan uploade din egen bog eller dit eget dokument."
+        "a": "I stedet for løsrevne øvelser lærer du {target} af indhold, der interesserer dig, og alle færdigheder hænger sammen i én cyklus: du læser og lytter, gemmer ord til gentagelse med stigende interval, opsnapper grammatikken i sammenhæng, arbejder med talen gennem shadowing og med skriften i AI-chatten. Og du kan uploade din egen bog eller dit eget dokument."
       },
       {
         "q": "Er der taletræning?",

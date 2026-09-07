@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Ein Buch statt eines Kurses",
-        "span": "Lerne mit dem, was du gern liest"
+        "span": "Lerne {target} mit dem, was du gern liest"
       },
       {
         "strong": "49 Sprachen",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "So lernst du eine Sprache mit Büchern: fünf Schritte",
+    "title": "So lernst du {target} mit Büchern: fünf Schritte",
     "subtitle": "Keine ausgeklügelte Methode. Ein klarer Kreislauf – und Inhalte, die gut genug sind, um dich hindurchzutragen.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "{target} lesen: Bücher mit Parallelübersetzung, nach Niveau von A1 bis C1",
-    "subtitle": "Du lernst nicht nur eine Sprache, du lernst auch etwas. Material für jedes Niveau, von den ersten Schritten bis fortgeschritten.",
+    "subtitle": "Du lernst nicht nur {target}, du lernst auch etwas. Material für jedes Niveau, von den ersten Schritten bis fortgeschritten.",
     "tabs": [
       "Klassiker",
       "Bestseller",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NEU",
-    "title": "Lade dein eigenes Buch oder deinen Text hoch und lerne damit",
+    "title": "Lade dein eigenes Buch oder deinen Text hoch und lerne damit {target}",
     "text": "Lade eine beliebige Datei hoch, und Lingo7 macht daraus Lernmaterial mit Parallelübersetzung und Audio. Danach läuft der gewohnte Kreislauf: Du liest, hörst, lernst Wörter, arbeitest mit Shadowing an der Sprechfertigkeit und besprichst alles mit der KI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 ist für dich, wenn du …",
     "items": [
-      "mit Inhalten lernen willst statt mit Lektionen, zu denen du dich zwingen musst",
+      "{target} mit Inhalten lernen willst statt mit Lektionen, zu denen du dich zwingen musst",
       "mehr willst als Lesen – auch Hören, Sprechen und Schreiben: Aussprache über Shadowing trainieren und im KI-Chat Gedanken in Worte fassen",
       "mit eigenem Material lernen willst – Arbeitsdokumente, Lieblingsbücher und Artikel – und nicht nur mit fertigen Lektionen",
       "eine seltene Sprache brauchst, die die meisten Apps nicht anbieten",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Was unterscheidet das von den üblichen Sprach-Apps?",
-        "a": "Statt zusammenhangloser Übungen lernst du mit Inhalten, die dich interessieren, und alle Fähigkeiten hängen in einem Kreislauf zusammen: Du liest und hörst, speicherst Wörter für die Spaced Repetition, nimmst Grammatik im Kontext auf, arbeitest mit Shadowing an der Sprechfertigkeit und im KI-Chat am Schreiben. Und du kannst dein eigenes Buch oder Dokument hochladen."
+        "a": "Statt zusammenhangloser Übungen lernst du {target} mit Inhalten, die dich interessieren, und alle Fähigkeiten hängen in einem Kreislauf zusammen: Du liest und hörst, speicherst Wörter für die Spaced Repetition, nimmst Grammatik im Kontext auf, arbeitest mit Shadowing an der Sprechfertigkeit und im KI-Chat am Schreiben. Und du kannst dein eigenes Buch oder Dokument hochladen."
       },
       {
         "q": "Gibt es Sprechpraxis?",

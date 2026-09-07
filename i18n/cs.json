@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Kniha místo kurzu",
-        "span": "Uč se na tom, co bys četl pro radost"
+        "span": "Uč se {target} na tom, co bys četl pro radost"
       },
       {
         "strong": "49 jazyků",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Jak se učit jazyk z knih: pět kroků",
+    "title": "Jak se učit {target} z knih: pět kroků",
     "subtitle": "Žádná složitá metoda. Jeden srozumitelný cyklus a obsah, který tě v něm udrží.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Čti {target}: knihy s překladem podle úrovní, od A1 do C1",
-    "subtitle": "Neučíš se jenom jazyk – dozvídáš se přitom i něco nového. Materiály pro každou úroveň, od prvních kroků po pokročilé.",
+    "subtitle": "Neučíš se jenom {target} – dozvídáš se přitom i něco nového. Materiály pro každou úroveň, od prvních kroků po pokročilé.",
     "tabs": [
       "Klasika",
       "Bestsellery",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOVÉ",
-    "title": "Nahraj si vlastní knihu nebo text a uč se z nich",
+    "title": "Nahraj si vlastní knihu nebo text a uč se {target} z nich",
     "text": "Nahraj jakýkoli soubor a Lingo7 z něj udělá studijní materiál s paralelním překladem a audiem. Dál už to jede jako obvykle: čteš, posloucháš, učíš se slovíčka, piluješ mluvení shadowingem a probereš to s AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 je pro tebe, pokud...",
     "items": [
-      "Chceš se učit z obsahu, ne z lekcí, do kterých se musíš nutit",
+      "Chceš se učit {target} z obsahu, ne z lekcí, do kterých se musíš nutit",
       "Nechceš jen číst – ale i poslouchat, mluvit a psát: výslovnost shadowingem a formulování myšlenek v chatu s AI",
       "Chceš se učit na vlastních materiálech – pracovních dokumentech, oblíbených knihách a článcích – ne jen na hotových lekcích",
       "Potřebuješ vzácný jazyk, který většina aplikací nemá",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Čím se to liší od běžných jazykových aplikací?",
-        "a": "Místo nesouvisejících cvičení se učíš z obsahu, který tě zajímá, a všechny dovednosti drží v jednom cyklu: čteš a posloucháš, ukládáš si slova k rozloženému opakování, gramatiku chytáš v kontextu, mluvení piluješ shadowingem a psaní v chatu s AI. A navíc si můžeš nahrát vlastní knihu nebo dokument."
+        "a": "Místo nesouvisejících cvičení se učíš {target} z obsahu, který tě zajímá, a všechny dovednosti drží v jednom cyklu: čteš a posloucháš, ukládáš si slova k rozloženému opakování, gramatiku chytáš v kontextu, mluvení piluješ shadowingem a psaní v chatu s AI. A navíc si můžeš nahrát vlastní knihu nebo dokument."
       },
       {
         "q": "Je tam i mluvení?",

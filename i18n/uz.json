@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Kurs emas, kitob",
-        "span": "Zavq uchun oʻqiydigan narsangizdan oʻrganasiz"
+        "span": "Zavq uchun oʻqiydigan narsangizdan {target} oʻrganasiz"
       },
       {
         "strong": "49 ta til",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kitob orqali til oʻrganishning besh bosqichi",
+    "title": "Kitob orqali {target} oʻrganishning besh bosqichi",
     "subtitle": "Murakkab metod yoʻq. Bitta aniq aylanma va uni oxirigacha olib boradigan yaxshi material.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Parallel tarjimali {target} kitoblar — A1-dan C1-gacha barcha darajalar",
-    "subtitle": "Siz shunchaki til emas, biror narsani oʻrganasiz. Har bir daraja uchun material bor: ilk qadamdan yuqori darajagacha.",
+    "subtitle": "Siz shunchaki {target} emas, biror narsani oʻrganasiz. Har bir daraja uchun material bor: ilk qadamdan yuqori darajagacha.",
     "tabs": [
       "Klassika",
       "Bestsellerlar",
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 sizga mos keladi, agar siz...",
     "items": [
-      "Oʻzingizni majburlab oʻtiradigan darslar emas, qiziqarli material orqali oʻrganmoqchi boʻlsangiz",
+      "Oʻzingizni majburlab oʻtiradigan darslar emas, qiziqarli material orqali {target} oʻrganmoqchi boʻlsangiz",
       "Oʻqish bilan cheklanmay, tinglash, gapirish va yozishni ham xohlasangiz: shadowing talaffuzni, sunʼiy intellekt bilan suhbat esa fikrni soʻzga solishni mashq qildiradi",
       "Tayyor darslar bilan cheklanmay, oʻz materialingiz ustida — ish hujjatlari, sevimli kitob va maqolalar — ishlamoqchi boʻlsangiz",
       "Koʻpchilik ilovalarda yoʻq nodir til kerak boʻlsa",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Bu odatdagi til ilovalaridan nimasi bilan farq qiladi?",
-        "a": "Bir-biriga bogʻlanmagan mashqlar oʻrniga oʻzingizga qiziq materialdan oʻrganasiz, koʻnikmalar esa bitta aylanmaga ulangan: oʻqiysiz va tinglaysiz, soʻzlarni intervalli takrorlashga saqlaysiz, grammatikani kontekstda ilib olasiz, nutqni shadowing bilan, yozuvni sunʼiy intellekt bilan suhbatda charxlaysiz. Ustiga-ustak oʻz kitobingiz yoki hujjatingizni yuklashingiz mumkin."
+        "a": "Bir-biriga bogʻlanmagan mashqlar oʻrniga oʻzingizga qiziq materialdan {target} oʻrganasiz, koʻnikmalar esa bitta aylanmaga ulangan: oʻqiysiz va tinglaysiz, soʻzlarni intervalli takrorlashga saqlaysiz, grammatikani kontekstda ilib olasiz, nutqni shadowing bilan, yozuvni sunʼiy intellekt bilan suhbatda charxlaysiz. Ustiga-ustak oʻz kitobingiz yoki hujjatingizni yuklashingiz mumkin."
       },
       {
         "q": "Gapirish mashqi bormi?",

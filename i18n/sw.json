@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Jinsi ya kujifunza lugha kwa vitabu: hatua tano",
+    "title": "Jinsi ya kujifunza {target} kwa vitabu: hatua tano",
     "subtitle": "Hakuna mbinu tata. Mzunguko mmoja ulio wazi, na maudhui mazuri ya kutosha kukubeba ndani yake.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Soma {target} kwa vitabu vyenye tafsiri – viwango vyote, kutoka A1 hadi C1",
-    "subtitle": "Hujifunzi lugha tu, unajifunza kitu pia. Kuna maudhui ya kila kiwango, kutoka hatua za kwanza hadi za juu kabisa.",
+    "subtitle": "Hujifunzi {target} tu, unajifunza kitu pia. Kuna maudhui ya kila kiwango, kutoka hatua za kwanza hadi za juu kabisa.",
     "tabs": [
       "Klasiki",
       "Vitabu maarufu",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "MPYA",
-    "title": "Pakia kitabu au maandishi yako mwenyewe na ujifunze kwayo",
+    "title": "Pakia kitabu au maandishi yako mwenyewe na ujifunze {target} kwayo",
     "text": "Pakia faili lolote na Lingo7 italigeuza kuwa nyenzo ya kujifunzia yenye tafsiri sambamba na sauti. Baada ya hapo ni mzunguko uleule: unasoma, unasikiliza, unajifunza maneno, unanoa usemi kwa kuiga msimuliaji na kujadili yote na AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 ni yako kama...",
     "items": [
-      "Unataka kujifunza kwa maudhui badala ya masomo unayojilazimisha kuyafanya",
+      "Unataka kujifunza {target} kwa maudhui badala ya masomo unayojilazimisha kuyafanya",
       "Unataka zaidi ya kusoma – kusikiliza, kuzungumza na kuandika pia: matamshi kwa kuiga msimuliaji, na kueleza mawazo yako kwenye gumzo na AI",
       "Unataka kujifunza kwa nyenzo zako mwenyewe – hati za kazi, vitabu na makala unayopenda – si masomo yaliyotayarishwa tu",
       "Unahitaji lugha adimu ambayo programu nyingi hazina",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Hii inatofautianaje na programu za kawaida za lugha?",
-        "a": "Badala ya mazoezi yasiyoshikamana, unajifunza kwa maudhui yanayokuvutia, na kila stadi imefungwa kwenye mzunguko mmoja: unasoma na kusikiliza, unahifadhi maneno kwa marudio ya vipindi, unajifunza sarufi kutoka kwenye muktadha, unanoa usemi kwa kuiga msimuliaji na uandishi kwenye gumzo na AI. Zaidi ya hayo, unaweza kupakia kitabu au hati yako mwenyewe."
+        "a": "Badala ya mazoezi yasiyoshikamana, unajifunza {target} kwa maudhui yanayokuvutia, na kila stadi imefungwa kwenye mzunguko mmoja: unasoma na kusikiliza, unahifadhi maneno kwa marudio ya vipindi, unajifunza sarufi kutoka kwenye muktadha, unanoa usemi kwa kuiga msimuliaji na uandishi kwenye gumzo na AI. Zaidi ya hayo, unaweza kupakia kitabu au hati yako mwenyewe."
       },
       {
         "q": "Je, kuna mazoezi ya kuzungumza?",

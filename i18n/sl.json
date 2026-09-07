@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Knjiga namesto tečaja",
-        "span": "Učiš se ob tem, kar te tako ali tako zanima"
+        "span": "Učiš se {target} ob tem, kar te tako ali tako zanima"
       },
       {
         "strong": "49 jezikov",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kako se iz knjig naučiti jezika: pet korakov",
+    "title": "Kako se iz knjig naučiti {target}: pet korakov",
     "subtitle": "Brez izdelane metode. En sam jasen krog in vsebina, ki je dovolj dobra, da pri njem vztrajaš.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Knjige s prevodom po ravneh: uči se {target} od A1 do C1",
-    "subtitle": "Ne učiš se samo jezika, ampak sproti tudi kaj izveš. Gradivo za vsako raven, od prvih korakov do najzahtevnejšega.",
+    "subtitle": "Ne učiš se samo {target}, ampak sproti tudi kaj izveš. Gradivo za vsako raven, od prvih korakov do najzahtevnejšega.",
     "tabs": [
       "Klasika",
       "Uspešnice",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOVO",
-    "title": "Naloži svojo knjigo ali besedilo in se uči kar iz tega",
+    "title": "Naloži svojo knjigo ali besedilo in se uči {target} kar iz tega",
     "text": "Naloži katero koli datoteko in Lingo7 iz nje naredi učno gradivo z vzporednim prevodom in zvokom. Naprej gre po ustaljenem krogu: bereš, poslušaš, utrjuješ besede, govor vadiš s shadowingom in se o vsem pogovoriš z UI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Jezik, ki ga potrebuješ za delo in študij",
-        "text": "Delovni dokumenti, članki, snov za izpit – uči se jezika prav tistega področja, v katerem si zdaj."
+        "text": "Delovni dokumenti, članki, snov za izpit – uči se {target} prav tistega področja, v katerem si zdaj."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 je zate, če …",
     "items": [
-      "se želiš učiti iz vsebine, ne iz lekcij, v katere se moraš siliti",
+      "se želiš učiti {target} iz vsebine, ne iz lekcij, v katere se moraš siliti",
       "hočeš več kot le branje – tudi poslušanje, govorjenje in pisanje: izgovorjavo s shadowingom in ubesedovanje misli v pogovoru z UI",
       "se želiš učiti na svojem gradivu – delovnih dokumentih, priljubljenih knjigah in člankih – in ne le na vnaprej pripravljenih lekcijah",
       "potrebuješ redek jezik, ki ga večina aplikacij nima",
@@ -398,7 +398,7 @@
       },
       {
         "q": "V čem se to razlikuje od običajnih jezikovnih aplikacij?",
-        "a": "Namesto nepovezanih vaj se učiš iz vsebine, ki te zanima, vse spretnosti pa so povezane v en krog: bereš in poslušaš, besede shranjuješ za intervalno ponavljanje, slovnico pobiraš v kontekstu, govor vadiš s shadowingom, pisanje pa v pogovoru z UI. Poleg tega lahko naložiš svojo knjigo ali dokument."
+        "a": "Namesto nepovezanih vaj se učiš {target} iz vsebine, ki te zanima, vse spretnosti pa so povezane v en krog: bereš in poslušaš, besede shranjuješ za intervalno ponavljanje, slovnico pobiraš v kontekstu, govor vadiš s shadowingom, pisanje pa v pogovoru z UI. Poleg tega lahko naložiš svojo knjigo ali dokument."
       },
       {
         "q": "Ali je na voljo tudi vaja govora?",

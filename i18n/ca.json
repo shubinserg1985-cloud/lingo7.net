@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Un llibre en lloc d'un curs",
-        "span": "Estudia amb allò que llegiries per gust"
+        "span": "Estudia {target} amb allò que llegiries per gust"
       },
       {
         "strong": "49 idiomes",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Com aprendre un idioma amb llibres: cinc passos",
+    "title": "Com aprendre {target} amb llibres: cinc passos",
     "subtitle": "Res de mètodes complicats. Un cicle clar i contingut prou bo per portar-te fins al final.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Llibres en {target} amb traducció, per nivells de l'A1 al C1",
-    "subtitle": "No només aprens un idioma: també aprens alguna cosa. Material per a tots els nivells, dels primers passos fins a l'avançat.",
+    "subtitle": "No només aprens {target}: també aprens alguna cosa. Material per a tots els nivells, dels primers passos fins a l'avançat.",
     "tabs": [
       "Clàssics",
       "Best-sellers",
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 és per a tu si...",
     "items": [
-      "Vols aprendre amb contingut, i no amb lliçons que t'has d'empassar a la força",
+      "Vols aprendre {target} amb contingut, i no amb lliçons que t'has d'empassar a la força",
       "Vols alguna cosa més que llegir – també escoltar, parlar i escriure: pronunciació amb shadowing i posar les idees en paraules al xat amb la IA",
       "Vols estudiar amb el teu material – documents de feina, llibres i articles que t'agraden – i no només amb lliçons ja fetes",
       "Necessites un idioma poc habitual que la majoria d'apps no tenen",
@@ -398,7 +398,7 @@
       },
       {
         "q": "En què es diferencia de les apps d'idiomes de sempre?",
-        "a": "En comptes d'exercicis inconnexos, aprens amb contingut que t'interessa i amb totes les habilitats lligades en un mateix cicle: llegeixes i escoltes, guardes paraules per repassar-les amb intervals, agafes la gramàtica en context, treballes la parla amb shadowing i l'escriptura al xat amb la IA. I encara pots pujar el teu llibre o document."
+        "a": "En comptes d'exercicis inconnexos, aprens {target} amb contingut que t'interessa i amb totes les habilitats lligades en un mateix cicle: llegeixes i escoltes, guardes paraules per repassar-les amb intervals, agafes la gramàtica en context, treballes la parla amb shadowing i l'escriptura al xat amb la IA. I encara pots pujar el teu llibre o document."
       },
       {
         "q": "Hi ha pràctica de conversa?",

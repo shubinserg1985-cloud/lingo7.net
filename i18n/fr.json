@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Apprendre une langue avec des livres : cinq étapes",
+    "title": "Apprendre {target} avec des livres : cinq étapes",
     "subtitle": "Pas de méthode compliquée. Un cycle clair, et des contenus assez bons pour que tu t'y tiennes.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Des livres pour apprendre {target} : traduction en regard, du niveau A1 au C1",
-    "subtitle": "Tu n'apprends pas seulement une langue, tu apprends quelque chose. Des contenus pour tous les niveaux, des premiers pas jusqu'à l'avancé.",
+    "subtitle": "Tu n'apprends pas seulement {target}, tu apprends quelque chose. Des contenus pour tous les niveaux, des premiers pas jusqu'à l'avancé.",
     "tabs": [
       "Classiques",
       "Best-sellers",
@@ -249,7 +249,7 @@
       },
       {
         "title": "La langue dont ton travail et tes études ont besoin",
-        "text": "Documents de travail, articles, révisions d'examen – apprends la langue du domaine qui est le tien en ce moment."
+        "text": "Documents de travail, articles, révisions d'examen – apprends {target} du domaine qui est le tien en ce moment."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 est fait pour toi si tu...",
     "items": [
-      "Veux apprendre avec des contenus, pas avec des leçons qu'il faut se forcer à ouvrir",
+      "Veux apprendre {target} avec des contenus, pas avec des leçons qu'il faut se forcer à ouvrir",
       "Veux faire plus que lire – écouter, parler et écrire aussi : la prononciation par le shadowing, et les idées mises en mots dans le chat IA",
       "Veux travailler sur tes propres documents – textes professionnels, livres et articles préférés – et pas seulement sur des leçons toutes faites",
       "Cherches une langue rare que la plupart des applis n'ont pas",
@@ -398,7 +398,7 @@
       },
       {
         "q": "En quoi est-ce différent des applis de langues habituelles ?",
-        "a": "Au lieu d'exercices sans lien entre eux, tu apprends avec des contenus qui t'intéressent, et toutes les compétences tiennent dans un même cycle : tu lis et tu écoutes, tu gardes les mots pour les revoir à intervalles, tu attrapes la grammaire en contexte, tu travailles l'oral avec le shadowing et l'écrit dans le chat IA. Et tu peux importer ton propre livre ou document."
+        "a": "Au lieu d'exercices sans lien entre eux, tu apprends {target} avec des contenus qui t'intéressent, et toutes les compétences tiennent dans un même cycle : tu lis et tu écoutes, tu gardes les mots pour les revoir à intervalles, tu attrapes la grammaire en contexte, tu travailles l'oral avec le shadowing et l'écrit dans le chat IA. Et tu peux importer ton propre livre ou document."
       },
       {
         "q": "Y a-t-il de la pratique orale ?",

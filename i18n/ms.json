@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Buku, bukan kursus",
-        "span": "Belajar daripada bahan yang anda memang suka baca"
+        "span": "Belajar {target} daripada bahan yang anda memang suka baca"
       },
       {
         "strong": "49 bahasa",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Cara belajar bahasa daripada buku: lima langkah",
+    "title": "Cara belajar {target} daripada buku: lima langkah",
     "subtitle": "Tiada kaedah yang rumit. Satu kitaran yang jelas, dengan bahan yang cukup menarik untuk membawa anda sampai ke hujung.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Buku dalam {target} dengan terjemahan – mengikut tahap, A1 hingga C1",
-    "subtitle": "Anda bukan sekadar belajar bahasa, anda belajar sesuatu. Bahan untuk setiap tahap, daripada langkah pertama hingga peringkat mahir.",
+    "subtitle": "Anda bukan sekadar belajar {target}, anda belajar sesuatu. Bahan untuk setiap tahap, daripada langkah pertama hingga peringkat mahir.",
     "tabs": [
       "Klasik",
       "Buku laris",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "BAHARU",
-    "title": "Muat naik buku atau teks anda sendiri, dan belajar daripadanya",
+    "title": "Muat naik buku atau teks anda sendiri, dan belajar {target} daripadanya",
     "text": "Muat naik apa-apa fail, dan Lingo7 menukarkannya menjadi bahan belajar dengan terjemahan bersebelahan dan audio. Selepas itu kitarannya seperti biasa: anda membaca, mendengar, belajar perkataan, mengasah pertuturan melalui shadowing dan membincangkan isinya dengan AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Bahasa yang kerja dan pengajian anda perlukan",
-        "text": "Dokumen kerja, kertas kajian, bahan peperiksaan – belajar bahasa dalam bidang yang anda ceburi sekarang."
+        "text": "Dokumen kerja, kertas kajian, bahan peperiksaan – belajar {target} dalam bidang yang anda ceburi sekarang."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 sesuai untuk anda kalau anda...",
     "items": [
-      "Mahu belajar daripada bahan yang menarik, bukan daripada pelajaran yang perlu dihabiskan dengan memaksa diri",
+      "Mahu belajar {target} daripada bahan yang menarik, bukan daripada pelajaran yang perlu dihabiskan dengan memaksa diri",
       "Mahu lebih daripada sekadar membaca – mendengar, bertutur dan menulis juga: sebutan melalui shadowing, dan meluahkan fikiran dalam sembang AI",
       "Mahu belajar dengan bahan sendiri – dokumen kerja, buku dan artikel kegemaran – bukan hanya pelajaran siap pakai",
       "Perlukan bahasa jarang yang tiada dalam kebanyakan aplikasi",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Apa bezanya dengan aplikasi bahasa yang biasa?",
-        "a": "Bukan latihan yang berselerak, anda belajar daripada bahan yang menarik minat anda, dengan setiap kemahiran terikat dalam satu kitaran: anda membaca dan mendengar, menyimpan perkataan untuk ulang kaji berjarak, menangkap tatabahasa dalam konteks, mengasah pertuturan melalui shadowing dan penulisan dalam sembang AI. Dan anda boleh muat naik buku atau dokumen sendiri."
+        "a": "Bukan latihan yang berselerak, anda belajar {target} daripada bahan yang menarik minat anda, dengan setiap kemahiran terikat dalam satu kitaran: anda membaca dan mendengar, menyimpan perkataan untuk ulang kaji berjarak, menangkap tatabahasa dalam konteks, mengasah pertuturan melalui shadowing dan penulisan dalam sembang AI. Dan anda boleh muat naik buku atau dokumen sendiri."
       },
       {
         "q": "Ada latihan bertutur tak?",

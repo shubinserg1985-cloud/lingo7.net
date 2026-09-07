@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Kursun yerinə kitab",
-        "span": "Həvəslə oxuyacağınız şeydən öyrənin"
+        "span": "Həvəslə oxuyacağınız şeydən {target} öyrənin"
       },
       {
         "strong": "49 dil",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kitablardan dil necə öyrənilir: beş addım",
+    "title": "Kitablardan {target} necə öyrənilir: beş addım",
     "subtitle": "Mürəkkəb metodika yoxdur. Bir aydın dövrə və sizi onun içindən keçirəcək qədər maraqlı material.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Paralel tərcüməli {target} kitablar – A1-dən C1-ə qədər bütün səviyyələr",
-    "subtitle": "Təkcə dil öyrənmirsiniz – eyni zamanda yeni şeylər öyrənirsiniz. İlk addımlardan qabaqcıl səviyyəyə qədər hər mərhələyə material var.",
+    "subtitle": "Təkcə {target} öyrənmirsiniz – eyni zamanda yeni şeylər öyrənirsiniz. İlk addımlardan qabaqcıl səviyyəyə qədər hər mərhələyə material var.",
     "tabs": [
       "Klassika",
       "Bestsellerlər",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "YENİ",
-    "title": "Öz kitabınızı və ya mətninizi yükləyin – dili elə ondan öyrənin",
+    "title": "Öz kitabınızı və ya mətninizi yükləyin – {target} elə ondan öyrənin",
     "text": "İstənilən faylı yükləyin, Lingo7 onu paralel tərcüməli və səsləndirilmiş dərs materialına çevirsin. Sonrası həmişəki dövrədir: oxuyursunuz, dinləyirsiniz, sözləri öyrənirsiniz, shadowing ilə danışıq üzərində işləyirsiniz və oxuduğunuzu süni intellektlə müzakirə edirsiniz.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "İş və təhsil üçün lazım olan dil",
-        "text": "İş sənədləri, məqalələr, imtahan materialları – dili məhz indi ehtiyacınız olan sahədə öyrənin."
+        "text": "İş sənədləri, məqalələr, imtahan materialları – {target} məhz indi ehtiyacınız olan sahədə öyrənin."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 sizin üçündür, əgər...",
     "items": [
-      "Özünüzü zorla oturtduğunuz dərslərlə yox, maraqlı materialla öyrənmək istəyirsinizsə",
+      "Özünüzü zorla oturtduğunuz dərslərlə yox, maraqlı materialla {target} öyrənmək istəyirsinizsə",
       "Yalnız oxumaq deyil, dinləmək, danışmaq və yazmaq da istəyirsinizsə – shadowing ilə tələffüzü formalaşdırmaq, süni intellektlə söhbətdə fikri sözə çevirmək",
       "Hazır dərslərdən başqa öz materialınızla – iş sənədləri, sevimli kitablar və məqalələrlə – işləmək istəyirsinizsə",
       "Əksər tətbiqlərdə tapılmayan nadir bir dil axtarırsınızsa",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Adi dil tətbiqlərindən nə ilə fərqlənir?",
-        "a": "Bir-biri ilə bağlı olmayan məşqlərin əvəzinə sizi maraqlandıran materialla öyrənirsiniz və bütün bacarıqlar bir dövrədə birləşir: oxuyur və dinləyirsiniz, sözləri aralıqlı təkrara yığırsınız, qrammatikanı kontekstdə tutursunuz, danışığı shadowing ilə, yazını isə süni intellektlə söhbətdə məşq edirsiniz. Üstəlik öz kitabınızı və ya sənədinizi yükləyə bilərsiniz."
+        "a": "Bir-biri ilə bağlı olmayan məşqlərin əvəzinə sizi maraqlandıran materialla {target} öyrənirsiniz və bütün bacarıqlar bir dövrədə birləşir: oxuyur və dinləyirsiniz, sözləri aralıqlı təkrara yığırsınız, qrammatikanı kontekstdə tutursunuz, danışığı shadowing ilə, yazını isə süni intellektlə söhbətdə məşq edirsiniz. Üstəlik öz kitabınızı və ya sənədinizi yükləyə bilərsiniz."
       },
       {
         "q": "Danışıq praktikası varmı?",

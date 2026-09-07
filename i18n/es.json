@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Un libro en vez de un curso",
-        "span": "Estudia con lo que leerías por gusto"
+        "span": "Estudia {target} con lo que leerías por gusto"
       },
       {
         "strong": "49 idiomas",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Cómo aprender un idioma con libros: cinco pasos",
+    "title": "Cómo aprender {target} con libros: cinco pasos",
     "subtitle": "Nada de métodos complicados. Un ciclo claro y contenido lo bastante bueno como para llevarte hasta el final.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Libros en {target} con traducción, por niveles del A1 al C1",
-    "subtitle": "No solo aprendes un idioma: además aprendes algo. Material para todos los niveles, desde los primeros pasos hasta el avanzado.",
+    "subtitle": "No solo aprendes {target}: además aprendes algo. Material para todos los niveles, desde los primeros pasos hasta el avanzado.",
     "tabs": [
       "Clásicos",
       "Superventas",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NUEVO",
-    "title": "Sube tu propio libro o texto y aprende con él",
+    "title": "Sube tu propio libro o texto y aprende {target} con él",
     "text": "Sube cualquier archivo y Lingo7 lo convierte en material de estudio con traducción paralela y audio. A partir de ahí, el ciclo de siempre: lees, escuchas, aprendes palabras, trabajas el habla con shadowing y lo comentas con la IA.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 es para ti si...",
     "items": [
-      "Quieres aprender con contenido y no con lecciones que tienes que tragarte a la fuerza",
+      "Quieres aprender {target} con contenido y no con lecciones que tienes que tragarte a la fuerza",
       "Quieres algo más que leer: también escuchar, hablar y escribir; practicar la pronunciación con shadowing y expresar tus ideas en el chat con la IA",
       "Quieres estudiar con tu propio material —documentos de trabajo, libros y artículos que te gustan— y no solo con lecciones ya hechas",
       "Necesitas un idioma poco común que la mayoría de las apps no tienen",
@@ -398,7 +398,7 @@
       },
       {
         "q": "¿En qué se diferencia de las apps de idiomas de siempre?",
-        "a": "En vez de ejercicios sueltos, aprendes con contenido que te interesa y con todas las destrezas atadas en un mismo ciclo: lees y escuchas, guardas palabras para repasarlas con intervalos, asimilas la gramática en contexto, trabajas el habla con shadowing y la escritura en el chat con la IA. Y encima puedes subir tu propio libro o documento."
+        "a": "En vez de ejercicios sueltos, aprendes {target} con contenido que te interesa y con todas las destrezas atadas en un mismo ciclo: lees y escuchas, guardas palabras para repasarlas con intervalos, asimilas la gramática en contexto, trabajas el habla con shadowing y la escritura en el chat con la IA. Y encima puedes subir tu propio libro o documento."
       },
       {
         "q": "¿Hay práctica de conversación?",

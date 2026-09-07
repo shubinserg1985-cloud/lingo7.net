@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Knjiga umjesto kursa",
-        "span": "Uči na onome što ti je ionako zanimljivo"
+        "span": "Uči {target} na onome što ti je ionako zanimljivo"
       },
       {
         "strong": "49 jezika",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kako naučiti jezik iz knjiga: pet koraka",
+    "title": "Kako naučiti {target} iz knjiga: pet koraka",
     "subtitle": "Bez razrađene metode. Jedan jasan krug i sadržaj dovoljno dobar da te kroz njega provede.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Uči {target} iz knjiga s prijevodom – po nivoima, od A1 do C1",
-    "subtitle": "Ne učiš samo jezik, nego usput i nešto novo. Materijal za svaki nivo, od prvih koraka do naprednog.",
+    "subtitle": "Ne učiš samo {target}, nego usput i nešto novo. Materijal za svaki nivo, od prvih koraka do naprednog.",
     "tabs": [
       "Klasici",
       "Bestseleri",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOVO",
-    "title": "Ubaci svoju knjigu ili tekst i uči iz toga",
+    "title": "Ubaci svoju knjigu ili tekst i uči {target} iz toga",
     "text": "Ubaci bilo koji fajl i Lingo7 od njega pravi materijal za učenje, s paralelnim prijevodom i audiom. Dalje ide uobičajeni krug: čitaš, slušaš, učiš riječi, radiš na govoru kroz shadowing i sve prođeš s AI asistentom.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 je za tebe ako...",
     "items": [
-      "Želiš učiti iz sadržaja, a ne iz lekcija kroz koje se moraš probijati",
+      "Želiš učiti {target} iz sadržaja, a ne iz lekcija kroz koje se moraš probijati",
       "Želiš više od čitanja – i slušanje, govor i pisanje: izgovor kroz shadowing i pretakanje misli u riječi u AI chatu",
       "Želiš učiti iz svog materijala – radnih dokumenata, omiljenih knjiga i članaka – a ne samo iz gotovih lekcija",
       "Treba ti rijedak jezik kakav većina aplikacija nema",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Po čemu se ovo razlikuje od uobičajenih aplikacija za jezike?",
-        "a": "Umjesto nepovezanih vježbi, učiš iz sadržaja koji te zanima, a sve vještine su uvezane u jedan krug: čitaš i slušaš, čuvaš riječi za intervalno ponavljanje, gramatiku pokupiš iz konteksta, na govoru radiš kroz shadowing, a na pisanju u AI chatu. I možeš ubaciti svoju knjigu ili dokument."
+        "a": "Umjesto nepovezanih vježbi, učiš {target} iz sadržaja koji te zanima, a sve vještine su uvezane u jedan krug: čitaš i slušaš, čuvaš riječi za intervalno ponavljanje, gramatiku pokupiš iz konteksta, na govoru radiš kroz shadowing, a na pisanju u AI chatu. I možeš ubaciti svoju knjigu ili dokument."
       },
       {
         "q": "Postoji li vježba govora?",

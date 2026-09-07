@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Buku, bukan kursus",
-        "span": "Belajar dari bacaan yang memang kamu nikmati"
+        "span": "Belajar {target} dari bacaan yang memang kamu nikmati"
       },
       {
         "strong": "49 bahasa",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Cara belajar bahasa dari buku: lima langkah",
+    "title": "Cara belajar {target} dari buku: lima langkah",
     "subtitle": "Tanpa metode yang ribet. Satu siklus yang jelas, dengan bacaan yang cukup menarik untuk membawamu sampai selesai.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Buku dalam {target} dengan terjemahan berdampingan – tersusun per level, A1 sampai C1",
-    "subtitle": "Kamu bukan cuma belajar bahasa, kamu juga belajar sesuatu. Bahannya ada untuk semua level, dari langkah pertama sampai mahir.",
+    "subtitle": "Kamu bukan cuma belajar {target}, kamu juga belajar sesuatu. Bahannya ada untuk semua level, dari langkah pertama sampai mahir.",
     "tabs": [
       "Klasik",
       "Bestseller",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "BARU",
-    "title": "Unggah buku atau teksmu sendiri, lalu belajar dari situ",
+    "title": "Unggah buku atau teksmu sendiri, lalu belajar {target} dari situ",
     "text": "Unggah file apa pun dan Lingo7 mengubahnya jadi bahan belajar lengkap dengan terjemahan berdampingan dan audio. Setelah itu siklusnya seperti biasa: kamu membaca, mendengarkan, menguasai katanya, melatih bicara lewat shadowing, dan membahas isinya dengan AI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Bahasa yang dibutuhkan pekerjaan dan kuliahmu",
-        "text": "Dokumen kerja, makalah, bahan ujian – belajar bahasa di bidang yang memang kamu geluti sekarang."
+        "text": "Dokumen kerja, makalah, bahan ujian – belajar {target} di bidang yang memang kamu geluti sekarang."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 cocok untukmu kalau kamu...",
     "items": [
-      "Ingin belajar dari bacaan yang menarik, bukan dari pelajaran yang harus dijalani dengan memaksakan diri",
+      "Ingin belajar {target} dari bacaan yang menarik, bukan dari pelajaran yang harus dijalani dengan memaksakan diri",
       "Ingin lebih dari sekadar membaca – juga menyimak, berbicara, dan menulis: pelafalan lewat shadowing, dan menuangkan pikiran ke dalam kata-kata di obrolan AI",
       "Ingin belajar dari bahanmu sendiri – dokumen kerja, buku dan artikel kesayangan – bukan cuma dari pelajaran yang sudah jadi",
       "Butuh bahasa langka yang tidak ada di kebanyakan aplikasi",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Apa bedanya dengan aplikasi bahasa yang biasa?",
-        "a": "Alih-alih latihan yang lepas satu sama lain, kamu belajar dari bacaan yang kamu minati, dengan semua keterampilan terikat dalam satu siklus: kamu membaca dan mendengarkan, menyimpan kata untuk diulang berjarak, menangkap tata bahasa lewat konteks, melatih bicara lewat shadowing dan menulis di obrolan AI. Buku atau dokumenmu sendiri pun bisa kamu unggah."
+        "a": "Alih-alih latihan yang lepas satu sama lain, kamu belajar {target} dari bacaan yang kamu minati, dengan semua keterampilan terikat dalam satu siklus: kamu membaca dan mendengarkan, menyimpan kata untuk diulang berjarak, menangkap tata bahasa lewat konteks, melatih bicara lewat shadowing dan menulis di obrolan AI. Buku atau dokumenmu sendiri pun bisa kamu unggah."
       },
       {
         "q": "Ada latihan bicaranya?",

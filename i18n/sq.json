@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Një libër, jo një kurs",
-        "span": "Mëso me atë që do ta lexoje për qejf"
+        "span": "Mëso {target} me atë që do ta lexoje për qejf"
       },
       {
         "strong": "49 gjuhë",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Si të mësosh një gjuhë nga librat: pesë hapa",
+    "title": "Si të mësosh {target} nga librat: pesë hapa",
     "subtitle": "Pa metoda të ndërlikuara. Një cikël i qartë dhe përmbajtje aq e mirë sa të të mbajë brenda tij.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Libra në {target} me përkthim – sipas nivelit, nga A1 në C1",
-    "subtitle": "Nuk mëson vetëm një gjuhë, mëson edhe diçka. Material për çdo nivel, nga hapat e parë te i përparuari.",
+    "subtitle": "Nuk mëson vetëm {target}, mëson edhe diçka. Material për çdo nivel, nga hapat e parë te i përparuari.",
     "tabs": [
       "Klasikë",
       "Bestseller",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "E RE",
-    "title": "Ngarko librin ose tekstin tënd dhe mëso me të",
+    "title": "Ngarko librin ose tekstin tënd dhe mëso {target} me të",
     "text": "Ngarko çfarëdo skedari dhe Lingo7 e kthen në material mësimor me përkthim paralel e me audio. Pastaj vjen cikli i zakonshëm: lexon, dëgjon, mëson fjalë, punon të folurin me shadowing dhe e diskuton librin me AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 është për ty nëse...",
     "items": [
-      "Do të mësosh me përmbajtje, jo me mësime që i bën me zor",
+      "Do të mësosh {target} me përmbajtje, jo me mësime që i bën me zor",
       "Do më shumë se thjesht lexim – edhe dëgjim, të folur e shkrim: shqiptim me shadowing dhe të shprehurit e mendimeve në bisedën me AI",
       "Do të mësosh me materialin tënd – dokumente pune, libra e artikuj që i do – jo vetëm me mësime të gatshme",
       "Të duhet një gjuhë e rrallë, që shumica e aplikacioneve nuk e kanë",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Nga se ndryshon prej aplikacioneve të zakonshme të gjuhëve?",
-        "a": "Në vend të ushtrimeve të shkëputura, mëson me përmbajtje që të intereson, ku çdo aftësi lidhet në një cikël të vetëm: lexon dhe dëgjon, ruan fjalët për përsëritje me intervale, e kap gramatikën në kontekst, punon të folurin me shadowing dhe shkrimin në bisedën me AI. Dhe mund të ngarkosh librin ose dokumentin tënd."
+        "a": "Në vend të ushtrimeve të shkëputura, mëson {target} me përmbajtje që të intereson, ku çdo aftësi lidhet në një cikël të vetëm: lexon dhe dëgjon, ruan fjalët për përsëritje me intervale, e kap gramatikën në kontekst, punon të folurin me shadowing dhe shkrimin në bisedën me AI. Dhe mund të ngarkosh librin ose dokumentin tënd."
       },
       {
         "q": "A ka praktikë të të folurit?",

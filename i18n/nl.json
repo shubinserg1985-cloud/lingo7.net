@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Een boek in plaats van een cursus",
-        "span": "Leer met wat je toch al zou lezen"
+        "span": "Leer {target} met wat je toch al zou lezen"
       },
       {
         "strong": "49 talen",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Een taal leren uit boeken: vijf stappen",
+    "title": "{target} leren uit boeken: vijf stappen",
     "subtitle": "Geen ingewikkelde methode. Eén heldere cyclus, met content die goed genoeg is om je er doorheen te trekken.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Boeken in het {target} met vertaling – per niveau, van A1 tot C1",
-    "subtitle": "Je leert niet alleen een taal, je leert er ook iets bij. Materiaal voor elk niveau, van de eerste stappen tot gevorderd.",
+    "subtitle": "Je leert niet alleen {target}, je leert er ook iets bij. Materiaal voor elk niveau, van de eerste stappen tot gevorderd.",
     "tabs": [
       "Klassiekers",
       "Bestsellers",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NIEUW",
-    "title": "Upload je eigen boek of tekst en leer daarmee",
+    "title": "Upload je eigen boek of tekst en leer daarmee {target}",
     "text": "Upload een bestand en Lingo7 maakt er lesmateriaal van, met parallelle vertaling en audio. Daarna gaat het zoals altijd: je leest, je luistert, je leert woorden, je werkt aan je spraak met shadowing en je bespreekt het met AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 is iets voor jou als je...",
     "items": [
-      "Wilt leren van content in plaats van lessen waar je jezelf doorheen moet slepen",
+      "Wilt {target} leren van content in plaats van lessen waar je jezelf doorheen moet slepen",
       "Meer wilt dan lezen alleen – ook luisteren, spreken en schrijven: je uitspraak oefenen via shadowing, je gedachten onder woorden brengen in de AI-chat",
       "Met je eigen materiaal wilt werken – werkdocumenten, lievelingsboeken en artikelen – en niet alleen met kant-en-klare lessen",
       "Een zeldzame taal zoekt die de meeste apps niet hebben",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Wat is het verschil met de gebruikelijke taalapps?",
-        "a": "In plaats van losse oefeningen leer je van content die je interesseert, met alle vaardigheden in één cyclus: je leest en luistert, slaat woorden op voor gespreide herhaling, pikt grammatica op in context, werkt aan je spraak met shadowing en aan je schrijven in de AI-chat. En je kunt je eigen boek of document uploaden."
+        "a": "In plaats van losse oefeningen leer je {target} van content die je interesseert, met alle vaardigheden in één cyclus: je leest en luistert, slaat woorden op voor gespreide herhaling, pikt grammatica op in context, werkt aan je spraak met shadowing en aan je schrijven in de AI-chat. En je kunt je eigen boek of document uploaden."
       },
       {
         "q": "Kun je er ook spreken mee oefenen?",

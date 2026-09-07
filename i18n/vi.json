@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Một cuốn sách, không phải một khóa học",
-        "span": "Học bằng đúng thứ bạn vốn vẫn đọc cho vui"
+        "span": "Học {target} bằng đúng thứ bạn vốn vẫn đọc cho vui"
       },
       {
         "strong": "49 ngôn ngữ",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Cách học ngoại ngữ qua sách: năm bước",
+    "title": "Cách học {target} qua sách: năm bước",
     "subtitle": "Không có phương pháp cầu kỳ nào cả. Chỉ một vòng học rõ ràng, cộng với nội dung đủ hay để bạn đi hết vòng đó.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Sách {target} có bản dịch – chia theo trình độ, từ A1 đến C1",
-    "subtitle": "Bạn không chỉ học một thứ tiếng, bạn còn học được điều gì đó. Có nội dung cho mọi trình độ, từ những bước đầu tiên đến nâng cao.",
+    "subtitle": "Bạn không chỉ học {target}, bạn còn học được điều gì đó. Có nội dung cho mọi trình độ, từ những bước đầu tiên đến nâng cao.",
     "tabs": [
       "Kinh điển",
       "Sách bán chạy",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "MỚI",
-    "title": "Tải lên sách hay văn bản của bạn rồi học bằng chính tài liệu đó",
+    "title": "Tải lên sách hay văn bản của bạn rồi học {target} bằng chính tài liệu đó",
     "text": "Tải lên file bất kỳ, Lingo7 biến nó thành tài liệu học có bản dịch đối chiếu và audio. Sau đó vẫn là vòng quen thuộc: bạn đọc, nghe, học từ, luyện nói bằng shadowing và bàn lại với AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 hợp với bạn, nếu bạn...",
     "items": [
-      "Muốn học bằng nội dung hay, thay vì những bài học phải ép mình mới ngồi vào",
+      "Muốn học {target} bằng nội dung hay, thay vì những bài học phải ép mình mới ngồi vào",
       "Không chỉ muốn đọc – còn muốn nghe, nói và viết nữa: luyện phát âm bằng shadowing, tập diễn đạt suy nghĩ trong chat với AI",
       "Muốn học bằng tài liệu của chính mình – hồ sơ công việc, sách và bài viết bạn thích – chứ không chỉ mấy bài soạn sẵn",
       "Cần một thứ tiếng hiếm mà phần lớn app không có",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Cái này khác gì mấy app học ngoại ngữ thông thường?",
-        "a": "Thay vì những bài tập rời rạc, bạn học bằng nội dung mình thấy thích, và mọi kỹ năng đều nằm chung một vòng: bạn đọc và nghe, lưu từ để ôn ngắt quãng, ngấm ngữ pháp qua ngữ cảnh, luyện nói bằng shadowing và luyện viết trong chat với AI. Ngoài ra bạn còn tải được sách hay tài liệu của chính mình lên."
+        "a": "Thay vì những bài tập rời rạc, bạn học {target} bằng nội dung mình thấy thích, và mọi kỹ năng đều nằm chung một vòng: bạn đọc và nghe, lưu từ để ôn ngắt quãng, ngấm ngữ pháp qua ngữ cảnh, luyện nói bằng shadowing và luyện viết trong chat với AI. Ngoài ra bạn còn tải được sách hay tài liệu của chính mình lên."
       },
       {
         "q": "Có luyện nói không?",

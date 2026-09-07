@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Cum înveți o limbă din cărți: cinci pași",
+    "title": "Cum înveți {target} din cărți: cinci pași",
     "subtitle": "Fără metode sofisticate. Un ciclu limpede și conținut destul de bun cât să te ducă prin el.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Cărți în {target} cu traducere – pe niveluri, de la A1 la C1",
-    "subtitle": "Nu înveți doar o limbă, înveți și ceva. Material pentru orice nivel, de la primii pași până la avansat.",
+    "subtitle": "Nu înveți doar {target}, înveți și ceva. Material pentru orice nivel, de la primii pași până la avansat.",
     "tabs": [
       "Clasici",
       "Bestselleruri",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NOU",
-    "title": "Încarcă-ți propria carte sau propriul text și învață din el",
+    "title": "Încarcă-ți propria carte sau propriul text și învață {target} din el",
     "text": "Încarci orice fișier, iar Lingo7 îl transformă în material de studiu, cu traducerea în paralel și cu audio. De acolo urmează ciclul obișnuit: citești, asculți, înveți cuvinte, lucrezi la vorbit prin shadowing și discuți totul cu AI.",
     "cards": [
       {
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 e pentru tine dacă...",
     "items": [
-      "Vrei să înveți din conținut, nu din lecții pe care le faci în silă",
+      "Vrei să înveți {target} din conținut, nu din lecții pe care le faci în silă",
       "Vrei mai mult decât citit – și ascultat, și vorbit, și scris: pronunție prin shadowing și gânduri puse în cuvinte în chatul cu AI",
       "Vrei să studiezi pe materialul tău – documente de serviciu, cărțile și articolele preferate – nu doar pe lecții gata făcute",
       "Ai nevoie de o limbă rară, pe care majoritatea aplicațiilor n-o au",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Cu ce se deosebește de aplicațiile obișnuite de limbi?",
-        "a": "În loc de exerciții rupte unul de altul, înveți din conținut care te interesează, cu toate deprinderile prinse într-un singur ciclu: citești și asculți, salvezi cuvinte pentru repetiția la intervale, prinzi gramatica în context, lucrezi la vorbit prin shadowing și la scris în chatul cu AI. Și îți poți încărca propria carte sau propriul document."
+        "a": "În loc de exerciții rupte unul de altul, înveți {target} din conținut care te interesează, cu toate deprinderile prinse într-un singur ciclu: citești și asculți, salvezi cuvinte pentru repetiția la intervale, prinzi gramatica în context, lucrezi la vorbit prin shadowing și la scris în chatul cu AI. Și îți poți încărca propria carte sau propriul document."
       },
       {
         "q": "Se exersează și vorbitul?",

@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "’n Boek in plaas van ’n kursus",
-        "span": "Leer met iets wat jy vir plesier sou lees"
+        "span": "Leer {target} met iets wat jy vir plesier sou lees"
       },
       {
         "strong": "49 tale",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Hoe om ’n taal uit boeke te leer: vyf stappe",
+    "title": "Hoe om {target} uit boeke te leer: vyf stappe",
     "subtitle": "Geen ingewikkelde metode nie. Een duidelike kringloop, met inhoud wat goed genoeg is om jou daardeur te dra.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Boeke in {target} met vertaling – volgens vlak, A1 tot C1",
-    "subtitle": "Jy leer nie net ’n taal nie, jy leer ook iets. Materiaal vir elke vlak, van die eerste treë tot gevorderd.",
+    "subtitle": "Jy leer nie net {target} nie, jy leer ook iets. Materiaal vir elke vlak, van die eerste treë tot gevorderd.",
     "tabs": [
       "Klassieke werke",
       "Blitsverkopers",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NUUT",
-    "title": "Laai jou eie boek of teks op en leer daaruit",
+    "title": "Laai jou eie boek of teks op en leer {target} daaruit",
     "text": "Laai enige lêer op, en Lingo7 maak daarvan leerstof met parallelle vertaling en oudio. Daarna is dit die gewone kringloop: jy lees, luister, leer woorde, slyp jou spraak met shadowing en bespreek alles met KI.",
     "cards": [
       {
@@ -398,7 +398,7 @@
       },
       {
         "q": "Hoe verskil dit van die gewone taal-apps?",
-        "a": "In plaas van los oefeninge leer jy met inhoud wat jou interesseer, en elke vaardigheid is in een kringloop vasgeknoop: jy lees en luister, stoor woorde vir herhaling met tussenposes, tel grammatika in konteks op, slyp jou spraak met shadowing en jou skryfwerk in die KI-klets. En jy kan jou eie boek of dokument oplaai."
+        "a": "In plaas van los oefeninge leer jy {target} met inhoud wat jou interesseer, en elke vaardigheid is in een kringloop vasgeknoop: jy lees en luister, stoor woorde vir herhaling met tussenposes, tel grammatika in konteks op, slyp jou spraak met shadowing en jou skryfwerk in die KI-klets. En jy kan jou eie boek of dokument oplaai."
       },
       {
         "q": "Is daar praatoefening?",

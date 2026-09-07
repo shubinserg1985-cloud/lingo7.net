@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "Grāmata kursa vietā",
-        "span": "Mācies no tā, ko lasītu prieka pēc"
+        "span": "Mācies {target} no tā, ko lasītu prieka pēc"
       },
       {
         "strong": "49 valodas",
@@ -172,7 +172,7 @@
     }
   },
   "steps": {
-    "title": "Kā mācīties valodu no grāmatām: pieci soļi",
+    "title": "Kā mācīties {target} no grāmatām: pieci soļi",
     "subtitle": "Nekādas sarežģītas metodikas. Viens skaidrs aplis un saturs, kas izved tevi tam cauri.",
     "items": [
       {
@@ -199,7 +199,7 @@
   },
   "library": {
     "title": "Ko lasīt, lai apgūtu {target}: grāmatas ar tulkojumu no A1 līdz C1 līmenim",
-    "subtitle": "Tu ne tikai mācies valodu – tu arī uzzini ko jaunu. Materiāli ir katram līmenim, no pirmajiem soļiem līdz augstākajam.",
+    "subtitle": "Tu ne tikai mācies {target} – tu arī uzzini ko jaunu. Materiāli ir katram līmenim, no pirmajiem soļiem līdz augstākajam.",
     "tabs": [
       "Klasika",
       "Bestselleri",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "JAUNS",
-    "title": "Augšupielādē savu grāmatu vai tekstu un mācies no tā",
+    "title": "Augšupielādē savu grāmatu vai tekstu un mācies {target} no tā",
     "text": "Augšupielādē jebkuru failu, un Lingo7 pārvērš to par mācību materiālu ar paralēlo tulkojumu un audio. Tālāk viss iet pa ierasto loku: lasi, klausies, mācies vārdus, trenē runu ar shadowing un pārrunā izlasīto ar MI.",
     "cards": [
       {
@@ -249,7 +249,7 @@
       },
       {
         "title": "Valoda, kas vajadzīga darbā un studijās",
-        "text": "Darba dokumenti, raksti, eksāmena materiāli – mācies tieši tās jomas valodu, kurā tu šobrīd patiešām esi."
+        "text": "Darba dokumenti, raksti, eksāmena materiāli – mācies tieši tās jomas {target}, kurā tu šobrīd patiešām esi."
       }
     ],
     "usecases": [
@@ -271,7 +271,7 @@
   "audience": {
     "title": "Lingo7 ir domāts tev, ja tu...",
     "items": [
-      "Gribi mācīties no satura, nevis ar varu lauzties cauri nodarbībām",
+      "Gribi mācīties {target} no satura, nevis ar varu lauzties cauri nodarbībām",
       "Gribi vairāk nekā lasīšanu – arī klausīšanos, runāšanu un rakstīšanu: izrunu ar shadowing un domu ietērpšanu vārdos sarunā ar MI",
       "Gribi mācīties no sava materiāla – darba dokumentiem, mīļākajām grāmatām un rakstiem – nevis tikai no gataviem uzdevumiem",
       "Tev vajadzīga reta valoda, kādas lielākajā daļā lietotņu nav",
@@ -398,7 +398,7 @@
       },
       {
         "q": "Ar ko tas atšķiras no parastajām valodu lietotnēm?",
-        "a": "Nesaistītu vingrinājumu vietā tu mācies no satura, kas tevi interesē, un visas prasmes ir sasietas vienā aplī: lasi un klausies, saglabā vārdus atkārtošanai ar intervāliem, uztver gramatiku kontekstā, trenē runu ar shadowing un rakstīšanu sarunā ar MI. Un vari augšupielādēt savu grāmatu vai dokumentu."
+        "a": "Nesaistītu vingrinājumu vietā tu mācies {target} no satura, kas tevi interesē, un visas prasmes ir sasietas vienā aplī: lasi un klausies, saglabā vārdus atkārtošanai ar intervāliem, uztver gramatiku kontekstā, trenē runu ar shadowing un rakstīšanu sarunā ar MI. Un vari augšupielādēt savu grāmatu vai dokumentu."
       },
       {
         "q": "Vai ir runāšanas prakse?",
