@@ -88,6 +88,12 @@
           const d = dot.dataset.src || '';
           const bk = /book=(\d+)/.exec(d);
           const slides = scr.querySelectorAll('[data-slide]');
+          const bookFrame = scr.querySelector('[data-book-frame]');
+          const libFrame = scr.querySelector('[data-el="frame"]');
+          if (bookFrame) {
+            bookFrame.hidden = !bk;
+            if (libFrame) libFrame.hidden = !!bk;
+          }
           if (bk && slides.length) {
             slides.forEach(el => {
               const show = el.dataset.slide === String(idx);
@@ -99,7 +105,7 @@
                 });
               }
             });
-          } else if (window.L7_mountCatalog) {
+          } else if (!bookFrame && window.L7_mountCatalog) {
             window.L7_mountCatalog(scr, bk ? 'book' : 'library',
               bk ? '?demo&book=' + bk[1] : '?demo&loop');
           }
