@@ -35,7 +35,7 @@
     "cards": [
       {
         "strong": "A book instead of a course",
-        "span": "Learn {target} from what you'd read for fun"
+        "span": "Study the thing you'd read for fun"
       },
       {
         "strong": "49 languages",
@@ -240,7 +240,7 @@
   },
   "customBook": {
     "badge": "NEW",
-    "title": "Upload your own book or text and learn {target} from it",
+    "title": "Upload your own book or text and learn from that",
     "text": "Upload any file and Lingo7 turns it into study material with parallel translation and audio. After that it's the usual loop: you read, listen, learn words, work on speech through shadowing and talk it over with AI.",
     "cards": [
       {
