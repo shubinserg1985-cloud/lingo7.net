@@ -72,9 +72,13 @@
   function esc(s) { return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 
   function repaintParas() {
-    var host = document.querySelector('#heroReader [data-el="paras"]');
     var p = window.L7_pickPair();
-    if (!host || !p) return;
+    if (!p) return;
+    var hosts = document.querySelectorAll('[data-el="paras"]');
+    for (var h = 0; h < hosts.length; h++) repaintOne(hosts[h], p);
+  }
+
+  function repaintOne(host, p) {
     host.innerHTML = p.paras.map(function (pr, i) {
       var w = pr.line.split(/\s+/).map(function (x, k) {
         return '<span class="w" data-p="' + i + '" data-k="' + k + '">' + esc(x) + '</span> ';

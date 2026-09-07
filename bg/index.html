@@ -2361,24 +2361,41 @@
   // разметку языком читателя: робот видел одно, человек другое.
   var P = window.L7_pickPair && window.L7_pickPair();
   var base = P ? { ui: P.ui, catalog: P.catalog, catText: P.catText } : {};
-  var T = window.L7_TGT;
-  var baseT = base;
-  if (P && T) {
-    baseT = { ui: T.ui, catalog: P.catalog,
-              catText: { a: T.a, g: T.g, b: T.b } };
+
+  function mountTargetSide(T) {
+    var baseT = (P && T) ? { ui: T.ui, catalog: P.catalog,
+                             catText: { a: T.a, g: T.g, b: T.b } } : base;
+    // Пересборка компонента в том же контейнере: листание точками меняет
+    // ДАННЫЕ, а не адрес фрейма. Разметку компонент рисует сам.
+    window.L7_mountCatalog = function (host, kind, search) {
+      host.innerHTML = kind === "book" ? L7_SHELL_BOOK : L7_SHELL_LIBRARY;
+      (kind === "book" ? mountMock_book : mountMock_library)(
+        host, Object.assign({ search: search }, baseT));
+    };
+    mountMock_book(document.getElementById("classicsBook"), Object.assign({ search: "?demo&book=0" }, baseT));
+    mountMock_book(document.getElementById("bestBook"), Object.assign({ search: "?demo&book=7" }, baseT));
+    mountMock_library(document.getElementById("discoverLibrary"), Object.assign({ search: "?demo&loop" }, baseT));
   }
-  // Пересборка компонента в том же контейнере: листание точками меняет
-  // ДАННЫЕ, а не адрес фрейма. Разметку компонент рисует сам.
-  window.L7_mountCatalog = function (host, kind, search) {
-    host.innerHTML = kind === "book" ? L7_SHELL_BOOK : L7_SHELL_LIBRARY;
-    (kind === "book" ? mountMock_book : mountMock_library)(
-      host, Object.assign({ search: search }, baseT));
-  };
+
   mountMock_library(document.getElementById("heroLibrary"), Object.assign({ search: "?demo" }, base));
   mountMock_library(document.getElementById("cycleLibrary"), Object.assign({ search: "?demo&loop" }, base));
-  mountMock_book(document.getElementById("classicsBook"), Object.assign({ search: "?demo&book=0" }, baseT));
-  mountMock_book(document.getElementById("bestBook"), Object.assign({ search: "?demo&book=7" }, baseT));
-  mountMock_library(document.getElementById("discoverLibrary"), Object.assign({ search: "?demo&loop" }, baseT));
+  mountTargetSide(window.L7_TGT);
+
+  // Каталог изучаемого языка вшит под пару СБОРКИ: адрес
+  // books-{цель}.js стоит в разметке, а на хабе цель меняется
+  // фрагментом, который на сервер не уходит. Оттого на
+  // /af/#pair=af-fr заголовок звал учить французский, а полка
+  // книг оставалась английской.
+  //
+  // Догружаем нужный и перемонтируем. Сначала монтируем тем, что
+  // уже есть: иначе блок стоял бы пустым, пока идёт запрос.
+  var built = (document.documentElement.getAttribute("data-pair") || "").split("-")[1];
+  if (P && P.target && built && P.target !== built) {
+    var sc = document.createElement("script");
+    sc.src = "/design/build/inline/books-" + P.target + ".js";
+    sc.onload = function () { mountTargetSide(window.L7_TGT); };
+    document.head.appendChild(sc);
+  }
 })();
 </script>
 
