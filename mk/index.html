@@ -2381,6 +2381,43 @@
   mountMock_library(document.getElementById("cycleLibrary"), Object.assign({ search: "?demo&loop" }, base));
   mountTargetSide(window.L7_TGT);
 
+  // Карточки книг лежат в разметке ВСЕ — их девятнадцать, и положены
+  // они туда ради поисковика: он на точки карусели не нажимает.
+  // Компонент рисует только первую, остальные листаются показом и
+  // скрытием. Значит при смене цели перерисовать надо их тоже, иначе
+  // первая книга француз, а вторая — англичанин.
+  //
+  // Меняем ТЕКСТ по разметке, а не пересобираем карточку: data-el
+  // держит поля книги, data-ui — подписи интерфейса, и оба уже
+  // проставлены. Пересборка стёрла бы соседние слайды.
+  var SLIDE_BOOK = {"classicsBook": [0, 1, 2, 3, 4, 5, 6], "bestBook": [7, 8, 9, 10, 11, 12]};
+  function setEl(root, name, val) {
+    var e = root.querySelector('[data-el="' + name + '"]');
+    if (e && val != null && val !== "") e.textContent = val;
+  }
+  function repaintSlides(T) {
+    if (!P || !T || !P.catalog || !P.catalog.books) return;
+    Object.keys(SLIDE_BOOK).forEach(function (id) {
+      var host = document.getElementById(id);
+      if (!host) return;
+      var idx = SLIDE_BOOK[id];
+      host.querySelectorAll("[data-slide]").forEach(function (el) {
+        var bi = idx[+el.getAttribute("data-slide")];
+        if (bi == null) return;
+        var meta = P.catalog.books[String(bi)] || {};
+        var bk = (T.b || {})[String(bi)] || [];
+        setEl(el, "title", bk[0]);
+        setEl(el, "desc", bk[1]);
+        setEl(el, "author", (T.a || {})[String(meta.author)]);
+        setEl(el, "genre", (T.g || {})[String(meta.genre)]);
+        el.querySelectorAll("[data-ui]").forEach(function (u) {
+          var v = (T.ui || {})[u.getAttribute("data-ui")];
+          if (v != null && v !== "") u.textContent = v;
+        });
+      });
+    });
+  }
+
   // Каталог изучаемого языка вшит под пару СБОРКИ: адрес
   // books-{цель}.js стоит в разметке, а на хабе цель меняется
   // фрагментом, который на сервер не уходит. Оттого на
@@ -2393,7 +2430,10 @@
   if (P && P.target && built && P.target !== built) {
     var sc = document.createElement("script");
     sc.src = "/design/build/inline/books-" + P.target + ".js";
-    sc.onload = function () { mountTargetSide(window.L7_TGT); };
+    sc.onload = function () {
+      mountTargetSide(window.L7_TGT);
+      repaintSlides(window.L7_TGT);
+    };
     document.head.appendChild(sc);
   }
 })();
